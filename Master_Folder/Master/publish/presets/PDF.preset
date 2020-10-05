@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <index type="boolean">false</index>
+    <toc>
+      <path>../../toc/Default.toc</path>
+      <name>Default</name>
+    </toc>
+    <masterpage>
+      <path>../../contents/assets/masterpages/book.htt</path>
+    </masterpage>
+    <brs type="array"></brs>
+    <mapFiles type="array"></mapFiles>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+    <includeDropdownText type="boolean">false</includeDropdownText>
+    <includereftopics type="boolean">true</includereftopics>
+  </content>
+  <starterPage>Default.pdf</starterPage>
+  <search>
+    <context type="boolean">false</context>
+    <contextLimit></contextLimit>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <changeFrequency></changeFrequency>
+    <helpBaseURL></helpBaseURL>
+  </sitemap>
+  <name>PDF</name>
+  <type>pdf</type>
+  <title>Blank Project</title>
+  <defaultTopic></defaultTopic>
+  <pdf>
+    <multiHeaders type="boolean">false</multiHeaders>
+    <margin type="array">
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+    </margin>
+    <multiheaders type="boolean">false</multiheaders>
+    <useEncryption type="boolean">false</useEncryption>
+    <useTopicsAndChaptersForToc type="boolean">true</useTopicsAndChaptersForToc>
+    <portraitLayout type="boolean">true</portraitLayout>
+    <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+    <embeddFonts type="boolean">false</embeddFonts>
+    <compression type="boolean">false</compression>
+    <toclevel type="number">1</toclevel>
+    <resolution>96</resolution>
+    <useCustomResoultion type="boolean">false</useCustomResoultion>
+    <mergePdfs type="boolean">true</mergePdfs>
+    <showWatermark type="boolean">false</showWatermark>
+    <embedMultimedia type="boolean">false</embedMultimedia>
+    <startTopicsFromNewPage type="boolean">true</startTopicsFromNewPage>
+    <createTagged type="boolean">false</createTagged>
+  </pdf>
+  <outputPath>C:/Users/David Lance/Documents/My RoboHelp Projects/outputs/Master/PDF</outputPath>
+  <undefined type="boolean">false</undefined>
+  <patchHomepage type="boolean">true</patchHomepage>
+</preset>
