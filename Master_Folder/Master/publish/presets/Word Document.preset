@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <name>Word Document</name>
+  <type>word</type>
+  <title>Blank Project</title>
+  <content>
+    <index type="boolean">false</index>
+    <toc>
+      <path>../../toc/Default.toc</path>
+      <name>Default</name>
+    </toc>
+    <masterpage>
+      <path>../../contents/assets/masterpages/book.htt</path>
+    </masterpage>
+    <brs type="array"></brs>
+    <includereftopics type="boolean">true</includereftopics>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+    <includeDropdownText type="boolean">false</includeDropdownText>
+  </content>
+  <word>
+    <stylemapping>{&quot;selectorMap&quot;:{},&quot;discardSelectors&quot;:[],&quot;identityMappedSelectors&quot;:[]}</stylemapping>
+    <insertTopicBreak type="boolean">false</insertTopicBreak>
+    <displayChapter type="boolean">false</displayChapter>
+  </word>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <starterPage>Default.docx</starterPage>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <outputPath>C:/Users/David Lance/Documents/My RoboHelp Projects/outputs/Master/Word Document</outputPath>
+  <search>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+</preset>

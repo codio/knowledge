@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2020"/>
+  <title>What Is A Stack</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="../assets/css/default.css"/>
+</head>
+<body>
+  <h1>What Is A Stack</h1>
+  <article dir="ltr">
+    <p>Codio projects/assignments are mounted to software configuration templates, known as Codio stacks.</p>
+    <p>You can use our pre-configured stacks or create your own. This template approach makes Codio easy to use, configure and adapt.</p>
+    <p>Codio’s templates deliver fully preconfigured servers in less than 5 seconds, no matter how complex the configuration.</p>
+    <h3 data-post-processed="true">What is a stack?</h3>
+    <p>It is very important to understand how Stacks work in Codio, especially when working with courses. Incorrect usage can result in a project working when being edited but failing when assigned to a course.</p>
+    <p>A stack refers to the software configuration of a project server (Box). This incorporates everything on the server outside the code workspace (<code>/home/codio/workspace</code>) that you see in the IDE&#39;s file tree.</p>
+    <p>You can <a href="" rel="nofollow noopener noreferrer" target="_blank">snapshot a box&#39;s stack</a> at any point and add it to the <b>Stacks </b>template library as we explain later.</p>
+    <h3 data-post-processed="true">How a Codio project works.</h3>
+    <p>When you create a new Codio project, course assignment or book, you always specify a stack. The specified stack will contain the operating system (always) and other components such as languages, databases and tools.</p>
+    <h3 data-post-processed="true">Stack modifications</h3>
+    <p>You will often want to make changes to the software on your server. Any such changes you, or an application makes outside the workspace folder represents a stack change. Whether such changes are made using <code>sudo apt-get install</code>, manually
+      editing a config file, using Codio&#39;s <a href="" rel="nofollow noopener noreferrer" target="_blank">Install Software packages</a> or changes to a database due to application usage etc., these changes all represent stack modifications.</p>
+    <p>Any modifications you make will work fine on the project you are working on as the owner, but as soon as you assign that project or assignment to a course of students, the modifications will not be transferred.</p>
+    <p>In order to address this, you need to ensure that any project with a modified stack first has a clean stack created that includes your modifications and that the project points to that clean stack.</p>
+    <p>The process for <a href="" rel="nofollow noopener noreferrer" target="_blank">creating a stack</a> and <a href="" rel="nofollow noopener noreferrer" target="_blank">switching the project to point to the new stack</a> is straightforward.</p>
+    <p>For more information and detail, check out our documentation <a href="" rel="nofollow noopener noreferrer" target="_blank">here</a></p>
+  </article>
+  <p> </p>
+
+</body></html>

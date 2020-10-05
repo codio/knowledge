@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<preset>
+  
+<content>
+    
+<index type="boolean">true</index>
+    
+<toc>
+      
+<path>../../toc/Default.toc</path>
+      
+<name>Default</name>
+    </toc>
+    
+<glossary>
+      
+<path>../../glossary/Default.glo</path>
+      
+<name>Default</name>
+    </glossary>
+    
+<masterpage></masterpage>
+    
+<brs type="array"></brs>
+    
+<mapFiles type="array"></mapFiles>
+  </content>
+  
+<starterPage>index.htm</starterPage>
+  
+<search>
+    
+<context type="boolean">false</context>
+    
+<contextLimit>100</contextLimit>
+    
+<suggestion type="boolean">true</suggestion>
+    
+<fuzzy type="boolean">true</fuzzy>
+    
+<glossary type="boolean">true</glossary>
+    
+<showSpeclChars type="boolean">false</showSpeclChars>
+    
+<speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  
+<sitemap>
+    
+<use type="boolean">false</use>
+    
+<changeFrequency></changeFrequency>
+    
+<helpBaseURL></helpBaseURL>
+  </sitemap>
+  
+<name>Microcontent</name>
+  
+<type>caas</type>
+  
+<title>Blank Project</title>
+  
+<defaultTopic>
+    
+<name>First_Topic.htm</name>
+    
+<path>../../contents/Getting_Started_Onboarding/First_Topic.htm</path>
+  </defaultTopic>
+  
+<glosstermEffect type="number">0</glosstermEffect>
+  
+<createThumbNails type="boolean">false</createThumbNails>
+  
+<outputPath>C:/Users/David Lance/Documents/My RoboHelp Projects/outputs/Master/Microcontent</outputPath>
+  
+<outputFormat>
+    
+<name>htmlcss</name>
+    
+<displayName>HTML5 + CSS3</displayName>
+  </outputFormat>
+  
+<patchHomepage type="boolean">true</patchHomepage>
+</preset>
