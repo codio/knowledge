@@ -1,0 +1,179 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Customizable run menu &#8212;   documentation</title>
+    <link rel="stylesheet" href="../../../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Debugger" href="../../debugger.html" />
+    <link rel="prev" title="Restart and reset" href="restart-reset.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../debugger.html" title="Debugger"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="restart-reset.html" title="Restart and reset"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../index.html">  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="customizable-run-menu">
+<h1>Customizable run menu<a class="headerlink" href="#customizable-run-menu" title="Permalink to this headline">¶</a></h1>
+<p>A handy feature is the ability to add commonly used commands to the Codio IDE, akin to using the <cite>alias</cite> command from the command line.</p>
+<p>When the menu item is selected, a new terminal window will open to run the command in. You can also force the command to run in an existing terminal window as we illustrate below.</p>
+<div class="section" id="codio-file">
+<h2>.codio file<a class="headerlink" href="#codio-file" title="Permalink to this headline">¶</a></h2>
+<p>The configuration for the <strong>Run</strong> (and <strong>Preview</strong>) button can be set by editing the <cite>.codio</cite> file in the root of your project.</p>
+<p>The following code below shows the <cite>.codio</cite> file configured to give this Run menu</p>
+<img alt="Run Menu" src="img/run-menu.png" />
+<p>which is driven by the following <cite>.codio</cite> file</p>
+<div class="code json highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="o">//</span> <span class="n">Configure</span> <span class="n">your</span> <span class="n">Run</span> <span class="ow">and</span> <span class="n">Preview</span> <span class="n">buttons</span> <span class="n">here</span><span class="o">.</span>
+
+  <span class="o">//</span> <span class="n">Run</span> <span class="n">button</span> <span class="n">configuration</span>
+  <span class="s2">&quot;commands&quot;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="s2">&quot;Install Learnyounode&quot;</span> <span class="p">:</span> <span class="s2">&quot;npm install -g learnyounode&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Run Lesson&quot;</span> <span class="p">:</span> <span class="s2">&quot;./ns-executes.sh run {{filename_no_ext}} {{path}}&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Verify Lesson&quot;</span> <span class="p">:</span> <span class="s2">&quot;./ns-executes.sh verify {{filename_no_ext}} {{path}}&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Completed Lessons&quot;</span> <span class="p">:</span> <span class="s2">&quot;learnyounode&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Run with Node&quot;</span> <span class="p">:</span> <span class="s2">&quot;node {{filepath}} 3 4 5&quot;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>When you select a <strong>Run</strong> command, it will open a new console window where you will see the output. Pressing the <strong>Run</strong> button will execute the last selected command.</p>
+</div>
+<div class="section" id="using-the-same-terminal-window">
+<h2>Using the same terminal window<a class="headerlink" href="#using-the-same-terminal-window" title="Permalink to this headline">¶</a></h2>
+<p>If you want to avoid new terminal windows appearing when you run the command, you can use an id field.</p>
+<div class="code json highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s2">&quot;commands&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Node version&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;terminal_1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;cmd&quot;</span><span class="p">:</span> <span class="s2">&quot;node --version&quot;</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;ls&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;terminal_1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;cmd&quot;</span><span class="p">:</span> <span class="s2">&quot;ls&quot;</span>
+        <span class="p">}</span>
+  <span class="p">},</span>
+
+<span class="o">//</span> <span class="n">Preview</span> <span class="n">button</span> <span class="n">configuration</span>
+  <span class="s2">&quot;preview&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Project Index (static)&quot;</span><span class="p">:</span> <span class="s2">&quot;http://{{domain}}/{{index}}&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;Current File (static)&quot;</span><span class="p">:</span> <span class="s2">&quot;http://{{domain}}/{{filepath}}&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;Box URL&quot;</span><span class="p">:</span> <span class="s2">&quot;http://{{domain3000}}/&quot;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li>Commands with the same “id” will share the same terminal window.</li>
+<li>The terminal id should be “backend-guide” to execute a command in the terminal window opened by guides.</li>
+</ul>
+</div>
+<div class="section" id="codio-tokens">
+<h2>.codio Tokens<a class="headerlink" href="#codio-tokens" title="Permalink to this headline">¶</a></h2>
+<p>You can see from the above <cite>.codio</cite> sample that it is possible to insert tokens into the shell commands. The following tokens are currently available and operate in the main on the currently selected file tab in the IDE</p>
+<ul class="simple">
+<li><cite>{{filepath}}</cite> inserts the path and full file name <cite>/path/to/file.ext</cite></li>
+<li><cite>{{path}}</cite> inserts only the path to the selected file <cite>/path/to/</cite></li>
+<li><cite>{{filename}}</cite> inserts the filename with its extension <cite>file.ext</cite></li>
+<li><cite>{{filename_no_ext}}</cite> inserts the filename without the extension <cite>file</cite></li>
+<li><cite>{{domain3000}}</cite> inserts the public url to your box; <cite>word1-word2-3000.codio.io</cite> to access over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443</li>
+<li><cite>{{domain}}</cite> inserts the alternate public url to your box; <cite>word1-word2.codio.io</cite>, be aware that you will usually need to specify a port to reach a service running on your Box. e.g. <cite>word1-word2-&lt;port&gt;.codio.io</cite></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Customizable run menu</a><ul>
+<li><a class="reference internal" href="#codio-file">.codio file</a></li>
+<li><a class="reference internal" href="#using-the-same-terminal-window">Using the same terminal window</a></li>
+<li><a class="reference internal" href="#codio-tokens">.codio Tokens</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="restart-reset.html"
+                        title="previous chapter">Restart and reset</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../../debugger.html"
+                        title="next chapter">Debugger</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/instructors/develop/ide/boxes/runmenu.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../debugger.html" title="Debugger"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="restart-reset.html" title="Restart and reset"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../index.html">  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Installing software packages &#8212;   documentation</title>
+    <link rel="stylesheet" href="../../../../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../../../" src="../../../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../../_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="File &amp; software Locations" href="file-locations.html" />
+    <link rel="prev" title="Preinstalled software packages" href="default-installed.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="file-locations.html" title="File &amp; software Locations"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="default-installed.html" title="Preinstalled software packages"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../../index.html">  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="installing-software-packages">
+<span id="box-parts"></span><h1>Installing software packages<a class="headerlink" href="#installing-software-packages" title="Permalink to this headline">¶</a></h1>
+<p>The <strong>Tools-&gt;Install Software</strong> menu option gives you access to a dialog driven means of running scripts that can install, configure or reconfigure software components. This saves you the trouble of doing this manually from the command line.</p>
+<img alt="Install Software" src="img/docs/install-sw-g2.png" />
+<p>On this page, you can locate the software you want to install and then click the install icon to start the installation.</p>
+<div class="section" id="installing-from-the-command-line">
+<h2>Installing from the command line<a class="headerlink" href="#installing-from-the-command-line" title="Permalink to this headline">¶</a></h2>
+<p>Our boxes provide full <cite>sudo</cite> (root) access, so you can also use the Ubuntu <a class="reference external" href="https://help.ubuntu.com/community/AptGet/Howto">apt</a> package manager, which provides thousands of software packages that are maintained by the Ubuntu community.</p>
+<p>If you want to provide fully pre-configured boxes then you should use [Stacks](/docs/project/stacks/listing/) rather than the Install Software feature described on this page.</p>
+</div>
+<div class="section" id="adding-or-requesting-new-packages">
+<h2>Adding or requesting new packages<a class="headerlink" href="#adding-or-requesting-new-packages" title="Permalink to this headline">¶</a></h2>
+<p>As of May 2016 the list of available packages is somewhat limited. However, we will be adding to these continuously and we also encourage you to request new ones.</p>
+<p>If you require a new script to be added to the Install Software list then you have two options.</p>
+<ul class="simple">
+<li>Visit the <a class="reference external" href="https://github.com/codio/install_software/issues">Issues</a> page on our GitHub repository and create a new issue detailing your requirements.</li>
+<li>You can fork our <a class="reference external" href="https://github.com/codio/install_software">GitHub repository</a>, add the script yourself and then submit a pull request.</li>
+</ul>
+<p>Instructions on how to add your own package scripts can be found <a class="reference internal" href="parts-coding.html#parts-coding"><span class="std std-ref">here</span></a>.</p>
+</div>
+<div class="section" id="autostarting">
+<h2>Autostarting<a class="headerlink" href="#autostarting" title="Permalink to this headline">¶</a></h2>
+<p>Services that require to be started will auto start on installation.</p>
+<p>You can manually start, stop and restart services using the following terminal commands:</p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">service</span> <span class="pre">&lt;package-name&gt;</span> <span class="pre">start</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">service</span> <span class="pre">&lt;package-name&gt;</span> <span class="pre">stop</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">service</span> <span class="pre">&lt;package-name&gt;</span> <span class="pre">restart</span></code></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Installing software packages</a><ul>
+<li><a class="reference internal" href="#installing-from-the-command-line">Installing from the command line</a></li>
+<li><a class="reference internal" href="#adding-or-requesting-new-packages">Adding or requesting new packages</a></li>
+<li><a class="reference internal" href="#autostarting">Autostarting</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="default-installed.html"
+                        title="previous chapter">Preinstalled software packages</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="file-locations.html"
+                        title="next chapter">File &amp; software Locations</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../../_sources/instructors/develop/ide/boxes/installsw/box-parts.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="file-locations.html" title="File &amp; software Locations"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="default-installed.html" title="Preinstalled software packages"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../../index.html">  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.
+    </div>
+  </body>
+</html>

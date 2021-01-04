@@ -1,0 +1,20 @@
+{
+    // This file is used to configure the three buttons along Codio's top menu.
+    // Run button configuration
+    "commands": {
+        "Make": "make html"
+    },
+    // Preview button configuration
+    "preview": {
+        "Preview": "https://{{domain}}/build/html/index.html"
+       
+    },
+    // Debugger target button configuration
+    "debugger": [{
+        "type": "PYTHON3",
+        "command": "{{filepath}}",
+        "before": "",
+        "uuid": "6c228c3f-596c-c44a-399f-5d86a7e17bf9",
+        "name": "Debug"
+    }]
+}

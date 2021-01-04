@@ -1,0 +1,149 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Accessing Boxes and Ports &#8212;   documentation</title>
+    <link rel="stylesheet" href="../../../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Installing software" href="installsw/index.html" />
+    <link rel="prev" title="Terminal Window" href="terminal.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="installsw/index.html" title="Installing software"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="terminal.html" title="Terminal Window"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../index.html">  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="accessing-boxes-and-ports">
+<span id="external-access"></span><h1>Accessing Boxes and Ports<a class="headerlink" href="#accessing-boxes-and-ports" title="Permalink to this headline">¶</a></h1>
+<p>When Codio creates a new project, it will generate a unique subdomain name</p>
+<blockquote>
+<div><cite>word1-word2.codio.io</cite></div></blockquote>
+<p>where <cite>word1</cite> and <cite>word2</cite> are randomly generated words resulting in a unique domain name.</p>
+<div class="section" id="recommended-approach-to-port-addressing">
+<h2>Recommended approach to port addressing<a class="headerlink" href="#recommended-approach-to-port-addressing" title="Permalink to this headline">¶</a></h2>
+<p>It is strongly recommended that you reference a Codio box running on a specific port using</p>
+<blockquote>
+<div><cite>word1-word2-3000.codio.io</cite></div></blockquote>
+<p>If your PC is behind a firewall, access to external ports are often restricted. Using the recommended approach, the request will be made over port 80 and so will not be blocked by the firewall.</p>
+<p>This approach allows both HTTP and HTTPS access over the full range of ports, <cite>1024</cite> to <cite>9999</cite>.</p>
+</div>
+<div class="section" id="standard-port-addressing">
+<h2>Standard port addressing<a class="headerlink" href="#standard-port-addressing" title="Permalink to this headline">¶</a></h2>
+<p>You can also reference a Codio box using <cite>word1-word2-&lt;port&gt;.codio.io</cite>. This approach will work but be aware:</p>
+<ul class="simple">
+<li>Port ranges are restricted to <cite>1024</cite> to <cite>9499</cite> for HTTP access</li>
+<li>Port ranges are restricted to <cite>9500</cite> to <cite>9999</cite> for HTTPS access</li>
+<li>If the PC you are working on is behind a firewall and it blocks access over non-standard ports, it will fail if it references a box using <cite>word1-word2-3000.codio.io</cite></li>
+<li>You may waste your time and potentially your sysadmin’s time trying to diagnose why your browser will not talk to the Codio box.</li>
+</ul>
+</div>
+<div class="section" id="original-request-header">
+<h2>Original Request Header<a class="headerlink" href="#original-request-header" title="Permalink to this headline">¶</a></h2>
+<p>Should you need it, the <cite>X_FORWARDED_PROTO</cite> header contains original request schema.</p>
+</div>
+<div class="section" id="preview-menu">
+<h2>Preview Menu<a class="headerlink" href="#preview-menu" title="Permalink to this headline">¶</a></h2>
+<p>Codio offers a fully customizable Preview menu so you can preview both static files (.html) and server side files (.php files, Ruby and Node apps etc.) with a single click.</p>
+<ul class="simple">
+<li>[Preview documentation](/docs/ide/features/inline-preview)</li>
+</ul>
+<p>This feature lets you set up any number of ‘aliases’ both for static files and Box cli commands.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Accessing Boxes and Ports</a><ul>
+<li><a class="reference internal" href="#recommended-approach-to-port-addressing">Recommended approach to port addressing</a></li>
+<li><a class="reference internal" href="#standard-port-addressing">Standard port addressing</a></li>
+<li><a class="reference internal" href="#original-request-header">Original Request Header</a></li>
+<li><a class="reference internal" href="#preview-menu">Preview Menu</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="terminal.html"
+                        title="previous chapter">Terminal Window</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="installsw/index.html"
+                        title="next chapter">Installing software</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/instructors/develop/ide/boxes/ext-access.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="installsw/index.html" title="Installing software"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="terminal.html" title="Terminal Window"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../index.html">  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.
+    </div>
+  </body>
+</html>

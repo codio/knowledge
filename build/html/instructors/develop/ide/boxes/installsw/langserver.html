@@ -1,0 +1,138 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Language server protocol &#8212;   documentation</title>
+    <link rel="stylesheet" href="../../../../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../../../" src="../../../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../../_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="GUI based output" href="gui.html" />
+    <link rel="prev" title="Adding your own packages" href="parts-coding.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="gui.html" title="GUI based output"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="parts-coding.html" title="Adding your own packages"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../../index.html">  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="language-server-protocol">
+<h1>Language server protocol<a class="headerlink" href="#language-server-protocol" title="Permalink to this headline">¶</a></h1>
+<p>The Language Server protocol is used to integrate features like auto complete, go to definition, find all references.</p>
+<p><strong>Java, OCAML and Python</strong> are currently available.</p>
+<p>Python Example:</p>
+<img alt="Python" src="img/docs/pythonexample.png" />
+<div class="section" id="implementing-lsp-support">
+<h2>Implementing LSP support<a class="headerlink" href="#implementing-lsp-support" title="Permalink to this headline">¶</a></h2>
+<p>Enable LSP support in your [User](/docs/ide/customization/codio-prefs/) (or [Project](/docs/ide/customization/project-prefs/)) Preferences, entering</p>
+<div class="code ini highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">codio</span><span class="o">-</span><span class="n">lsp</span><span class="p">]</span>
+<span class="n">enable_lsp_support</span> <span class="o">=</span> <span class="n">true</span>
+</pre></div>
+</div>
+<p>If you are [authoring](/docs/content/authoring/) content for use in a course/class, we recommend enabling as a [project preference](/docs/ide/customization/project-prefs/) as these will be applied over any preferences users may set</p>
+</div>
+<div class="section" id="installing-language-server-protocols">
+<h2>Installing language server protocols<a class="headerlink" href="#installing-language-server-protocols" title="Permalink to this headline">¶</a></h2>
+<p>To install language server protocols, go to the menu <strong>Tools-&gt;Install Software</strong> and locate the relevant component.  Press the install button in the relevant row. The installation may take a few minutes and you should then <a class="reference internal" href="../restart-reset.html#restart-and-reset"><span class="std std-ref">Restart</span></a> your Box before proceeding.</p>
+</div>
+<div class="section" id="autocomplete">
+<h2>Autocomplete<a class="headerlink" href="#autocomplete" title="Permalink to this headline">¶</a></h2>
+<p>Autocomplete is not automatically triggered as in HTML/CSS/JS files. To invoke autocomplete for language server protocol implemented files, use :</p>
+<p><code class="docutils literal notranslate"><span class="pre">Mac:</span> <span class="pre">Shift+Space</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">Others:</span> <span class="pre">Ctrl+Space</span></code></p>
+<p>If you wish to change the default preference to something else you can. See [User Preferences](/docs/ide/customization/codio-prefs/) for more on this</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Language server protocol</a><ul>
+<li><a class="reference internal" href="#implementing-lsp-support">Implementing LSP support</a></li>
+<li><a class="reference internal" href="#installing-language-server-protocols">Installing language server protocols</a></li>
+<li><a class="reference internal" href="#autocomplete">Autocomplete</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="parts-coding.html"
+                        title="previous chapter">Adding your own packages</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="gui.html"
+                        title="next chapter">GUI based output</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../../_sources/instructors/develop/ide/boxes/installsw/langserver.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="gui.html" title="GUI based output"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="parts-coding.html" title="Adding your own packages"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../../index.html">  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.
+    </div>
+  </body>
+</html>

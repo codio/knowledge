@@ -1,0 +1,122 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Auto starting services &#8212;   documentation</title>
+    <link rel="stylesheet" href="../../../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Restart and reset" href="restart-reset.html" />
+    <link rel="prev" title="IDE Access Permissions" href="granting-access.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="restart-reset.html" title="Restart and reset"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="granting-access.html" title="IDE Access Permissions"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../index.html">  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="auto-starting-services">
+<h1>Auto starting services<a class="headerlink" href="#auto-starting-services" title="Permalink to this headline">¶</a></h1>
+<p>Your Box will be put to sleep under the conditions <a class="reference internal" href="overview.html#overview"><span class="std std-ref">explained here</span></a>. When you open your project, the Box will start and services will start. Software installed using <cite>Tools-&gt;Install Software</cite> will be automatically configured to autostart.
+If you have need to autostart other services, you can do so within a <cite>startup.sh</cite> bash script located in your project, and also installing <cite>Autostart Support</cite> from <cite>Tools-&gt;Install Software</cite>.
+For the script to be included in the stack we’d recommend <cite>/home/codio/startup.sh</cite>.
+If your project is using guides, you can use <cite>.guides/startup.sh</cite> or you can locate this file in the workspace although bear in mind that students may be able to access/edit files visible to them in the workspace.</p>
+<div class="section" id="upstart-systemd">
+<h2>Upstart/Systemd<a class="headerlink" href="#upstart-systemd" title="Permalink to this headline">¶</a></h2>
+<p>Upstart can be used in Ubuntu 14.04 boxes. If you want to configure services to start when your box starts up, you should configure a <cite>.conf</cite> file. If you are not familiar with upstart, please Google it for configuration details.</p>
+<p>Systemd can be used in Ubuntu 18.04 boxes. If you want to configure services to start when your box starts up, you should configure a <cite>.service</cite> file and run <cite>sudo systemctl daemon-reload</cite>. If you are not familiar with systemd, please Google it for configuration details.</p>
+<p><strong>Important</strong> - you need to specify the user account under which the service is run using <cite>setuid codio</cite>.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Auto starting services</a><ul>
+<li><a class="reference internal" href="#upstart-systemd">Upstart/Systemd</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="granting-access.html"
+                        title="previous chapter">IDE Access Permissions</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="restart-reset.html"
+                        title="next chapter">Restart and reset</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/instructors/develop/ide/boxes/startup.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="restart-reset.html" title="Restart and reset"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="granting-access.html" title="IDE Access Permissions"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../index.html">  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.
+    </div>
+  </body>
+</html>
