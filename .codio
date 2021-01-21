@@ -2,11 +2,14 @@
     // This file is used to configure the three buttons along Codio's top menu.
     // Run button configuration
     "commands": {
-        "Make": "make html"
+        "Make": "make html",
+        "Start Ungit":"ungit --port=4000 --ungitBindIp 0.0.0.0"
     },
     // Preview button configuration
     "preview": {
-        "Preview": "https://{{domain}}/build/html/index.html"
+        "Preview": "https://{{domain}}/build/html/index.html",
+        "Visit Ungit": "https://{{domain4000}}/#/repository?path=%2Fhome%2Fcodio%2Fworkspace"
+        
        
     },
     // Debugger target button configuration
