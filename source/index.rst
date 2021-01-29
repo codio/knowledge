@@ -335,17 +335,48 @@ Accessing Codio
    
    students/accessing-codio/accessing
    students/accessing-codio/joining
+   students/settings/paying
    
-Courses
-^^^^^^^
+Account Settings
+----------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   students/settings/settings
+   students/settings/user-profile
+   students/settings/change-password
+   students/settings/forgot-password
+   students/settings/reset-password
+   students/settings/ssh-key
+   students/settings/upload-ssh-key-remote-server
+   students/settings/github
+   students/settings/bitbucket
+   
+   
+   
+Your Courses
+^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 2
+
+Navigating Student Dashboard
+----------------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   students/courses/navigate-student-dashboard
+
+Completing Assignments
+----------------------
 
 .. toctree::
    :maxdepth: 2
 
    students/courses/complete-assignment
    students/courses/exam-mode
-   students/courses/navigate-student-dashboard
-   students/courses/user-profile
    students/courses/view-grade
    
    

@@ -1,3 +1,5 @@
+.. _paying:
+
 Paying for Codio Subscription
 =============================
 
@@ -12,13 +14,11 @@ If you are paying for your subscription yourself, follow these steps:
 1. Click your user name or gravatar in the lower portion of the navigation pane to open the **Settings** page.
 
    .. image:: /img/what_students_do/forgotpassword/profilepic.png
-   :alt: Profile Picture
-
+   
 2. Click the **Billing** tab and choose a **Plan** and **Payment Method**. 
 
    .. image:: /img/account_billing.png
-   :alt: Account Billing
-
+  
    You can also view your payment history.
 
 
@@ -48,4 +48,4 @@ To obtain and activate a license from your campus bookstore, follow these steps:
 
 5. Enter the code that was provided to you. Note that the code is case sensitive so enter it exactly as provided to you.
 
-If you have any problems contact us through your Codio account or email us at [help@codio.com](mailto:help@codio.com).
+If you have any problems contact us through your Codio account or email us at help@codio.com (mailto:help@codio.com).

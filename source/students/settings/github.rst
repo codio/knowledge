@@ -9,8 +9,7 @@ If you are working with GitHub, you must install your Codio SSH key and connect 
 2. Click the **Applications** tab.
 
    .. image:: /img/prefs-account-gh1.png
-   :Alt: Applications
-
+   
 3. Navigate to the GitHub section and click **Upload Public Key**.
 
 You will be redirected to your application account and asked to authorize the application. You will then be redirected back to your Codio account.

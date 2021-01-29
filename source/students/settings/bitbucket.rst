@@ -9,7 +9,6 @@ If you are working with BitBucket, you must install your Codio SSH key and conne
 2. Click the **Applications** tab.
 
    .. image:: /img/prefs-account-gh1.png
-   :Alt: Applications
 
 3. Navigate to the BitBucket section and click **Upload Public Key**.
 

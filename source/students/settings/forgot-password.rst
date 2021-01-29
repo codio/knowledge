@@ -1,3 +1,5 @@
+.. _forgot-password:
+
 Forgot Your Password
 ====================
 

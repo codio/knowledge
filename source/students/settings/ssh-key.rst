@@ -1,4 +1,4 @@
-.. _ssh key:
+.. _ssh-key:
 
 SSH Key
 =======
