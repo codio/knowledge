@@ -327,15 +327,27 @@ Students
    :maxdepth: 2
    
    
-   students/joining
-   students/paying
-   students/password
-   students/accessing
-   students/usingguides
-   students/grades
-   students/tools
-   students/creating
-   students/settings
+Accessing Codio
+^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 2
+   
+   students/accessing-codio/accessing
+   students/accessing-codio/joining
+   
+Courses
+^^^^^^^
+
+.. toctree::
+   :maxdepth: 2
+
+   students/courses/complete-assignment
+   students/courses/exam-mode
+   students/courses/navigate-student-dashboard
+   students/courses/user-profile
+   students/courses/view-grade
+   
    
 Admin
 =====

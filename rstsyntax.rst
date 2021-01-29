@@ -127,6 +127,9 @@ This is a link to the `Python website`_.
 This is a link back to `Section 1`_. You can link based off of the heading name
 within a document.
 
+This is a cross-link to another topic:
+:ref:`full documentation <external access>`
+
 ---------
 Footnotes
 ---------
