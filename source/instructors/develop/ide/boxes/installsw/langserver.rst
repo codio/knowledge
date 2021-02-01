@@ -7,7 +7,7 @@ The Language Server protocol is used to integrate features like auto complete, g
 
 Python Example:
 
-.. image:: /img/docs/pythonexample.png
+.. image:: /img/pythonexample.png
    :alt: Python
    
 

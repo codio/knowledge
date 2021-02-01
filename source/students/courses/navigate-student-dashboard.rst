@@ -6,7 +6,7 @@ The Student dashboard is the main page student's use to navigate Codio. You can 
 
 Default Dashboard:
 
-.. image:: /img/what_do/newstudentdashboard.png
+.. image:: /img/what_students_do/newstudentdashboard.png
    :alt: Default Student Dashboard
 
 Alternative Dashboard:  

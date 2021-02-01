@@ -6,7 +6,7 @@ You can access the Terminal window
 - from the **Tools->Terminal** menu item
 - or by pressing the terminal icon in the bar at the top of the file tree. 
 
-.. image:: /img/docs/terminalicon.png
+.. image:: /img/terminalicon.png
    :alt: Terminal Icon
 
 
@@ -15,7 +15,7 @@ This will open up a terminal window in a new IDE panel. You can have multiple te
 
 Note that you can create tabs and panels anywhere you like using Codio's [Panels and Tabs](/docs/ide/panels/) features.
 
-.. image:: /img/docs/terminal.png
+.. image:: /img//terminal.png
    :alt: Terminal
 
 
