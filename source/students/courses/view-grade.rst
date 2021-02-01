@@ -31,5 +31,3 @@ The **Partial Point** icon indicates assessments that support partial points and
 **Note**: If the assignment has been marked as completed, you can click the **Completed** button to access the grade feedback. If you want to view the assignment, click the project on the left hand side. As the assignment is completed you will not be able to edit anything but can view the content. <Ian, this is very confusing; are assignments and projects the same?>
 
 If your organization uses an LMS platform, a URL to the grade detail is also passed to your LMS so you can access it from the grading area in the LMS.
-
-.
