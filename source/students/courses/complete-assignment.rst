@@ -4,9 +4,9 @@ Completing Assignments
 When you have completed an assignment you can mark it as completed (if the content author has not disabled this option) using one of the following methods:
 
 - In the assignment, click the **Settings** icon and choose **Mark as Completed**.
-  
-  .. image:: img/guides/complete.png
-  :alt: Complete
+
+  .. image:: /img/guides/complete.png
+     :alt: Complete
 
 - In the assignment, click **Education > Mark as Completed**. <Ian, where is this?>
 

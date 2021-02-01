@@ -7,14 +7,12 @@ The Student dashboard is the main page student's use to navigate Codio. You can 
 Default Dashboard:
 
 .. image:: /img/what_do/newstudentdashboard.png
-
-:Alt: Default Student Dashboard
+   :alt: Default Student Dashboard
 
 Alternative Dashboard:  
 
 .. image:: /img/what_students_do/studentdashboard.png
-
-:Alt: Alternative Student Dashboard
+   :alt: Alternative Student Dashboard
 
 Navigation menu
 ---------------
@@ -30,8 +28,7 @@ Courses
 The student courses are displayed in the right pane, as shown below with the default dashboard.
 
 .. image:: /img/what_students_do/newstudentdashboard1.png
-
-:Alt: Student Dashboard
+   :alt: Student Dashboard
 
 **1** - Toggle between list view or tile view to see your courses.
 
@@ -52,11 +49,9 @@ The student courses are displayed in the right pane, as shown below with the def
     - Click the arrow to expand or collapse the course pane.
 
      .. image:: /img/what_students_do/expandedcourse.png
-
-     :Alt: Expanded Course on Default Dashboard
+        :alt: Expanded Course on Default Dashboard
 
      Below is an example of a student’s **Courses** area with the alternative dashboard:
 
      .. image:: /img/what_students_do/studentdashboard.png
-
-     :Alt: Courses on Alternative Dashboard
+        :alt: Courses on Alternative Dashboard

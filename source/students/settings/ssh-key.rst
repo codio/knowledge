@@ -7,7 +7,7 @@ An SSH public and private key pair is automatically generated for your account t
 [Ian, this screenshot is outdated]
 
 .. image:: /img/prefs-account-ssh.png
-   :Alt: Codio SSH Key
+   :alt: Codio SSH Key
 
 Codio uses the public SSH key to connect to:
 [Ian, I'm not sure where these topics will reside; need to insert cross-links]

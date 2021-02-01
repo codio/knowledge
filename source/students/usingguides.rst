@@ -7,7 +7,7 @@ Play mode
 To see your content running, you need to *Play* it. If the content does not automatically start or if you have closed it, go to **Tools->Guide->Play** menu option or click the **Start Guide** icon in the file tree:
 
 .. image:: /img/guides/startguides.png
-  :alt: StartGuides
+   :alt: StartGuides
 
 
 At this point the panel layout is set up automatically according to the layout specified in the first section and it will be displayed.
@@ -17,7 +17,7 @@ Player Options
 --------------
 
 .. image:: /img/guides/studentplaymode.png
-  :alt: Play Mode
+   :alt: Play Mode
 
 
 
@@ -43,7 +43,7 @@ To do this:
 1. Open the assignment you are working on. In the top right, choose the settings icon, and then **Restore current files**
 
 .. image:: /img/guides/reset.png
-  :alt: Restore
+   :alt: Restore
 
 
 If this does not achieve what you need, you can contact your class instructor who can reset the assignment back to its default state and you can start again as new.
