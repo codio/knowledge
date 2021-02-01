@@ -2,8 +2,9 @@ Viewing Grades
 ==============
 When your assignment has been graded and released by your instructor, you will see **Graded** showing in your dashboard:
 <Ian, where do you see this and where is this image?>
+
 .. image:: /img/graded.png
-:alt: Graded
+   :alt: Graded
 
 You can view the grade details from the **Feedback** page or the **Grade** field in the dashboard.
 
