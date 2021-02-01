@@ -13,3 +13,5 @@ If you are working with BitBucket, you must install your Codio SSH key and conne
 3. Navigate to the BitBucket section and click **Upload Public Key**.
 
 You will be redirected to your application account and asked to authorize the application. You will then be redirected back to your Codio account.
+
+<Diana situation for this whole section where it applies to all users not just students. How to handle it so only one place in the docs for students/teachers/individuals to see ?>
