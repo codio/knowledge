@@ -32,3 +32,4 @@ The **Partial Point** icon indicates assessments that support partial points and
 
 If your organization uses an LMS platform, a URL to the grade detail is also passed to your LMS so you can access it from the grading area in the LMS.
 
+.
