@@ -19,3 +19,11 @@ You can change your password from the **Account** page. You should change it if 
    .. image:: /img/what_students_do/forgotpassword/change.png
    
 **Note:** You are allowed three attempts to enter your current password before your account is temporarily suspended. If your account is suspended, wait 15 minutes and then try again.
+
+**See Also:**
+
+- :ref:`Forgot Your Password <forgot-password>`
+- :ref:`Resetting Your Password <reset-password>`
+
+
+

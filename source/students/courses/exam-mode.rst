@@ -1,17 +1,19 @@
+.. _exam-mode:
+
 Exam Mode
 =========
 
 Your instructor can enable assignments with the following exam mode options:
 
-- **Shuffle Question Order** - You receive the pages of an assignment in random order when this option is enabled.
+- **Shuffle Question Order** - Pages or exam questions are presented in random order when this option is enabled.
 
-- **Forward Only Navigation** - You can only move forward through the pages, and cannot go back to previous pages. If this option is enabled, you will be advised of this restriction when you start the assignment.
+- **Forward Only Navigation** - You can only move forward through the pages during the exam, and cannot go back to previous pages. If this option is enabled, you will be advised of this restriction when you start the assignment.
 
-- **Single Login** - Once you start the assignment and until you mark it as complete, all other account login attempts will be blocked when this option is enabled. 
+- **Single Login** - Once you start the exam and until it is marked as complete, all other account login attempts will be blocked when this option is enabled. 
 
-  Before you start the assignment, you will be advised that it is restricted to single login and you should ensure that:
+  Before you start the assignment, you will be advised that the exam is restricted to single login. To avoid any issues during the exam, you should ensure that:
 
-    - You have closed all windows or browsers where Codio is opened
+    - You have closed all windows or browsers where Codio is opened.
     - You have a stable internet connection.
     - The device is fully charged.
     - You have allotted yourself enough time to complete the assignment.

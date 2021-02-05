@@ -55,3 +55,16 @@ The student courses are displayed in the right pane, as shown below with the def
 
      .. image:: /img/what_students_do/studentdashboard.png
         :alt: Courses on Alternative Dashboard
+
+**Note:** You can also create your own projects using the links under **BUILD** in the left navigation pane. See :ref:`Creating or Importing a Project <create-import-project>` for more information.
+
+Projects
+--------
+
+You can create your own projects using the web-based IDE in Codio. To access the project area, use the BUILD links in the left navigation pane. See :ref:`Projects <projects>` for more information.
+
+**See Also:**
+
+- :ref:`Joining a Course <joining>`
+- :ref:`Paying for Codio Subscription <paying>`
+- :ref:`Creating or Importing a Project <create-import-project>`

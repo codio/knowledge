@@ -14,10 +14,13 @@ If you are paying for your subscription yourself, follow these steps:
 1. Click your user name or gravatar in the lower portion of the navigation pane to open the **Settings** page.
 
    .. image:: /img/what_students_do/forgotpassword/profilepic.png
+      :alt: User Profile
+   
    
 2. Click the **Billing** tab and choose a **Plan** and **Payment Method**. 
 
    .. image:: /img/account_billing.png
+      :alt: Billing
   
    You can also view your payment history.
 

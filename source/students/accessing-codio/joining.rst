@@ -1,3 +1,5 @@
+.. _joining:
+
 Joining a Course
 ================
 
@@ -14,4 +16,12 @@ If your school is not using an LMS platform, your instructor will provide you on
 
 
 To access your course, log in to your Codio account and select **Courses** in the navigation pane.
+
+**See Also:**
+
+- :ref:`Navigating the Student Dashboard <navigate-student-dashboard>`
+- :ref:`Paying for Codio Subscription <paying>`
+- :ref:`Forgot Your Password <forgot-password>`
+- :ref:`Changing Your Password <change-password>`
+
 

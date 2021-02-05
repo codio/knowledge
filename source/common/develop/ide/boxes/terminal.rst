@@ -1,3 +1,5 @@
+.. _terminal:
+
 Terminal Window
 ===============
 

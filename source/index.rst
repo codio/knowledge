@@ -333,26 +333,10 @@ Accessing Codio
 .. toctree::
    :maxdepth: 2
    
-   students/accessing-codio/accessing
    students/accessing-codio/joining
-   students/settings/paying
-   
-Account Settings
-----------------
-
-.. toctree::
-   :maxdepth: 2
-   
-   students/settings/settings
-   students/settings/user-profile
-   students/settings/change-password
-   students/settings/forgot-password
-   students/settings/reset-password
-   students/settings/ssh-key
-   students/settings/upload-ssh-key-remote-server
-   students/settings/github
-   students/settings/bitbucket
-   
+   common/accessing-codio/paying
+   common/settings/settings
+      
    
    
 Your Courses
@@ -361,25 +345,60 @@ Your Courses
 .. toctree::
    :maxdepth: 2
 
-Navigating Student Dashboard
-----------------------------
-
-.. toctree::
-   :maxdepth: 2
-   
    students/courses/navigate-student-dashboard
-
-Completing Assignments
-----------------------
-
-.. toctree::
-   :maxdepth: 2
-
+   students/courses/accessing
+   students/courses/start-assignment
+   students/courses/play-mode
    students/courses/complete-assignment
    students/courses/exam-mode
    students/courses/view-grade
+   students/courses/restore-files
+
+Useful Tools
+^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 2
    
+   common/tools/tools
+   common/tools/dyslexia
+   common/tools/lexikon
+   common/tools/code-playback
+   common/tools/code-commenting
    
+
+Developing Code
+^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 2
+   
+Projects
+--------
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/projects/projects
+   common/develop/projects/project-permissions
+   common/develop/projects/accessing-projects
+   common/develop/projects/create-import-project
+   common/develop/projects/copy-project
+   
+Stacks
+--------
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/stacks/stacks
+   common/develop/stacks/create-stack
+   common/develop/stacks/switch-stack
+   common/develop/stacks/modify-stack
+   common/develop/stacks/update-stack
+   common/develop/stacks/using-stacks
+
+
 Admin
 =====
 

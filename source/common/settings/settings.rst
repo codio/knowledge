@@ -1,7 +1,7 @@
 .. _settings:
 
-Settings
-========
+Account Settings
+================
 
 You manage your account and customize your user preferences on the **Settings** page. To access this page, click your user name or gravatar in the lower portion of the navigation pane.
 

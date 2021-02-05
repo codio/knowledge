@@ -1,4 +1,6 @@
-Customizable run menu
+.. _customizable-run-menu:
+
+Customizable Run Menu
 =====================
 A handy feature is the ability to add commonly used commands to the Codio IDE, akin to using the `alias` command from the command line.
 
