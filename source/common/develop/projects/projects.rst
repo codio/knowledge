@@ -14,7 +14,7 @@ Codio works with a series of templates for software configurations, also commonl
 
 - You can take a snapshot of the software configuration on any box and add it to the **Stacks** template library.
 
-- You can take a snapshot of the a stack/project code workspace combination and add it to the **Starter Packs** template library.
+- You can take a snapshot of the stack/project code workspace combination and add it to the **Starter Packs** template library.
 
 Project concepts and features
 -----------------------------
