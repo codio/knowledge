@@ -16,3 +16,7 @@ You can copy any third-party public project into your account. To copy a project
    
    .. image:: /img/fork-clone.png
       :alt: Clone Box
+
+
+<Diana, think needs some small additions relating to 
+- https://docs.codio.com/project/ide/features/#copying-a-project   where it explains what the fork-ide.png image is showing and where fork-clone.png image and "If the project owner has allowed box cloning you will also be able to clone the box as well as the project."  with maybe explanation that cloning the box will also set the copied project to use the same stack so 'only project' will copy just the workspace files/folders, 'only box' will copy the stack into an empty project and 'box and project' will do both >

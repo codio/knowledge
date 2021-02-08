@@ -29,7 +29,7 @@ Click the Stack in the list to view detailed information, including the version,
 To view the different versions of the stack, click the **Versions** tab.
 
 Creating project from a stack
----------------------------
+-----------------------------
 You can select a stack to use for :ref:`creating a project <create-project>` using one of the following methods:
 
 - On the stack **Details** page, click **Use Stack**. If there are multiple versions of the stack, the latest version is used to create the project.

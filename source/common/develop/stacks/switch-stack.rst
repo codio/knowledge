@@ -11,7 +11,7 @@ There are various reasons for switching your project's stack to a new one, inclu
 
 You can switch a project's stack from **Project > Stack > Settings** on the menu bar or from the Settings (gear) icon on the project in the main project listing.
 
-When you switch the stack from **Project > Stack > Settings, all stack modifications that were made relative to the original stack are replaced by the new stack. Normally this is fine if you created a new stack from the project before switching it.
+When you switch the stack from **Project > Stack > Settings**, all stack modifications that were made relative to the original stack are replaced by the new stack. Normally this is fine if you created a new stack from the project before switching it.
 
 **Important:**
-When you switch a stack, everything outside the workspace folder in the tree (`/home/codio/workspace`) is replaced by the new stack. See :ref:`Stacks <stacks> for more information.
+When you switch a stack, everything outside the workspace folder in the tree (`/home/codio/workspace`) is replaced by the new stack. See :ref:`Stacks <stacks>` for more information.

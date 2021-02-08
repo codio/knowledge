@@ -6,7 +6,7 @@ Any changes you or an application makes to the software on the server (box) outs
 
 You can modify the stack at any time by opening a project, course assignment, or book and making the stack changes from the :ref:`command line <terminal>`. Keep in mind that your modifications will work fine on the project you are working on as the owner, but the modifications will not be transferred to those being run by your students. 
 
-You must first create a clean stack with your modifications and then switch the project to the clean stack. See :ref:`Creating a Stack <create-stack>`(/project/stacks/#creating-a-stack) and :ref:`Switching a Project Stack <switch-stack>` for more information.
+You must first create a clean stack with your modifications and then switch the project to the clean stack. See :ref:`Creating a Stack <create-stack>` and :ref:`Switching a Project Stack <switch-stack>` for more information.
 
 Rules for modifying a stack
 ---------------------------
@@ -19,7 +19,7 @@ Before modifying a stack, be aware of the following rules:
 
 - If the stack is **Private** and the owner is set to an organization where you are a member, you have write access and can create new versions of that stack.  
 
-See :ref:`Stacks <stacks> for information about visibility and ownership.
+See :ref:`Stacks <stacks>` for information about visibility and ownership.
 
 Use case of a stack modification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

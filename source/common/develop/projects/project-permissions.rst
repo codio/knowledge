@@ -13,7 +13,7 @@ To change the permissions on a project, follow these steps:
 1. Click the **Permissions** tab and choose **Project**.
 
    .. image:: /img/permissions-dlg.png
-   :alt: Project Permissions
+      :alt: Project Permissions
 
 2. Select the permission level next to the user's name:
 

@@ -52,109 +52,112 @@ Sample template
 ^^^^^^^^^^^^^^^
 Below is a sample template that can be modified for your stack.
 
-```markdown
-# Title
-Put the name of your Stack here.
+.. code:: python
 
-## Using the Stack
-Describe how the user should get started.
+    # Title
+    Put the name of your Stack here.
 
-## Starter Pack
-If there are related Starter Packs you have created from this Stack that include code files, detail them here.
+    ## Using the Stack
+    Describe how the user should get started.
 
-## Components Installed
-It can be helpful to others or even to you later on to describe the installed Components and versions.
+    ## Starter Pack
+    If there are related Starter Packs you have created from this Stack that include code files, detail them here.
 
-## Configuration Files
-Detail where any component configuration files can be found. As you install components from `Tools>Install Software` a log file of all this information will be opened.
+    ## Components Installed
+    It can be helpful to others or even to you later on to describe the installed Components and versions.
 
-## General Information
-Include any general information on the use and operation of any installed components.
+    ## Configuration Files
+    Detail where any component configuration files can be found. As you install components from `Tools>Install Software` a log file of all this information will be opened.
 
-## Codio Documentation
-We recommend you include useful links to the Codio Documentation.
+    ## General Information
+    Include any general information on the use and operation of any installed components.
 
-##Stack Specific Links
-Provide useful links on the Stack components.
-```
+    ## Codio Documentation
+    We recommend you include useful links to the Codio Documentation.
+
+    ##Stack Specific Links
+    Provide useful links on the Stack components.
+
 
 Sample template from Codio Certified LAMP stack
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-```markdown
-# LAMP
+.. code:: python
 
-## Using this Stack
-This Codio Stack gives you a complete **LAMP** stack ready to use and with all services up and running.
+    # LAMP
 
-## Related Stacks & Starter Packs
-There are various other Stacks and Starter Packs that may be of interest. Please search the listing for
+    ## Using this Stack
+    This Codio Stack gives you a complete **LAMP** stack ready to use and with all services up and running.
 
-- Stack : **LEMP**
-- Stack : **LAPP**
-- Stack : **LAMP** + Composer
-- Starter Pack : **Laravel** (LAMP + Composer + Laravel)
+    ## Related Stacks & Starter Packs
+    There are various other Stacks and Starter Packs that may be of interest. Please search the listing for
 
-## Components Installed
-This Stack contains the following major component versions
+    - Stack : **LEMP**
+    - Stack : **LAPP**
+    - Stack : **LAMP** + Composer
+    - Starter Pack : **Laravel** (LAMP + Composer + Laravel)
 
-- **PHP** 5.5.9
-- **Apache** 2.4.7
-- **MySQL** 14.14 Distrib 5.5.46
+    ## Components Installed
+    This Stack contains the following major component versions
 
-## Configuration Files
-You can find configuration files in the following locations
+    - **PHP** 5.5.9
+    - **Apache** 2.4.7
+    - **MySQL** 14.14 Distrib 5.5.46
 
-- **PHP config file** : `/etc/php5/apache2/php.ini`
-- **Apache config** : `/etc/apache2/apache2.conf`
-- **MySQL default config file** :  `/etc/mysql/my.cnf`
+    ## Configuration Files
+    You can find configuration files in the following locations
 
-## General Information
+    - **PHP config file** : `/etc/php5/apache2/php.ini`
+    - **Apache config** : `/etc/apache2/apache2.conf`
+    - **MySQL default config file** :  `/etc/mysql/my.cnf`
 
-# Apache Server
-Apache should be started by default. You can manually start, stop and restart it using the following terminal commands:
+    ## General Information
 
-$ sudo service apache2 start
-$ sudo service  apache2 stop
-$ sudo service  apache2 restart
+    # Apache Server
+    Apache should be started by default. You can manually start, stop and restart it using the following terminal commands:
 
-
-# MySQL
-
-## Start, Stop, Restart the MySQL server
-MySQL should be started by default. You can manually start, stop and restart the MySQL server using the following terminal commands:
-
-$ sudo service mysql start
-$ sudo service mysql stop
-$ sudo service mysql restart
+    $ sudo service apache2 start
+    $ sudo service  apache2 stop
+    $ sudo service  apache2 restart
 
 
-## Connecting to the MySQL monitor
-Assuming the MySQL server is started, you can connect to it using `mysql` from the terminal. Exit using `ctrl+c`.
+    # MySQL
 
-## Root Password
-If you want to set the root password, use the following command from the terminal
+    ## Start, Stop, Restart the MySQL server
+    MySQL should be started by default. You can manually start, stop and restart the MySQL server using the following terminal commands:
 
-mysqladmin -u root password NEWPASSWORD`
+    $ sudo service mysql start
+    $ sudo service mysql stop
+    $ sudo service mysql restart
 
 
-## Codio Documentation
-Please be aware of the following useful links
+    ## Connecting to the MySQL monitor
+    Assuming the MySQL server is started, you can connect to it using `mysql` from the terminal. Exit using `ctrl+c`.
 
-- [How to Access your Box](/prpject/ide/boxes/)
-- [If your firewall only allows access to port 80](/project/ide/boxes/ext-access/)
-- [Creating Codio menu items to avoid repetitive terminal commands](/project/ide/boxes/runmenu/)
-- [Using Git in Codio](/project/ide/editing/git/)
-- [Customizing the IDE settings](/project/ide/customization/)
-- [Restarting your Box](/project/ide/boxes/restart-reset/)
-- [Creating multiple code editing panels in the IDE](/project/ide/panels/)
+    ## Root Password
+    If you want to set the root password, use the following command from the terminal
 
-## Stack Specific Links
+    mysqladmin -u root password NEWPASSWORD`
 
-- [PHP](http://php.net)
-- [Apache](http://httpd.apache.org)
-- [MySQL](http://dev.mysql.com)
 
-## Updating Components
-If this Stack is not using any of the latest components, please email support@codio.com and we will update it.
-```
+    ## Codio Documentation
+    Please be aware of the following useful links
+
+    - [How to Access your Box](/prpject/ide/boxes/)
+    - [If your firewall only allows access to port 80](/project/ide/boxes/ext-access/)
+    - [Creating Codio menu items to avoid repetitive terminal commands](/project/ide/boxes/runmenu/)
+    - [Using Git in Codio](/project/ide/editing/git/)
+    - [Customizing the IDE settings](/project/ide/customization/)
+    - [Restarting your Box](/project/ide/boxes/restart-reset/)
+    - [Creating multiple code editing panels in the IDE](/project/ide/panels/)
+
+    ## Stack Specific Links
+
+    - [PHP](http://php.net)
+    - [Apache](http://httpd.apache.org)
+    - [MySQL](http://dev.mysql.com)
+
+    ## Updating Components
+    If this Stack is not using any of the latest components, please email support@codio.com and we will update it.
+
+
