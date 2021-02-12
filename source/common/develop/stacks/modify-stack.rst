@@ -1,7 +1,7 @@
 .. _modify-stack:
 
-Modifying a Stack
-=================
+Modify a Stack
+==============
 Any changes you or an application makes to the software on the server (box) outside the **Workspace** folder is considered a stack modification. Such modifications may include changes made using `sudo apt-get install`, manually editing a config file, or changes to a database due to application usage. 
 
 You can modify the stack at any time by opening a project, course assignment, or book and making the stack changes from the :ref:`command line <terminal>`. Keep in mind that your modifications will work fine on the project you are working on as the owner, but the modifications will not be transferred to those being run by your students. 

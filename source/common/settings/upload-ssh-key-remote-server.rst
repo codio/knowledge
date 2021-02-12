@@ -1,8 +1,8 @@
 .. _upload-ssh-key-remote-server:
 
 
-Uploading Your SSH Key to Remote Server
-=======================================
+Upload SSH Key to Remote Server
+===============================
 
 To make a secure connection to a remote server, you must upload your SSH key to the server. 
 

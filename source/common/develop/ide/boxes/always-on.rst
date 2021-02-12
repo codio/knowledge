@@ -3,29 +3,42 @@
 Always-On Boxes
 ===============
 
-Always-On Boxes is now available for all paid subscribers. You can enable Box(es) to be Always-On. This means that it will remain active whether you are in the IDE or even logged out. If your project is archived due to inactivity (usually 30 days since last opened), this process removes it from the active fileserver and will also mean that it can no longer be 'Always-On'. The number of Always-On Boxes you can have depends on the subscription plan
+The Always-On feature for boxes is now available for all paid subscribers. This feature enables you to set boxes to always be on, which means they remain active whether you are in the IDE or logged out. The number of Always-On boxes you can have depends on your subscription plan.
 
-Marking a Project as Always On
-------------------------------
-You can set a Box to Always-On from the **Project->Settings** menu if you're in the IDE. If you're in the Dashboard, select Projects to get the listing, then press the gear icon on the right side of the Project listing. You will be shown the settings screen where you can enable the Always On switch.
+If your project is archived due to inactivity (usually 30 days since last opened), this process removes it from the active fileserver and can no longer be *Always-On*. 
 
-Keeping terminal processes running
-----------------------------------
-When you exit your project in the IDE and return to the Dashboard, any processes that were started within a terminal window will terminate.
+You can set a box to Always-On from the **Project > Settings** menu in the IDE or from the Project dashboard.
 
-You can prevent this in one of two ways.
+Enable Always-On
+----------------
 
-The simple way
---------------
-One simple way to avoid this issue is to append `&` to the terminal command that starts your process. You will see output as usual but may need to press the enter key to get a fresh command prompt.
+From IDE
+^^^^^^^^
+To set a box to Always-On from the IDE:
 
-Then, you will need to enter the following command before you close the terminal window or exit your project and return to the dashboard.
+1. Click the **Project** tab on the menu and choose **Settings**.
+2. On the **General Settings** tab, toggle the **Always-On Box** setting to **On**.
+3. Click **Save Changes**.
 
-.. code:: bash
+From Project dashboard
+^^^^^^^^^^^^^^^^^^^^^^
+To set a box to Always-On from Project dashboard:
 
-    disown -a
+1. Click **My Projects** in the left navigation pane.
+2. Click the **Settings** icon (gear) for the project you want to enable Always-On.
+3. Under **Preferences**, toggle the **Always-On Box** setting to **On**.
+4. Click **Save Changes**.
 
 
-tmux
-----
-As an alternative, you can install tmux.
+Keep terminal processes running
+-------------------------------
+When you exit your project in the IDE and return to the dashboard, any processes that were started from within a terminal window will terminate. You can prevent processes from terminating using one of the following methods:
+
+- Append terminal command - Append `&` to the terminal command that starts your process. You will see output as usual but may need to press the **Enter** key to get a fresh command prompt. Before closing the terminal window or exiting your project, enter the following command:
+  
+  .. code:: bash
+
+     disown -a
+  
+
+- Install tmux

@@ -1,7 +1,7 @@
 .. _start-assigment:
 
-Starting an Assignment
-======================
+Start an Assignment
+===================
 
 Follow these steps to begin working on an assignment:
 

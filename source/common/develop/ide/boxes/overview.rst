@@ -1,48 +1,31 @@
 .. _overview: 
 
-Overview
-========
+IDE Box Overview
+================
 
-Waking a Box
-------------
-When you create a Codio Project, it is automatically assigned an Ubuntu server. You can think of this server as being asleep until you open up your Project in the IDE. As soon as the Project loads in the IDE, the Box is up and running.
+Each Codio project gets its own dedicated Ubuntu Server (box) with sudo access. Review the information in these topics to learn how to access your box, administer it, and install software dependencies.
 
-When is the Server put back to sleep?
--------------------------------------
-Your server is put to sleep within a few minutes of you exiting your Project or after 60mins of inactivity.
+To view details about your project box, click the **Project** tab on the menu bar and choose **Box Info** from the drop-down menu.
 
-Can I have my Box 'Always on'?
-------------------------------
-Paid subscribers can use the :ref:`Always on Boxes <Always on Boxes>` feature. This allows you to mark Projects that you don't want to be put to sleep when you exit your Project.
+.. image:: /img/box_info.png
+   :alt: Box Info
 
-Can I SSH into my Box?
-----------------------
-Yes, see :ref: `SSH into your box <SSH into your box>` documentation.
+Use the following information to get started understanding Codio IDE boxes:
 
-Can I reboot my Box?
---------------------
-Yes. Please refer to the :ref:`Restart and Reset <Restart and Reset>` documentation.
+- **Waking and putting box to sleep** - When you create a Codio Project, it is automatically assigned an Ubuntu server. Once you open the project in the IDE, the box is up and running (awake). The server is put to sleep within a few minutes of exiting the project or after 60 minutes inactivity.
 
-Can I let other people administer my Box?
------------------------------------------
-Paid subscribers can use the Admin property of the [Permissions](/docs/ide/customization/permissions) feature to allow other Codio users to access their Project and have full access to your Codio Box as well as the code.
+  You can use the :ref:`Always on Boxes <Always on Boxes>` feature if you are a paid subscriber. This feature allows you to mark those projects that should not be put to sleep when you exit.
 
-Do I have sudo access?
-----------------------    
-Yes, our Boxes provide sudo access.
+- **SSH into box** - You can SSH into your Codio box if the project is open and the box is ready to receive incoming SSH connections. If you have :ref:`Always-On <always on box>` enabled on the box, it is always ready to receive SSH connections. See :ref:`SSH and Code Access <ssh>` for more information. 
 
-How do I install software dependencies?
----------------------------------------
-You have sudo access, so should use the full power of the `apt <https://help.ubuntu.com/community/AptGet/Howto>`_ package management system, and the packages it provides via the Ubuntu community.
+- **Rebooting a box** - You can restart or reset a box from the Project menu. See :ref:`Restart and Reset a Box <Restart and Reset>` for more information.
 
-How do I access my Box from code?
----------------------------------
-We have :ref:`full documentation <external access>` on how to access your Box from code.
+- **Allowing others to administer your box** - Use the Project Permissions to grant other users Admin permission which grants them full access to your box and the code. See :ref:`Project Permissions <project-permissions>` for more information.
 
-Firewall issues
----------------
-Codio Boxes do not run on port 80. Some companies block outbound access to ports other than port 80. Please read :ref:`this section <external access>` on how to work around this.
+- **Installing software dependencies** - You have sudo access, so should use the full power of the `apt <https://help.ubuntu.com/community/AptGet/Howto>`_ package management system, and the packages it provides via the Ubuntu community.
 
-Important `localhost` configuration information
------------------------------------------------
-In many config files on your Box you would include a reference to `127.0.0.1` to access localhost. Please be sure to use `0.0.0.0` instead.
+- **Accessing box from code** - See :ref:`External Access to Boxes and Ports <external access>` to learn how to access your box from code.
+
+- **Firewall issues** - Codio boxes do not run on port 80 and some companies block outbound access to ports other than port 80. See  :ref:`External Access to Boxes and Ports <external access>` for information about how to work around using port 80.
+
+- **Important `localhost` configuration information** - When referencing accessing localhost in your configuration files, you must use '0.0.0.0' instead of the typical `127.0.0.1`.

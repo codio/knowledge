@@ -1,7 +1,7 @@
 .. _switch-stack:
 
-Switching a Project to New Stack
-================================
+Switch Project to New Stack
+===========================
 
 There are various reasons for switching your project's stack to a new one, including:
 

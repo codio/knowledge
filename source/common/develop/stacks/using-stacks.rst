@@ -15,21 +15,21 @@ On the **Stacks** page, you can select a stack from the following lists:
 - **Certified** - Stacks that are approved by Codio and cover a wide range of common stack configurations.
 - **All** - Searchable repository of all stacks.
 
-Searching stacks
-----------------
+Search stacks
+-------------
 To search for a stack, enter the appropriate search criteria in the search field; this is typically the name of the main stack component(s). The search will return the stack name, description, and any tags that are used.
 
 If you cannot find a stack that meets your needs, you can :ref:`create your own stack <create-stack>` and add it to your Stack library.
 
 
-Viewing stack details
----------------------
+View stack details
+------------------
 Click the Stack in the list to view detailed information, including the version, description, components, and how to use the stack.
 
 To view the different versions of the stack, click the **Versions** tab.
 
-Creating project from a stack
------------------------------
+Create project from a stack
+---------------------------
 You can select a stack to use for :ref:`creating a project <create-project>` using one of the following methods:
 
 - On the stack **Details** page, click **Use Stack**. If there are multiple versions of the stack, the latest version is used to create the project.
@@ -44,8 +44,8 @@ The **Create Project** dialog is then populated with the selected stack configur
 
 **Note:** If you are in an assignment, click the **Stack** button while in **Edit** mode and set the stack version.
 
-Excluding files and folders from stack
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exclude files and folders from stack
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 When you create a stack, it is based on the contents of the **/home/codio** folder but omits your code workspace. If you want to exclude other files or folders, follow these steps:
 
 1. Create a **~/.codio/stack_exclusions** file in the project the stack is based on.

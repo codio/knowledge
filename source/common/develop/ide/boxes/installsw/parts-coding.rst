@@ -1,61 +1,25 @@
 .. _parts-coding:
 
-Adding your own packages
-========================
+Add Your Own Software Packages
+==============================
 
-Overview
---------
-If you cannot find the software you want to install in the list then you can add your own package to the Install Software list by forking our GitHub repository, making the necessary modifications and finally submitting a pull request.
+If you cannot find the software you want to install in the list, you can add your own package to the **Install Software** list by forking our GitHub repository, making the necessary modifications, submitting a pull request.
 
 The repository can be found at https://github.com/codio/install_software
 
-What is a script?
------------------
+Software packages are installed by running a script. You can code your own install package using the concepts in this topic.
+
+Scripts
+-------
 A script is typically, but not necessarily, a bash script that runs a series of commands as you would on the command line to install or configure software on your Codio box. However, it can be any executable code you choose.
 
 The scripts written by Codio typically use Ansible, a very friendly deployment management system that greatly reduces complexity.
 
-`package_list.json`
-^^^^^^^^^^^^^^^^^^^
-This is the manifest that lists the entire contents of the publicly available scripts. Each script has an entry in this file and you should add a new item. 
+package_list.json
+^^^^^^^^^^^^^^^^^
+The **package_list.json** file is is the manifest that lists the entire contents of the publicly available scripts. Each script has an entry in this file, and you must add a new item to the list when coding your own install package. Whenever you open the **Install Software** page (**Tools > Install Software**), this Install Software manifest is retrieved from our GitHub repo.
 
-Here's a reminder of the MySQL entry.
-
-.. code:: json
-
-    "mysql": {
-      "name": "MySQL",
-      "description": "MySQL is an open-source relational database management system (RDBMS)",
-      "script": "mysql/install.sh",
-      "version": "5.5.49",
-      "category": "data_stores"
-    }
-
-
-Whenever a user loads the Install Software dialog, this Install Software manifest is retrieved from our GitHub repo.
-
-`script`
-^^^^^^^^
-The script is the path, relative to the root of the repo, where the installation script can be found.
-
-`category`
-^^^^^^^^^^
-You can specify the category that the component belongs to by updating the `category` field. You can choose from one of the following.
-
-
-- 'data_stores'
-- 'deployment'
-- 'development_tools'
-- 'libraries'
-- 'shells'
-- 'programming_languages'
-- 'utilities'
-- 'web_development'
-
-
-Example : MySQL
-...............
-The following example shows how to install MySQL from the Install Software menu in a few seconds. Try running the MySQL installation on a new box. The MySQL entry in the `package_list.json` file looks like this
+Here's a example of the MySQL entry:
 
 .. code:: json
 
@@ -66,12 +30,38 @@ The following example shows how to install MySQL from the Install Software menu 
       "version": "5.5.49",
       "category": "data_stores"
     }
+where:
 
+- ``script`` - is the path, relative to the root of the repo, where the installation script can be found.
+- ``category`` - is the category that the component belongs to; you can update the category field field with any of the following categories:
 
-You can see the reference to the `mysql/install.sh` script.
+  - data_stores
+  - deployment
+  - development_tools
+  - libraries
+  - shells
+  - programming_languages
+  - utilities
+  - web_development
+
+Example :MySQL
+..............
+The following example shows how to install MySQL from the **Install Software** page in a few seconds. Run the **MySQL** installation on a new box. The MySQL entry in the `package_list.json` file looks like this:
+
+.. code:: json
+
+      "mysql": {
+      "name": "MySQL",
+      "description": "MySQL is an open-source relational database management system (RDBMS)",
+      "script": "mysql/install.sh",
+      "version": "5.5.49",
+      "category": "data_stores"
+    }
+
+You can see the reference to the ``mysql/install.sh`` script.
 
 Bash script
-...........
+^^^^^^^^^^^
 This script calls our standard Ansible loader script, which in turn loads the relevant playbook.
 
 .. code:: bash
@@ -84,10 +74,8 @@ This script calls our standard Ansible loader script, which in turn loads the re
 
 
 Ansible playbook script
-.......................
-As Ansible makes installations and configurations so easy, we use this to make our lives easier. We could have accomplished the same thing within the main bash script using standard Ubuntu commands but it would be less readable and harder to maintain than using Ansible.
-
-If you are interested in finding out more about Ansible playbooks, `click here <http://docs.ansible.com/>`_.
+^^^^^^^^^^^^^^^^^^^^^^^
+Ansible simplifies installations and configurations, as easier to read and maintain than using the main bash script with standard Ubuntu commands. For more information about Ansible playbooks, `click here <http://docs.ansible.com/>`_.
 
 .. code:: json
 
@@ -109,4 +97,5 @@ If you are interested in finding out more about Ansible playbooks, `click here <
             - mysql-client
             - python-mysqldb
         - copy: src=my.cnf dest=/home/codio/.my.cnf
+
 

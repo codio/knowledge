@@ -1,41 +1,48 @@
-GUI based output
+.. _gui:
+
+GUI Based Output
 ================
 
-If you are writing or using programs that have a GUI based output then please read this section. Whether you are using UI libraries like tkinter, qt or simply ubuntu applications that have a non web based UI, this section explains how to setup a virtual desktop.
+If you are writing or using programs that have a GUI-based output, it is important that you read this section. Whether you are using UI libraries such as tkinter and qt, or simply using Ubuntu applications that have a non-web based UI, this section explains how to set up a virtual desktop.
 
-Sample Project
+Sample project
 --------------
-If you created the account for your Codio Trial account then you will find **Demo GUI Output** in your My Projects list. You will find instructions in the README.md file when you open the project.
+If you created a Codio Trial account, the **Demo GUI Output** project is listed in **My Projects**. You can find instructions in the README.md file when you open the project.
 
-If it is not there then `click here to install it in your projects list <https://codio.com/home/starter-packs/d9c00215-ec2a-46e7-b64e-85fab45b0872/>`_
+**Note:** If the **Demo GUI Output** project is not listed, `click here <https://codio.com/home/starter-packs/d9c00215-ec2a-46e7-b64e-85fab45b0872/>` to install it in your projects list.
 
-Uses and Limitations
+Uses and limitations
 ^^^^^^^^^^^^^^^^^^^^
-X Server is a virtual desktop that is very effective for Codio's cloud based infrastructure. Any application that relies on a graphical user interface has its graphical output redirected to it and Codio's viewer is then able to display the virtual desktop in a browser. 
+X Server is a virtual desktop that is very effective for Codio's cloud-based infrastructure. Any application that relies on a graphical user interface has its graphical output redirected to it and Codio's viewer is then able to display the virtual desktop in a browser. 
 
-As you will see when trying out the sample applications in the demo project above, some of which have very complex UIs (notably SQLite and StartUML), you can get a very good experience indeed. The limitations start to be felt when using fast motion graphics where the virtual screen content is changing so fast that it cannot be rendered in real time over the internet. If you have better bandwidth you will experience better performance and vice-versa.
+You can gain good experience using the sample applications in the **Demo GUI Output** project, which also includes some complex UIs (for example, SQLite and StartUML). You may experience limitations when using fast-motion graphics where the virtual screen content is changing so fast that it cannot be rendered in real time over the internet. A stronger bandwidth will provide better performance and overall experience.
 
 
-Installing your own projects
-----------------------------
+Install your own projects
+-------------------------
 
-Installing X Server
-^^^^^^^^^^^^^^^^^^^
-To install X Server, go to the menu **Tools->Install Software** and locate X Server. Press the install button in the X Server row. The installation may take a few minutes and you should then :ref:`Restart <Restart and Reset>` your Box before proceeding.
+Install X Server
+^^^^^^^^^^^^^^^^
+To install X Server, follow these steps:
 
-Running your code
-^^^^^^^^^^^^^^^^^
-Before you can view any output, your program needs to run, so you should first start your code. When you start the viewer (see below), the UI output will be shown automatically.
+1. Click the **Tools** tab and choose **Install Software**.
+2. Find the **X Server** component and click the **Install** icon.
+
+The installation may take a few minutes to complete. You should then :ref:`Restart <Restart and Reset>` your box before proceeding.
+
+Run code
+^^^^^^^^
+Before you can view any output, you must first start your code so the program can run. When you start the viewer (see below), the UI output is automatically displayed.
 
 .. image:: /img/guioutput.png
    :alt: GUI Output
 
 
-You also can start the viewer first but it will be empty until a program runs, whereupon it will refresh.
+You can also start the viewer first but it will be empty until a program is run; it will then refresh and display the output.
 
-The viewer
-^^^^^^^^^^
-The viewer is a special window that appears either inside Codio or in a separate browser tab. To open it, you should add `"Viewer": "https://{{domain3000}}/"` to the .codio file. 
+Use the viewer
+^^^^^^^^^^^^^^
+The viewer is a special window that appears either inside Codio or in a separate browser tab. To open it, add `"Viewer": "https://{{domain3000}}/"` to the .codio file, as follows: 
 
 .. code:: json
     
@@ -57,12 +64,17 @@ The viewer is a special window that appears either inside Codio or in a separate
     }
 
 
-You can also access the from any browser using `https://pagoda-cigar-3000.codio.io/` where you replace `pagoda-cigar` with your boxes domain name, which you can find in the menu at **Project->Box Info** (scroll to the section **Web: Static content**).
+You can also access the viewer from any browser using:
+
+`https://pagoda-cigar-3000.codio.io/` 
+
+where you should replace `pagoda-cigar` with the box domain name. You can find the box domain name on the **Box Info** page in the **Web: Static content** section (**Project > Box Info** ).
 
 Customization
 ^^^^^^^^^^^^^
-You can customise the X Server installation by modifying the config files in the normal way using vim or nano. For example you can
+You can customize the X Server installation by modifying the config files in the normal way using vim or nano. For example you can use:
 
-- `sudo vim /etc/init/openbox.conf` opens the openbox desktop config so you could change the default virtual desktop size
-- `sudo vim /etc/init/novnc-3000.conf` would enable you to modify the port that the viewer runs on in case it conflicts with other services you may have configured on the default port 3000
+- `sudo vim /etc/init/openbox.conf` to open the openbox desktop config so you can change the default virtual desktop size.
+- `sudo vim /etc/init/novnc-3000.conf` to modify the port that the viewer runs on in case it conflicts with other services you may have configured on the default port 3000.
+
 

@@ -1,7 +1,7 @@
 .. _accessing-your-courses:
 
-Accessing Your Courses
-======================
+Access Your Courses
+===================
 
 You access your courses from the **Courses** page and drill down to view the assignments associated with a course. To view your courses and assignments, follow these steps:
 

@@ -1,7 +1,7 @@
 .. _create-stack:
 
-Creating a Stack
-================
+Create a Stack
+==============
 You can create a new stack or stack version from a project or assignment in the IDE, or from the **Stacks** page in the Codio dashboard.
 
 **Note:** Prior to creating a stack, read the information about :ref:`Stacks <stacks>` so you are familiar with how stacks work in Codio.
@@ -13,8 +13,8 @@ Before you create a stack, review the following strategies and considerations to
 - Create a new project from a stack that most closely matches your requirements. You can also use the Base Stack and then :ref:`install your own components <installing-software-packages>`.
 - Include a full description of the stack; this is the description that is displayed in the **Stacks** listing and the stack info (**Projects > Stack > Info**) in a project. For a reference, review some of the Codio Certified Pack long descriptions.
 
-Creating a new stack from the IDE
----------------------------------
+Create a new stack from the IDE
+-------------------------------
 To create a new stack or new version of a stack from a project or assignment in the IDE, follow these steps:
 
 1. Open the project in the IDE.
@@ -26,8 +26,8 @@ To create a new stack or new version of a stack from a project or assignment in 
 
 By default, the stack is Private. To make it available to others, refer to :ref:`Visiblity and Ownership <stacks>`. We recommend that you set the owner to your organization.
 
-Creating a new stack from the dashboard
----------------------------------------
+Create a new stack from the dashboard
+-------------------------------------
 To create a new stack or new version of a stack from the Codio dashboard, follow these steps:
 
 1. In the left navigation pane, **Stacks**.

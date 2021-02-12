@@ -1,23 +1,18 @@
 .. _customizable-run-menu:
 
-Customizable Run Menu
+Customize Run Button
 =====================
-A handy feature is the ability to add commonly used commands to the Codio IDE, akin to using the `alias` command from the command line.
+The Codio IDE offers the ability to customize the **Run** button, similar to using the ``alias command in the command line. When you click **Run**, a new terminal window opens to run the command. You can also force the command to run in an existing terminal window instead of opening a new window.
 
-When the menu item is selected, a new terminal window will open to run the command in. You can also force the command to run in an existing terminal window as we illustrate below.
+Configure Run to open new terminal window
+-----------------------------------------
 
-.codio file
------------
-The configuration for the **Run** (and **Preview**) button can be set by editing the `.codio` file in the root of your project.
-
-The following code below shows the `.codio` file configured to give this Run menu
+To customize the **Run** button to open a new terminal window where you can see the output, you must edit the **.codio** file in the root of your project. 
 
 .. image:: /img/run-menu.png
    :alt: Run Menu
 
-
-
-which is driven by the following `.codio` file
+In the .codio file, locate the lines below, and then copy and paste the following code:
 
 .. code:: json
 
@@ -34,12 +29,11 @@ which is driven by the following `.codio` file
       }
     }
 
+When you click the **Run** button, it executes the last selected command.
 
-When you select a **Run** command, it will open a new console window where you will see the output. Pressing the **Run** button will execute the last selected command.
-
-Using the same terminal window
-------------------------------
-If you want to avoid new terminal windows appearing when you run the command, you can use an id field.
+Configure to run in current terminal window
+-------------------------------------------
+If you want to configure the Run button to run commands in the current terminal window, modify the **id** field in the **.codio** file as follows:
 
 .. code:: json
 
@@ -63,20 +57,16 @@ If you want to avoid new terminal windows appearing when you run the command, yo
       }
     }
 
+**Notes:**
 
-- Commands with the same "id" will share the same terminal window.
+- Commands with the same **id** will share the same terminal window.
 - The terminal id should be "backend-guide" to execute a command in the terminal window opened by guides.
 
+When modifying the **.codio** file, you can also use the following tokens in the shell commands:
 
-
-.codio Tokens
--------------
-You can see from the above `.codio` sample that it is possible to insert tokens into the shell commands. The following tokens are currently available and operate in the main on the currently selected file tab in the IDE
-
-- `{{filepath}}` inserts the path and full file name `/path/to/file.ext`
-- `{{path}}` inserts only the path to the selected file `/path/to/`
-- `{{filename}}` inserts the filename with its extension `file.ext`
-- `{{filename_no_ext}}` inserts the filename without the extension `file`
-- `{{domain3000}}` inserts the public url to your box; `word1-word2-3000.codio.io` to access over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443
-- `{{domain}}` inserts the alternate public url to your box; `word1-word2.codio.io`, be aware that you will usually need to specify a port to reach a service running on your Box. e.g. `word1-word2-<port>.codio.io`
-
+- ``{filepath}}`` - inserts the path and full file name (/path/to/file.ext).
+- ``{{path}}`` - inserts only the path to the selected file (/path/to/).
+- ``{{filename}}`` - inserts the filename with its extension (file.ext).
+- ``{{filename_no_ext}}`` - inserts the filename without the extension (file).
+- ``{{domain3000}}`` - inserts the public url to your box; **word1-word2-3000.codio.io** to access over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
+- ``{{domain}}`` - inserts the alternate public url to your box; **word1-word2.codio.io**; be aware that you will usually need to specify a port to reach a service running on your box (for example, **word1-word2-<port>.codio.io**).

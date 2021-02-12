@@ -21,8 +21,8 @@ To change the permissions on a project, follow these steps:
    - **Write** - User can edit the project.
    - **Admin** - User can access the terminal and the deployment screens. Caution should be used when assigning a user Admin permission because they have full access to keys and any other private data that might be stored on the box.
 
-Adding or Removing a User
--------------------------
+Add or remove a user
+--------------------
 
 To add a user to a box, follow these steps:
 

@@ -1,20 +1,22 @@
 .. _Restart and Reset:
 
-Restart and reset
-=================
-Codio offers the ability to restart and to reset your project's Box. You can find both options in the **Project** menu.
+Restart or Reset Box
+====================
+
+You can restart or reset your project's box from the **Project** menu.
 
 Restart
 -------
-This operation reboots the Box, which usually takes a few seconds.
+To restart the box, click the **Project** tab and choose **Restart Box**. The reboot normally takes a few seconds.
 
 Reset
 -----
-This operation is fairly destructive and should be used with caution. It resets the Box to its fresh state but leaves your code files untouched.
+Resetting a box is fairly destructive and should be used with caution. When performing a box reset, the box is returned to a fresh state but your code files are untouched. It also results in the following:
 
-- any new folders or files that have been created will be deleted
-- all parts of the Box outside of the `~/workspace` folder will be reset
-- all code files in the `~/workspace` folder are untouched
-- a Box restart
+- Any new folders or files that have been created will be deleted.
+- All parts of the box outside the **~/workspace** folder will be reset.
+- All code files in the **~/workspace** folder are untouched.
+- Box restart.
 
-After a Reset, you will need to reinstall components (npm modules, ruby gems etc.) and other modifications you may have made.
+After a Reset, you must reinstall components (npm modules, ruby gems, etc.) and other modifications you may have made.
+

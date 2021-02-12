@@ -3,29 +3,26 @@
 Terminal Window
 ===============
 
-You can access the Terminal window 
+You can open a terminal window in a new IDE panel using the menu bar or the icons in the files tree:
 
-- from the **Tools->Terminal** menu item
-- or by pressing the terminal icon in the bar at the top of the file tree. 
+- To open from menu bar, click **Tools > Terminal** on the menu bar.
 
-.. image:: /img/terminalicon.png
-   :alt: Terminal Icon
+- To open from the file tree, click the **Terminal** icon in the upper menu bar of the file tree. 
 
+  .. image:: /img/terminalicon.png
+  :alt: Terminal Icon
 
+You can also have multiple terminals open simultaneously.
 
-This will open up a terminal window in a new IDE panel. You can have multiple terminals open simultaneously.
-
-Note that you can create tabs and panels anywhere you like using Codio's [Panels and Tabs](/docs/ide/panels/) features.
+You can create panels and tabs to customize your project layout. See :ref:`Panels and Tabs <panels>` for more information.
 
 .. image:: /img//terminal.png
    :alt: Terminal
 
 
-Terminal Settings
+Terminal settings
 -----------------
-You can modify various Terminal settings from the **Codio->Preferences** menu.
-
-The available settings (and their defaults) are listed below. Preferences can be modified at the User level as [described here](/docs/ide/customization/codio-prefs). You can also force settings at the Project level but these will then override for all users looking at this project, so should be used sparingly.
+You can modify the Terminal settings from the **Codio > Preferences** menu. The following settings can be modified (defaults are shown): 
 
 .. code:: ini
 
@@ -55,5 +52,6 @@ The available settings (and their defaults) are listed below. Preferences can be
     ; Type: hotkey 
     backend-connection = Shift+Alt+T
 
+Preferences can be modified at the User level as described in :ref:`User Preferences <user-prefs>` or at the Project level.
 
-
+**Note:** When changing settings at the Project level, the settings will be applied for all users looking at the project.

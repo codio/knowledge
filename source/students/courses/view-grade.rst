@@ -1,7 +1,7 @@
 .. _view-grade:
 
-Viewing Grades
-==============
+View Grades
+===========
 When your assignment has been graded and released by your instructor, the **Status** column in the assignment shows **graded**.
 
 .. image:: /img/graded.png

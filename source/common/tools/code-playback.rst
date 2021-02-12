@@ -13,6 +13,16 @@ The file that is currently active is built and displayed. To review other files 
 
 - To manually walk through the changes, click the **Previous change** and **Next change** buttons. You can drag the playback slider to find points of interest.
 
-Retrieving Deleted Files
+Retrieving deleted files
 ------------------------
-If you delete a file in error, you can use **Code Playback** to retrieve the file, review how it was built, and copy and paste your last saved work into a new file to recreate it.
+If you delete a file in error, you can use **Code Playback** to find the file and recreate it. Follow these steps to retrieve a deleted file:
+
+1. Open the assignment and click **Tools > Code Playback**.
+2. Click the **Folder** icon and select the file that you want to recover.
+3. Review the file and see how it was built by clicking the **Play** icon. 
+
+   You can find your last saved work by clicking on **Previous**, **Play/Pause**, and **Next** icons, or by dragging the timeline bar.
+4. Copy the code from the playback and paste it into a new file.
+
+
+**Note:** If you don't see **Tools > Code Playback** on the menu bar, right-click a tab or in the file tree, and choose **Code Playback**.

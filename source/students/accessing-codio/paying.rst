@@ -1,9 +1,12 @@
 .. _paying:
 
-Paying for Codio Subscription
-=============================
+Pay for Codio Subscription
+==========================
 
 A Codio subscription gives you access to your courses for the semester. You can pay for your subscription using the **Billing** tab on the **Settings** page. The procedure you follow depends on whether you are paying for the subscription yourself or redeeming a code for a subscription that was obtained from your campus bookstore.
+
+You can also cancel your subscription from this page. If the plan is for one or two semesters, there is no need to cancel the subscription. When your class ends, only the payment for the class is charged.You
+
 
 **Note:** A single subscription can be used for multiple courses in Codio during the specified timeframe.
 

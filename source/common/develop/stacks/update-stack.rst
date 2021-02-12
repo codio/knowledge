@@ -1,12 +1,12 @@
 .. _update-stack:
 
-Updating a Stack
-================
+Update a Stack
+==============
 
 After :ref:`creating a new stack <create-stack>`, you may want to update the stack properties or take another stack snapshot from a Codio project. You can update your stack from the **Stacks** area on the Codio dashboard or from the IDE.
 
-Updating stack from the dashboard
----------------------------------
+Update stack from the dashboard
+-------------------------------
 To update the stack from the Codio dashboard, follow these steps:
 
 1. In the navigation pane, click **Stacks** and then select the stack from the list.
@@ -20,8 +20,8 @@ To update the stack from the Codio dashboard, follow these steps:
 
 4. Add a comment describing what has changed since the last version.  A new version is generated (this can take a few minutes).
 
-Updating stack from the IDE
----------------------------
+Update stack from the IDE
+-------------------------
 
 You may find it easier to update a stack from within the IDE and the project that you are currently working on. After you have finished making changes to your box (installing new components etc.), follow these steps to create a new stack version:
 
@@ -36,8 +36,8 @@ You may find it easier to update a stack from within the IDE and the project tha
 
 3. Click **Project** on the menu bar and choose **Stack > Settings** to point to a different stack.
 
-Viewing stack version history
------------------------------
+View stack version history
+--------------------------
 You can view the version history of a stack from the **Stacks** page on the Codio dashbaord. Select the stack from the listing and then click the **Versions** link at the top of the page.
 
 .. image:: /img/stacks_versions.png

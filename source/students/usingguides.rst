@@ -1,5 +1,7 @@
-Using Guides
-============
+.. _guides:
+
+Use Guides
+==========
 
 Play mode
 ---------
@@ -13,7 +15,7 @@ To see your content running, you need to *Play* it. If the content does not auto
 At this point the panel layout is set up automatically according to the layout specified in the first section and it will be displayed.
 
 
-Player Options
+Player options
 --------------
 
 .. image:: /img/guides/studentplaymode.png
@@ -30,22 +32,16 @@ Within the player various options can be controlled by the user
 - **Collapse** button will not show if the page layout is One Pane.
 
 
-Guides
-======
-
-Restore Current Files
+Restore current files
 ---------------------
-Sometimes you might make changes to your work that you don’t like or that you don’t want to keep.
 
-The easiest way to get rid of these is to restore the original files in a assignment.
-To do this:
+There may be times when you want to make changes to your work or discard some of it. The easiest way to accomplish this is to restore the original files in a assignment.
 
-1. Open the assignment you are working on. In the top right, choose the settings icon, and then **Restore current files**
+1. Open the assignment that you want to restore.
 
-.. image:: /img/guides/reset.png
-   :alt: Restore
+2. In the upper right corner, click the **Settings** icon and choose **Restore current files**.
 
+   .. image:: /img/guides/reset.png
+      :alt: Restore Current Files
 
-If this does not achieve what you need, you can contact your class instructor who can reset the assignment back to its default state and you can start again as new.
-
-
+**Note:** If this does not accomplish what you intended, contact your instructor to have them reset the assignment to its default state so you can restart it.

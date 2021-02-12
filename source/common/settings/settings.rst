@@ -8,7 +8,7 @@ You manage your account and customize your user preferences on the **Settings** 
 From the **Settings** page, you can access and manage the following:
 
 - :ref:`User Profile <user-profile>`
-- :ref:`Changing Your Password <change-password>`
+- :ref:`Manage Password <password>`
 - :ref:`Billing and Payment History <paying>`
 - :ref:`SSH Key <ssh-key>`
-- :ref:`Uploading Your SSH Key to Remote Server <upload-ssh-key-remote-server>`
+- :ref:`Upload SSH Key to Remote Server <upload-ssh-key-remote-server>`

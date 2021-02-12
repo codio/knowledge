@@ -1,7 +1,7 @@
 .. _bitbucket:
 
-Connecting to BitBucket
-=======================
+Connect to BitBucket
+====================
 
 If you are working with BitBucket, you must install your Codio SSH key and connect to the application. See :ref:`Uploading Your SSH Key to Remote Server <upload-ssh-key-remote-server>`.
 

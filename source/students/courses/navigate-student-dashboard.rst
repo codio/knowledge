@@ -1,7 +1,7 @@
 .. _navigate-student-dashboard:
 
-Navigating the Student Dashboard
-================================
+Navigate the Student Dashboard
+==============================
 The Student dashboard is the main page student's use to navigate Codio. You can toggle between two dashboard views using the **New Look** button in the upper right corner.
 
 Default Dashboard:

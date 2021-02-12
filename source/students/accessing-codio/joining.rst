@@ -1,7 +1,7 @@
 .. _joining:
 
-Joining a Course
-================
+Join a Course
+=============
 
 You can join a course directly from your LMS platform (such as Canvas, Blackboard, Moodle, etc.), or use a URL or token provided by your instructor.
 

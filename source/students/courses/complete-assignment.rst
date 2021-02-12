@@ -1,5 +1,5 @@
-Completing Assignments
-======================
+Complete Assignments
+====================
 
 When you have completed an assignment you can mark it as completed (if the content author has not disabled this option) using one of the following methods:
 

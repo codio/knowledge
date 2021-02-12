@@ -1,7 +1,7 @@
 .. _github:
 
-Connecting to GitHub
-====================
+Connect to GitHub
+=================
 
 If you are working with GitHub, you must install your Codio SSH key and connect to the application. See :ref:`upload-ssh-key-remote-server <Uploading Your SSH Key to Remote Server>`.
 
