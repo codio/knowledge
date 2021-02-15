@@ -2,7 +2,7 @@
 
 Customize Run Button
 =====================
-The Codio IDE offers the ability to customize the **Run** button, similar to using the ``alias command in the command line. When you click **Run**, a new terminal window opens to run the command. You can also force the command to run in an existing terminal window instead of opening a new window.
+The Codio IDE offers the ability to customize the **Run** button, similar to using the ``alias`` command in the command line. When you click **Run**, a new terminal window opens to run the command. You can also force the command to run in an existing terminal window instead of opening a new window.
 
 Configure Run to open new terminal window
 -----------------------------------------

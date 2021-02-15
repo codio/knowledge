@@ -10,7 +10,7 @@ You can open a terminal window in a new IDE panel using the menu bar or the icon
 - To open from the file tree, click the **Terminal** icon in the upper menu bar of the file tree. 
 
   .. image:: /img/terminalicon.png
-  :alt: Terminal Icon
+     :alt: Terminal Icon
 
 You can also have multiple terminals open simultaneously.
 

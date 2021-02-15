@@ -30,6 +30,7 @@ Here's a example of the MySQL entry:
       "version": "5.5.49",
       "category": "data_stores"
     }
+    
 where:
 
 - ``script`` - is the path, relative to the root of the repo, where the installation script can be found.
