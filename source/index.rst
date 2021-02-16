@@ -334,9 +334,19 @@ Accessing Codio
    :maxdepth: 2
    
    students/accessing-codio/joining
-   common/accessing-codio/paying
-   common/settings/settings
+   students/accessing-codio/paying
+   
       
+Account Settings
+^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/settings/settings
+   common/settings/user-profile
+   common/settings/manage-passwords
+   common/settings/ssh-key
    
    
 Your Courses
@@ -370,33 +380,109 @@ Useful Tools
 Developing Code
 ^^^^^^^^^^^^^^^
 
-.. toctree::
-   :maxdepth: 2
-   
 Projects
---------
+********
 
 .. toctree::
    :maxdepth: 2
    
-   common/develop/projects/projects
-   common/develop/projects/project-permissions
-   common/develop/projects/accessing-projects
-   common/develop/projects/create-import-project
-   common/develop/projects/copy-project
+   common/projects/projects
+   common/projects/project-permissions
+   common/projects/create-import-project
+   common/projects/access-projects
+   common/projects/copy-project
+   common/projects/export-project
    
 Stacks
+******
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/stacks/stacks
+   common/stacks/using-stacks
+   common/stacks/create-stack
+   common/stacks/modify-stack
+   common/stacks/update-stack
+   common/stacks/switch-stack
+   
+
+IDE
+****
+
+Workspace
+---------
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/ide/workspace/workspace
+   common/develop/ide/workspace/open-file
+   common/develop/ide/workspace/upload-download-files
+   common/develop/ide/workspace/add-delete-folders
+   common/develop/ide/workspace/add-delete-files
+   
+   
+Boxes
+-----
+
+.. toctree::
+   :maxdepth: 2
+
+   common/develop/ide/boxes/overview
+   common/develop/ide/boxes/ide-access-permissions
+   common/develop/ide/boxes/terminal
+   common/develop/ide/boxes/access
+   common/develop/ide/boxes/ext-access
+   common/develop/ide/boxes/always-on
+   common/develop/ide/boxes/restart-reset
+   common/develop/ide/boxes/runmenu
+   common/develop/ide/boxes/startup
+   
+
+   
+Installing Software Packages
+----------------------------
+
+The different options for installing your own software packages
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/ide/boxes/index
+   common/develop/ide/boxes/installsw/install-software
+   common/develop/ide/boxes/file-locations
+   common/develop/ide/boxes/default-installed
+   common/develop/ide/boxes/parts-coding
+   common/develop/ide/boxes/langserver
+   common/develop/ide/boxes/gui
+   
+
+   
+
+  
+Debugger
 --------
 
 .. toctree::
    :maxdepth: 2
    
-   common/develop/stacks/stacks
-   common/develop/stacks/create-stack
-   common/develop/stacks/switch-stack
-   common/develop/stacks/modify-stack
-   common/develop/stacks/update-stack
-   common/develop/stacks/using-stacks
+  
+
+Features
+--------
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/ide/features/features
+   common/develop/ide/features/junit
+   common/develop/ide/features/autocomplete
+   
+
+
+
+
 
 
 Admin

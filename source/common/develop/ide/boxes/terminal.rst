@@ -3,7 +3,7 @@
 Terminal Window
 ===============
 
-You can open a terminal window in a new IDE panel using the menu bar or the icons in the files tree:
+You can open a terminal window in a new IDE panel using the menu bar or the icons in the Filetree:
 
 - To open from menu bar, click **Tools > Terminal** on the menu bar.
 

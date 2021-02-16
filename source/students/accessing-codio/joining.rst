@@ -21,7 +21,7 @@ To access your course, log in to your Codio account and select **Courses** in th
 
 - :ref:`Navigating the Student Dashboard <navigate-student-dashboard>`
 - :ref:`Paying for Codio Subscription <paying>`
-- :ref:`Forgot Your Password <forgot-password>`
-- :ref:`Changing Your Password <change-password>`
+- :ref:`Manage Password <password>`
+
 
 

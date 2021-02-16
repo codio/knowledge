@@ -1,3 +1,3 @@
 .. _panels:
 
-Panels and Tabs
+# Panels and Tabs
