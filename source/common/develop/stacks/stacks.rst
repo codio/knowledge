@@ -6,7 +6,7 @@ Codio projects are mounted to software configuration templates, known as Codio s
 
 When you create a new Codio project or course assignment, you must specify a stack that contains the operating system (always) and other components such as languages, databases and tools. You can use our pre-configured stacks or create your own using the :ref:`project templates <projects>`. 
 
-Codio’s templates deliver fully preconfigured servers in less than 5 seconds, no matter how complex the configuration. You can also snapshot a box's stack :ref:`create a stack <create-a-stack>` and add it to the **Stacks** template library.
+Codio’s templates deliver fully preconfigured servers in less than 5 seconds, no matter how complex the configuration. You can also snapshot a box's stack :ref:`create a stack <create-stack>` and add it to the **Stacks** template library.
 
 **Note:** It is very important to understand how Stacks are used in Codio, especially when working with courses. Incorrect usage can result in being able to edit a project but then failing when it is run.
 

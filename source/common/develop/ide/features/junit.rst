@@ -7,7 +7,7 @@ Codio provides a simple way to test Java in your project using [JUnit](https://j
 
 - Use the [Java 8](https://codio.com/home/stacks/cf71b65b-ab7a-4f9b-9885-34009fccb476/?tab=details) stack.
 - Manually install Java on your box.
-- Install Java from **Tools > Install Software**. See :ref:`Install Software Packages <install-software>` for more information.
+- Install Java from **Tools > Install Software**. See :ref:`Install Software Packages <box_parts>` for more information.
 
 Configure JUnit
 ---------------

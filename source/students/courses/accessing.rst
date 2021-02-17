@@ -20,5 +20,5 @@ You access your courses from the **Courses** page and drill down to view the ass
 - :ref:`Navigating the Student Dashboard <navigate-student-dashboard>`
 - :ref:`Joining a Course <joining>`
 - :ref:`Paying for Codio Subscription <paying>`
-- :ref:`Forgot Your Password <forgot-password>`
-- :ref:`Changing Your Password <change-password>`
+- :ref:`Forgot Your Password <password>`
+- :ref:`Changing Your Password <password>`

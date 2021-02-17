@@ -14,4 +14,4 @@ Follow these steps to begin working on an assignment:
 - :ref:`Play Mode <play-mode>`
 - :ref:`Completing an Assignment <complete-assignment>`
 - :ref:`Exam Mode <exam-mode>`
-- :ref:`Viewing Grades <view-grades>`
+- :ref:`Viewing Grades <view-grade>`

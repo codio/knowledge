@@ -10,7 +10,7 @@ Stack guidelines
 ----------------
 Before you create a stack, review the following strategies and considerations to improve their usefulness:
 
-- Create a new project from a stack that most closely matches your requirements. You can also use the Base Stack and then :ref:`install your own components <installing-software-packages>`.
+- Create a new project from a stack that most closely matches your requirements. You can also use the Base Stack and then :ref:`install your own components <box_parts>`.
 - Include a full description of the stack; this is the description that is displayed in the **Stacks** listing and the stack info (**Projects > Stack > Info**) in a project. For a reference, review some of the Codio Certified Pack long descriptions.
 
 Create a new stack from the IDE

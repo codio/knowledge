@@ -1,3 +1,5 @@
+.. _start-debug:
+
 Start Debug Session
 ===================
 

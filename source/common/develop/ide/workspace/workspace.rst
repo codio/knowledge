@@ -7,7 +7,7 @@ learning to code.
 Review the following common tasks to get you started using the
 workspace:
 
--  :ref:`Add and Delete Folders <add-delete-folders`
+-  :ref:`Add and Delete Folders <add-delete-folders>`
 -  :ref:`Add and Delete Files <add-delete-files>`
 -  :ref:`Upload and Download Files <upload-download-files>`
 -  :ref:`Open a File <open-file>`

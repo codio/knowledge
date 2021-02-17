@@ -1,11 +1,12 @@
+.. _create-debug-target:
+
+
 Create and Manage Debugger Targets
 ==================================
 
-Before you can start debugging a project, you must first create your
-debug targets. Creating multiple targets allows you to:
+Before you can start debugging a project, you must first create your debug targets. Creating multiple targets allows you to:
 
--  Quickly debug the same application with different command line
-   arguments to test different scenarios.
+-  Quickly debug the same application with different command line arguments to test different scenarios.
 -  Debug more than one application.
 
 You manage your debug targets on the **Debugger Settings** page.
@@ -49,4 +50,4 @@ To create a debug target, follow these steps:
 
 5. Click **Create Target**.
 
-You are now ready to :ref:`start debug <start-debug>`.
+You are now ready to :ref:`start-debug`.

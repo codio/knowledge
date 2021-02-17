@@ -10,13 +10,13 @@ You can SSH into your Codio box from code using SSH public keys. Understanding h
 
 Codio box SSH keys
 ------------------
-Codio generates a key-pair that can be uploaded to connect to applications such as Github and BitBucket. See :ref:`SSH Keys <ssh-key`> for information on uploading your public key to Github and Bitbucket.
+Codio generates a key-pair that can be uploaded to connect to applications such as Github and BitBucket. See :ref:`ssh-key` for information on uploading your public key to Github and Bitbucket.
 
 When you create a new Codio project, your user keys are automatically copied into your project and can be found in the **~/.ssh** folder. To access this folder, open a terminal window and navigate to the **id_rsa** file.
 
 SSH into your box
 -----------------
-Unless your project has the :ref:`Always-on Box <Always on Boxes>` feature enabled, you must open your Codio project to start the box so that it is ready for receiving incoming SSH connections.
+Unless your project has the :ref:`Always on Boxes` feature enabled, you must open your Codio project to start the box so that it is ready for receiving incoming SSH connections.
 
 To prepare your box for external access, follow these guidelines:
 

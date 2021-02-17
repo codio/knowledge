@@ -1,3 +1,5 @@
+.. _complete-assignment:
+
 Complete Assignments
 ====================
 

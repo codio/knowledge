@@ -7,7 +7,7 @@ Codio Stacks enable you to create and manage a combination of a Codio box and in
 .. image:: /img/stacks_list.png
    :alt: Stacks List
 
-You can also select a stack when :ref:`creating a project <create-project>` or :ref:`switching the stack for a project <switch-stack>`.
+You can also select a stack when :ref:`creating a project <create-import-project>` or :ref:`switching the stack for a project <switch-stack>`.
 
 On the **Stacks** page, you can select a stack from the following lists:
 
@@ -30,7 +30,7 @@ To view the different versions of the stack, click the **Versions** tab.
 
 Create project from a stack
 ---------------------------
-You can select a stack to use for :ref:`creating a project <create-project>` using one of the following methods:
+You can select a stack to use for :ref:`creating a project <create-import-project>` using one of the following methods:
 
 - On the stack **Details** page, click **Use Stack**. If there are multiple versions of the stack, the latest version is used to create the project.
 - On the stack **Versions** page, find the version in the list and click **Use Stack**. You can then create the project using that specific version. Codio recommends using the latest version of a stack.
