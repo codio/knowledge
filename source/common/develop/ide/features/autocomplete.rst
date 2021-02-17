@@ -26,23 +26,24 @@ We support intelligent autocomplete using TernJS. Tern also supports explicit di
 
 The file looks like this:
 
-```json
-{
-  "libs": [
-    "browser",
-    "jquery"
-  ],
-  "loadEagerly": [
-    "importantfile.js"
-  ],
-  "plugins": {
-    "requirejs": {
-      "baseURL": "./",
-      "paths": {}
+.. code:: json
+
+    {
+      "libs": [
+        "browser",
+        "jquery"
+      ],
+      "loadEagerly": [
+        "importantfile.js"
+      ],
+      "plugins": {
+        "requirejs": {
+          "baseURL": "./",
+          "paths": {}
+        }
+      }
     }
-  }
-}
-```
+
 
 Codio only supports autocomplete for the currently opened file and items specified in the ``libs`` section of the **.tern-project** file. Refer to the [Tern documentation](https://ternjs.net/doc/manual.html#configuration) for full details on how to configure the **.tern-project** file.
 
