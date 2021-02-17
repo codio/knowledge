@@ -467,7 +467,9 @@ Debugger
 .. toctree::
    :maxdepth: 2
    
-  
+   common/develop/ide/debugger/debugger
+   common/develop/ide/debugger/create-debug-target
+   common/develop/ide/debugger/start-debug
 
 Features
 --------
