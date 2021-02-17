@@ -381,7 +381,7 @@ Developing Code
 ^^^^^^^^^^^^^^^
 
 Projects
-********
+--------
 
 .. toctree::
    :maxdepth: 2
@@ -394,7 +394,7 @@ Projects
    common/projects/export-project
    
 Stacks
-******
+------
 
 .. toctree::
    :maxdepth: 2
@@ -408,7 +408,7 @@ Stacks
    
 
 IDE
-****
+---
 
 Workspace
 ---------
