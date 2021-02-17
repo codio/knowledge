@@ -1,40 +1,29 @@
 IDE Workspace
 =============
 
-The Codio IDE is a web-based, easy to use workspace when you are
-learning to code.
+The Codio IDE is a web-based, easy to use workspace when you are learning to code.
 
-Review the following common tasks to get you started using the
-workspace:
+Review the following common tasks to get you started using the workspace:
 
--  `Add and Delete
-   Folders </project/common/develop/ide/workspace/add-delete-folders>`__
--  `Add and Delete
-   Files </project/common/develop/ide/workspace/add-delete-files>`__
--  `Upload and Download
-   Files </project/common/develop/ide/workspace/upload-download-files>`__
+-  `Add and Delete Folders </project/common/develop/ide/workspace/add-delete-folders>`__
+-  `Add and Delete Files </project/common/develop/ide/workspace/add-delete-files>`__
+-  `Upload and Download Files </project/common/develop/ide/workspace/upload-download-files>`__
 -  `Open a File </project/common/develop/ide/workspace/open-file>`__
 -  `Export Project <project/common/projects/export-project>`__
 
-When you open up a project in the IDE, the readme.md file in the root of
-the project is displayed in a tab in markdown.
+When you open up a project in the IDE, the readme.md file in the root of the project is displayed in a tab in markdown.
 
 .. figure:: /img/readme-md.png
    :alt: Readme.md File
 
-   Readme.md File
-You can also select the README.md file in the Filetree. You can switch
-between **Preview**, **Code**, or **Splitview** in the lower right
-corner.
+You can also select the README.md file in the Filetree. You can switch between **Preview**, **Code**, or **Splitview** in the lower right corner.
 
-The **readme.md** file should be written in [markdown]
-(http://daringfireball.net/projects/markdown/basics).
+The **readme.md** file should be written in [markdown] (http://daringfireball.net/projects/markdown/basics).
 
 Exit the IDE
 ------------
 
-You can exit the IDE and return to the Dashboard using one of the
-following methods:
+You can exit the IDE and return to the Dashboard using one of the following methods:
 
 -  Click the **Project** tab on the menu bar and choose **Close**.
 -  Click the Gravatar or your user name in the menu bar.
