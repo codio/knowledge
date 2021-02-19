@@ -13,8 +13,7 @@ workspace:
 -  :ref:`Open a File <open-file>`
 -  :ref:`Export Project <export-project>`
 
-When you open up a project in the IDE, the readme.md file in the root of
-the project is displayed in a tab in markdown.
+When you open up a project for the first time in the IDE, the readme.md file in the root of the project is displayed in a tab in markdown. When you open the project again, it opens as you last left it with the same files and tabs. Whichever file was open in front is opened again.
 
 .. figure:: /img/readme-md.png
    :alt: Readme.md File
@@ -22,6 +21,8 @@ the project is displayed in a tab in markdown.
 You can also select the README.md file in the Filetree. You can switch
 between **Preview**, **Code**, or **Splitview** in the lower right
 corner.
+
+Subsequent times you see the project as you last left it with the files and tabs the same and whatever file was open in front will be open again.
 
 The **readme.md** file should be written in [markdown]
 (http://daringfireball.net/projects/markdown/basics).
