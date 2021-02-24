@@ -3,9 +3,9 @@
 Exam Mode
 =========
 
-Your instructor can enable assignments with the following exam mode options:
+If your instructor has enabled exam mode features you may experience the following when taking an exam:
 
-- **Shuffle Question Order** - Pages or exam questions are presented in random order when this option is enabled.
+- **Shuffle Question Order** - The exam pages or questions are presented in random order to students so everyone's exams are not identical.
 
 - **Forward Only Navigation** - You can only move forward through the pages during the exam, and cannot go back to previous pages. If this option is enabled, you will be advised of this restriction when you start the assignment.
 

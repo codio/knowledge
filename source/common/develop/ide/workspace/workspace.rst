@@ -25,14 +25,13 @@ corner.
 Subsequent times you see the project as you last left it with the files and tabs the same and whatever file was open in front will be open again.
 
 The **readme.md** file should be written in [markdown]
-(http://daringfireball.net/projects/markdown/basics).
+(https://www.markdownguide.org/cheat-sheet/).
 
 Exit the IDE
 ------------
 
-You can exit the IDE and return to the Dashboard using one of the
-following methods:
+You can exit the IDE and return to the Dashboard using one of the following methods:
 
--  Click the **Project** tab on the menu bar and choose **Close**.
+-  Click the **Project** tab on the menu bar and choose **Exit**.
 -  Click the Gravatar or your user name in the menu bar.
 

@@ -2,16 +2,17 @@
 
 Share Project
 =============
-<Ian please review for accuracy, original instructions were not clear>
 
-To share a project or link to a project from a web page, follow these steps:
+You can share a project if it public (**Project > General Setting > Public**).To share a project or link to a project from a web page, follow these steps.
 
 1. Click the **Project** tab on the menu bar and choose **Share**.
 
    .. image:: /img/sharing.png
       :alt: Share Project
 
-2. On the **Share Your Project** dialog, select the option for how you want to embed or link to your project for the IDE to render it:
+2. Click one of the options at the top of the dialog (Twitter, Facebook, Email, or Link) to share the project.
+
+3. On the **Share Your Project** dialog, select the option for how you want to embed or link to your project for the IDE to render it:
 
    - **Project URL** - Use this URL to display the project with the active panel or opened file configuration. The URL can change depending on what the user has active.
 
@@ -19,6 +20,4 @@ To share a project or link to a project from a web page, follow these steps:
 
    - **With Layout** - Use this URL if you want to always use the exact panel and file configuration is currently opened. You should use this option if you want to embed it in a log post or page where the exact configuration needs to be retained.
 
-3. For additional options, click the link to expand the dialog.
-4. Click **HTML** or **Markdown**, and then copy and paste the code.
-5. Click one of the options at the top of the dialog (Twitter, Facebook, Email, or Link) to share the project.
+  If you prefer to paste the URL for the **Project URL** and **With Layout** options, click the link to generate it in **Markdown** or **HTML** format and then paste the code. 

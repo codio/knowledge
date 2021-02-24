@@ -20,7 +20,7 @@ Navigation menu
 Use left navigation menu to access the different areas of the UI:
 
 - **STUDY** - Provides a link to access your **Courses**.
-- **BUILD** - Provides links to accesss project tools and our professional IDE.
+- **BUILD** - Provides links to access project tools and our professional IDE.
 - **HELP** - Provides links to our customer service team and our help documentation.
 
 Courses

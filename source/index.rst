@@ -471,21 +471,30 @@ Debugger
    common/develop/ide/debugger/create-debug-target
    common/develop/ide/debugger/start-debug
 
-Features
---------
+Code Editing Features
+---------------------
 
 .. toctree::
    :maxdepth: 2
    
-   common/develop/ide/features/features
-   common/develop/ide/features/junit
-   common/develop/ide/features/autocomplete
+   common/develop/ide/editing/code-editing
+   common/develop/ide/editing/abbreviations
+   common/develop/ide/editing/autocomplete
+   common/develop/ide/editing/code-beautifier
+   common/develop/ide/editing/color-picker
+   common/develop/ide/editing/command-bar
+   common/develop/ide/editing/cursor
+   common/develop/ide/editing/force-language-highlighting
+   common/develop/ide/editing/git
+   common/develop/ide/editing/junit
+   common/develop/ide/editing/keyboard-shortcuts
+   common/develop/ide/editing/preview
+   common/develop/ide/editing/quick-open
+   common/develop/ide/editing/real-time-collaboration
+   common/develop/ide/editing/save-files
+   common/develop/ide/editing/search-replace
+   copyommon/develop/ide/editing/share-project
    
-
-
-
-
-
 
 Admin
 =====

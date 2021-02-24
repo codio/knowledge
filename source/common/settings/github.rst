@@ -3,7 +3,7 @@
 Connect to GitHub
 =================
 
-If you are working with GitHub, you must install your Codio SSH key and connect to the application. See :ref:`Uploading Your SSH Key to Remote Server <upload-ssh-key-remote-server>`.
+If you are working with GitHub, you must install your Codio SSH key and connect to the application. 
 
 1. Click your user name or gravatar in the lower portion of the navigation pane to open the **Settings** page.
 2. Click the **Applications** tab.

@@ -1,4 +1,0 @@
-.. _features:
-
-IDE Features
-
