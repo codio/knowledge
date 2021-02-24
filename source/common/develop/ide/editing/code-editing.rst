@@ -10,7 +10,7 @@ Codio has various IDE features to enhance productivity when working with HTML, C
 - :ref:`Color Picker and Previewer <color-picker>`
 - :ref:`Command Bar <command-bar>`
 - :ref:`Cursor Features <cursor>`
-- :ref:`Force Language Highlighting <langhighlight>`
+- :ref:`Force Language Highlighting <lang-highlight>`
 - :ref:`Git and GitHub <git>`
 - :ref:`JUnit Testing Framework <junit>`
 - :ref:`Keyboard Shortcuts <shortcuts>`

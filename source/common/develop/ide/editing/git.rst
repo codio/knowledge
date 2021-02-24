@@ -4,14 +4,14 @@ Git and GitHub
 ==============
 Git and GitHub are preinstalled, as well as Mercurial and SVN. You can open a :ref:`Terminal window <terminal>` to access them from the command line. The **Tools > Git** menu includes options for using Git. 
 
-You can also configure your **.codio** file so common commands are accessible from the **Run** menu in the Codio IDE. See :ref:`Customize Run Button <runmenu>` for more information.
+You can also configure your **.codio** file so common commands are accessible from the **Run** menu in the Codio IDE. See :ref:`Customize Run Button <customizable-run-menu>` for more information.
 
 If you are new to Git, refer to the following to get started:
 
 * `Git is simpler than you think <http://nfarina.com/post/9868516270/git-is-simpler>`__ (explains how Git works rather than teaching you usage).
 
 * `Git reference <http://git-scm.com/docs>`__
--  `Introduction to Git by Scott Chacon <http://git-scm.com/book>`__
+* `Introduction to Git by Scott Chacon <http://git-scm.com/book>`__
 
 * `10 Git Tutorials for beginners <http://sixrevisions.com/resources/git-Tutorials-beginners/>`__
 
@@ -72,7 +72,7 @@ To manually import a Git repo into Codio, follow these steps:
 1. In GitHub, click the **Clone URL** link in the right pane and copy to the clipboard.
 
    .. figure:: /img/github-clone-url.png
-   :alt: create from GitHub
+      :alt: create from GitHub
 
   If you cloning using SSH, you must have already added the Codio SSH public key as described in :ref:`Upload SSH Key to Remote Server <upload-ssh-key-remote-server>`.
 
@@ -81,7 +81,7 @@ To manually import a Git repo into Codio, follow these steps:
 3. Click the **Click here** link for more options.
 
    .. figure:: /img/github-create.png
-   :alt: create from GitHub
+      :alt: create from GitHub
 
 4. In the **Select your Starting Point** area, click **Import**.
 
@@ -180,7 +180,7 @@ You can revert your code back to an earlier commit to roll back your changes. Us
 -  ``git revert 'commit id'`` - reverts back to the SHA (uid); you can see when you type ``git log``.
 -  ``git revert HEAD`` - reverts back to the last commit, deleting any uncommitted changes.
 -  ``git revert HEAD~n`` - reverts to the last n commit; for example, HEAD~3 reverts to the 4th last commit.
--  ``git revert HEAD^^^``(count of ^ is like ~n) - reverts to the last n commit; for example, HEAD^^^4 reverts to the 4th last commit.
+-  ``git revert HEAD^^^`` - (count of ^ is like ~n) - reverts to the last n commit; for example, HEAD^^^4 reverts to the 4th last commit.
 
 For more information about reverting code, see <http://git-scm.com/docs/git-revert.html>.
 

@@ -39,23 +39,24 @@ You can customize the **Preview** menu using one of the following methods:
 
 To customize the Run and Preview buttons, modify this section of the **.codio** file:
 
-```json
-{
-// Configure your Run and Preview buttons here.
+.. code:: json
 
-// Run button configuration
-  "commands": {
-        "Node version": "node --version"
-  },
+    {
+    // Configure your Run and Preview buttons here.
 
-// Preview button configuration
-  "preview": {
-        "Project Index (static)": "https://{{domain}}/{{index}}",
-        "Current File (static)": "https://{{domain}}/{{filepath}}",
-        "Box URL": "https://{{domain3000}}/"
-  }
-}
-```
+    // Run button configuration
+      "commands": {
+            "Node version": "node --version"
+      },
+
+    // Preview button configuration
+      "preview": {
+            "Project Index (static)": "https://{{domain}}/{{index}}",
+            "Current File (static)": "https://{{domain}}/{{filepath}}",
+            "Box URL": "https://{{domain3000}}/"
+      }
+    }
+
 
 You can insert tokens to customize the menus:
 

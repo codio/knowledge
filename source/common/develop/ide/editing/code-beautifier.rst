@@ -9,19 +9,21 @@ The Code Beautifier feature automatically indents and manages spaces in your cod
 
 As an example, if you enter code as follows:
 
-```js
-if ('this_is'==/an_example/){of_beautifer();}else{var a=b?(c%d):e[f];}
-```
+.. code:: js
+
+    if ('this_is'==/an_example/){of_beautifer();}else{var a=b?(c%d):e[f];}
+
 
 It transforms to this after applying the Code Beautifier shortcut:
 
-```js
-if ('this_is' == /an_example/) {
-    of_beautifer();
-} else {
-    var a = b ? (c % d) : e[f];
-}
-```
+.. code:: js
+
+    if ('this_is' == /an_example/) {
+        of_beautifer();
+    } else {
+        var a = b ? (c % d) : e[f];
+    }
+
 
 Settings
 --------
