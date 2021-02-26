@@ -8,12 +8,12 @@ The first step to using GitHub in Codio is connecting your Codio and Github acco
 
 2. Click the **Applications** tab.
 
-   .. image:: .guides/img/GitHub1.png
+   .. image:: /img/GitHub1.png
       :alt: 
 
 3. In the GitHub section, click **Connect account** and log in to your Github account when prompted.
 
-   .. image:: .guides/img/Github2.png
+   .. image:: /img/Github2.png
       :alt: GitHub Connect Account
 
 4. If you are using SSH connections, click **Upload public key** so Codio and Github can exchange keys. 
@@ -28,17 +28,17 @@ To create a new repo, follow these steps:
 
 1. Go to your GitHub organization (or profile) and click the green **New** repository button.
 
-   .. image:: .guides/img/NewRepo.png
+   .. image:: /img/NewRepo.png
       :alt: New Repo Button
 
 2. Complete the requested details. We suggest **not** initializing a README since one already exists in Codio and will result in an immediate conflict.
 
-   .. image:: .guides/img/RepoConfig.png
+   .. image:: /img/RepoConfig.png
       :alt: Create New Repo
 
 3. Copy either the **HTTP** or **SSH** URL on the created repo page (if you do not want to type credentials and you uploaded your public key, use SSH).
 
-   .. image:: .guides/img/RepoURL.png
+   .. image:: /img/RepoURL.png
       :alt: Repo URL
 
 In Codio: Connect to repo
@@ -49,28 +49,28 @@ To connect to your repo from Codio, follow these steps:
 
 1. On the Codio Box you want to connect, click the **Tools > Git > Remotes** menu.
 
-   .. image:: .guides/img/RemoteMenu.png
+   .. image:: /img/RemoteMenu.png
       :alt: Remotes Menu
 
 2. When prompted, click **Yes** to initialize a local git repository.
  
-   .. image:: .guides/img/gitInit.png
+   .. image:: /img/gitInit.png
       :alt: Initialize
 
 3. When prompted, click **Add Remote**.
 
-   .. image:: .guides/img/RemoteConfig.png
+   .. image:: /img/RemoteConfig.png
       :alt: Add Remote
 
 4. Enter the name (origin is the git standard) and paste the URL that you copied into the URL field.
 
 5. Click **Save** and then **Close**.
 
-   .. image:: guides/img/RemoteConfig2](.guides/img/RemoteConfig2.png)
+   .. image:: /img/RemoteConfig2]
 
 6. Click **Tools > Terminal** on the menu to open a terminal window.
  
-   .. image:: .guides/img/terminal.png
+   .. image:: /img/terminal.png
       :alt: Terminal
 
 7. Type `git add .` and press **Enter/Return**.
@@ -85,7 +85,7 @@ Saving your work with Git (Committing and Pushing)
 --------------------------------------------------
 Git allows you to save multiple versions of your work using a few commands in the terminal (**Tools > Terminal**).
 
-.. image:: .guides/img/terminal.png
+.. image:: /img/terminal.png
 
 Follow these steps to save your work:
 

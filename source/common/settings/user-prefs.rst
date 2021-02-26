@@ -21,14 +21,15 @@ Below is an example of user settings that override the Codio default preferences
 
 ...
 
-```ini
-[editor]
-theme=eclipse
-font_size=13
+.. code:: ini
 
-[code-beautifier]
-indent_level=4
-indent_with_tabs=true
+    [editor]
+    theme=eclipse
+    font_size=13
+
+    [code-beautifier]
+    indent_level=4
+    indent_with_tabs=true
 
 More information
 ----------------

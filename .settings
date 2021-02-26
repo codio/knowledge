@@ -7,8 +7,12 @@
 [code-beautifier]
 ; enter your code-beautifier preferences here...
 
+
 [codio-filetree]
-; enter your codio-filetree preferences here...
+
+;Maximum items in tree level
+; Type: int 
+tree_items_limit = 2000
 
 [view-javascript-code]
 ; enter your view-javascript-code preferences here...

@@ -7,7 +7,7 @@ The Settings page within a project includes various options for specifying setti
 - Project Name and Description
 - Public or Private Project
 - Allow Box Cloning (subscription required)
-- Always-On Box (see :ref:`<always-on>`
+- Always-On Box (see :ref:`Always on Boxes <always on boxes>`
 - Allow Private Static Preview. See :ref:`Preview <preview>` for more information. This setting is only available from **Project > Settings**.
 - Protect Dynamic Ports. Enable to restrict preview to the owner of the box; disable to allow preview of the box to anyone who knows the box url. This setting is only available from **Project > Settings**.
 - Stack Settings - specify current stack and version used in your project.
