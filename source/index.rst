@@ -327,16 +327,179 @@ Students
    :maxdepth: 2
    
    
-   students/joining
-   students/paying
-   students/password
-   students/accessing
-   students/usingguides
-   students/grades
-   students/tools
-   students/creating
-   students/settings
+Accessing Codio
+^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 2
    
+   students/accessing-codio/joining
+   students/accessing-codio/paying
+   
+      
+Account Settings
+^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/settings/settings
+   common/settings/user-profile
+   common/settings/manage-passwords
+   common/settings/ssh-key
+   common/settings/user-prefs
+   common/settings/project-prefs
+   
+   
+Your Courses
+^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 2
+
+   students/courses/navigate-student-dashboard
+   students/courses/accessing
+   students/courses/start-assignment
+   students/courses/play-mode
+   students/courses/complete-assignment
+   students/courses/exam-mode
+   students/courses/view-grade
+   students/courses/restore-files
+
+Useful Tools
+^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/tools/tools
+   common/tools/dyslexia
+   common/tools/lexikon
+   common/tools/code-playback
+   common/tools/code-commenting
+   
+
+Developing Code
+^^^^^^^^^^^^^^^
+
+Projects
+--------
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/projects/projects
+   common/projects/project-permissions
+   common/projects/project-settings
+   common/projects/create-import-project
+   common/projects/access-projects
+   common/projects/copy-project
+   common/projects/export-project
+   
+Stacks
+------
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/stacks/stacks
+   common/stacks/using-stacks
+   common/stacks/create-stack
+   common/stacks/modify-stack
+   common/stacks/update-stack
+   common/stacks/switch-stack
+   
+
+IDE
+---
+
+Workspace
+---------
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/ide/workspace/workspace
+   common/develop/ide/workspace/panels
+   common/develop/ide/workspace/open-file
+   common/develop/ide/workspace/upload-download-files
+   common/develop/ide/workspace/add-delete-folders
+   common/develop/ide/workspace/add-delete-files
+   
+   
+Boxes
+-----
+
+.. toctree::
+   :maxdepth: 2
+
+   common/develop/ide/boxes/overview
+   common/develop/ide/boxes/ide-access-permissions
+   common/develop/ide/boxes/terminal
+   common/develop/ide/boxes/access
+   common/develop/ide/boxes/ext-access
+   common/develop/ide/boxes/always-on
+   common/develop/ide/boxes/restart-reset
+   common/develop/ide/boxes/runmenu
+   common/develop/ide/boxes/startup
+   
+
+   
+Installing Software Packages
+----------------------------
+
+The different options for installing your own software packages
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/ide/boxes/index
+   common/develop/ide/boxes/installsw/install-software
+   common/develop/ide/boxes/file-locations
+   common/develop/ide/boxes/default-installed
+   common/develop/ide/boxes/parts-coding
+   common/develop/ide/boxes/langserver
+   common/develop/ide/boxes/gui
+   
+
+   
+
+  
+Debugger
+--------
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/ide/debugger/debugger
+   common/develop/ide/debugger/create-debug-target
+   common/develop/ide/debugger/start-debug
+
+Code Editing Features
+---------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/ide/editing/code-editing
+   common/develop/ide/editing/abbreviations
+   common/develop/ide/editing/autocomplete
+   common/develop/ide/editing/code-beautifier
+   common/develop/ide/editing/color-picker
+   common/develop/ide/editing/command-bar
+   common/develop/ide/editing/cursor
+   common/develop/ide/editing/force-language-highlighting
+   common/develop/ide/editing/connect-github-codio
+   common/develop/ide/editing/junit
+   common/develop/ide/editing/keyboard-shortcuts
+   common/develop/ide/editing/preview
+   common/develop/ide/editing/quick-open
+   common/develop/ide/editing/real-time-collaboration
+   common/develop/ide/editing/save-files
+   common/develop/ide/editing/search-replace
+   common/develop/ide/editing/share-project
+   
+
 Admin
 =====
 

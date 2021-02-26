@@ -13,11 +13,5 @@
        
     },
     // Debugger target button configuration
-    "debugger": [{
-        "type": "PYTHON3",
-        "command": "{{filepath}}",
-        "before": "",
-        "uuid": "6c228c3f-596c-c44a-399f-5d86a7e17bf9",
-        "name": "Debug"
-    }]
+    "debugger": [{"type":"PYTHON3","command":"{{filepath}}","before":"","uuid":"6c228c3f-596c-c44a-399f-5d86a7e17bf9","name":"Debug"},{"type":"GDB","command":"/codio-docs/","before":"","uuid":"76725fc4-3220-4a33-f739-614ebe121e67","name":"doc test"}]
 }
