@@ -347,6 +347,8 @@ Account Settings
    common/settings/user-profile
    common/settings/manage-passwords
    common/settings/ssh-key
+   common/settings/user-prefs
+   common/settings/project-prefs
    
    
 Your Courses
@@ -388,6 +390,7 @@ Projects
    
    common/projects/projects
    common/projects/project-permissions
+   common/projects/project-settings
    common/projects/create-import-project
    common/projects/access-projects
    common/projects/copy-project
@@ -417,6 +420,7 @@ Workspace
    :maxdepth: 2
    
    common/develop/ide/workspace/workspace
+   common/develop/ide/workspace/panels
    common/develop/ide/workspace/open-file
    common/develop/ide/workspace/upload-download-files
    common/develop/ide/workspace/add-delete-folders
@@ -485,7 +489,7 @@ Code Editing Features
    common/develop/ide/editing/command-bar
    common/develop/ide/editing/cursor
    common/develop/ide/editing/force-language-highlighting
-   common/develop/ide/editing/git
+   common/develop/ide/editing/connect-github-codio
    common/develop/ide/editing/junit
    common/develop/ide/editing/keyboard-shortcuts
    common/develop/ide/editing/preview
@@ -493,7 +497,7 @@ Code Editing Features
    common/develop/ide/editing/real-time-collaboration
    common/develop/ide/editing/save-files
    common/develop/ide/editing/search-replace
-   copyommon/develop/ide/editing/share-project
+   common/develop/ide/editing/share-project
    
 
 Admin

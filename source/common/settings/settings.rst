@@ -12,3 +12,5 @@ From the **Settings** page, you can access and manage the following:
 - :ref:`Billing and Payment History <paying>`
 - :ref:`SSH Key <ssh-key>`
 - :ref:`Upload SSH Key to Remote Server <upload-ssh-key-remote-server>`
+- :ref:`User Preferences <user-prefs>`
+- :ref:`Project Preferences <project-prefs>`

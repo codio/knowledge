@@ -2,7 +2,7 @@
 
 Autostart Services
 ==================
-Your box is put to sleep under the conditions explained in :ref:`IDE Box Overview <overview>`. When you open your project, the box and services are started, and installed software (using **Tools > Install Software**) is automatically configured to autostart. 
+Your box is automatically configured to autostart, which means it is automatically put to sleep, and when you open your project, the box and services are started. 
 
 You can also configure other services to autostart in the **startup.sh** bash script in your project or by installing **Autostart Support** from **Tools > Install Software**.
 

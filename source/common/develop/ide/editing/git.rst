@@ -4,22 +4,19 @@ Git and GitHub
 ==============
 Git and GitHub are preinstalled, as well as Mercurial and SVN. You can open a :ref:`Terminal window <terminal>` to access them from the command line. The **Tools > Git** menu includes options for using Git. 
 
-You can also configure your **.codio** file so common commands are accessible from the **Run** menu in the Codio IDE. See :ref:`Customize Run Button <customizable-run-menu>` for more information.
+You can also configure your **.codio** file to create a **Run** menu from which you can access common commands in the Codio IDE. See :ref:`Customize Run Button <customizable-run-menu>` for more information.
 
 If you are new to Git, refer to the following to get started:
 
 * `Git is simpler than you think <http://nfarina.com/post/9868516270/git-is-simpler>`__ (explains how Git works rather than teaching you usage).
 
 * `Git reference <http://git-scm.com/docs>`__
-* `Introduction to Git by Scott Chacon <http://git-scm.com/book>`__
-
 * `10 Git Tutorials for beginners <http://sixrevisions.com/resources/git-Tutorials-beginners/>`__
 
-* `Getting Started Git Basics <http://git-scm.com/book/en/Getting-Started-Git-Basics>`__
 
 Use Git without remote repos
 ----------------------------
-You can use Git commands in your Codio project without using a remote repo, providing more collaborative capabilities and compreshensive version control. However, you can add a remote repository, such as GitHub (recommended), if you want to save your code in more than one location as a back up. 
+You can use Git commands in your Codio project without using a remote repo, providing more collaborative capabilities and comprehensive version control. However, you can add a remote repository, such as GitHub (recommended), if you want to save your code in more than one location as a back up. 
 
 To add a repo, click **Tools > Git > Remotes**.
 
@@ -74,7 +71,7 @@ To manually import a Git repo into Codio, follow these steps:
    .. figure:: /img/github-clone-url.png
       :alt: create from GitHub
 
-  If you cloning using SSH, you must have already added the Codio SSH public key as described in :ref:`Upload SSH Key to Remote Server <upload-ssh-key-remote-server>`.
+  If you are cloning using SSH, you must have already added the Codio SSH public key as described in :ref:`Upload SSH Key to Remote Server <upload-ssh-key-remote-server>`.
 
 2. Log in to Codio and click **New Project**.
 
