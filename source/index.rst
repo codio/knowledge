@@ -196,6 +196,24 @@ Courses
    :maxdepth: 2
    
    instructors/setupcourses/courses
+   instructors/setupcourses/create-course
+   instructors/setupcourses/clone-course
+   instructors/setupcourses/master-child-courses
+   instructors/setupcourses/export-course-data
+   instructors/setupcourses/archive-course
+   instructors/setupcourses/delete-course
+   instructors/setupcourses/share-course
+   instructors/setupcourses/search-course
+   instructors/setupcourses/add-teachers
+   instructors/setupcourses/add-ta
+   instructors/setupcourses/add-remove-students
+   instructors/setupcourses/change-student-password
+   instructors/setupcourses/add-remove-assignment
+   instructors/setupcourses/assignment-settings
+   
+   
+   
+
 
 Connecting to your LMS (Canvas, Blackboard, Moodle, etc)
 --------------------------------------------------------
@@ -205,45 +223,9 @@ Connecting to your LMS (Canvas, Blackboard, Moodle, etc)
    
    instructors/setupcourses/lmsconnect
    
-Adding students
----------------
 
-.. toctree::
-   :maxdepth: 2
    
-   instructors/setupcourses/addstudents
-   
-Adding TAs/GAs
---------------
 
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/setupcourses/addta
-
-Adding co-teachers
-------------------
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/setupcourses/addteachers
-
-Sharing course content with other instructors
----------------------------------------------
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/setupcourses/sharing
-   
-Due Dates
----------
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/setupcourses/duedates
    
 Teaching/Non-Editing Teachers/TAs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
