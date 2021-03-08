@@ -17,4 +17,4 @@ A course can be deleted by course teachers and organization owners. You can also
    - Delete Course Only - Click this button to delete only the course and not the students.
    - Delete Course and Students - Click this button to delete the course and remove the students from your organization. If you select this option, and any of the students in the course are also assigned to other courses, they will only be removed from the course being deleted. They will not be removed from the organization or from other courses they are assigned. 
 
-**Note:** :ref:`Organization owners <organizations>` can view a list of any members that are no longer assigned to courses and remove users from the organization. 
+**Note:** :ref:`Organization owners <orgsettings>` can view a list of any members that are no longer assigned to courses and remove users from the organization. 

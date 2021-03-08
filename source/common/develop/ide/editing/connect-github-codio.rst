@@ -66,7 +66,7 @@ To connect to your repo from Codio, follow these steps:
 
 5. Click **Save** and then **Close**.
 
-   .. image:: /img/RemoteConfig2]
+   .. image:: /img/RemoteConfig2.png
 
 6. Click **Tools > Terminal** on the menu to open a terminal window.
  

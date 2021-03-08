@@ -9,7 +9,7 @@ The **Disable Mark as Completed** setting is used to prevent students from marki
 To disable the mark as completed feature, follow these steps:
 
 1. Open the assignment **Settings**.
-2. In the **Assignment** settings, click the **Disable Mark as Completed.
+2. In the **Assignment** settings, click the **Disable Mark as Completed**.
 
    To enable student's ability to mark an assignment as completed, uncheck the **Disable Mark as Completed** setting.
 3. Click **Save Changes**.
