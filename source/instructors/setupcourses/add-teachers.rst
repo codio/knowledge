@@ -1,9 +1,9 @@
 .. _add-teachers:
 
-Add Teachers to a Course
-========================
+Add or Remove Teachers in a Course
+===========================================
 
-Your course may be taught by more than one teacher. Follow these steps to add a teacher to your Codio course:
+Your course may be taught by more than one teacher so you can add teachers to your course. You can also enable a teacher to be a student in the course to test it. Follow these steps to add a teacher to your Codio course:
 
 1. From the **Courses** page, select the course to open it.
 2. Click the **Admin** tab.
@@ -41,6 +41,14 @@ Your course may be taught by more than one teacher. Follow these steps to add a 
       :alt: Read-Only Toggle
     
 8. In the **Teachers** section on the **Admin** page, click **Done** to save your changes.
+
+Remove teacher from a course
+----------------------------
+If you want to change a teacher in a course, you must first add the new teacher and then follow these steps to remove old teacher from a course:
+
+1. In the **Teachers** section on the **Admin** page, click the **X** next to the teachers name.
+2. Click **Yes** on the confirmation dialog.
+
 
 Enable teacher to be a student in course
 ---------------------------------------------------

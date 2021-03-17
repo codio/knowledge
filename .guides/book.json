@@ -1,0 +1,17 @@
+{
+ "name": "Sphynx-Docs",
+ "children": [
+  {
+   "title": "Page 1",
+   "id": "890dfcdb-0b7a-48b5-2a3b-2f12d0ca8b54",
+   "pageId": "890dfcdb-0b7a-48b5-2a3b-2f12d0ca8b54",
+   "type": "page"
+  },
+  {
+   "title": "Page 2",
+   "id": "5568808d-1665-4ec9-03bd-b37e0d81a712",
+   "pageId": "5568808d-1665-4ec9-03bd-b37e0d81a712",
+   "type": "page"
+  }
+ ]
+}

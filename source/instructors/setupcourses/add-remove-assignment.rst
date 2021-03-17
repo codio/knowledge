@@ -7,7 +7,7 @@ In Codio, a module is a container that holds a collection of assignments. An ass
 
 Create Course Module
 --------------------
-You must first create the module that holds the assignments. Follow these steps to add a module to a course:
+You must first create the module that holds the assignments. You can create an empty module or copy an existing module. Follow these steps to add a module to a course:
 
 1. From the **Courses** page, select the course to open it.
 
@@ -67,7 +67,7 @@ Codio recommends that you connect your assignments to a remote repo such as GitH
 
   You can also change the stack details in the assignment if the changes are only to the stack. 
 
-- Assessment Updates - Most assessment changes can be safely upgraded unless the structure of the question has been changed (for example, a multiple choice question has been changed from single response to multiple responses). In this case, the student response data can be invalidated.
+- **Assessment Updates** - Most assessment changes can be safely upgraded unless the structure of the question has been changed (for example, a multiple choice question has been changed from single response to multiple responses). In this case, the student response data can be invalidated.
 
 Remove course assignments
 -------------------------

@@ -33,3 +33,4 @@ To specify Grade Weights, follow these steps:
    - Click **Set Custom Script Path** and choose the path from the drop-down list.
 
    For more information about auto-grade scripts, see :ref:`Using Auto-Grade Scripts <auto-grade-scripts>`.
+   

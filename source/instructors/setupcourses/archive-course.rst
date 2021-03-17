@@ -7,10 +7,10 @@ To help manage the number of courses visible to instructors, you can archive cou
 To archive a course, follow these steps:
 
 1. On the **Courses** page, click the **Active** tab if it's not already selected.
-2. Click the menu icon (3 horizontal dots) in the upper right corner of the course listing and choose **Archive Course**.
+2. Click the **Options** menu in the upper right corner of the course listing and choose **Archive Course**.
 3. In the confirmation dialog, enter **make read-only** and click **Yes**.
 
 To move an archived course to the **Active** page, follow these steps:
 
 1. On the **Courses** page, click the **Archived** tab.
-2. Click the menu icon (3 horizontal dots) in the upper right corner of the course listing and choose **Unarchive Course**.
+2. Click the **Options** menu in the upper right corner of the course listing and choose **Unarchive Course**.

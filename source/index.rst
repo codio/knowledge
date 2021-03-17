@@ -68,14 +68,20 @@ Auto-graded assessmentslibrary
    
 Developing Code
 ^^^^^^^^^^^^^^^
-   
+
 Projects
 --------
 
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/projects
+   common/projects/projects
+   common/projects/project-permissions
+   common/projects/project-settings
+   common/projects/create-import-project
+   common/projects/access-projects
+   common/projects/copy-project
+   common/projects/export-project
    
 Stacks
 ------
@@ -83,100 +89,68 @@ Stacks
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/stacks
+   common/stacks/stacks
+   common/stacks/using-stacks
+   common/stacks/create-stack
+   common/stacks/modify-stack
+   common/stacks/update-stack
+   common/stacks/switch-stack
    
+
 IDE
 ---
 
-**Information on the Codio IDE and tools**
-
-Overview
-********
+Workspace
+---------
 
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/ide/boxes/overview
+   common/develop/ide/workspace/workspace
+   common/develop/ide/workspace/panels
+   common/develop/ide/workspace/open-file
+   common/develop/ide/workspace/upload-download-files
+   common/develop/ide/workspace/add-delete-folders
+   common/develop/ide/workspace/add-delete-files
    
-Terminal Window
-***************
+   
+Boxes
+-----
 
 .. toctree::
    :maxdepth: 2
-   
-   instructors/develop/ide/boxes/terminal
-   
-Accessing Boxes and Ports
-*************************
 
-.. toctree::
-   :maxdepth: 2
+   common/develop/ide/boxes/overview
+   common/develop/ide/boxes/ide-access-permissions
+   common/develop/ide/boxes/terminal
+   common/develop/ide/boxes/access
+   common/develop/ide/boxes/ext-access
+   common/develop/ide/boxes/always-on
+   common/develop/ide/boxes/restart-reset
+   common/develop/ide/boxes/runmenu
+   common/develop/ide/boxes/startup
    
-   instructors/develop/ide/boxes/ext-access
+
    
-Installing software
-*******************
+Installing Software Packages
+----------------------------
 
 The different options for installing your own software packages
 
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/ide/boxes/installsw/index
-   instructors/develop/ide/boxes/installsw/default-installed
-   instructors/develop/ide/boxes/installsw/box-parts
-   instructors/develop/ide/boxes/installsw/file-locations
-   instructors/develop/ide/boxes/installsw/parts-coding
-   instructors/develop/ide/boxes/installsw/langserver
-   instructors/develop/ide/boxes/installsw/gui
+   common/develop/ide/boxes/index
+   common/develop/ide/boxes/installsw/install-software
+   common/develop/ide/boxes/file-locations
+   common/develop/ide/boxes/default-installed
+   common/develop/ide/boxes/parts-coding
+   common/develop/ide/boxes/langserver
+   common/develop/ide/boxes/gui
    
-Always-On Boxes
-***************
 
-.. toctree::
-   :maxdepth: 2
    
-   instructors/develop/ide/boxes/always-on
-   
-SSH and Code Access
-*******************
 
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/develop/ide/boxes/access
-   
-IDE Access Permissions
-**********************
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/develop/ide/boxes/granting-access
-   
-Auto Starting Services
-**********************
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/develop/ide/boxes/startup
-   
-Restart and Reset
-*****************
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/develop/ide/boxes/restart-reset
-   
-Run menu
-********
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/develop/ide/boxes/runmenu
   
 Debugger
 --------
@@ -184,8 +158,34 @@ Debugger
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/debugger
+   common/develop/ide/debugger/debugger
+   common/develop/ide/debugger/create-debug-target
+   common/develop/ide/debugger/start-debug
 
+Code Editing Features
+---------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/ide/editing/code-editing
+   common/develop/ide/editing/abbreviations
+   common/develop/ide/editing/autocomplete
+   common/develop/ide/editing/code-beautifier
+   common/develop/ide/editing/color-picker
+   common/develop/ide/editing/command-bar
+   common/develop/ide/editing/cursor
+   common/develop/ide/editing/force-language-highlighting
+   common/develop/ide/editing/connect-github-codio
+   common/develop/ide/editing/junit
+   common/develop/ide/editing/keyboard-shortcuts
+   common/develop/ide/editing/preview
+   common/develop/ide/editing/quick-open
+   common/develop/ide/editing/real-time-collaboration
+   common/develop/ide/editing/save-files
+   common/develop/ide/editing/search-replace
+   common/develop/ide/editing/share-project
+   
 Setting up your courses
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -209,7 +209,20 @@ Courses
    instructors/setupcourses/add-remove-students
    instructors/setupcourses/change-student-password
    instructors/setupcourses/add-remove-assignment
-   instructors/setupcourses/assignment-settings
+   instructors/setupcourses/rename-reorder-assignments
+   instructors/setupcourses/mark-assignments-complete
+   instructors/setupcourses/assignment-settings/assignment-settings
+   instructors/setupcourses/assignment-settings/assignment-duration
+   instructors/setupcourses/assignment-settings/disable-assignment
+   instructors/setupcourses/assignment-settings/disable-mark-completed
+   instructors/setupcourses/assignment-settings/exam-proctoring
+   instructors/setupcourses/assignment-settings/grade-weights
+   instructors/setupcourses/assignment-settings/penalties
+   instructors/setupcourses/assignment-settings/pin-assignment
+   instructors/setupcourses/assignment-settings/visibility-completed
+   instructors/setupcourses/assignment-settings/visibility-disabled
+   
+   
    
    
    

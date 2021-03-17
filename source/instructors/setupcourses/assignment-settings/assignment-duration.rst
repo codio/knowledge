@@ -19,8 +19,8 @@ To set the assignment duration, follow these steps:
 
 4. Click the **On Assignment End** drop-down and choose one of the following options to indicate what happens when the **End Time** has been reached:
 
-   - Disable Assignment (see :ref:`Disable Assignment <disable-assignment>`)
-   - Mark as Complete (see :ref:`Visibility on Completed <visibility-completed>`)
-   - Disable Assignment and Mark as Complete
+   - **Disable Assignment** (see :ref:`Disable Assignment <disable-assignment>`)
+   - **Mark as Complete** (see :ref:`Visibility on Completed <visibility-completed>`)
+   - **Disable Assignment and Mark as Complete**
 
-3. Click **Save Changes**.
+5. Click **Save Changes**.

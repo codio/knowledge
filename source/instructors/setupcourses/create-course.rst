@@ -2,7 +2,7 @@
 
 Create a New Course
 ===================
-To work with the course features in Codio, you mut first set up a course for your students. You can create a new empty course or create a course using share code. You can also :ref:`clone a course <clone-course>`.
+To work with the course features in Codio, you mut first set up a course for your students. You can create a new empty course or create a course using share code. Creating a course using share code if often used when you want to create a course from content outside your organization. You can also :ref:`clone a course <clone-course>`.
 
 Create empty course
 -------------------

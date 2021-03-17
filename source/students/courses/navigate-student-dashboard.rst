@@ -65,6 +65,6 @@ You can create your own projects using the web-based IDE in Codio. To access the
 
 **See Also:**
 
-- :ref:`Joining a Course <joining>`
-- :ref:`Paying for Codio Subscription <paying>`
-- :ref:`Creating or Importing a Project <create-import-project>`
+- :ref:`Join a Course <joining>`
+- :ref:`Pay for Codio Subscription <paying>`
+- :ref:`Create or Import a Project <create-import-project>`

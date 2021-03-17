@@ -10,5 +10,5 @@ To change a student's password, follow these steps:
    .. _image:: /img/manage_classes/students_tab.png
        :alt: Students Tab
 
-3. Click the menu icon (3 horizontal dots) and choose **Change student's password**.
+3. Click the **Options** menu and choose **Change student's password**.
 4. Follow the onscreen instructions to reset the password. A temporary password is generated, which you can send to the student.

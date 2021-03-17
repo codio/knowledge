@@ -37,7 +37,7 @@ To remove a student from a course, follow these steps:
    .. image:: /img/manage_classes/students_tab.png
       :alt: Students Tab
 
-3. Click the menu icon (3 horizontal dots) and choose **Remove student**.
+3. Click the **Options** menu and choose **Remove student**.
 
    .. image:: /img/manage_classes/remove_student.png
       :alt: Remove Student

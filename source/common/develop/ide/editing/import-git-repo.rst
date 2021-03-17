@@ -1,2 +1,0 @@
-.. _import-repo:
-
