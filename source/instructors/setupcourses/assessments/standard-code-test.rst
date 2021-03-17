@@ -10,7 +10,7 @@ Codio provides a <Starter Pack> (https://codio.com/home/starter-packs/cc68d38b-b
 
 For more information about adding a Standard Code Test, view the <video> (https://codio.wistia.com/medias/dwts4k9ftt?wvideo=dwts4k9ftt).
 
-Complete each section to set up your standard code test.
+Follow these steps to set up a standard code test:
 
 1. On the **General** page, enter the following information:
 

@@ -1,3 +1,5 @@
+.. _add-questions-from-library:
+
 ## Adding Questions from Assessments Library
 Once you have found an assessment you would like to add to, simply press the "Add" button to the right.
 ![Select question](/img/selectQuestion.png)

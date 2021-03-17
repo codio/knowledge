@@ -1,3 +1,5 @@
+.. _search-library:
+
 ## Searching and Adding questions from the Assessments Library
 Regardless of whether you are using [Codio's global assessments library](/courses/assessments-library/#codios-global-assessments-library) or [your organization's assessment library](/dashboard/organisations/#organization-assessments-library), the steps for searching for and adding assessments from them are the same.
 
