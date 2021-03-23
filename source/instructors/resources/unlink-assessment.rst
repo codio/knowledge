@@ -2,31 +2,21 @@
 
 Unlink an Assessment
 ====================
+If you want to modify an assessment that is the library, you can unlink it, make your changes, and then add your own version to your organization's assessments library. Follow these steps to unlink an assessment from the library:
 
-## Unlinking and Updating Assessments from Library
-### Updating an Existing Assessment
-1. Click on the "Add Assessment Icon"
-![Create assessment](/img/CreateAssessment.png)
+1. In the Guide Editor, click the **Add Assessments** drop-down. 
 
-1. Click on the assessment you want to edit in the "Edit assessments" portion of the dropdown menu
-![Edit assessment](/img/EditAssessmsent.png)
+   .. image:: /img/CreateAssessment.png
+      :alt: Add Assessment Menu
 
-1. Change whatever it is you want to change
+2. Choose the question that you want to unlink in the lower portion of the menu under **Edit assessments**. 
 
-1. Click "Update In Library"
-![Update library](/img/UpdateInLib.png)
+   .. image:: /img/EditAssessmsent.png
+      :alt: Edit Assessment
 
+3. Click **Disconnect** in the lower right corner.
 
-<a name="unlinkingAssessment"></a>
-### Unlinking an Assessment
-1. Click on the "Add Assessment Icon"
-![Create assessment](/img/CreateAssessment.png)
+   .. image:: /img/DisconnectFromlib.png
+      :alt: Disconnect
 
-1. Click on the assessment you want to disconnect in the "Edit assessments" portion of the dropdown menu
-![Edit assessment](/img/EditAssessmsent.png)
-
-1. Click "disconnect"
-![Disconnect](/img/DisconnectFromlib.png)
-
-1. Codio will display a message confirming that the assessment has been successfully disconnected from the appropriate library. You should also notice the link icon is no longer present next to the assessment in the "Edit assessments" portion of the dropdown menu
-
+   A message is displayed confirming that the assessment has been successfully disconnected from the appropriate library. The link icon is no longer displayed next to the assessment in the **Edit assessments** area of the drop-down menu.

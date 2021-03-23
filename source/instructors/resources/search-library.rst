@@ -1,54 +1,75 @@
 .. _search-library:
 
-## Searching and Adding questions from the Assessments Library
-Regardless of whether you are using [Codio's global assessments library](/courses/assessments-library/#codios-global-assessments-library) or [your organization's assessment library](/dashboard/organisations/#organization-assessments-library), the steps for searching for and adding assessments from them are the same.
+Search Assessments Library
+=============================
+You search an assessment library the same whether you are using Codio's :ref:`Global Assessments Library <global-library>' or your :ref:`organization's Assessments Library <org-library>`. Follow these steps to search a library:
 
-### Searching Assessments Library
-From the assessments drop down, select the "Assessment Library" option.
-![Searching](/img/addFromLib.png)
+1. In the Guide Editor, click the **Add Assessments** drop-down menu and choose **Assessment Library**.
+ 
+   .. image: /img/addFromLib.png
+      :alt: Assessment Library
 
-Use the drop down on the left to indicate which assessments library you want to search.
-![Select library](/img/selectLib.png)
+2. Click the **Library Name** drop-down and choose the assessments library you want to search.
 
-To narrow down the assessments, input a tag and value pair. For example, you can search by the "Programming Language" (tag) and indicate you want "Python" (value) questions. The search is **not** case-sensitive. You will notice that Codio tries to help you by presenting auto-complete suggestions.
-![Autocomplete](/img/autoComplete.png)
+   .. image:: /img/selectLib.png
+      :alt: Select Library
 
-You can also click on any of the tag fields you see in the current results and it will automatically filter to those and add a new row to your search query
+3. To narrow the assessments that are displayed, enter a tag and value pair. For example, you can search by the **Programming Language** (tag) and indicate you want **Python** (value) questions. The search is not case sensitive and Codio presents auto-complete suggestions as you type.
 
-Once you have completed inputting the tag and value pair, you will get a list of results.
-![Search results](/img/searchResults.png)
+   .. image:: /img/autoComplete.png
+      :alt: Autocomplete
 
-You can add as many additional tag and value pairs or by clicking on tag:value pair currently shown to narrow your results by clicking the plus sign to the right of the value box.
-![Add tags](/img/doubleTags.png)
+   You can also click any of the tag fields in the results to automatically filter and add a new row (click +) to your search query. You can add as many tag:value pairs as needed to narrow your search.
+   
+   .. image:: /img/doubleTags.png
+      :alt: Add Tags
 
-To navigate through your search results, you can use the scroll bar on the right to scroll through assessments on a page. Once you reach the bottom, you can use the page navigation in the top left to move backwards/forwards a page or jump to a certain page of results.
-![Scroll results](/img/scrollThrough.png)
+   Once you have completed entering tag and value pairs, the results are displayed.
 
-<a name="previewQuestion"></a>
-### Previewing Question
-You can get a sneak peek of the question text by clicking within a listed assessment's white box. The question text will appear below the listed value/tag pairs.
-![Previewing](/img/previewQuestion1.png)
+   .. image:: /img/searchResults.png
+      :alt: Search Results
 
-If you preview a second question, the first preview will collapse.
-![More previewing](/img/previewQuestion2.png)
+4. Scroll through the search results using the scroll bar or use the navigation buttons in the upper portion of the page to move forward, back, or to a specific page.
 
-### Saving Searches
-If you find a set of particular search parameters you want to save, you can do so by simply clicking the "Save" button to the right of the tags and values boxes.
-![authtoken](/img/doubleTags2.png)
+   .. image:: /img/scrollThrough.png
+      :alt: Scroll Results
 
-A prompt will ask you for the "Search Name" - this is how it will be listed in your saved search list.
-![Search name](/img/nameSearch.png)
+5. Click an assessment to preview the question.
 
-### Using Saved Searches
-To use a saved search, you click on the "Saved" drop down to the right of the tags and values boxes. Select the search you want to use by clicking on it's name.
-![Saved searches](/img/savedSearch.png)
+   .. image:: /img/previewQuestion1.png
+      :alt: Preview Question
 
-You will then be able to see all the parameters you saved previously. You can edit these search parameters freely without changing your saved search.
+   If you preview a second question, the first preview collapses.
 
+   .. image:: /img/previewQuestion2.png
+      :alt: Preview Collapsed
 
-If you find a set of search parameters you like better, you can simply save the new set and delete your old search.
+Saving searches
+---------------
+If you want to save search parameters, follow these steps:
 
-### Deleting Saved Searches
-To remove a saved search, you click on the "Saved" drop down to the right of the tags and values boxes. Delete the saved search by clicking on the red "x" to the right of it's name.
-![Delete saved search](/img/savedSearchDelete.png)
+1. Click the **Save** button to the right of the tags and values.
 
+   .. image:  /img/doubleTags2.png
+      :alt: Save Search
+
+2. On the **Save Search** dialog, enter a **Search Name** and click **OK**.
+
+   .. image:: /img/nameSearch.png
+      :alt: Search Name
+
+Using saved searches
+--------------------
+To use a saved search, click the **Saved** drop-down list and choose the saved search.
+
+.. image: /img/savedSearch.png
+   :alt: Use Saved Search
+
+You can edit these search parameters  without changing your saved search.
+
+Delete saved searches
+---------------------
+To remove a saved search, click the **Saved** drop-down list and click the red **x** to the name.
+
+.. image:: /img/savedSearchDelete.png
+   :alt: Delete Saved Search

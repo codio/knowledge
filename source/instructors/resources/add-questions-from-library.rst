@@ -1,23 +1,17 @@
 .. _add-questions-from-library:
 
-## Adding Questions from Assessments Library
-Once you have found an assessment you would like to add to, simply press the "Add" button to the right.
-![Select question](/img/selectQuestion.png)
+Add Questions from Assessments Library
+======================================
+After searching the library, click **Add** for the questions you want to include in your assessment.
 
-Please note the difference between layouts to know how it will be inserted.
+.. image:: /img/selectQuestion.png
+   :alt: Add Question
 
-<a name="simpleComplex"></a>
-### Simple vs Complex Layouts
-In Codio's assessments libraries, there are two types of layouts:
+In Codio's Assessments Library, there are two types of layouts that determine how the question is inserted into your assessment:
 
-- **Simple**
+- **Simple** - An assessment in the library has a **simple** layout if it was added with the **1 Panel without tree** layout. When adding a simple layout question to your project or book, the assessment is inserted into the current page at your cursor's location.
 
-  An assessment in the library has a **simple** layout if it was added with the [*1 Panel without tree* layout](/courses/settings-actions/#page). When adding a simple layout question to your project or book, the assessment will be inserted into the current page at your cursor's location.
+- **Complex** - An assessment in the library has a **complex** layout if it was added with any layout other than **1 Panel without tree**. When adding a complex layout question to your project or book, the assessment is inserted on a new page directly after the current page. If a question has the complex layout, an icon is displayed on the assessment question.
 
-- **Complex**
-
-  An assessment in the library has a **complex** layout if it was added with any layout besides 1 Panel without tree. When adding a complex layout question to your project or book, the assessment will be inserted on a new page directly after the current page.
-
-### How do you tell the difference?
-When you are filtering the assessments library, you will notice the "complex layout" icon on assessments saved with a complex layout. All assessments without the icon are simple layout assessments.
-![Layout icon](/img/complexLayoutIcon.png)
+  .. image: /img/complexLayoutIcon.png
+     :alt: Complex Layout Icon

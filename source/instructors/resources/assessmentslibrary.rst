@@ -6,5 +6,13 @@ You can organize your library by course number, programming language, department
 
 Review the following topics to get started using the Assessments Library:
 
-- Add Questions to an Assessments Library
+- :ref:`Add Questions to an Assessments Library <add-questions-to-library>`
+- :ref:`Codio Global Assessments Library <global-library>`
+- :ref:`Update an Existing Assessment in Library <update-library>`
+- :ref:`Unlink an Assessment <unlink-assessment>`
+- :ref:`Search Assessments Library <search-library>`
+- :ref:`Add Questions from Assessments Libary <add-questions-from-library>`
+
+
+
 
