@@ -16,5 +16,5 @@ If you want to update an assessment that is the library, follow these steps:
 
 3. Click **Update in Library** in the lower right corner.
 
-   .. image:: /img/UpdateInLib.png.png
+   .. image:: /img/UpdateInLib.png
       :alt: Update in Library

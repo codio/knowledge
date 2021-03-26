@@ -1,4 +1,4 @@
-.. _add-teachers:
+.. _add-teachers_org:
 
 Add Teachers to Organization
 ============================

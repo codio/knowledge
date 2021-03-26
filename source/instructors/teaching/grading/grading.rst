@@ -46,7 +46,7 @@ Once students have completed their assignments, they notify the teacher by using
 
 Anonymous grading
 -----------------
-If required, :ref:`anonymous grading <anonymous-grading>` can be set for the course so students cannot see the names of the teachers who graded their work. The teacher names are hidden in the shared feedback, project, and dashboard. 
+If required, anonymous grading can be set for the course so students cannot see the names of the teachers who graded their work. The teacher names are hidden in the shared feedback, project, and dashboard. 
 
 To enable anonymous grading, follow these steps:
 

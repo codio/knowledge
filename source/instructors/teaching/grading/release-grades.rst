@@ -2,7 +2,13 @@
 
 Release Grades
 ==============
-By default students are not shown the grades until you decide to release them to the course. This allows you to release all the grades at once after the grading process has been completed. To learn more about release grades, view the <video> (https://codio.wistia.com/medias/z7xmzl5xbd?wvideo=z7xmzl5xbd).
+By default students are not shown the grades until you decide to release them to the course. This allows you to release all the grades at once after the grading process has been completed. To learn more about release grades, view the video
+
+
+.. raw:: html
+
+    <iframe width="620" height="349" src="https://codio.wistia.com/medias/z7xmzl5xbd?wvideo=z7xmzl5xb" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="620" height="349"></iframe>
+
 
 If you want to release the grades as the assignments are graded, follow these steps:
 

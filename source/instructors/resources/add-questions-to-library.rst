@@ -34,4 +34,4 @@ Follow these steps to add questions to your assessments library:
 
    If you receive an error message, ensure that you have write access to your organization's assessment library. See :ref:`Create an Organization Assessments Library <org-library>` for more information.
 
-5. Once a question has been added, follow the steps in :ref:`Update an Existing Assessment from Library <update-from-library>` to update your assessment with the newly added question.
+5. Once a question has been added, follow the steps in :ref:`Update an Existing Assessment from Library <update-library>` to update your assessment with the newly added question.

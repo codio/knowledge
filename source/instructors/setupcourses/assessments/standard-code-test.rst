@@ -71,7 +71,7 @@ Follow these steps to set up a standard code test:
       :alt: Grading
 
   - **Points** - Enter the score given to the student if the code test passes. You can enter any positive numeric value. If this assessments should not be graded, enter 0 points.
-  - **Allow Partial Points** - Toggle to enable partial points so that the grade is based on the percentage of test cases the code passes. See :ref:`Allow Partial Points <allow-partial-points>` for more information.
+  - **Allow Partial Points** - Toggle to enable partial points so that the grade is based on the percentage of test cases the code passes. See :ref:`Allow Partial Points <partial-points>` for more information.
   - **Case Insensitive** - Toggle to enable if you want Codio to make a case insensitive output comparison. By default, the comparison is case sensitive.
   - **Ignore White Space** - Toggle to enable if you want Codio to strip out any white space characters (carriage return, line feed, tabs, etc.) from both the expected output and the student output. 
   - **Substring Match** - Toggle to enable if you want Codio to perform a substring match when comparing the expected output to the student output.

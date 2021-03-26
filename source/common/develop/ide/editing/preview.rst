@@ -39,7 +39,7 @@ You can customize the **Preview** menu using one of the following methods:
 
 To customize the Run and Preview buttons, modify this section of the **.codio** file:
 
-.. code:: json
+.. code:: ini
 
     {
     // Configure your Run and Preview buttons here.

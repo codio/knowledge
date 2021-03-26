@@ -52,7 +52,7 @@ Sample template
 ^^^^^^^^^^^^^^^
 Below is a sample template that can be modified for your stack.
 
-.. code:: python
+.. code:: ini
 
     # Title
     Put the name of your Stack here.
@@ -82,7 +82,7 @@ Below is a sample template that can be modified for your stack.
 Sample template from Codio Certified LAMP stack
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. code:: python
+.. code:: ini
 
     # LAMP
 

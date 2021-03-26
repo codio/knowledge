@@ -12,5 +12,5 @@ Review the following topics to gain an understanding of using assessments:
 - :ref:`Ungraded Assessments <ungraded-assessments>`
 - :ref:`Add a New Assessment <add-assessment>`
 - :ref:`Edit an Assessment <edit-assessment>`
-- :ref:`Edit Points for an Assessment <edit-points-assessment>`
+- :ref:`Edit Points for an Assessment <edit-assessment-points>`
 - :ref:`Delete an Assessment <delete-assessment>`

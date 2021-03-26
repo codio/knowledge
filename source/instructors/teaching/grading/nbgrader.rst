@@ -14,56 +14,65 @@ Use the following configuration information when setting up nbgrader:
 
 - **Extend Timeout period** - To extend the time required for completion (to 90 seconds in this example), you can add the following to the **.codio-jupyter** file:
 
-  ```yaml
+.. code:: yaml
+
   nbgrader:
      ExecutePreprocessor.timeout: 90
-  ```
+ 
 
 - **Lock all cells** - To lock all cells (Default: False), add the following to the **.codio-jupyter** file:
 
-  ```yaml
+.. code:: yaml
+
   nbgrader:
      LockCells.lock_all_cells: True
-  ```
+
+
 
 - **Lock all grade cells** - To lock all grade cells (Default: True) where grade cells are locked (non-deletable), add the following to the **.codio-jupyter** file:
 
-  ```yaml
+.. code:: yaml
+
   nbgrader:
      LockCells.lock_grade_cells: True
-  ```
+
 
 - **Lock all read-only cells** - To lock all grade cells (Default: True) where read only cells are locked (non-deletable and non-editable), add the following to the **.codio-jupyter** file:
 
-  ```yaml
+.. code:: yaml
+
   nbgrader:
      LockCells.lock_readonly_cells: True
-  ```
+
 
 - **Lock all solution cells** - To lock all solution cells (Default: True) where solution cells are locked (non-deletable and non-editable), add the following to the **.codio-jupyter** file:
 
-  ```yaml
+.. code:: yaml
+
   nbgrader:
      LockCells.lock_solution_cells: True
-  ```
+
 
 - **Execute preprocessor on timeout** - If execution of a cell times out, interrupt the kernel and continue executing other cells rather than throwing an error and stopping by adding the following to the **.codio-jupyter** file:
 
-  ```yaml
+.. code:: yaml
+
   nbgrader:
      ExecutePreprocessor.interrupt_on_timeout: True
-  ```
+
 
 - **Run custom grading with Jupyter** - To avoid execution of autograder with nbgrader and allow Codio script autograder to be executed, add the following to the **.codio-jupyter** file. When this is set, Jupyter files do not display as assessments in Codio and are not submitted through nbrader after the assignment is marked as completed (no assessments and points areset in the assignment).
 
-  ```yaml
+.. code:: yaml
+
   codio:
     grader: false
-  ```
+
 
 - **ClearSolutions.code_stub** - Add the following to the **.codio-jupyter** file:
 
-  ```yaml
+.. code:: yaml
+
   nbgrader:
       ClearSolutions.code_stub:
           R: |
@@ -76,5 +85,5 @@ Use the following configuration information when setting up nbgrader:
               # BEGIN YOUR CODE
               raise NotImplementedError.new()
               #END YOUR CODE
-  ```
+
 

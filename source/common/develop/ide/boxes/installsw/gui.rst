@@ -44,7 +44,7 @@ Use the viewer
 ^^^^^^^^^^^^^^
 The viewer is a special window that appears either inside Codio or in a separate browser tab. To open it, add `"Viewer": "https://{{domain3000}}/"` to the .codio file, as follows: 
 
-.. code:: json
+.. code:: ini
     
     {
     // Configure your Run and Preview buttons here.

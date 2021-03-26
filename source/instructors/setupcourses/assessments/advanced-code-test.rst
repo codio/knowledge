@@ -35,11 +35,12 @@ Complete each section to set up your standard code test.
 
      If you choose **pycodestyle**, you must first install it. Use the following commands to install pycodestyle:
 
-       ```bash
-       sudo apt update
+.. code:: ini
+
+      sudo apt update
       sudo apt install python3-pip
       sudo python3 -m pip install pycodestyle
-      ```
+     
 
     .. image:: /img/guides/assessment_act_exec_pycodestyle.png
        :alt: Pycodestyle

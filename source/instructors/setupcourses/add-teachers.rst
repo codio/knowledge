@@ -1,7 +1,7 @@
 .. _add-teachers:
 
 Add or Remove Teachers in a Course
-===========================================
+==================================
 
 Your course may be taught by more than one teacher so you can add teachers to your course. You can also enable a teacher to be a student in the course to test it. Follow these steps to add a teacher to your Codio course:
 

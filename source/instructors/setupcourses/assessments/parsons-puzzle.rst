@@ -74,7 +74,9 @@ Grader Options
   Properties specifying what is tested:
 
   - ``variables`` - an object with properties for each variable name to be tested; the value of the property is the expected value
+  
   or
+  
   - ``variable`` - a variable name to be tested
   - ``expected`` - expected value of the variable after code execution
 

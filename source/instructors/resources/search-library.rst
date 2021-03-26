@@ -2,7 +2,8 @@
 
 Search Assessments Library
 =============================
-You search an assessment library the same whether you are using Codio's :ref:`Global Assessments Library <global-library>' or your :ref:`organization's Assessments Library <org-library>`. Follow these steps to search a library:
+
+You search an assessment library the same whether you are using Codio's :ref:`Global Assessment Library <global-library>` or your :ref:`organization assessment library <org-library>`. Follow these steps to search a library:
 
 1. In the Guide Editor, click the **Add Assessments** drop-down menu and choose **Assessment Library**.
  
@@ -62,8 +63,8 @@ Using saved searches
 --------------------
 To use a saved search, click the **Saved** drop-down list and choose the saved search.
 
-.. image: /img/savedSearch.png
-   :alt: Use Saved Search
+    .. image: /img/savedSearch.png
+       :alt: Use Saved Search
 
 You can edit these search parameters  without changing your saved search.
 
@@ -71,5 +72,5 @@ Delete saved searches
 ---------------------
 To remove a saved search, click the **Saved** drop-down list and click the red **x** to the name.
 
-.. image:: /img/savedSearchDelete.png
-   :alt: Delete Saved Search
+    .. image:: /img/savedSearchDelete.png
+       :alt: Delete Saved Search

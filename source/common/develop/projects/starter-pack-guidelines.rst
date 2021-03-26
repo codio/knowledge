@@ -16,21 +16,22 @@ To enable your project to preview inside a **Codio** tab, you must configure the
 
 The following **.codio** file is typical:
 
-```json
-{
-// Configure your Run and Preview buttons here.
+.. code:: ini
 
-// Run button configuration
-  "commands": {
-        "Start Express Server": "npm start"
-  },
+    {
+    // Configure your Run and Preview buttons here.
 
-// Preview button configuration
-  "preview": {
-        "Preview": "https://{{domain}}:9500/"
-  }
-}
-```
+    // Run button configuration
+      "commands": {
+            "Start Express Server": "npm start"
+      },
+
+    // Preview button configuration
+      "preview": {
+            "Preview": "https://{{domain}}:9500/"
+      }
+    }
+
 
 Create a new stack
 ------------------
@@ -53,29 +54,29 @@ You should create a **README.md** file in the root of your project that displays
 
 Below is a template that can be used:
 
-```markdown
-# Title
-Put the name of your Pack here containing the primary technology or technologies with a version number, along with a short description.
+.. code:: markdown
 
-## Using the Pack
-Describe how the user should get started. Point to your `.codio` menu options if you have created any.
+    # Title
+    Put the name of your Pack here containing the primary technology or technologies with a version number, along with a short description.
 
-## How the Pack was prepared
-It can be helpful to others or even to you later on to describe how you built the Pack. What we often do is to include a set of instructions that can be pasted into a Bash script to recreate the Pack with a single command.
+    ## Using the Pack
+    Describe how the user should get started. Point to your `.codio` menu options if you have created any.
 
-**Example** : This Starter Pack was built on the Node+Grunt+MongoDB Stack. We than ran the following commands before creating the Pack.
+    ## How the Pack was prepared
+    It can be helpful to others or even to you later on to describe how you built the Pack. What we often do is to include a set of instructions that can be pasted into a Bash script to recreate the Pack with a single command.
 
-npm install -g express
-npm install -g express-generator
-express .
-npm install
+    **Example** : This Starter Pack was built on the Node+Grunt+MongoDB Stack. We than ran the following commands before creating the Pack.
 
-## Useful Links
+    npm install -g express
+    npm install -g express-generator
+    express .
+    npm install
 
-- [Express site](http://expressjs.com/)
-- [Node](http://nodejs.org/)
-- [npm](https://www.npmjs.org/)
-- [Grunt](http://gruntjs.com/)
-- [MongoDB](https://www.mongodb.org)
+    ## Useful Links
 
-```
+    - [Express site](http://expressjs.com/)
+    - [Node](http://nodejs.org/)
+    - [npm](https://www.npmjs.org/)
+    - [Grunt](http://gruntjs.com/)
+    - [MongoDB](https://www.mongodb.org)
+

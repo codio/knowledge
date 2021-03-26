@@ -97,62 +97,64 @@ To review and grade answers given by students in a free text assessment, follow 
 Example of a simple Bash script for partial points
 ..................................................
 
-```bash
-#!/usr/bin/env bash
-POINTS=0
-if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer1" ]
-then
-  POINTS=1
-fi
-if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer5" ]
-then
-  POINTS=5
-fi
-if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer10" ]
-then
-  POINTS=10
-fi
-curl "$CODIO_PARTIAL_POINTS_URL&points=${POINTS}" > /dev/null
-```
+.. code:: bash
+
+    #!/usr/bin/env bash
+    POINTS=0
+    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer1" ]
+    then
+      POINTS=1
+    fi
+    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer5" ]
+    then
+      POINTS=5
+    fi
+    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer10" ]
+    then
+      POINTS=10
+    fi
+    curl "$CODIO_PARTIAL_POINTS_URL&points=${POINTS}" > /dev/null
+
 
 Example of a Python script for partial points
 .............................................
 
-```python
-#!/usr/bin/env python
-import os, requests, sys
-import random
-# get free text auto value
-text = os.environ['CODIO_FREE_TEXT_ANSWER']
-# import grade submit function
-sys.path.append('/usr/share/codio/assessments')
-from lib.grade import send_partial
-def main():
-  # Execute the test on the student's code
-  grade = 0  
-  feedback = ''  
-  if text == '1':
-    grade = 1
-    feedback = '1 point'
-  elif text == '5':
-    grade = 5
-    feedback = '5 points'
-  elif text == '10':
-    grade = 10
-    feedback = '10 points'
-  else:
-    grade = 0
-    feedback = 'no points'    
-  
-  print(feedback)
-  # Send the grade back to Codio with the penatly factor applied
-  
-  res = send_partial(int(round(grade)))
-  exit( 0 if res else 1)
-  
-main()
+.. code:: python
 
-```
+    #!/usr/bin/env python
+    import os, requests, sys
+    import random
+    # get free text auto value
+    text = os.environ['CODIO_FREE_TEXT_ANSWER']
+    # import grade submit function
+    sys.path.append('/usr/share/codio/assessments')
+    from lib.grade import send_partial
+    def main():
+      # Execute the test on the student's code
+      grade = 0  
+      feedback = ''  
+      if text == '1':
+        grade = 1
+        feedback = '1 point'
+      elif text == '5':
+        grade = 5
+        feedback = '5 points'
+      elif text == '10':
+        grade = 10
+        feedback = '10 points'
+      else:
+        grade = 0
+        feedback = 'no points'    
+
+      print(feedback)
+      # Send the grade back to Codio with the penatly factor applied
+
+      res = send_partial(int(round(grade)))
+      exit( 0 if res else 1)
+
+    main()
+
+
 
 Autograding enhancements
 ------------------------
