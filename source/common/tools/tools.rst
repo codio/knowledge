@@ -1,5 +1,5 @@
 .. meta::
-   :description: Useful Tools
+   :description: Useful IDE Tools
 
 .. _tools:
 

@@ -1,5 +1,5 @@
 .. meta::
-   :description: SSH Key
+   :description: Access your SSH Key
 
 .. _ssh-key:
 

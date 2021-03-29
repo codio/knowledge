@@ -1,5 +1,5 @@
 .. meta::
-   :description: Update a Starter Pack
+   :description: Update or delete a Starter Pack
 
 .. _update-starter-pack:
 

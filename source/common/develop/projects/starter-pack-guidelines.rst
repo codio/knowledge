@@ -1,5 +1,5 @@
 .. meta::
-   :description: Starter Pack Guidelines
+   :description: Guidelines for creating a Starter Pack including configuring menu items, providing a read me file and creating a Stack forthe software configuration.
 
 .. _starter-pack-guidelines:
 

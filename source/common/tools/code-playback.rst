@@ -1,5 +1,5 @@
 .. meta::
-   :description: Code Playback
+   :description: Use Code Playback to review code creation and retrieve lost changes.
 
 .. _code-playback:
 

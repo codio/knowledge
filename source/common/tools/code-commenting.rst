@@ -1,5 +1,5 @@
 .. meta::
-   :description: Code Commenting
+   :description: Use Code Commenting to provide suggestions or corrections or view instructor comments.
 
 .. _code-commenting:
 
@@ -13,7 +13,7 @@ To view all comments, click **Education > Code Comments** on the menu bar, and c
 .. image:: /img/studentcodecomment.png
    :alt: Commenting
 
-You can also add your own comments for the instructor to review. As you update your code, the comment is marked as resolved but can still be review from the **Education -> Code Comments** menu item or from the Guide Settings.
+You can also add your own comments for the instructor to review. As you update your code, the comment is marked as resolved but can still be reviewed from the **Education -> Code Comments** menu item or from the Guide Settings.
 
 .. image:: /img/guides/codecommentguides.png
    :alt: Guides Code Comments

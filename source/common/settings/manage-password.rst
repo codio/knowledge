@@ -1,5 +1,5 @@
 .. meta::
-   :description: Manage Password
+   :description: Change or reset your password
 
 .. _password:
 

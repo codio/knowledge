@@ -1,5 +1,5 @@
 .. meta::
-   :description: Copy a Project
+   :description: Copy a project into your account
 
 .. _copy-project:
 
