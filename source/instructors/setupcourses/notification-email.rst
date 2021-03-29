@@ -18,8 +18,8 @@ Notification details
 - **New Feedback:** the email notification will be sent when new feedback is available for the student
   
 
-**Before**
-**********
+Before
+******
 
 - **Due Date (before late penalties)** where [penalties deadlines](/courses/classes/#set-assignment-penalties) are set and the **End Time** is set to the final date of completion, the **Due Date** is taken from the penalty deadline date
 - **End Date** is taken from the **End Time** set for the assignment duration

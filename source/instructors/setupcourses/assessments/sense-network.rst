@@ -6,7 +6,7 @@
 Sense Network
 =============
 
-.. _Sense.Education: https://www.sense.education/ is an AI-based code analysis package to give students feedback on their code submissions and is supported in Codio in the **Sense.Network** assessment type. Students can submit their work and can view feedback from Sense. They can then review their code and resubmit if **One Attempt Only** is not enabled.
+`Sense.Education <https://www.sense.education/>`_ is an AI-based code analysis package to give students feedback on their code submissions and is supported in Codio in the **Sense.Network** assessment type. Students can submit their work and can view feedback from Sense. They can then review their code and resubmit if **One Attempt Only** is not enabled.
 
 To help and track students activity through Sense, you can :ref:`enable a custom script <enable-custom-script>`.
 
@@ -59,7 +59,7 @@ Follow these steps to set up a Sense.Network assessment:
    .. image:: /img/guides/assessment_metadata.png
       :alt: Metadata
 
-  - **Bloom's Level** - Click the drop-down and choose the level of .. _Bloom's Taxonomy: https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/ for the current assessement.
+  - **Bloom's Level** - Click the drop-down and choose the level of Bloom's Taxonomy: https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/ for the current assessement.
   - **Learning Objectives** specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then its Learning Objectives could be *SWBAT follow the flow of recursive execution*.
   - **Tags** - By default, **Content** and **Programming Language** tags are provided and required. To add another tag, click **Add Tag** and enter the name and values.
 
