@@ -1,5 +1,5 @@
 .. meta::
-   :description: Stacks
+   :description: Stacks are software configuration templates for your Codio projects or assignments. A Stack always includes the operating system and can also include programming languages and databases.
 
 .. _stacks:
 

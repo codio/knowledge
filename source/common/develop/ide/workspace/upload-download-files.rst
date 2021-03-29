@@ -1,5 +1,5 @@
 .. meta::
-   :description: Upload and Download Files
+   :description: Upload files to your project and download files to your computer.
 
 .. _upload-download-files:
 
@@ -26,7 +26,7 @@ To upload a file, follow these steps:
 3. On the **Upload Files** dialog, use one of the following methods to
    upload the file:
 
--  Drag and drop the files from your desktop of File Explorer into the
+-  Drag and drop the files from your desktop or File Explorer into the
    dialog box and click **Close**.
 -  Click **Browse for Files**, select the files to upload, and then
    click **Close**.

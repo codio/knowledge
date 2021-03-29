@@ -1,5 +1,5 @@
 .. meta::
-   :description: Restart or Reset Box
+   :description: Restarting a box is a reboot, resetting a box returns it to a fresh state. 
 
 .. _Restart and Reset:
 

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Customize Run Button
+   :description: Customize the run button to execute commands and shell scripts.
 
 .. _customizable-run-menu:
 

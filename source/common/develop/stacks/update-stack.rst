@@ -1,5 +1,5 @@
 .. meta::
-   :description: Update a Stack
+   :description: Update a Stack name or description or create a new version to update the software configuration.
 
 .. _update-stack:
 

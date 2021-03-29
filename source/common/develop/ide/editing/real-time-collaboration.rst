@@ -1,5 +1,5 @@
 .. meta::
-   :description: Real-Time Code Collaboration
+   :description: Allow for real-time code collaboration by giving other Codio users permission to access to your project.
 
 .. _collaboration:
 

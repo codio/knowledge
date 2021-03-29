@@ -1,5 +1,5 @@
 .. meta::
-   :description: Always-On Boxes
+   :description: Always-on boxes all your projects to always be accessible.
 
 .. _always on boxes:
 

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Add and Delete Files
+   :description: Adding and delete files in your project.
 
 .. _add-delete-files:
 
@@ -7,7 +7,7 @@ Add and Delete Files
 ====================
 
 You can create and delete files in your project using the **File** tab
-on the menu bar or from the context menu the Filetree.
+on the menu bar or from the context menu in the Filetree.
 
 Add a file
 ----------
