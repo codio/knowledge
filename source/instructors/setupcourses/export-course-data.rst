@@ -43,6 +43,20 @@ To export data related to users accessing assignments in the course, follow thes
 
 **Note:** The data is retained for a maximum of 6 months.
 
+PDF
+---
+
+   .. image:: /img/pdf_export.png
+      :alt: PDF Export
+
+Use this to obtain PDF versions of the guides content in your assignments. When selected, a dialog shows allowing you to select the assignments to obtain the PDF version
+
+- All the data from the selected assignments will be compiled into one pdf file in the background and when ready an email will be sent to you with a link for you to download.
+- If you wish to distribute the pdf to your students as assignments start, select only the relevant assignment
+
+- The link will be active for 7 days and after this time the file will be removed.
+
+
 **See Also:**
 
 - :ref:`Export LTI Settings <export-lti>` to export unit LTI integration URLs.

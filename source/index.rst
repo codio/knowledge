@@ -256,6 +256,7 @@ Course Administration
    instructors/setupcourses/preview-course
    instructors/setupcourses/rename-reorder-assignments
    instructors/setupcourses/view-student-username
+   instructors/setupcourses/notification-email
    
 Codio instructional resources
 -----------------------------
