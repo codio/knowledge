@@ -1,1 +1,4 @@
-## Integrating with your LMS system (Canvas etc.)
+
+
+Integrating with your LMS system (Canvas etc.)
+==============================================

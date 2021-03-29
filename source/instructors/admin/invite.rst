@@ -1,1 +1,0 @@
-## Inviting teachers and owners to your org

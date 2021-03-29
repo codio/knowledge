@@ -1,1 +1,3 @@
-## Editing Resources
+
+Editing Resources
+=================

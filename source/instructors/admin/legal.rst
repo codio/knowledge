@@ -1,16 +1,23 @@
-## Legal stuff
+
+Legal stuff
+===========
 
 
-### Accessibility
+Accessibility
+*************
 
     - Link to VPAT
 
-### GDPR
+GDPR
+****
 
-### FERPA
+FERPA
+*****
 
-### COPPA
+COPPA
+*****
 
-### General Security stuff
+General Security stuff
+**********************
 
     - Link to Security Statement
