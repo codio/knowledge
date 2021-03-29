@@ -31,7 +31,7 @@ When you make changes to an assignment that students have already started, you c
 1. Open the course and click the assignment.
 2. Click the **Actions** button in the upper right corner.
 3. Click the **Reset** button.
-3. Enter the confirmation code and then click **Yes** to confirm the reset.
+4. Enter the confirmation code and then click **Yes** to confirm the reset.
 
 Reset assignment for all students
 ---------------------------------
@@ -70,6 +70,7 @@ The following settings allow you to modify an assignment:
 - **Delete module** (7) - Click **Delete** to remove the entire module.
 
 - **Reorder modules** (8) - Click the **Up** or **Down** arrow to move the assignment to a different position in the course. You can also change the order of the assignments in a module by dragging and dropping it to the desired position in the list. View this video to learn more
+
 .. raw:: html
 
     <iframe width="620" height="349" src="https://codio.wistia.com/medias/xmubhjvxdd?wvideo=xmubhjvxdd" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="620" height="349"></iframe>

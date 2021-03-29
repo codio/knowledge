@@ -255,6 +255,7 @@ Course Administration
    instructors/setupcourses/mark-assignments-complete
    instructors/setupcourses/preview-course
    instructors/setupcourses/rename-reorder-assignments
+   instructors/setupcourses/modify-assignments
    instructors/setupcourses/view-student-username
    instructors/setupcourses/notification-email
    

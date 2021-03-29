@@ -29,7 +29,7 @@ To create a debug target, follow these steps:
 .. image:: /img/debug-target.png
    :alt: Create Debug Target
 
-   Create Debug Target
+
 
 3. Click the **Debugger Type** drop-down and choose the programming language.
 
