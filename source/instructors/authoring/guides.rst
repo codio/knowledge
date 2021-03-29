@@ -1,4 +1,5 @@
-
+.. meta::
+   :description: Guides
 
 Guides
 ======

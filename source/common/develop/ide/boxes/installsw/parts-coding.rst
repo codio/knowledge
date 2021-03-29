@@ -1,3 +1,6 @@
+.. meta::
+   :description: Add Your Own Software Packages
+
 .. _parts-coding:
 
 Add Your Own Software Packages

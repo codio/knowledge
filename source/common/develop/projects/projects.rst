@@ -1,3 +1,6 @@
+.. meta::
+   :description: Projects
+
 .. _projects:
 
 Projects

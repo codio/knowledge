@@ -1,3 +1,6 @@
+.. meta::
+   :description: Release Grades
+   
 .. _release-grades:
 
 Release Grades

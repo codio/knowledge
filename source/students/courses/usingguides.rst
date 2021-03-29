@@ -1,3 +1,6 @@
+.. meta::
+   :description: Using Guides
+   
 .. _guides:
 
 Use Guides

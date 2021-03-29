@@ -1,3 +1,6 @@
+.. meta::
+   :description: Stacks
+
 .. _stacks:
 
 Stacks

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Access Codio Box via SSH
+
 .. _ssh:
 
 Access Codio Box via SSH

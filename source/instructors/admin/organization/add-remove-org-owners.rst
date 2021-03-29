@@ -1,3 +1,6 @@
+.. meta::
+   :description: Add or Remove Organization Owners
+   
 .. _org-owners:
 
 Add or Remove Organization Owners

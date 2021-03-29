@@ -1,3 +1,6 @@
+.. meta::
+   :description: Edit Assessment Points
+   
 .. _edit-assessment-points:
 
 Edit Assessment Points

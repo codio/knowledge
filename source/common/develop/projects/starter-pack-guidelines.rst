@@ -1,3 +1,6 @@
+.. meta::
+   :description: Starter Pack Guidelines
+
 .. _starter-pack-guidelines:
 
 Starter Pack Guidelines

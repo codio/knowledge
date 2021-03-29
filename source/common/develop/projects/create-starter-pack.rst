@@ -1,3 +1,6 @@
+.. meta::
+   :description: Create Starter Pack
+
 .. _create-starter-pack:
 
 Create Starter Pack

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Customize Run Button
+
 .. _customizable-run-menu:
 
 Customize Run Button

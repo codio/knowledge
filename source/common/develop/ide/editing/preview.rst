@@ -1,3 +1,6 @@
+.. meta::
+   :description: Preview
+
 .. _preview:
 
 Preview

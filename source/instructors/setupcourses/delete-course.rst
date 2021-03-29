@@ -1,3 +1,7 @@
+.. meta::
+   :description: Delete Course
+
+
 .. _delete-course:
 
 Delete Course

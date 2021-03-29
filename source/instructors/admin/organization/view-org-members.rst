@@ -1,3 +1,6 @@
+.. meta::
+   :description: View Organization Members
+
 .. _view-org-members:
 
 View Organization Members

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Keyboard Shortcuts
+
 .. _shortcuts:
 
 Keyboard Shortcuts

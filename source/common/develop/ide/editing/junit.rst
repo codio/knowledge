@@ -1,3 +1,6 @@
+.. meta::
+   :description: JUnit Testing Framework
+
 .. _junit:
 
 JUnit Testing Framework

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Exam Mode
+   
 .. _exam-mode:
 
 Exam Mode

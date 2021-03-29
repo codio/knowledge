@@ -1,3 +1,6 @@
+.. meta::
+   :description: Free Text
+   
 .. _free-text:
 
 Free Text
@@ -41,7 +44,7 @@ Free text assessments allow students to answer questions in their own words. Bec
    .. image:: /img/guides/assessment_metadata.png
       :alt: Metadata
 
-  - **Bloom's Level** - Click the drop-down and choose the level of <Bloom's Taxonomy> (https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) for the current assessement.
+  - **Bloom's Level** - Click the drop-down and choose the level of .. _Bloom's Taxonomy: https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/ for the current assessement.
   - **Learning Objectives** specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then its Learning Objectives could be *SWBAT follow the flow of recursive execution*.
   - **Tags** - By default, **Content** and **Programming Language** tags are provided and required. To add another tag, click **Add Tag** and enter the name and values.
 

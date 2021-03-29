@@ -1,3 +1,6 @@
+.. meta::
+   :description: Set Organization Contact URL
+
 .. _org-contact-url:
 
 Set Organization Contact URL

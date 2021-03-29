@@ -1,3 +1,6 @@
+.. meta::
+   :description: Autostart Services
+
 .. _startup:
 
 Autostart Services

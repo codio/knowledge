@@ -1,3 +1,6 @@
+.. meta::
+   :description: Grade Assignments
+   
 .. _grading:
 
 Grade Assignments

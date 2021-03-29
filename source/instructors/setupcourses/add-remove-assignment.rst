@@ -1,3 +1,7 @@
+.. meta::
+   :description: Add and Remove Course Assignments
+
+
 .. _add-remove-assignment:
 
 Add and Remove Course Assignments

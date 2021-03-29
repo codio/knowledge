@@ -1,7 +1,10 @@
+.. meta::
+   :description: Update an Existing Assessment in Library
+   
 .. _update-library:
 
 Update an Existing Assessment in Library
-==========================================
+========================================
 If you want to update an assessment that is the library, follow these steps:
 
 1. In the Guide Editor, click the **Add Assessments** drop-down. 

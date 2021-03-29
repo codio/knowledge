@@ -1,3 +1,6 @@
+.. meta::
+   :description: Color Picker and Preview
+
 .. _color-picker:
 
 Color Picker and Preview

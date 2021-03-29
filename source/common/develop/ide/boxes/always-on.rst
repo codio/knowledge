@@ -1,3 +1,6 @@
+.. meta::
+   :description: Always-On Boxes
+
 .. _always on boxes:
 
 Always-On Boxes

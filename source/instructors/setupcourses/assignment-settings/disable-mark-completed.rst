@@ -1,3 +1,7 @@
+.. meta::
+   :description: Disable Mark as Completed
+
+
 .. _disable-mark-completed:
 
 Disable Mark as Completed

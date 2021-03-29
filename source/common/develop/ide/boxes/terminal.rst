@@ -1,3 +1,6 @@
+.. meta::
+   :description: Terminal Window
+
 .. _terminal:
 
 Terminal Window

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Remove Organization Members
+
 .. _remove-org-members:
 
 Remove Organization Members

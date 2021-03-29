@@ -1,3 +1,6 @@
+.. meta::
+   :description: Cursor Features
+
 .. _cursor:
 
 Cursor Features

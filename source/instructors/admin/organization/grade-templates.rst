@@ -1,3 +1,6 @@
+.. meta::
+   :description: Create Grading Templates
+
 .. _grade-template:
 
 Create Grading Templates

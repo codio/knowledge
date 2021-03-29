@@ -1,3 +1,7 @@
+.. meta::
+   :description: Add or Remove Teachers in a Course
+
+
 .. _add-teachers:
 
 Add or Remove Teachers in a Course

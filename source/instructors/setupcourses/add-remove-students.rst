@@ -1,8 +1,18 @@
+.. meta::
+   :description: Add or Remove Students in a Course
+
+
 .. _add-remove-students:
 
 Add or Remove Students in a Course
 ==================================
-You can add students or remove students assigned to your course. View the .. _video: https://codio.wistia.com/medias/zebku9t15m?wvideo=zebku9t15m to learn more.
+You can add students or remove students assigned to your course. View this video to learn more.
+
+.. raw:: html
+
+    <iframe width="620" height="349" src="https://codio.wistia.com/medias/zebku9t15m?wvideo=zebku9t15m" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="620" height="349"></iframe>
+
+
 
 Add Students
 ------------
@@ -42,5 +52,5 @@ To remove a student from a course, follow these steps:
    .. image:: /img/manage_classes/remove_student.png
       :alt: Remove Student
 
-   **Note:** This does not remove your student entirely from your organization. To remove a student from your organization, see Remove Members (/dashboard/organisations/#remove-members).
+   **Note:** This does not remove your student entirely from your organization. To remove a student from your organization, see - :ref:`remove members <remove-org-members>`.
 

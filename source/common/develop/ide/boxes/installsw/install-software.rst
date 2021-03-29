@@ -1,3 +1,6 @@
+.. meta::
+   :description: Installing software packages
+
 .. _box_parts:
 
 Install Software Packages

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Create or Import a Project
+
 .. _create-import-project:
 
 Create or Import a Project

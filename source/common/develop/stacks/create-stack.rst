@@ -1,3 +1,6 @@
+.. meta::
+   :description: Create a Stack
+
 .. _create-stack:
 
 Create a Stack

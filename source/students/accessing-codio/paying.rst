@@ -1,3 +1,6 @@
+.. meta::
+   :description: Pay for Codio Subscription
+   
 .. _paying:
 
 Pay for Codio Subscription
@@ -54,4 +57,4 @@ To obtain and activate a license from your campus bookstore, follow these steps:
 
 5. Enter the code that was provided to you. Note that the code is case sensitive so enter it exactly as provided to you.
 
-If you have any problems contact us through your Codio account or email us at help@codio.com (mailto:help@codio.com).
+If you have any problems contact us through your Codio account or email us at help@codio.com.

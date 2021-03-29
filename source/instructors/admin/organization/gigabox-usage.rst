@@ -1,3 +1,6 @@
+.. meta::
+   :description: View Gigabox Usage
+   
 .. _gigabox-usage:
 
 View Gigabox Usage

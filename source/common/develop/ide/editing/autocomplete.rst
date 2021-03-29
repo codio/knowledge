@@ -1,3 +1,6 @@
+.. meta::
+   :description: Autocomplete
+
 .. _autocomplete:
 
 Autocomplete

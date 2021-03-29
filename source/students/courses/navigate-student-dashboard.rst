@@ -1,3 +1,6 @@
+.. meta::
+   :description: Navigate the Student Dashboard
+   
 .. _navigate-student-dashboard:
 
 Navigate the Student Dashboard

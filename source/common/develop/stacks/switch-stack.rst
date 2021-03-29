@@ -1,3 +1,6 @@
+.. meta::
+   :description: Switch Project to New Stack
+
 .. _switch-stack:
 
 Switch Project to New Stack

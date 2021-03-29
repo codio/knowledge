@@ -1,3 +1,6 @@
+.. meta::
+   :description: Add Questions to an Assessments Library
+   
 .. _add-questions-to-library:
 
 Add Questions to an Assessments Library

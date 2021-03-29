@@ -1,3 +1,6 @@
+.. meta::
+   :description: External Access to Boxes and Ports
+
 .. _external access:
 
 External Access to Boxes and Ports

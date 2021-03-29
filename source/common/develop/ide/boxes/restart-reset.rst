@@ -1,3 +1,6 @@
+.. meta::
+   :description: Restart or Reset Box
+
 .. _Restart and Reset:
 
 Restart or Reset Box

@@ -1,3 +1,7 @@
+.. meta::
+   :description: Disable Assignment
+
+
 .. _disable-assignment:
 
 Disable Assignment

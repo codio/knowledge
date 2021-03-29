@@ -1,3 +1,7 @@
+.. meta::
+   :description: Search and Order Courses
+
+
 .. _search-courses:
 
 Search and Order Courses

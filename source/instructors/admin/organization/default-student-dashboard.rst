@@ -1,3 +1,6 @@
+.. meta::
+   :description: Set Default Student Dashboard
+   
 .. _default-student-dashboard:
 
 Set Default Student Dashboard

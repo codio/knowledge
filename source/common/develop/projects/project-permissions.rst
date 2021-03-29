@@ -1,3 +1,6 @@
+.. meta::
+   :description: Project Permissions
+
 .. _project-permissions:
 
 Project Permissions

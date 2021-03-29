@@ -1,3 +1,7 @@
+.. meta::
+   :description: Add Teaching Assistant to a Course
+
+
 .. _add-ta:
 
 Add Teaching Assistant to a Course

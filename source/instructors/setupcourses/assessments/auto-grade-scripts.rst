@@ -1,3 +1,6 @@
+.. meta::
+   :description: Using Auto-Grade Scripts
+   
 .. _auto-grade-scripts:
 
 Using Auto-Grade Scripts

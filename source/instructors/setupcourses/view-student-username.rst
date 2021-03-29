@@ -1,3 +1,7 @@
+.. meta::
+   :description: View Student Usernames
+
+
 .. _student-username:
 
 View Student Usernames

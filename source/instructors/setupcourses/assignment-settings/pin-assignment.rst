@@ -1,3 +1,7 @@
+.. meta::
+   :description: Pin and Unpin Assignment
+
+
 .. _pin-assignment:
 
 Pin and Unpin Assignment

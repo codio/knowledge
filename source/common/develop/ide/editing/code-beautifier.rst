@@ -1,3 +1,6 @@
+.. meta::
+   :description: Code Beautifier
+
 .. _code-beautifier:
 
 Code Beautifier

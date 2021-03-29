@@ -1,3 +1,6 @@
+.. meta::
+   :description: User Profile
+
 .. _user-profile:
 
 User Profile

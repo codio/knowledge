@@ -1,4 +1,6 @@
-
+.. meta::
+   :description: Legal stuff
+   
 Legal stuff
 ===========
 

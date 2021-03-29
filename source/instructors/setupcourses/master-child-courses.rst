@@ -1,3 +1,7 @@
+.. meta::
+   :description: Working with Master/Child Courses
+
+
 .. _master-child-courses:
 
 Working with Master/Child Courses

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Organizations
+
 .. _organizations:
 
 Organizations

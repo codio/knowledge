@@ -1,3 +1,6 @@
+.. meta::
+   :description: Export a Project
+
 .. _export-project:
 
 Export a Project

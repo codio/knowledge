@@ -1,7 +1,11 @@
+.. meta::
+   :description: Modify Assignments
+
+
 .. _modify-assignments:
 
 Modify Assignments
-===================
+==================
 You can make changes to assignments that have already been published but it is not available to students until you re-publish it. There are certain considerations when making changes to assignments that students have already started to avoid invalidating their work. You can also reset assignments so that your students have the latest version.
 
 Follow these steps to modify an assignment and re-publish it:
@@ -16,7 +20,9 @@ Re-publish assignment that students have already started
 --------------------------------------------------------
 When you make changes to an assignment and attempt to re-publish it, if students have already started the assignment, you are warned that **Students have started this assignment** and provide options for you to continue. You can add new files but cannot update existing files as it will invalidate the student's work.
 
-https://downloads.intercomcdn.com/i/o/233505516/130fb49ec4b9975ef0923932/updateassignment.png <Ian, this is from Intercom; need screenshot inserted>
+.. image:: /img/updateassignment.png
+   :alt: Update Assignment
+
 
 Reset assignment for individual student
 ---------------------------------------
@@ -63,4 +69,8 @@ The following settings allow you to modify an assignment:
 
 - **Delete module** (7) - Click **Delete** to remove the entire module.
 
-- **Reorder modules** (8) - Click the **Up** or **Down** arrow to move the assignment to a different position in the course. You can also change the order of the assignments in a module by dragging and dropping it to the desired position in the list. View the <video> (https://codio.wistia.com/medias/xmubhjvxdd?wvideo=xmubhjvxdd).
+- **Reorder modules** (8) - Click the **Up** or **Down** arrow to move the assignment to a different position in the course. You can also change the order of the assignments in a module by dragging and dropping it to the desired position in the list. View this video to learn more
+.. raw:: html
+
+    <iframe width="620" height="349" src="https://codio.wistia.com/medias/xmubhjvxdd?wvideo=xmubhjvxdd" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="620" height="349"></iframe>
+

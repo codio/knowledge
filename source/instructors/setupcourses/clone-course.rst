@@ -1,3 +1,7 @@
+.. meta::
+   :description: Clone a Course
+
+
 .. _clone-course:
 
 Clone a Course

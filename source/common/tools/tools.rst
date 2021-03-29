@@ -1,3 +1,6 @@
+.. meta::
+   :description: Useful Tools
+
 .. _tools:
 
 Useful Tools

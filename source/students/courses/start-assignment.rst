@@ -1,3 +1,6 @@
+.. meta::
+   :description: Start an Assignment
+   
 .. _start-assigment:
 
 Start an Assignment

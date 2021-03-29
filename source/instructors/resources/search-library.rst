@@ -1,7 +1,10 @@
+.. meta::
+   :description: Search Assessments Library
+   
 .. _search-library:
 
 Search Assessments Library
-=============================
+==========================
 
 You search an assessment library the same whether you are using Codio's :ref:`Global Assessment Library <global-library>` or your :ref:`organization assessment library <org-library>`. Follow these steps to search a library:
 

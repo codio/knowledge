@@ -1,3 +1,7 @@
+.. meta::
+   :description: Archive Course
+
+
 .. _archive-course:
 
 Archive Course

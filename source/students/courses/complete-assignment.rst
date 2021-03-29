@@ -1,3 +1,6 @@
+.. meta::
+   :description: Complete Assignments
+   
 .. _complete-assignment:
 
 Complete Assignments

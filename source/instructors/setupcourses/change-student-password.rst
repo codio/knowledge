@@ -1,3 +1,7 @@
+.. meta::
+   :description: Change Student Passwords
+
+
 .. _change-student-password:
 
 Change Student Passwords

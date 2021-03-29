@@ -1,3 +1,6 @@
+.. meta::
+   :description: Language Server Protocol
+
 .. _langserver:
 
 Language Server Protocol

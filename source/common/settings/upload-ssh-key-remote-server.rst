@@ -1,3 +1,6 @@
+.. meta::
+   :description: Upload SSH Key to Remote Server
+
 .. _upload-ssh-key-remote-server:
 
 
@@ -10,6 +13,7 @@ To make a secure connection to a remote server, you must upload your SSH key to 
 2. Click the **SSH Key** tab.
 
    .. image:: /img/prefs-account-ssh-dialog.png
+      :alt: SSH Dialog
    
 
 3. In the **Upload Key** section, enter the **Server** information and click **Upload**. Codio will upload your Codio SSH key to the server so you can make a secure connection.

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Access Projects
+
 .. _access-projects:
 
 Access Projects

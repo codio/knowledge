@@ -1,3 +1,6 @@
+.. meta::
+   :description: Real-Time Code Collaboration
+
 .. _collaboration:
 
 Real-Time Code Collaboration

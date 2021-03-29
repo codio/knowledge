@@ -1,3 +1,6 @@
+.. meta::
+   :description: Delete an Assessment
+   
 .. _delete-assessment:
 
 Delete an Assessment
@@ -17,5 +20,7 @@ To delete an assessment, follow these steps:
 
 4. Click the **Assessment** tab to view the list of all assessments. Deleted assessments are hightlighted in red.
 
-3. Click the **X** next to the assessment you want to permanently delete.
+5. Click the **X** next to the assessment you want to permanently delete.
+
+6. You can also use the **Filter By**, select **Not Used** and delete all unused assessments together. You can search for assessments by name,points or order in guides and order them up or down using the arrow buttons
 

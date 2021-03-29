@@ -1,3 +1,6 @@
+.. meta::
+   :description: Working with GUI based output
+
 .. _gui:
 
 GUI Based Output

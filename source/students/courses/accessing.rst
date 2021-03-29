@@ -1,3 +1,6 @@
+.. meta::
+   :description: Access Your Courses
+   
 .. _accessing-your-courses:
 
 Access Your Courses

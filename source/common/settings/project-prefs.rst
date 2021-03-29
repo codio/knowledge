@@ -1,3 +1,6 @@
+.. meta::
+   :description: Project Preferences
+
 .. _project-prefs:
 
 Project Preferences

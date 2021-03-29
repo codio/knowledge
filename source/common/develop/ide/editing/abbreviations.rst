@@ -1,3 +1,7 @@
+
+.. meta::
+   :description: Abbreviations
+   
 .. _abbreviations:
 
 Abbreviations

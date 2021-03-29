@@ -1,3 +1,6 @@
+.. meta::
+   :description: Enable Custom Script
+   
 .. _enable-custom-script:
 
 Enable Custom Script

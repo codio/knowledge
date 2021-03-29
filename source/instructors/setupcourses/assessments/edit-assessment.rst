@@ -1,3 +1,6 @@
+.. meta::
+   :description: Edit an Assessment
+   
 .. _edit-assessment:
 
 Edit an Assessment

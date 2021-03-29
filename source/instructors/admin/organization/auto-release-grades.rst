@@ -1,3 +1,6 @@
+.. meta::
+   :description: Enable or Disable Releasing Grades Automatically
+   
 .. _auto-release-grades:
 
 Enable or Disable Releasing Grades Automatically

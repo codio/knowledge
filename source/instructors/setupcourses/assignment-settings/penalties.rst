@@ -1,7 +1,12 @@
+
+.. meta::
+   :description: Penalties
+
 .. _penalties:
 
 Penalties
-==========
+=========
+
 You can add penalties to the assignment if students don't complete it within the specified start time and end time (incremental penalties can be applied).
 
 **Note:** It is recommended that you set the end date/time for the assignment (see :ref:`Assignment Duration <assignment-duration>`) to the last date/time for the penality to avoid having to change the assignment status for a student who submits the assignment late. 

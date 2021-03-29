@@ -1,3 +1,6 @@
+.. meta::
+   :description: Add a New Assessment
+   
 .. _add-assessment:
 
 Add a New Assessment

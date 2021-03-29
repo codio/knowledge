@@ -1,3 +1,7 @@
+.. meta::
+   :description: Notification Emails
+
+
 Notification Emails
 ===================
 

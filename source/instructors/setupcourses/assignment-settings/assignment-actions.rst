@@ -1,3 +1,7 @@
+.. meta::
+   :description: Assignment Action Buttons
+
+
 .. _assignment-actions:
 
 Assignment Action Buttons

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Code Editing Features
+
 .. _code-editing:
 
 Code Editing Features

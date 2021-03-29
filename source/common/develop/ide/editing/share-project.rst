@@ -1,3 +1,6 @@
+.. meta::
+   :description: Share Project
+   
 .. _share-project:
 
 Share Project

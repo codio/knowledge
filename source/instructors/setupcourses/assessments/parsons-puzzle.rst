@@ -1,3 +1,6 @@
+.. meta::
+   :description: Parsons Puzzle
+   
 .. _parsons-puzzle:
 
 Parsons Puzzle
@@ -45,7 +48,7 @@ Complete the following steps to set up a Parsons Puzzle assessment:
    .. image:: /img/guides/assessment_metadata.png
       :alt: Metadata
 
-  - **Bloom's Level** - Click the drop-down and choose the level of <Bloom's Taxonomy> (https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) for the current assessement.
+  - **Bloom's Level** - Click the drop-down and choose the level of .. _Bloom's Taxonomy: https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/ for the current assessement.
   - **Learning Objectives** specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then its Learning Objectives could be *SWBAT follow the flow of recursive execution*.
   - **Tags** - By default, **Content** and **Programming Language** tags are provided and required. To add another tag, click **Add Tag** and enter the name and values.
 
@@ -100,7 +103,4 @@ Grader Options
 
 Sample Starter Pack
 -------------------
-There is a Starter Pack project that you can add to your account that includes examples of Parson's Puzzle assessments.
-
-- For Codio.com users: [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/)
-- For Codio.co.uk users: [Click here to install](https://codio.co.uk/home/starter-packs/7c69bc1a-7f20-4cd1-a726-63a1c056790f)
+There is a Starter Pack project - Demo Guides and Assessments that you can add to your account that includes examples of Parson's Puzzle assessments. If not already loaded to your account (in your **My Projects** area), go to Starter Packs and search for **Demo Guides and Assessments**

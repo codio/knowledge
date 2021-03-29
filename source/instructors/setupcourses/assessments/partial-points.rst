@@ -1,3 +1,6 @@
+.. meta::
+   :description: Partial Points
+   
 .. _partial-points:
 
 Partial Points

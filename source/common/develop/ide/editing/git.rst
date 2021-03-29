@@ -1,3 +1,6 @@
+.. meta::
+   :description: Git and GitHub
+
 .. _git:
 
 Git and GitHub

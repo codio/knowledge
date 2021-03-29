@@ -1,3 +1,7 @@
+.. meta::
+   :description: Exam Proctoring
+
+
 .. _exam-proctoring:
 
 Exam Proctoring
@@ -12,6 +16,11 @@ The Exam Proctoring settings are used to enable various options for assignment e
   - Click **Time Limit** to enable it and then enter the value for **Days**, **Hours**, and **Minutes**.
   
   - To disable, uncheck **Time Limit**.
+  
+  - Students can be granted additional time if required. Select the 3 blue dot menu for the students assignment and **Extend Time**
+  
+.. image:: /img/extendtime.png
+   :alt: Extend Time
 
 - **Shuffle Question Order** - If enabled, each student receives the pages of the assignment in a random order to avoid students having exact duplicate assignments.
   

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Connect to BitBucket
+
 .. _bitbucket:
 
 Connect to BitBucket

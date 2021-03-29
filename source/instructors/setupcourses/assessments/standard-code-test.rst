@@ -1,3 +1,6 @@
+.. meta::
+   :description: Standard Code Test
+   
 .. _standard-code-test:
 
 Standard Code Test
@@ -6,9 +9,15 @@ Standard code tests are dialog driven, where you specify input data and the expe
 
 **Note:** You can also write code tests that give you in-depth control by allowing you to write your own code to execute tests. See :ref:`Advanced Code Tests <advanced-code-test>` for more information.
 
-Codio provides a <Starter Pack> (https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/) project that contains examples for all assessment types and a guides authoring cheat sheet. Click **Use Pack** to install it to your Codio account.
+Codio provides a Starter Pack project that contains examples for all assessment types and a guides authoring cheat sheet. Go to **Starter Packs** and search for **Demo Guides and Assessments** if not already loaded in your **My Projects** area. Click **Use Pack** to install it to your Codio account.
 
-For more information about adding a Standard Code Test, view the <video> (https://codio.wistia.com/medias/dwts4k9ftt?wvideo=dwts4k9ftt).
+For more information about adding a Standard Code Test, view this video
+
+.. raw:: html
+
+    <iframe width="620" height="349" src="https://codio.wistia.com/medias/dwts4k9ftt?wvideo=dwts4k9ftt" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="620" height="349"></iframe>
+
+
 
 Follow these steps to set up a standard code test:
 
@@ -117,7 +126,7 @@ Follow these steps to set up a standard code test:
    .. image:: /img/guides/assessment_metadata.png
       :alt: Metadata
 
-  - **Bloom's Level** - Click the drop-down and choose the level of <Bloom's Taxonomy> (https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) for the current assessement.
+  - **Bloom's Level** - Click the drop-down and choose the level of .. _Bloom's Taxonomy: https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/ for the current assessement.
   - **Learning Objectives** specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then its Learning Objectives could be *SWBAT follow the flow of recursive execution*.
   - **Tags** - By default, **Content** and **Programming Language** tags are provided and required. To add another tag, click **Add Tag** and enter the name and values.
 

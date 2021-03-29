@@ -1,3 +1,7 @@
+.. meta::
+   :description: Mark Assignment as Complete/Uncomplete
+
+
 .. _mark-assignment-complete:
 
 Mark Assignment as Complete/Uncomplete

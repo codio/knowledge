@@ -1,3 +1,6 @@
+.. meta::
+   :description: Project Settings
+
 .. _project-settings:
 
 Project Settings

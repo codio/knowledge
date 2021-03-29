@@ -1,3 +1,6 @@
+.. meta::
+   :description: Preinstalled Software Packages
+
 .. _preinstalled-software:
 
 Preinstalled Software Packages

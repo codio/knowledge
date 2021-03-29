@@ -1,3 +1,6 @@
+.. meta::
+   :description: Code Commenting
+
 .. _code-commenting:
 
 Code Commenting

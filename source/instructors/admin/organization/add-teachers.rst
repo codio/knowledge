@@ -1,3 +1,6 @@
+.. meta::
+   :description: Add Teachers to Organization
+   
 .. _add-teachers_org:
 
 Add Teachers to Organization

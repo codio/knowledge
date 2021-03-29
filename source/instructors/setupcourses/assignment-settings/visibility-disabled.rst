@@ -1,3 +1,7 @@
+.. meta::
+   :description: Visibility on Disabled
+
+
 .. _visibility-disabled:
 
 Visibility on Disabled

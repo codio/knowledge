@@ -1,3 +1,6 @@
+.. meta::
+   :description: Search and Replace
+
 .. _search-replace:
 
 Search and Replace

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Modify a Stack
+
 .. _modify-stack:
 
 Modify a Stack

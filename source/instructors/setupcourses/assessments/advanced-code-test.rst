@@ -1,12 +1,15 @@
+.. meta::
+   :description: Advanced Code Test
+   
 .. _advanced-code-test:
 
 Advanced Code Test
-===================
+==================
 The advanced code test assessment type allows you to write code in any language that checks code a student has written. However, if students can access the command line, they can explore the box and find the folder where your test scripts are located to modify the script. For compiled executables, they could replace your executables with those they've created if they know how the callbacks work.
 
 If you want your scripts to run securely, where students cannot view the script or other files that contain secure data, move the script files to the **.guides/secure** folder. Only the original project author can access this folder. 
 
-Codio provides a <Starter Pack> (https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/) project that contains examples for all assessment types and a guides authoring cheat sheet. Click **Use Pack** to install it to your Codio account.
+Codio provides a Starter Pack project that contains examples for all assessment types and a guides authoring cheat sheet. Go to **Starter Packs** and search for **Demo Guides and Assessments** if not already loaded in your **My Projects** area. Click **Use Pack** to install it to your Codio account.
 
 Complete each section to set up your standard code test.
 
@@ -87,7 +90,7 @@ Complete each section to set up your standard code test.
    .. image:: /img/guides/assessment_metadata.png
       :alt: Metadata
 
-  - **Bloom's Level** - Click the drop-down and choose the level of <Bloom's Taxonomy> (https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) for the current assessement.
+  - **Bloom's Level** - Click the drop-down and choose the level of .. _Bloom's Taxonomy: https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/ for the current assessement.
   - **Learning Objectives** specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then its Learning Objectives could be *SWBAT follow the flow of recursive execution*.
   - **Tags** - By default, **Content** and **Programming Language** tags are provided and required. To add another tag, click **Add Tag** and enter the name and values.
 

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Panels, Tabs, and Layouts
+
 .. _panels:
 
 Panels, Tabs, and Layouts

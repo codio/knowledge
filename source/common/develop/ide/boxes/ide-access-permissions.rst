@@ -1,3 +1,6 @@
+.. meta::
+   :description: IDE Access Permissions
+
 .. _IDE-access-permissions:
 
 IDE Access Permissions

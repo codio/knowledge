@@ -1,3 +1,6 @@
+.. meta::
+   :description: Codio Global Assessments Library
+   
 .. _global-library:
 
 Codio Global Assessments Library

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Enable or Disable Public/Private Settings
+
 .. _public-private:
 
 Enable or Disable Public/Private Settings

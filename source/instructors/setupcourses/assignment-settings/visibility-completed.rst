@@ -1,3 +1,7 @@
+.. meta::
+   :description: Visibility on Completed 
+
+
 .. _visibility-completed:
 
 Visibility on Completed

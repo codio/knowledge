@@ -1,3 +1,6 @@
+.. meta::
+   :description: Connecting a Codio Box to a GitHub Repo
+
 .. _connect-codio-github:
 
 Connecting a Codio Box to a GitHub Repo

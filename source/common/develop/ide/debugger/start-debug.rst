@@ -1,3 +1,6 @@
+.. meta::
+   :description: Start Debug Session
+
 .. _start-debug:
 
 Start Debug Session

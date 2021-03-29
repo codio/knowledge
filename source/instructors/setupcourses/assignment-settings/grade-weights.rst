@@ -1,3 +1,7 @@
+.. meta::
+   :description: Grade Weights
+
+
 .. _grade-weights:
 
 Grade Weights
@@ -7,7 +11,11 @@ The **Grade Weights** settings are used to enable and disable the grading model 
 .. image:: /img/gradingweights.png
    :alt: Grade Weights
 
-View the <Video: Combining Grading Sources> (https://codio.wistia.com/medias/5xp528jt6x?wvideo=5xp528jt6x) to learn more.
+View this video to learn more.
+
+.. raw:: html
+
+    <iframe width="620" height="349" src="https://codio.wistia.com/medias/5xp528jt6x?wvideo=5xp528jt6x" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="620" height="349"></iframe>
 
 You can enable all of the grading options and set grading weights for each. The total grade is based on the grading weight assigned to each option. For example, if Teachers Grading has a grading weight of 2 and Assessments Grading has a grading weight of 1, the final grade is calculated as Teachers Grading points * 2 + Assessments Grading points * 1 /3).
 

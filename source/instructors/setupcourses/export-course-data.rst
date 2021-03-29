@@ -1,3 +1,7 @@
+.. meta::
+   :description: Export Course Data
+
+
 .. _export-course:
 
 Export Course Data

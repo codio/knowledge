@@ -1,3 +1,7 @@
+.. meta::
+   :description: Preview Courses and Assignments
+
+
 .. _preview-course:
 
 Preview Courses and Assignments

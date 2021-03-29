@@ -1,3 +1,6 @@
+.. meta::
+   :description: Assign Grading Template to an Assignment 
+
 .. _assign-grade-template:
 
 Assign Grading Template to an Assignment

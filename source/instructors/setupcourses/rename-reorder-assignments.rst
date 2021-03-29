@@ -1,3 +1,7 @@
+.. meta::
+   :description: Rename/Reorder Modules and Assignments
+
+
 .. _rename-reorder-assignments:
 
 Rename/Reorder Modules and Assignments

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Starter Packs
+
 .. _starter-packs:
 
 Starter Packs

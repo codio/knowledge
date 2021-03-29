@@ -1,3 +1,6 @@
+.. meta::
+   :description: Update a Starter Pack
+
 .. _update-starter-pack:
 
 Update a Starter Pack

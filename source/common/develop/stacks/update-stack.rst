@@ -1,3 +1,6 @@
+.. meta::
+   :description: Update a Stack
+
 .. _update-stack:
 
 Update a Stack

@@ -1,3 +1,6 @@
+.. meta::
+   :description: IDE Box Overview
+
 .. _overview: 
 
 IDE Box Overview

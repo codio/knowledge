@@ -1,3 +1,6 @@
+.. meta::
+   :description: Grading Free Text Questions
+   
 .. _grade-freetext:
 
 Grading Free Text Questions

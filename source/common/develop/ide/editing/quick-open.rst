@@ -1,3 +1,6 @@
+.. meta::
+   :description: Quick Open
+
 .. _quick-open:
 
 Quick Open

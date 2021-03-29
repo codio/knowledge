@@ -1,3 +1,6 @@
+.. meta::
+   :description: Copy a Project
+
 .. _copy-project:
 
 Copy a Project 

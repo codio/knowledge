@@ -1,3 +1,7 @@
+.. meta::
+   :description: Share Course
+
+
 .. _share-course:
 
 Share Course

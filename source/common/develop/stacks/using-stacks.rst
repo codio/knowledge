@@ -1,3 +1,6 @@
+.. meta::
+   :description: Using Stacks
+
 .. _using-stacks:
 
 Using Stacks

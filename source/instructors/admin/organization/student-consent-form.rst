@@ -1,3 +1,6 @@
+.. meta::
+   :description: Configure Student IP Consent Form
+
 .. _student-consent:
 
 Configure Student IP Consent Form

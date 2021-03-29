@@ -1,3 +1,6 @@
+.. meta::
+   :description: Command Bar
+
 .. _command-bar:
 
 Command Bar

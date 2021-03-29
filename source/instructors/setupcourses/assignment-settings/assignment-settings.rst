@@ -1,7 +1,11 @@
+.. meta::
+   :description: Manage Assignments
+
+
 .. _assignment-settings:
 
 Manage Assignments
-===================
+==================
 You can manage assignments using the settings on the assignment when in **Edit** mode and the tasks on the assignment when not in edit mode. 
 
 Click the **Edit** icon in the upper right corner of the assignment to enter edit mode. 

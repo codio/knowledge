@@ -1,3 +1,6 @@
+.. meta::
+   :description: Open a File
+
 .. _open-file:
 
 Open a File

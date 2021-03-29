@@ -1,3 +1,6 @@
+.. meta::
+   :description: Add and Delete Folders
+
 .. _add-delete-folders:
 
 Add and Delete Folders

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Add and Delete Files
+
 .. _add-delete-files:
 
 Add and Delete Files

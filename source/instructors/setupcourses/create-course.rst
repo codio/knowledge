@@ -1,3 +1,7 @@
+.. meta::
+   :description: Create a New Course
+
+
 .. _create-course:
 
 Create a New Course
