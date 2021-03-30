@@ -1,28 +1,45 @@
 .. meta::
    :description: Page Editing
 
-## Page editing overview
+.. _page-editing:
+
+Page editing overview
+=====================
 To create new content or to edit existing content, go to the **Tools->Guide->Edit** menu option.
 
 Use the layout modes to switch between editor, preview, and split view modes.
 
 When in preview mode, you can quickly switch back to editor mode by selecting the **Editor** button:
 
-![Guides Edit Mode](/img/guides/editor.png)
+.. image:: /img/guides/editor.png)
+     :alt: Guides Edit Mode
+
+
 
 **Video: Editing Existing Guides Content**
 
-<p><a href="https://codio.wistia.com/medias/zqcpii19s6?wvideo=zqcpii19s6"><img src="https://embed-fastly.wistia.com/deliveries/245d383ed4a7ad83fb3addb91c089c17.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
+.. raw:: html
+
+    <iframe width="620" height="349" src="https://codio.wistia.com/medias/zqcpii19s6?wvideo=zqcpii19s6" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="620" height="349"></iframe>
 
 
-### Anatomy of the content editor
+
+Anatomy of the content editor
+*****************************
 Below is a screenshot of the editor with the main components highlighted.
-![overview](/img/guides/editbook.png)
 
-### Editor settings
+  .. image:: /img/guides/editbook.png
+     :alt: overview
+
+
+
+Editor settings
+***************
 Editor settings gives you access to the key functions:
 
-#### Page
+Page
+----
   - **[Layout](/courses/settings-actions/#page)** allows you to specify the panel layout you want to choose for this section,
   - **[Show Folders](/courses/authoring/#hiding-folders)** allows you to define specific folders in your project that you wish to be visible when the current section is displayed,
   - **[Close Tabs](/courses/authoring/#openclose-tabs-from-content)** allows you to close all tabs open from previous section,
@@ -30,7 +47,10 @@ Editor settings gives you access to the key functions:
   - **[Teacher Only](/courses/authoring/#teacher-only-content)** allows you to show content that only teachers are able to see.
   - **Content Type** allows you to write your content in either [Markdown](/courses/authoring/#markdown-content-editing) or [HTML](/courses/authoring/#html-content-editing)
 
-#### [Open Tabs](/courses/settings-actions/#open-tabs)
+
+
+:ref:`Open Tabs <open-tabs>`
+----------------------------
 This allows you to specify:
 
   - which files you want to automatically open when the current section is displayed,
@@ -39,15 +59,22 @@ This allows you to specify:
   - which lines (if any) you wish to highlight within each file.
 
 
-#### [Assessments](/courses/assessments/#assessments)
+:ref:`Assessments <assessments>`
+-------------
 This allows you to set up assessments.
 
-#### [Media](/courses/authoring/#adding-media)
+
+:ref:`Media <add-media>`
+------------------------
 This allows you to play audio files within your project.
 
 
-#### [Global](/courses/settings-actions/#global)
-![Global Settings](/img/guides/globalsettings.png)
+:ref:`Global <global>`
+----------------------
+
+  .. image:: /img/guides/globalsettings.png
+     :alt: Global Settings
+
 
 - **Scripts** allows you to point to one or more `.js` files in your project (usually you would have this somewhere within the `.guides` folder) that is run when the page is shown. This is especially useful when interacting with a button in a page of content.
 - **Theme** allows you to select the default theme for people viewing the content. We currently have a light theme and will be adding a dark theme shortly. Dyslexic users can also choose a special theme from the Settings drop down in the content player.
@@ -56,7 +83,9 @@ This allows you to play audio files within your project.
 - **Hide Menu** allows you to hide the main Codio menu items in the IDE (Codio/Project/File/Edit etc) when the assignment is run in a [course](/courses/classes/#assign-a-project-to-the-course).
 - **Allow guide to be closed** allows students to be able to close the content. It can be restarted by selecting the Start icon in the file tree:
 
-![StartGuides](/img/guides/startguides.png)
+  .. image:: /img/guides/startguides.png
+     :alt: StartGuides
+
 
 - **Use submit buttons** see [Student submission options](/courses/assessments/#student-submission-options) for more information
 - **Use mark as completed** see [Student submission options](/courses/assessments/#student-submission-options) for more information

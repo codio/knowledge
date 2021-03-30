@@ -47,6 +47,8 @@ To export data related to users accessing assignments in the course, follow thes
 
 **Note:** The data is retained for a maximum of 6 months.
 
+.. _export-pdf:
+
 PDF
 ---
 

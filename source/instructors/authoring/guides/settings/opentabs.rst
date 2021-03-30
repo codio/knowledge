@@ -1,6 +1,8 @@
 .. meta::
    :description: Open tab settings
 
+.. _open-tabs:
+
 Open tabs
 =========
 You can automatically perform any of the following actions when a page is shown:

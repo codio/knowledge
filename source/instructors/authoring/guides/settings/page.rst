@@ -21,6 +21,7 @@ The layouts we currently offer can be found in the dropdown list.
 The top-most and default entry in the Layout dropdown is **Previous**. This means it will use the same panel layout as specified on the previous page.
 
 
+.. _show-hide-folders:
 
 Show/Hide Folders
 *****************
@@ -56,6 +57,7 @@ Content Type
 ************
 You can specify whether the page content type is markdown (strongly recommended) or HTML. If you choose HTML, then you will need to set the page HTML header and footer in :ref:`global settings <global>`.
 
+.. _teacher-only:
 
 Teacher only content
 ********************

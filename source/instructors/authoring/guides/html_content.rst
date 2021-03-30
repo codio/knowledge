@@ -3,38 +3,44 @@
 
 .. _html_content:
    
-## HTML content editing
+HTML content editing
+====================
 We do not recommend this setting unless you have very specific reasons. It is much harder to use and maintain than markdown but for those who want ultimate control over appearance it is a good option.
 
-### Setting HTML
+Setting HTML
+************
 You can specify that an individual page be authored using HTML from the content **Settings**. You will find the **Content type** dropdown where you can switch between HTML and markdown.
 
-### CSS header and footer
+CSS header and footer
+*********************
 In order to style your content properly, you should use the **Edit HTML header** and **Edit HTML footer** settings. These can be found in the main **Settings** area on the **Global** tab.
 
 The header and footer information wrap the HTML content for your page. Below is a typical example of a header.
 
-```html
-<html>
-<head>
-  <meta charset="UTF-8">
-		<title>bjlo2e_ch04-1</title>
-		<link href=".guides/content/css/my-style.css" rel="stylesheet" type="text/css" />
-		<script src="https://codio.com/codio-client.js" type="text/javascript"></script>
-		<script src=".guides/content/script/my-script.js" type="text/javascript"></script>
-	</head>
+.. code:: html
 
-<body>
-```
+    <html>
+    <head>
+      <meta charset="UTF-8">
+            <title>bjlo2e_ch04-1</title>
+            <link href=".guides/content/css/my-style.css" rel="stylesheet" type="text/css" />
+            <script src="https://codio.com/codio-client.js" type="text/javascript"></script>
+            <script src=".guides/content/script/my-script.js" type="text/javascript"></script>
+        </head>
+
+    <body>
+
 
 And here is the footer.
 
-```html
-</body>
-</html>
-```
+.. code:: html
 
-### Support functions
+    </body>
+    </html>
+
+
+Support functions
+*****************
 In a page authored using Markdown, you are able to create buttons and other actions. We provide some javascript functions that support the same functionality.
 
 **Important** : if you use any of the functions listed below then you must load `https://codio.com/codio-client.js`in the HTML Header as shown in the example above.

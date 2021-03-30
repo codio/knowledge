@@ -1,34 +1,40 @@
 .. meta::
    :description: Project, Assignment or book
 
+.. _project-book:
+
 Project, course assignment or book?
-***********************************
+===================================
 Before you start to author content you should be aware of the three different places you can create content using guides. Let's look at each of the three ways to create content and why you might choose each one.
 
 Projects
---------
+********
 
-A [project](/project/projects/#what-is-a-project) is simply a standalone Codio box. It may or may not have guides content. Projects are to be found in the **Projects** page on the main Codio dashboard.
+A :ref:`project <projects>` is simply a standalone Codio box. It may or may not have guides content. Projects are to be found in the **Projects** page on the main Codio dashboard.
 
-![My Projects](/img/projectslist.png)
+
+  .. image:: /img/projectslist.png
+     :alt: My Projects
+
 
 
 You would want to choose a project as the place to create your content if you have individual, ad hoc assignments or examples that do not constitute more extensive coursework or are not part of a larger series of associated projects.
 
 
-A project can be [assigned to a course](/courses/classes/#assign-a-project-to-the-course) at any time. All the students in that course will then be able to access that project and its content.
+A project can be :ref:`assigned to a course <add-remove-assignment>` at any time. All the students in that course will then be able to access that project and its content.
 
 
 There are drawbacks to using projects to assign to students. If you have related projects and the number of projects grows, it can be hard to quickly find a project you want to assign to a course. There is also no way to arrange your projects into chronological order. Courses and books offer excellent solutions to this organizational problem.
 
 
 Assignments
------------
-An [assignment](/courses/classes/#assign-a-project-to-the-course) is essentially the same as a project. The only difference is that your project assignments are located in the courses area in the main Codio dashboard and accessible to other teachers who can edit the item and to students in the course. Assignments are very easy to locate as they are tidily organized within the course module they belong to. You can also arrange your assignments within a course module.
+***********
+An :ref:`assignment <add-remove-assignment>` is essentially the same as a project. The only difference is that your project assignments are located in the courses area in the main Codio dashboard and accessible to other teachers who can edit the item and to students in the course. Assignments are very easy to locate as they are tidily organized within the course module they belong to. You can also arrange your assignments within a course module.
+
+  .. image:: /img/courseslist.png
+     :alt: Courses
 
 
-
-![Courses](/img/courseslist.png)
 
 You would typically use an assignment if either of the following apply.
 
@@ -41,19 +47,21 @@ There is one minor drawback to project based assignments that you should be awar
 
 
 Book assignments
-----------------
+****************
 
-A [book](/project/books/) is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project assignments to create this content, you might end up with a very large number of assignments, say 50.  As we mentioned above, when students are revising and want to randomly move between different assignments to review content, the can get frustrated by the time it takes to switch assignments.
+A book is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project assignments to create this content, you might end up with a very large number of assignments, say 50.  As we mentioned above, when students are revising and want to randomly move between different assignments to review content, the can get frustrated by the time it takes to switch assignments.
 
 A book addresses this issue by offering sophisticated table to contents management with nested chapters and sections. As a result, you can put all of your content into a single book, with a single box running in the background.
 
 
 However, faculty will still often want to teach a course based on a book. To do this, you use a course but rather than creating a project assignment, you create a book based assignment. This allows you to point to any parts of a book for that assignment. 
 
-![Books](/img/bookslist.png)
+  .. image:: /img/bookslist.png
+     :alt: Books
+
 
 Book or project assignment?
----------------------------
+***************************
 
 It can still be a little confusing whether you should use a book based assignment or a project assignment, so here are some typical use cases.
 
@@ -63,7 +71,4 @@ It can still be a little confusing whether you should use a book based assignmen
 
 
 Note that you can mix both book and project assignments in a course.
-## Author and student views
-The experience when authoring differs from that of a student. Students are not able to view the authoring tools. When they start a assignment or project, if there is content present, it will automatically be shown. The author can also specify whether the student is able to close the content or not.
 
-If you are an author, you will often want to view the content as a student will see it.
