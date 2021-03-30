@@ -1,7 +1,8 @@
 .. meta::
    :description: Open tab settings
 
-## Open tabs
+Open tabs
+=========
 You can automatically perform any of the following actions when a page is shown:
 
 - Reconfigure the overall IDE panel layout.
@@ -10,17 +11,23 @@ You can automatically perform any of the following actions when a page is shown:
 - Open a terminal window and optionally run a terminal command.
 - Select lines you wish to highlight within each file.
 
-You should also be aware that you can achieve the same actions from Markdown directives on a page. [Click here](/courses/authoring/#openclose-tabs-from-content) for details.
+You should also be aware that you can achieve the same actions from Markdown directives on a page. :ref:`click here <open-close>` for details.
 
-### Page - Close Tabs
+Page - Close Tabs
+*****************
 Enable this to close all panels open from the previous page.
 
-![Page_tab_options](/img/guides/page.png)
+  .. image:: /img/guides/page.png
+     :alt: Page_tab_options
 
-<a name="opentabs"></a>
-### Open Tabs
 
-![Open Tabs tab options](/img/guides/guide_files.png)
+Open Tabs
+*********
+
+  .. image:: /img/guides/guide_files.png
+     :alt: open files
+     
+
 
 Files can be opened automatically to present the student with relevant files.
 
@@ -30,10 +37,13 @@ You can also drag and drop files in from your project file tree to the page to a
 
 **Please note:** image files dragged in to a page will be automatically tagged to display within the content rather than in a new panel. If you wish to have an image file open in a panel, then you would need to add it directly in the Open Tabs area. You can also drag/drop from the file tree. The correct path to the file will be included.
 
-### Opening Files
+Opening Files
+*************
 To open files, select the file type and enter the file name, including the path to the file if not in the root of the project workspace.
 
-![openfile](/img/guides/type_file.png)
+  .. image:: /img/guides/type_file.png
+     :alt: open file
+     
 
 To open multiple files in the same panel, enter in the following format:
 
@@ -41,31 +51,46 @@ To open multiple files in the same panel, enter in the following format:
 index.html, main.css
 ```
 
-### Previewing
+Previewing
+**********
 To preview your project, select the **Preview** Type. If you wish to show a workspace or external website page, use the **Preview** option and enter the appropriate URL.
 
-![preview](/img/guides/type_preview.png)
+  .. image:: /img/guides/type_preview.png)
+     :alt: Preview
+     
+
 
 **Please note:** If the URL you are previewing does not allow embedding in an `<iframe>`, then you won't be able to use `https` addresses. You would have to use an `http` address instead, in which case it will automatically open in an new browser tab and not within Codio.
 
-### Opening the terminal and running system commands
+Opening the terminal and running system commands
+************************************************
 To open a terminal window, select the **Terminal** option.
 
 You can also specify a terminal command to run when a section is displayed. For example, your content may run bash scripts to copy files into the root of your project from the `/.guides` folder (which is hidden when content is running) at a certain point in your content.
 
-![authtoken](/img/guides/type_terminal.png)
+  .. image:: /img/guides/type_terminal.png
+     :alt: terminal
+     
+
 
 You can also specify system commands in a new terminal window like so:
 
-![authtoken](/img/guides/terminal_command.png)
+  .. image:: /img/guides/terminal_command.png
+     :alt: terminal command
+     
 
-### Highlighting lines in your code
+
+Highlighting lines in your code
+*******************************
 To highlight one or more lines within an auto-opened file, select the **Highlight** option and then
 
 1. Enter a piece of reference text, contained within your target file, into the **Reference ...** field
 2. Specify the number of lines, from that reference point, you want to highlight
 
-![authtoken](/img/guides/type_highlight.png)
+  .. image:: /img/guides/type_highlight.png
+     :alt: Highlight
+     
+
 
 Using reference text rather than a line number means that if you insert anything into your file in the future, Codio is able to adjust the highlighted block based on the reference text. If you insert or remove lines within the block then you would need to adjust the line count.
 
@@ -73,11 +98,12 @@ If there is any potential ambiguity with this approach, simply insert a comment 
 
 Any combinations are acceptable and they will be opened in the order specified.
 
-<a name="tutor"></a>
 
-### Visualiser
 
-Codio supports [Python Tutor](http://pythontutor.com/), allowing students to overcome a fundamental barrier to learning programming: understanding what happens as the computer executes each line of a program's source code.
+Visualiser
+**********
+
+Codio supports `Python Tutor <http://pythontutor.com>`_, allowing students to overcome a fundamental barrier to learning programming: understanding what happens as the computer executes each line of a program's source code.
 Select `Visualiser` and enter the path to your file.
 
 **Supported languages:**
@@ -92,40 +118,58 @@ Select `Visualiser` and enter the path to your file.
 
 Students can visualise what the computer is doing step-by-step as it executes those programs.
 
-![authtoken](/img/guides/pythontutor.png)
+  .. image:: /img/guides/pythontutor.png
+     :alt: python tutor
 
-### Examples
+
+Examples
+********
 
 **Python**
 
-```python
-nested = ['spam', 1, ['Brie', 'Roquefort', 'Pol l Veq'], [1, 2, 3]]
-for temp in nested:
-  print(temp)
-```
-![authtoken](/img/guides/PythonVisualizerExample.png)
+.. code:: python
+
+    nested = ['spam', 1, ['Brie', 'Roquefort', 'Pol l Veq'], [1, 2, 3]]
+    for temp in nested:
+      print(temp)
+
+
+  .. image:: /img/guides/PythonVisualizerExample.png
+     :alt: Python Visualizer Example
+     
+
 
 **Java**
 
-```java
-public static void countdown(int n) {
-  if (n == 0) {
-    System.out.println("Blastoff!");
-  } else {
-    System.out.println(n);
-    countdown(n - 1);
-  }
-}
-```
-![authtoken](/img/guides/JavaVisualizerExample.png)
+.. code:: java
 
-For more information and examples see [Python Tutor](http://pythontutor.com/).
+    public static void countdown(int n) {
+      if (n == 0) {
+        System.out.println("Blastoff!");
+      } else {
+        System.out.println(n);
+        countdown(n - 1);
+      }
+    }
 
-<a name="specifypanel"></a>
-### Specifying the panel number
-If your [layout](/courses/settings-actions/#page) for this page involves multiple panels, then you can also specify the panel number to display the file in.
 
-![authtoken](/img/guides/panel.png)
+  .. image:: /img/guides/JavaVisualizerExample.png
+     :alt: Java visualizer Example
+     
+
+
+For more information and examples see `Python Tutor <http://pythontutor.com>`_.
+
+.. _specify-panel:
+
+Specifying the panel number
+***************************
+If your :ref:`layout <page>` for this page involves multiple panels, then you can also specify the panel number to display the file in.
+
+  .. image:: /img/guides/panel.png)
+     :alt: Panels
+     
+
 
 If you leave the panel field empty, then the default panel will be chosen, which is the same as 0.
 

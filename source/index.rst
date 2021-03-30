@@ -32,21 +32,19 @@ Creating instructional content
    
    instructors/authoring/guides/intro
    instructors/authoring/guides/project_book
-   instructors/authoring/guides/editing
-   instructors/authoring/guides/customise_menu
-   instructors/authoring/guides/player_options
-   instructors/authoring/guides/restore_files
-   instructors/authoring/guides/edit_content
+   instructors/authoring/guides/author_student
    instructors/authoring/guides/toc
    instructors/authoring/guides/page_editing
    instructors/authoring/guides/authoring_guidelines
    instructors/authoring/guides/markdown_content
+   instructors/authoring/guides/previewing_content
+   instructors/authoring/guides/html_content
    instructors/authoring/guides/teacher_only
    instructors/authoring/guides/custom_button
    instructors/authoring/guides/add_media
    instructors/authoring/guides/open_close_content
    instructors/authoring/guides/hide_folders
-   instructors/authoring/guides/latex_rst
+   instructors/authoring/guides/latex
    
 Guides Settings and Page actions
 --------------------------------
@@ -69,6 +67,7 @@ Auto-graded assessments
    instructors/setupcourses/assessments/add-assessment
    instructors/setupcourses/assessments/advanced-code-test
    instructors/setupcourses/assessments/assessments
+   instructors/setupcourses/assessments/student-submission
    instructors/setupcourses/assessments/auto-grade-scripts
    instructors/setupcourses/assessments/autograde-free-text
    instructors/setupcourses/assessments/delete-assessment

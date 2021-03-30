@@ -1,6 +1,8 @@
 .. meta::
    :description: Open/close content
 
+.. _open-close:
+
 ## Open/close tabs from content
 You can include links in your content to perform the same open and close actions as you do from the [open tabs](/courses/settings-actions/#open-tabs) dialog.
 
