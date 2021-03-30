@@ -29,6 +29,7 @@ Selected content within page
 If you want to hide a certain piece of information *within a page* from students then you should include all such content within a page within `|||guidance ..... |||`. An example is shown below.
 
 .. code:: markdown
+
     |||guidance
     # Solution
     This solution will only be shown

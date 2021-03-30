@@ -11,7 +11,7 @@ Use the layout modes to switch between editor, preview, and split view modes.
 
 When in preview mode, you can quickly switch back to editor mode by selecting the **Editor** button:
 
-.. image:: /img/guides/editor.png)
+.. image:: /img/guides/editor.png
      :alt: Guides Edit Mode
 
 
@@ -60,7 +60,7 @@ This allows you to specify:
 
 
 :ref:`Assessments <assessments>`
--------------
+--------------------------------
 This allows you to set up assessments.
 
 
@@ -90,7 +90,10 @@ This allows you to play audio files within your project.
 - **Use submit buttons** see [Student submission options](/courses/assessments/#student-submission-options) for more information
 - **Use mark as completed** see [Student submission options](/courses/assessments/#student-submission-options) for more information
 - **Collapsed on start** starts the assignment with the guides pane collapsed. Students can show the content clicking on the hamburger icon on the right
-![OpenGuides](/img/guides/guidecollapse.png)
+
+  .. image:: /img/guides/guidecollapse.png
+     :alt: OpenGuides
+
 - **Hide Section List** hides the sections list in your content for the students. 
 - **Hide Back to Dashboard button** hides this button that would otherwise show on the last page of the guides.
 - **Protect Layout** prevents students from closing files in tabs.

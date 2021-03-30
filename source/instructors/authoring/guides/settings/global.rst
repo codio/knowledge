@@ -8,7 +8,7 @@ Global
 
 The settings on this page apply to the entire guide or book.
 
-  .. image:: /img/guides/globalsettings.png)
+  .. image:: /img/guides/globalsettings.png
      :alt: Global Settings
 
 Scripts
@@ -69,7 +69,7 @@ Enable this to collapse the guides pane in the assignment/project when the :ref:
 
 The guides can be reopened by clicking the hamburger icon:
 
-  .. image:: /img/openguides.png)
+  .. image:: /img/openguides.png
      :alt: StartGuides
 
 

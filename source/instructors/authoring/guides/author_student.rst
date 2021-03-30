@@ -67,6 +67,7 @@ Menu items that the student will see:
 
 Students will not see the .codio-menu file to be able to edit/change it.
 
+.. _player-options:
 
 Player Options
 **************

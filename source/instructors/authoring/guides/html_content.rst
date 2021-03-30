@@ -43,7 +43,7 @@ Support functions
 *****************
 In a page authored using Markdown, you are able to create buttons and other actions. We provide some javascript functions that support the same functionality.
 
-**Important** : if you use any of the functions listed below then you must load `https://codio.com/codio-client.js`in the HTML Header as shown in the example above.
+**Important** : if you use any of the functions listed below then you must load https://codio.com/codio-client.js in the HTML Header as shown in the example above.
 
 
 - `codio.run(command, callback)` - Run a command on the box. `callback` will fire once executed and should be used to communicate back to the user.

@@ -57,7 +57,7 @@ Previewing
 **********
 To preview your project, select the **Preview** Type. If you wish to show a workspace or external website page, use the **Preview** option and enter the appropriate URL.
 
-  .. image:: /img/guides/type_preview.png)
+  .. image:: /img/guides/type_preview.png
      :alt: Preview
      
 
@@ -168,8 +168,8 @@ Specifying the panel number
 ***************************
 If your :ref:`layout <page>` for this page involves multiple panels, then you can also specify the panel number to display the file in.
 
-  .. image:: /img/guides/panel.png)
-     :alt: Panels
+  .. image:: /img/guides/panel.png
+     :alt: Panel
      
 
 
