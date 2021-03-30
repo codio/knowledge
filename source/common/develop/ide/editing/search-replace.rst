@@ -1,8 +1,11 @@
+.. meta::
+   :description: Search and replace in a single file and across all files in a project can include wild cards and regular expressions.
+
 .. _search-replace:
 
 Search and Replace
 ==================
-Codio supports local and global search and replace. You can access these feature using a shortcut or from the **Find** menu. The shortcuts for each action are displayed in the Find menu. However, you can override these shortcuts in :ref:`User Preferences <user-prefs>`.
+Codio supports local and global search and replace. You can access these feature using a shortcut or from the **Find** menu. The shortcuts for each action are displayed in the Find menu. You can override these shortcuts in :ref:`User Preferences <user-prefs>`.
 
 Local search and replace
 ------------------------

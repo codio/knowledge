@@ -1,3 +1,7 @@
+.. meta::
+   :description: Location of the Codio workspace and installed software.
+
+
 File and Software Locations
 ===========================
 

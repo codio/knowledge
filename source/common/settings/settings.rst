@@ -1,3 +1,6 @@
+.. meta::
+   :description: Account Settings
+
 .. _settings:
 
 Account Settings

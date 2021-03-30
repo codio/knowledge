@@ -20,50 +20,79 @@ Getting Started
    instructors/getstarted/howto
    instructors/getstarted/settings
 
-Using Codio Resources
-^^^^^^^^^^^^^^^^^^^^^
-
-Codio instructional resources
------------------------------
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/resources/codioresources
-   
-Editing Resources
------------------
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/resources/editingresources
-   
-Assessments library
--------------------
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/resources/assessmentslibrary
    
 Authoring Instructional Content and Assessments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Guides
-------
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/authoring/guides
-   
-Auto-graded assessmentslibrary
+Creating instructional content
 ------------------------------
 
 .. toctree::
    :maxdepth: 2
    
+   instructors/authoring/guides/intro
+   instructors/authoring/guides/project_book
+   instructors/authoring/guides/author_student
+   instructors/authoring/guides/toc
+   instructors/authoring/guides/page_editing
+   instructors/authoring/guides/authoring_guidelines
+   instructors/authoring/guides/markdown_content
+   instructors/authoring/guides/previewing_content
+   instructors/authoring/guides/html_content
+   instructors/authoring/guides/teacher_only
+   instructors/authoring/guides/custom_button
+   instructors/authoring/guides/add_media
+   instructors/authoring/guides/open_close_content
+   instructors/authoring/guides/hide_folders
+   instructors/authoring/guides/latex
+   
+Guides Settings and Page actions
+--------------------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/authoring/guides/settings/page
+   instructors/authoring/guides/settings/opentabs
+   instructors/authoring/guides/settings/assessments
+   instructors/authoring/guides/settings/media
+   instructors/authoring/guides/settings/global
+   
+Auto-graded assessments
+-----------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/setupcourses/assessments/add-assessment
+   instructors/setupcourses/assessments/advanced-code-test
+   instructors/setupcourses/assessments/assessments
+   instructors/setupcourses/assessments/student-submission
+   instructors/setupcourses/assessments/auto-grade-scripts
+   instructors/setupcourses/assessments/autograde-free-text
+   instructors/setupcourses/assessments/delete-assessment
+   instructors/setupcourses/assessments/edit-assessment
+   instructors/setupcourses/assessments/edit-assessment-points
+   instructors/setupcourses/assessments/fill-in-blanks
+   instructors/setupcourses/assessments/free-text
+   instructors/setupcourses/assessments/grade-book
+   instructors/setupcourses/assessments/math-assessments
+   instructors/setupcourses/assessments/multiple-choice
+   instructors/setupcourses/assessments/parsons-puzzle
+   instructors/setupcourses/assessments/partial-points
+   instructors/setupcourses/assessments/sense-network
+   instructors/setupcourses/assessments/standard-code-test
+   instructors/setupcourses/assessments/ungraded-assessments
+
+Auto-graded assessments library
+-------------------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/resources/assessmentslibrary
+   instructors/resources/add-questions-from-library
+   instructors/resources/add-questions-to-library
    instructors/authoring/autograding
    
 Developing Code
@@ -75,7 +104,7 @@ Projects
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/projects
+   common/develop/projects/projects
    
 Stacks
 ------
@@ -83,12 +112,19 @@ Stacks
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/stacks
+   common/develop/stacks/stacks
+   
+Starter Packs
+-------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/projects/starter-packs
+
    
 IDE
 ---
-
-**Information on the Codio IDE and tools**
 
 Overview
 ********
@@ -96,7 +132,7 @@ Overview
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/ide/boxes/overview
+   common/develop/ide/boxes/overview
    
 Terminal Window
 ***************
@@ -104,7 +140,7 @@ Terminal Window
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/ide/boxes/terminal
+   common/develop/ide/boxes/terminal
    
 Accessing Boxes and Ports
 *************************
@@ -112,23 +148,20 @@ Accessing Boxes and Ports
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/ide/boxes/ext-access
+   common/develop/ide/boxes/ext-access
    
 Installing software
 *******************
 
-The different options for installing your own software packages
-
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/ide/boxes/installsw/index
-   instructors/develop/ide/boxes/installsw/default-installed
-   instructors/develop/ide/boxes/installsw/box-parts
-   instructors/develop/ide/boxes/installsw/file-locations
-   instructors/develop/ide/boxes/installsw/parts-coding
-   instructors/develop/ide/boxes/installsw/langserver
-   instructors/develop/ide/boxes/installsw/gui
+   common/develop/ide/boxes/installsw/install-software
+   common/develop/ide/boxes/installsw/default-installed
+   common/develop/ide/boxes/installsw/file-locations
+   common/develop/ide/boxes/installsw/parts-coding
+   common/develop/ide/boxes/installsw/langserver
+   common/develop/ide/boxes/installsw/gui
    
 Always-On Boxes
 ***************
@@ -136,7 +169,7 @@ Always-On Boxes
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/ide/boxes/always-on
+   common/develop/ide/boxes/always-on
    
 SSH and Code Access
 *******************
@@ -144,7 +177,7 @@ SSH and Code Access
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/ide/boxes/access
+   common/develop/ide/boxes/access
    
 IDE Access Permissions
 **********************
@@ -152,7 +185,7 @@ IDE Access Permissions
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/ide/boxes/granting-access
+   common/develop/ide/boxes/ide-access-permissions
    
 Auto Starting Services
 **********************
@@ -160,7 +193,7 @@ Auto Starting Services
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/ide/boxes/startup
+   common/develop/ide/boxes/startup
    
 Restart and Reset
 *****************
@@ -168,7 +201,7 @@ Restart and Reset
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/ide/boxes/restart-reset
+   common/develop/ide/boxes/restart-reset
    
 Run menu
 ********
@@ -176,7 +209,7 @@ Run menu
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/ide/boxes/runmenu
+   common/develop/ide/boxes/runmenu
   
 Debugger
 --------
@@ -184,7 +217,7 @@ Debugger
 .. toctree::
    :maxdepth: 2
    
-   instructors/develop/debugger
+   common/develop/ide/debugger/debugger
 
 Setting up your courses
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -196,6 +229,70 @@ Courses
    :maxdepth: 2
    
    instructors/setupcourses/courses
+   instructors/setupcourses/create-course
+   instructors/setupcourses/clone-course
+   instructors/setupcourses/master-child-courses
+   instructors/setupcourses/export-course-data
+   instructors/setupcourses/archive-course
+   instructors/setupcourses/delete-course
+   instructors/setupcourses/share-course
+   instructors/setupcourses/search-course
+   instructors/setupcourses/add-teachers
+   instructors/setupcourses/add-ta
+   instructors/setupcourses/add-remove-students
+   instructors/setupcourses/change-student-password
+   instructors/setupcourses/add-remove-assignment
+   
+Course/Assignment Settings
+--------------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   
+   instructors/setupcourses/assignment-settings/assignment-settings
+   instructors/setupcourses/assignment-settings/assignment-actions
+   instructors/setupcourses/assignment-settings/assign-grade-template
+   instructors/setupcourses/assignment-settings/assignment-duration
+   instructors/setupcourses/assignment-settings/duedates
+   instructors/setupcourses/assignment-settings/disable-assignment
+   instructors/setupcourses/assignment-settings/disable-mark-completed
+   instructors/setupcourses/assignment-settings/exam-proctoring
+   instructors/setupcourses/assignment-settings/grade-weights
+   instructors/setupcourses/assignment-settings/penalties
+   instructors/setupcourses/assignment-settings/pin-assignment
+   instructors/setupcourses/assignment-settings/visibility-completed
+   instructors/setupcourses/assignment-settings/visibility-disabled
+    
+Course Administration
+---------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/setupcourses/export-assignment-data
+   instructors/setupcourses/export-lti
+   instructors/setupcourses/import-project
+   instructors/setupcourses/mark-assignments-complete
+   instructors/setupcourses/preview-course
+   instructors/setupcourses/rename-reorder-assignments
+   instructors/setupcourses/modify-assignments
+   instructors/setupcourses/view-student-username
+   instructors/setupcourses/notification-email
+   
+Codio instructional resources
+-----------------------------
+   
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/resources/codioresources
+   instructors/resources/editingresources
+   instructors/resources/global-library
+   instructors/resources/search-library
+   instructors/resources/unlink-assessment
+   instructors/resources/update-assess-from-library
+
 
 Connecting to your LMS (Canvas, Blackboard, Moodle, etc)
 --------------------------------------------------------
@@ -205,45 +302,9 @@ Connecting to your LMS (Canvas, Blackboard, Moodle, etc)
    
    instructors/setupcourses/lmsconnect
    
-Adding students
----------------
 
-.. toctree::
-   :maxdepth: 2
    
-   instructors/setupcourses/addstudents
-   
-Adding TAs/GAs
---------------
 
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/setupcourses/addta
-
-Adding co-teachers
-------------------
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/setupcourses/addteachers
-
-Sharing course content with other instructors
----------------------------------------------
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/setupcourses/sharing
-   
-Due Dates
----------
-
-.. toctree::
-   :maxdepth: 2
-   
-   instructors/setupcourses/duedates
    
 Teaching/Non-Editing Teachers/TAs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -270,7 +331,10 @@ Grading
 .. toctree::
    :maxdepth: 2
    
-   instructors/teaching/grading
+   instructors/teaching/grading/grading
+   instructors/teaching/grading/grade-freetext
+   instructors/teaching/grading/nbgrader
+   instructors/teaching/grading/release-grades
    
 Learning Insights/Data downloading
 ----------------------------------
@@ -319,6 +383,82 @@ Removing students who drop?
    :maxdepth: 2
    
    instructors/teaching/remove
+
+Admin
+^^^^^
+
+Integrating with your LMS system (Canvas etc.)
+----------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/admin/integrate
+   
+Inviting teachers and owners to your org
+----------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/admin/organization/add-remove-org-owners
+   instructors/admin/organization/add-teachers
+
+Organization settings
+---------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/admin/organization/organization
+   instructors/admin/organization/auto-release-grades
+   instructors/admin/organization/create-org-library
+   instructors/admin/organization/default-student-dashboard
+   instructors/admin/organization/delete-org
+   instructors/admin/organization/enable-custom-script
+   instructors/admin/organization/gigabox-usage
+   instructors/admin/organization/grade-templates
+   instructors/admin/organization/org-contact-url
+   instructors/admin/organization/public-private-settings
+   instructors/admin/organization/remove-org-members
+   instructors/admin/organization/student-consent-form
+   instructors/admin/organization/view-org-members
+   
+Billing
+-------
+
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/admin/orgbilling
+   
+Account Settings
+----------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/settings/settings
+   common/settings/user-profile
+   common/settings/manage-password
+   common/settings/ssh-key
+   common/settings/user-prefs
+   common/settings/project-prefs
+   common/settings/bitbucket
+   common/settings/github
+   common/settings/upload-ssh-key-remote-server
+   
+
+Legal stuff
+-----------
+
+
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/admin/legal
+   
+
    
 Students
 ========
@@ -345,11 +485,13 @@ Account Settings
    
    common/settings/settings
    common/settings/user-profile
-   common/settings/manage-passwords
+   common/settings/manage-password
    common/settings/ssh-key
    common/settings/user-prefs
    common/settings/project-prefs
-   
+   common/settings/bitbucket
+   common/settings/github
+   common/settings/upload-ssh-key-remote-server
    
 Your Courses
 ^^^^^^^^^^^^
@@ -360,6 +502,7 @@ Your Courses
    students/courses/navigate-student-dashboard
    students/courses/accessing
    students/courses/start-assignment
+   students/courses/usingguides
    students/courses/play-mode
    students/courses/complete-assignment
    students/courses/exam-mode
@@ -388,13 +531,13 @@ Projects
 .. toctree::
    :maxdepth: 2
    
-   common/projects/projects
-   common/projects/project-permissions
-   common/projects/project-settings
-   common/projects/create-import-project
-   common/projects/access-projects
-   common/projects/copy-project
-   common/projects/export-project
+   common/develop/projects/projects
+   common/develop/projects/project-permissions
+   common/develop/projects/project-settings
+   common/develop//projects/create-import-project
+   common/develop/projects/access-projects
+   common/develop/projects/copy-project
+   common/develop/projects/export-project
    
 Stacks
 ------
@@ -402,12 +545,23 @@ Stacks
 .. toctree::
    :maxdepth: 2
    
-   common/stacks/stacks
-   common/stacks/using-stacks
-   common/stacks/create-stack
-   common/stacks/modify-stack
-   common/stacks/update-stack
-   common/stacks/switch-stack
+   common/develop/stacks/stacks
+   common/develop/stacks/using-stacks
+   common/develop/stacks/create-stack
+   common/develop/stacks/modify-stack
+   common/develop/stacks/update-stack
+   common/develop/stacks/switch-stack
+   
+Starter Packs
+-------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/projects/starter-packs
+   common/develop/projects/create-starter-pack
+   common/develop/projects/starter-pack-guidelines
+   common/develop/projects/update-starter-pack
    
 
 IDE
@@ -448,18 +602,15 @@ Boxes
 Installing Software Packages
 ----------------------------
 
-The different options for installing your own software packages
-
 .. toctree::
    :maxdepth: 2
    
-   common/develop/ide/boxes/index
    common/develop/ide/boxes/installsw/install-software
-   common/develop/ide/boxes/file-locations
-   common/develop/ide/boxes/default-installed
-   common/develop/ide/boxes/parts-coding
-   common/develop/ide/boxes/langserver
-   common/develop/ide/boxes/gui
+   common/develop/ide/boxes/installsw/file-locations
+   common/develop/ide/boxes/installsw/default-installed
+   common/develop/ide/boxes/installsw/parts-coding
+   common/develop/ide/boxes/installsw/langserver
+   common/develop/ide/boxes/installsw/gui
    
 
    
@@ -498,60 +649,10 @@ Code Editing Features
    common/develop/ide/editing/save-files
    common/develop/ide/editing/search-replace
    common/develop/ide/editing/share-project
+   common/develop/ide/editing/git
    
 
-Admin
-=====
 
-Integrating with your LMS system (Canvas etc.)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. toctree::
-   :maxdepth: 2
-   
-   admin/integrate
-   
-Inviting teachers and owners to your org
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. toctree::
-   :maxdepth: 2
-   
-   admin/invite
-
-Org settings
-^^^^^^^^^^^^
-
-.. toctree::
-   :maxdepth: 2
-   
-   admin/orgsettings
-   
-Billing
-^^^^^^^
-
-.. toctree::
-   :maxdepth: 2
-   
-   admin/orgbilling
-   
-Account Settings
-^^^^^^^^^^^^^^^^
-
-.. toctree::
-   :maxdepth: 2
-   
-   admin/acsettings
-   
-Legal stuff
-^^^^^^^^^^^
-
-
-.. toctree::
-   :maxdepth: 2
-   
-   admin/legal
-   
 Indices and tables
 ==================
 

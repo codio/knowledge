@@ -1,3 +1,6 @@
+.. meta::
+   :description: Using Stacks to set up the software configuration of your assignment or project.
+
 .. _using-stacks:
 
 Using Stacks

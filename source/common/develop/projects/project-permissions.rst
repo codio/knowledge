@@ -1,3 +1,6 @@
+.. meta::
+   :description: Project Permissions set the visibility of the project and editing permissions.
+
 .. _project-permissions:
 
 Project Permissions

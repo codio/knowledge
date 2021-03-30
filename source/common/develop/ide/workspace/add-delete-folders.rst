@@ -1,10 +1,13 @@
+.. meta::
+   :description: Adding and deleting folders in your project.
+
 .. _add-delete-folders:
 
 Add and Delete Folders
 ======================
 
 You can create and delete folders in your project using the **File** tab
-on the menu bar or from the context menu the Filetree.
+on the menu bar or from the context menu in the Filetree.
 
 Add a folder
 ------------

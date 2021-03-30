@@ -1,3 +1,6 @@
+.. meta::
+   :description: Play Mode
+   
 .. _play-mode:
 
 Play Mode

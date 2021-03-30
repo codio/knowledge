@@ -1,3 +1,6 @@
+.. meta::
+   :description: Open a terminal window in your project or assignment.
+
 .. _terminal:
 
 Terminal Window

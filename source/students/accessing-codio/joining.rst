@@ -1,3 +1,6 @@
+.. meta::
+   :description: Join a Course
+   
 .. _joining:
 
 Join a Course

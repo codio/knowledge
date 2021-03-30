@@ -1,3 +1,6 @@
+.. meta::
+   :description: Control your project workspace layout using Panels, Tab and Layout settings.
+
 .. _panels:
 
 Panels, Tabs, and Layouts

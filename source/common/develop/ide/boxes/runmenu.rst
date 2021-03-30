@@ -1,3 +1,6 @@
+.. meta::
+   :description: Customize the run button to execute commands and shell scripts.
+
 .. _customizable-run-menu:
 
 Customize Run Button
@@ -14,7 +17,7 @@ To customize the **Run** button to open a new terminal window where you can see 
 
 In the .codio file, locate the lines below, and then copy and paste the following code:
 
-.. code:: json
+.. code:: ini
 
     {
       // Configure your Run and Preview buttons here.
@@ -35,7 +38,7 @@ Configure to run in current terminal window
 -------------------------------------------
 If you want to configure the Run button to run commands in the current terminal window, modify the **id** field in the **.codio** file as follows:
 
-.. code:: json
+.. code:: ini
 
     {
       "commands": {

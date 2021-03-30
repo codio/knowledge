@@ -1,3 +1,6 @@
+.. meta::
+   :description: Working with GUI based output
+
 .. _gui:
 
 GUI Based Output
@@ -15,7 +18,7 @@ Uses and limitations
 ^^^^^^^^^^^^^^^^^^^^
 X Server is a virtual desktop that is very effective for Codio's cloud-based infrastructure. Any application that relies on a graphical user interface has its graphical output redirected to it and Codio's viewer is then able to display the virtual desktop in a browser. 
 
-You can gain good experience using the sample applications in the **Demo GUI Output** project, which also includes some complex UIs (for example, SQLite and StartUML). You may experience limitations when using fast-motion graphics where the virtual screen content is changing so fast that it cannot be rendered in real time over the internet. A stronger bandwidth will provide better performance and overall experience.
+The **Demo GUI Output** project provides sample applications and also includes some complex UIs (for example, SQLite and StartUML). You may experience limitations when using fast-motion graphics where the virtual screen content is changing so fast that it cannot be rendered in real time over the internet. A stronger bandwidth will provide better performance and overall experience.
 
 
 Install your own projects
@@ -44,7 +47,7 @@ Use the viewer
 ^^^^^^^^^^^^^^
 The viewer is a special window that appears either inside Codio or in a separate browser tab. To open it, add `"Viewer": "https://{{domain3000}}/"` to the .codio file, as follows: 
 
-.. code:: json
+.. code:: ini
     
     {
     // Configure your Run and Preview buttons here.

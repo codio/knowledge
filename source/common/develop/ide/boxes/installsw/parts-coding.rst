@@ -1,3 +1,6 @@
+.. meta::
+   :description: Adding rour own software packages to the Install Software list.
+
 .. _parts-coding:
 
 Add Your Own Software Packages
@@ -21,7 +24,7 @@ The **package_list.json** file is is the manifest that lists the entire contents
 
 Here's a example of the MySQL entry:
 
-.. code:: json
+.. code:: ini
 
     "mysql": {
       "name": "MySQL",
@@ -78,7 +81,7 @@ Ansible playbook script
 ^^^^^^^^^^^^^^^^^^^^^^^
 Ansible simplifies installations and configurations, as easier to read and maintain than using the main bash script with standard Ubuntu commands. For more information about Ansible playbooks, `click here <http://docs.ansible.com/>`_.
 
-.. code:: json
+.. code:: ini
 
     ---
     - name: Install MySQL

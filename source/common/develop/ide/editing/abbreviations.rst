@@ -1,3 +1,7 @@
+
+.. meta::
+   :description: HTML and CSS abbreviations that expand to code in the IDE.
+   
 .. _abbreviations:
 
 Abbreviations
@@ -43,7 +47,7 @@ results in
 Juicier HTML example
 --------------------
 
-.. code:: css
+.. code:: ini
 
     #page>div.logo+ul#navigation>li*5>a{Item $}
 

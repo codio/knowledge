@@ -1,3 +1,6 @@
+.. meta::
+   :description: Multiple cursors allow you to create multiple insertion points in a file.
+
 .. _cursor:
 
 Cursor Features

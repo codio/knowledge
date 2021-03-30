@@ -1,3 +1,6 @@
+.. meta::
+   :description: Installing software packages in your project/assignment or view installed software.
+
 .. _box_parts:
 
 Install Software Packages

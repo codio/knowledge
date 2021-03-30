@@ -1,3 +1,6 @@
+.. meta::
+   :description: Set project settings such as name, description, stack, public or private. You can also delete a project or export as a Zip file here.
+
 .. _project-settings:
 
 Project Settings

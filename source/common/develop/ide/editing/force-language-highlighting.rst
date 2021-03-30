@@ -1,3 +1,6 @@
+.. meta::
+   :description: Choose the language to use for syntax highlighting.
+
 .. _lang-highlight:
 
 Force Language Highlighting
@@ -6,6 +9,6 @@ Codio automatically selects the syntax highlighting rules based on the file exte
 To choose the language to use for syntax highlighting, click the language in the status bar of the code window.
 
 .. figure:: /img/ide-force-lang.png
-   :alt: authtoken
+   :alt: Force Language Highlighting
 
 

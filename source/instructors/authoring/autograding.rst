@@ -1,1 +1,5 @@
-## Auto-graded assessments
+.. meta::
+   :description: Auto-graded assessments
+
+Auto-graded assessments
+=======================

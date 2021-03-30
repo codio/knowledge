@@ -1,3 +1,6 @@
+.. meta::
+   :description: Preview static and dynamic content.
+
 .. _preview:
 
 Preview
@@ -14,13 +17,13 @@ The Preview feature enables you to view your static and dynamic content. The men
 
 Using preview
 -------------
-Use the The **Preview** button lets you preview one or more web pages with a simple button press. Codio created three default tentries in the Preview menu automatically:
+Using the **Preview** button lets you preview one or more web pages with a simple button press. Codio creates three default entries in the Preview menu automatically:
 
 .. image:: /img/preview-deploy.png
    :alt: Preview Button
 
 * Project Index - this is the default file to run for your project. It can be set by right-clicking a file in the Filetree. This option should be used to preview static content (typicall HTML files). For PHP, Ruby, etc., you should use the Box URL option.
-* Current File - whichever code file currently has focus. This option should only be used to preview static content (typicall HTML files). For PHP, Rub, etc., you should use the Box URL option.
+* Current File - whichever code file currently has focus. This option should only be used to preview static content (typically HTML files). For PHP, Ruby, etc., you should use the Box URL option.
 * Box URL - Use this option for previewing PHP, Ruby, or other server side languages over HTTPS. Click here <insert link> for more information on configuring port access for HTTPS.
 
 If you right-click a file in the file tree or the tab, you can also select **Preview Static**.
@@ -39,7 +42,7 @@ You can customize the **Preview** menu using one of the following methods:
 
 To customize the Run and Preview buttons, modify this section of the **.codio** file:
 
-.. code:: json
+.. code:: ini
 
     {
     // Configure your Run and Preview buttons here.

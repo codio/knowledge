@@ -1,0 +1,113 @@
+.. meta::
+   :description: Create an Organization Assessments Library
+   
+.. _org-library:
+
+Create an Organization Assessments Library
+==========================================
+In addition to Codio's global assessments library, you can create Organization assessments libraries. This allows your faculty to share assessment items with other instructors similar to how you can share Courses within an Organization.
+
+### Create an Organization Assessments Library
+
+- Click your name/gravatar, bottom of the left hand pane
+
+    .. image:: /img/class_administration/profilepic.png
+       :alt: profile icon
+
+- Click the name of your organization (under **My Organizations**)
+
+    .. image:: /img/class_administration/addteachers/myschoolorg.png
+       :alt: Organisation 
+
+- Click the Assessments Library tab
+
+    .. image:: /img/librarytab.png
+       :alt: Assessment library
+
+- Click “Create a New Library”
+
+- Enter the name of the assessments library you want to create and press “Create”
+
+    .. image:: /img/namelibrary.png
+       :alt: name library
+
+Read more about assessment libraries [here](/courses/assessments-library/).
+
+Add Collaborators to an Assessments Library
+*******************************************
+
+- Under the Assessments Library tab, click on the library you want to add collaborators to
+
+    .. image:: /img/librarysettings.png
+       :alt: library
+
+- Click on the Permissions tab.
+
+**Add Permission:** Either type the user name or use the drop down arrow to select an organization member to give permission to. By default, the collaborators are given “Read” permission, meaning they cannot add to or edit assessments in the library. To give a user “Write” permission, simply select the permission level next to their user name in the list.
+
+**Read Permission for Teachers:**  Turning this on allows all Teachers in the organization to have “Read” permission, meaning they cannot add to or edit assessments in the library.
+
+    .. image:: /img/librarypermissions.png
+       :alt: library permissions
+
+**Remove:** To remove a collaborator, simply press the “Remove” button next to their user name. Please note that is “Read permission for teachers” is turned on, that user may still have read permission if they are still a teacher account and a member of the organization.
+
+Public/private settings
+***********************
+
+Organization owners can disable this feature to allow members of the Organization to create Public Projects/Stacks/Starter Packs/Courses and Modules. By default, these will be created as Private.
+
+
+Private projects can still be shared to other users in the normal manner. See [Permissions](/project/ide/settings/#project-permissions)
+
+
+**N.B.** Any existing Projects/Stacks/Starter Packs/Courses and Modules created by members of the organization prior to any changes being made will not be effected
+
+To enable the creation of Public Projects/Stacks/Starter Packs/Courses and Modules, access the administration tools:
+
+1. Click on your profile picture (bottom left of **Courses**)
+
+    .. image:: /img/class_administration/profilepic.png
+       :alt: profile icon
+           
+1. Click the name of your institution (under **My Organizations**)
+
+    .. image:: /img/class_administration/addteachers/myschoolorg.png
+       :alt: Organisation 
+
+1. You will see admin options listed across the top of the page.
+
+    .. image:: /img/manage_organization/memberstab.png
+       :alt: Org members 
+
+
+1. Select **Organization Settings**
+
+1. Go to the Private/Public Settings area and click the slider to disable this, and **Update** to save the changes
+
+.. image:: /img/manage_organization/public_private.png
+       :alt: Public/Private settings 
+
+Organization owners can also block Codio support team from being able to access members accounts to provide platform support.
+
+See also:
+
+- [Creating and importing a project](/project/projects/#creating-and-importing-a-project)
+- [Creating a Stack](/project/stacks/#creating-a-stack)
+- [Creating a Pack](/project/packs/#creating-a-pack)
+- [Creating a course](/courses/coursemanagement/#create-a-course)
+
+Gigaboxes
+*********
+
+Codio's default boxes are allocated 512MB of memory. If you need larger boxes then you can upgrade your subscription to give access to 1GB, 2GB, 8GB,16GB and GPU (for GPU-accelerated instances) boxes.
+
+You purchase a specific number of Gigaboxes that can be used by anyone within your organization. Codio tracks usage based on active projects rather than total projects. In other words, you can have 100 projects which use a Gigabox but as long as only one is active at a time, this requires only a single Gigabox unit to be purchased.
+
+To see the status of your current Gigabox usage, for all users
+
+- Click on your user name in the dashboard
+- Select your organization 
+- Click on the Organization Settings tab
+
+You can then scroll down to the Gigaboxes section.

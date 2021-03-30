@@ -1,10 +1,13 @@
+.. meta::
+   :description: Modify a project or assignment Stack by installing items using the terminal.
+
 .. _modify-stack:
 
 Modify a Stack
 ==============
 Any changes you or an application makes to the software on the server (box) outside the **Workspace** folder is considered a stack modification. Such modifications may include changes made using `sudo apt-get install`, manually editing a config file, or changes to a database due to application usage. 
 
-You can modify the stack at any time by opening a project, course assignment, or book and making the stack changes from the :ref:`command line <terminal>`. Keep in mind that your modifications will work fine on the project you are working on as the owner, but the modifications will not be transferred to those being run by your students. 
+You can modify the stack at any time by opening a project, or course assignment and making the stack changes from the :ref:`command line <terminal>`. Keep in mind that your modifications will work fine on the project you are working on as the owner, but the modifications will not be transferred to those being run by your students. 
 
 You must first create a clean stack with your modifications and then switch the project to the clean stack. See :ref:`Creating a Stack <create-stack>` and :ref:`Switching a Project Stack <switch-stack>` for more information.
 

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Each Codio project or assignment IDE gets it's own dedicated Ubuntu Server (box) with sudo access. This is an overview of the Codio IDE box. 
+
 .. _overview: 
 
 IDE Box Overview

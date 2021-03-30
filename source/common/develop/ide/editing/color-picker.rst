@@ -1,3 +1,6 @@
+.. meta::
+   :description: You can preview colors of code and choose a different color using the Color Picker feature.
+
 .. _color-picker:
 
 Color Picker and Preview

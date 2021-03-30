@@ -1,3 +1,0 @@
-.. _orgsettings:
-
-# Org Settings

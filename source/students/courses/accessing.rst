@@ -1,3 +1,6 @@
+.. meta::
+   :description: Access Your Courses
+   
 .. _accessing-your-courses:
 
 Access Your Courses
@@ -17,8 +20,8 @@ You access your courses from the **Courses** page and drill down to view the ass
 3. Click the assignment to start working on it, review your assessments, grading comments and any code comments from your instructor/teacher.
 
 **See Also**
-- :ref:`Navigating the Student Dashboard <navigate-student-dashboard>`
-- :ref:`Joining a Course <joining>`
-- :ref:`Paying for Codio Subscription <paying>`
-- :ref:`Forgot Your Password <password>`
-- :ref:`Changing Your Password <password>`
+- :ref:`Navigate the Student Dashboard <navigate-student-dashboard>`
+- :ref:`Join a Course <joining>`
+- :ref:`Pay for Codio Subscription <paying>`
+- :ref:`Manage Password <password>`
+

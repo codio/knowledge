@@ -1,3 +1,6 @@
+.. meta::
+   :description: Configure services to autostart when you open your project.
+
 .. _startup:
 
 Autostart Services

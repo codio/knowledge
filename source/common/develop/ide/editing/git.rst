@@ -1,3 +1,6 @@
+.. meta::
+   :description: Using Git and GitHub in Codio.
+
 .. _git:
 
 Git and GitHub
@@ -47,7 +50,7 @@ To specify a specific branch (for example, you have a demo or GitHub Pages site 
 
 Find stack version ID
 .....................
-To find the appropriate stack to use with your repo, go to **Stacks** in the Dashboard, choose the stack to be use, and click **Use Stack**. In the address bar, you can view the stack version ID to add to your link in the readme.md file.
+To find the appropriate stack to use with your repo, go to **Stacks** in the Dashboard, choose the stack to be used, and click **Use Stack**. In the address bar, you can view the stack version ID to add to your link in the readme.md file.
 
 Example showing the **Empty Stack** stack version ID:
 

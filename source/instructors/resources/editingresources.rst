@@ -1,1 +1,5 @@
-## Editing Resources
+.. meta::
+   :description: Editing Resources
+
+Editing Resources
+=================

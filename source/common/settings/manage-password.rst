@@ -1,3 +1,6 @@
+.. meta::
+   :description: Change or reset your password
+
 .. _password:
 
 Manage Password
@@ -23,16 +26,18 @@ You can change your password from the **Account** page. You should change it if 
 1. Click your user name or gravatar in the lower portion of the navigation pane to open the **Settings** page.
 
    .. image:: /img/what_students_do/forgotpassword/profilepic.png
+      :alt: Profile Icon
       
 
 2. Click the **Account** tab.
 
    .. image:: /img/what_students_do/forgotpassword/account.png
-      
+      :alt: Account
 
 3. In the **Change Password** area, enter your **Current Password** and a **New Password**, and click **Update password**.
 
    .. image:: /img/what_students_do/forgotpassword/change.png
+      :alt: Change password
    
 **Note:** You are allowed three attempts to enter your current password before your account is temporarily suspended. If your account is suspended, wait 15 minutes and then try again.
 
@@ -44,10 +49,12 @@ You can request a password reset from your **Account** page. It may be necessary
 1. Click your user name or gravatar in the lower portion of the navigation pane to open the **Settings** page.
 
    .. image:: /img/what_students_do/forgotpassword/profilepic.png
+      :alt: Profile Icon
    
 2. Click the **Account** tab.
 
    .. image:: /img/what_students_do/forgotpassword/account.png
+      :alt: Account
    
 3. In the **Reset Password** area, enter your **Email** address and click **Reset password**. A email is sent to your inbox with a link to reset your password. 
 

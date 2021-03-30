@@ -1,3 +1,6 @@
+.. meta::
+   :description: Create a Stack to save your software configuration as a template.
+
 .. _create-stack:
 
 Create a Stack
@@ -52,7 +55,7 @@ Sample template
 ^^^^^^^^^^^^^^^
 Below is a sample template that can be modified for your stack.
 
-.. code:: python
+.. code:: ini
 
     # Title
     Put the name of your Stack here.
@@ -82,7 +85,7 @@ Below is a sample template that can be modified for your stack.
 Sample template from Codio Certified LAMP stack
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. code:: python
+.. code:: ini
 
     # LAMP
 

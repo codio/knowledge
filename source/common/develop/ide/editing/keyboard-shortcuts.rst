@@ -1,3 +1,6 @@
+.. meta::
+   :description: Keyboard Shortcuts available in the IDE.
+
 .. _shortcuts:
 
 Keyboard Shortcuts

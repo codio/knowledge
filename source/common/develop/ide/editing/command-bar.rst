@@ -1,3 +1,6 @@
+.. meta::
+   :description: The Command Bar allows you to access almost all of the Codio actions from a searchable list.
+
 .. _command-bar:
 
 Command Bar

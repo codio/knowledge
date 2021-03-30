@@ -1,3 +1,6 @@
+.. meta::
+   :description: Useful IDE Tools
+
 .. _tools:
 
 Useful Tools

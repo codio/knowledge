@@ -1,3 +1,6 @@
+.. meta::
+   :description: Switch a project's software configuration by switching to a new Stack
+
 .. _switch-stack:
 
 Switch Project to New Stack

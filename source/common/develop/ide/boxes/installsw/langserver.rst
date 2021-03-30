@@ -1,3 +1,6 @@
+.. meta::
+   :description: The Language Server Protocol integrates features such as autocomplete, go to definition, and find all references.
+
 .. _langserver:
 
 Language Server Protocol

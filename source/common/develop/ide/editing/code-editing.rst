@@ -1,3 +1,6 @@
+.. meta::
+   :description: Special code editing features when working with HTML, CSS, and Javascript files.
+
 .. _code-editing:
 
 Code Editing Features

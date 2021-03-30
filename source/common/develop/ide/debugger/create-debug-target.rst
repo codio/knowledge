@@ -1,3 +1,6 @@
+.. meta::
+   :description: Create and Manage Debugger Targets
+
 .. _create-debug-target:
 
 
@@ -11,7 +14,7 @@ Before you can start debugging a project, you must first create your debug targe
 
 You manage your debug targets on the **Debugger Settings** page.
 
-.. figure:: /img/debug-targets.png
+.. image:: /img/debug-targets.png
    :alt: Debugger Settings
 
 Create a debug target
@@ -23,10 +26,10 @@ To create a debug target, follow these steps:
 
 2. On the Debugger Settings page, click **Create**.
 
-.. figure:: /img/debug-target.png
+.. image:: /img/debug-target.png
    :alt: Create Debug Target
 
-   Create Debug Target
+
 
 3. Click the **Debugger Type** drop-down and choose the programming language.
 

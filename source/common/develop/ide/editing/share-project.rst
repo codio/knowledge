@@ -1,9 +1,12 @@
+.. meta::
+   :description: Share a project or link to a project from a web page.
+   
 .. _share-project:
 
 Share Project
 =============
 
-You can share a project if it public (**Project > General Setting > Public**).To share a project or link to a project from a web page, follow these steps.
+You can share a project if it is public (**Project > Settings > General Settings > Public**). To share a project or link to a project from a web page, follow these steps.
 
 1. Click the **Project** tab on the menu bar and choose **Share**.
 

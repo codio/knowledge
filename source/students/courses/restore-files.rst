@@ -1,3 +1,6 @@
+.. meta::
+   :description: Restore Files
+   
 .. _restore-files:
 
 Restore Files

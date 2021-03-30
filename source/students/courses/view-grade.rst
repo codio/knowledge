@@ -1,3 +1,6 @@
+.. meta::
+   :description: View Grades/Feedback
+   
 .. _view-grade:
 
 View Grades

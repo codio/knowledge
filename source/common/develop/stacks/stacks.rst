@@ -1,3 +1,6 @@
+.. meta::
+   :description: Stacks are software configuration templates for your Codio projects or assignments. A Stack always includes the operating system and can also include programming languages and databases.
+
 .. _stacks:
 
 Stacks
@@ -38,7 +41,7 @@ The following rules apply for visibility and ownership of stacks:
 
 - If you are the owner of the stack for your organization, the stack is displayed on the **Stacks** page under **My Stacks** and all members of your organization can view it.
 
-- If you are an owner in the organization, you can enable the setting that allows you to create public stacks. See :ref:`Public/Private Settings <orgsettings>`. 
+- If you are an owner in the organization, you can enable the setting that allows you to create public stacks. See :ref:`Public/Private Settings <public-private>`. 
 
 - If you want to keep your Stack private to your organization, select the **Private** option and set the **Owner** option to your organization. These settings are recommended for collaborating with others when authoring and editing content.
 

@@ -1,3 +1,6 @@
+.. meta::
+   :description: Lexikon
+
 .. _lexikon:
 
 Lexikon
@@ -6,7 +9,7 @@ Lexikon
 The Codio Lexikon is an integrated help system that enables you to quickly and easily look up information about a variety of languages and topics. It provides concise reference information within a coding project or assignment without having to search the web.
 
 .. image:: /img/lexicon.png
-   :alt: !Lexicon
+   :alt: Lexicon
 
 If Lexikon has been enabled by the project author, you can access it using one of the following methods:
 

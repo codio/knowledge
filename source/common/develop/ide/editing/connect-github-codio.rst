@@ -1,8 +1,11 @@
+.. meta::
+   :description: Connecting a Codio project/assignment to a GitHub repo.
+
 .. _connect-codio-github:
 
 Connecting a Codio Box to a GitHub Repo
 =======================================
-The first step to using GitHub in Codio is connecting your Codio and Github accounts. You only have to do this once. Follow these steps:
+The first step to using GitHub in Codio is connecting your Codio and GitHub accounts. You only have to do this once. Follow these steps:
 
 1. Click your user name in the bottom left of the main menu. 
 
@@ -66,7 +69,7 @@ To connect to your repo from Codio, follow these steps:
 
 5. Click **Save** and then **Close**.
 
-   .. image:: /img/RemoteConfig2]
+   .. image:: /img/RemoteConfig2.png
 
 6. Click **Tools > Terminal** on the menu to open a terminal window.
  

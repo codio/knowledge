@@ -1,3 +1,6 @@
+.. meta::
+   :description: Exporting a project as a zip file.
+
 .. _export-project:
 
 Export a Project
@@ -11,7 +14,6 @@ to export a project:
    **Project** tab on the menu bar and choose **Export as Zip**.
 -  Right-click the folder and choose **Export as Zip** in the context
    menu.
--  Click the **Project** tab on the menu bar and choose and then click
-   **Export** in the lower right corner on the **Project Settings**
-   page.
+-  Click the **Project** tab on the menu bar and choose the **Project Settings**
+   page then click **Export** in the lower right corner.
 

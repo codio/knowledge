@@ -1,3 +1,6 @@
+.. meta::
+   :description: Applying the Code Beautifier will automatically indent and manage spaces in your code to format it correctly.
+
 .. _code-beautifier:
 
 Code Beautifier
