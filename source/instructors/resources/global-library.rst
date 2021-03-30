@@ -1,5 +1,5 @@
 .. meta::
-   :description: Codio Global Assessments Library
+   :description: The Codio Global Assessments Library contains auto-graded assessment questions that cover a wide variety of topics, difficulties, and assessment types. 
    
 .. _global-library:
 

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Add or Remove Teachers in a Course
+   :description: Courses may be taught by more than one teacher, Codio allows you to add and remove teachers from a course.
 
 
 .. _add-teachers:
@@ -56,7 +56,7 @@ If you want to change a teacher in a course, you must first add the new teacher 
 
 Enable teacher to be a student in course
 ---------------------------------------------------
-To enable a teacher to be a student in a course, copy the **Student Invite URL** on the course **Admin** page. Simply paste it into the browser and they are added to the course as a student.
+To enable a teacher to be a student in a course, copy the **Student Invite URL** on the course **Admin** page and send it to the teacher. The TA can paste it into a browser and they will be added to the course as a student.
 
 See Also
 --------

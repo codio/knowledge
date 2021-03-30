@@ -1,12 +1,12 @@
 .. meta::
-   :description: Working with Master/Child Courses
+   :description: When a course is created by cloning or using a share code, the course (child) is tied to the original (parent) course so that any updates to an assignment in the parent course are also updated in the child course. 
 
 
-.. _master-child-courses:
+.. _parent-child-courses:
 
-Working with Master/Child Courses
+Working with Parent/Child Courses
 =================================
-When a course is created by cloning or using a share code, the course (child) is tied to the original (master) course so that any updates to an assignment in the master course are also updated in the child course. 
+When a course is created by cloning or using a share code, the course (child) is tied to the original (parent) course so that any updates to an assignment in the parent course are also updated in the child course. 
 
 Update and send notification to child courses
 ---------------------------------------------
@@ -21,14 +21,14 @@ To send notifications, follow these steps:
    .. image:: /img/manage_classes/notifychild.png
       :alt: Notify Child Courses 
 
-3. In the **Notification Message** text box, enter the message to instructors that explains the changes that have been made to the master course and are now available in the child course. 
+3. In the **Notification Message** text box, enter the message to instructors that explains the changes that have been made to the parent course and are now available in the child course. 
 
    .. image:: /img/manage_classes/sendnotification.png
       :alt: Notification Message 
 
    The message can include details of all the changes made in each assignment or just be a summary. If a summary is included, instructors can pull the assignments and review the information in the publish assignment changelog. 
 
-   **Note:** To view a history of all notifications sent for published updates in the master course, click the **View Sent Notification** link.
+   **Note:** To view a history of all notifications sent for published updates in the parent course, click the **View Sent Notification** link.
 
    After a notification has been sent, a **Download** icon is displayed in the upper right corner of the course.
 
@@ -60,7 +60,7 @@ To send notifications, follow these steps:
 
 Updating without notifications
 ------------------------------
-You can also make changes to a master course without sending update notifications. After an update in the orignal course has been published, a **Pull** icon is displayed on the assignments that have changed (when in Edit mode). Follow these steps to pull the updates.
+You can also make changes to a parent course without sending update notifications. After an update in the orignal course has been published, a **Pull** icon is displayed on the assignments that have changed (when in Edit mode). Follow these steps to pull the updates.
 
 1. In the Dashboard, select the course to open it. The assignments that have changed show a **Pull** icon.
 
@@ -79,9 +79,9 @@ You can also make changes to a master course without sending update notification
    .. image:: /img/manage_classes/pullall.png
       :alt: Pull Add 
 
-Add new assignments from master to child courses
+Add new assignments from parent to child courses
 ------------------------------------------------
-After a new assignment has been added in the master course, you can add it to the child course and allow future updates to be pulled. Follow these steps to add an assignment from the master course to the child course:
+After a new assignment has been added in the parent course, you can add it to the child course and allow future updates to be pulled. Follow these steps to add an assignment from the parent course to the child course:
 
 1. In the Dashboard, select the child course to open it.
 
@@ -92,7 +92,7 @@ After a new assignment has been added in the master course, you can add it to th
 
 3. On the **Create Assignment** dialog, click **Existing**
 
-4. Select the master course, module and assignment(s) to be added to the child course. The assignment in the child course is automatically published.
+4. Select the parent course, module and assignment(s) to be added to the child course. The assignment in the child course is automatically published.
 
 Revert to earlier version
 -------------------------

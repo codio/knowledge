@@ -1,12 +1,12 @@
 .. meta::
-   :description: Create a New Course
+   :description: Set up a Codio course for your students. You can create a new empty course or create a course using share code.
 
 
 .. _create-course:
 
 Create a New Course
 ===================
-To work with the course features in Codio, you mut first set up a course for your students. You can create a new empty course or create a course using share code. Creating a course using share code if often used when you want to create a course from content outside your organization. You can also :ref:`clone a course <clone-course>`.
+To work with the course features in Codio, you must first set up a course for your students. You can create a new empty course or create a course using share code. Creating a course using share code if often used when you want to create a course from content outside your organization. You can also :ref:`clone a course <clone-course>`.
 
 Create empty course
 -------------------
@@ -30,7 +30,7 @@ To create an empty course, follow these steps:
 
 Create course from share code
 -----------------------------
-You can create courses from code users in other organizations share with you. When using share code, any updates or changes you make in your course can be pulled in by other users who are using the same share code. See :ref:`Working with Master/Child Courses <master-child-courses>`.
+You can create courses from code users in other organizations share with you. When using share code, any updates or changes you make in your course can be pulled in by other users who are using the same share code. See :ref:`Working with Parent/Child Courses <parent-child-courses>`.
 
 To create a course from share code, follow these steps:
 

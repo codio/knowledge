@@ -1,5 +1,5 @@
 .. meta::
-   :description: Add Questions from Assessments Library
+   :description: Add questions from the Assessments Library to your Codio guide.
    
 .. _add-questions-from-library:
 

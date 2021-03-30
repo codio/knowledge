@@ -231,7 +231,7 @@ Courses
    instructors/setupcourses/courses
    instructors/setupcourses/create-course
    instructors/setupcourses/clone-course
-   instructors/setupcourses/master-child-courses
+   instructors/setupcourses/parent-child-courses
    instructors/setupcourses/export-course-data
    instructors/setupcourses/archive-course
    instructors/setupcourses/delete-course

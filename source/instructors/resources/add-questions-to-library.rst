@@ -1,5 +1,5 @@
 .. meta::
-   :description: Add Questions to an Assessments Library
+   :description: Instructions for adding questions to an assessments library that can be shared among members of your organization.
    
 .. _add-questions-to-library:
 

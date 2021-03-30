@@ -1,6 +1,5 @@
 .. meta::
-   :description: Search Assessments Library
-   
+   :description: You can search the Assessment's Library and filter by tags such as programming language.
 .. _search-library:
 
 Search Assessments Library

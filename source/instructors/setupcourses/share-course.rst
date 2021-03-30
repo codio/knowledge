@@ -1,5 +1,5 @@
 .. meta::
-   :description: Share Course
+   :description: Instructions for sharing your course with others.
 
 
 .. _share-course:
@@ -20,7 +20,7 @@ To share your course with others, follow these steps:
 
 To manage access to the course code, toggle the **Course share** code button to **Off** after you have shared the code, or click **Regenerate** to create a new code. When you regenerate a new code, the old code is disabled and can no longer be used.
 
-To restrict a course that is shared or cloned from a master course from being shared or cloned further, toggle Course share code to On and check the Licensed check box.
+To restrict a course that is shared or cloned from a parent course from being shared or cloned further, toggle Course share code to On and check the Licensed check box.
 
-**Note:** Child courses created from licensed master courses cannot be shared or cloned, and the content cannot be added to other courses, modules, or assignments.
+**Note:** Child courses created from licensed parent courses cannot be shared or cloned, and the content cannot be added to other courses, modules, or assignments.
 

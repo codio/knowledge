@@ -1,5 +1,5 @@
 .. meta::
-   :description: Export Course Data
+   :description: All your course data, including student workspaces, can be downloaded to a zip file. User access data can be exported to a .csv file. Guide content may be exported to a .pdf file.
 
 
 .. _export-course:
@@ -58,7 +58,7 @@ PDF
 Use this to obtain PDF versions of the guides content in your assignments. When selected, a dialog shows allowing you to select the assignments to obtain the PDF version
 
 - All the data from the selected assignments will be compiled into one pdf file in the background and when ready an email will be sent to you with a link for you to download.
-- If you wish to distribute the pdf to your students as assignments start, select only the relevant assignment
+- If you wish to distribute the pdf to your students as assignments start, select only the relevant assignment.
 
 - The link will be active for 7 days and after this time the file will be removed.
 

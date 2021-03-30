@@ -1,5 +1,5 @@
 .. meta::
-   :description: Search and Order Courses
+   :description: You can set the sort order for your courses within their designated group. You can order your courses according to searches and save that as a tab. 
 
 
 .. _search-courses:
@@ -28,5 +28,5 @@ If you have a large number of courses, you can search by Name, Created Date, Stu
 
 Add as Tab
 ----------
-To save your search parametes as a tab, click **Add as Tab**. Your search is then saved as a tab so you can quickly perform the same search again.
+To save your search parameters as a tab, click **Add as Tab**. Your search is then saved as a tab so you can quickly perform the same search again.
 

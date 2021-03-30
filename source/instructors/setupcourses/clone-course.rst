@@ -1,5 +1,5 @@
 .. meta::
-   :description: Clone a Course
+   :description: You can clone an existing course to create a new course from it. The new course maintains a relationship with the course it was cloned from.
 
 
 .. _clone-course:
@@ -27,5 +27,5 @@ You can clone an existing course to create a new course from it. Follow these st
 
 **See Also:**
 
-- :ref:`Working with Master/Child Courses <master-child-courses>`
+- :ref:`Working with Parent/Child Courses <parent-child-courses>`
 - :ref:`Share Course <share-course>`

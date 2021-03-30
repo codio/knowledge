@@ -1,5 +1,5 @@
 .. meta::
-   :description: Assessments Library
+   :description: The Assessments Library is a collection of pre-built Codio assessments.
    
 Assessments Library
 ===================
