@@ -48,11 +48,17 @@ Creating instructional content
    instructors/authoring/guides/hide_folders
    instructors/authoring/guides/latex_rst
    
-Editing existing materials
---------------------------
+Guides Settings and Page actions
+--------------------------------
 
 .. toctree::
    :maxdepth: 2
+   
+   instructors/authoring/guides/settings/page
+   instructors/authoring/guides/settings/opentabs
+   instructors/authoring/guides/settings/assessments
+   instructors/authoring/guides/settings/media
+   instructors/authoring/guides/settings/global
    
 Auto-graded assessments
 -----------------------
