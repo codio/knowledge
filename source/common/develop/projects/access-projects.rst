@@ -1,5 +1,5 @@
 .. meta::
-   :description: Access Projects
+   :description: Access and opening your projects or projects shared with you. Acessing project settings, filtering your project list and searching for projects.
 
 .. _access-projects:
 

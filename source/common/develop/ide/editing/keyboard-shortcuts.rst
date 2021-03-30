@@ -1,5 +1,5 @@
 .. meta::
-   :description: Keyboard Shortcuts
+   :description: Keyboard Shortcuts available in the IDE.
 
 .. _shortcuts:
 

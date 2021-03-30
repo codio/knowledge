@@ -1,5 +1,5 @@
 .. meta::
-   :description: Quick Open
+   :description: Quick open files using a dialog.
 
 .. _quick-open:
 

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Starter Packs
+   :description: Starter packs include a Stack, the software configuration, as well as workspace data such as code.
 
 .. _starter-packs:
 

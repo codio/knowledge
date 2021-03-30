@@ -1,5 +1,5 @@
 .. meta::
-   :description: Create a Stack
+   :description: Create a Stack to save your software configuration as a template.
 
 .. _create-stack:
 

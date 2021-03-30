@@ -1,5 +1,5 @@
 .. meta::
-   :description: Dyslexia Support
+   :description: Enable Dyslexia Support
 
 .. _dyslexia:
 

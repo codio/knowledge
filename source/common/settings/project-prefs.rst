@@ -1,5 +1,5 @@
 .. meta::
-   :description: Project Preferences
+   :description: Project preferences allow you to set things such as keyboard shortcuts, themes and editor settings on a project basis. 
 
 .. _project-prefs:
 

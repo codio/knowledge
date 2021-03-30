@@ -1,6 +1,6 @@
 
 .. meta::
-   :description: Abbreviations
+   :description: HTML and CSS abbreviations that expand to code in the IDE.
    
 .. _abbreviations:
 

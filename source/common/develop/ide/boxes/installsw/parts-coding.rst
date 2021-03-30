@@ -1,5 +1,5 @@
 .. meta::
-   :description: Add Your Own Software Packages
+   :description: Adding rour own software packages to the Install Software list.
 
 .. _parts-coding:
 

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Projects
+   :description: Projects are Ubuntu servers and also referred to as boxes.
 
 .. _projects:
 

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Open a File
+   :description: Open a project file.
 
 .. _open-file:
 

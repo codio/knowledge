@@ -1,5 +1,5 @@
 .. meta::
-   :description: Code Editing Features
+   :description: Special code editing features when working with HTML, CSS, and Javascript files.
 
 .. _code-editing:
 

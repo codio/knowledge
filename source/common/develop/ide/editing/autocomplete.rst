@@ -1,5 +1,5 @@
 .. meta::
-   :description: Autocomplete
+   :description: Autocomplete is supported in HTML, CSS, and Javascript files. Simply start typing and matches are automatically displayed.
 
 .. _autocomplete:
 

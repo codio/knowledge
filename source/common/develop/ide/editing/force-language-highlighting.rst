@@ -1,5 +1,5 @@
 .. meta::
-   :description: Force Language Highlighting
+   :description: Choose the language to use for syntax highlighting.
 
 .. _lang-highlight:
 

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Access Codio Box via SSH
+   :description: Connect Codio to other applications such as Github and ButBucket using SSH keys.
 
 .. _ssh:
 
@@ -49,7 +49,7 @@ You can view all uploaded public keys in your project by opening the terminal an
 
 Enable SSH forwarding and connect to your box
 ---------------------------------------------
-You can now enable SSh forwarding in Codio and then connect to you box from you local machine's terminal window:
+You can now enable SSH forwarding in Codio and then connect to your box from your local machine's terminal window:
 
 1. Click the **Project** tab on the menu bar and choose **Settings**.
 2. Click the **Forwarding Settings** tab.

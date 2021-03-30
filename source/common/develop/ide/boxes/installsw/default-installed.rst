@@ -1,5 +1,5 @@
 .. meta::
-   :description: Preinstalled Software Packages
+   :description: All Codio projects are pre-installed with Ubuntu server and Git software.
 
 .. _preinstalled-software:
 

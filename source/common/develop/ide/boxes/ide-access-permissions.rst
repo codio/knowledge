@@ -1,5 +1,5 @@
 .. meta::
-   :description: IDE Access Permissions
+   :description: Granting IDE access to other users by assigning admin permissions.
 
 .. _IDE-access-permissions:
 

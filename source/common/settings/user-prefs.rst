@@ -1,6 +1,6 @@
 
 .. meta::
-   :description: User Preferences
+   :description: User Preferences allow you to set things such as keyboard shortcuts, themes and editor settings that apply to you when you're logged in.
 
 .. _user-prefs:
 

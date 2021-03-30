@@ -1,5 +1,5 @@
 .. meta::
-   :description: Create Starter Pack
+   :description: Create a Starter Pack to share your Stack and workspace files with others.
 
 .. _create-starter-pack:
 
