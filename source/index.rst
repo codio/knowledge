@@ -19,6 +19,15 @@ Getting Started
    instructors/getstarted/onboard
    instructors/getstarted/howto
    instructors/getstarted/settings
+   
+Support
+-------
+
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/getstarted/support/support
+   instructors/getstarted/support/changelog
 
    
 Authoring Instructional Content and Assessments
@@ -279,6 +288,7 @@ Course Administration
    instructors/setupcourses/modify-assignments
    instructors/setupcourses/view-student-username
    instructors/setupcourses/notification-email
+   instructors/setupcourses/course-contact
    
 Codio instructional resources
 -----------------------------
