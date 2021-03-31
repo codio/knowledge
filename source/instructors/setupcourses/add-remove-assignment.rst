@@ -15,9 +15,9 @@ You must first create the module that holds the assignments. You can create an e
 
 1. From the **Courses** page, select the course to open it.
 
-2. Click the **Assignment** tab. When you first create a course, the list of modules and assignments is empty.
+2. Click the **Edit** tab. When you first create a course, the list of modules and assignments is empty.
 
-3. Click the **+** (Add) icon in the upper left corner and choose **Add Empty Module** or **Add Copy from Existing**.
+3. Click the **New Module+** button  and choose **Add Empty Module** or **Add Copy from Existing**.
 
     - To add an empty module, enter the name for the new module and click **Add Module**.
     - To add copy from existing module, select a course, check the check boxes for the modules to be copied, and then click **Select**. The modules are added to your course. 
@@ -46,12 +46,22 @@ Once the course modules are created, you can add assignments (projects). You can
      b. Check the check boxes for the assignments to be added to the course.
      c. Click **Select**. 
 
-   **Note:** For more information about authoring course content, see [creating course content](/courses/coursemanagement).
+   **Note:** For more information about authoring course content, :ref:`click here <intro>`.
 
-3. Open the assignment to review it in the IDE and then go back to the dashboard and click **Publish**. The assignment is not visible to students until it's published.
+3. Open the assignment to review it in the IDE and when readon **Publish** it . The assignment is not visible to students until it's published.
 
-   .. image:: /img/publish.png
-      :alt: Publish Assignment 
+    - As you update your assignment, a **Publish** button will show on the top menu bar, to the left of your username.  
+
+.. image:: /img/assignmentpublish.png
+   :alt: Quick Publish
+   
+    - There is also an option to publish in the **Education** menu item in the top menu bar.
+
+**Note**:
+
+- If you change the stack or files via the terminal, the publish button on the top menu bar will NOT appear
+- If you add and remove the same character, it will assume that you made a change even though the start and end file are the same
+
 
    If you make changes to the assignment, you must publish it again before the changes are visible to your students. You can view the details of previously published versions in the log area.
 

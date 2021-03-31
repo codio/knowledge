@@ -12,14 +12,14 @@ Create empty course
 -------------------
 To create an empty course, follow these steps:
 
-1. Sign in to Codio at www.codio.com.
+1. Sign in to your Codio account.
 2. Click the **Codio** icon in the top left corner of the IDE, or click **Courses** in the left navigation menu on the dashboard to open the **Courses** page.
 3. Click the **New Course** drop-down and choose **Add Empty Course**.
 
    .. image:: /img/manage_classes/addcourse.png
       :alt: New Course
 
-4. Complete the fields on the **Create a new Course** form, including the **Name** and **Duration**.
+4. Complete the fields on the **Create a new Course** form, including the **Name** and **Duration** (optional).
 
    .. image:: /img/manage_classes/create_class/new-class.png
       :alt: Create Empty Course
@@ -34,14 +34,14 @@ You can create courses from code users in other organizations share with you. Wh
 
 To create a course from share code, follow these steps:
 
-1. Sign in to Codio at www.codio.com.
+1. Sign in to your Codio account.
 2. Click the **Codio** icon in the top left corner of the IDE, or click **Courses** in the left navigation menu on the dashboard to open the **Courses** page.
 3. Click the **New Course** drop-down and choose **Add From Share Code**.
 
    .. image:: /img/manage_classes/sharecode.png
       :alt: Create Course from Share Code
 
-4. Complete the fields on the **Clone a Course by code** form, including the **Course Code**, **Name**, **Organization**, and **Duration**.
+4. Complete the fields on the **Clone a Course by code** form, including the **Course Code**, **Name**, **Organization**, and **Duration** (optional).
 
 5. Click **Create Course**.
 
