@@ -1,5 +1,5 @@
 .. meta::
-   :description: Delete Course
+   :description: Courses can be deleted by course teachers and organization owners.
 
 
 .. _delete-course:

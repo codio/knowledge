@@ -1,5 +1,5 @@
 .. meta::
-   :description: Courses Overview
+   :description: Overview of a course - a grouping of students who are taught as a logical group. With courses, you can instantly access student code and projects.
 
 
 .. _courses:

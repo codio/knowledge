@@ -1,5 +1,5 @@
 .. meta::
-   :description: Export Assignment Data
+   :description: Export data for an assignment.
 
 
 .. _export-assignment:

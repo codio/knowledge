@@ -1,5 +1,5 @@
 .. meta::
-   :description: Archive Course
+   :description: Archive a course to remove it from the Active courses tab. Unarchive a course to move it back to the Active tab. 
 
 
 .. _archive-course:

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Unlink an Assessment
+   :description: You can unlink an assessment from an assessment library and then modify it and add it to a library in your organization.
    
 .. _unlink-assessment:
 

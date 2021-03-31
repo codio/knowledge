@@ -1,5 +1,5 @@
 .. meta::
-   :description: Add or Remove Students in a Course
+   :description: You can add or remove students assigned to your course.
 
 
 .. _add-remove-students:
