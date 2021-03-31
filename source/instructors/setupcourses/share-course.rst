@@ -24,7 +24,7 @@ To manage access to the course code, toggle the **Course share** code button to 
 
 When enabled you can also manage IP Consent by clicking the **Manage IP Consent** link offered.
 
-.. image:: /img/manage_classes/course_ipconsent.png
+.. image:: /img/manage_classes/course-ipconsent.png
    :alt: Manage IP consent
 
 

@@ -18,4 +18,4 @@ Rename and Reorder Assignments
 ------------------------------
 1. Open the course that contains the course assignment you want to rename or reorder and go to the **Edit** tab.
 2. To rename an assignment, click on the **Rename** button for that assignment.
-4. To reorder an assignment within the module, click the assignment, and then drag and drop it into the desired position.
+3. To reorder an assignment within the module, click the assignment, and then drag and drop it into the desired position.

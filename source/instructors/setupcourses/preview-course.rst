@@ -10,7 +10,7 @@ You can preview a course and assignments as a student by logging into one of the
 
 1. On the **Courses** page, click the course that includes the assignments you want to preview
 
-  .. image:: /img/accesscourse.png)
+  .. image:: /img/accesscourse.png
      :alt: Access Course
      
 2. Go to the **Teach** tab.

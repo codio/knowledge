@@ -52,8 +52,8 @@ Once the course modules are created, you can add assignments (projects). You can
 
     - As you update your assignment, a **Publish** button will show on the top menu bar, to the left of your username.  
 
-.. image:: /img/assignmentpublish.png
-   :alt: Quick Publish
+    .. image:: /img/assignmentpublish.png
+       :alt: Quick Publish
    
     - There is also an option to publish in the **Education** menu item in the top menu bar.
 
