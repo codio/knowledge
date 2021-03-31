@@ -1,5 +1,5 @@
 .. meta::
-   :description: Grade Weights
+   :description: The Grade weights settings are used to enable and disable the grading model to be used: Teachers Grading, Assessments Grading, or Script Grading.
 
 
 .. _grade-weights:

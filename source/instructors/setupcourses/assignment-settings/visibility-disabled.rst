@@ -1,5 +1,5 @@
 .. meta::
-   :description: Visibility on Disabled
+   :description: The Visibility on Disabled setting is used to specify how your students can access a disabled assignment.
 
 
 .. _visibility-disabled:

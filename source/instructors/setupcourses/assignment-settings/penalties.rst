@@ -1,6 +1,6 @@
 
 .. meta::
-   :description: Penalties
+   :description: Penalties can be added for students who don't complete an assignment within the specified start time and end time.
 
 .. _penalties:
 

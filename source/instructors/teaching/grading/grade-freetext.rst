@@ -1,5 +1,5 @@
 .. meta::
-   :description: Grading Free Text Questions
+   :description: Free text questions normally require a manual grading process.
    
 .. _grade-freetext:
 

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Disable Assignment
+   :description: Disable or enable an assignment to control student access to it.
 
 
 .. _disable-assignment:
