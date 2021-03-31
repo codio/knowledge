@@ -1,5 +1,5 @@
 .. meta::
-   :description: Release Grades
+   :description: This allows you to release all the grades at once after the grading process has been completed.
    
 .. _release-grades:
 
@@ -31,7 +31,7 @@ You can enable the :ref:`Release Grades Automatically <auto-release-grades>` at 
 
 Release grade from assignment
 -----------------------------
-You can also release grades from the main assignment by toggling the switch in the **Release grades** column.
+You can also release grades for an assignment by toggling the switch in the **Release grades** column.
 
 .. image:: /img/grading-release2.png
    :alt: Release grades toggle in assignment

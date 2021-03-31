@@ -1,5 +1,5 @@
 .. meta::
-   :description: Visibility on Completed 
+   :description: The Visibility on Completed setting is used to specify your students ability to access the assignment when completed.
 
 
 .. _visibility-completed:

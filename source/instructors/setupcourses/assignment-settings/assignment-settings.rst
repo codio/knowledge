@@ -1,5 +1,5 @@
 .. meta::
-   :description: Manage Assignments
+   :description: Manage your assignment settings.
 
 
 .. _assignment-settings:

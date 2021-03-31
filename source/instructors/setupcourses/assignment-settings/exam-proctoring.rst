@@ -1,5 +1,5 @@
 .. meta::
-   :description: Exam Proctoring
+   :description: Exam Proctoring settings are used to enable options such as time limit, shuffle question order, navigation and login for exams.
 
 
 .. _exam-proctoring:

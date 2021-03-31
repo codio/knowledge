@@ -1,5 +1,5 @@
 .. meta::
-   :description: Disable Mark as Completed
+   :description: The Disable Mark as Completed setting is used to prevent students from marking an assignment as completed.
 
 
 .. _disable-mark-completed:
