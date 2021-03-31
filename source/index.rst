@@ -383,6 +383,14 @@ Removing students who drop?
    :maxdepth: 2
    
    instructors/teaching/remove
+   
+Plagiarism Checker
+------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/teaching/plagiarism
 
 Admin
 ^^^^^
