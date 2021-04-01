@@ -302,6 +302,19 @@ Codio instructional resources
    instructors/resources/search-library
    instructors/resources/unlink-assessment
    instructors/resources/update-assess-from-library
+   
+Codio resource tools
+--------------------
+   
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/resources/resourcetools/crunch
+   instructors/resources/resourcetools/flode
+   instructors/resources/resourcetools/lexikon
+   instructors/resources/resourcetools/tkinter
+   instructors/resources/resourcetools/scratch
+   instructors/resources/resourcetools/jeroo
 
 
 Connecting to your LMS (Canvas, Blackboard, Moodle, etc)

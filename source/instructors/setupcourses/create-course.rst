@@ -28,6 +28,8 @@ To create an empty course, follow these steps:
    
    Your new course will appear in your **Courses** area.
 
+.. _create-fromsharecode:
+
 Create course from share code
 -----------------------------
 You can create courses from code users in other organizations share with you. When using share code, any updates or changes you make in your course can be pulled in by other users who are using the same share code. See :ref:`Working with Parent/Child Courses <parent-child-courses>`.
