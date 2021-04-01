@@ -221,12 +221,24 @@ Run menu
    common/develop/ide/boxes/runmenu
   
 Debugger
---------
+********
 
 .. toctree::
    :maxdepth: 2
    
    common/develop/ide/debugger/debugger
+   
+Tools
+*****
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/ide/tools/deployment
+   common/develop/ide/tools/ghapi
+   common/develop/ide/tools/phonegap
+   common/develop/ide/tools/ssh
+
 
 Setting up your courses
 ^^^^^^^^^^^^^^^^^^^^^^^

@@ -27,7 +27,7 @@ Select a course, you can then see details of the content in the module. To use t
 
 Please note, if working on codio.co.uk, you need to use the **Share Code**
 
-  .. image:: img/manage_classes/createfromresources.png
+  .. image:: /img/manage_classes/createfromresources.png
      :alt: CreatefromResources
 
 
