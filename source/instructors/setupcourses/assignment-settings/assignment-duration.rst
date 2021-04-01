@@ -1,5 +1,5 @@
 .. meta::
-   :description: Assignment Duration
+   :description: The Assignment Duration setting is used to specify a start time and end time for the assignment.
 
 
 .. _assignment-duration:

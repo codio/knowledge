@@ -1,5 +1,5 @@
 .. meta::
-   :description: Change Student Passwords
+   :description: You can reset your students' password if they lose it.
 
 
 .. _change-student-password:

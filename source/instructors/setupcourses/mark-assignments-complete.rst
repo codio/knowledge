@@ -1,5 +1,5 @@
 .. meta::
-   :description: Mark Assignment as Complete/Uncomplete
+   :description: Mark student assignments as complete or incomplete.
 
 
 .. _mark-assignment-complete:

@@ -1,5 +1,5 @@
 .. meta::
-   :description: View Student Usernames
+   :description: Find a student's username. Students can log into Codio using an email address or a username. 
 
 
 .. _student-username:

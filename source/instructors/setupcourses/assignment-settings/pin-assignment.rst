@@ -1,5 +1,5 @@
 .. meta::
-   :description: Pin and Unpin Assignment
+   :description: Pin an assignment to make it more noticible in the student dashboard.
 
 
 .. _pin-assignment:
