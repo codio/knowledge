@@ -19,6 +19,15 @@ Getting Started
    instructors/getstarted/onboard
    instructors/getstarted/howto
    instructors/getstarted/settings
+   
+Support
+-------
+
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/getstarted/support/support
+   instructors/getstarted/support/changelog
 
    
 Authoring Instructional Content and Assessments
@@ -212,12 +221,24 @@ Run menu
    common/develop/ide/boxes/runmenu
   
 Debugger
---------
+********
 
 .. toctree::
    :maxdepth: 2
    
    common/develop/ide/debugger/debugger
+   
+Tools
+*****
+
+.. toctree::
+   :maxdepth: 2
+   
+   common/develop/ide/tools/deployment
+   common/develop/ide/tools/ghapi
+   common/develop/ide/tools/phonegap
+   common/develop/ide/tools/ssh
+
 
 Setting up your courses
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -279,6 +300,7 @@ Course Administration
    instructors/setupcourses/modify-assignments
    instructors/setupcourses/view-student-username
    instructors/setupcourses/notification-email
+   instructors/setupcourses/course-contact
    
 Codio instructional resources
 -----------------------------
@@ -292,6 +314,19 @@ Codio instructional resources
    instructors/resources/search-library
    instructors/resources/unlink-assessment
    instructors/resources/update-assess-from-library
+   
+Codio resource tools
+--------------------
+   
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/resources/resourcetools/crunch
+   instructors/resources/resourcetools/flode
+   instructors/resources/resourcetools/lexikon
+   instructors/resources/resourcetools/tkinter
+   instructors/resources/resourcetools/scratch
+   instructors/resources/resourcetools/jeroo
 
 
 Connecting to your LMS (Canvas, Blackboard, Moodle, etc)
@@ -383,6 +418,14 @@ Removing students who drop?
    :maxdepth: 2
    
    instructors/teaching/remove
+   
+Plagiarism Checker
+------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   instructors/teaching/plagiarism
 
 Admin
 ^^^^^

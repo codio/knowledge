@@ -60,9 +60,9 @@ To send notifications, follow these steps:
 
 Updating without notifications
 ------------------------------
-You can also make changes to a parent course without sending update notifications. After an update in the orignal course has been published, a **Pull** icon is displayed on the assignments that have changed (when in Edit mode). Follow these steps to pull the updates.
+You can also make changes to a parent course without sending update notifications. After an update in the orignal course has been published, a **Pull** icon is displayed on the assignments that have changed (when on the **Edit** tab). Follow these steps to pull the updates.
 
-1. In the Dashboard, select the course to open it. The assignments that have changed show a **Pull** icon.
+1. In the Dashboard, select the course to open it and click on the **Edit** tab. The assignments that have changed show a **Pull** icon.
 
    .. image:: /img/manage_classes/pull.png
       :alt: Pull
@@ -72,7 +72,7 @@ You can also make changes to a parent course without sending update notification
    .. image:: /img/manage_classes/updatedialog.png
       :alt: Update Details
 
-3. Click Update May Assignment to pull the updates into the cloned (child) course.
+3. Click Update to pull the updates into the cloned (child) course.
 
    **Note:** You can also click **Pull All** to pull all available updates for the module but you cannot view the details.
 
@@ -83,9 +83,9 @@ Add new assignments from parent to child courses
 ------------------------------------------------
 After a new assignment has been added in the parent course, you can add it to the child course and allow future updates to be pulled. Follow these steps to add an assignment from the parent course to the child course:
 
-1. In the Dashboard, select the child course to open it.
+1. In the Dashboard, select the child course to open it and go to the **Edit** tab.
 
-2. Select the module and click **+ Add assignment**.
+2. Select the module and click **Add assignment**.
 
    .. image:: /img/manage_classes/addchild.png
       :alt: Add Assignment 
@@ -98,9 +98,9 @@ Revert to earlier version
 -------------------------
 You can revert back to earlier published versions of your courses. However, reverting automatically publishes the course and it's available to your students.
 
-1. In the Dashboard, select the course to open it.
+1. In the Dashboard, select the course to open it and go to the **Edit** tab.
 
-2. On the **Assignments** page, click the **Revert** icon in the **Versions** column.
+2. On the **Assignments** page, click the **Versions** button.
 
    .. image:: /img/manage_classes/viewversions.png
       :alt: View Versions

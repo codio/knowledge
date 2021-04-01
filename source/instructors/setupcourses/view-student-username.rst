@@ -14,4 +14,4 @@ Students can log in with their username if they can't remember their email addre
 3. On the **Members** tab, click **Students** and find the student's name in the list.
 4. Provide the student with their username. 
 
-If you are not an organization owner, you can obtain the student's username from the browser when you access student code.
+Alternatively, you can obtain the student's username from the browser when you access the students assignments.
