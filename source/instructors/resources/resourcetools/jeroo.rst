@@ -1,6 +1,8 @@
 .. meta::
    :description: A tool for learning Object-Oriented Programming
 
+.. _jeroo:
+
 Jeroo
 =====
 
