@@ -263,6 +263,7 @@ Courses
    instructors/setupcourses/add-remove-students
    instructors/setupcourses/change-student-password
    instructors/setupcourses/add-remove-assignment
+   instructors/setupcourses/student-reset
    
 Course/Assignment Settings
 --------------------------
