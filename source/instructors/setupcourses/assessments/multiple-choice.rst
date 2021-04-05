@@ -1,5 +1,5 @@
 .. meta::
-   :description: Multiple Choice
+   :description: Multiple choice type assessments provide a question and then single or multiple response options.
    
 .. _multiple-choice:
 
@@ -12,7 +12,7 @@ Multiple choice type assessments provide a question and then single or multiple 
    .. image:: /img/guides/assessment_mc_general.png
       :alt: General
 
-  - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the how successful students are in understanding the assignment.
+  - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
 
     If you want to hide the name in the challenge text the student sees, toggle the **Show Name** setting to disable it.
    

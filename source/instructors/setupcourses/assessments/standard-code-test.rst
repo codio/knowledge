@@ -1,5 +1,5 @@
 .. meta::
-   :description: Standard Code Test
+   :description: Using a standard code test, student code is executed and the output is compared to an expected output.
    
 .. _standard-code-test:
 

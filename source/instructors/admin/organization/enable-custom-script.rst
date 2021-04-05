@@ -1,5 +1,5 @@
 .. meta::
-   :description: Enable Custom Script
+   :description: You can enable custom scripts to integrate third-party systems.
    
 .. _enable-custom-script:
 

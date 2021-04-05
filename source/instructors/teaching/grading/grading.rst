@@ -1,5 +1,5 @@
 .. meta::
-   :description: Grade Assignments
+   :description: Grading features available for assignments.
    
 .. _grading:
 
@@ -10,7 +10,7 @@ Codio offers the following grading features:
 - **Assign Grade** - Manually review student projects and assign a grade.
 - **Grading Moderation** - Other instructors review grades already assigned to monitor grading consistency.
 - **Grading Rubric** - A two-dimensional grid that provides grading guidance for manually assessing a coding project.
-- **LMS Gradebook Sycnhronization** - Ensures that when grades are released, the data is automatically passed to any LTI enabled LMS platform such as Moodle, Blackboard and Canvas.
+- **LMS Gradebook Synchronization** - Ensures that when grades are released, the data is automatically passed to any LTI enabled LMS platform such as Moodle, Blackboard and Canvas.
 
 Grading process
 ---------------

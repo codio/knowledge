@@ -1,5 +1,5 @@
 .. meta::
-   :description: Ungraded Assessments
+   :description: An assessment is not graded if the correct/incorrect points are set to zero (0).
    
 .. _ungraded-assessments:
 

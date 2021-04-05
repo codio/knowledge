@@ -1,5 +1,5 @@
 .. meta::
-   :description: Set Default Student Dashboard
+   :description: Organization owners can specify the default dashboard that is displayed to students.
    
 .. _default-student-dashboard:
 

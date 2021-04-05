@@ -1,5 +1,5 @@
 .. meta::
-   :description: Enable or Disable Releasing Grades Automatically
+   :description: Enable or disable the release grades automatically feature, which releases the grades when the students complete the assignment.
    
 .. _auto-release-grades:
 

@@ -1,11 +1,11 @@
 .. meta::
-   :description: Add Teachers to Organization
+   :description: Once you have set up your organization, you can add teachers to provide them with access to Codio.
    
 .. _add-teachers_org:
 
 Add Teachers to Organization
 ============================
-Once you have set up your organization, you need to add teachers to the organization and use Codio. You can invite teachers or send them a token to paste into the browers to access Codio. 
+Once you have set up your organization, you can add teachers to provide them with access to Codio. You can invite teachers or send them a token to paste into the browers to access Codio. 
 
 Invite teacher to the organization
 ==================================
@@ -68,7 +68,7 @@ To send a teacher an invitation token to use to access Codio, follow these steps
    .. image:: /img/class_administration/addteachers/invitation.png
       :alt: Invitation   
 
-  - If you send them the **Invite URL**, they cam paste it into their browser and are automatically taken through the sign-up process. When they select that they are a teacher, they are added to your organization.
+  - If you send them the **Invite URL**, they can paste it into their browser and are automatically taken through the sign-up process. When they select that they are a teacher, they are added to your organization.
   - If you send them the **Invite Token**, they can register themselves for a Codio account using the sign-up process at www.codio.com. They provide the token to join your organization.
 
 **Note:** If you already have courses set up, you can add and invite teachers directly into your course(s). See :ref:`Add or Remove Teachers in a Course <add-teachers>`. You can then add them as an :ref:`organization owner <org-owners>` so they can then manage and create courses, and have full Admin access to the organization.

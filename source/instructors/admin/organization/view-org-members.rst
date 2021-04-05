@@ -1,5 +1,5 @@
 .. meta::
-   :description: View Organization Members
+   :description: You can view all members of your organization from the Members tab on the Organization page.
 
 .. _view-org-members:
 

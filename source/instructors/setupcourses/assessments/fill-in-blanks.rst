@@ -1,5 +1,5 @@
 .. meta::
-   :description: Fill in the Blanks
+   :description: Fill in the blanks questions can use either free text or offer options to be chosen from a drop-down list.
    
 .. _fill-in-blanks:
 
@@ -24,7 +24,7 @@ Follow these steps to set up fill in the blank assessments:
    .. image:: /img/guides/assessment_general.png
       :alt: General
 
-  - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the how successful students are in understanding the assignment.
+  - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
 
     If you want to hide the name in the challenge text the student sees, toggle the **Show Name** setting to disable it.
    

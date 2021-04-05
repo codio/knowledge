@@ -1,5 +1,5 @@
 .. meta::
-   :description: Advanced Code Test
+   :description: The advanced code test assessment type allows you to write code in any language that checks code a student has written.
    
 .. _advanced-code-test:
 

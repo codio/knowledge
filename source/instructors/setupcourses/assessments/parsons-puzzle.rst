@@ -1,5 +1,5 @@
 .. meta::
-   :description: Parsons Puzzle
+   :description: Parson’s Puzzles are formative assessments that ask students to arrange blocks of scrambled code.
    
 .. _parsons-puzzle:
 
@@ -14,7 +14,7 @@ Complete the following steps to set up a Parsons Puzzle assessment:
    .. image:: /img/guides/assessment_general.png
       :alt: General
 
-  - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the how successful students are in understanding the assignment.
+  - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
 
     If you want to hide the name in the challenge text the student sees, toggle the **Show Name** setting to disable it.
    
@@ -25,7 +25,7 @@ Complete the following steps to set up a Parsons Puzzle assessment:
    .. image:: /img/guides/assessment_parsons_exec.png
       :alt: Execution
 
-  - **Code to Become Blocks** - Enter code blocks hat make up the initial state of the puzzle for the students.
+  - **Code to Become Blocks** - Enter code blocks that make up the initial state of the puzzle for the students.
   - **Code to Become Distractor Blocks** - Enter code blocks that serve as distractions. 
   - **Max Distractors** - Enter the maximum number of distractors allowed.
   - **Grader** - Choose the appropriate grader for the puzzle from the drop-down list. 

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Free Text Autograde 
+   :description: Free text autograde assessments allow students to answer questions in their own words and includes a field for a command line to execute a script to provide autograding.
    
 .. _free-text-autograde:
 
@@ -14,7 +14,7 @@ Follow these steps to set up an autograde free text assessment:
    .. image:: /img/guides/assessment_autofree_exec.png
       :alt: General
 
-  - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the how successful students are in understanding the assignment.
+  - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
 
     If you want to hide the name in the challenge text the student sees, toggle the **Show Name** setting to disable it.
    
@@ -95,7 +95,7 @@ To review and grade answers given by students in a free text assessment, follow 
      .. image:: /img/guides/partial.png
         :alt: Allow Partial Points Enabled
 
-4. In the **Comments** field, enter any information (in markdown + latex) about the grade, which can be viewed by the student when the grade is released, and then click **Submit **Comment**. 
+4. In the **Comments** field, enter any information (in markdown + LaTeX) about the grade, which can be viewed by the student when the grade is released, and then click **Submit **Comment**. 
 
 Example of a simple Bash script for partial points
 ..................................................

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Add and Remove Course Assignments
+   :description: Course assignments are grouped in Modules. You can add or remove assignments from a module.
 
 
 .. _add-remove-assignment:

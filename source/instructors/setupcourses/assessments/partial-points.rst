@@ -1,5 +1,5 @@
 .. meta::
-   :description: Partial Points
+   :description: Awarding partial points in your test script.
    
 .. _partial-points:
 
@@ -19,7 +19,7 @@ If your test was written using a bash script, enable partial points similar to t
 
 Example Python grading script for partial points
 ------------------------------------------------
-If you test was written using a Python script, enable partial points similar to the following:
+If your test was written using a Python script, enable partial points similar to the following:
 
 .. code:: python
 

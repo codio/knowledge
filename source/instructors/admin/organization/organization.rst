@@ -1,5 +1,5 @@
 .. meta::
-   :description: Organizations
+   :description: The Organization page includes settings for managing accounts, LMS integration and many other organization related settings.
 
 .. _organizations:
 

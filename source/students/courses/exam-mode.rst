@@ -1,5 +1,5 @@
 .. meta::
-   :description: Exam Mode
+   :description: Features you may experience if your instructor has enabled exam mode.
    
 .. _exam-mode:
 
