@@ -1,5 +1,5 @@
 .. meta::
-   :description: Sense Network
+   :description: Sense Network is an AI-based code analysis package to give students feedback on their code submissions.
    
 .. _sense-network:
 
@@ -22,7 +22,7 @@ Follow these steps to set up a Sense.Network assessment:
    .. image:: /img/guides/assessment_sn_general.png
       :alt: General
 
-   - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the how successful students are in understanding the assignment.
+   - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
 
      If you want to hide the name in the challenge text the student sees, toggle the **Show Name** setting to disable it.
    - **Instructions** - Enter the markdown text that is shown to the student.

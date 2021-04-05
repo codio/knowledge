@@ -1,5 +1,5 @@
 .. meta::
-   :description: View Gigabox Usage
+   :description: View the status of your current Gigabox usage for all users.
    
 .. _gigabox-usage:
 
@@ -26,4 +26,4 @@ To view the status of your current Gigabox usage for all users, follow these ste
    .. image:: /img/manage_organization/orgsettingstab.png
       :alt: Organization Settings
 
-4. In the **Giga Boxes Information** section, view the your organization's usage data.
+4. In the **Giga Boxes Information** section, view your organization's usage data.

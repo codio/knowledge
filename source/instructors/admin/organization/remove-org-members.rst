@@ -1,5 +1,5 @@
 .. meta::
-   :description: Remove Organization Members
+   :description: Remove organization members, for example students, and use the account licences for other students.
 
 .. _remove-org-members:
 

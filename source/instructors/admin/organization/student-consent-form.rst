@@ -1,5 +1,5 @@
 .. meta::
-   :description: Configure Student IP Consent Form
+   :description: You can create an Intellectual Property (IP) consent form and display this form to your Codio users.
 
 .. _student-consent:
 
@@ -27,7 +27,7 @@ Follow these steps to configure an IP Consent form:
    .. image:: /img/consent.png
       :alt: IP Consent
 
-4. Optionally, click Preview**** to view the rendered output.
+4. Optionally, click **Preview** to view the rendered output.
 
 5. You can press the **Save Draft** button to save your changes and continue editing later.
 
@@ -38,7 +38,7 @@ Enable IP Consent form
 Follow these steps to enable the IP Consent form:
 
 1. Click the **Enable IP Consent** toggle in the **IP Consent Status** area.
-2. Click the Select Version drop-down list and choose the version of the form you want to display to your students. You can create multiple version of the form and choose any version at any time.
+2. Click the Select Version drop-down list and choose the version of the form you want to display to your students. You can create multiple versions of the form and choose any version at any time.
 3. Click **Update**.
 
 Exporting student consent data

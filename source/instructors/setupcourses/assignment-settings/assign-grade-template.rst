@@ -1,5 +1,5 @@
 .. meta::
-   :description: Assign Grading Template to an Assignment 
+   :description: Associate an organizational grading template with an assignment.
 
 .. _assign-grade-template:
 

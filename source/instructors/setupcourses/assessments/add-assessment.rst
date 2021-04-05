@@ -1,5 +1,5 @@
 .. meta::
-   :description: Add a New Assessment
+   :description: You can add a new Assessment using the Add Assessment drop-down menu.
    
 .. _add-assessment:
 
