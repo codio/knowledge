@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2021**
 
+- `[I] [ 6th]`: Improve publish assignment dialog
 - `[F] [ 2nd]`: Add support for teachers to allow students to :ref:`reset <student-reset>` assignments in the course
 - `[F] [ 1st]`: Added support for :ref:`Jeroo <jeroo>`
 
