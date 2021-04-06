@@ -1,5 +1,5 @@
 .. meta::
-   :description: Complete Assignments
+   :description: Marking an assignment as complete.
    
 .. _complete-assignment:
 

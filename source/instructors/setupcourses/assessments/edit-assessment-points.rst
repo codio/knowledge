@@ -1,5 +1,5 @@
 .. meta::
-   :description: Edit Assessment Points
+   :description: Edit an assessment by clicking on the settings icon and and clicking the assessment tab.
    
 .. _edit-assessment-points:
 

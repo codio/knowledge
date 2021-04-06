@@ -1,5 +1,6 @@
 .. meta::
-   :description: Enable or Disable Public/Private Settings
+   :description: The Public/Private Settings feature determines whether users can create public projects, stacks, starter packs, courses, and modules. By default, this setting is disabled where everything is created as private.
+
 
 .. _public-private:
 

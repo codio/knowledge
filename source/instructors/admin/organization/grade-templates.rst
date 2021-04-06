@@ -1,5 +1,5 @@
 .. meta::
-   :description: Create Grading Templates
+   :description: The grading rubric/template feature includes a two-dimensional grid that provides grading guidance for manually assessing a coding project.
 
 .. _grade-template:
 

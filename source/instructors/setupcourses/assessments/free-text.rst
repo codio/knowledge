@@ -1,18 +1,18 @@
 .. meta::
-   :description: Free Text
+   :description: Free text assessments allow students to answer questions in their own words.
    
 .. _free-text:
 
 Free Text
 =========
-Free text assessments allow students to answer questions in their own words. Because Free Text assessments allow for Latex formatting, this type of assessment is recommended for math assessments. Teachers are then able to review and manually grade their answers. Follow these steps to set up a free text assessment:
+Free text assessments allow students to answer questions in their own words. Because Free Text assessments allow for LaTeX formatting, this type of assessment is recommended for math assessments. Teachers are then able to review and manually grade their answers. Follow these steps to set up a free text assessment:
 
 1. On the **General** page, enter the following information:
 
    .. image:: /img/guides/assessment_free_general.png
       :alt: General
 
-  - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the how successful students are in understanding the assignment.
+  - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
 
     If you want to hide the name in the challenge text the student sees, toggle the **Show Name** setting to disable it.
    
@@ -83,7 +83,7 @@ To review and grade answers given by students in a free text assessment, follow 
      .. image:: /img/guides/partial.png
         :alt: Allow Partial Points Enabled
 
-4. In the **Comments** field, enter any information (in markdown + latex) about the grade, which can be viewed by the student when the grade is released, and then click **Submit **Comment**. 
+4. In the **Comments** field, enter any information (in markdown + LaTeX) about the grade, which can be viewed by the student when the grade is released, and then click **Submit **Comment**. 
 
 Navigate student assessments
 .............................

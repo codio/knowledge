@@ -1,5 +1,5 @@
 .. meta::
-   :description: Restore Files
+   :description: You can restore the original files in an assignment or restore a file that was mistakenly deleted.
    
 .. _restore-files:
 

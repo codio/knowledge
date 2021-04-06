@@ -1,5 +1,5 @@
 .. meta::
-   :description: Access Your Courses
+   :description: Access your courses from the Courses page and drill down to view the assignments associated with a course.
    
 .. _accessing-your-courses:
 
@@ -18,6 +18,10 @@ You access your courses from the **Courses** page and drill down to view the ass
 2. Select a course to view a list of modules/assignments associated with it, the due date (if set by your instructor), and your progress.
 
 3. Click the assignment to start working on it, review your assessments, grading comments and any code comments from your instructor/teacher.
+
+4. If you initially accessed Codio through an LMS system, you will use the same email address for your Codio login and you will need to create a Codio account password.
+
+   To create a new password, access Codio via your LMS and go to your Account page or use the Lost Password process. See :ref:`Manage Password <password>` for more information.
 
 **See Also**
 - :ref:`Navigate the Student Dashboard <navigate-student-dashboard>`

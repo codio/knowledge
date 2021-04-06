@@ -1,5 +1,5 @@
 .. meta::
-   :description: Assessments
+   :description: Assessments can be various automatically or manually graded questions.
    
 .. _assessments:
 

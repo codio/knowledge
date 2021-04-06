@@ -1,5 +1,5 @@
 .. meta::
-   :description: Delete an Assessment
+   :description: Delete an assessment from a page in your guide or completely from an assignment.
    
 .. _delete-assessment:
 

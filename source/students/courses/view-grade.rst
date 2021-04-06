@@ -1,5 +1,5 @@
 .. meta::
-   :description: View Grades/Feedback
+   :description: You can view your grade details from the **Feedback** page or the **Grade** field in the dashboard.
    
 .. _view-grade:
 

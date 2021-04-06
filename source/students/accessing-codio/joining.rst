@@ -1,5 +1,5 @@
 .. meta::
-   :description: Join a Course
+   :description: Join a course directly from your LMS platform (such as Canvas, Blackboard, Moodle, etc.), or use a URL or token provided by your instructor.
    
 .. _joining:
 
