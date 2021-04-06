@@ -238,6 +238,7 @@ Tools
    common/develop/ide/tools/ghapi
    common/develop/ide/tools/phonegap
    common/develop/ide/tools/ssh
+   common/develop/ide/tools/desktop-app
 
 
 Setting up your courses
@@ -263,6 +264,7 @@ Courses
    instructors/setupcourses/add-remove-students
    instructors/setupcourses/change-student-password
    instructors/setupcourses/add-remove-assignment
+   instructors/setupcourses/student-reset
    
 Course/Assignment Settings
 --------------------------

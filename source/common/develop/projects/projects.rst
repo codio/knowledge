@@ -23,16 +23,12 @@ Project concepts and features
 -----------------------------
 We strongly recommend that you familiarize yourself with the following project related concepts and features before you get started:
 
-- Boxes and the IDE [documentation](https://docs.codio.com) 
-
-  .. image:: /img/docmenu.png
-     :alt: Boxes
- 
+- :ref:`Boxes and the IDE <overview>`
 - :ref:`Stacks <stacks>`
-- [Starter Packs](/project/packs/)
-- [Authoring tutorial content with Codio Guides and Books](/courses/authoring)
-- [Creating Course Content](/courses/coursemanagement/#introduction)
-- [Courses](/courses/classes)
+- :ref:`Starter Packs <starter-packs>`
+- :ref:`Authoring tutorial content with Codio Guides <intro>`
+- :ref:`Creating Course Content <courses>`
+
 
 **See Also:**
 

@@ -1,6 +1,8 @@
 .. meta::
    :description: Codio Support
 
+.. _codio-support:
+
 Codio Support
 =============
 

@@ -31,7 +31,7 @@ In addition to Codio's global assessments library, you can create Organization a
     .. image:: /img/namelibrary.png
        :alt: name library
 
-Read more about assessment libraries [here](/courses/assessments-library/).
+Read more about assessment libraries :ref:`here <assess-library>`.
 
 Add Collaborators to an Assessments Library
 *******************************************
