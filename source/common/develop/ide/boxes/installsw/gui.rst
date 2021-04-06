@@ -10,9 +10,8 @@ If you are writing or using programs that have a GUI-based output, it is importa
 
 Sample project
 --------------
-If you created a Codio Trial account, the **Demo GUI Output** project is listed in **My Projects**. You can find instructions in the README.md file when you open the project.
 
-**Note:** If the **Demo GUI Output** project is not listed, `click here <https://codio.com/home/starter-packs/d9c00215-ec2a-46e7-b64e-85fab45b0872/>` to install it in your projects list.
+Codio provides a Starter Pack project that contains examples of GUI Output. Go to **Starter Packs** and search for **Demo GUI Output** if not already loaded in your **My Projects** area. Click **Use Pack** to install it to your Codio account.
 
 Uses and limitations
 ^^^^^^^^^^^^^^^^^^^^

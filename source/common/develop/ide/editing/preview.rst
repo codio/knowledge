@@ -69,19 +69,19 @@ You can insert tokens to customize the menus:
 
 ``"Box URL": "https://{{domain3000}}/",``
 
-For details about the various tokens that can be inserted, see :ref:`Customize Run Button <customizable-run-menu>`.
+For details about the various tokens that can be inserted see :ref:`Customize Run Button <customizable-run-menu>`.
 
 **Note:** Static content is served over Port 80. To access dynamic content you may need to specify the appropriate Port.
 
-For complete information about Codio ``{{tokens}}``, see :ref:`Customize Run Button <customizable-run-menu>`.
 
 Unsecure content error
 ----------------------
 Codio runs over a secure connection using HTTPS, therefore so does the inline preview. If your code references an external resource such as a script, font, or image, a browser error may occur indicating that there is some form of unsecure or mixed content because you are running in a mixed HTTP/HTTPS mode. This may occur when you reference something similar to the following:
 
-```html
-<script src="http://code.angularjs.org/1.1.5/angular.js">
-```
+.. code:: html
+
+    <script src="http://code.angularjs.org/1.1.5/angular.js">
+
 
 The error is caused by a restriction of the browser and cannot be easily modified. It is intended to protect you from insecure content.
 
