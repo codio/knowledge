@@ -49,6 +49,12 @@ Complete each section to set up your standard code test.
        :alt: Pycodestyle
 
      To add individual Python source files whose style should be checked, either enter their relative path to `~/namespace` or drag them from the File Tree into the **Add Case** text box and click **Add Case**. You may add as many cases as needed. When the assessment executes, ``pycodestyle`` inspects each added file and outputs all styling issues that it found.
+     
+     **Using JUnit**
+
+When using JUnit you can add your own custom feedback to the standard feedback from Junit to return to the students. The feedback  message can be passed to the assert method as the first parameter. 
+
+    `assertEquals(feedback, expected, actual)`
 
      **Using UnitTest**
 
