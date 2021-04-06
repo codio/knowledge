@@ -1,6 +1,8 @@
 .. meta::
    :description: The Assessments Library is a collection of pre-built Codio assessments.
-   
+ 
+.. _assess-library:
+ 
 Assessments Library
 ===================
 An **assessment library** in Codio is a collection of existing assessment items that you can add to or pull from to include in your assignments. You can create your own :ref:`organization assessment library <org-library>` or use the :ref:`Codio Global Assessment Library <global-library>`.

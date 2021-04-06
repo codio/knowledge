@@ -238,6 +238,7 @@ Tools
    common/develop/ide/tools/ghapi
    common/develop/ide/tools/phonegap
    common/develop/ide/tools/ssh
+   common/develop/ide/tools/desktop-app
 
 
 Setting up your courses
