@@ -17,11 +17,13 @@ Setup and configuration
 
 .. raw:: html
 
-   <p><a href="https://codio.wistia.com/medias/awib5ehvj0?wvideo=awib5ehvj0"><img src="https://embed-fastly.wistia.com/deliveries/8c1973fe20aa40f892a7c617d2b2326c9b83583d.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+    <iframe width="620" height="349" src="https://codio.wistia.com/medias/awib5ehvj0?wvideo=awib5ehvj0" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="620" height="349"></iframe>
+
+
 
 .. raw:: html
 
-   <iframe src="https://player.vimeo.com/video/170350745" width="640" height="442" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+   <iframe src="https://player.vimeo.com/video/170350745" width="640" height="442" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
    
    
 Authentication and account creation

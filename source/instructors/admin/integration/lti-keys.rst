@@ -10,7 +10,7 @@ LTI Keys and URLs
 
 **Course and assignment URLs** will be copied and pasted into your LMS system, once for the LMS course/course and once for each LMS assignment.
 
-We have platform specific integration documentation for the following LMS platforms, although for most LMS systems you should be able to utilise the **:ref:`Codio LTI App <lti-app>`**
+We have platform specific integration documentation for the following LMS platforms, although for most LMS systems you should be able to utilise the :ref:`Codio LTI App <lti-app>`
 
 - :ref:`Canvas <canvas>`
 - :ref:`Blackboard <blackboard>`
@@ -19,7 +19,7 @@ We have platform specific integration documentation for the following LMS platfo
 LTI Keys
 --------
 
-LTI keys are accessible to `Codio Organization Owners <org-owners>` only.
+LTI keys are accessible to :ref:`Codio Organization Owners <org-owners>` only.
 
 To find these keys:
 

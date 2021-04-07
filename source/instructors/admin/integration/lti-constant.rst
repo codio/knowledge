@@ -14,7 +14,8 @@ Constant URL's allows the transfer of learning content without modifying LTI lin
 
 .. raw:: html
 
-   <p><a href="https://codio.wistia.com/medias/8asg6lncd3?wvideo=8asg6lncd3"><img src="https://embed-fastly.wistia.com/deliveries/4a815e24ca6a16dca3de2b254a7028dad9d088b2.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+    <iframe width="620" height="349" src="https://codio.wistia.com/medias/8asg6lncd3?wvideo=8asg6lncd3" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="620" height="349"></iframe>
+
 
 **Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance**
 

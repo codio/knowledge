@@ -12,7 +12,8 @@ Enabling this setting allows existing Codio course content used in your LMS to b
 
 .. raw:: html
 
-   <p><a href="https://codio.wistia.com/medias/x5lwfhay39?wvideo=x5lwfhay39"><img src="https://embed-fastly.wistia.com/deliveries/ae4739e0cbcd5135b92b4b62a4742c8dbab5a373.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+    <iframe width="620" height="349" src="https://codio.wistia.com/medias/x5lwfhay39?wvideo=x5lwfhay39" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="620" height="349"></iframe>
+
 
 
 Note: This video was created before a recent naming change from LTI Course Fork to LTI Course Copy

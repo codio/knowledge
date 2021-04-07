@@ -12,7 +12,7 @@ The **Codio LTI App** allows an easy way to integrate Codio with supported LMS s
 
 .. raw:: html
 
-   <p><a href="https://codio.wistia.com/medias/wem4eaq6zz?wvideo=wem4eaq6zz"><img src="https://embed-astly.wistia.com/deliveries/a95678224d8638648a7b207c48e82e045c6cb8c0.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+    <iframe width="620" height="349" src="https://codio.wistia.com/medias/wem4eaq6zz?wvideo=wem4eaq6zz" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="620" height="349"></iframe>
 
 
 **Please note the steps below are for implementation in Canvas.**

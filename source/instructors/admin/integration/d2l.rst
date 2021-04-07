@@ -11,7 +11,7 @@ In Codio:
 ---------
 
 - Create a Course.
-- Add a Module and an assignment to the course.
+- Add a Module and an assignment to the course and publish the assignment.
 - Select the Admin tab and click on the blue Edit Details button at the bottom.
 - Select the ENABLE LTI option.  
 
@@ -20,8 +20,6 @@ In Codio:
      
 
 - Click Save.
-- Click on the Assignments tab. 
-- Click Publish to the right of the assignment name. 
 - Click on your user name in the bottom left of your dashboard
 - Select your Organization 
 - Click on the LTI Integrations tab to bring up the following settings.

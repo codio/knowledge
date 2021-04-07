@@ -6,7 +6,7 @@
 Blackboard
 ==========
 
-Please be sure to check out the :ref:`Codio LTI App <lti-app>` which allows for an easy way to integrate and to map Codio course assignments to your LMS system. The`following page <http://library.blackboard.com/ref/df5b20ed-ce8d-4428-a595-a0091b23dda3/Content/_admin_app_system/admin_app_basic_lti_tool_providers.htm>`__ explains how to set up external apps in Blackboard Learn.
+Please be sure to check out the :ref:`Codio LTI App <lti-app>` which allows for an easy way to integrate and to map Codio course assignments to your LMS system. The `following page <http://library.blackboard.com/ref/df5b20ed-ce8d-4428-a595-a0091b23dda3/Content/_admin_app_system/admin_app_basic_lti_tool_providers.htm>`_ explains how to set up external apps in Blackboard Learn.
 
 Preparation
 -----------
@@ -68,8 +68,8 @@ The final mapping step needs to be taken for each individual assignment within C
 In Codio
 ~~~~~~~~
 
--  On the main course screen, make sure the **Assignments** tab is selected.
--  Click the **+** button and select **Add Project**.
+-  On the main course screen, make sure the **Edit** tab is selected.
+-  Click the **Add Assignment** button and select **Project Based**.
 -  Select a project that has some autograded assessments. The **My First Project** that you created earlier in the Onboarding Guide has some auto-graded assessments. You can also assign another project but you will need to manually grade the assignment so there are some scores to pass back to the Blackboard gradebook.
 -  Once the assignment has been added to the course, you should click the icon with 3 blue dots and select **LTI Integration URL**.
 -  You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).
