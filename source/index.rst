@@ -238,7 +238,7 @@ Tools
    common/develop/ide/tools/ghapi
    common/develop/ide/tools/phonegap
    common/develop/ide/tools/ssh
-   common/develop/ide/tools/desktop-app
+   common/develop/ide/tools/desktopapp
 
 
 Setting up your courses
@@ -438,7 +438,16 @@ Integrating with your LMS system (Canvas etc.)
 .. toctree::
    :maxdepth: 2
    
-   instructors/admin/integrate
+   instructors/admin/integration/intro
+   instructors/admin/integration/lti-keys
+   instructors/admin/integration/lti-app
+   instructors/admin/integration/lti-constant
+   instructors/admin/integration/lti-course-copy
+   instructors/admin/integration/grading
+   instructors/admin/integration/canvas
+   instructors/admin/integration/blackboard
+   instructors/admin/integration/moodle
+   instructors/admin/integration/lti1-3
    
 Inviting teachers and owners to your org
 ----------------------------------------
