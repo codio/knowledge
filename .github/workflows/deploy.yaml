@@ -27,8 +27,8 @@ jobs:
           git remote add deploy https://MaximKraev:$GITHUB_TOKEN@github.com/codio/knowledge-deploy
           touch .nojekyll
           git add .
-          git commit -am "Automated deploy"
+          git commit -m "Automated deploy"
           git push -f deploy master
         env:
           GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-        working-directory: build
+        working-directory: build/html
