@@ -20,6 +20,7 @@ jobs:
 
       - name: Commit to deploy repo
         run: |
+          mv html docs
           git config --global init.defaultBranch master
           git config --global user.name 'Max'
           git config --global user.email 'mkraev@codio.com'
@@ -31,4 +32,4 @@ jobs:
           git push -f deploy master
         env:
           GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-        working-directory: build/html
+        working-directory: build
