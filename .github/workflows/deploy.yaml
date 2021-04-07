@@ -1,0 +1,26 @@
+name: publish docs
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Setup env
+        run: pip install sphinx recommonmark pydata_sphinx_theme
+
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Build
+        run: make
+
+      - name: Upload artifactory
+        uses: actions/upload-artifact@master
+        with:
+          name: docs
+          path: docs
+          retention-days: 2
