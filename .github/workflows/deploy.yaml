@@ -18,29 +18,14 @@ jobs:
       - name: Build
         run: make html
 
-      - name: Upload artifactory
-        uses: actions/upload-artifact@master
-        with:
-          name: build
-          path: build
-          retention-days: 2
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-20.04
-    steps:
-      - uses: actions/download-artifact@master
-        with:
-          name: build
-
-      - name: Commit to report
+      - name: Commit to deploy repo
         run: |
           git init
           git config --global user.name 'Max'
           git config --global user.email 'mkraev@codio.com'
           git remote set-url origin https://MaximKraev@github.com/codio/knowledge-deploy
           git commit -am "Automated deploy"
-          git push -f
+          git push -f origin master
         env:
           GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
         working-directory: build
