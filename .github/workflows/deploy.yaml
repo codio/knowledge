@@ -24,7 +24,7 @@ jobs:
           git config --global user.name 'Max'
           git config --global user.email 'mkraev@codio.com'
           git init
-          git remote add deploy https://MaximKraev@github.com/codio/knowledge-deploy
+          git remote add deploy https://MaximKraev:$GITHUB_TOKEN@github.com/codio/knowledge-deploy
           touch .nojekyll
           git add .
           git commit -am "Automated deploy"
