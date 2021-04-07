@@ -447,6 +447,7 @@ Integrating with your LMS system (Canvas etc.)
    instructors/admin/integration/canvas
    instructors/admin/integration/blackboard
    instructors/admin/integration/moodle
+   instructors/admin/integration/d2l
    instructors/admin/integration/lti1-3
    
 Inviting teachers and owners to your org

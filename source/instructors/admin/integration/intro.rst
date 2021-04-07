@@ -24,4 +24,5 @@ For more see:
 - :ref:`Integrating with Canvas <canvas>`
 - :ref:`Integrating with Blackboard <blackboard>`
 - :ref:`Integrating with Moodle <moodle>`
+- :ref:`Integrating with D2L <d2l>`
 - :ref:`LTI 1.3 integration <lti1-3>`
