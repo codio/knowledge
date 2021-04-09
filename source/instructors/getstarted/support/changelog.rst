@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2021**
 
+- `[I] [ 8th]`: Fix problem with handling of variables in debugger
 - `[I] [ 6th]`: Fix issue allowing students to access assignments before start date where Visibility on Disabled = Read Only
 - `[I] [ 6th]`: Add support for custom feedback message handling in Junit advanced code test
 - `[I] [ 6th]`: Improve publish assignment dialog

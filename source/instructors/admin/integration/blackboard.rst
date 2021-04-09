@@ -145,12 +145,8 @@ Generating scores
 You should now generate some scores to pass back to Codio. You can do
 either of the following.
 
--  If your assigned Codio assignment has some autograded assessments
-   (simple MCQs will do fine) then access the Codio content as students
-   as answer the questions to generate a score
--  You can also manually grade the student assignment in Codio. You will
-   need to enter a percentage value here as the LMS/LTI interface
-   requires this.
+-  If your assigned Codio assignment has some autograded assessments (simple MCQs will do fine) then access the Codio content as students as answer the questions to generate a score
+-  You can also manually grade the student assignment in Codio. You will need to enter a percentage value here as the LMS/LTI interface requires this.
 
 Releasing grades
 ----------------
