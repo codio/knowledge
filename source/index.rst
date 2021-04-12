@@ -7,7 +7,7 @@ Welcome to CodioDocs's documentation!
    :caption: Theme Documentation
    :maxdepth: 2
 
-   instructors/getstarted/index
+   instructors/getstarted/getstarte
    instructors/authoring
    common
    instructors/setupcourses
