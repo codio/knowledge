@@ -8,11 +8,11 @@ Welcome to CodioDocs's documentation!
    :maxdepth: 2
 
    instructors/getstarted/index
-   instructors/authoring/index
+   instructors/authoring
    common
-   instructors/setupcourses/index
-   instructors/teaching/index
-   instructors/admin/index
+   instructors/setupcourses
+   instructors/teaching
+   instructors/admin
 
 
 Indices and tables

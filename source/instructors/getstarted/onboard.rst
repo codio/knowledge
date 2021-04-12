@@ -1,6 +1,8 @@
 .. meta::
    :description: Onboarding Guide
 
+.. _onboarding-guide:
+
 Onboarding Guide
 ================
 
