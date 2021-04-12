@@ -7,8 +7,11 @@
 D2L
 ===
 
+
 In Codio: 
----------
+
+Enable LTI for Your Course
+--------------------------
 
 1. Open the course you would like to connect or create a new course.
 2. Make sure you have at least one published assignment or add a new one. (see :ref:`Add and Remove Course Assignments <add-remove-assignment>`)
@@ -20,34 +23,53 @@ In Codio:
      
 
 5. Click **Save**.
-6. Click your user name in the bottom left of your dashboard
-7. Choose your Organization 
-8. Click the **LTI Integrations** tab to bring up the following settings.
+
+Bring up the LTI Integration Information
+----------------------------------------
+
+1. Click your user name in the bottom left of your dashboard
+2. Choose your Organization 
+3. Click the **LTI Integrations** tab to bring up the following settings.
 
   .. image:: /img/lti/LTIintegrationinfo.png
      :alt: Org LTI info
 
 In D2L:
--------
 
-1. Create an external link and name it Codio
-2. Type the information in (1) in URL field.
-3. Copy the **Consumer Key** information from Codio into (2).
-4. Copy the **Secret Key** information from Codio into (3).
+Create an External Learning Tools Link in D2L
+---------------------------------------------
+
+1. In **Manage External Learning Tools Links** create a **New Link** and name it Codio
+2. Paste ``https://apollo.codio.com/lti/link_endpoint`` in (1) the URL field.
+3. Copy the **LTI Consumer** information from Codio into (2).
+4. Copy the **LTI Secret** information from Codio into (3).
 
   .. image:: /img/lti/D2Lscreenone.png
      :alt: D2L view
 
 5. Fill in the Security fields as depicted in (4) below.
 
-  .. image:: /img/lti/DL2Screen2.png
+  .. image:: /img/lti/D2LScreen2.png
      :alt: D2L view 2
      
-6. Click **Save**. You will use this tool to access your Codio assignments when you set them up in D2L.
+6. Click **Save**.
+
+Connect your D2L Modules to your Codio Assignments
+--------------------------------------------------
+1. Create a module in your D2L course.
+2. Select **Existing Activities** (1) -> **External Learning Tools** (2)
+
+  .. image:: /img/lti/D2Lconnectassignment.png
+     :alt: D2L view 3
+
+3. From the list of available LTI links, select the Codio tool you created earlier.
+4. Click on the module name to bring up all the Codio courses for which you have enabled LTI.
+5. Select the Codio assignment you want to connect.
+6. When you open the link again you will see the Teacher view of the course with the connected assignment selected. Students will see the assignment opened in student mode.
 
 
 Single sign-in and account creation
------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Codio maps D2L users to Codio users by using the D2L email address to identify the user and create the Codio account. In all subsequent access, the D2L userID will be used. In the event the user changes their email address in D2L, the user will be mapped to the same Codio account.
 
@@ -56,7 +78,7 @@ Codio maps D2L users to Codio users by using the D2L email address to identify t
 
 
 Teacher Roles
--------------
+~~~~~~~~~~~~~
 
 Based on the LMS role, if teachers join Codio via the LMS, the following will apply:
 
