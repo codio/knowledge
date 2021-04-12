@@ -7,12 +7,12 @@ Welcome to CodioDocs's documentation!
    :caption: Theme Documentation
    :maxdepth: 2
 
-   instructors/getstarted
-   instructors/authoring
+   instructors/getstarted/index
+   instructors/authoring/index
    common
-   instructors/setupcourses
-   instructors/teaching
-   instructors/admin
+   instructors/setupcourses/index
+   instructors/teaching/index
+   instructors/admin/index
 
 
 Indices and tables
