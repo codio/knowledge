@@ -99,9 +99,9 @@ Auto-graded assessments library
 .. toctree::
    :maxdepth: 2
    
-   instructors/resources/assessmentslibrary
-   instructors/resources/add-questions-from-library
-   instructors/resources/add-questions-to-library
+   instructors/setupcourses/resources/assessmentslibrary
+   instructors/setupcourses/resources/add-questions-from-library
+   instructors/setupcourses/resources/add-questions-to-library
    instructors/authoring/autograding
    
 Developing Code
@@ -266,6 +266,8 @@ Courses
    instructors/setupcourses/add-remove-assignment
    instructors/setupcourses/student-reset
    
+   
+   
 Course/Assignment Settings
 --------------------------
 
@@ -310,12 +312,15 @@ Codio instructional resources
 .. toctree::
    :maxdepth: 2
    
-   instructors/resources/codioresources
-   instructors/resources/editingresources
-   instructors/resources/global-library
-   instructors/resources/search-library
-   instructors/resources/unlink-assessment
-   instructors/resources/update-assess-from-library
+   instructors/setupcourses/resources/codioresources
+   instructors/setupcourses/resources/editingresources
+   instructors/setupcourses/resources/assessmentslibrary
+   instructors/setupcourses/resources/global-library
+   instructors/setupcourses/resources/search-library
+   instructors/setupcourses/resources/add-questions-from-library
+   instructors/setupcourses/resources/add-questions-to-library
+   instructors/setupcourses/resources/unlink-assessment
+   instructors/setupcourses/resources/update-assess-from-library
    
 Codio resource tools
 --------------------
@@ -323,12 +328,12 @@ Codio resource tools
 .. toctree::
    :maxdepth: 2
    
-   instructors/resources/resourcetools/crunch
-   instructors/resources/resourcetools/flode
-   instructors/resources/resourcetools/lexikon
-   instructors/resources/resourcetools/tkinter
-   instructors/resources/resourcetools/scratch
-   instructors/resources/resourcetools/jeroo
+   instructors/setupcourses/resources/resourcetools/crunch
+   instructors/setupcourses/resources/resourcetools/flode
+   instructors/setupcourses/resources/resourcetools/lexikon
+   instructors/setupcourses/resources/resourcetools/tkinter
+   instructors/setupcourses/resources/resourcetools/scratch
+   instructors/setupcourses/resources/resourcetools/jeroo
 
 
 Connecting to your LMS (Canvas, Blackboard, Moodle, etc)
