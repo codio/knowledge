@@ -1,8 +1,8 @@
 .. meta::
-   :description: Getting Started
+   :description: Getting started with Codio including videos and tutorials
    
-Getting Started
-===============
+Overview
+========
 
 In this section:
 
