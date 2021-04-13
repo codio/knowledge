@@ -1,6 +1,8 @@
 .. meta::
    :description: Resetting student passwords
 
+.. _reset-pass:
+
 Resetting student passwords
 ===========================
 

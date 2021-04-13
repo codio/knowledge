@@ -1,6 +1,7 @@
 .. meta::
    :description: Debugger
 
+.. _debugger:
 
 Debugger
 ========

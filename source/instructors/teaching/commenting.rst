@@ -1,6 +1,7 @@
 .. meta::
    :description: Code Commenting
    
+.. _code-comment:
 
 Code Commenting
 ===============

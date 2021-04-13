@@ -90,7 +90,17 @@ html_theme = 'pydata_sphinx_theme'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+  "show_prev_next": True,
+#   "external_links": [
+#       {"name": "Overview", "url": "/instructors/getstarted"},
+#       {"name": "Authoring", "url": "/instructors/authoring"},
+#       {"name": "IDE", "url": "/common"},
+#       {"name": "Course Set Up", "url": "/instructors/setupcourses"},
+#       {"name": "Teaching", "url": "/instructors/teaching"},
+#       {"name": "Admin", "url": "/instructors/admin"}
+#   ]
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -195,4 +205,10 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
 
-#html_additional_pages = {'index': 'index.html'}
+html_additional_pages = {
+    'index': 'index.html',
+    'student': 'student.html'
+    }
+html_css_files = [
+    'css/codio.css',
+]

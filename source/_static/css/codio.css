@@ -1,0 +1,7 @@
+.codio-tile {
+  width: 376px;
+  height: 336px;
+  float: left;
+  border: 1px solid #F00;
+  display: block;
+}

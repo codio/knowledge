@@ -1,6 +1,8 @@
 .. meta::
    :description: Legal stuff
-   
+ 
+.. _legal:
+
 Legal stuff
 ===========
 
