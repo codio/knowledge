@@ -13,3 +13,5 @@ In this section:
 :ref:`How to Videos <how to videos>`
 
 :ref:`Codio Support <codio-support>`
+
+    :ref:`Changelog <changelog>`

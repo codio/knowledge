@@ -1,6 +1,8 @@
 .. meta::
    :description: IDE Workspace
 
+.. _workspace:
+
 IDE Workspace
 =============
 

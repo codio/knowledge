@@ -1,6 +1,8 @@
 .. meta::
    :description: Changelog
 
+.. _changelog:
+
 Changelog
 =========
 

@@ -12,4 +12,4 @@ In this section:
 
 :ref:`Auto-graded assessments <assessments>`
 
-:ref:`Assessments library <global-library>`
+    :ref:`Assessments library <global-library>`
