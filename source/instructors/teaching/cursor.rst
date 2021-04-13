@@ -1,6 +1,8 @@
 .. meta::
    :description: Cursor Presence
 
+.. _cursor-presence:
+
 Cursor Presence
 ===============
 

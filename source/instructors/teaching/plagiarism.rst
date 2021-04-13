@@ -1,7 +1,8 @@
 .. meta::
    :description: Plagiarism Checker
    
-   
+.. _plagiarism:
+
 Plagiarism Checker
 ==================
 

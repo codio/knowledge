@@ -1,6 +1,8 @@
 .. meta::
    :description: Removing Students
 
+.. _remove-students:
+
 Removing Students
 =================
 

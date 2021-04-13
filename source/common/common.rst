@@ -6,7 +6,10 @@ Content Authoring
 
 In this section:
 
-:ref:`Projects <
-:ref:`Stacks <
-:ref:`The IDE <
-:ref:`Debugger <
+:ref:`Projects <projects>`
+
+:ref:`Stacks <stacks>`
+
+:ref:`The IDE <overview>`
+
+:ref:`Debugger <debugger>`

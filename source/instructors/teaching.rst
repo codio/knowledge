@@ -6,13 +6,20 @@ Teaching in Codio
 
 In this section:
 
-:ref:`Inviting students to your course <
-:ref:`Viewing student work <
-:ref:`Grading <
-:ref:`Learning Insights/Data downloading
-:ref:`Code Playback <
-:ref:`Code Commenting <
-:ref:`Cursor Presence <
-:ref:`Resetting students passwords
-:ref:`Removing students 
-:ref:`Plagiarism
+:ref:`Viewing student work <viewing-student-work>`
+
+:ref:`Grading <grading>`
+
+:ref:`Learning Insights/Data downloading <learning-insights>`
+
+:ref:`Code Playback <code-playback>`
+
+:ref:`Code Commenting <code-comment>`
+
+:ref:`Cursor Presence <cursor-presence>`
+
+:ref:`Resetting students passwords <reset-pass>`
+
+:ref:`Removing students <remove-students>`
+
+:ref:`Plagiarism <plagiarism>`

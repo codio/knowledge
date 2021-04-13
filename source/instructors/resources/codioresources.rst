@@ -1,6 +1,8 @@
 .. meta::
    :description: Codio instructional resources
 
+.. _codio-resources:
+
 Codio instructional resources
 =============================
 
