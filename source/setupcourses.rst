@@ -6,18 +6,18 @@ Course Configuration
 
 In this section:
 
-:ref:`Courses <courses>`
+- :ref:`Courses <courses>`
 
-:ref:`Codio instructional resources <codio-resources>`
+- :ref:`Codio instructional resources <codio-resources>`
 
-:ref:`Connecting to your LMS (Canvas, Blackboard, Moodle etc) <integrate-lms>`
+- :ref:`Connecting to your LMS (Canvas, Blackboard, Moodle etc) <integrate-lms>`
 
-:ref:`Adding students <add-remove-students>`
+- :ref:`Adding students <add-remove-students>`
 
-:ref:`Adding TAs/GAs <add-ta>`
+- :ref:`Adding TAs/GAs <add-ta>`
 
-:ref:`Adding co-teachers <add-teachers>`
+- :ref:`Adding co-teachers <add-teachers>`
 
-:ref:`Sharing course content with other instructors <share-course>`
+- :ref:`Sharing course content with other instructors <share-course>`
 
-:ref:`Due Dates <due-dates>`
+- :ref:`Due Dates <due-dates>`

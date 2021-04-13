@@ -6,10 +6,10 @@ Content Authoring
 
 In this section:
 
-:ref:`Creating instructional content <intro>`
+- :ref:`Creating instructional content <intro>`
 
-:ref:`Editing existing materials <modify-assignments>`
+- :ref:`Editing existing materials <modify-assignments>`
 
-:ref:`Auto-graded assessments <assessments>`
+- :ref:`Auto-graded assessments <assessments>`
 
-    :ref:`Assessments library <global-library>`
+    - :ref:`Assessments library <global-library>`

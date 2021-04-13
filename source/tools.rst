@@ -6,14 +6,14 @@ Tools
 
 In this section:
 
-:ref:`Dyslexia support <dyslexia>`
+- :ref:`Dyslexia support <dyslexia>`
 
-:ref:`Lexikon <lexikon>`
+- :ref:`Lexikon <lexikon>`
 
-:ref:`Code Playback <student-code-playback>`
+- :ref:`Code Playback <student-code-playback>`
 
-:ref:`Code commenting <code-commenting>`
+- :ref:`Code commenting <code-commenting>`
 
-:ref:`Desktop App <desktop-app>`
+- :ref:`Desktop App <desktop-app>`
 
 

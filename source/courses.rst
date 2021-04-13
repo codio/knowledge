@@ -7,17 +7,17 @@ Your Courses
 In this section:
 
 
-:ref:`Navigate the dashboard <navigate-student-dashboard>`
+- :ref:`Navigate the dashboard <navigate-student-dashboard>`
 
-:ref:`Accessing your Course <accessing-your-courses>`
+- :ref:`Accessing your Course <accessing-your-courses>`
 
-:ref:`Starting a Course <start-assigment>`
+- :ref:`Starting a Course <start-assigment>`
 
-:ref:`Completing Assignments <complete-assignment>`
+- :ref:`Completing Assignments <complete-assignment>`
 
-    :ref:`Exam mode <exam-mode>`
+    - :ref:`Exam mode <exam-mode>`
     
-    :ref:`Viewing Grades <view-grade>`
+    - :ref:`Viewing Grades <view-grade>`
 
 
 

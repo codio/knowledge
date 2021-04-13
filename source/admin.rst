@@ -6,31 +6,31 @@ Admin
 
 In this section:
 
-:ref:`Integrating with LMS <integrate-lms>`
+- :ref:`Integrating with LMS <integrate-lms>`
 
-:ref:`Inviting teachers and owners to your organisation <org-owners>`
+- :ref:`Inviting teachers and owners to your organisation <org-owners>`
 
-:ref:`Organisation settings <organizations>`
+- :ref:`Organisation settings <organizations>`
 
-:ref:`Organisation Billing <org-billing>`
+- :ref:`Organisation Billing <org-billing>`
 
-:ref:`Integrating with LMS <integrate-lms>`
+- :ref:`Integrating with LMS <integrate-lms>`
 
-:ref:`Legal stuff <legal>`
+- :ref:`Legal stuff <legal>`
 
-    :ref:`Accessibility <accessibility>`
+    - :ref:`Accessibility <accessibility>`
         
-        :ref:`Link to VPAT <vpat>`
+        - :ref:`Link to VPAT <vpat>`
     
-    :ref:`GDPR <gdpr>`
+    - :ref:`GDPR <gdpr>`
     
-    :ref:`FERPA <ferpa>`
+    - :ref:`FERPA <ferpa>`
     
-    :ref:`COPPA <coppa>`
+    - :ref:`COPPA <coppa>`
     
-    :ref:`General Security Stuff <gss>`
+    - :ref:`General Security Stuff <gss>`
     
-        :ref:`Link to Security Statement <sec-stat>`
+        - :ref:`Link to Security Statement <sec-stat>`
 
 
 
