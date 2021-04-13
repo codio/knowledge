@@ -6,12 +6,7 @@ Developing Code
 
 In this section:
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-:ref:`Projects <projects>`
-=======
-=======
->>>>>>> 13apr
+
 - :ref:`Projects <projects>`
 
     - :ref:`Permissions <project-permissions>`
