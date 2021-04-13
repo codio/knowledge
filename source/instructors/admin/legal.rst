@@ -12,6 +12,7 @@ Accessibility
 *************
 
 .. _vpat:
+
     - Link to VPAT
 
 .. _gdpr:

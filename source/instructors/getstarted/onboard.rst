@@ -6,4 +6,4 @@
 Onboarding Guide
 ================
 
-:ref:`How to Videos <How to Videos>`
+:ref:`How to Videos <how-to-videos>`

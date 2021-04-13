@@ -56,7 +56,7 @@ In this section:
     
     :ref:`Keyboard Shortcuts (available from the help menu) <command-bar>`
     
-    :ref:`Configuring keyboard shortcuts <<user-prefs>`
+    :ref:`Configuring keyboard shortcuts <user-prefs>`
     
     :ref:`Creating custom menus <customizable-run-menu>`
     

@@ -10,7 +10,7 @@ In this section:
 
 :ref:`Lexikon <lexikon>`
 
-:ref:`Code Playback <code-playback>`
+:ref:`Code Playback <student-code-playback>`
 
 :ref:`Code commenting <code-commenting>`
 

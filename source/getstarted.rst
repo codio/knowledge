@@ -10,7 +10,7 @@ In this section:
 
 :ref:`Onboarding Guide <onboarding-guide>`
 
-:ref:`How to Videos <how to videos>`
+:ref:`How to Videos <how-to-videos>`
 
 :ref:`Codio Support <codio-support>`
 
