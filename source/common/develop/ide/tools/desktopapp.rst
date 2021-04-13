@@ -1,6 +1,8 @@
 .. meta::
    :description: An overview of the Codio desktop app
 
+.. _desktop-app:
+
 Desktop App
 ===========
 

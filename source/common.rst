@@ -1,14 +1,17 @@
 .. meta::
    :description: The Codio development environment
    
-Content Authoring
-=================
+Developing Code
+===============
 
 In this section:
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 :ref:`Projects <projects>`
 =======
+=======
+>>>>>>> 13apr
 - :ref:`Projects <projects>`
 
     - :ref:`Permissions <project-permissions>`
@@ -57,6 +60,7 @@ In this section:
     
         - :ref:`Code Editing tools <code-editing>`
     
+<<<<<<< HEAD
 - :ref:`Keyboard Shortcuts (available from the help menu) <command-bar>`
     
 - :ref:`Configuring keyboard shortcuts <user-prefs>`
@@ -68,14 +72,27 @@ In this section:
 - :ref:`General IDE preferences <user-prefs>`
     
 - :ref:`Debugger <debugger>`
+=======
+    - :ref:`Keyboard Shortcuts (available from the help menu) <command-bar>`
+    
+    - :ref:`Configuring keyboard shortcuts <user-prefs>`
+    
+    - :ref:`Creating custom menus <customizable-run-menu>`
+    
+    - :ref:`Custom code panels and layouts <panels>`
+    
+    - :ref:`General IDE preferences <user-prefs>`
+    
+    - :ref:`Debugger <debugger>`
+>>>>>>> 13apr
     
 
 
 
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 13apr
 
-:ref:`Stacks <stacks>`
 
-:ref:`The IDE <overview>`
 
-:ref:`Debugger <debugger>`
