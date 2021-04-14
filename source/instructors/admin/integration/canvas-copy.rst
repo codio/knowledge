@@ -6,34 +6,22 @@
 
 Canvas 
 ======
+ Please be sure to check out the :ref:`Codio LTI App <lti-app>` which allows for an easy way to integrate and to map Codio course assignments to your Canvas system but if that can't be used you can manually integrate following these steps
 
-Please be sure to check out the :ref:`Codio LTI App <lti-app>` which allows for an easy way to integrate and to map Codio course assignments to your Canvas system but if that can't be used you can manually integrate following these steps
+Preparation
+-----------
 
-In Codio: 
+The following steps need to be taken only one time per course.
 
-Enable LTI for Your Course
---------------------------
+In Codio
+~~~~~~~~
 
-1. Open the course you would like to connect or create a new course.
-2. Make sure you have at least one published assignment or add a new one. (see :ref:`Add and Remove Course Assignments <add-remove-assignment>`)
-3. Select the **Admin** tab and click on the blue **Edit Details** button at the bottom.
-4. Select the **ENABLE LTI** option.  
+-  Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **My Organizations**.
+-  Select the **LTI Integrations** tab.
+-  Scroll down to the **LTI Integration 1.0** section. You should see the following fields. Remain on this screen for the time being.
 
-  .. image:: /img/lti/enable-lti.png
-     :alt: enable lti
-     
-
-5. Click **Save**.
-
-Bring up the LTI Integration Information
-----------------------------------------
-
-1. Click your user name in the bottom left of your dashboard
-2. Choose your Organization 
-3. Click the **LTI Integrations** tab to bring up the following settings.
-
-  .. image:: /img/lti/LTIintegrationinfo.png
-     :alt: Org LTI info
+.. figure:: /img/lti/lti-org-fields.png
+   :alt: LTI Fields
 
 In Canvas, adding Codio as an App
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
