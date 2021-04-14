@@ -14,23 +14,23 @@ In Codio:
 Enable LTI for Your Course
 --------------------------
 
-1. Open the course you would like to connect or create a new course.
-2. Make sure you have at least one published assignment or add a new one. (see :ref:`Add and Remove Course Assignments <add-remove-assignment>`)
-3. Select the **Admin** tab and click on the blue **Edit Details** button at the bottom.
-4. Select the **ENABLE LTI** option.  
+- Open the course you would like to connect or create a new course.
+- Make sure you have at least one published assignment or add a new one. (see :ref:`Add and Remove Course Assignments <add-remove-assignment>`)
+- Select the **Admin** tab and click on the blue **Edit Details** button at the bottom.
+- Select the **ENABLE LTI** option.  
 
   .. image:: /img/lti/enable-lti.png
      :alt: enable lti
      
 
-5. Click **Save**.
+- Click **Save**.
 
 Bring up the LTI Integration Information
 ----------------------------------------
 
-1. Click your user name in the bottom left of your dashboard
-2. Choose your Organization 
-3. Click the **LTI Integrations** tab to bring up the following settings.
+- Click your user name in the bottom left of your dashboard
+- Choose your Organization 
+- Click the **LTI Integrations** tab to bring up the following settings.
 
   .. image:: /img/lti/LTIintegrationinfo.png
      :alt: Org LTI info
@@ -94,10 +94,9 @@ Codio course setup
 
 You need to perform the following actions one time only for a course. The Canvas user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.
 
--  In Codio, create a new course and name it **Canvas Demo**.
--  Click on the **Admin** tab near the top.
+-  In Codio, go to your course and click on the **Admin** tab near the top.
 -  Select **Edit Details** in the bottom of the page.
--  Near the bottom is a switch **Enable LTI** which you should enable.
+-  Near the bottom is a switch **Enable LTI** which you should check is enabled.
 -  Below this is an empty field **Course LMS URL**. Switch back to Canvas and make sure you are on the Home page of the course. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio. The url format should end with something like ``/courses/1121212`` although the number will be   different.
 
 This URL ensures that Codio knows how to redirect students back to the correct Canvas course should they attempt to access the course through their dashboard.
@@ -139,71 +138,8 @@ We now return to Canvas complete the mapping.
 -  Click the **Save and Publish** button.
 -  Make sure the Canvas course is published.
 
-Adding faculty and students
----------------------------
-
-The final step is to add students to your course. This is done from the People tab. We recommend that you add the same test students to Canvas that you have in Codio. The only field of data that needs to match is the email address. So, look up the Codio test student email addresses and add them to Canvas in the student role.
-
-When you add a student in Canvas you will need to confirm from the email you are sent.
-
-**Important** : make sure you log out of your teacher based Canvas session before doing this.
-
-Next, you should login to Canvas as a test student and start the assignment. Please read on to see what happens next, which is dependent.
-
-**Important** : when you access Codio from Canvas, this user will become the dominant Codio user in the browser. This means that if you have a Codio session open (say you are logged in as faculty) and you start an assignment from Canvas as a student, the old Codio session will be invalidated. To get around this, you should think about running your teacher account in a separate browser type or in an incognito window. Just be aware of this when testing.
-
-Single sign-in and account creation
+Authentication and account creation
 -----------------------------------
 
-It is important to understand how Codio maps Canvas users to Codio users. The following rules should be understood. If students or faculty access Codio via a Canvas assignment then Codio will initially use the Canvas email address to identify the user and create the Codio account. In all subsequent access, the Canvas userID will be used so in the event the user changes their email address in Canvas, the user will be mapped to the same Codio account.
+To add students/teachers see :ref:`Users account creation <lms-users>`
 
--  If the user is not known to Codio then we will sign up the user as a new Codio user in the background and take the user directly into the Codio content. The Canvas user role will be carried over as well.
--  If the user is known to Codio then Codio will take them directly into the Codio content without any sign-in required. If they are a Codio user but are not a member of your organization then they will be required to complete a verification via email.
-
-
-Teacher Roles
-~~~~~~~~~~~~~
-
-Based on the LMS role, if teachers join Codio via the LMS, the following will apply:
-
-+----------------------+-----------------------------------------------------------------------------------------------------+
-| LMS Role             | Will be added to Codio with these rights                                                            |
-+======================+=====================================================================================================+
-| Teaching Assistant   | TEACHER                                                                                             |
-+----------------------+-----------------------------------------------------------------------------------------------------+
-| Content Developer    | TEACHER                                                                                             |
-+----------------------+-----------------------------------------------------------------------------------------------------+
-| Mentor               | TEACHER (with :ref:`read only <add-teachers>` access to the course}                                 |
-+----------------------+-----------------------------------------------------------------------------------------------------+
-
-Generating scores
------------------
-
-You should now generate some scores to pass back to Codio. You can do either of the following.
-
--  If your assigned Codio assignment has some autograded assessments(simple MCQs will do fine) then access the Codio content as students as answer the questions to generate a score
--  You can also manually grade the student assignment in Codio. You will need to enter a percentage value here as the LMS/LTI interface requires this.
-
-Releasing grades
-----------------
-
-By default, grades in Codio are neither passed back to the student nor to Canvas until they are
-
--  Marked as complete by either the student or the teacher and
--  the **Release Grades** switch is enabled (or if you have set the course to automatically release grades when completed)
-
-Once **Release Grades** is enabled, all completed student assignments are automatically sent through.
-
-.. figure:: /img/lti/release-complete.png
-   :alt: Release Grades
-
-There are various ways to mark a student's work as complete
-
--  The student can do this from either the Course dashboard or from the **Education->Mark as Complete** menu in the assignment itself.
--  The teacher can do the same in the assignment when :ref:`viewing students code <viewing-student-work>`
--  The teacher can do the same from the assignment in the Course dashboard by hovering in the left side of a student entry and then setting the completed switch.
--  The teacher can mark all student assignments as completed in one action. This is done by
-
-   -  selecting the assignment in the Course
-   -  pressing the **Action** button
-   -  pressing the **Mark all as Completed** button
