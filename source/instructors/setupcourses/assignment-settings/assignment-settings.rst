@@ -25,6 +25,7 @@ Click the **Settings** icon in the assignment or the **Settings** tab to perform
 - :ref:`Disable Assignment <disable-assignment>`
 - :ref:`Visibility on Completed <visibility-completed>`
 - :ref:`Visibility on Disabled <visibility-disabled>`
+- :ref:`Reset Assignment by Student <student-reset>`
 - :ref:`Disable Mark as Completed <disable-mark-completed>`
 - :ref:`Assignment Duration <assignment-duration>`
 - :ref:`Penalties <penalties>`

@@ -2,7 +2,7 @@
    :description: Integrating with Canvas
 
 
-.. _canvas:
+.. _canvasold:
 
 Canvas 
 ======
