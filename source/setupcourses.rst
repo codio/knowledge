@@ -20,19 +20,8 @@ In this section:
 
 - :ref:`Sharing course content with other instructors <share-course>`
 
-- :ref:`Managing assignments <assignment-settings>`
+- :ref:`Managing assignments <pin-assignment>`
 
 
-Managing assignments 
-    - :ref:`Pin and Unpin Assignment <pin-assignment>`
-    - :ref:`Disable Assignment <disable-assignment>`
-    - :ref:`Visibility on Completed <visibility-completed>`
-    - :ref:`Visibility on Disabled <visibility-disabled>`
-    - :ref:`Reset Assignment by Student <student-reset>`
-    - :ref:`Disable Mark as Completed <disable-mark-completed>`
-    - :ref:`Assignment Duration <assignment-duration>`
-    - :ref:`Penalties <penalties>`
-    - :ref:`Exam Proctoring <exam-proctoring>`
-    - :ref:`Grade Weights <grade-weights>`
-    - :ref:`Assign Grading Template to an Assignment <assign-grade-template>`
+
 
