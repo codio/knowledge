@@ -31,4 +31,5 @@ Click the **Settings** icon in the assignment or the **Settings** tab to perform
 - :ref:`Penalties <penalties>`
 - :ref:`Exam Proctoring <exam-proctoring>`
 - :ref:`Grade Weights <grade-weights>`
+- :ref:`Assign Grading Template to an Assignment <assign-grade-template>`
 
