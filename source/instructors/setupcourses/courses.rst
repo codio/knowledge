@@ -18,8 +18,7 @@ View the Courses Overview:
 .. raw:: html
 
     <iframe width="620" height="349" src="https://codio.wistia.com/medias/qk7l9qi31y?wvideo=qk7l9qi31y" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="620" height="349"></iframe>
-  
-  
+
 
 
 Getting Started
@@ -33,4 +32,4 @@ Review the following topics to get started setting up your courses:
 - :ref:`Add Teachers to a Course <add-teachers>`
 - :ref:`Add or Remove Students in Course <add-remove-students>`
 - :ref:`Add and Remove Course Assignments <add-remove-assignment>`
-- Integrate Course with LMS Platform
+- :ref:`Integrate Course with LMS Platform <integrate-lms>`

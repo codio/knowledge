@@ -1,6 +1,8 @@
 .. meta::
    :description: Tkinter setup & usage
 
+.. _tkinter:
+
 Tkinter
 =======
 
