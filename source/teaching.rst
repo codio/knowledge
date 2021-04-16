@@ -23,3 +23,5 @@ In this section:
 - :ref:`Removing students <remove-students>`
 
 - :ref:`Plagiarism <plagiarism>`
+
+- :ref:`Data Downloading <data-download>`
