@@ -1,5 +1,5 @@
 .. meta::
-   :description: Legal stuff
+   :description: Codio Legal documents
  
 .. _legal:
 
@@ -11,30 +11,44 @@ Legal stuff
 Accessibility
 *************
 
+https://www.codio.com/legal-stuff#compliance
+
 .. _vpat:
 
-    - Link to VPAT
+
 
 .. _gdpr:
 
 GDPR
 ****
 
+https://www.codio.com/legal-stuff#gdpr
+
 .. _ferpa:
 
 FERPA
 *****
 
+ https://www.codio.com/legal-stuff#ferpa
+ 
 .. _coppa:
 
 COPPA
 *****
 
+
+
 .. _gss:
+
+Personal Identifiable Information
+*********************************
+.. _pii:
+
+https://www.codio.com/legal-stuff#pii
 
 General Security stuff
 **********************
 
 .. _sec-stat:
 
-    - Link to Security Statement
+https://www.codio.com/legal-stuff#terms-and-conditions
