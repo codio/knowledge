@@ -10,6 +10,18 @@ In this section:
 
 - :ref:`Codio instructional resources <codio-resources>`
 
+        - :ref:`Crunch <crunch>`
+
+        - :ref:`Flode <flode>`
+
+        - :ref:`Scratch <scratch>`
+
+        - :ref:`Jeroo <jeroo>`
+
+        - :ref:`Tkinter <tkinter>`
+
+        - :ref:`Lexikon <lexikon1>`
+
 - :ref:`Connecting to your LMS (Canvas, Blackboard, Moodle etc) <integrate-lms>`
 
 - :ref:`Adding students <add-remove-students>`
@@ -20,7 +32,9 @@ In this section:
 
 - :ref:`Sharing course content with other instructors <share-course>`
 
-- :ref:`Managing assignments <pin-assignment>`
+- :ref:`Managing assignments <assignment-settings>`
+
+
 
 
 

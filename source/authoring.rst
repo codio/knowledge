@@ -8,7 +8,7 @@ In this section:
 
 - :ref:`Creating instructional content <intro>`
 
-- :ref:`Editing existing materials <modify-assignments>`
+- :ref:`Editing existing materials <page-editing>`
 
 - :ref:`Auto-graded assessments <assessments>`
 
