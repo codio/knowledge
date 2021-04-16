@@ -10,7 +10,7 @@ In this section:
 
 - :ref:`Grading <grading>`
 
-- :ref:`Learning Insights/Data downloading <learning-insights>`
+- :ref:`Learning Insights <learning-insights>`
 
 - :ref:`Code Playback <code-playback>`
 
@@ -23,3 +23,5 @@ In this section:
 - :ref:`Removing students <remove-students>`
 
 - :ref:`Plagiarism <plagiarism>`
+
+- :ref:`Data Downloading <data-download>`
