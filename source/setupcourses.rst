@@ -10,17 +10,7 @@ In this section:
 
 - :ref:`Codio instructional resources <codio-resources>`
 
-        - :ref:`Crunch <crunch>`
-
-        - :ref:`Flode <flode>`
-
-        - :ref:`Scratch <scratch>`
-
-        - :ref:`Jeroo <jeroo>`
-
-        - :ref:`Tkinter <tkinter>`
-
-        - :ref:`Lexikon <lexikon1>`
+- :ref:`Additional resources <additional-resources>`
 
 - :ref:`Connecting to your LMS (Canvas, Blackboard, Moodle etc) <integrate-lms>`
 
