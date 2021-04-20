@@ -16,16 +16,19 @@ Follow these steps to set up an autograde free text assessment:
 
   - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
 
-    If you want to hide the name in the challenge text the student sees, toggle the **Show Name** setting to disable it.
+    Toggle the **Show Name** setting to hide the name in the challenge text the student sees.
    
-  - **Instruction** - Enter the instructions in markdown to be shown to the students.
+  - **Instruction** - Enter text that is shown to the student using optional Markdown formatting.
 
 3. Click **Execution** in the left navigation pane and complete the following fields:
 
    .. image:: /img/guides/assessment_autofree_exec.png
       :alt: Execution
 
-   - **Command** - Enter the command that executes the student code. If you store the assessment scripts in the **.guides/secure** folder, they run securely so students cannot see the script or the files in the folder. The files can be dragged and dropped from the File Tree into the field to automatically populate the necessary execution code:
+   **Note:** If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. 
+       The files can be dragged and dropped from the File Tree into the field to automatically populate the necessary execution and run code.
+
+   - **Command** - Enter the command that executes the student code.
 
    - **Timeout** - Enter the time period (in seconds) that the test runs before terminating.
 
@@ -34,11 +37,11 @@ Follow these steps to set up an autograde free text assessment:
    .. image:: /img/guides/assessment_free_grading.png
       :alt: Grading
 
-  - **Points** - Enter the score for correctly answering the question. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
+   - **Points** - The score given to the student if the code test passes. You can enter any positive numeric value. If this assessment should not be graded, enter 0 points.
 
    - **Allow Partial Points** - Toggle to enable a percentage of total points to be given based on the percentage of answers they correctly answer.
 
-   - **One Attempt Only** - Toggle to enable if you want to restrict the student to only answering the question once. If disabled, students can edit their answer until the assignment is marked as completed.
+   - **One Attempt Only** - Toggle to enable the assessment to run only once. The student will be warned that they cannot resubmit the assessment. 
 
   - **Preview Type** - Choose the input (plaintext or markdown) to be provided by the student. LaTex is also supported and is useful when students need to enter mathematical formulas in their answers. The following options are available:
 
@@ -46,9 +49,8 @@ Follow these steps to set up an autograde free text assessment:
     - **Plaintext + LaTeX** - Students enter plaintext with no markdown formatting but offers support for LaTeX commands. A preview window is available where students can see the rendered LaTeX output.
     - **Markdown + LaTeX** - Students enter markdown that also offers support for LaTex commands. A preview window is available where students can see the rendered markdown with LaTeX output.
 
-  - **Show Answer and Rationale to Students** - Toggle to enable if you want both the answer and the rationale for the answer to the student.
-
-  - **Answer and Rationale** - Enter guidance for the assessment. This is visible to the teacher when the project is opened in the course or when opening the student's project. This guidance information can also be shown to students after they have submitted their answer and when they reload the assignment after marking it as completed. 
+  - **Show Answer and Rationale to Students** - Toggle to display the answer, and the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. 
+  - **Answer and Rationale** - Enter guidance for the assessment. This is always visible to the teacher when the project is opened in the course or when opening the student's project. 
 
 5. Click **Metadata** in the left navigation pane and complete the following fields:
 
@@ -56,7 +58,7 @@ Follow these steps to set up an autograde free text assessment:
       :alt: Metadata
 
   - **Bloom's Level** - Click the drop-down and choose the level of Bloom's Taxonomy: https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/ for the current assessement.
-  - **Learning Objectives** specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then its Learning Objectives could be *SWBAT follow the flow of recursive execution*.
+  - **Learning Objectives** The objectives are the specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then the Learning Objectives could be *SWBAT follow the flow of recursive execution*.
   - **Tags** - By default, **Content** and **Programming Language** tags are provided and required. To add another tag, click **Add Tag** and enter the name and values.
 
 5. Click **Files** in the left navigation pane and check the check boxes for additional external files to be included with the assessment. The files are then included in the **Additional content** list.

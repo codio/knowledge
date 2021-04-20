@@ -11,7 +11,7 @@ Markdown
 ********
 The best way to author content is using markdown. It is extremely easy to write content that renders very nicely and without having to fiddle with HTML. You can embed HTML snippets into a markdown as well where you need full control.
 
-We have an example project that if not loaded to your **My Projects** area, you can find in **Starter Packs**. Search for **Demo Guides and Assessments**. You should select the **Use Pack** option to create the project into your account.
+We have an example project that if not loaded to your **My Projects** area, you can find in **Starter Packs**. Search for **Demo Guides and Assessments**. Click **Use Pack** and then **Create** to install it to your Codio account.
 
 Courses and Books
 *****************

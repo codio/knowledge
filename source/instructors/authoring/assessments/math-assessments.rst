@@ -1,5 +1,5 @@
 .. meta::
-   :description: Math Assessments
+   :description: Codio allows you to set and grade math questions for any type and level of mathematics using the **Free Text** assessment.
    
 .. _math-assessments:
 
