@@ -1,7 +1,83 @@
+body {
+  background-color: #02064e !important;
+}
+
+.navbar {
+  background-color: #02064e !important;
+}
+
+.codio-tiles {
+  display: flex;
+  flex-direction: column;
+}
+
+.codio-tiles-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .codio-tile {
   width: 376px;
   height: 336px;
-  float: left;
-  border: 1px solid #F00;
-  display: block;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.codio-tile-title {
+  color: #ffffff;
+  background-color: #019cab;
+  display: flex;
+  align-items: center;
+  border-radius: 20px 20px 0 0;
+  height: 25%;
+  padding: 0 20px;
+  font-size: 18pt;
+}
+
+.codio-tile-triangle-top {
+  height: 0;
+  border-top: 0px solid transparent;
+  border-right: 0 solid transparent;
+  border-left: 323px solid #019cab;
+  border-bottom: 15px solid transparent;
+}
+
+.codio-tile-triangle-bottom {
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 323px solid #ffffff;
+  border-left: 0 solid transparent;
+  border-bottom: 0px solid transparent;
+  margin-top: -15px;
+}
+
+.codio-tile-information {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  height: 50%;
+}
+
+.codio-tile-footer {
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 0 0 20px 20px;
+  align-items: center;
+  height: 15%;
+}
+
+.codio-tile-link {
+  margin-left: 20px;
+}
+
+.codio-title {
+  color: #ffffff;
+  font-size: 36pt;
+  font-weight: 600;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 30px;
 }

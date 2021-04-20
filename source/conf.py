@@ -91,7 +91,9 @@ html_theme = 'pydata_sphinx_theme'
 # documentation.
 #
 html_theme_options = {
-  "show_prev_next": True,
+    "show_prev_next": True,
+    "footer_items": ["copyright"],
+    "navbar_end": ["navbar-icon-links", "search-field"]
 #   "external_links": [
 #       {"name": "Overview", "url": "/instructors/getstarted"},
 #       {"name": "Authoring", "url": "/instructors/authoring"},
@@ -115,7 +117,10 @@ html_static_path = ['_static']
 # default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
 # 'searchbox.html']``.
 #
-# html_sidebars = {}
+html_sidebars = {
+    "index": [],
+    "student": []
+}
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
@@ -212,3 +217,5 @@ html_additional_pages = {
 html_css_files = [
     'css/codio.css',
 ]
+
+html_logo = "_static/logo-white.svg"

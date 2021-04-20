@@ -16,4 +16,19 @@ Use the **View > Panels** menu on the top tool bar to segment your screen.
 
 Simply drag the tab of the file or terminal (the part with the name) you want to move into the new panel.
 
+### Install
+
+```
+python3 -m pip install git+https://github.com/codio/pydata-sphinx-theme.git@12547_landing
+```
+
+```
+pip3 install sphinx recommonmark pydata_sphinx_theme
+```
+
+### Build
+
+```
+python3 -m sphinx source build
+```
 
