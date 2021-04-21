@@ -15,6 +15,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2021**
 
+- `[I] [21st]`: Add SQL query grading support to :ref:`Standard Code Test <standard-code-test>`
+- `[I] [20th]`: Add support to allow anonymous LTI connections so students name/email addresses not passed to Codio
 - `[I] [14th]`: Improve handling of student grading for teachers
 - `[F] [14th]`: Add support for teachers to allow students to :ref:`reset <student-reset>` assignments in the course
 - `[I] [12th]`: Improve playing of video files within projects
