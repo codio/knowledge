@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2021**
 
+- `[F] [21st]`: Added support for :ref:`Pencil Code <pencilcode>`
 - `[I] [21st]`: Improve :ref:`PDF export <export-pdf>` allowing all selected assignments to be compiled into separate or one PDF file
 - `[I] [21st]`: Add SQL query grading support to :ref:`Standard Code Test <standard-code-test>`
 - `[I] [20th]`: Add support to allow anonymous LTI connections so students name/email addresses not passed to Codio
