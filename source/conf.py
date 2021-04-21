@@ -93,7 +93,8 @@ html_theme = 'pydata_sphinx_theme'
 html_theme_options = {
     "show_prev_next": True,
     "footer_items": ["copyright"],
-    "navbar_end": ["navbar-icon-links", "search-field"]
+    "navbar_end": ["navbar-icon-links", "search-field"],
+    "navbar_align": "none",
 #   "external_links": [
 #       {"name": "Overview", "url": "/instructors/getstarted"},
 #       {"name": "Authoring", "url": "/instructors/authoring"},

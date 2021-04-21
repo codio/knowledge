@@ -6,6 +6,15 @@ body {
   background-color: #02064e !important;
 }
 
+.navbar .container-xl {
+  justify-content: center;
+}
+
+.navbar .navbar-collapse {
+  flex-grow: 0;
+}
+
+
 .codio-tiles {
   display: flex;
   flex-direction: column;
@@ -18,10 +27,26 @@ body {
 }
 
 .codio-tile {
-  width: 376px;
-  height: 336px;
+  width: 320px;
+  height: 320px;
   border-radius: 20px;
-  margin: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.codio-tile:hover {
+  box-shadow: 0 0 40px #0fa2af;
+  text-decoration: none;
+}
+
+.codio-tile:hover .codio-tile-information {
+   color: #0fa2af;
+}
+
+.codio-tile:hover .codio-tile-link {
+  color: #0fa2af;
 }
 
 .codio-tile-title {
@@ -30,23 +55,23 @@ body {
   display: flex;
   align-items: center;
   border-radius: 20px 20px 0 0;
-  height: 25%;
+  height: 30%;
   padding: 0 20px;
-  font-size: 18pt;
+  font-size: 1.7em;
 }
 
 .codio-tile-triangle-top {
   height: 0;
   border-top: 0px solid transparent;
   border-right: 0 solid transparent;
-  border-left: 323px solid #019cab;
+  border-left: 320px solid #019cab;
   border-bottom: 15px solid transparent;
 }
 
 .codio-tile-triangle-bottom {
   height: 0;
   border-top: 15px solid transparent;
-  border-right: 323px solid #ffffff;
+  border-right: 320px solid #ffffff;
   border-left: 0 solid transparent;
   border-bottom: 0px solid transparent;
   margin-top: -15px;
@@ -58,7 +83,9 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0 20px;
-  height: 50%;
+  font-size: 1.3em;
+  flex: 1 0 50%;
+  color: #1e1e1e;
 }
 
 .codio-tile-footer {
@@ -71,11 +98,23 @@ body {
 
 .codio-tile-link {
   margin-left: 20px;
+  color: #1e1e1e;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.codio-tile-link-angle {
+  margin-left: 10px;
+  color: #1e1e1e;
+}
+
+.codio-tile:hover .codio-tile-link-angle {
+  color: #019cab;
 }
 
 .codio-title {
   color: #ffffff;
-  font-size: 36pt;
+  font-size: 3.5em;
   font-weight: 600;
   justify-content: center;
   display: flex;
