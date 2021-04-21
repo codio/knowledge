@@ -1,5 +1,5 @@
 .. meta::
-   :description: Using Auto-Grade Scripts
+   :description: Using Auto-Grade Scripts to evaluate student work.
    
 .. _auto-grade-scripts:
 
@@ -12,8 +12,8 @@ You can use auto-grade scripts that evaluate the student code, and these scripts
 If you are using an LMS platform with Codio, be sure to enter a percentage value in the **Grade Weight** field to maintain compatibility with LMS gradebooks. This value is then transferred into your LMS gradebook once you :ref:`release the grades <release-grades>`.
 
 Secure scripts
---------------
-If you want your scripts to run securely, where students cannot view the script or other files that contain secure data, move the script files to the **.guides/secure** folder. Only the original project author can access this folder. 
+-------------- 
+If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. Only instructors can access this folder.
 
 Access authored content assessment results
 ------------------------------------------
@@ -63,7 +63,7 @@ You can regrade all student's assignments that have already been auto-graded fro
 Test and debug your grading scripts
 -----------------------------------
 **IMPORTANT:**
-Codio provides the ability to test your auto-grading scripts when creating your project, and it's important that this be done before publishing your project to a course. Once an assignment has been published to the course, any changes made to the assignment's source project are not automatically reflected in the published assignment. As a result, if you include your main grading logic in the project and the script has bugs, you cannot fix the bugs without deleting the assignment. All student data is lost. However, if all your scripts are stored in the **.guides/secure** folder, you can update and test the scripts and then publish the new version.
+Codio provides the ability to test your auto-grading scripts when creating your project, this should be done before publishing your project to a course. Once an assignment has been published to the course, any changes made to the assignment's source project are not automatically reflected in the published assignment. As a result, if you include your main grading logic in the project and the script has bugs, you cannot fix the bugs without deleting the assignment. All student data is lost. However, if all your scripts are stored in the **.guides/secure** folder, you can update and test the scripts and then publish the new version.
 
 Test your script using bootstrap launcher
 .........................................
@@ -77,7 +77,7 @@ You can also use a simple bootstrap launcher that loads and executes the script 
 
 It is important that this file is stored in the **.guides/secure** folder. You then specify the full filepath **.guides/secure/launcher.sh** in the **Set custom script path** field in the assignment settings.
 
-You can now to debug the Python script and fix any bugs that you may have noticed once students have started work on the assignment.
+It is now possible to debug the Python script and fix any bugs that you may have noticed once students have started work on the assignment.
 
 Test your script in the IDE
 ...........................

@@ -11,7 +11,7 @@ If you are writing or using programs that have a GUI-based output, it is importa
 Sample project
 --------------
 
-Codio provides a Starter Pack project that contains examples of GUI Output. Go to **Starter Packs** and search for **Demo GUI Output** if not already loaded in your **My Projects** area. Click **Use Pack** to install it to your Codio account.
+Codio provides a Starter Pack project that contains examples of GUI Output. Go to **Starter Packs** and search for **Demo GUI Output** if not already loaded in your **My Projects** area. Click **Use Pack** and then **Create** to install it to your Codio account.
 
 Uses and limitations
 ^^^^^^^^^^^^^^^^^^^^
