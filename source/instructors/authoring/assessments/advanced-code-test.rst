@@ -45,11 +45,10 @@ Complete each section to set up your standard code test.
       sudo apt install python3-pip
       sudo python3 -m pip install pycodestyle
      
-
-    .. image:: /img/guides/assessment_act_exec_pycodestyle.png
-       :alt: Pycodestyle
-
-     To add individual Python source files whose style should be checked, either enter their relative path to `~/namespace` or drag them from the File Tree into the **Add Case** text box and click **Add Case**. You may add as many cases as needed. When the assessment executes, ``pycodestyle`` inspects each added file and outputs all styling issues.
+.. image:: /img/guides/assessment_act_exec_pycodestyle.png
+   :alt: Pycodestyle
+       
+To add individual Python source files whose style should be checked, either enter their relative path to `~/namespace` or drag them from the File Tree into the **Add Case** text box and click **Add Case**. You may add as many cases as needed. When the assessment executes, ``pycodestyle`` inspects each added file and outputs all styling issues.
      
      **Using JUnit**
 
