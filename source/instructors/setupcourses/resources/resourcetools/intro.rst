@@ -11,5 +11,6 @@ Additional resources
 - :ref:`Flode <flode>`
 - :ref:`Scratch <scratch>`
 - :ref:`Jeroo <jeroo>`
+- :ref:`Pencil Code <pencilcode>`
 - :ref:`Tkinter <tkinter>`
 - :ref:`Lexikon <lexikon1>`

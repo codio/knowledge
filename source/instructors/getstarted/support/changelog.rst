@@ -15,6 +15,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2021**
 
+- `[F] [21st]`: Added support for :ref:`Pencil Code <pencilcode>`
+- `[I] [21st]`: Improve :ref:`PDF export <export-pdf>` allowing all selected assignments to be compiled into separate or one PDF file
+- `[I] [21st]`: Add SQL query grading support to :ref:`Standard Code Test <standard-code-test>`
+- `[I] [20th]`: Add support to allow anonymous LTI connections so students name/email addresses not passed to Codio
 - `[I] [14th]`: Improve handling of student grading for teachers
 - `[F] [14th]`: Add support for teachers to allow students to :ref:`reset <student-reset>` assignments in the course
 - `[I] [12th]`: Improve playing of video files within projects
@@ -35,7 +39,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [17th]`: Fix problem with handling of LTI Course Copy when user creating parent course is removed from organisation
 - `[I] [17th]`: Fix problem with Teach & Edit tabs not synching location when changing tabs
 - `[F] [15th]`: Add ability to send Notification emails to students when either not started, started but not completed and also when grade feedback is available for them to view
-- `[I] [12th]`: Add feature for teachers to obtain PDF) export of guides content for course assignments 
+- `[I] [12th]`: Add feature for teachers to obtain :ref:`PDF export <export-pdf>` of guides content for course assignments 
 - `[I] [11th]`: Update Teacher Dashboard view separating 'Assignments' to 'Teach' & 'Edit' tabs
 - `[I] [ 5th]`: Add filter tag to allow search by name in Assessment Library
 - `[I] [ 4th]`: Restrict students from signing up by token or invite URL where course is LTI enabled. 
