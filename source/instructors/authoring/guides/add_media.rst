@@ -1,24 +1,30 @@
 .. meta::
-   :description: Adding Media
+   :description: Audio, Images and Videos can be added to a Guide page.
 
 .. _add-media:
 
 Adding media
 ============
 
-You can insert Audio, Images and Videos into a page.
+Audio, Images and Videos can be added to a Guide page.
 
 Audio
 *****
-You can insert and play audio files within your project.
+Audio files can be added to and played from your project.
 
-On the page you wish to play Audio, go to the **Settings** area where you can define the source audio file along with any actions the should be triggered at specific times during playback.
+To add Audio: select the  **Settings** area where you can define the source audio file along with any actions the should be triggered at specific times during playback.
 
+1. Click Editor Settings
+  .. image:: /img/guides/editbook.png
+     :alt: Editor settings
+
+
+2. Select the **Media** tab
   .. image:: /img/guides/media.png
      :alt: Media settings
 
 
-- **Source Name** - select the source file either from `.guides/media` folder if already uploaded to the project or upload directly from your PC where it will then be stored in the `.guides/media` folder.
+- **Source Name** - select the source file either from `.guides/media` folder if already uploaded to the project or upload directly from your PC and it will be stored in the `.guides/media` folder.
 - **Add Action** - specifies actions that are triggered at specific times during playback. The following options are available.
 
   Open file
@@ -35,7 +41,7 @@ Images
 ******
 Inserting an image is similar. Here are some examples. PNG and JPG image types are supported. Note that the 2nd and 3rd examples point to images within your project.
 
-Generally speaking, you should put your images in the `.guides/img` folder in order to keep the rest of your workspace free of extraneous content for the benefit of the student.
+Store your images in the `.guides/img` folder if you do not want them to be readily accessible to students.
 
 .. code:: markdown
 
@@ -45,7 +51,7 @@ Generally speaking, you should put your images in the `.guides/img` folder in or
 
 
 
-You can also drag/drop images from your project file tree into your content. They will be automatically tagged with the correct path.
+You can drag/drop images from your project file tree into your content. They will automatically contain the correct path.
 
 For Markdown pages:
 
@@ -65,7 +71,7 @@ For HTML pages:
 Videos
 ******
 
-Including embedded videos are also possible using the standard `<iframe>` html tag.
+Include embedded videos using the standard `<iframe>` html tag.
 
 
 YouTube

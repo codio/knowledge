@@ -5,9 +5,9 @@
 
 Grade Book
 ==========
-A Grade Book assessment is for manually graded assessments. A student does not need to answer it, and it is immediately available for grading. Comments, points, and rubic items (where partial points are allowed) are visible to the student when the assessment is graded and the grades are released.
+A Grade Book assessment is for manually graded assessments. A student does not need to answer it, and it is immediately available for grading. Comments, points, and rubric items (where partial points are allowed) are visible to the student when the assessment is graded and the grades are released.
 
-1. On the **General** page, enter a short Name**** that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing. 
+1. On the **General** page, enter a short **Name** that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing. 
 
    If you want to hide the name in the challenge text the student sees, toggle the **Show Name** setting to disable it.
 
