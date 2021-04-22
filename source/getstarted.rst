@@ -6,7 +6,7 @@ Overview
 
 In this section:
 
-- :ref:`Differentiated List <diff-list>`
+- :ref:`Getting Started <start-list>`
 
 - :ref:`Onboarding Guide <onboarding-guide>`
 
