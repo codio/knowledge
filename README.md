@@ -31,4 +31,3 @@ pip3 install sphinx recommonmark pydata_sphinx_theme
 ```
 python3 -m sphinx source build
 ```
-
