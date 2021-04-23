@@ -1,5 +1,5 @@
 .. meta::
-   :description: Plagiarism Checker
+   :description: Plagiarism detection allows you to check for code copying and potential cases of cheating between members of a course.
    
 .. _plagiarism:
 

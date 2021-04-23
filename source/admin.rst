@@ -1,5 +1,5 @@
 .. meta::
-   :description: LMS Integration, Organisation settings, FERPA, Accessibility
+   :description: LMS Integration, Organization settings, FERPA, Accessibility
    
 Admin
 =====
@@ -8,11 +8,11 @@ In this section:
 
 - :ref:`Integrating with LMS <integrate-lms>`
 
-- :ref:`Inviting teachers and owners to your organisation <org-owners>`
+- :ref:`Inviting teachers and owners to your organization <org-owners>`
 
-- :ref:`Organisation settings <organizations>`
+- :ref:`Organization settings <organizations>`
 
-- :ref:`Organisation Billing <org-billing>`
+- :ref:`Organization Billing <org-billing>`
 
 - :ref:`Integrating with LMS <integrate-lms>`
 

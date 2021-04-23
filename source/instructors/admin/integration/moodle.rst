@@ -29,8 +29,4 @@ Setup and configuration
 Authentication and account creation
 -----------------------------------
 
-Once you have configured the LTI/LMS settings, Moodle manages all aspects of signing in to Codio as well as account creation. All your teachers and students need is a Moodle account.
-
-If a Moodle user has never used Codio before then an account will automatically be created from their email address when they access their first Codio course materials.
-
-If a Moodle user already has a Codio account then provided the email address of their Moodle account is the same, the same Codio account will be used.
+To add students/teachers see :ref:`Users account creation <lms-users>`

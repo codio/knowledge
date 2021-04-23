@@ -5,7 +5,8 @@
 
 Partial Points
 ==============
-If your test is written with a script, you can also award partial points to student assessments. Use the following Bash and Python grading scripts to enable partial points.If
+You can award partial points for student assessments in your testing scripts. Use the following Bash and Python grading scripts to enable partial points.
+
 
 Example Bash grading script for partial points
 ----------------------------------------------

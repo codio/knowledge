@@ -1,11 +1,12 @@
 .. meta::
-   :description: Codio instructional resources
+   :description: Codio's scaffolded resources use an interactive approach so students can actively construct knowledge.
 
 .. _codio-resources:
 
 Codio instructional resources
 =============================
 
+Codio's scaffolded resources use an interactive approach so students can actively construct knowledge. Students are presented with code samples as well as an online IDE so they can experiment hands-on. Codio instructional resources are completely editable and can be customized to suit your teaching context. You can mix-and-match different resources together and add your own content. 
 
 **Video: Assigning Codio Resources** 
 
@@ -38,7 +39,6 @@ Overview of Codio Resources and Share Code
 
 *For more detail, click on the link.*
 
-- `Engineering Software as a Service (projects only) <https://www.codio.com/resources/esaas-projects>`_ **Share Code: 42NJ-RXEA-YVN6** Armando Fox and David Patterson's popular courseware seamlessly integrated for students and zero setup for instructors.
 -  `Engineering Software as a Service (projects only) <https://www.codio.com/resources/esaas-projects>`__ **Share Code: 42NJ-RXEA-YVN6** Armando Fox and David Patterson's popular courseware seamlessly integrated for students and zero setup for instructors.
 -  `CS: Introduction in Java <https://www.codio.com/resources/intro-java>`__ Introduction to Computer Science in Java with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
 -  `CS: Introduction in Python <https://www.codio.com/resources/intro-python>`__ **Share Code: DWG4-9PHU-2X4W** Introduction to Computer Science in Python with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.

@@ -1,7 +1,7 @@
 .. meta::
-   :description: Organisation Billing
+   :description: Organization Billing
 
 .. _org-billing:
 
-Organisation Billing
+Organization Billing
 ====================

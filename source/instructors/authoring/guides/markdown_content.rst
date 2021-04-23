@@ -6,7 +6,7 @@ Markdown content editing
 
 Demo Guides and Assessments
 ***************************
-Please refer to the **Callout** section of the **Demo Guides and Assessments** project loaded to your **My Projects** area. If not loaded you can find in **Starter Packs** and select the **Use Pack** option to create the project into your account
+Please refer to the **Callout** section of the **Demo Guides and Assessments** project loaded to your **My Projects** area. If not loaded you can find in **Starter Packs** and click **Use Pack** and then **Create** to install it to your Codio account.
 
 Content can be written in
 

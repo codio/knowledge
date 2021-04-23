@@ -10,6 +10,8 @@ In this section:
 
 - :ref:`Codio instructional resources <codio-resources>`
 
+- :ref:`Additional resources <additional-resources>`
+
 - :ref:`Connecting to your LMS (Canvas, Blackboard, Moodle etc) <integrate-lms>`
 
 - :ref:`Adding students <add-remove-students>`
@@ -20,4 +22,10 @@ In this section:
 
 - :ref:`Sharing course content with other instructors <share-course>`
 
-- :ref:`Due Dates <due-dates>`
+- :ref:`Managing assignments <assignment-settings>`
+
+
+
+
+
+

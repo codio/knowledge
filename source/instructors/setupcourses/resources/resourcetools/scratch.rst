@@ -1,6 +1,7 @@
 .. meta::
    :description: Create your own interactive stories, games, and animations
 
+.. _scratch:
 
 Scratch
 =======
