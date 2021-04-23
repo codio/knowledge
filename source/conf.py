@@ -96,6 +96,7 @@ html_theme_options = {
     "navbar_end": ["navbar-icon-links", "search-field"],
     "navbar_align": "none",
     "search_bar_text": "Search ...",
+    "show_toc_level": 2,
 #   "external_links": [
 #       {"name": "Overview", "url": "/instructors/getstarted"},
 #       {"name": "Authoring", "url": "/instructors/authoring"},
@@ -218,6 +219,7 @@ html_additional_pages = {
     }
 html_css_files = [
     'css/codio.css',
+    'css/search.css',
 ]
 
 html_logo = "_static/logo-white.svg"
