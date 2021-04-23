@@ -1,25 +1,72 @@
 {% extends "layout.html" %}
 {% set title = _('Student') %}
 {% block body %}
-<div style="width: 1000px">
-  <div class="codio-tile">
-  <strong>Accessing Codio</strong><br/><br/>
-  <a href="{{ pathto("accessing-codio") }}">Learn More</a>
+<link rel="stylesheet" href="{{ pathto('_static/css/custom_body.css', 1) }}">
+<div>
+  <div class="codio-title">
+    Codio Student Help Center
   </div>
-
-  <div class="codio-tile">
-  <strong>Your Courses</strong><br/><br/>
-  <a href="{{ pathto("courses") }}">Learn More</a>
-  </div>
-
-  <div class="codio-tile">
-  <strong>Tools</strong><br/><br/>
-  <a href="{{ pathto("tools") }}">Learn More</a>
-  </div>
-
-  <div class="codio-tile">
-  <strong>Developing Code</strong><br/><br/>
-  <a href="{{ pathto("common") }}">Learn More</a>
+  <div class="codio-tiles">
+    <div class="codio-tiles-row">
+      <a class="codio-tile" href="{{ pathto("accessing-codio") }}">
+        <div class="codio-tile-title">
+          <strong>Accessing Codio</strong>
+        </div>
+        <div class="codio-tile-triangle-top"></div>
+        <div class="codio-tile-triangle-bottom"></div>
+        <div class="codio-tile-information">
+          Joining a course, passwords, subscriptions.
+        </div>
+        <div class="codio-tile-footer">
+          <span class="codio-tile-link">Learn More</span>
+          <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
+        </div>
+      </a>
+      <a class="codio-tile" href="{{ pathto("courses") }}">
+        <div class="codio-tile-title">
+          <strong>Your courses</strong>
+        </div>
+        <div class="codio-tile-triangle-top"></div>
+        <div class="codio-tile-triangle-bottom"></div>
+        <div class="codio-tile-information">
+          Dashboard, courses, assignments, grades.
+        </div>
+        <div class="codio-tile-footer">
+          <span class="codio-tile-link">Learn More</span>
+          <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
+        </div>
+      </a>
+    </div>
+    <div class="codio-tiles-row">
+      <a class="codio-tile" href="{{ pathto("tools") }}">
+        <div class="codio-tile-title">
+          <strong>Tools</strong>
+        </div>
+        <div class="codio-tile-triangle-top"></div>
+        <div class="codio-tile-triangle-bottom"></div>
+        <div class="codio-tile-information">
+          Dyslexia support, Lexikon, Code Playback.
+        </div>
+        <div class="codio-tile-footer">
+          <span class="codio-tile-link">Learn More</span>
+          <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
+        </div>
+      </a>
+      <a class="codio-tile" href="{{ pathto("common") }}">
+        <div class="codio-tile-title">
+          <strong>Developing Code</strong>
+        </div>
+        <div class="codio-tile-triangle-top"></div>
+        <div class="codio-tile-triangle-bottom"></div>
+        <div class="codio-tile-information">
+          The Codio development environment.
+        </div>
+        <div class="codio-tile-footer">
+          <span class="codio-tile-link">Learn More</span>
+          <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
+        </div>
+      </a>
+    </div>
   </div>
 </div>
 {% endblock %}

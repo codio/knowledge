@@ -6,12 +6,12 @@ Welcome to CodioDocs's documentation!
    :caption: Theme Documentation
    :maxdepth: 2
 
-   getstarted
-   authoring
-   common
-   setupcourses
-   teaching
-   admin
+   Overview <getstarted>
+   Authoring <authoring>
+   IDE <common>
+   Course Set Up <setupcourses>
+   Teaching <teaching>
+   Admin <admin>
 
 
 Indices and tables
