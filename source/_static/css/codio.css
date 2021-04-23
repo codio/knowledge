@@ -1,9 +1,17 @@
-body {
-  background-color: #02064e !important;
-}
+@import "./search.css";
 
 .navbar {
   background-color: #02064e !important;
+}
+
+.footer {
+  background-color: #02064e !important;
+}
+
+.footer .copyright {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar .container-xl {
@@ -14,6 +22,14 @@ body {
   flex-grow: 0;
 }
 
+.navbar-dark-codio .navbar-nav a.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-dark-codio .navbar-nav a.nav-link:hover {
+  color: #0fa2af;
+}
 
 .codio-tiles {
   display: flex;

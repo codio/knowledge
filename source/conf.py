@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u''
-copyright = u'2020'
+copyright = u'Codio 2020. All Rights Reserved'
 author = u''
 
 # The short X.Y version
@@ -95,6 +95,7 @@ html_theme_options = {
     "footer_items": ["copyright"],
     "navbar_end": ["navbar-icon-links", "search-field"],
     "navbar_align": "none",
+    "search_bar_text": "Search ...",
 #   "external_links": [
 #       {"name": "Overview", "url": "/instructors/getstarted"},
 #       {"name": "Authoring", "url": "/instructors/authoring"},
