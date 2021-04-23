@@ -15,11 +15,13 @@ Audio files can be added to and played from your project.
 To add Audio: select the  **Settings** area where you can define the source audio file along with any actions the should be triggered at specific times during playback.
 
 1. Click Editor Settings
+
   .. image:: /img/guides/editbook.png
      :alt: Editor settings
 
 
 2. Select the **Media** tab
+
   .. image:: /img/guides/media.png
      :alt: Media settings
 
