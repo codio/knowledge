@@ -146,3 +146,48 @@
 .toc-entry>.nav-link.active {
   border-left: none;
 }
+
+.nav-item {
+  font-size: 1rem;
+}
+
+.prev-next-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prev-next-bottom a.left-prev, .prev-next-bottom a.right-next {
+  padding: 5px;
+  border: 1px solid #019cab;
+  overflow-x: hidden;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #019cab;
+  background-color: #ffffff;
+
+  max-width: none;
+  font-size: 1rem;
+  font-weight: 600;
+
+  display: flex;
+  flex: 0 0 48%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prev-next-bottom a.right-next {
+  color: #ffffff;
+  background-color: #019cab;
+}
+
+.prev-next-bottom a.left-prev:before, .prev-next-bottom a.right-next:after {
+  display: none;
+}
+
+.prev-next-bottom .left-prev-title {
+  padding-right: 4px;
+}
+
+.prev-next-bottom .right-next-title {
+  padding-left: 8px;
+}

@@ -123,7 +123,7 @@ html_static_path = ['_static']
 html_sidebars = {
     "index": [],
     "student": [],
-    "**": ['sidebar-nav-bs.html']
+    "**": 'sidebar-nav-bs.html',
 }
 
 
