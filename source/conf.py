@@ -221,6 +221,13 @@ html_additional_pages = {
 html_css_files = [
     'css/codio.css',
     'css/search.css',
+    'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css'
+
+]
+
+html_js_files = [
+  ('https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js', {'defer': 'defer'}),
+  ('js/algolia.js', {'defer': 'defer'})
 ]
 
 html_logo = "_static/logo-white.svg"
