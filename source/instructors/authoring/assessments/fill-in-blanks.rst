@@ -5,7 +5,7 @@
 
 Fill in the Blanks
 ==================
-A **fill in the blank question** can use either free text or offer options to be chosen from a drop-down list:
+A **Fill in the blank question** can use either free text or offer options to be chosen from a drop-down list:
 
  - Free Text Answers - Shows a question where the student must complete the missing words (fill in the blank) by entering the answers.
 
