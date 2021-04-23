@@ -49,6 +49,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'recommonmark',
+    'sphinx_sitemap'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -231,3 +232,4 @@ html_js_files = [
 ]
 
 html_logo = "_static/logo-white.svg"
+html_extra_path = ['robots.txt']
