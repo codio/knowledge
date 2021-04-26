@@ -19,7 +19,7 @@ Simply drag the tab of the file or terminal (the part with the name) you want to
 ### Install
 
 ```
-python3 -m pip install git+https://github.com/codio/pydata-sphinx-theme.git@12547_toc_menu
+python3 -m pip install git+https://github.com/codio/pydata-sphinx-theme.git@master
 ```
 
 ```
