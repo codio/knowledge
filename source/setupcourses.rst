@@ -1,28 +1,20 @@
 .. meta::
    :description: Creating courses, adding students, connecting to LMS and working with TA's
+
+
+.. toctree::
+   :name: setupcourses
    
-Course Configuration
-====================
-
-In this section:
-
-- :ref:`Courses <courses>`
-
-- :ref:`Codio instructional resources <codio-resources>`
-
-- :ref:`Additional resources <additional-resources>`
-
-- :ref:`Connecting to your LMS (Canvas, Blackboard, Moodle etc) <integrate-lms>`
-
-- :ref:`Adding students <add-remove-students>`
-
-- :ref:`Adding TAs/GAs <add-ta>`
-
-- :ref:`Adding co-teachers <add-teachers>`
-
-- :ref:`Sharing course content with other instructors <share-course>`
-
-- :ref:`Managing assignments <assignment-settings>`
+   Courses <courses>
+   Codio instructional resources <instructors/setupcourses/resources/codioresources>
+   Additional resources <instructors/setupcourses/resources/resourcetools/intro>
+   Connecting to your LMS (Canvas, Blackboard, Moodle etc) <instructors/admin/integration/intro>
+   Adding students <instructors/setupcourses/add-remove-students>
+   Adding TAs/GAs <instructors/setupcourses/add-ta>
+   Adding co-teachers <instructors/setupcourses/add-teachers>
+   Sharing course content with other instructors <instructors/setupcourses/share-course>
+   Managing assignments <instructors/setupcourses/assignment-settings/assignment-settings>
+   
 
 
 

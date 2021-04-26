@@ -82,7 +82,9 @@ To add individual Python source files whose style should be checked, either ente
     - **Command** - Enter the command that executes the student code. 
 
     .. Note:: If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. 
-    The files can be dragged and dropped from the File Tree into the field to automatically populate the necessary execution and run code.
+      
+      The files can be dragged and dropped from the File Tree into the field to automatically populate the necessary execution and run code.
+      
 
     - **Timeout** - Enter the time period (in seconds) that the test runs before terminating.
 
