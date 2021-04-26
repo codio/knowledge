@@ -191,3 +191,16 @@
 .prev-next-bottom .right-next-title {
   padding-left: 8px;
 }
+
+.toc-item .nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.section-nav {
+  border-left: none;
+}
