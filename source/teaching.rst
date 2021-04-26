@@ -1,27 +1,16 @@
 .. meta::
    :description: Grading, viewing student work, remote toolkit
    
-Teaching in Codio
-=================
+.. toctree::
+   :name: teaching
 
-In this section:
-
-- :ref:`Viewing student work <viewing-student-work>`
-
-- :ref:`Grading <grading>`
-
-- :ref:`Learning Insights <learning-insights>`
-
-- :ref:`Code Playback <code-playback>`
-
-- :ref:`Code Commenting <code-comment>`
-
-- :ref:`Cursor Presence <cursor-presence>`
-
-- :ref:`Resetting students passwords <reset-pass>`
-
-- :ref:`Removing students <remove-students>`
-
-- :ref:`Plagiarism <plagiarism>`
-
-- :ref:`Data Downloading <data-download>`
+    Viewing student work <instructors/teaching/viewstudentwork>
+    Grading <instructors/teaching/grading/grading>
+    Learning Insights <instructors/teaching/insights>
+    Code Playback <instructors/teaching/playback>
+    Code Commenting <instructors/teaching/commenting>
+    Cursor Presence <instructors/teaching/cursor>
+    Resetting students passwords <instructors/teaching/resetpassword>
+    Removing students <instructors/teaching/remove>
+    Plagiarism <instructors/teaching/plagiarism>
+    Data Downloading <instructors/teaching/datadownload>
