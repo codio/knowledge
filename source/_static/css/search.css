@@ -1,6 +1,7 @@
 .bd-search-codio .icon {
-    right: 25px;
+    right: 30px;
     left: auto;
+    position: relative;
 }
 
 .bd-search-codio input {

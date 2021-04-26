@@ -23,7 +23,7 @@ python3 -m pip install git+https://github.com/codio/pydata-sphinx-theme.git@mast
 ```
 
 ```
-pip3 install sphinx recommonmark
+python3 -m pip install sphinx sphinx-sitemap recommonmark
 ```
 
 ### Build
