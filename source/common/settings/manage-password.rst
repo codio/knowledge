@@ -16,7 +16,7 @@ If you have forgotten your password, you can reset it using the following proced
 2. Enter your **Email** or **Username** and click **Reset Password**.
 3. Check your email inbox for an email notification and follow the instructions for resetting your password. 
 
-**Note:** If you do not have access to the email address you used when creating your Codio account, contact your instructor and they can reset the password for you.
+.. Note:: If you do not have access to the email address you used when creating your Codio account, contact your instructor and they can reset the password for you.
 
 
 Change password
@@ -39,7 +39,7 @@ You can change your password from the **Account** page. You should change it if 
    .. image:: /img/what_students_do/forgotpassword/change.png
       :alt: Change password
    
-**Note:** You are allowed three attempts to enter your current password before your account is temporarily suspended. If your account is suspended, wait 15 minutes and then try again.
+.. Note:: You are allowed three attempts to enter your current password before your account is temporarily suspended. If your account is suspended, wait 15 minutes and then try again.
 
 Reset password
 --------------

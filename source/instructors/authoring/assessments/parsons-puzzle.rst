@@ -85,7 +85,7 @@ Grader Options
 
 - TurtleGrader - for exercises that draw turtle graphics in Python. Grading is based on comparing the commands executed by the model and student turtle. If the ``executable_code`` option is also specified, the code on each line of that option will be executed instead of the code in the student constructed lines. 
 
-  **Note:** Student code should use the variable ``myTurtle`` for commands to control the turtle in order for the grading to work.
+  .. Note:: Student code should use the variable ``myTurtle`` for commands to control the turtle in order for the grading to work.
 
   Required options:
 

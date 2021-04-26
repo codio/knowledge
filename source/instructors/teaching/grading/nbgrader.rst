@@ -9,7 +9,7 @@ Codio supports .. _Jupyter notebook: https://jupyter.org/ auto-grading functiona
 
 When a student submits the assignment by marking the assignment as complete, the assignment is automatically graded. However, manual grading is also possible if desired. 
 
-**Note:** Any user configurations for nbgrader should be stored in a **.codio-jupyter** file. If a **.codio-jupyter** file is used in a project, Codio assumes it is the Jupyter based grader so only **nbgrader** can be selected for the assessment scripts in the assignment.
+.. Note:: Any user configurations for nbgrader should be stored in a **.codio-jupyter** file. If a **.codio-jupyter** file is used in a project, Codio assumes it is the Jupyter based grader so only **nbgrader** can be selected for the assessment scripts in the assignment.
 
 Configuration
 -------------

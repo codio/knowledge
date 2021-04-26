@@ -14,7 +14,7 @@ Codio offers an integrated, language specific debugger that supports the followi
 -  NodeJS
 -  C and C++
 
-**Note:** :ref:`Contact us <codio-support>` if you would like support for other languages.
+.. Note:: :ref:`Contact us <codio-support>` if you would like support for other languages.
 
 Codio provides a Starter Pack project that contains examples of debugger usage. Go to **Starter Packs** and search for **Demo Codio Debugger** if not already loaded in your **My Projects** area. Click **Use Pack** and then **Create** to install it to your Codio account.
 

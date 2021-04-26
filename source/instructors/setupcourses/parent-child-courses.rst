@@ -28,7 +28,7 @@ To send notifications, follow these steps:
 
    The message can include details of all the changes made in each assignment or just be a summary. If a summary is included, instructors can pull the assignments and review the information in the publish assignment changelog. 
 
-   **Note:** To view a history of all notifications sent for published updates in the parent course, click the **View Sent Notification** link.
+  .. Note:: To view a history of all notifications sent for published updates in the parent course, click the **View Sent Notification** link.
 
    After a notification has been sent, a **Download** icon is displayed in the upper right corner of the course.
 
@@ -74,7 +74,7 @@ You can also make changes to a parent course without sending update notification
 
 3. Click Update to pull the updates into the cloned (child) course.
 
-   **Note:** You can also click **Pull All** to pull all available updates for the module but you cannot view the details.
+   .. Note:: You can also click **Pull All** to pull all available updates for the module but you cannot view the details.
 
    .. image:: /img/manage_classes/pullall.png
       :alt: Pull Add 

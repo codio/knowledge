@@ -57,4 +57,4 @@ You can modify the Terminal settings from the **Codio > Preferences** menu. The 
 
 Preferences can be modified at the User level as described in :ref:`User Preferences <user-prefs>` or at the Project level.
 
-**Note:** When changing settings at the Project level, the settings will be applied for all users looking at the project.
+.. Note:: When changing settings at the Project level, the settings will be applied for all users looking at the project.

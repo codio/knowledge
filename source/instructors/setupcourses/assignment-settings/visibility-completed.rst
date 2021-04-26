@@ -8,7 +8,7 @@ Visibility on Completed
 =======================
 The **Visibility on Completed** setting is used to specify your students ability to access the assignment when completed. 
 
-**Note:** This setting is not available for book-based assignments. 
+.. Note:: This setting is not available for book-based assignments. 
 
 To specify student visibility to assignments once completed, follow these steps:
 

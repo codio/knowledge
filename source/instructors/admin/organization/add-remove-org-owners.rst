@@ -35,7 +35,7 @@ Follow these steps to add a new user to the Owners group in your organization:
 
    An email is sent to the teacher that contains a link to sign up. Upon completing the sign up process, they are added to your organization as an Owner.
 
-   **Note:** They must use the email address the invitation was sent to for sign up or they will not be added to the organization.
+   .. Note:: They must use the email address the invitation was sent to for sign up or they will not be added to the organization.
 
   All pending invitations are displayed and you have the option to **Resend** or **Revoke** the invitation. 
 

@@ -8,8 +8,8 @@ Access Codio Box via SSH
 
 You can SSH into your Codio box from code using SSH public keys. Understanding how Codio uses SSH keys is important to accessing your box via ssh.
 
-**Note:** You cannot connect to a Codio box without using a Public Key.
 
+.. Note:: You cannot connect to a Codio box without using a Public Key.
 
 Codio box SSH keys
 ------------------

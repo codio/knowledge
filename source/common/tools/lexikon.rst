@@ -17,7 +17,7 @@ If Lexikon has been enabled by the project author, you can access it using one o
 - On the menu bar, click **Tools > Lexicon**.
 - Use the default keyboard shortcut **Ctrl+Alt+L**.
 
-**Note:** If you cannot open the Lexicon using the above methods, contact your instructor for assistance.
+.. Note:: If you cannot open the Lexicon using the above methods, contact your instructor for assistance.
 
 The Lexikon is currently organized into the following topics:
 

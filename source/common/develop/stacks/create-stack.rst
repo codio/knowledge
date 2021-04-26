@@ -7,7 +7,7 @@ Create a Stack
 ==============
 You can create a new stack or stack version from a project or assignment in the IDE, or from the **Stacks** page in the Codio dashboard.
 
-**Note:** Prior to creating a stack, read the information about :ref:`Stacks <stacks>` so you are familiar with how stacks work in Codio.
+.. Note:: Prior to creating a stack, read the information about :ref:`Stacks <stacks>` so you are familiar with how stacks work in Codio.
 
 Stack guidelines
 ----------------
@@ -49,7 +49,7 @@ To create a new stack or new version of a stack from the Codio dashboard, follow
 
 4. Click **Create** to generate the stack image (this may take a few minutes depending on the size of the image).
 
-**Note:** You do not need to remain on the page while the stack image is being created; you may continue to other areas of Codio. However, the source project is not accessible until the stack has been created.
+.. Note:: You do not need to remain on the page while the stack image is being created; you may continue to other areas of Codio. However, the source project is not accessible until the stack has been created.
 
 Sample template
 ^^^^^^^^^^^^^^^

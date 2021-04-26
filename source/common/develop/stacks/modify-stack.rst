@@ -36,4 +36,4 @@ Remember the following points to avoid issues:
 - When run by students from an assignment: Assignment = Selected Stack + Workspace (no stack modifications)
 - Stack modifications in the source project or assignment are **not transferred** when students launch the assignment.
 
-**Note:** Once the project or assignment is run by students, if they make changes to their stacks, each stack is individually handled so there are no issues unless a new stack is selected in **Project > Stacks > Settings** on the menu bar.
+.. Note:: Once the project or assignment is run by students, if they make changes to their stacks, each stack is individually handled so there are no issues unless a new stack is selected in **Project > Stacks > Settings** on the menu bar.

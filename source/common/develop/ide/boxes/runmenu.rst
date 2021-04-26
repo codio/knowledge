@@ -60,10 +60,10 @@ If you want to configure the Run button to run commands in the current terminal 
       }
     }
 
-**Notes:**
-
-- Commands with the same **id** will share the same terminal window.
-- The terminal id should be "backend-guide" to execute a command in the terminal window opened by guides.
+.. Note:: 
+   Commands with the same **id** will share the same terminal window.
+   
+   The terminal id should be "backend-guide" to execute a command in the terminal window opened by guides.
 
 When modifying the **.codio** file, you can also use the following tokens in the shell commands:
 

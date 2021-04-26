@@ -8,7 +8,7 @@ Visibility on Disabled
 ======================
 The **Visibility on Disabled** setting is used to specify how your students can access a disabled assignment. 
 
-**Note:** This setting is not available for book-based assignments. 
+.. Note:: This setting is not available for book-based assignments. 
 
 To specify student visibility to disabled assignments, follow these steps:
 

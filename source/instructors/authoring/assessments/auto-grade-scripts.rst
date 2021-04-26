@@ -7,7 +7,7 @@ Using Auto-Grade Scripts
 ========================
 You can use auto-grade scripts that evaluate the student code, and these scripts are added in the **Script Grading** field on the :ref:`**Script Grading** <grade-weights>` settings page. These scripts can then transfer the grading value into the grading field.
 
-**Note:** The script must execute within 3 minutes or a timeout error occurs.
+.. Note:: The script must execute within 3 minutes or a timeout error occurs.
 
 If you are using an LMS platform with Codio, be sure to enter a percentage value in the **Grade Weight** field to maintain compatibility with LMS gradebooks. This value is then transferred into your LMS gradebook once you :ref:`release the grades <release-grades>`.
 
@@ -62,7 +62,7 @@ You can regrade all student's assignments that have already been auto-graded fro
 
 Test and debug your grading scripts
 -----------------------------------
-**IMPORTANT:**
+.. Important::
 Codio provides the ability to test your auto-grading scripts when creating your project, this should be done before publishing your project to a course. Once an assignment has been published to the course, any changes made to the assignment's source project are not automatically reflected in the published assignment. As a result, if you include your main grading logic in the project and the script has bugs, you cannot fix the bugs without deleting the assignment. All student data is lost. However, if all your scripts are stored in the **.guides/secure** folder, you can update and test the scripts and then publish the new version.
 
 Test your script using bootstrap launcher
@@ -104,7 +104,7 @@ Python auto-grading script
 ..........................
 Below is an example Python file that can be loaded by a bootstrap script.
 
-**Note:** The only code you need to modify is near the bottom. The other functions are helpers and can be used for any test in any assignment.
+.. Note:: The only code you need to modify is near the bottom. The other functions are helpers and can be used for any test in any assignment.
 
 .. code:: python
 

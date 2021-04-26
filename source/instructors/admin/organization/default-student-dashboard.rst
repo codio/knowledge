@@ -26,4 +26,4 @@ Organization owners can specify the default dashboard that is displayed to Stude
 5. If you want to hide the **Courses** menu, toggle the setting to enable it. When this setting is enabled, the **My Projects** page is automatically displayed as the default student dashboard.
 6. Click **Update** to save your the changes.
 
-**Note:** If you make changes to these settings, your students may need to reload Codio in their browser upon the next login for the changes to be visible.
+.. Note:: If you make changes to these settings, your students may need to reload Codio in their browser upon the next login for the changes to be visible.

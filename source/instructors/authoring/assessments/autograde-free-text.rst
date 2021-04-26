@@ -25,7 +25,7 @@ Follow these steps to set up an autograde free text assessment:
    .. image:: /img/guides/assessment_autofree_exec.png
       :alt: Execution
 
-   **Note:** If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. 
+   .. Note:: If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. 
        The files can be dragged and dropped from the File Tree into the field to automatically populate the necessary execution and run code.
 
    - **Command** - Enter the command that executes the student code.

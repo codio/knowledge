@@ -23,7 +23,7 @@ You can clone an existing course to create a new course from it. Follow these st
 
    Your new course is displayed on the **Courses** page.
 
-**Note:** Students in the course that is being cloned are not added to the new course.
+.. Note:: Students in the course that is being cloned are not added to the new course.
 
 **See Also:**
 

@@ -46,4 +46,4 @@ You can view all members of your organization from the Members tab on the Organi
    .. image:: /img/manage_organization/orphanedusers.png
        :alt: Removing Users without Course
 
-   **Note:** Removing users from your organization does not delete their Codio account. Only the account owner can :ref:`delete users <remove-org-members>`.
+   .. Note:: Removing users from your organization does not delete their Codio account. Only the account owner can :ref:`delete users <remove-org-members>`.

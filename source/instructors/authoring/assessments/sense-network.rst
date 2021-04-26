@@ -44,7 +44,7 @@ Follow these steps to set up a Sense.Network assessment:
 
   - Gradeable - Toggle to enable if the asessment is to be used within the grade total for the assignment. If disabled, students can be given feedback on their submission for this assessment without it being graded. 
 
-    **Note:** The **Answer and Rationale** does not return anything to the student if the assignment is not gradable. When enabled, each submission overrides any previous submissions for grading purposes.  
+    .. Note:: The **Answer and Rationale** does not return anything to the student if the assignment is not gradable. When enabled, each submission overrides any previous submissions for grading purposes.  
 
   - **Points** - Enter the score if the student selects the correct answer. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
