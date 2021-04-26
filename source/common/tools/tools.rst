@@ -1,7 +1,7 @@
 .. meta::
    :description: Useful IDE Tools
 
-.. _tools:
+.. _studenttools:
 
 Useful Tools
 ============

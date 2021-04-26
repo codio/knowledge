@@ -1,19 +1,15 @@
 .. meta::
    :description: Dyslexia support, Lexikon, Code Playback, Code Commenting, Desktop App
-   
-Tools
-=====
 
-In this section:
+.. toctree::
+   :name: tools
 
-- :ref:`Dyslexia support <dyslexia>`
 
-- :ref:`Lexikon <lexikon>`
 
-- :ref:`Code Playback <student-code-playback>`
-
-- :ref:`Code commenting <code-commenting>`
-
-- :ref:`Desktop App <desktop-app>`
+    Dyslexia support <common/tools/dyslexia>
+    Lexikon <common/tools/lexikon>
+    Code Playback <common/tools/code-playback>
+    Code commenting <common/tools/code-commenting>
+    Desktop App <common/develop/ide/tools/desktopapp>
 
 
