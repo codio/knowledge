@@ -8,7 +8,7 @@ Disable Assignment
 ==================
 You can enable or disable assignments that have been assigned to a course to control when students can access them. This is useful when your students are working in controlled assessment conditions and you only want them to have access to their work within a prescribed timeframe.
 
-**Note:** For book based assignments, if another assignment gives access to the book then students can access the book. If students are able to access the terminal window or see the File Tree, other areas intended to be disabled may be accessible.
+.. Note:: For book based assignments, if another assignment gives access to the book then students can access the book. If students are able to access the terminal window or see the File Tree, other areas intended to be disabled may be accessible.
 
 To enable or disable an assignment, follow these steps:
 

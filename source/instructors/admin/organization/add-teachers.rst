@@ -37,7 +37,7 @@ Invite teacher to the organization
 
    An email is sent to the teacher that contains a link to sign up. Upon completing the sign up process, they are added to your organization.
 
-   **Note:** They must use the email address the invitation was sent to for sign up or they will not be added to the organization.
+   .. Note:: They must use the email address the invitation was sent to for sign up or they will not be added to the organization.
 
   All pending invitations are displayed and you have the option to **Resend** or **Revoke** the invitation. 
 
@@ -71,4 +71,4 @@ To send a teacher an invitation token to use to access Codio, follow these steps
   - If you send them the **Invite URL**, they can paste it into their browser and are automatically taken through the sign-up process. When they select that they are a teacher, they are added to your organization.
   - If you send them the **Invite Token**, they can register themselves for a Codio account using the sign-up process at www.codio.com. They provide the token to join your organization.
 
-**Note:** If you already have courses set up, you can add and invite teachers directly into your course(s). See :ref:`Add or Remove Teachers in a Course <add-teachers>`. You can then add them as an :ref:`organization owner <org-owners>` so they can then manage and create courses, and have full Admin access to the organization.
+.. Note:: If you already have courses set up, you can add and invite teachers directly into your course(s). See :ref:`Add or Remove Teachers in a Course <add-teachers>`. You can then add them as an :ref:`organization owner <org-owners>` so they can then manage and create courses, and have full Admin access to the organization.

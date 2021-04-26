@@ -7,7 +7,7 @@ Standard Code Test
 ==================
 Standard code tests are dialog driven, where you specify input data and the expected output. Codio then executes the student code, supplies the specified input data, and compares the expected output to the student code's actual output.
 
-**Note:** You can also write code tests that give you in-depth control by allowing you to write your own code to execute tests. See :ref:`Advanced Code Tests <advanced-code-test>` for more information.
+.. Note:: You can also write code tests that give you in-depth control by allowing you to write your own code to execute tests. See :ref:`Advanced Code Tests <advanced-code-test>` for more information.
 
 Codio provides a Starter Pack project that contains examples for all assessment types and a guides authoring cheat sheet. Go to **Starter Packs** and search for **Demo Guides and Assessments** if not already loaded in your **My Projects** area. Click **Use Pack** and then **Create** to install it to your Codio account.
 
@@ -37,7 +37,7 @@ Follow these steps to set up a standard code test:
    .. image:: /img/guides/assessment_sct_execution.png
       :alt: Execution
 
-   **Note:** If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. 
+   .. Note:: If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. 
        The files can be dragged and dropped from the File Tree into the field to automatically populate the necessary execution and run code.
 
   - **Command** - Enter the command that executes the student code. This is usually a run command.  
@@ -78,7 +78,7 @@ Follow these steps to set up a standard code test:
  
        Run: python .guides/scripts/helper_mssql.py --db_host localhost --db_user  SA --db_pass YourPassword   --db_name DBNAME 
       
-       **Note:** First you must use **Tools > Install Software** to install the appropriate helper script for your database (MSSQL,MySql,PostgreSQL). For example, if you are using MSSQL, you would download the Helper MSSql.
+       .. Note:: First you must use **Tools > Install Software** to install the appropriate helper script for your database (MSSQL,MySql,PostgreSQL). For example, if you are using MSSQL, you would download the Helper MSSql.
      
        .. image:: /img/sql-helpers.png
           :alt: Install SQL Helper Script     

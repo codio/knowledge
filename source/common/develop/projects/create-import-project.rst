@@ -35,7 +35,7 @@ To create a new empty project, follow these steps:
 
 4. Select the visibility of the project (Private or Public). By default, all projects are created as private and are only accessible to you (in **My Projects**, a padlock icon is displayed next to all private projects.
 
-   **Note:** If enabled by your organization owner, you can create public projects but these are accessible by any Codio user. See :ref:`Public and Private Settings <public-private>` for more information.
+.. Note:: If enabled by your organization owner, you can create public projects but these are accessible by any Codio user. See :ref:`Public and Private Settings <public-private>` for more information.
 
   If your project is private, you can assign read, write, or full admin permissions (ability for others to access the box from the terminal) to other users from the **Project > Permissions** menu in the IDE.
 
@@ -65,7 +65,7 @@ To import a project or choose an alternative software configuration, follow thes
 
 4. Select the visibility of the project (Private or Public). By default, all projects are created as private and are only accessible to you (in **My Projects**, a padlock icon is displayed next to all private projects.
 
-   **Note:** If enabled by your organization owner, you can create public projects but these are accessible by any Codio user. See :ref:`Public and Private Settings <public-private>` for more information. 
+.. Note:: If enabled by your organization owner, you can create public projects but these are accessible by any Codio user. See :ref:`Public and Private Settings <public-private>` for more information. 
    
    
 

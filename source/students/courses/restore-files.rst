@@ -20,7 +20,7 @@ There may be times when you want to make changes to your work or discard some of
    .. image:: /img/guides/reset.png
       :alt: Restore Current Files
 
-**Note:** If this does not accomplish what you intended, contact your instructor to have them reset the assignment to its default state so you can restart it.
+.. Note:: If this does not accomplish what you intended, contact your instructor to have them reset the assignment to its default state so you can restart it.
 
 Restore a deleted file
 ----------------------
@@ -37,4 +37,4 @@ If you have mistakenly deleted a file, you can retrieve it using :ref:`Code Play
 
 5. Create a new file, and then copy the code from the playback and paste it into the new file.
 
-**Note:** If you don't see **Tools > Code Playback** on the menu bar, right-click on a tab or in the file tree and choose **Code Playback**.
+.. Note:: If you don't see **Tools > Code Playback** on the menu bar, right-click on a tab or in the file tree and choose **Code Playback**.

@@ -71,7 +71,7 @@ You can insert tokens to customize the menus:
 
 For details about the various tokens that can be inserted see :ref:`Customize Run Button <customizable-run-menu>`.
 
-**Note:** Static content is served over Port 80. To access dynamic content you may need to specify the appropriate Port.
+.. Note:: Static content is served over Port 80. To access dynamic content you may need to specify the appropriate Port.
 
 
 Unsecure content error

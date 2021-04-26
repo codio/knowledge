@@ -34,4 +34,4 @@ You can set your own contact URL for your students to use on the Organization Se
    .. image:: /img/manage_organization/studentoptions.png
       :alt: Contact Support Options
 
-**Note:** Teacher accounts are not affected by this setting and are still able to contact Codio in the usual manner. 
+.. Note:: Teacher accounts are not affected by this setting and are still able to contact Codio in the usual manner. 

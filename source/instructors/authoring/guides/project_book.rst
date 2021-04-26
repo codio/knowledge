@@ -70,5 +70,5 @@ It can still be a little confusing whether you should use a book based assignmen
 - **Book assignments** - use for tutorial content, examples and non-critical assessments. 
 
 
-Note that you can mix both book and project assignments in a course.
+.. Note::that you can mix both book and project assignments in a course.
 

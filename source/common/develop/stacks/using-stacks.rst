@@ -45,7 +45,7 @@ You can select a stack to use for :ref:`creating a project <create-import-projec
 
 The **Create Project** dialog is then populated with the selected stack configuration.
 
-**Note:** If you are in an assignment, click the **Stack** button while in **Edit** mode and set the stack version.
+.. Note:: If you are in an assignment, click the **Stack** button while in **Edit** mode and set the stack version.
 
 Exclude files and folders from stack
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

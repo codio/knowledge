@@ -11,7 +11,7 @@ When you create a new Codio project or course assignment, you must specify a sta
 
 Codio’s templates deliver fully preconfigured servers in less than 5 seconds, no matter how complex the configuration. You can also snapshot a box's stack :ref:`create a stack <create-stack>` and add it to the **Stacks** template library.
 
-**Note:** It is very important to understand how Stacks are used in Codio, especially when working with courses. Incorrect usage can result in being able to edit a project but then failing when it is run.
+.. Note:: It is very important to understand how Stacks are used in Codio, especially when working with courses. Incorrect usage can result in being able to edit a project but then failing when it is run.
 
 Stack modifications
 -------------------
@@ -31,7 +31,7 @@ Stack versions
 --------------
 When a new stack or new version of an existing stack is created, the new versions are organized under the existing stack. Assigning a new version to a stack also resets all project content outside the workspace folder to those of the new stack version.
 
-**Note:** When referring to a stack in our documentation, we are talking about a single stack or a stack version beneath it. 
+.. Note:: When referring to a stack in our documentation, we are talking about a single stack or a stack version beneath it. 
 
 Stack visibility and ownership
 ------------------------------

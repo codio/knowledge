@@ -46,7 +46,7 @@ Once the course modules are created, you can add assignments (projects). You can
      b. Check the check boxes for the assignments to be added to the course.
      c. Click **Select**. 
 
-   **Note:** For more information about authoring course content, :ref:`click here <intro>`.
+   .. Note:: For more information about authoring course content, :ref:`click here <intro>`.
 
 3. Open the assignment to review it in the IDE and when readon **Publish** it . The assignment is not visible to students until it's published.
 
@@ -57,10 +57,9 @@ Once the course modules are created, you can add assignments (projects). You can
    
     - There is also an option to publish in the **Education** menu item in the top menu bar.
 
-**Note**:
-
-- If you change the stack or files via the terminal, the publish button on the top menu bar will NOT appear
-- If you add and remove the same character, it will assume that you made a change even though the start and end file are the same
+.. Note::
+   If you change the stack or files via the terminal, the publish button on the top menu bar will NOT appear
+   If you add and remove the same character, it will assume that you made a change even though the start and end file are the same
 
 
    If you make changes to the assignment, you must publish it again before the changes are visible to your students. You can view the details of previously published versions in the log area.
@@ -73,7 +72,7 @@ Codio recommends that you connect your assignments to a remote repo such as GitH
 
 - **Assignment Updates** - You can update all assignments that use the same content by pushing the updates to the repo and then pulling the changes into the different courses that use the content. You can also review the changes by others before deciding whether to pull the content into the course assignment. 
 
-  **Note:** The the code workspace can be updated with new files that have been added and students can see the changes. However, existing files cannot be updated as this can invalidate work for students who have already started the assignment.  
+  .. Note:: The the code workspace can be updated with new files that have been added and students can see the changes. However, existing files cannot be updated as this can invalidate work for students who have already started the assignment.  
 
   To enable students to see new content in a course they have already started, you can **Reset** the assignment (see :ref:`Assignment Settings <assignment-settings>`). However, if you reset an assignment, the existing work they have already completed is lost.
 

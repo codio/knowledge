@@ -101,7 +101,7 @@ If you have code in Codio and want to create a new GitHub (or other remote) repo
 3. Create a new, empty repo on GitHub or other remote repo.
 4. Copy the repo url to the clipboard. 
 
-   **Note:** If you're using GitHub, use the **SSH url** rather than **https**. Also make sure that your Codio public key is uploaded to your GitHub account or repo settings as described in :ref:`Upload SSH Key to Remote Server <upload-ssh-key-remote-server>`.
+.. Note:: If you're using GitHub, use the **SSH url** rather than **https**. Also make sure that your Codio public key is uploaded to your GitHub account or repo settings as described in :ref:`Upload SSH Key to Remote Server <upload-ssh-key-remote-server>`.
 
    .. figure:: /img/github-new-repo.png
       :alt: github repo

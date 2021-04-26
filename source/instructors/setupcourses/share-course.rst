@@ -38,5 +38,5 @@ You can also **Preview** your changes to see how the rendered output appears.
 
 When you are happy you can then publish and then **enable IP consent** that will then require teachers to accept your terms
 
-**Note:** Child courses created from licensed parent courses cannot be shared or cloned, and the content cannot be added to other courses, modules, or assignments.
+.. Note:: Child courses created from licensed parent courses cannot be shared or cloned, and the content cannot be added to other courses, modules, or assignments.
 

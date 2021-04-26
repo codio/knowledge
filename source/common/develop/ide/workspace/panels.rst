@@ -40,7 +40,7 @@ You can also customize these shortcuts in :ref:`User Preferences <user-prefs>`:
 
 To expand a tab to full screen mode, press **F11** on your keyboard. To reduce the size, press **F11** again.
 
-**Note:** Some Mac users may find that **F11** is blocked. You can easily modify the keyboard shortcut in :ref:`User Preferences <user-prefs>`.
+.. Note:: Some Mac users may find that **F11** is blocked. You can easily modify the keyboard shortcut in :ref:`User Preferences <user-prefs>`.
 
 
 Layouts

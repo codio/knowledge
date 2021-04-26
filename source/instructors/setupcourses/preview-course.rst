@@ -37,4 +37,4 @@ You can also preview an assignment as a teacher after you have added them. Follo
 1. On the **Courses** page, click the course that includes the assignments you want to preview.
 2. On the **Teach** page, click the **Preview** button. 
 
-**Note:** Each time you preview an assignment, it opens as new. Anything you may have added as notes to your preview is not saved.
+.. Note:: Each time you preview an assignment, it opens as new. Anything you may have added as notes to your preview is not saved.

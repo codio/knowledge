@@ -11,7 +11,7 @@ If your institution isn't providing access to Codio for you, you can purchase a 
 You can also cancel your subscription from this page. If the plan is for one or two semesters, there is no need to cancel the subscription. When your class ends, only the payment for the class is charged.
 
 
-**Note:** A single subscription can be used for multiple courses in Codio during the specified timeframe.
+.. Note:: A single subscription can be used for multiple courses in Codio during the specified timeframe.
 
 Individual billing
 --------------------

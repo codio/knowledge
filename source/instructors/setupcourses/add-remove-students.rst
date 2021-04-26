@@ -54,5 +54,5 @@ To remove a student from a course, follow these steps:
     .. image:: /img/manage_classes/remove_student.png
        :alt: Remove Student
 
-   **Note:** This does not remove your student entirely from your organization. To remove a student from your organization, see - :ref:`remove members <remove-org-members>`.
+   .. Note:: This does not remove your student entirely from your organization. To remove a student from your organization, see - :ref:`remove members <remove-org-members>`.
 

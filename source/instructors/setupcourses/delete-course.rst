@@ -24,4 +24,4 @@ A course can be deleted by course teachers and organization owners. You can also
 
 When deleting a course, all students work will also be deleted. If you wish to retain a copy of their work, you can :ref:`export course data <export-course>`
 
-**Note:** :ref:`Organization owners <org-owners>` can view a list of any members that are no longer assigned to courses and remove users from the organization. 
+.. Note:: :ref:`Organization owners <org-owners>` can view a list of any members that are no longer assigned to courses and remove users from the organization. 

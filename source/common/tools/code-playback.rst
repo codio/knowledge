@@ -28,4 +28,4 @@ If you delete a file in error, you can use **Code Playback** to find the file an
 4. Copy the code from the playback and paste it into a new file.
 
 
-**Note:** If you don't see **Tools > Code Playback** on the menu bar, right-click a tab or in the file tree, and choose **Code Playback**.
+.. Note:: If you don't see **Tools > Code Playback** on the menu bar, right-click a tab or in the file tree, and choose **Code Playback**.

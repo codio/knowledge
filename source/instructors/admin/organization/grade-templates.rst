@@ -12,7 +12,7 @@ The Grading Rubric feature includes a two-dimensional grid that provides grading
 
 You create the templates from the Grading Templates menu on the Organizations page, and then instructors can assign the templates to their assignments. 
 
-**Note:** Only organization Owners can access this page and create grading templates.
+.. Note:: Only organization Owners can access this page and create grading templates.
 
 Follow these steps to create a rubric grading template:
 
@@ -41,4 +41,4 @@ Follow these steps to create a rubric grading template:
 
    A final score is calculated based on the selections and is re-based to the maximum column value. If you want the scores to calculate to percentages, choose a maximum value of 100, with other column values distributed between 0 and 100.
 
-Note: A rubric can be cloned from another assignment instead of manually creating a new template. In the assignment that has a rubric template assigned to it, click the **Settings** icon to select the assignment.
+.. Note:: A rubric can be cloned from another assignment instead of manually creating a new template. In the assignment that has a rubric template assigned to it, click the **Settings** icon to select the assignment.

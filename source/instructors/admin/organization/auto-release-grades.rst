@@ -9,7 +9,7 @@ By default, students are not shown their grades until the instructor releases th
 
 Follow these steps to enable releasing grades automatically:
 
-**Note:** Enabling this feature does not affect existing courses. You can enable this feature on individual courses if needed.
+.. Note:: Enabling this feature does not affect existing courses. You can enable this feature on individual courses if needed.
 
 1. Click your profile icon in the lower left corner of the screen.
 

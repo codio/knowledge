@@ -60,7 +60,7 @@ You can check by logging into your Codio account in your browser and you will se
 
 Having selected the server log in using your codio credentials.
 
-**Note:** that if you usually access Codio through an :ref:`LMS <integrate-lms>`, you may not have a Codio account password set. If that is the case, go to the online login screen where you can go through the:ref:`lost password <password>` process to define a codio account password. We would then recommend you log into your account online and change this password to one you will remember in the future. Setting a Codio account password will not effect or change how you currently access Codio via your LMS
+.. Note:: that if you usually access Codio through an :ref:`LMS <integrate-lms>`, you may not have a Codio account password set. If that is the case, go to the online login screen where you can go through the:ref:`lost password <password>` process to define a codio account password. We would then recommend you log into your account online and change this password to one you will remember in the future. Setting a Codio account password will not effect or change how you currently access Codio via your LMS
 
 Accessing and connecting to your online content
 -----------------------------------------------
