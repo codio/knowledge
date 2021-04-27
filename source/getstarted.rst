@@ -3,8 +3,14 @@
 
 .. toctree::
    :name: getstarted
-   :maxdepth: 2
-   
+
+
+Getting Started
+---------------
+
+.. toctree::
+   :maxdepth: 1
+
    instructors/getstarted/startlist
    instructors/getstarted/onboard
    instructors/getstarted/howto

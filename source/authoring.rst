@@ -8,7 +8,7 @@ Creating instructional content
 ------------------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    instructors/authoring/guides/intro
    instructors/authoring/guides/project_book
@@ -30,7 +30,7 @@ Guides Settings and Page actions
 --------------------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    instructors/authoring/guides/settings/page
    instructors/authoring/guides/settings/opentabs
@@ -44,7 +44,7 @@ Auto-graded assessments
 -----------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    instructors/authoring/assessments/add-assessment
    instructors/authoring/assessments/advanced-code-test
@@ -69,7 +69,7 @@ Auto-graded assessments
 Assessments library
 -------------------
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    instructors/setupcourses/resources/assessmentslibrary
    instructors/setupcourses/resources/add-questions-from-library

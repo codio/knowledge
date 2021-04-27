@@ -8,7 +8,7 @@ Courses
 -------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    instructors/setupcourses/courses
    instructors/setupcourses/create-course
@@ -41,7 +41,7 @@ Codio instructional resources
 -----------------------------
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    instructors/setupcourses//resources/codioresources
    instructors/setupcourses//resources/editingresources
@@ -55,7 +55,7 @@ Additional resources
 --------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    instructors/setupcourses/resources/resourcetools/intro
    instructors/setupcourses/resources/resourcetools/crunch
@@ -70,7 +70,7 @@ Connecting to your LMS (Canvas, Blackboard, Moodle etc)
 -------------------------------------------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    instructors/admin/integration/intro
    
@@ -78,7 +78,7 @@ Managing assignments
 --------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    instructors/setupcourses/assignment-settings/assignment-settings
    instructors/setupcourses/assignment-settings/assignment-actions

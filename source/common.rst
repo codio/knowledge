@@ -8,7 +8,7 @@ Projects
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    common/develop/projects/projects
    common/develop/projects/project-permissions
@@ -22,7 +22,7 @@ Stacks
 ------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    common/develop/stacks/stacks
    common/develop/stacks/using-stacks
@@ -35,7 +35,7 @@ Starter Packs
 -------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    common/develop/projects/starter-packs
    common/develop/projects/create-starter-pack
@@ -50,7 +50,7 @@ Workspace
 ---------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    common/develop/ide/workspace/workspace
    common/develop/ide/workspace/panels
@@ -63,7 +63,7 @@ Code Editing Features
 ---------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    common/develop/ide/editing/code-editing
    common/develop/ide/editing/abbreviations
@@ -88,7 +88,7 @@ Tools
 -----
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    common/tools/tools
    common/develop/ide/tools/deployment
@@ -101,7 +101,7 @@ Boxes
 -----
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    common/develop/ide/boxes/overview
    common/develop/ide/boxes/ide-access-permissions
@@ -119,7 +119,7 @@ Installing Software Packages
 ----------------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    common/develop/ide/boxes/installsw/install-software
    common/develop/ide/boxes/installsw/file-locations
@@ -136,7 +136,7 @@ Debugger
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    common/develop/ide/debugger/debugger
    common/develop/ide/debugger/create-debug-target

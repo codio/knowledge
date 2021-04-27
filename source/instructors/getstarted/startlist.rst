@@ -3,6 +3,8 @@
 
 .. _start-list:
 
+
+
 Getting Started
 ===============
 - Get an overview of Codio by viewing our collection of :ref:`How to Videos <how-to-videos>`.

@@ -3,7 +3,7 @@
    
 .. toctree::
    :name: teaching
-   :maxdepth: 2
+   :maxdepth: 1
    
    instructors/teaching/viewstudentwork
    instructors/teaching/grading/grading

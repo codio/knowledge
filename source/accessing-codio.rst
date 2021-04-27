@@ -8,7 +8,7 @@ Accessing Codio
 ---------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    
    students/accessing-codio/joining
@@ -19,7 +19,7 @@ Account Settings
 ----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    common/settings/user-profile
    common/settings/manage-password
@@ -28,7 +28,7 @@ SSH Keys
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    common/settings/ssh-key
    common/settings/upload-ssh-key-remote-server
