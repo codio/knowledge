@@ -4,12 +4,10 @@
 Content Authoring
 =================
 
-In this section:
+.. toctree::
+   :name: authoring
 
-- :ref:`Creating instructional content <intro>`
-
-- :ref:`Editing existing materials <page-editing>`
-
-- :ref:`Auto-graded assessments <assessments>`
-
-    - :ref:`Assessments library <global-library>`
+   Creating instructional content <instructors/authoring/guides/intro>
+   Editing existing materials <instructors/authoring/guides/page-editing>
+   Auto-graded assessments <instructors/authoring/assessments/assessments>
+   Assessments library <instructors/setupcources/resources/global-library>
