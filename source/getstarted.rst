@@ -3,6 +3,9 @@
 
 .. toctree::
    :name: getstarted
+   
+Overview
+========
 
    Getting Started <instructors/getstarted/startlist>
    Onboarding Guide <instructors/getstarted/onboard>

@@ -3,6 +3,9 @@
    
 .. toctree::
    :name: courses
+   
+Your Courses
+============
 
     Navigate the dashboard <students/courses/navigate-student-dashboard>
 
