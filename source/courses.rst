@@ -1,23 +1,20 @@
 .. meta::
    :description: Dashboard, courses, assignments, grades
    
-Your Courses
-============
+.. toctree::
+   :name: courses
 
-In this section:
+    Navigate the dashboard <students/courses/navigate-student-dashboard>
 
+    Accessing your Course <students/accessing-codio/joining>
 
-- :ref:`Navigate the dashboard <navigate-student-dashboard>`
+    Starting a Course <students/courses/start-assigment>
 
-- :ref:`Accessing your Course <accessing-your-courses>`
+    Completing Assignments <students/courses/complete-assignment>
 
-- :ref:`Starting a Course <start-assigment>`
+    Exam mode <students/courses/exam-mode>
 
-- :ref:`Completing Assignments <complete-assignment>`
-
-    - :ref:`Exam mode <exam-mode>`
-    
-    - :ref:`Viewing Grades <view-grade>`
+    Viewing Grades <students/courses/view-grade>
 
 
 
