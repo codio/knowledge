@@ -26,15 +26,12 @@ Creating instructional content
    instructors/authoring/guides/hide_folders
    instructors/authoring/guides/latex
 
-Editing Resources
------------------
 Guides Settings and Page actions
 --------------------------------
 
 .. toctree::
    :maxdepth: 2
 
-   instructors/setupcourses/resources/editingresources
    instructors/authoring/guides/settings/page
    instructors/authoring/guides/settings/opentabs
    instructors/authoring/guides/settings/assessments
@@ -75,5 +72,9 @@ Assessments library
    :maxdepth: 2
 
    instructors/setupcourses/resources/assessmentslibrary
+   instructors/setupcourses/resources/add-questions-from-library
    instructors/setupcourses/resources/global-library
+   instructors/setupcourses/resources/search-library
+   instructors/setupcourses/resources/unlink-assessment
    instructors/setupcourses/resources/update-assess-from-library
+   instructors/setupcourses/resources/add-questions-to-library
