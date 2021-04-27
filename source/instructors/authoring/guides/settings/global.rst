@@ -3,8 +3,8 @@
 
 .. _global:
 
-Global
-======
+Global Guide Settings
+=====================
 
 The settings on this page apply to the entire guide or book.
 

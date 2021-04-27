@@ -1,30 +1,30 @@
 .. meta::
-   :description: Guides Overview
+   :description: Codio guides allow you to create instructional content and assessments.
    
 
 .. _intro:
 
-Introduction
-============
+Introduction to Guides
+======================
 
-Codio Guides is a powerful authoring tool creating rich tutorial and instructional content as well as assessments. Here are a few of the key features.
+Codio provides a powerful authoring tool called Guides you can use to create rich tutorial and instructional content as well as assessments. Here are a few of the key features.
 
-Each page of content can 
+From a Guides page you can:
 
-- :ref:`control the layout of the IDE <page>`
+- :ref:`Control the layout of the IDE <page>`
 - :ref:`Open and close files, terminal windows and html page previews <open-tabs>`
 - :ref:`Launch commands <open-tabs>` from the content page and pipe terminal output into the content page
 - Create manually and automatically graded :ref:`questions and assessments <assessments>`
 - Manage a :ref:`table of contents <toc>`
-- Teachers/Instructors can obtain :ref:`PDF <export-pdf>` export of the guides content to distribute to students as required
+- Teachers/Instructors can export a :ref:`PDF <export-pdf>` of the Guides content to distribute to students as required.
 
-Where is it?
-************
+Accessing Codio Guides
+**********************
 
-You can launch the content authoring from
+You can launch Guides and begin content authoring in one of the following ways:
 
-- The menu, **Tools->Guide->Edit**
-- The button at the top of the file tree as shown below
+- Click **Tools->Guide->Edit** in the menu.
+- Click the button at the top of the **Filetree** as shown below
 
   .. image:: /img/guides/startguides.png
      :alt: Start Authoring
