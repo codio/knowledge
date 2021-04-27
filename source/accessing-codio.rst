@@ -1,28 +1,40 @@
 .. meta::
    :description: Joining a course, passwords, subscriptions
+
+.. toctree::
+   :name: accessing-codio
    
 Accessing Codio
-===============
+---------------
 
-In this section:
+.. toctree::
+   :maxdepth: 2
+   
+   
+   students/accessing-codio/joining
+   students/accessing-codio/paying
 
-- :ref:`Joining a course <joining>`
 
-- :ref:`Subscription plans <paying>`
+Account Settings
+----------------
 
-Account Settings:
-
-    - :ref:`User Profile <user-profile>`
+.. toctree::
+   :maxdepth: 2
+   
+   common/settings/user-profile
+   common/settings/manage-password
     
-    - :ref:`Managing/resetting your password <password>`
-    
-SSH Keys:
+SSH Keys
+--------
 
-    - :ref:`Upload SSH Key to Remote Server <upload-ssh-key-remote-server>`
-    
-    - :ref:`Connect to GitHub <github>`
-    
-    - :ref:`Connect to BitBucket <bitbucket>`
+.. toctree::
+   :maxdepth: 2
+
+   common/settings/ssh-key
+   common/settings/upload-ssh-key-remote-server
+   common/settings/bitbucket
+   common/settings/github
+   
 
 
 

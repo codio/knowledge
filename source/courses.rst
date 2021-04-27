@@ -1,23 +1,23 @@
 .. meta::
    :description: Dashboard, courses, assignments, grades
    
+.. toctree::
+   :name: courses
+   
 Your Courses
-============
+------------
 
-In this section:
+.. toctree::
+   :maxdepth: 2
 
-
-- :ref:`Navigate the dashboard <navigate-student-dashboard>`
-
-- :ref:`Accessing your Course <accessing-your-courses>`
-
-- :ref:`Starting a Course <start-assigment>`
-
-- :ref:`Completing Assignments <complete-assignment>`
-
-    - :ref:`Exam mode <exam-mode>`
-    
-    - :ref:`Viewing Grades <view-grade>`
-
+   students/courses/navigate-student-dashboard
+   students/courses/accessing
+   students/courses/start-assignment
+   students/courses/usingguides
+   students/courses/play-mode
+   students/courses/complete-assignment
+   students/courses/exam-mode
+   students/courses/view-grade
+   students/courses/restore-files
 
 

@@ -62,8 +62,7 @@ You can regrade all student's assignments that have already been auto-graded fro
 
 Test and debug your grading scripts
 -----------------------------------
-.. Important::
-Codio provides the ability to test your auto-grading scripts when creating your project, this should be done before publishing your project to a course. Once an assignment has been published to the course, any changes made to the assignment's source project are not automatically reflected in the published assignment. As a result, if you include your main grading logic in the project and the script has bugs, you cannot fix the bugs without deleting the assignment. All student data is lost. However, if all your scripts are stored in the **.guides/secure** folder, you can update and test the scripts and then publish the new version.
+.. Note:: Codio provides the ability to test your auto-grading scripts when creating your project, this should be done before publishing your project to a course. Once an assignment has been published to the course, any changes made to the assignment's source project are not automatically reflected in the published assignment. As a result, if you include your main grading logic in the project and the script has bugs, you cannot fix the bugs without deleting the assignment. All student data is lost. However, if all your scripts are stored in the **.guides/secure** folder, you can update and test the scripts and then publish the new version.
 
 Test your script using bootstrap launcher
 .........................................

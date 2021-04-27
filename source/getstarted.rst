@@ -1,17 +1,13 @@
 .. meta::
    :description: Getting started with Codio including videos and tutorials
+
+.. toctree::
+   :name: getstarted
+   :maxdepth: 2
    
-Overview
-========
+   instructors/getstarted/startlist
+   instructors/getstarted/onboard
+   instructors/getstarted/howto
+   instructors/getstarted/support/support
+   instructors/getstarted/support/changelog
 
-In this section:
-
-- :ref:`Getting Started <start-list>`
-
-- :ref:`Onboarding Guide <onboarding-guide>`
-
-- :ref:`How to Videos <how-to-videos>`
-
-- :ref:`Codio Support <codio-support>`
-
-    - :ref:`Changelog <changelog>`
