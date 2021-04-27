@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2021**
 
+- `[I] [27th]`: Fix problem with Junit test output
 - `[F] [21st]`: Added support for :ref:`Pencil Code <pencilcode>`
 - `[I] [21st]`: Improve :ref:`PDF export <export-pdf>` allowing all selected assignments to be compiled into separate or one PDF file
 - `[I] [21st]`: Add SQL query grading support to :ref:`Standard Code Test <standard-code-test>`
