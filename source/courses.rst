@@ -5,19 +5,19 @@
    :name: courses
    
 Your Courses
-============
+------------
 
-    Navigate the dashboard <students/courses/navigate-student-dashboard>
+.. toctree::
+   :maxdepth: 2
 
-    Accessing your Course <students/accessing-codio/joining>
-
-    Starting a Course <students/courses/start-assigment>
-
-    Completing Assignments <students/courses/complete-assignment>
-
-    Exam mode <students/courses/exam-mode>
-
-    Viewing Grades <students/courses/view-grade>
-
+   students/courses/navigate-student-dashboard
+   students/courses/accessing
+   students/courses/start-assignment
+   students/courses/usingguides
+   students/courses/play-mode
+   students/courses/complete-assignment
+   students/courses/exam-mode
+   students/courses/view-grade
+   students/courses/restore-files
 
 

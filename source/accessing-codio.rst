@@ -1,5 +1,8 @@
 .. meta::
    :description: Joining a course, passwords, subscriptions
+
+.. toctree::
+   :name: accessing-codio
    
 Accessing Codio
 ---------------

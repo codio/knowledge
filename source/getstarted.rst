@@ -3,12 +3,11 @@
 
 .. toctree::
    :name: getstarted
+   :maxdepth: 2
    
-Overview
-========
+   instructors/getstarted/startlist
+   instructors/getstarted/onboard
+   instructors/getstarted/howto
+   instructors/getstarted/support/support
+   instructors/getstarted/support/changelog
 
-   Getting Started <instructors/getstarted/startlist>
-   Onboarding Guide <instructors/getstarted/onboard>
-   How to Videos <instructors/getstarted/howto>
-   Codio Support <instructors/getstarted/support/support>
-   Changelog <instructors/getstarted/support/changelog>

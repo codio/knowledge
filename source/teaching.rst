@@ -2,6 +2,7 @@
    :description: Grading, viewing student work, remote toolkit
    
 .. toctree::
+   :name: teaching
    :maxdepth: 2
    
    instructors/teaching/viewstudentwork
@@ -17,3 +18,6 @@
    instructors/teaching/remove
    instructors/teaching/plagiarism
    instructors/teaching/datadownload
+   instructors/teaching/addstudents
+
+   

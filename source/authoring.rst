@@ -1,8 +1,8 @@
 .. meta::
    :description: Authoring instructional content and assessments
-   
-Content Authoring
-^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :name: authoring
 
 Creating instructional content
 ------------------------------
