@@ -4,6 +4,9 @@
 .. toctree::
    :name: admin
 
+Admin
+^^^^^
+
 Integrating with your LMS system (Canvas etc.)
 ----------------------------------------------
 

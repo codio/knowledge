@@ -3,6 +3,11 @@
    
 .. toctree::
    :name: teaching
+
+Teaching
+--------
+
+.. toctree::
    :maxdepth: 1
    
    instructors/teaching/viewstudentwork
