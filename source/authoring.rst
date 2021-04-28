@@ -4,8 +4,8 @@
 .. toctree::
    :name: authoring
 
-Creating instructional content
-------------------------------
+Authoring
+---------
 
 .. toctree::
    :maxdepth: 1

@@ -4,8 +4,8 @@
 .. toctree::
    :name: setupcourses
    
-Courses
--------
+Courses Set up
+--------------
 
 .. toctree::
    :maxdepth: 1
