@@ -6,6 +6,8 @@
 Global Guide Settings
 =====================
 
+Access **Global** settings by clicking on **Settings** while editing a Guide and then clicking on the **Global** tab.
+
 The settings on this page apply to the entire guide or book.
 
   .. image:: /img/guides/globalsettings.png

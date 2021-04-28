@@ -1,11 +1,11 @@
 .. meta::
-   :description: Custom Button
+   :description: Custom Button can be added to Guides to execute desired commands.
 
-Custom Buttons
-==============
-Custom buttons are a powerful feature that let you insert a button into your guide content that when pressed can carry out any custom action.
+Custom Buttons in Guides
+========================
+Custom buttons allow you to insert a button into your guide content that when pressed can carry out any custom action.
 
-There are a number of ways to use a custom button
+Use buttons to perform a variety of actions:
 
 To jump to a page in the content
 ********************************
@@ -41,7 +41,7 @@ There are cases where you will want to launch a command in a dedicated terminal 
 
 Launching a debugger configuration
 **********************************
-You can launch a debugger configuration as shown below. It is important to specify the configuration name exactly.
+You can launch a debugger configuration as shown below. It is important to specify the configuration name exactly. More information about the debugger :ref:`here <start-debug>`.
 
 .. code:: markdown
 
@@ -67,7 +67,7 @@ To do this, you should use the following format for your custom button.
 
     {Button Text|custom}(myId)
 
-If you wish to use a custom event handler to allow students to restore current files and handle other functions, you can do so but you will need to include this code in your custom script
+If you wish to use a custom event handler to allow students to restore current files and handle other functions, you can do so but you will need to include this code in your custom script:
 
 .. code:: ini
 
@@ -80,7 +80,11 @@ If you wish to use a custom event handler to allow students to restore current f
 
 Loading Scripts
 ---------------
-You should point your content page to a script file to load javascript scripts. You can do this from **Settings>Global>Scripts**.
+You should point your content page to a script file to load javascript scripts. 
+
+1. In Edit mode in the Guide click **Settings**.
+2. Select the **Global** tab in the Guide.
+3. Enter the location of your scripts in the **Scripts** area.
 
 
   .. image:: /img/guides/scripts.png
@@ -91,9 +95,9 @@ You should point your content page to a script file to load javascript scripts. 
 
 Event Listener
 --------------
-The event listener is able to execute your custom task. It will display a custom message area beneath it into which you can write your own results data. The message data can be a custom message that a test might return and can be plain text or HTML.
+The event listener executes a custom task. It will display a custom message area into which you can write your own results data. The message data can be a custom message and can be plain text or HTML.
 
-For the event listener to run you should include in **Settings>Global>Scripts**:
+For the event listener to run you need to include the following in the **Scripts** area of your **Global** settings(see **Loading Script** above).
 
 - https://codio.com/codio-client.js (where your account is running on codio.com)
 - https://codio.co.uk/codio-client.js (where your account is running on codio.co.uk)
@@ -131,4 +135,4 @@ The available button commands are
     codio.setButtonValue(ev.id, codio.BUTTON_STATE.INVALID, 'Internal error');
 
 
-The 3rd parameter can contain any text to display in the button's attached message area. It can be plain text or HTML.
+The 3rd parameter can contain text to display in the button's attached message area. It can be plain text or HTML.

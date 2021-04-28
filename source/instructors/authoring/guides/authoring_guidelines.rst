@@ -4,7 +4,7 @@
 Authoring Guidelines
 ====================
 
-The following are some guidelines for authoring content in Guides.
+The following are guidelines for authoring content in Guides.
 
 
 Style your content using Markdown

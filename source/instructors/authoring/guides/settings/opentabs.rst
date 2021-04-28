@@ -1,5 +1,5 @@
 .. meta::
-   :description: Open tab settings
+   :description: The Open Tab settings specify what will display in the panels of a Codio window
 
 .. _open-tabs:
 
