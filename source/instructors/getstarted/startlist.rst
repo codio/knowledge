@@ -1,7 +1,11 @@
 .. meta::
    :description: Get started teaching with Codio
 
+
+
 .. _start-list:
+
+
 
 Getting Started
 ===============

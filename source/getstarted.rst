@@ -1,10 +1,14 @@
 .. meta::
    :description: Getting started with Codio including videos and tutorials
 
+:name: getstarted
+
+Getting Started
+---------------
+
 .. toctree::
-   :name: getstarted
-   :maxdepth: 2
-   
+   :maxdepth: 1
+
    instructors/getstarted/startlist
    instructors/getstarted/onboard
    instructors/getstarted/howto

@@ -4,11 +4,14 @@
 .. toctree::
    :name: admin
 
+Admin
+^^^^^
+
 Integrating with your LMS system (Canvas etc.)
 ----------------------------------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    instructors/admin/integration/intro
    instructors/admin/integration/lti-keys
@@ -23,7 +26,7 @@ Integrating with LMS's
 ----------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    instructors/admin/integration/canvas
    instructors/admin/integration/blackboard
@@ -35,7 +38,7 @@ Inviting teachers and owners to your org
 ----------------------------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    instructors/admin/organization/add-remove-org-owners
    instructors/admin/organization/add-teachers
@@ -44,7 +47,7 @@ Organization settings
 ---------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    instructors/admin/organization/organization
    instructors/admin/organization/auto-release-grades
@@ -64,7 +67,7 @@ Billing
 -------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    instructors/admin/orgbilling
 
@@ -72,7 +75,7 @@ Account Settings
 ----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    common/settings/settings
    common/settings/user-profile
@@ -90,7 +93,7 @@ Legal stuff
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    instructors/admin/legal
 
