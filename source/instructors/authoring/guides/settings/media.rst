@@ -1,9 +1,11 @@
 .. meta::
-   :description: Media Settings
+   :description: Media Settings allow you add an audio element to your Guide.
 
-Media
-=====
+Media Settings for a Guide
+==========================
 
-This setting allows you to add a soundtrack to your page, that plays when the page is shown. It can trigger opening of files, terminal windows and preview windows at designated times within the track.
+Access **Media** settings by clicking on **Settings** while editing a Guide and then clicking on the **Media** tab.
+
+This setting allows you to add a soundtrack to your page that will play when the page is shown. You can use designated times within the track to trigger opening of files, terminal windows and preview windows.
 
 :ref:`click here <add-media>` for details on how to use this feature.
