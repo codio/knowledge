@@ -13,25 +13,16 @@ Integrating with your LMS system (Canvas etc.)
 .. toctree::
    :maxdepth: 1
 
-   instructors/admin/integration/intro
-   instructors/admin/integration/lti-keys
-   instructors/admin/integration/lti-app
-   instructors/admin/integration/lti-constant
-   instructors/admin/integration/lti-course-copy
-   instructors/admin/integration/grading
-   instructors/admin/integration/lti1-3
-   instructors/admin/integration/lms-students
+   instructors/admin/integration/index
    
-Integrating with LMS's
-----------------------
+   
+LMS system specific instructions
+--------------------------------
 
 .. toctree::
    :maxdepth: 1
    
-   instructors/admin/integration/canvas
-   instructors/admin/integration/blackboard
-   instructors/admin/integration/d2l
-   instructors/admin/integration/moodle
+   instructors/admin/integration/lms-systems/index
 
 
 Inviting teachers and owners to your org

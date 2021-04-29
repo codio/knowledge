@@ -11,10 +11,7 @@ Teaching
    :maxdepth: 1
    
    instructors/teaching/viewstudentwork
-   instructors/teaching/grading/grading
-   instructors/teaching/grading/grade-freetext
-   instructors/teaching/grading/nbgrader
-   instructors/teaching/grading/release-grades
+   instructors/teaching/grading/index
    instructors/teaching/insights
    instructors/teaching/playback
    instructors/teaching/commenting
@@ -24,5 +21,6 @@ Teaching
    instructors/teaching/plagiarism
    instructors/teaching/datadownload
    instructors/teaching/addstudents
+   
 
    

@@ -5,10 +5,14 @@
    :name: authoring
 
 Authoring
----------
+=========
+
+
 
 .. toctree::
    :maxdepth: 1
+   :caption: Authoring
+   :hidden:
 
    instructors/authoring/guides/intro
    instructors/authoring/guides/project_book
@@ -31,6 +35,9 @@ Guides Settings and Page actions
 
 .. toctree::
    :maxdepth: 1
+   :caption: Guides Settings and Page actions
+   :hidden:
+
 
    instructors/authoring/guides/settings/page
    instructors/authoring/guides/settings/opentabs
@@ -45,6 +52,9 @@ Auto-graded assessments
 
 .. toctree::
    :maxdepth: 1
+   :caption: Auto-graded assessments
+   :hidden:
+
 
    instructors/authoring/assessments/add-assessment
    instructors/authoring/assessments/advanced-code-test
@@ -70,6 +80,9 @@ Assessments library
 -------------------
 .. toctree::
    :maxdepth: 1
+   :caption: Assessments library
+   :hidden:
+
 
    instructors/setupcourses/resources/assessmentslibrary
    instructors/setupcourses/resources/add-questions-from-library
