@@ -201,6 +201,15 @@
   border-bottom: 1px solid #eee;
 }
 
+.bd-sidebar .nav li>a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
+
 .section-nav {
   border-left: none;
 }
