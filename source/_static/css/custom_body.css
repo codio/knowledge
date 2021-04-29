@@ -5,3 +5,15 @@ body {
 .footer {
     border-top: none;
 }
+
+.container-xl .row {
+    justify-content: center;
+}
+
+.container-xl .no-sidebar {
+    display: none !important;
+}
+
+.container-xl .d-none {
+    display: none !important;
+}
