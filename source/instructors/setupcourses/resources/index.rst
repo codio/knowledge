@@ -9,7 +9,4 @@ Codio Instructional Resources
    
    codioresources
    editingresources
-   global-library
-   search-library
-   unlink-assessment
-   update-assess-from-library
+   

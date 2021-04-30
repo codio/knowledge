@@ -6,7 +6,7 @@
 Dyslexia Support
 ================
 
-Codio has a built in dyslexia support feature for users with dyselexia. To enable dyslexia support mode, follow these steps:
+Codio has a built in dyslexia support feature for users with dyselexia that provides the ability to set your Theme to Dyslexia view. To enable dyslexia support mode, follow these steps:
 
 1. Open an assignment.
 

@@ -11,29 +11,17 @@ Accessing Codio
    :maxdepth: 1
    
    
-   students/accessing-codio/joining
-   students/accessing-codio/paying
+   students/accessing-codio/index
 
 
-Account Settings
-----------------
+Account Settings & SSH Keys
+---------------------------
 
 .. toctree::
    :maxdepth: 1
    
-   common/settings/user-profile
-   common/settings/manage-password
-    
-SSH Keys
---------
-
-.. toctree::
-   :maxdepth: 1
-
-   common/settings/ssh-key
-   common/settings/upload-ssh-key-remote-server
-   common/settings/bitbucket
-   common/settings/github
+   common/settings/index
+   
    
 
 
