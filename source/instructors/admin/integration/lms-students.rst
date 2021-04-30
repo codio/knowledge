@@ -1,15 +1,15 @@
 .. meta::
-   :description: How your LMS users are identified in Codio
+   :description: How your users are identified in Codio
 
 .. _lms-users:
 
 User account creation
 =====================
 
-When integrating with an LMS, you do not need to :ref:`add/invite <add-remove-students>` students or teachers to your course. All is handled when the users access an assignment in the LMS mapped to Codio.
+When integrating with an external system, you do not need to :ref:`add/invite <add-remove-students>` students or teachers to your course. All is handled when the users access an assignment in the system mapped to Codio.
 
 
-It is also important to understand how Codio maps LMS users to Codio users. The following rules should be understood. 
+It is also important to understand how Codio maps external system users to Codio users. The following rules should be understood. 
 
 - If students or faculty access Codio via an LMS assignment then Codio will initially use the LMS email address to identify the user and create the Codio account. 
 - In all subsequent access, the userID will be used so in the event the user changes their email address in the LMS, the user will be mapped to the same Codio account.
