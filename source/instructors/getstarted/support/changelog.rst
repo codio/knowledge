@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**May 2021**
+
+- `[F] [ 4th]`: Add support for :ref:`Participation Grading <participation-grading>`
+
 **April 2021**
 
 - `[F] [30th]`: Add support to integrate with :ref:`Google Classroom <google-classroom>`
