@@ -120,6 +120,6 @@ If you are experiencing this situation, let your teacher/professor know and they
 Reset my assignment to its default configuration
 ------------------------------------------------
 
-If the assignment you are referring to uses **Guides**, check out :ref:`Restore Current Files <restore-files>` as that may do what you need but if not and your instructor hasn't allowed you to :ref:`reset <student-reset>`the assignment yourself, discuss with your class instructor as they can :ref:`reset <modify-assignments>` the assignment for you and you can then start the unit again.  
+If the assignment you are referring to uses **Guides**, check out :ref:`Restore Current Files <restore-files>` as that may do what you need but if not and your instructor hasn't allowed you to :ref:`reset <student-reset>` the assignment yourself, discuss with your class instructor as they can :ref:`reset <modify-assignments>` the assignment for you and you can then start the unit again.  
 
 If you also let them know what you did , they may want to review the unit(s) you are working with to help mitigate this problem for you and other students in the future
