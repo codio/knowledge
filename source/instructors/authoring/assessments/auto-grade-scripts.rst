@@ -76,10 +76,6 @@ To enable this:
 
     answered = parsed['assessments']['stats']['answered']
 
-    if ('submitted' in parsed['assessments']['stats']):
-      answered = parsed['assessments']['stats']['submitted']
-
-
     total=parsed['assessments']['stats']['total']
 
     grade=answered*100/total
