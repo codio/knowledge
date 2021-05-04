@@ -49,6 +49,43 @@ You can get student scores for authored content-based, auto-graded assessments. 
       "completedDate": "2017-02-07T09:47:54.471Z"
     }
 
+.. _participation-grading:
+
+Participation Grading
+---------------------
+
+Participation grading can be enabled if required. 
+
+To enable this:
+
+- Add the script below as .py file to `.guides/secure` folder
+
+.. code:: python
+
+    import os
+    import json
+
+    # import grade submit function
+    import sys
+    sys.path.append('/usr/share/codio/assessments')
+    from lib.grade import send_grade
+
+    env = os.environ.get('CODIO_AUTOGRADE_ENV')
+
+    parsed = json.loads(env)
+
+    answered = parsed['assessments']['stats']['answered']
+
+    total=parsed['assessments']['stats']['total']
+
+    grade=answered*100/total
+    res = send_grade(int(round(grade)))
+    exit( 0 if res else 1)
+
+
+- Add the file to **Education> Test Autograde Script** 
+- Go to the assignment settings, enable **Script Grading** set to that file and disable **Assessments Grading**
+
 Regrade an individual student's assignment
 ------------------------------------------
 If students set their work to *complete* and the custom script is triggered, you can regrade their work by resetting the ``complete`` switch, and then set it to *complete* again, which triggers the custom script to run again.

@@ -13,8 +13,14 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**May 2021**
+
+- `[F] [ 4th]`: Add support for :ref:`Participation Grading <participation-grading>`
+
 **April 2021**
 
+- `[F] [30th]`: Add support to integrate with :ref:`Google Classroom <google-classroom>`
+- `[I] [27th]`: Update handling of guides opening in teachers working copies
 - `[I] [27th]`: Fix problem with Junit test output
 - `[F] [21st]`: Added support for :ref:`Pencil Code <pencilcode>`
 - `[I] [21st]`: Improve :ref:`PDF export <export-pdf>` allowing all selected assignments to be compiled into separate or one PDF file

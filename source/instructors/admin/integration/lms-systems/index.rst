@@ -1,13 +1,14 @@
 .. meta::
-   :description: Integrating with specific LMS system
+   :description: Integrating with specific s
 
-LMS system specific instructions
+System specific instructions
 ================================
 
 .. toctree::
-   :caption: Integrating with your LMS system
+   :caption: Integrating with external systems
    
    canvas
    blackboard
    d2l
    moodle
+   google-classroom

@@ -58,3 +58,19 @@ To obtain and activate a license from your campus bookstore, follow these steps:
 5. Enter the code that was provided to you. Note that the code is case sensitive so enter it exactly as provided to you.
 
 If you have any problems contact us through your Codio account or email us at help@codio.com.
+
+Problems setting up a new subscription plan
+-------------------------------------------
+
+If you are seeing the message 'Do not Honor', then it is likely that your bank is unwilling to accept the transaction but they are not giving the specific reason to our processing company. 
+
+You should contact your card issuing bank for more details of the exact reason. 
+
+We have heard of a few cases, especially from US banks where they do not allow international transactions by default but when you are able to explain to them what you are looking to do, they usually are able to allow it and you can then subscribe with that card but if they won't, try a different card.
+
+If you are seeing General error in Cardinal, this error can be caused due to adblockers or cookies being blocked
+
+Please try using another browser or stop your adblocker during the payment process or login to Codio either with a different browser where you don't have adblockers running or in an incognito/private session. If using incognito session in Chrome, ensure that you are not blocking third-party cookies that is enabled by default now in Chrome
+
+   .. image:: /img/chrome-incognito.png
+      :alt: Chrome Incognito

@@ -60,3 +60,6 @@ Overview of Codio Resources and Share Code
 -  `Think Data Structures: Algorithms and Information Retrieval in Java <https://www.codio.com/resources/think-data-structures>`__ **Share Code: GLEM-39J2-UYRD** Allen Downey's Think Data Structures: Algorithms and information retrieval in Java text.
 -  `CS: Introduction in C++ <https://www.codio.com/resources/intro-c>`__ **Share Code: YCLD-L7XW-3ZXK** Introduction to Computer Science in C++ with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
 -  `CS: Objects in Python <https://www.codio.com/resources/objects-python>`__ **Share Code: 4HPN-GDUJ-V6AL** Introduction to Objects in Python with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
+-  `CS: Objects in C++ <https://www.codio.com/resources/objects-cpp>`__ **Share Code: RGHT-FL7F-PE2E** Introduction to Objects in C++ with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
+
+
