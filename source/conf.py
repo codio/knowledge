@@ -98,6 +98,7 @@ html_theme_options = {
     "navbar_align": "none",
     "search_bar_text": "Search ...",
     "show_toc_level": 2,
+    "page_sidebar_items": [],
 #   "external_links": [
 #       {"name": "Overview", "url": "/instructors/getstarted"},
 #       {"name": "Authoring", "url": "/instructors/authoring"},
