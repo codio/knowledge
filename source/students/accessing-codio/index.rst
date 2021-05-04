@@ -9,3 +9,4 @@ Accessing Codio
    
    joining
    paying
+   faq
