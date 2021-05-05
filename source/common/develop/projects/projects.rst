@@ -3,8 +3,22 @@
 
 .. _projects:
 
+Developing Code
+===============
+
+.. toctree::
+   :caption: Projects
+   :hidden:
+   
+   project-permissions
+   project-settings
+   create-import-project
+   access-projects
+   copy-project
+   export-project
+
 Projects
-========
+--------
 
 .. toctree::
    :caption: Projects
