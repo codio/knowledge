@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2021**
 
+- `[F] [ 5th]`: Add support for teachers to enable a :ref:`writable copy <viewing-student-work>` of students work at any time
 - `[F] [ 4th]`: Add support for :ref:`Participation Grading <participation-grading>`
 
 **April 2021**
