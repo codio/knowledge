@@ -6,6 +6,14 @@
 Codio instructional resources
 =============================
 
+.. toctree::
+   :caption: Codio Instructional Resources
+   :hidden:
+   
+   editingresources
+
+
+
 Codio's scaffolded resources use an interactive approach so students can actively construct knowledge. Students are presented with code samples as well as an online IDE so they can experiment hands-on. Codio instructional resources are completely editable and can be customized to suit your teaching context. You can mix-and-match different resources together and add your own content. 
 
 **Video: Assigning Codio Resources** 

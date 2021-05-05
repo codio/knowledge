@@ -3,8 +3,19 @@
    
 .. _grading:
 
-Grade Assignments
-=================
+
+Grading
+=======
+
+.. toctree::
+   :caption: Grading
+   :hidden:
+   
+   grade-freetext
+   nbgrader
+   release-grades
+
+
 Codio offers the following grading features:
 
 - **Assign Grade** - Manually review student projects and assign a grade.

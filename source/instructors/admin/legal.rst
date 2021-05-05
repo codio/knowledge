@@ -11,7 +11,7 @@ Legal stuff
 Accessibility
 *************
 
-https://www.codio.com/legal-stuff#compliance
+`Compliance <https://www.codio.com/legal-stuff#compliance>`__
 
 .. _vpat:
 
@@ -19,17 +19,17 @@ https://www.codio.com/legal-stuff#compliance
 
 .. _gdpr:
 
-GDPR
-****
+General Data Protection Regulation
+**********************************
 
-https://www.codio.com/legal-stuff#gdpr
+`GDPR <https://www.codio.com/legal-stuff#gdpr>`__
 
 .. _ferpa:
 
-FERPA
-*****
+Family Educational Rights and Privacy Act
+*****************************************
 
- https://www.codio.com/legal-stuff#ferpa
+`FERPA <https://www.codio.com/legal-stuff#ferpa>`__
  
 .. _coppa:
 
@@ -44,11 +44,11 @@ Personal Identifiable Information
 *********************************
 .. _pii:
 
-https://www.codio.com/legal-stuff#pii
+`Personal Identifiable Information <https://www.codio.com/legal-stuff#pii>`__
 
-General Security stuff
-**********************
+Terms and Conditions of Use
+***************************
 
 .. _sec-stat:
 
-https://www.codio.com/legal-stuff#terms-and-conditions
+`Terms and Conditions of Use <https://www.codio.com/legal-stuff#terms-and-conditions>`__

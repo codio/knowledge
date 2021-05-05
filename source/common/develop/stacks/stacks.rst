@@ -5,6 +5,17 @@
 
 Stacks
 ======
+
+.. toctree::
+   :caption: Stacks
+   :hidden:
+   
+   using-stacks
+   create-stack
+   modify-stack
+   update-stack
+   switch-stack
+
 Codio projects are mounted to software configuration templates, known as Codio stacks. A stack refers to the software configuration of a project server (box), which includes everything on the server outside the code workspace (`/home/codio/workspace`) that you see in the IDE file tree. 
 
 When you create a new Codio project or course assignment, you must specify a stack that contains the operating system (always) and other components such as languages, databases and tools. You can use our pre-configured stacks or create your own using the :ref:`project templates <projects>`. 

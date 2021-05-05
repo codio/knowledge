@@ -12,8 +12,8 @@ Accessing Codio
    :hidden:
    
    
-   students/accessing-codio/index
-   common/settings/index
+   students/accessing-codio/accessing-codio
+   common/settings/settings
    
 Join a Course
 -------------

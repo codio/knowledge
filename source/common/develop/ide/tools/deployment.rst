@@ -1,8 +1,22 @@
 .. meta::
    :description: Deploying content to external locations
 
+
+IDE Tools
+=========
+
+.. toctree::
+   :caption: IDE Tools
+   :hidden:
+   
+
+   ghapi
+   ssh
+   phonegap
+   desktopapp
+   
 Deployment
-==========
+----------
 
 You do not to need to deploy when you are developing your project. Front-end code is automatically served up over Port 80. Access to back-end code (PHP, Ruby etc.) is done by accessing your `Box <external access>`__.
 

@@ -3,8 +3,34 @@
    
 .. _add-assessment:
 
+Auto-graded assessments
+=======================
+
+.. toctree::
+   :caption: Auto-graded assessments
+   :hidden:
+   
+   advanced-code-test
+   assessments
+   student-submission
+   auto-grade-scripts
+   autograde-free-text
+   delete-assessment
+   edit-assessment
+   edit-assessment-points
+   fill-in-blanks
+   free-text
+   grade-book
+   math-assessments
+   multiple-choice
+   parsons-puzzle
+   partial-points
+   sense-network
+   standard-code-test
+   ungraded-assessments
+
 Add a New Assessment
-====================
+--------------------
 To add a new assessment for a course, follow these steps:
 
 1. Open the assignment in the course, and click the **Edit** tab to open the Guide Editor. You can also click the **Tools** menu and choose **Guides > Edit**.

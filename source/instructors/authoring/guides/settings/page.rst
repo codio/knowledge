@@ -3,8 +3,21 @@
 
 .. _page:
 
+
+Guides Settings and Page actions
+================================
+
+.. toctree::
+   :caption: Guides Settings and Page actions
+   :hidden:
+   
+   opentabs
+   assessments
+   media
+   global
+
 Page settings
-=============
+-------------
 
 Access **Page** settings by clicking on **Settings** while editing a Guide.
 

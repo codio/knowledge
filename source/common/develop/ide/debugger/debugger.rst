@@ -6,6 +6,13 @@
 Debugger
 ========
 
+.. toctree::
+   :caption: Debugger
+   :hidden:
+   
+   create-debug-target
+   start-debug
+
 Codio offers an integrated, language specific debugger that supports the following languages.
 
 -  Java

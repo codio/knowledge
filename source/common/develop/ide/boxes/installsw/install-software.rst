@@ -3,8 +3,19 @@
 
 .. _box_parts:
 
-Install Software Packages
-=========================
+Installing Software Packages
+============================
+
+.. toctree::
+   :caption: Installing Software Packages
+   :hidden:
+
+   file-locations
+   default-installed
+   parts-coding
+   langserver
+   gui
+
 
 You can view all software that is installed on your box and install new software from the **Tools > Install Software** menu. From the **Install software** page, you can run scripts that install, configure, or reconfigure software components instead of manually installing it from the command line. 
 

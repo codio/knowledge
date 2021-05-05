@@ -3,8 +3,30 @@
 
 .. _organizations:
 
+Organization settings
+=====================
+
+.. toctree::
+   :caption: Organisation Settings
+   :hidden:
+   
+   auto-release-grades
+   create-org-library
+   default-student-dashboard
+   delete-org
+   enable-custom-script
+   gigabox-usage
+   grade-templates
+   org-contact-url
+   public-private-settings
+   add-remove-org-owners
+   add-teachers
+   remove-org-members
+   student-consent-form
+   view-org-members
+
 Organizations
-=============
+-------------
 An organization is always required for institutional teaching. The **Organization** page includes settings for managing accounts, LMS integration and many other organization related settings.
 
 View the video to learn more about organisations

@@ -3,8 +3,22 @@
    
 .. _additional-resources:
 
+
+
 Additional resources
 ====================
+
+.. toctree::
+   :caption: Codio Instructional Resources
+   :hidden:
+   
+   crunch
+   flode
+   jeroo
+   scratch
+   pencilcode
+   tkinter
+   lexikon
 
 
 - :ref:`Crunch <crunch>`

@@ -3,8 +3,20 @@
 
 .. _dyslexia:
 
+Tools
+=====
+
+.. toctree::
+   :caption: Tools
+   :hidden:
+   
+
+   lexikon
+   code-playback
+   code-commenting
+   
 Dyslexia Support
-================
+----------------
 
 Codio has a built in dyslexia support feature for users with dyselexia that provides the ability to set your Theme to Dyslexia view. To enable dyslexia support mode, follow these steps:
 

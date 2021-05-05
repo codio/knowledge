@@ -1,11 +1,10 @@
 .. meta::
    :description: Auto-Grade Jupyter notebook assignments using nbgrader.
    
-.. _nbgrader:
 
 Auto-Grade with nbgrader
 ========================
-Codio supports .. _Jupyter notebook: https://jupyter.org/ auto-grading functionality through .. _nbgrader: http://nbgrader.readthedocs.io/en/stable/index.html. Assignments are created with .. _Jupyter notebook: https://jupyter.org/ and when the assignment is published to a course, the release version is created for the student. If the assignment is updated and republished, it overwrites all tests and read-only cells with the new version and the release version for the students is updated.
+Codio supports `Jupyter notebook <https://jupyter.org/>`_ auto-grading functionality through `nbgrader <http://nbgrader.readthedocs.io/en/stable/index.html>`_. Assignments are created with `Jupyter notebook <https://jupyter.org/>`_ and when the assignment is published to a course, the release version is created for the student. If the assignment is updated and reublished, it overwrites all tests and read-only cells with the new version and the release version for the students is updated.
 
 When a student submits the assignment by marking the assignment as complete, the assignment is automatically graded. However, manual grading is also possible if desired. 
 

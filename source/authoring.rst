@@ -12,11 +12,13 @@ Authoring
    :hidden:
    
 
-   instructors/authoring/guides/index
-   instructors/authoring/guides/settings/index
-   instructors/authoring/assessments/index
-   instructors/setupcourses/library/index
+   instructors/authoring/guides/intro
+   instructors/authoring/guides/settings/page
+   instructors/authoring/assessments/add-assessment
+   instructors/setupcourses/library/assessmentslibrary
    
+Introduction to Guides
+----------------------
 
 Codio provides a powerful authoring tool called Guides you can use to create rich tutorial and instructional content as well as assessments. Here are a few of the key features.
 

@@ -7,6 +7,21 @@
 Integrating with your LMS system (Canvas etc.)
 ==============================================
 
+.. toctree::
+   :caption: Integration with LMS systems
+   :hidden:
+   
+   lti-keys
+   lti-app
+   lti-constant
+   lti-course-copy
+   lms-systems/canvas
+   grading
+   lti1-3
+   lms-students
+
+
+
 Learning Tools Interoperability (LTI) is a standard for passing user, organization, and course information between learning management systems (tool consumers) and learning tools and tool providers, such as Codio.
 
 **Video: LMS Integration Overview**
@@ -29,5 +44,6 @@ For more see:
     - :ref:`Integrating with Blackboard <blackboard>`
     - :ref:`Integrating with Moodle <moodle>`
     - :ref:`Integrating with D2L <d2l>`
+    - :ref:`Integrating with Google Classroom <google-classroom>`
 - :ref:`LTI 1.3 integration <lti1-3>`
 - :ref:`Users account creation <lms-users>`

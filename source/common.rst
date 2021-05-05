@@ -11,16 +11,16 @@ Projects
    :maxdepth: 1
    :hidden:
    
-   common/develop/projects/index
-   common/develop/stacks/index
-   common/develop/packs/index
-   common/develop/ide/workspace/index
-   common/develop/ide/editing/index
-   common/tools/index
-   common/develop/ide/tools/index
-   common/develop/ide/boxes/index
-   common/develop/ide/boxes/installsw/index
-   common/develop/ide/debugger/index
+   common/develop/projects/projects
+   common/develop/stacks/stacks
+   common/develop/packs/packs
+   common/develop/ide/workspace/workspace
+   common/develop/ide/editing/code-editing
+   common/tools/dyslexia
+   common/develop/ide/tools/deployment
+   common/develop/ide/boxes/overview
+   common/develop/ide/boxes/installsw/install-software
+   common/develop/ide/debugger/debugger
 
 
 A project is a Ubuntu server and is commonly referred to as a box. You can create as many projects (boxes) as needed, and with sudo privileges, you can install and configure them however you want. Each project box is fully isolated from your other project boxes.  
@@ -43,7 +43,7 @@ We strongly recommend that you familiarize yourself with the following project r
 - :ref:`Boxes and the IDE <overview>`
 - :ref:`Stacks <stacks>`
 - :ref:`Starter Packs <starter-packs>`
-- :ref:`Authoring tutorial content with Codio Guides <intro>`
+- :ref:`Authoring tutorial content with Codio Guides <guides-intro>`
 - :ref:`Creating Course Content <courses>`
 
 

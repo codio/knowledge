@@ -6,6 +6,18 @@
 Projects
 ========
 
+.. toctree::
+   :caption: Projects
+   :hidden:
+   
+   project-permissions
+   project-settings
+   create-import-project
+   access-projects
+   copy-project
+   export-project
+
+
 A project is a Ubuntu server and is commonly referred to as a box. You can create as many projects (boxes) as needed, and with sudo privileges, you can install and configure them however you want. Each project box is fully isolated from your other project boxes.  
 
 When opening a project, you are taken into the project server (box) and are presented with the Codio IDE. You can access the command line via a terminal window.
@@ -26,7 +38,7 @@ We strongly recommend that you familiarize yourself with the following project r
 - :ref:`Boxes and the IDE <overview>`
 - :ref:`Stacks <stacks>`
 - :ref:`Starter Packs <starter-packs>`
-- :ref:`Authoring tutorial content with Codio Guides <intro>`
+- :ref:`Authoring tutorial content with Codio Guides <guides-intro>`
 - :ref:`Creating Course Content <courses>`
 
 

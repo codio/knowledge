@@ -6,11 +6,20 @@
 IDE Workspace
 =============
 
-The Codio IDE is a web-based, easy to use workspace when you are
-learning to code.
 
-Review the following common tasks to get you started using the
-workspace:
+.. toctree::
+   :caption: Workspace
+   :hidden:
+   
+   panels
+   open-file
+   upload-download-files
+   add-delete-folders
+   add-delete-files
+
+The Codio IDE is a web-based, easy to use workspace when you are learning to code.
+
+Review the following common tasks to get you started using the workspace:
 
 -  :ref:`Add and Delete Folders <add-delete-folders>`
 -  :ref:`Add and Delete Files <add-delete-files>`
@@ -29,8 +38,7 @@ corner.
 
 Subsequent times you see the project as you last left it with the files and tabs the same and whatever file was open in front will be open again.
 
-The **readme.md** file should be written in [markdown]
-(https://www.markdownguide.org/cheat-sheet/).
+The **readme.md** file should be written in `markdown <https://www.markdownguide.org/cheat-sheet/>`__
 
 Exit the IDE
 ------------

@@ -2,10 +2,32 @@
    :description: Codio guides allow you to create instructional content and assessments.
    
 
-.. _intro:
+.. _guides-intro:
+
+Authoring
+=========
+
+.. toctree::
+   :caption: Authoring
+   :hidden:
+   
+   project_book
+   author_student
+   toc
+   page_editing
+   authoring_guidelines
+   markdown_content
+   previewing_content
+   html_content
+   teacher_only
+   custom_button
+   add_media
+   open_close_content
+   hide_folders
+   latex
 
 Introduction to Guides
-======================
+----------------------
 
 Codio provides a powerful authoring tool called Guides you can use to create rich tutorial and instructional content as well as assessments. Here are a few of the key features.
 

@@ -6,6 +6,14 @@
 Starter Packs
 =============
 
+.. toctree::
+   :caption: Starter Packs
+   :hidden:
+   
+   create-starter-pack
+   starter-pack-guidelines
+   update-starter-pack
+
 Starter Packs offer an easy way to get started using templates of projects that include:
 
 - A base Ubuntu operating system. 
