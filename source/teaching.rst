@@ -3,7 +3,6 @@
    
 .. toctree::
    :name: teaching
-   :hidden:
 
 Teaching
 ========

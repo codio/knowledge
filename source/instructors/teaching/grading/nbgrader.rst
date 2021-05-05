@@ -1,7 +1,6 @@
 .. meta::
    :description: Auto-Grade Jupyter notebook assignments using nbgrader.
    
-.. _nbgrader:
 
 Auto-Grade with nbgrader
 ========================
