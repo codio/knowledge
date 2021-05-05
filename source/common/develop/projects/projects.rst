@@ -3,8 +3,8 @@
 
 .. _projects:
 
-Projects
-========
+Developing Code
+===============
 
 .. toctree::
    :caption: Projects
@@ -17,6 +17,8 @@ Projects
    copy-project
    export-project
 
+Projects
+--------
 
 A project is a Ubuntu server and is commonly referred to as a box. You can create as many projects (boxes) as needed, and with sudo privileges, you can install and configure them however you want. Each project box is fully isolated from your other project boxes.  
 

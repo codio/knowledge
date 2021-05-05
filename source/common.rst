@@ -4,8 +4,8 @@
 .. toctree::
    :name: common
    
-Projects
-========
+Developing Code
+===============
 
 .. toctree::
    :maxdepth: 1
