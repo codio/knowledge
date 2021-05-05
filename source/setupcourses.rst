@@ -11,11 +11,11 @@ Courses Set up
    :maxdepth: 1
    :hidden:
    
-   instructors/setupcourses/index
-   instructors/setupcourses/resources/index
-   instructors/setupcourses/resources/resourcetools/index
-   instructors/admin/integration/index
-   instructors/setupcourses/assignment-settings/index
+   instructors/setupcourses/courses
+   instructors/setupcourses/resources/codioresources
+   instructors/setupcourses/resources/resourcetools/intro
+   instructors/admin/integration/intro
+   instructors/setupcourses/assignment-settings/assignment-settings
    
 A course is a grouping of students who are taught as a logical group. One of the main tasks for instructors is to create the courses for their students, and then add content (modules and assignments), share it with others, add teachers and students to it, and other tasks. 
 With courses, you can instantly access student code and projects. 

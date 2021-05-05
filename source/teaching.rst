@@ -12,7 +12,7 @@ Teaching
    :hidden:
    
    instructors/teaching/viewstudentwork
-   instructors/teaching/grading/index
+   instructors/teaching/grading/grading
    instructors/teaching/insights
    instructors/teaching/playback
    instructors/teaching/commenting

@@ -6,6 +6,6 @@
 
 
 
-   common/tools/index
+   common/tools/dyslexia
   
 

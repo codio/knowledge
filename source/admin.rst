@@ -11,11 +11,11 @@ Admin
    :maxdepth: 1
    :hidden:
 
-   instructors/admin/integration/index
+   instructors/admin/integration/intro
    instructors/admin/integration/lms-systems/canvas
-   instructors/admin/organization/index
+   instructors/admin/organization/organisation
    instructors/admin/orgbilling
-   common/settings/index
+   common/settings/settings
    instructors/admin/legal
    
 Integrating with your LMS system (Canvas etc.)
@@ -43,6 +43,7 @@ For more see:
     - :ref:`Integrating with Blackboard <blackboard>`
     - :ref:`Integrating with Moodle <moodle>`
     - :ref:`Integrating with D2L <d2l>`
+    - :ref:`Integrating with Google Classroom <google-classroom>`
 - :ref:`LTI 1.3 integration <lti1-3>`
 - :ref:`Users account creation <lms-users>`
 

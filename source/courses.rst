@@ -11,7 +11,7 @@ Your Courses
    :maxdepth: 2
    :hidden:
 
-   students/courses/index
+   students/courses/courses
    
 Navigate the Student Dashboard
 ==============================
