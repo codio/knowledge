@@ -4,8 +4,20 @@
 
 .. _canvas:
 
+System specific instructions
+================================
+
+.. toctree::
+   :caption: Integrating with external systems
+   :hidden:
+   
+   blackboard
+   d2l
+   moodle
+   google-classroom
+   
 Canvas 
-======
+******
 
 Please be sure to check out the :ref:`Codio LTI App <lti-app>` which allows for an easy way to integrate and to map Codio course assignments to your Canvas system but if that can't be used you can manually integrate following these steps
 

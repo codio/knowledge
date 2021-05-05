@@ -18,4 +18,3 @@ If you don't see the Onboarding-Quick Start guide in your My Projects tab,
 
 
 
-:ref:`How to Videos <how-to-videos>`

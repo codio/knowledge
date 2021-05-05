@@ -46,7 +46,7 @@ Once the course modules are created, you can add assignments (projects). You can
      b. Check the check boxes for the assignments to be added to the course.
      c. Click **Select**. 
 
-   .. Note:: For more information about authoring course content, :ref:`click here <intro>`.
+   .. Note:: For more information about authoring course content, :ref:`click here <guides-intro>`.
 
 3. Open the assignment to review it in the IDE and when readon **Publish** it . The assignment is not visible to students until it's published.
 

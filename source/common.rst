@@ -43,7 +43,7 @@ We strongly recommend that you familiarize yourself with the following project r
 - :ref:`Boxes and the IDE <overview>`
 - :ref:`Stacks <stacks>`
 - :ref:`Starter Packs <starter-packs>`
-- :ref:`Authoring tutorial content with Codio Guides <intro>`
+- :ref:`Authoring tutorial content with Codio Guides <guides-intro>`
 - :ref:`Creating Course Content <courses>`
 
 

@@ -1,13 +1,15 @@
 .. meta::
-   :description: Code Editing Features
+   :description: Special code editing features when working with HTML, CSS, and Javascript files.
+
+.. _code-editing:
 
 Code Editing Features
 =====================
 
 .. toctree::
    :caption: Code Editing Features
+   :hidden:
    
-   code-editing
    abbreviations
    autocomplete
    code-beautifier
@@ -25,3 +27,6 @@ Code Editing Features
    search-replace
    share-project
    git
+   
+Codio has various IDE features to enhance productivity when working with HTML, CSS, and Javascript files. These features are based on the `Emmet <http://www.emmet.io>`__ web-developers toolkit (formerly Zen Coding). For additional information about Emmet syntax, see the `Emmet documentation <http://docs.emmet.io/abbreviations/syntax/>`__.
+

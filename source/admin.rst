@@ -12,7 +12,7 @@ Admin
    :hidden:
 
    instructors/admin/integration/index
-   instructors/admin/integration/lms-systems/index
+   instructors/admin/integration/lms-systems/canvas
    instructors/admin/organization/index
    instructors/admin/orgbilling
    common/settings/index
