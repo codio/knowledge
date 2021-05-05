@@ -21,7 +21,7 @@ This allows you to set up the path and file name of a script file and then load 
 HTML header and footer
 **********************
 
-This is used for pages which are designated in the :ref:`page settings <html_content>` as an HTML page. The header/footer will be placed before/after the HTML page content.
+This is used for pages which are designated in the :ref:`page settings <html-content>` as an HTML page. The header/footer will be placed before/after the HTML page content.
 
 Theme
 *****

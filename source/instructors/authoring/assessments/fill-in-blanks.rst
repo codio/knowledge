@@ -37,7 +37,8 @@ Follow these steps to set up fill in the blank assessments:
 
   - **Text** - Enter the question in markdown, including the correct answer specification. For example:
 
-    ``A prime number (or a prime) is a <<<natural>>> number greater than <<<1>>> that has no positive divisors other than <<<1>>> and <<<itself>>>.``
+``A prime number (or a prime) is a <<<natural>>> number greater than <<<1>>> that has no positive divisors other than <<<1>>> and <<<itself>>>.``
+    
   
   - **Show Possible Values** - Toggle to display possible options for the correct answer:
     

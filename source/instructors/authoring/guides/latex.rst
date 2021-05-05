@@ -30,7 +30,7 @@ Google is often your friend when it comes to discovering Latex syntax. However, 
 
 Mathjax
 *******
-`Here is a list <http://docs.mathjax.org/en/latest/tex.html#supported-latex-commands>`_ of Latex commands supported by Mathjax.
+`Here is a list <http://docs.mathjax.org/en/latest/input/tex/macros/>`_ of Latex commands supported by Mathjax.
 
 Stack Exchange
 **************

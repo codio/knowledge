@@ -5,7 +5,7 @@
 
 Using Auto-Grade Scripts
 ========================
-You can use auto-grade scripts that evaluate the student code, and these scripts are added in the **Script Grading** field on the :ref:`**Script Grading** <grade-weights>` settings page. These scripts can then transfer the grading value into the grading field.
+You can use auto-grade scripts that evaluate the student code, and these scripts are added in the **Script Grading** field on the :ref:`Script Grading <grade-weights>` settings page. These scripts can then transfer the grading value into the grading field.
 
 .. Note:: The script must execute within 3 minutes or a timeout error occurs.
 
@@ -88,7 +88,7 @@ To enable this:
 
 Regrade an individual student's assignment
 ------------------------------------------
-If students set their work to *complete* and the custom script is triggered, you can regrade their work by resetting the ``complete`` switch, and then set it to *complete* again, which triggers the custom script to run again.
+If students set their work to *complete* and the custom script is triggered, you can regrade their work by resetting the `complete` switch, and then set it to *complete* again, which triggers the custom script to run again.
 
 Regrade all student's assignments
 ---------------------------------
@@ -220,6 +220,7 @@ These variables allow POST and GET requests with the following parameters:
 If the grade is submitted to the URL, the script output is saved as debug log.
 
 If the script fails:
+
 - The attempt is recorded.
 - The assignment is not locked (if due date is not passed).
 - An email  notification with information about the problem is sent to the course instructor(s) containing the debug output from the script.

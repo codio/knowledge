@@ -29,7 +29,7 @@ Complete each section to set up your standard code test.
    - **Language Type** - Click the drop-down and choose the language. The following languages are supported:
 
      - **Ruby**: `rubocop` or `rspec`
-     - **Java**: [JUnit](/project/ide/features/#junit-testing-framework) or `checkstyle`
+     - **Java**: :ref:`JUnit <junit>` or `checkstyle`
      - **Python**: `pycodestyle` or `UnitTest`
      - **JavaScript**: `jshint` or `jslint`
      - **Custom**
@@ -58,7 +58,7 @@ To add individual Python source files whose style should be checked, either ente
 
      **Using UnitTest**
 
-     When using Python unit test you can define the location of the student folder (their ```.py```files), if it's not in the **workspace** folder, and have it be separate from test file folder (```.guides/secure```).
+     When using Python unit test you can define the location of the student folder (their `.py` files), if it's not in the **workspace** folder, and have it be separate from test file folder (`.guides/secure`).
 
     **Using Jshint or Jslint**
 

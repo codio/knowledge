@@ -1,7 +1,7 @@
 .. meta::
    :description: HTML Content Editing
 
-.. _html_content:
+.. _html-content:
    
 HTML content editing
 ====================

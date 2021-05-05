@@ -10,24 +10,26 @@ Auto-graded assessments
    :caption: Auto-graded assessments
    :hidden:
    
-   advanced-code-test
    assessments
    student-submission
    auto-grade-scripts
-   autograde-free-text
+   partial-points
    delete-assessment
    edit-assessment
    edit-assessment-points
+   standard-code-test
+   advanced-code-test
+   multiple-choice
    fill-in-blanks
    free-text
+   autograde-free-text
    grade-book
-   math-assessments
-   multiple-choice
    parsons-puzzle
-   partial-points
-   sense-network
-   standard-code-test
+   math-assessments
    ungraded-assessments
+   sense-network
+   
+   
 
 Add a New Assessment
 --------------------

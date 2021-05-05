@@ -41,4 +41,4 @@ If you want to hide a certain piece of information *within a page* from students
     |||
 
 
-Teacher only content can also be shown to teachers within an assessment question. This allows an question's answer rationale to be shown. Please refer to the :ref:`assessments section <assessments>` for more details.
+Teacher only content can also be shown to teachers within an assessment question. This allows a questions answer rationale to be shown. Please refer to the :ref:`assessments section <assessments>` for more details.

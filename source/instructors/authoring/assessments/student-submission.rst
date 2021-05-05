@@ -12,7 +12,9 @@ There are two important settings that control
 
 The submit button
 -----------------
-By default each assessment has a submit button beneath the assessment. Once pressed, the answer is autograded. MCQ, Fill In The Blank or Free Text questions are one attempt only other assessments allow multiple attempts. If the **One attempt only** setting is selected for the assessment or it is one of the previously mentioned three, the student will be warned that they will not be able to resubmit. If this setting is not selected, they will be able to resubmit a response.
+By default each assessment has a submit button beneath the assessment. Once pressed, the answer is autograded. 
+
+MCQ, Fill In The Blank or Free Text questions are one attempt only other assessments allow multiple attempts. If the **One attempt only** setting is selected for the assessment or it is one of the previously mentioned three, the student will be warned that they will not be able to resubmit. If this setting is not selected, they will be able to resubmit a response.
 
 You can suppress the use of submit buttons. This feature is handy for exams, students do not need to worry about the effect of pressing the button. They can provide a response and move on to other assessments or pages in the guide.
 

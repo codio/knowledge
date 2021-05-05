@@ -1,6 +1,8 @@
 .. meta::
    :description: Markdown content
 
+.. _markdown-content-editing:
+
 Markdown content editing
 ========================
 
@@ -113,7 +115,7 @@ is written with the first line as
 then your code, and the last line as three backticks
 
 
-Note that you can specify a language type after the top 3 back ticks. Entering `python ` after the backticks would apply syntax highlighting for python. Many languages are supported. `See a full list of supported languages here <https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>`_. You should search for your language and then use the `alias` shown.
+Note that you can specify a language type after the top 3 back ticks. Entering `python` after the backticks would apply syntax highlighting for python. Many languages are supported. See a full list of supported languages `here <https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>`_. You should search for your language and then use the `alias` shown.
 
 The Code block also includes a 'copy to clipboard' button to allow students to easily copy the code to their clipboard where you may want them to run this code in the assignment
 
@@ -188,7 +190,7 @@ The **Guidance** callout block is only visible in play mode to designated teache
 
 Hyperlinks, Images, Videos & iframes
 ************************************
-We describe these in [this section](/courses/authoring/#adding-media).
+We describe these in :ref:`this section <add-media>`.
 
 HTML
 ****
@@ -226,13 +228,14 @@ Collapsible Content
 In writing content, it is sometimes useful to provide information for the student, but to keep this hidden until they are ready.
 
 This can be achieved with collapsible content and the `<details> <summary>` elements. The content is treated as HTML and as such a mix of HTML and Markdown can be required.
-Notes
------
-- If including code blocks, ensure you have an empty line after the closing ``</summary>`` tag.
-- All code block starter lines, e.g. ` ```js ` must be preceded by a blank line. 
-- The closing block ` ``` ` tag must be followed by a newline. 
-- If you have multiple collapsible sections, ensure you have an empty line after the closing ``</details>`` tag.
-- If you wish to have the content showing by default, use `<details  open>`.
+
+.. Note::
+
+  - If including code blocks, ensure you have an empty line after the closing ``</summary>`` tag.
+  - All code block starter lines, e.g. ```js must be preceded by a blank line. 
+  - The closing block ``` tag must be followed by a newline. 
+  - If you have multiple collapsible sections, ensure you have an empty line after the closing ``</details>`` tag.
+  - If you wish to have the content showing by default, use `<details  open>`.
 
 **Example**
 

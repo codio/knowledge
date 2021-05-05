@@ -5,7 +5,7 @@
 
 Parsons Puzzle
 ==============
-Parson’s problems are available in Codio as Parsons Puzzles. Parson’s Puzzles are formative assessments that ask students to arrange blocks of scrambled code, allowing them to focus on the purpose and flow of the code (often including a new pattern or feature) instead of syntax. Codio uses js-parsons for Parson's Puzzles (http://js-parsons.github.io/documentation/).
+Parson’s problems are available in Codio as Parsons Puzzles. Parson’s Puzzles are formative assessments that ask students to arrange blocks of scrambled code, allowing them to focus on the purpose and flow of the code (often including a new pattern or feature) instead of syntax. Codio uses `js-parsons <http://js-parsons.github.io/documentation/>`_ for Parson's Puzzles.
 
 Complete the following steps to set up a Parsons Puzzle assessment:
 
