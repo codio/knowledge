@@ -11,7 +11,7 @@ methods:
 
 - Click the **Configure** tab on the menu bar and choose your target from the drop-down list. If you have previously run the debug target, you can simply click the debug target the next time you want to run it.
 - On the **Debugger Targets** page, click **Debug** for the target you want to run.
-- Launch debugger from a page. See `Custom Buttons </courses/authoring/#custom-buttons>`__ for details.
+- Launch debugger from a page. See :ref:`Custom Buttons <custom-buttons>` for details.
 
 .. figure:: /img/debug-launch.png
    :alt: Launch Debugger

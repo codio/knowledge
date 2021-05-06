@@ -31,7 +31,7 @@ If you right-click a file in the file tree or the tab, you can also select **Pre
 .. image:: /img/preview-deploy-right-click.png
    :alt: Preview Static
 
-See 'Apache Password Basic Authentication <https://wiki.apache.org/httpd/PasswordBasicAuth>` and `HTTP Authentication with PHP <https://php.net/manual/en/features.http-auth.php>` for examples.
+See `Apache Password Basic Authentication <https://wiki.apache.org/httpd/PasswordBasicAuth>`_ and `HTTP Authentication with PHP <https://php.net/manual/en/features.http-auth.php>`_ for examples.
 
 Modifying the Preview menu
 --------------------------

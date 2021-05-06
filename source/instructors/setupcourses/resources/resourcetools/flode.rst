@@ -22,12 +22,12 @@ Cheat Sheet
 Here is a quick reference for commonly used actions.
 
 Dragging in blocks
-------------------
+******************
 
 Drag from the top toolbar into the chart.
 
 Connecting blocks with lines
-----------------------------
+****************************
 
 -  Hover over a block to see the connection points
 -  Move the mouse over one of the small connection point circles
@@ -35,40 +35,40 @@ Connecting blocks with lines
 -  Release the mouse to move in another direction then click to change direction again or connect to another connection point
 
 Resizing blocks
----------------
+***************
 
 Click on a block then drag a highlighted point
 
 Zooming & centering your chart
-------------------------------
+******************************
 
 Zoom controls are in the toolbar or using the mouse wheel if you have one
 
 Multi selection
----------------
+***************
 
 -  Press the shift key then drag the mouse to surround blocks to multi-select
 -  Select one block then press the shift key then start dragging the mouse
 
 Aligning blocks
----------------
+***************
 
 -  Multi select the blocks to align
 -  Right click and select one of the alignment options
 
 Undo & Redo
------------
+***********
 
 -  Undo ``Ctrl+Z`` (PC) ``Cmd+Z`` (Mac)
 -  Redo ``Shift+Ctrl+Z`` (PC) ``Shift+Cmd+Z`` (Mac)
 
 Adding comments
----------------
+***************
 
 -  Click on a block then press the speech bubble icon to add a comment.
 
 Video overview
---------------
+**************
 
 .. raw:: html
 
@@ -79,7 +79,7 @@ Video overview
    </div>
 
 Flode teaching content
-----------------------
+**********************
 
 The content also contains many auto-graded assessments. Results can be seen instantly on the teacher **Courses** feature.
 
@@ -90,7 +90,7 @@ The content also contains many auto-graded assessments. Results can be seen inst
 **An Introduction to Programming** uses Flode extensively and provides an excellent way of introducing students to programming, computational thinking and Algorithms.
 
 Creating and editing a new Flode file
--------------------------------------
+*************************************
 
 If you want to create Flode charts independently of any Codio Course content, create a new project from the **Dashboard > My Projects** area.
 
@@ -105,7 +105,7 @@ A new file is created from either the File menu or by right-clicking on the proj
 To edit an existing ``.flode`` file, simply click on the file name to open the Flode editor.
 
 Detailed instructions
----------------------
+*********************
 
 To get detailed instructions on how to use Flode,
 
@@ -116,6 +116,6 @@ To get detailed instructions on how to use Flode,
 5. Press **Start Assignment** from the first Unit in the list    **Introduction to Flode**
 
 Credits
--------
+*******
 
 Many thanks to the folks at `JGraph <http://www.jgraph.com/>`__ for their excellent flowcharting and diagramming tools.

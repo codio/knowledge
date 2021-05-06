@@ -10,20 +10,22 @@ Organization settings
    :caption: Organisation Settings
    :hidden:
    
-   auto-release-grades
-   create-org-library
-   default-student-dashboard
-   delete-org
-   enable-custom-script
-   gigabox-usage
-   grade-templates
-   org-contact-url
-   public-private-settings
-   add-remove-org-owners
+   org-owners
    add-teachers
-   remove-org-members
    student-consent-form
    view-org-members
+   default-student-dashboard
+   enable-custom-script
+   grade-templates
+   remove-org-members
+   org-library
+   public-private-settings
+   gigabox-usage
+   delete-org
+   org-contact-url
+   auto-release-grades
+   
+ 
 
 Organizations
 -------------
@@ -37,20 +39,21 @@ View the video to learn more about organisations
     
 The person who creates the organization in Codio is the owner and is given the administrator role. Anyone with Admin permissions can perform the following tasks:
 
-- :ref:`Set Organization Contact URL <org-contact-url>`
-- :ref:`Add Teachers to an Organization <add-teachers_org>`
 - :ref:`Add and Remove Organization Owners <org-owners>`
-- :ref:`View Organization Members <view-org-members>`
-- :ref:`Remove Organization Members <remove-org-members>`
-- :ref:`Delete an Organization <delete-org>`
+- :ref:`Add Teachers to an Organization <add-teachers_org>`
 - :ref:`Configure Student IP Consent Form <student-consent>`
+- :ref:`View Organization Members <view-org-members>`
 - :ref:`Set Default Student Dashboard <default-student-dashboard>`
 - :ref:`Enable Custom Scripts <enable-custom-script>`
-- :ref:`Create an Organization Assessments Library <org-library>`
 - :ref:`Create Grading Templates <grade-template>`
+- :ref:`Remove Organization Members <remove-org-members>`
+- :ref:`Create an Organization Assessments Library <org-library>`
 - :ref:`Enable/Disable Public and Private Settings <public-private>`
 - :ref:`View Gigabox Usage <gigabox-usage>`
+- :ref:`Delete an Organization <delete-org>`
+- :ref:`Set Organization Contact URL <org-contact-url>`
 - :ref:`Enable/Disable Release Grade Automatically <auto-release-grades>`
+
 
 
 

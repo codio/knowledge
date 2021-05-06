@@ -6,9 +6,9 @@
 JUnit Testing Framework
 =======================
 
-Codio provides a simple way to test Java in your project using [JUnit](https://junit.org/junit4/). To use JUnit, your project requires Java. Use one of the following methods to make sure your project uses Java:
+Codio provides a simple way to test Java in your project using `Junit framework <https://junit.org/junit4/>`_. To use JUnit, your project requires Java. Use one of the following methods to make sure your project uses Java:
 
-- Use the [Java 8](https://codio.com/home/stacks/cf71b65b-ab7a-4f9b-9885-34009fccb476/?tab=details) Stack.
+- Use the `Java8 <https://codio.com/home/stacks/cf71b65b-ab7a-4f9b-9885-34009fccb476/?tab=details>`_ Stack.
 - Manually install Java on your box.
 - Install Java from **Tools > Install Software**. See :ref:`Install Software Packages <box_parts>` for more information.
 
@@ -18,8 +18,8 @@ To configure to use JUnit for Java testing, follow these steps:
 
 1. Click **Tools** on the menu bar and choose **JUnit**. You can also use the shortcut **Shift+Alt+J**.
 
-   ..image:: /img/junit.png
-     :alt: JUnit Settings
+   .. image:: /img/junit.png
+      :alt: JUnit Settings
 
 2. Complete the fields on the **JUnit Settings** page:
 

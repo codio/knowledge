@@ -11,7 +11,7 @@ Please be sure to check out the :ref:`Codio LTI App <lti-app>` which allows for 
 Setup and configuration
 -----------------------
 
-**Important** : Codio needs the User Role, Email Address and Name of the Moodle user in order to work. It is important that you access the LTI security settings and ensure that these three fields are always enabled. If they are not available, contact Moodle support who can help you enable this. If enabled after you have mapped Codio content to Moodle, you may need to re publish for the changes to be implemented
+.. Important:: Codio needs the User Role, Email Address and Name of the Moodle user in order to work. It is important that you access the LTI security settings and ensure that these three fields are always enabled. If they are not available, contact Moodle support who can help you enable this. If enabled after you have mapped Codio content to Moodle, you may need to re publish for the changes to be implemented
 
 **Video: Connect Moodle to Codio using the LTI Integration URL**
 

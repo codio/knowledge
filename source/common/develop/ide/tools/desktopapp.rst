@@ -45,7 +45,7 @@ Please note that the ``.codioignore`` file is included in the desktop app files.
 
 If students wish to exclude files when pushing back to their Codio account they can do so, either by editing any existing ``.codioignore``file or creating the file themselves. If the teacher creates the ``.codioignore`` file, adding a 'comment' line to the top of the file to make it clear to any students what they should not change could help avoid potential problems. A line starting with ``#`` serves as a comment
 
-**`Click here <https://www.codio.com/download>`__** to go to the download page and install to your local machine
+`Click here <https://www.codio.com/download>`_ to go to the download page and install to your local machine
 
 Starting the app
 ----------------

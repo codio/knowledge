@@ -7,8 +7,6 @@ Create an Organization Assessments Library
 ==========================================
 In addition to Codio's global assessments library, you can create Organization assessments libraries. This allows your faculty to share assessment items with other instructors similar to how you can share Courses within an Organization.
 
-### Create an Organization Assessments Library
-
 - Click your name/gravatar, bottom of the left hand pane
 
     .. image:: /img/class_administration/profilepic.png

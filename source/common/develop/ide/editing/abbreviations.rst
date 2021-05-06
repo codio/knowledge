@@ -82,7 +82,7 @@ inserts:
 
 Where the ``|`` character represents the cursor after insertion. After you have entered the **href** url, press **Ctrl+Alt+right arrow** (not the **Tab** key) to jump to the next edit point.
 
-For more HTML abbreviations, see <http://docs.emmet.io/abbreviations/>`__.
+For more HTML abbreviations, see the `Emmet documentation <http://docs.emmet.io/css-abbreviations/>`__.
 
 CSS examples
 -------------

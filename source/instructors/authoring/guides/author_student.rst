@@ -28,7 +28,7 @@ Customizing IDE menu
 ********************
 The top menu can be customized to remove options you don't want your students to have access to. 
 
-**Please note that only students will see this. Teachers previewing the assignment will not see the customization. If you wish to check this, the [test student](/courses/classes/#test-students) accounts can be used**
+.. Note::  that only students will see this. Teachers previewing the assignment will not see the customization. If you wish to check this, the :ref:`test student <add-remove-students>` accounts can be used
 
 Use a `.codio-menu` file to specify which menu items should be hidden.
 Example:
@@ -49,7 +49,7 @@ Example:
     }
 
 
-**Be aware setting Status=false means students will need to use the 'Back to Dashboard' button shown on the last page of the guides to return to their dashboard area**
+.. Note:: setting Status=false means students will need to use the 'Back to Dashboard' button shown on the last page of the guides to return to their dashboard area 
 
 Setting up .codio-menu file:
 

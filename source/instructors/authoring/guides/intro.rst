@@ -35,7 +35,7 @@ From a Guides page you can:
 
 - :ref:`Control the layout of the IDE <page>`
 - :ref:`Open and close files, terminal windows and html page previews <open-tabs>`
-- :ref:`Launch commands <open-tabs>` from the content page and pipe terminal output into the content page
+- :ref:`Launch commands <open-close>` from the content page and pipe terminal output into the content page
 - Create manually and automatically graded :ref:`questions and assessments <assessments>`
 - Manage a :ref:`table of contents <toc>`
 - Teachers/Instructors can export a :ref:`PDF <export-pdf>` of the Guides content to distribute to students as required.

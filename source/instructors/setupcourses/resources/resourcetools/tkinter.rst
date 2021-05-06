@@ -20,7 +20,7 @@ This page describes the various ways you can get Tkinter up and running.
 Starter Pack : Clean
 --------------------
 
-Perhaps the best place for most users to start is the **`TKinter Clean <https://codio.com/home/starter-packs/22d48c99-80a4-43dd-90e9-83fe59d3906c>`__** Starter Pack. This gives you a clean project with a simple demo Python file to play with.
+Perhaps the best place for most users to start is the `TKinter Clean <https://codio.com/home/starter-packs/22d48c99-80a4-43dd-90e9-83fe59d3906c>`__ Starter Pack. This gives you a clean project with a simple demo Python file to play with.
 
 Here is a video that runs you through the entire process.
 
@@ -53,7 +53,7 @@ This gives you a complete set of demo widgets. From the main dashboard, select *
 
 |Tkinter Widgets|
 
-Search for **tkinter** in the search field then select the **`TKinter Widgets <https://codio.com/home/starter-packs/35641b58-c3ce-44da-b07b-93c062344e82>`__** pack as shown above. You will be taken to the new project screen where you can enter a name for your project. Finally, press the **Create** button at the bottom of the page and a new project will be created.
+Search for **tkinter** in the search field then select the `TKinter Widgets <https://codio.com/home/starter-packs/35641b58-c3ce-44da-b07b-93c062344e82>`__ pack as shown above. You will be taken to the new project screen where you can enter a name for your project. Finally, press the **Create** button at the bottom of the page and a new project will be created.
 
 TKinter Widgets
 ===============
@@ -95,7 +95,7 @@ To run a Python file you will need to use the Terminal or configure you own Codi
 
 Once this is running, do not close the terminal window or you will terminate the Python process. Go to the right most Codio menu and from the dropdown, select **Box URL**. This will open up the viewer.
 
-For information on how to set up your own Codio menu buttons, `click here <customizable-run-menu>`__.
+For information on how to set up your own Codio menu buttons, :ref:`click here <customizable-run-menu>`.
 
 From scratch
 ------------
@@ -107,9 +107,9 @@ For those of you who want to add Tkinter support to an existing Codio project, y
 -  Open the Install Software screen from the **Tools->Install Software**    menu.
 -  Type ``x server`` into the search box.
 -  Press the **Install** button to install the XServer component.
--  When the installation has completed (This can take some time, so be patient), `Restart <Restart and Reset>`__ the box
+-  When the installation has completed (This can take some time, so be patient), :ref:`Restart <Restart and Reset>` the box
 
-We would recommend that you configure your ``.codio`` file to have an option to start the viewer. This is `described here <customizable-run-menu>`__. You should either overwrite the entire contents of this file with the content shown below, or if you already have a ``.codio`` file with contents you want to keep, just add the line with the **Viewer** entry you can see below into the ``preview`` section.
+We would recommend that you configure your ``.codio`` file to have an option to start the viewer. This is :ref:`described here <customizable-run-menu>`. You should either overwrite the entire contents of this file with the content shown below, or if you already have a ``.codio`` file with contents you want to keep, just add the line with the **Viewer** entry you can see below into the ``preview`` section.
 
 .. code:: ini
 

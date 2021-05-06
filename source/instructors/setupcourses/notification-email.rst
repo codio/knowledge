@@ -21,7 +21,7 @@ Notification details
 Before
 ******
 
-- **Due Date (before late penalties)** where [penalties deadlines](/courses/classes/#set-assignment-penalties) are set and the **End Time** is set to the final date of completion, the **Due Date** is taken from the penalty deadline date
+- **Due Date (before late penalties)** where :ref:`penalties deadlines <penalties>` are set and the **End Time** is set to the final date of completion, the **Due Date** is taken from the penalty deadline date
 - **End Date** is taken from the **End Time** set for the assignment duration
 
 **Reply to Email Address:** enter an email address that students can then reply to if they have questions or require further assistance.
@@ -44,5 +44,5 @@ You may edit this as you wish.
 - Due In ```<<<due in>>>```: when the assignment is due for completion relative to current date/time
 
 
-**Please note:** we have plans to develop this feature in the future but if you have ideas/suggestions please raise in our `Feedback area <https://docs.codio.com/dashboard/support/#feedback>`_
+**Please note:** we have plans to develop this feature in the future but if you have ideas/suggestions please raise in our `Feedback area <https://feedback.codio.com/>`_
 

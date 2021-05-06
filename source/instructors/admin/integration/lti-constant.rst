@@ -17,7 +17,7 @@ Constant URL's allows the transfer of learning content without modifying LTI lin
     <iframe width="620" height="349" src="https://codio.wistia.com/medias/8asg6lncd3?wvideo=8asg6lncd3" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="620" height="349"></iframe>
 
 
-**Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance**
+.. Note:: the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance
 
 -  Create an External app in your LMS using the configuration type: By URL
 

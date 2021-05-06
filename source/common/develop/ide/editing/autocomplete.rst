@@ -48,7 +48,7 @@ The file looks like this:
     }
 
 
-Codio only supports autocomplete for the currently opened file and items specified in the ``libs`` section of the **.tern-project** file. Refer to the [Tern documentation](https://ternjs.net/doc/manual.html#configuration) for full details on how to configure the **.tern-project** file.
+Codio only supports autocomplete for the currently opened file and items specified in the ``libs`` section of the **.tern-project** file. Refer to the `Tern documentation <https://ternjs.net/doc/manual.html#configuration>`_ for full details on how to configure the **.tern-project** file.
 
 CSS
 ---

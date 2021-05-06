@@ -12,19 +12,19 @@ Managing assignments
    :hidden:
    
    assignment-actions
-   assign-grade-template
-   assignment-duration
-   disable-assignment
-   disable-mark-completed
-   exam-proctoring
-   grade-weights
-   penalties
    pin-assignment
+   disable-assignment
    visibility-completed
    visibility-disabled
-   allow-student-reset
-
-
+   student-reset
+   disable-mark-completed
+   assignment-duration
+   penalties
+   exam-proctoring
+   grade-weights
+   assign-grade-template
+   
+  
 You can manage assignments using the settings on the assignment when in **Edit** mode and the tasks on the assignment when not in edit mode. 
 
 Click the **Edit** icon in the upper right corner of the assignment to enter edit mode. 

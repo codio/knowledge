@@ -19,6 +19,8 @@ Page - Close Tabs
 *****************
 Enable this to close all panels open from the previous page.
 
+- **Close Terminal Session** when Close tabs enabled, allows you the option to retain terminal session from previous section. By default, terminal session will close
+
   .. image:: /img/guides/page.png
      :alt: Page_tab_options
 

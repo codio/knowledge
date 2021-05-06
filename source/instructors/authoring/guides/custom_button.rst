@@ -1,6 +1,8 @@
 .. meta::
    :description: Custom Button can be added to Guides to execute desired commands.
 
+.. _custom-buttons:
+
 Custom Buttons in Guides
 ========================
 Custom buttons allow you to insert a button into your guide content that when pressed can carry out any custom action.
@@ -50,7 +52,7 @@ You can launch a debugger configuration as shown below. It is important to speci
 
 To restore current files in guides
 **********************************
-Students can restore current files to the default setting from the [setting](/students/#guides) menu but you can also offer them a button within your guides content as well.
+Students can restore current files to the default setting from the :ref:`setting <restore-files>` menu but you can also offer them a button within your guides content as well.
 
 .. code:: markdown
 

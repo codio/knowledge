@@ -6,7 +6,7 @@
 Remote SSH Terminal Access
 ==========================
 
-**Important** : if you are looking for information on how to connect to your project 'Box' using the terminal/console window, then please `read about Boxes <overview>`__.
+**Important** : if you are looking for information on how to connect to your project 'Box' using the terminal/console window, then please :ref:`read about Boxes <overview>`.
 
 Codio provides the ability to connect to remote servers via SSH. You can open multiple connections and manage connections through the **SSH Connection Manager**.
 
@@ -54,7 +54,7 @@ Public Keys
 
 If you want to add your Codio public key to the remote server, press the key icon in the main Connection Manager listing. This saves you from having to upload a public key manually and means you won't need to enter a password to authenticate.
 
-If you do want to add your public key manually, please refer to the `Codio public key <ssh-key>`__ documentation.
+If you do want to add your public key manually, please refer to the :ref:`Codio public key <ssh-key>` documentation.
 
 Making a connection
 *******************

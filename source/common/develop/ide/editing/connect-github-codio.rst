@@ -25,7 +25,7 @@ In GitHub: Make a new repo
 --------------------------
 Each Codio box (Assignment, Book, or Project) can be mapped to a GitHub repo. This connection only needs to be established once per box.
 
-.. Note:: If you have an existing repo you want to clone, you can import a project from a GitHub repo (https://docs.codio.com/project/projects/#creating-and-importing-a-project) and this connection is made during the importing process. If you are familiar with Git, skip the rest of this guide and just use the terminal as usual by going to **Tools > Terminal**. 
+.. Note:: If you have an existing repo you want to clone, you can :ref:`import <create-import-project>` a project from a GitHub repo and this connection is made during the importing process. If you are familiar with Git, skip the rest of this guide and just use the terminal as usual by going to **Tools > Terminal**. 
 
 To create a new repo, follow these steps:
 
@@ -142,4 +142,4 @@ We have added a few Git helpers to the **Tools > Git** menu.
 
 More Information
 ----------------
-Refer to the documentation on GitHub.com and and http://git-scm.com/docs for complete information about using Git and GitHub.
+Refer to the documentation on GitHub.com and http://git-scm.com/docs for complete information about using Git and GitHub.

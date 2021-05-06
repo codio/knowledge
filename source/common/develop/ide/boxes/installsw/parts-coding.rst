@@ -48,8 +48,8 @@ where:
   - utilities
   - web_development
 
-Example :MySQL
-..............
+Example : MySQL
+...............
 The following example shows how to install MySQL from the **Install Software** page in a few seconds. Run the **MySQL** installation on a new box. The MySQL entry in the `package_list.json` file looks like this:
 
 .. code:: json

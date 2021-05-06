@@ -35,7 +35,7 @@ Search and replace is supported on the currently selected file. The default shor
 
 Global search and replace
 --------------------------
-Global search and replace are available from the **Find** > Find in project** and **Find > Replace in project** menu options.
+Global search and replace are available from the **Find > Find in project** and **Find > Replace in project** menu options.
 
 You can search regular expressions, ignore case, and whole word settings using the control button in the search dialog.
 

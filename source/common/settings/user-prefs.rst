@@ -39,12 +39,12 @@ More information
 ----------------
 For more information about specific settings, see the relevant topic:
 
-:ref:`Keyboard Shortcuts <shortcuts>`
-:ref:`Autocomplete <autocomplete>`
-:ref:`Code Beautifier <code-beautifier>`
-:ref:`JUnit Testing Framework <junit>`
-:ref:`Git and GitHub <git>`
-:ref:`Preview <preview>`
-:ref:`Search and Replace <search-replace>`
+- :ref:`Keyboard Shortcuts <shortcuts>`
+- :ref:`Autocomplete <autocomplete>`
+- :ref:`Code Beautifier <code-beautifier>`
+- :ref:`JUnit Testing Framework <junit>`
+- :ref:`Git and GitHub <git>`
+- :ref:`Preview <preview>`
+- :ref:`Search and Replace <search-replace>`
 
 

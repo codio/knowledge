@@ -14,7 +14,7 @@ Follow these steps to add questions to your assessments library:
 
 1. Create the assessment (see :ref:`Add a New Assessment <add-assessment>`) for the assignment and be sure to keep the following in mind:
 
-  - Assessments on pages set to the [*1 Panel without tree* layout](/courses/settings-actions/#layout) are saved with a [simple layout](/courses/assessments-library/#simple-vs-complex-layouts).
+  - Assessments on pages set to the :ref:`*1 Panel without tree* layout <layout>` are saved with a :ref:`simple layout <add-questions-from-library>`.
 
   - Use the **Metadata** tab to tag your assessment so it appears when the :ref:`searching the assessments library <search-library>`.
 

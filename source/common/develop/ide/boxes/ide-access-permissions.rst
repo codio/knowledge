@@ -10,4 +10,4 @@ By default, other users with read and write permissions cannot access your Codio
 
 .. Note:: This feature requires a paid subscription.
 
-For information about assigning permissions, see :ref: Project Permissions <project-permissions>`.
+For information about assigning permissions, see :ref:`Project Permissions <project-permissions>`.

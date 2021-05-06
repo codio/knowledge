@@ -58,10 +58,3 @@ The following rules apply for visibility and ownership of stacks:
 
   By default, you are the owner of the stack and only you can edit and :ref:`create new versions <update-stack>`. If you want to allow others to see and administer your stack, assign it to another organization.
 
-**See Also:**
-
-- :ref:`Creating a Stack <create-stack>`
-- :ref:`Switching a Project to New Stack <switch-stack>`
-- :ref:`Modifying a Stack <modify-stack>`
-- :ref:`Updating a Stack <update-stack>`
-- :ref:`Using Stacks <using-stacks>` 

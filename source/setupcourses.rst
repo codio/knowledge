@@ -13,7 +13,7 @@ Courses Set up
    
    instructors/setupcourses/courses
    instructors/setupcourses/resources/codioresources
-   instructors/setupcourses/resources/resourcetools/intro
+   instructors/setupcourses/resources/resourcetools/crunch
    instructors/admin/integration/intro
    instructors/setupcourses/assignment-settings/assignment-settings
    
