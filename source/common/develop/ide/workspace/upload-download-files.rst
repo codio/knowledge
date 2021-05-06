@@ -21,7 +21,6 @@ To upload a file, follow these steps:
 .. figure:: /img/right-click.png
    :alt: Upload
 
-   Upload
 
 3. On the **Upload Files** dialog, use one of the following methods to
    upload the file:
@@ -46,5 +45,5 @@ the Filetree and choose **Download**.
 .. figure:: /img/downloadfile.png
    :alt: Download File
 
-   Download File
+
 

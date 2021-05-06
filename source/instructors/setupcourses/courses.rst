@@ -1,6 +1,8 @@
 .. meta::
    :description: Creating courses
 
+.. _create-courses:
+
 Courses Set Up
 ==============
 

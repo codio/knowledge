@@ -44,7 +44,7 @@ We strongly recommend that you familiarize yourself with the following project r
 - :ref:`Stacks <stacks>`
 - :ref:`Starter Packs <starter-packs>`
 - :ref:`Authoring tutorial content with Codio Guides <guides-intro>`
-- :ref:`Creating Course Content <courses>`
+- :ref:`Creating Course Content <create-courses>`
 
 
 **See Also:**

@@ -25,9 +25,7 @@ To add a repo, click **Tools > Git > Remotes**.
 
 View GitHub repos
 -----------------
-GitHub let's you browse around a repo but it's not the same as using an IDE. Codio gives you a great way of viewing any GitHub (or Git) repo. <Ian, how do you do this?> 
-
-For web apps, you can even run and :ref:`preview <preview>` in Codio.
+GitHub let's you browse around a repo but it's not the same as using an IDE. Codio gives you a great way of viewing any GitHub (or Git) repo. For web apps, you can even run and :ref:`preview <preview>` in Codio.
 
 Provide link to project in readme.md file
 -----------------------------------------
@@ -182,7 +180,7 @@ You can revert your code back to an earlier commit to roll back your changes. Us
 -  ``git revert HEAD~n`` - reverts to the last n commit; for example, HEAD~3 reverts to the 4th last commit.
 -  ``git revert HEAD^^^`` - (count of ^ is like ~n) - reverts to the last n commit; for example, HEAD^^^4 reverts to the 4th last commit.
 
-For more information about reverting code, see <http://git-scm.com/docs/git-revert.html>.
+For more information about reverting code, see http://git-scm.com/docs/git-revert.html.
 
 Push to a remote repository
 ---------------------------
@@ -233,7 +231,7 @@ To resolve the conflict, follow these steps:
 
 Branches
 --------
-When you create a branch, you are creating a new area to code. You then merge another branch (usually the master branch), into your new branch. From this point on, you can do whatever you want (add, commit, push etc) without impacting the master branch on any other branch. For more information about branching, see <http://git-scm.com/book/en/Git-Branching-What-a-Branch-Is>.
+When you create a branch, you are creating a new area to code. You then merge another branch (usually the master branch), into your new branch. From this point on, you can do whatever you want (add, commit, push etc) without impacting the master branch on any other branch. For more information about branching, see http://git-scm.com/book/en/Git-Branching-What-a-Branch-Is.
 
 Use the following commands for branching:
 
@@ -249,9 +247,6 @@ Active branch
 .............
 You can see which branch is active by looking in the file tree. The top level item is the project name and the current branch is in brackets.
 
-Common Git commands and shortcuts
----------------------------------
-Refer to this section for common commands and shortcuts.
 
 Basic commands
 ..............
