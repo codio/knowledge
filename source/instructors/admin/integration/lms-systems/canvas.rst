@@ -21,7 +21,7 @@ Canvas
 
 Please be sure to check out the :ref:`Codio LTI App <lti-app>` which allows for an easy way to integrate and to map Codio course assignments to your Canvas system but if that can't be used you can manually integrate following these steps
 
-In Codio: 
+**In Codio:** 
 
 Enable LTI for Your Course
 --------------------------

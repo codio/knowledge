@@ -8,7 +8,7 @@ D2L
 ===
 
 
-In Codio: 
+**In Codio:**
 
 Enable LTI for Your Course
 --------------------------
