@@ -21,4 +21,4 @@ Students will then be shown all the options in addition to contact Codio directl
      :alt: Course contact url
 
 
-**N.B. "Teacher" accounts will not be effected by this setting and they will still be able to contact Codio in the usual manner. See [Support](/dashboard/account/#contact-us) for more on this**
+.. Note:: "Teacher" accounts will not be effected by this setting and they will still be able to contact Codio in the usual manner. See :ref:`Support <codio-support>` for more on this
