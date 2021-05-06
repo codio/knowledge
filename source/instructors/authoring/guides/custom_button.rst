@@ -1,6 +1,8 @@
 .. meta::
    :description: Custom Button can be added to Guides to execute desired commands.
 
+.. _custom-buttons:
+
 Custom Buttons in Guides
 ========================
 Custom buttons allow you to insert a button into your guide content that when pressed can carry out any custom action.

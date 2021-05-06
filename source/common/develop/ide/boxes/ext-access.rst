@@ -37,6 +37,6 @@ The `X_FORWARDED_PROTO` header contains original request schema, should you need
 
 Preview menu
 ------------
-Codio offers a fully customizable **Preview** menu that allows you to preview both static files (.html) and server files (.php files, Ruby, Node apps, etc.). See :ref:`Features documentation <features>` for more information.
+Codio offers a fully customizable **Preview** menu that allows you to preview both static files (.html) and server files (.php files, Ruby, Node apps, etc.). See :ref:`Preview documentation <preview>` for more information.
 
 Using the **Preview** menu, you can set up any number of 'aliases' both for static files and box CLI commands.

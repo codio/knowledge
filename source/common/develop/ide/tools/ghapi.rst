@@ -11,13 +11,13 @@ Set up GitHub API Integration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Create your API integration in the Organisation->Integrations area. This is only available to users with
-`Admin <org-owners>`__ rights.
+:ref:`Admin <org-owners>` rights.
 
 .. figure:: /img/gh_int.png
    :alt: api integration
 
 
-The name of the integration is added to the `version history <modify-assignments>`__ record. There is no limit to the number you can create so you can use the ID's in your individual GH repo or use in your GH account to apply to all repos
+The name of the integration is added to the :ref:`version history <modify-assignments>` record. There is no limit to the number you can create so you can use the ID's in your individual GH repo or use in your GH account to apply to all repos
 
 API Integration information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -33,7 +33,7 @@ The secret ID can be regenerated if required to manage/control access to publish
 Adding ID's to GitHub account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In your repo go to Settings -> Secrets and create Client ID and Secret ID copying in from your Codio integration.
+In your repo go to **Settings -> Secrets** and create Client ID and Secret ID copying in from your Codio integration.
 
 .. figure:: /img/gh_secrets.png
    :alt: GH secret

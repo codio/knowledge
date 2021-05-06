@@ -39,11 +39,4 @@ To use the Codio debugger, you must have the GDB component installed. If you ins
 
 However, if you manually installed these languages, you will be prompted to install the GDB component when you attempt to run the debugger. Simply click the link to install the component.
 
-Get Started
------------
-
-To get started using the debugger, see the following topics:
-
--  :ref:`Create and Manage Debug Targets <create-debug-target>`
--  :ref:`Start Debug <start-debug>`
 
