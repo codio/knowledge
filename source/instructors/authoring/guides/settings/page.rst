@@ -81,6 +81,8 @@ Close Tabs
 
 Enable this to close all panels open from the previous page.
 
+- **Close Terminal Session** when Close tabs enabled, allows you the option to retain terminal session from previous section. By default, terminal session will close.
+
 Content Type
 ------------
 You can specify whether the page content type is Markdown or HTML. If you choose HTML, you will need to set the page HTML header and footer in :ref:`global settings <global>`.

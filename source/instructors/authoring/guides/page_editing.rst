@@ -43,6 +43,7 @@ Page
   - **:ref:`Layout <layout>`** allows you to specify the panel layout you want to choose for this section,
   - **:ref:`Show Folders <show-hide-folders>`** allows you to define specific folders in your project that you wish to be visible when the current section is displayed,
   - **:ref:`Close Tabs <close-tabs>`** allows you to close all tabs open from previous section,
+      - **Close Terminal Session** when Close tabs enabled, allows you the option to retain terminal session from previous section. By default, terminal session will close
   - **Set Section as Chapter** allows you to set the section as a chapter in your content,
   - **:ref:`Teacher Only <teacher-only>`** allows you to show content that only teachers are able to see.
   - **Content Type** allows you to write your content in either :ref:`Markdown <markdown-content-editing>`) or :ref:`HTML <html-content>`)
