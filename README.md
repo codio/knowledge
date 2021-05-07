@@ -1,20 +1,9 @@
 # Creating Python programs in Codio
 
-### Make a new file
-Use **File > New File...** or right-click in the file tree to create a new file. You can right-click in the file tree to rename or delete files.
+## One time setup
 
-As Codio detects which file is in focus, simply put your cursor into whichever code editor you want to run.
-
-### Run your code
-Use the Run button (that looks like a Rocketship) to Run the file your cursor is in.
-
-### Debug your code
-Use the "Debug Current File" on the far right of the top menu bar to launch the debugger targeting the file your cursor is in.
-
-### Reconfigure your Panels for easier development
-Use the **View > Panels** menu on the top tool bar to segment your screen.
-
-Simply drag the tab of the file or terminal (the part with the name) you want to move into the new panel.
+### Stack
+If using Codio, put on the certified Python stack.
 
 ### Install
 
@@ -31,3 +20,18 @@ python3 -m pip install sphinx sphinx-sitemap recommonmark
 ```
 python3 -m sphinx source build
 ```
+
+## Every time you make an edit
+
+### Make
+
+```
+make html
+```
+If inside Codio, you can use the Make rocketship button on the Codio menu
+
+### Preview
+
+Navigate using a web-browser to: **https://{{domain}}/build/html/index.html**
+
+If inside Codio, you can use the Preview play button on the Codio menu.
