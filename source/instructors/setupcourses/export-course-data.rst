@@ -65,4 +65,4 @@ Use this to obtain PDF versions of the guides content in your assignments. When 
 **See Also:**
 
 - :ref:`Export LTI Settings <export-lti>` to export unit LTI integration URLs.
-- :ref:`Import Project <import-project>` to import the zipped exported folder to review student workspaces. The exported workspace does not include the stack so you should select the appropriate stack when importing the project or switch the stack in **Project > Stack > Settings**.
+- :ref:`Import Project <create-import-project>` to import the zipped exported folder to review student workspaces. The exported workspace does not include the stack so you should select the appropriate stack when importing the project or switch the stack in **Project > Stack > Settings**.

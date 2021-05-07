@@ -16,6 +16,7 @@ It is also important to understand how Codio maps external system users to Codio
 -  If the user is not known to Codio then we will sign up the user as a new Codio user in the background and take the user directly into the Codio content. The LMS user role will be carried over as well.
 
 .. Note:: The users LMS password is not passed to Codio so if the user may wish to log into Codio directly in the future, they will need to create a :ref:`password <password>` for their Codio account (and of course it is always recommended that the same passwords are not used in different applications).
+
 -  If the user is known to Codio then Codio will take them directly into the Codio content without any sign-in required. If they are a Codio user but are not a member of your organization then they will be required to complete a verification via email.
 
 
