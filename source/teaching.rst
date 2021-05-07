@@ -3,7 +3,7 @@
    
 .. toctree::
    :name: teaching
-
+   
 Teaching
 ========
 
@@ -23,7 +23,8 @@ Teaching
    instructors/teaching/datadownload
    instructors/teaching/addstudents
    
-  
+Viewing student work
+--------------------
 
 As a teacher you have access to your students cloud area within Codio. This allows you to view and access any work your students have completed at any time. Where students assignments are completed and read only, you can enable writable mode to be able to make changes if necessary. Changes made when in writable mode are not saved and do not effect the students work.
 

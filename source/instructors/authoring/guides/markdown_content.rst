@@ -237,7 +237,8 @@ This can be achieved with collapsible content and the `<details> <summary>` elem
   - If you have multiple collapsible sections, ensure you have an empty line after the closing ``</details>`` tag.
   - If you wish to have the content showing by default, use `<details  open>`.
 
-**Example**
+Example
+-------
 
   .. image:: /img/guides/collapsible.png
      :alt: CollapsibleContent

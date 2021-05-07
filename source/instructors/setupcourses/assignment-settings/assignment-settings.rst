@@ -16,7 +16,7 @@ Managing assignments
    disable-assignment
    visibility-completed
    visibility-disabled
-   student-reset
+   allow-student-reset
    disable-mark-completed
    assignment-duration
    penalties

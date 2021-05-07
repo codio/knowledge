@@ -10,7 +10,7 @@ Organization settings
    :caption: Organisation Settings
    :hidden:
    
-   org-owners
+   add-remove-org-owners
    add-teachers
    student-consent-form
    view-org-members
@@ -18,7 +18,7 @@ Organization settings
    enable-custom-script
    grade-templates
    remove-org-members
-   org-library
+   create-org-library
    public-private-settings
    gigabox-usage
    delete-org
