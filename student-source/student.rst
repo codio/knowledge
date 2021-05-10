@@ -9,7 +9,7 @@ Welcome to CodioDocs's documentation!
    Accessing Codio <accessing-codio>
    Your Courses <courses>
    Tools <tools>
-   Developing Code <student-common>
+   Developing Code <develop>
 
 
 Indices and tables

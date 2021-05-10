@@ -2,7 +2,7 @@
    :description: The Codio development environment
 
 .. toctree::
-   :name: common-student
+   :name: develop
 
 Developing Code
 ===============
