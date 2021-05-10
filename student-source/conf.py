@@ -52,6 +52,8 @@ extensions = [
     'sphinx_sitemap'
 ]
 
+sitemap_filename = "sitemap-student.xml"
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
