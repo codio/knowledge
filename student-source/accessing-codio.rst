@@ -3,18 +3,18 @@
 
 .. toctree::
    :name: accessing-codio
-   
+
 Accessing Codio
 ===============
 
 .. toctree::
    :maxdepth: 1
    :hidden:
-   
-   
+
+
    students/accessing-codio/accessing-codio
-   common/settings/settings
-   
+   common-student/settings/settings
+
 Join a Course
 -------------
 
@@ -37,10 +37,10 @@ To access your course, log in to your Codio account and select **Courses** in th
 - :ref:`Navigating the Student Dashboard <navigate-student-dashboard>`
 - :ref:`Paying for Codio Subscription <paying>`
 - :ref:`Manage Password <password>`
-   
 
-   
-   
+
+
+
 
 
 
