@@ -3,11 +3,7 @@
 
 .. toctree::
    :name: authoring
-
-Authoring
-=========
-   
-.. toctree::
+   :caption: Authoring
    :maxdepth: 1
    :hidden:
    
