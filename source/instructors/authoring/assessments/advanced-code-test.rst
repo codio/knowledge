@@ -1,17 +1,15 @@
 .. meta::
-   :description: The advanced code test assessment type allows you to write code in any language that checks code a student has written.
+   :description: The advanced code test assessment type allows you to easily implement unit tests, style checkers, or write custom code tests in any language that grades student-written code.
    
 .. _advanced-code-test:
 
 Advanced Code Test
 ==================
-The advanced code test assessment type allows you to write code in any language that checks code a student has written. 
+The advanced code test assessment type allows you to easily implement unit tests, style checkers, or write custom code tests in any language that grades student-written code. 
 
-To ensure that your test scripts run securely and to prevent student access to your testing files or executables place them in the **.guides/secure** folder. This folder is not available to students in their assignments and they cannot access it from the command line. Only the person creating the assignment has access to the **.guides/secure** folder, it is not included in the student assignment.
+To ensure that your test scripts run securely and to prevent student access to your testing files or executables, place them in the **.guides/secure** folder. This folder is not available to students in their assignments and they cannot access it from the command line. Only teachers with editing privelages have access to the **.guides/secure** folder.
 
-Codio provides a Starter Pack project that contains examples for all assessment types and a guides authoring cheat sheet. Go to **Starter Packs** and search for **Demo Guides and Assessments** if not already loaded in your **My Projects** area. Click **Use Pack** and then **Create** to install it to your Codio account.
-
-Complete each section to set up your standard code test.
+Complete each section to set up your advanced code test.
 
 1. On the **General** page, enter the following information:
 
@@ -26,68 +24,16 @@ Complete each section to set up your standard code test.
 
 2. Click **Execution** in the navigation pane and complete the following information:
 
-   - **Language Type** - Click the drop-down and choose the language. The following languages are supported:
+   - **Language Type** - Click the drop-down and choose the language. The following language-specific frameworks are explicitly supported:
 
-     - **Ruby**: `rubocop` or `rspec`
-     - **Java**: :ref:`JUnit <junit>` or `checkstyle`
-     - **Python**: `pycodestyle` or `UnitTest`
-     - **JavaScript**: `jshint` or `jslint`
-     - **Custom**
+     - **Ruby**: `RuboCop`_ or `RSpec`_
+     - **Java**: `JUnit`_ or `checkstyle`_
+     - **Python**: `pycodestyle`_ or `UnitTest`_
+     - **JavaScript**: `JSHint and JSLint`_
+     - **Custom**: for a `custom`_ auto-grading script in any language
+     
    - **Language Assessment Subtype** - Click the drop-down and choose a subtype for the selected language type, if applicable.
-      
-     **Using Pycodestyle**
-
-     If you choose **pycodestyle**, you must first install it. Use the following commands to install pycodestyle:
-
-.. code:: ini
-
-      sudo apt update
-      sudo apt install python3-pip
-      sudo python3 -m pip install pycodestyle
-     
-.. image:: /img/guides/assessment_act_exec_pycodestyle.png
-   :alt: Pycodestyle
        
-To add individual Python source files whose style should be checked, either enter their relative path to `~/namespace` or drag them from the File Tree into the **Add Case** text box and click **Add Case**. You may add as many cases as needed. When the assessment executes, ``pycodestyle`` inspects each added file and outputs all styling issues.
-     
-     **Using JUnit**
-
-     When using JUnit you can add your own custom feedback to the standard feedback Junit returns to students. The feedback message is passed to the assert method as the first parameter. 
-
-    `assertEquals(feedback, expected, actual)`
-
-     **Using UnitTest**
-
-     When using Python unit test you can define the location of the student folder (their `.py` files), if it's not in the **workspace** folder, and have it be separate from test file folder (`.guides/secure`).
-
-    **Using Jshint or Jslint**
-
-    **JSHint** or **JSLint** must first be installed as a Node.js global package using the following command:
-
-    ``sudo npm install -g jshint jslint``
-
-    To add individual JavaScript source files for style checking, either enter their relative path to `~/namespace` or drag them from the File Tree into the **Add Case** text box and click **Add Case**. You may add as many cases as needed. 
-
-    You can also choose **JSLint** or **JSHint** in the **Language Assessment Subtype** drop-down menu. When the assessment executes, each added file is inspected and outputs all styling issues that were found.
-
-    **Using Custom**
-
-    If you choose **Custom**, enter the following information:
-
-    .. image:: /img/guides/assessment_act_exec_custom.png
-       :alt: Custom
-       
-    - **Allow Partial Points** - Toggle to enable partial points, the grade is then based on the percentage of test cases the code passes. See :ref:`Allow Partial Points <partial-points>` for more information.
-
-    - **Command** - Enter the command that executes the student code. 
-
-    .. Note:: If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. 
-      
-      The files can be dragged and dropped from the File Tree into the field to automatically populate the necessary execution and run code.
-      
-
-    - **Timeout** - Enter the time period (in seconds) that the test runs before terminating.
-
 3. Click **Grading** in the left navigation pane and complete the following fields:
 
    .. image:: /img/guides/assessment_grading.png
@@ -115,3 +61,152 @@ To add individual Python source files whose style should be checked, either ente
 
 6. Click **Create** to complete the process.
 
+----------------------
+RuboCop
+----------------------
+
+ `RuboCop (website link)`_ is a Ruby Linter.
+ 
+ To check if RuboCop is already installed on your stack, simply run `rubocop` from the command line. If it is not installed, you can easily install it either via the command line (`gem install rubocop`) or using **bundler** (by adding `gem 'rubocop', require: false` to your Gemfile). 
+ 
+ When using Rubocop in Codio, specify the Ruby files you'd like RuboCop to check under the **ADD CASE:** option.
+ 
+ The student will need to follow all style conventions to earn full credit on the assessment.
+ 
+.. _RuboCop (website link): https://rubocop.org/
+
+----------------------
+RSpec
+----------------------
+
+ `RSpec (website link)`_ is a Ruby testing suite.
+ 
+ To check if RSpec is already installed on your stack, simply run `rspec` from the command line. If it is not installed, you can easily install it either via the command line (`gem install rspec`) or using **bundler** by adding it to your Gemfile. 
+ 
+ When using RSpec in Codio, specify the ruby files containing RSpec tests you'd like to run under the **ADD CASE:** option.
+ 
+ If you have more then one test, by default, the student will need to pass all tests to earn the specified number of points. You can toggle on **ALLOW PARTIAL POINTS** to have Codio evenly weight each test.
+ 
+.. _RSpec (website link): https://rspec.info/
+
+----------------------
+JUnit
+----------------------
+ `JUnit (website link)`_ is a Java testing framework.
+  
+ When using JUnit in Codio, specify the Java files containing JUnit tests you'd like to run under the **ADD CASE:** option.
+ 
+ If you have more then one test, by default, the student will need to pass all tests to earn the specified number of points. You can toggle on **ALLOW PARTIAL POINTS** to have Codio evenly weight each test.
+ 
+ There are 4 *optional* configurations for more complex file structures:
+ - **SOURCE PATH** - specifies where the student code being tested is
+ - **TESTS SOURCE PATH** - specifies where non-test-case test helper files are
+ - **LIBRARY PATH** - specifies where .jar files needed to run the student code or test code at
+ - **WORKING DIRECTORY** - specifies where in the file tree the actual test will run
+ 
+ Codio has a nice :ref:`JUnit <junit>` runner for building JUnit tests.
+ 
+Custom Feedback with JUnit in Codio
+-----------------------------------
+ When using JUnit in Codio, you can add your own custom feedback to the standard feedback Junit returns to students. The feedback message is passed to the assert method as the first parameter. 
+
+`assertEquals(feedback, expected, actual)`
+ 
+.. _Junit (website link): https://junit.org/junit5/
+
+----------------------
+checkstyle
+----------------------
+
+ `checkstyle (website link)`_ is a Java linter.
+  
+ When using checkstyle in Codio, specify the configuration file under **CONFIG PATH** -- you can use use the `Google configuration`_, `Sun configuration`_, or `create your own configuration`_.
+ 
+  Specify the Java files you'd like Checkstyle to check under the **ADD CASE:** option.
+ 
+ The student will need to follow all style conventions to earn full credit on the assessment.
+  
+.. _checkstyle (website link): https://checkstyle.sourceforge.io/
+.. _Google configuration: https://github.com/checkstyle/checkstyle/blob/2954d8723003ef229f5825510a433ab8c60f2774/src/main/resources/google_checks.xml
+.. _Sun configuration: https://github.com/checkstyle/checkstyle/blob/13481f2c410e4944ecf5ab93ec49948a523a0c82/src/main/resources/sun_checks.xml
+.. _create your own configuration: https://checkstyle.sourceforge.io/config.html
+
+----------------------
+pycodestyle
+----------------------
+
+ If you choose **pycodestyle**, you must first install it. Use the following commands to install pycodestyle:
+
+.. code:: ini
+
+  sudo apt update
+  sudo apt install python3-pip
+  sudo python3 -m pip install pycodestyle
+
+  .. image:: /img/guides/assessment_act_exec_pycodestyle.png
+     :alt: Pycodestyle
+
+ To add individual Python source files whose style should be checked, either enter their relative path to `~/namespace` or drag them from the File Tree into the **Add Case** text box and click **Add Case**. You may add as many cases as needed. When the assessment executes, ``pycodestyle`` inspects each added file and outputs all styling issues.
+
+----------------------
+UnitTest
+----------------------
+
+ `UnitTest (website link)`_ is a python testing framework.
+  
+ When using python UnitTest in Codio, specify the python files containing UnitTest tests you'd like to run under the **ADD CASE:** option.
+ 
+ Specify whether you are running python 2 (`python`) or python 3 (`python3`) under **PYTHON EXECUTABLE**.
+ 
+ If you have more then one test, by default, the student will need to pass all tests to earn the specified number of points. You can toggle on **ALLOW PARTIAL POINTS** to have Codio evenly weight each test.
+ 
+ There are 2 *optional* configurations for more complex file structures:
+ - **PYTHON WORKING DIRECTORY** - specifies where in the file tree the actual test will run
+ - **STUDENT FOLDER** - specifies where the student code being tested is
+ 
+.. _UnitTest (website link): https://docs.python.org/3/library/unittest.html
+
+----------------------
+JSHint and JSLint
+----------------------
+
+**JSHint** or **JSLint** must first be installed as a Node.js global package using the following command:
+
+``sudo npm install -g jshint jslint``
+
+To add individual JavaScript source files for style checking, either enter their relative path to `~/namespace` or drag them from the File Tree into the **Add Case** text box and click **Add Case**. You may add as many cases as needed. 
+
+You can also choose **JSLint** or **JSHint** in the **Language Assessment Subtype** drop-down menu. When the assessment executes, each added file is inspected and outputs all styling issues that were found.
+
+----------------------
+custom
+----------------------
+
+If you choose **Custom**, enter the following information:
+
+   .. image:: /img/guides/assessment_act_exec_custom.png
+      :alt: Custom
+
+   - **Command** - Enter the command that executes the student code. 
+
+    .. Note:: If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. 
+      
+    The files can be dragged and dropped from the File Tree into the field to automatically populate the necessary execution and run code.
+      
+  - **Timeout** - Enter the time period (in seconds) that the test runs before terminating.
+
+  - **Allow Partial Points** - Toggle to enable partial points, the grade is then based on the percentage of test cases the code passes. See :ref:`Allow Partial Points <partial-points>` for more information.
+
+
+See a Working Example
+----------------------
+To see an example of a specific unit test or style checker, see the Starter Pack in to corresponding language: 
+
+- `Python Starter Pack`_
+
+- `JavaScript Starter Pack`_
+
+.. _Python Starter Pack: https://codio.com/home/starter-packs/e821a479-7069-48d2-8b7c-70e02a4ada13
+.. _JavaScript Starter Pack: https://codio.com/home/starter-packs/aa3d0fa0-46dc-4c16-abeb-223451de3c73
+
+Additionally, Codio pre-populates a project in **My Projects** called **Demo Guides and Assessments** that contains examples for all assessment types and a guides authoring cheat sheet. If you do not see this project, go to **Starter Packs** and search for **Demo Guides and Assessments**. Click **Use Pack** and then **Create** to make a copy in your **My Projects** area.
