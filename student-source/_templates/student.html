@@ -1,35 +1,51 @@
 {% extends "layout.html" %}
-{% set title = _('Codio') %}
+{% set title = _('Student') %}
 {% block body %}
 <link rel="stylesheet" href="{{ pathto('_static/css/custom_body.css', 1) }}">
 <div>
   <div class="codio-title">
-    Codio Instructor Help Center
+    Codio Student Help Center
   </div>
   <div class="codio-tiles">
     <div class="codio-tiles-row">
-      <a class="codio-tile" href="{{ pathto("getstarted") }}">
+      <a class="codio-tile" href="{{ pathto("accessing-codio") }}">
         <div class="codio-tile-title">
-          <strong>Overview: Getting Started in Codio</strong>
+          <strong>Accessing Codio</strong>
         </div>
         <div class="codio-tile-triangle-top"></div>
         <div class="codio-tile-triangle-bottom"></div>
         <div class="codio-tile-information">
-          Getting started with Codio including videos and tutorials.
+          Joining a course, passwords, subscriptions.
         </div>
         <div class="codio-tile-footer">
           <span class="codio-tile-link">Learn More</span>
           <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
         </div>
       </a>
-      <a class="codio-tile" href="{{ pathto("authoring") }}">
+      <a class="codio-tile" href="{{ pathto("courses") }}">
         <div class="codio-tile-title">
-          <strong>Content Authoring</strong>
+          <strong>Your Courses</strong>
         </div>
         <div class="codio-tile-triangle-top"></div>
         <div class="codio-tile-triangle-bottom"></div>
         <div class="codio-tile-information">
-          Authoring instructional content and assessments.
+          Dashboard, courses, assignments, grades.
+        </div>
+        <div class="codio-tile-footer">
+          <span class="codio-tile-link">Learn More</span>
+          <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
+        </div>
+      </a>
+    </div>
+    <div class="codio-tiles-row">
+      <a class="codio-tile" href="{{ pathto("tools") }}">
+        <div class="codio-tile-title">
+          <strong>Tools</strong>
+        </div>
+        <div class="codio-tile-triangle-top"></div>
+        <div class="codio-tile-triangle-bottom"></div>
+        <div class="codio-tile-information">
+          Dyslexia support, Lexikon, Code Playback.
         </div>
         <div class="codio-tile-footer">
           <span class="codio-tile-link">Learn More</span>
@@ -44,51 +60,6 @@
         <div class="codio-tile-triangle-bottom"></div>
         <div class="codio-tile-information">
           The Codio development environment.
-        </div>
-        <div class="codio-tile-footer">
-          <span class="codio-tile-link">Learn More</span>
-          <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
-        </div>
-      </a>
-    </div>
-
-    <div class="codio-tiles-row">
-      <a class="codio-tile" href="{{ pathto("setupcourses") }}">
-        <div class="codio-tile-title">
-          <strong>Course Configuration</strong>
-        </div>
-        <div class="codio-tile-triangle-top"></div>
-        <div class="codio-tile-triangle-bottom"></div>
-        <div class="codio-tile-information">
-          Creating courses, adding students, connecting to LMS TAs.
-        </div>
-        <div class="codio-tile-footer">
-          <span class="codio-tile-link">Learn More</span>
-          <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
-        </div>
-      </a>
-      <a class="codio-tile" href="{{ pathto("teaching") }}">
-        <div class="codio-tile-title">
-          <strong>Teaching in Codio</strong>
-        </div>
-        <div class="codio-tile-triangle-top"></div>
-        <div class="codio-tile-triangle-bottom"></div>
-        <div class="codio-tile-information">
-          Grading, viewing student work, remote toolkit.
-        </div>
-        <div class="codio-tile-footer">
-          <span class="codio-tile-link">Learn More</span>
-          <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
-        </div>
-      </a>
-      <a class="codio-tile" href="{{ pathto("admin") }}">
-        <div class="codio-tile-title">
-          <strong>Admin</strong>
-        </div>
-        <div class="codio-tile-triangle-top"></div>
-        <div class="codio-tile-triangle-bottom"></div>
-        <div class="codio-tile-information">
-          LMS Integration, Organization settings, FERPA, Accessibility.
         </div>
         <div class="codio-tile-footer">
           <span class="codio-tile-link">Learn More</span>

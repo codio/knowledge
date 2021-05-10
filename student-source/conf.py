@@ -219,7 +219,6 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 todo_include_todos = True
 
 html_additional_pages = {
-    'index': 'index.html',
     'student': 'student.html'
     }
 html_css_files = [

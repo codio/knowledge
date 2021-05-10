@@ -124,7 +124,6 @@ html_static_path = ['_static']
 #
 html_sidebars = {
     "index": [],
-    "student": [],
     "**": ['sidebar-nav-bs.html'],
 }
 
@@ -217,8 +216,7 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 todo_include_todos = True
 
 html_additional_pages = {
-    'index': 'index.html',
-    'student': 'student.html'
+    'index': 'index.html'
     }
 html_css_files = [
     'css/codio.css',
