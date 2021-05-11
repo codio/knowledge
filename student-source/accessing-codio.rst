@@ -13,7 +13,7 @@ Accessing Codio
 
 
    students/accessing-codio/accessing-codio
-   common-student/settings/settings
+   develop/settings/settings
 
 Join a Course
 -------------

@@ -12,9 +12,9 @@ Tools
    :hidden:
    
 
-   common/tools/lexikon
-   common/tools/code-playback
-   common/tools/code-commenting
+   develop/tools/lexikon
+   develop/tools/code-playback
+   develop/tools/code-commenting
    
 Dyslexia Support
 ----------------
