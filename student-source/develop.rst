@@ -11,16 +11,16 @@ Developing Code
    :maxdepth: 1
    :hidden:
 
-   common-student/develop/projects/projects
-   common-student/develop/stacks/stacks
-   common-student/develop/packs/packs
-   common-student/develop/ide/workspace/workspace
-   common-student/develop/ide/editing/code-editing
-   common-student/tools/dyslexia
-   common-student/develop/ide/tools/deployment
-   common-student/develop/ide/boxes/overview
-   common-student/develop/ide/boxes/installsw/install-software
-   common-student/develop/ide/debugger/debugger
+   develop/develop/projects/projects
+   develop/develop/stacks/stacks
+   develop/develop/packs/packs
+   develop/develop/ide/workspace/workspace
+   develop/develop/ide/editing/code-editing
+   develop/tools/dyslexia
+   develop/develop/ide/tools/deployment
+   develop/develop/ide/boxes/overview
+   develop/develop/ide/boxes/installsw/install-software
+   develop/develop/ide/debugger/debugger
 
 
 A project is a Ubuntu server and is commonly referred to as a box. You can create as many projects (boxes) as needed, and with sudo privileges, you can install and configure them however you want. Each project box is fully isolated from your other project boxes.

@@ -3,7 +3,11 @@
 
 .. toctree::
    :name: authoring
-   :caption: Authoring
+   
+Authoring
+---------
+ 
+.. toctree::
    :maxdepth: 1
    :hidden:
    
@@ -12,9 +16,9 @@
    instructors/authoring/guides/settings/page
    instructors/authoring/assessments/add-assessment
    instructors/setupcourses/library/assessmentslibrary
-   
+
 Introduction to Guides
-----------------------
+**********************
 
 Codio provides a powerful authoring tool called Guides you can use to create rich tutorial and instructional content as well as assessments. Here are a few of the key features.
 
