@@ -10,8 +10,11 @@ Legal stuff
 
 Accessibility
 *************
+Codio's student experience meets the Web Content Accessibility Guidelines (WCAG) Level 2AA level of compliance and Codio is actively committed to maintaining and continuously improving the accessibility of the Codio student experience.
 
-https://www.codio.com/legal-stuff#compliance
+`Accessibility Information <https://www.codio.com/legal-stuff#compliance>`_ on our website
+
+
 
 .. _vpat:
 
@@ -21,34 +24,36 @@ https://www.codio.com/legal-stuff#compliance
 
 GDPR
 ****
+General Data Protection Regulations (GDPR) govern how Codio can use your information.
 
-https://www.codio.com/legal-stuff#gdpr
+`GDPR information <https://www.codio.com/legal-stuff#gdpre>`_ on our website.
+
+
 
 .. _ferpa:
 
 FERPA
 *****
+Family Educational Rights and Privacy Act (FERPA) is a Federal law that protects the privacy of student education records.
 
- https://www.codio.com/legal-stuff#ferpa
- 
-.. _coppa:
-
-COPPA
-*****
+`FERPA information <https://www.codio.com/legal-stuff#ferpa>`_ on our website.
 
 
-
-.. _gss:
+.. _pii:
 
 Personal Identifiable Information
 *********************************
-.. _pii:
 
-https://www.codio.com/legal-stuff#pii
+Codio's `privacy policy <https://www.codio.com/legal-stuff#pii>`_ as it relates to your personally identifiable information.
 
-General Security stuff
-**********************
+
 
 .. _sec-stat:
 
-https://www.codio.com/legal-stuff#terms-and-conditions
+General Terms and Conditions
+****************************
+
+The `Terms of Use <https://www.codio.com/legal-stuff#terms-and-conditions>`_ are an agreement between you and the Codio Group that govern your access to and use of the website.
+
+
+
