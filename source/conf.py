@@ -51,6 +51,8 @@ extensions = [
     'recommonmark',
     'sphinx_sitemap'
 ]
+html_baseurl = 'https://docs.codiodev.com'
+sitemap_filename = "sitemap.xml"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
