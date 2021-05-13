@@ -9,4 +9,8 @@ docsearch({
   inputSelector: '#search-input',
   // Set debug to true to inspect the dropdown
   debug: false,
+  algoliaOptions: {
+    hitsPerPage: 8,
+
+  }
 });
