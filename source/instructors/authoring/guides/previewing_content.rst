@@ -1,5 +1,5 @@
 .. meta::
-   :description: Previewing content
+   :description: Previewing Guide content
 
 
 Previewing content
@@ -7,13 +7,13 @@ Previewing content
 
 Preview mode
 ************
-You will regularly want to switch from editing your page content to preview it as users will see it. The best way to do this is to press the preview button in the top right of the content window. When the guide renders, it would open at the current page you were editing.
+You can switch from editing your page content to previewing it as users will see it. To do this press the preview button in the top right of the content window. When the guide renders, it will open at the page you were editing.
 
   .. image:: /img/guides/preview-button.png
      :alt: Preview button
 
 
-To return to the edit mode, press the **Editor** button and you will be returned to edit mode on the page that you were viewing in Play mode.
+To return to the edit mode, press the **Editor** button and you will return to edit mode on the same page.
 
   .. image:: /img/guides/editor-button.png
      :alt: Editor Button
@@ -22,7 +22,7 @@ To return to the edit mode, press the **Editor** button and you will be returned
 
 Split screen
 ************
-Another approach that works for the current page is to switch layout mode to split view mode by selecting the 2nd from left button in the header bar.
+You can switch layout mode to split view mode by selecting the 2nd from left button in the header bar. Split view allows you to see the edit text and the rendered text side by side.
 
   .. image:: /img/guides/split-button.png
      :alt: Split Button

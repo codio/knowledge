@@ -1,5 +1,5 @@
 .. meta::
-   :description: HTML Content Editing
+   :description: Using HTML to format your Guides content
 
 .. _html-content:
    
