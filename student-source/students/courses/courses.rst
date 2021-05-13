@@ -16,3 +16,4 @@ Your Courses
    exam-mode
    view-grade
    restore-files
+   audio-video
