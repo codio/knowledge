@@ -16,6 +16,7 @@ Code Editing Features
    color-picker
    command-bar
    cursor
+   av-chat
    force-language-highlighting
    connect-github-codio
    junit
