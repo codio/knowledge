@@ -15,7 +15,7 @@ If your school is not using an LMS platform, your instructor will provide you on
 - Send you a two-word token that you can enter on the Codio website using `Join Course  <https://codio.com/p/join-class>`_. Enter the token and click **Next**.
 
   .. image:: /img/joinclass.png
-     :alt: Auth token
+     :alt: Join Course
 
 
 To access your course, log in to your Codio account and select **Courses** in the navigation pane.
