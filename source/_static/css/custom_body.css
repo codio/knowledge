@@ -17,3 +17,10 @@ body {
 .container-xl .d-none {
     display: none !important;
 }
+
+@media (min-width: 1200px) {
+    .col-xl-8 {
+        flex: 0 0 91.66667% !important;
+        max-width: 91.66667% !important;
+    }
+}
