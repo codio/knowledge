@@ -12,7 +12,7 @@ If you need to make changes to your Starter Pack, follow these steps:
 1. Create a new project from your Starter Pack or locate an existing project where you want to use your Starter Pack.
 2. Locate the Starter Pack  and click **Edit**.
 3. In the **Source** field, browse to the correctly configured project.
-4. Click Create**** in the lower portion of the page.
+4. Click **Create** in the lower portion of the page.
 
 .. Note:: Codio does not support versioning for Starter Packs.
 

@@ -1,7 +1,7 @@
 .. meta::
-   :description: Hiding folders
+   :description: Hiding folders in the file tree as a means of organizing code samples.
 
 Hiding folders
 ==============
 
-Your content will often want to show code samples. Codio's recommended approach is to put each set of code samples into a dedicated folder. Then, using **Show Folders** on :ref:`page settings <show-hide-folders>`, you can specify this folder. All non-specified folders are hidden from view in the file tree.
+You can organize your code samples in a dedicated folder and then use **Show Folders** on :ref:`page settings <show-hide-folders>`to specify this folder. All non-specified folders are hidden from view in the file tree.

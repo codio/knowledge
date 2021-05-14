@@ -7,7 +7,7 @@ Table of contents management
 ============================
 Once you are in the Codio IDE, you are able to create and manage content. There are two ways to access the Codio Guide.
 
--  Press then right arrow at the top of the file tree.
+-  Press the pencil at the top of the file tree.
 
   .. image:: /img/guides/startguides.png
      :alt: start authoring
@@ -17,10 +17,10 @@ Once you are in the Codio IDE, you are able to create and manage content. There 
 
 Editing page content and actions
 ********************************
-Please refer to the following pages for details in how to edit page content and control page actions.
+Please refer to the following pages for details on how to edit page content and control page actions.
 
-- :ref:`Page Editing <page-editing>` for details on how to edit a pages content using markdown or HTML, hiding folders and other actions.
-- :ref:`Settings and page actions <page>` : Opening and closing files, panel configuration and other settings
+- :ref:`Page Editing <page-editing>` contains information on how to edit page content using markdown or HTML, hiding folders and other actions.
+- :ref:`Settings and page actions <page>` contains information about opening and closing files, panel configuration and other settings.
 
 Editing content
 ***************
@@ -32,7 +32,7 @@ The image below highlights the main components of the editing page.
 
 Accessing the table of contents
 *******************************
-To open and close the table of contents, press the **Hamburger Icon** at the top right. From here you can add and organize content.
+To open and close the table of contents, press the **Index Icon** at the top right. From here you can add and organize content.
 
 
 Chapters, sections and pages
@@ -54,15 +54,16 @@ Multiple selection
 ******************
 You can multi-select pages as follows
 
-- Select an item then `shift+click` on a latter item to select all pages between the two items. This only works for items at the same level.
+- Select an item then `shift+click` on a different item to select all pages between the two items. This only works for items at the same level.
 - Use `ctrl+click` (PC/Linux) or  `cmd+click` (Mac) to multi select individual pages.
 
 
 Drag and Drop
 *************
-It is very important to understand how drag and drop works within a table of contents as it is very powerful but can be confusing if you don’t understand that drop process. Drag and drop works with individual or multiple selected pages.
 
-What is unusual about our drag and drop support is that the destination folder location is determined by where you drop.
+Drag and drop within the table of contents works with individual or multiple selected pages.
+
+The following are the rules that govern the destination of the items you are dropping.
 
 - If you drop in the top portion of the target item, the selection will be dropped above it at the same level.
 - If you drop in middle portion of the target item, the selection will be dropped within it if the target is a section.

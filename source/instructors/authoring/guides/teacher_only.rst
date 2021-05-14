@@ -1,5 +1,5 @@
 .. meta::
-   :description: Teacher only content
+   :description: Mark Guide content as teacher only
  
 
 
@@ -15,18 +15,19 @@ Teacher only content can be viewed by teachers when:
 
 Warning
 
-- If your project is public and a user accesses this project via the public listing of your account then they will have access to the solutions.
+- If your project is public and a user accesses this project via the public listing of your account they will have access to the solutions.
 
-You can make content available only to course teachers in the following ways.
+You can make Guides content available only to course teachers in the following ways:
 
 
-Entire page
-***********
-If you want a page and its appearance in the table of contents to be only visible to a teacher, then you should enable the **Teacher Only** slider in the :ref:`page settings <teacher-only>`.
+Setting an entire page as teacher only content
+**********************************************
+Enable the **Teacher Only** slider in the :ref:`page settings <teacher-only>` to mark a page as teacher only The page will only appear in the index for teachers.
 
-Selected content within page
-****************************
-If you want to hide a certain piece of information *within a page* from students then you should include all such content within a page within `|||guidance ..... |||`. An example is shown below.
+
+Settin selected content within a page as teacher only
+*****************************************************
+To hide pieces of information *within a page* from students enclose the content in `|||guidance ..... |||`. An example is shown below.
 
 .. code:: markdown
 

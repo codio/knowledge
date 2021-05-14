@@ -4,7 +4,7 @@
    
 Author and student views
 ========================
-Students do not have access to the Codio content authoring tools in Guides. When a student begins an assignment, the Guide is automatically shown and the content will be rendered as intended for them and they cannot modify it. Content authors may specify whether students can close the Guides. Content authors are able to view content as students would see it.
+Students do not have access to the Codio content authoring tools in Guides. When a student begins an assignment, the Guide is automatically shown and the content will be rendered as intended for them and they cannot modify it. Content authors may specify whether students can close the Guides in the :ref:`Global Guide Settings <global>`. Content authors are able to view content as students would see it.
 
 Editing content in Guides
 *************************
@@ -28,7 +28,7 @@ Customizing IDE menu
 ********************
 The top menu can be customized to remove options you don't want your students to have access to. 
 
-.. Note::  that only students will see this. Teachers previewing the assignment will not see the customization. If you wish to check this, the :ref:`test student <add-remove-students>` accounts can be used
+.. Note::  Only students will see the modified menus. Teachers previewing the assignment will not see the customization. To view the environment as a student use the :ref:`test student <add-remove-students>` accounts.
 
 Use a `.codio-menu` file to specify which menu items should be hidden.
 Example:
@@ -49,7 +49,7 @@ Example:
     }
 
 
-.. Note:: setting Status=false means students will need to use the 'Back to Dashboard' button shown on the last page of the guides to return to their dashboard area 
+.. Note:: If you set Status to false students will need to use the 'Back to Dashboard' button shown on the last page of the guides to return to their dashboard area. 
 
 Setting up .codio-menu file:
 
@@ -79,10 +79,10 @@ Guide player Options
 
 When the Guide is in Play mode, the following options may be available depending on who is viewing:
 
-- The **Collapse table of contents** button allows the user to collapse the content pane to provide a larger working area. This option does not show if the page layout is One Pane.
-- **Navigation Buttons** provide forward/backward in the guide.
-- **Settings** allows the user to view the assignment as a teacher (e.g. show solution information hidden to students) change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts, to restore the current files (see below) and to access Code Comments. See :ref:`Dyslexia Support <dyslexia>` section
-- **Show/Hide Section List** the Index icon allows the user to show/hide the index.
+- The **Collapse** button allows the user to collapse the content pane to provide a larger working area. This option does not show if the page layout is One Pane.
+- **Navigation Buttons** provide forward/backward scrolling in the guide.
+- **Settings** allow the user to view the assignment as a teacher (e.g. show solution information hidden to students) change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts, to restore the current files (see below) and to access Code Comments. See :ref:`Dyslexia Support <dyslexia>` section
+- **Show/Hide Index List** the Index icon allows the user to show/hide the index.
 - **Grading** is available for teachers to access the grading area. Students do not see this option.
 
 Restore current files

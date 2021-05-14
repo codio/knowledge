@@ -19,7 +19,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [12th]`: Remove students ability to grant permissions to other students in assignments
 - `[F] [11th]`: Add support for realtime :ref:`Audio/Video/Chat <av-chat>` between active users in assignments/projects
 - `[I] [ 6th]`: Fix problem with top menu hiding when students mark assignments as complete
-- `[I] [ 6th]`: Improve :ref:`Close Tabs <close-tabs>`to allow option to retain terminal session from previous sections
+- `[I] [ 6th]`: Improve :ref:`Close Tabs <close-tabs>` to allow option to retain terminal session from previous sections
 - `[F] [ 5th]`: Add support for teachers to enable a :ref:`writable copy <viewing-student-work>` of students work at any time
 - `[F] [ 4th]`: Add support for :ref:`Participation Grading <participation-grading>`
 
