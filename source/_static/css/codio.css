@@ -221,3 +221,7 @@
 .section-nav {
   border-left: none;
 }
+
+.bd-content a {
+  font-weight: 600;
+}
