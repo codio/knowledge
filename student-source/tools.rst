@@ -2,7 +2,6 @@
    :description: Dyslexia support, Lexikon, Code Playback, Code Commenting, Desktop App
 
 
-.. _dyslexia:
 
 Tools
 =====
