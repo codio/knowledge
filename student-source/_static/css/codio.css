@@ -39,23 +39,31 @@
 
 .codio-tiles {
   display: flex;
-  flex-direction: column;
-}
-
-.codio-tiles-row {
-  display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: center;
   justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .codio-tile {
-  width: 320px;
+  max-width: 320px;
   height: 320px;
   border-radius: 20px;
   margin: 10px;
   display: flex;
   flex-direction: column;
   text-decoration: none;
+}
+
+.index-page .codio-tile {
+  flex: 1 0 30%;
+}
+
+.student-page .codio-tile {
+  flex: 1 0 51%;
 }
 
 .codio-tile:hover {

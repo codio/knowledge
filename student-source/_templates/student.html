@@ -1,13 +1,12 @@
 {% extends "layout.html" %}
 {% set title = _('Student') %}
 {% block body %}
-<link rel="stylesheet" href="{{ pathto('_static/css/custom_body.css', 1) }}">
-<div>
-  <div class="codio-title">
-    Codio Student Help Center
-  </div>
-  <div class="codio-tiles">
-    <div class="codio-tiles-row">
+  <link rel="stylesheet" href="{{ pathto('_static/css/custom_body.css', 1) }}">
+  <div class="student-page">
+    <div class="codio-title">
+      Codio Student Help Center
+    </div>
+    <div class="codio-tiles">
       <a class="codio-tile" href="{{ pathto("accessing-codio") }}">
         <div class="codio-tile-title">
           <strong>Accessing Codio</strong>
@@ -36,8 +35,6 @@
           <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
         </div>
       </a>
-    </div>
-    <div class="codio-tiles-row">
       <a class="codio-tile" href="{{ pathto("tools") }}">
         <div class="codio-tile-title">
           <strong>Tools</strong>
@@ -52,7 +49,7 @@
           <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
         </div>
       </a>
-      <a class="codio-tile" href="{{ pathto("develop") }}">
+      <a class="codio-tile" href="{{ pathto("common") }}">
         <div class="codio-tile-title">
           <strong>Developing Code</strong>
         </div>
@@ -68,5 +65,4 @@
       </a>
     </div>
   </div>
-</div>
 {% endblock %}
