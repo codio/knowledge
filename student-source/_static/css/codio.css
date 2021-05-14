@@ -222,6 +222,6 @@
   border-left: none;
 }
 
-.bd-content a {
+.bd-content a.reference {
   font-weight: 600;
 }
