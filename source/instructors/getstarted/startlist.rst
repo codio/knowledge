@@ -15,7 +15,7 @@ Getting Started
 - Start using Codio by working through our interactive :ref:`Onboarding Guide <onboarding-guide>`.
 
 
-- See what a course looks like in Codio by trying out one of our :ref:`Instructional resources <codio-resources>`.
+- See what a course looks like in Codio by trying one of our :ref:`Instructional resources <codio-resources>`.
  
 
 - View our on-demand instructional webinars (link to come)

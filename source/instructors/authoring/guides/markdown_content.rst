@@ -1,24 +1,20 @@
 .. meta::
-   :description: Markdown content
+   :description: Using Markdown to format your Guides content
 
 .. _markdown-content-editing:
 
 Markdown content editing
 ========================
 
-Demo Guides and Assessments
-***************************
-Please refer to the **Callout** section of the **Demo Guides and Assessments** project loaded to your **My Projects** area. If not loaded you can find in **Starter Packs** and click **Use Pack** and then **Create** to install it to your Codio account.
-
 Content can be written in
 
-- **Markdown** - the recommended option and described on this page
-- **HTML** allowing more detailed control but requiring more time; described on the next page.
+- **Markdown** - Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. More information below.
+- **HTML** - Hypertext Markup Language allows more detailed control of your formatting. More information can be found :ref:`here <html-content>`.
 
 When you are in edit mode, you can select a section by
 
 - using the navigation buttons in the header area
-- selecting a section from the section list
+- selecting a section from the index list
 
   .. image:: /img/guides/editnav.png
      :alt: editnav
@@ -28,17 +24,16 @@ When you are in edit mode, you can select a section by
 
 Renaming the Section
 ********************
-You can rename your section by clicking on the section title in the header area.
+Rename your section by clicking on the section title in the header area.
 
 Writing content
 ***************
-You can then start writing your content in the main content area.
+Write content in the main content area.
 
 Markdown
 ********
-For those of you not familiar with Markdown, it is an extremely easy way of writing content without having to worry about HTML.
 
-When in Play Mode or as you preview, your content is rendered as students will see it. You can also override the default CSS styling if you wish. Go to **Tools->Guide->Add Custom CSS**
+In Play Mode or as you preview, your content is rendered as students will see it. You can override the default CSS styling by accessing **Tools->Guide->Add Custom CSS**
 
   .. image:: /img/guides/guidecss.png
      :alt: Guide CSS
@@ -49,7 +44,7 @@ When in Play Mode or as you preview, your content is rendered as students will s
 
 Click here for details on how to insert :ref:`images, videos and hyperlinks <add-media>`.
 
-Here is a summary of the Markdown formatting codes
+A summary of Markdown formatting codes:
 
 Headers/Titles
 **************
@@ -225,17 +220,17 @@ Inline math equations are encapsulated in a single `$` like this: $\omega = d\ph
 
 Collapsible Content
 *******************
-In writing content, it is sometimes useful to provide information for the student, but to keep this hidden until they are ready.
+In writing content, it is sometimes useful to provide information for the student, but to keep it hidden until they are ready.
 
 This can be achieved with collapsible content and the `<details> <summary>` elements. The content is treated as HTML and as such a mix of HTML and Markdown can be required.
 
 .. Note::
 
-  - If including code blocks, ensure you have an empty line after the closing ``</summary>`` tag.
-  - All code block starter lines, e.g. ```js must be preceded by a blank line. 
-  - The closing block ``` tag must be followed by a newline. 
-  - If you have multiple collapsible sections, ensure you have an empty line after the closing ``</details>`` tag.
-  - If you wish to have the content showing by default, use `<details  open>`.
+  - If you have code blocks you must have an empty line after the closing ``</summary>`` tag.
+  - All code block starter lines, e.g. \`\`\`js must be preceded by a blank line. 
+  - The closing block \`\`\` tag must be followed by a newline. 
+  - If you have multiple collapsible sections you must have an empty line after the closing ``</details>`` tag.
+  - If you want the content to show by default, use `<details  open>`.
 
 Example
 -------
@@ -245,8 +240,7 @@ Example
 
 
 
-
-To achieve this result, the code is comprised below (in 3 code blocks to ensure all presents correctly here)
+To following is the code used to create the image above. Three code blocks are required for this display. 
 
 .. code:: markdown
 

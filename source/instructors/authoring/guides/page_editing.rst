@@ -1,5 +1,5 @@
 .. meta::
-   :description: Page Editing
+   :description: Editing the content of a Guides page
 
 .. _page-editing:
 
@@ -40,13 +40,13 @@ Editor settings gives you access to the key functions:
 
 Page
 ----
-  - **:ref:`Layout <layout>`** allows you to specify the panel layout you want to choose for this section,
-  - **:ref:`Show Folders <show-hide-folders>`** allows you to define specific folders in your project that you wish to be visible when the current section is displayed,
-  - **:ref:`Close Tabs <close-tabs>`** allows you to close all tabs open from previous section,
+  - :ref:`Layout <layout>` allows you to specify the panel layout you want to choose for this section,
+  - :ref:`Show Folders <show-hide-folders>` allows you to define specific folders in your project that you wish to be visible when the current section is displayed,
+  - :ref:`Close Tabs <close-tabs>` allows you to close all tabs open from previous section,
       - **Close Terminal Session** when Close tabs enabled, allows you the option to retain terminal session from previous section. By default, terminal session will close
   - **Set Section as Chapter** allows you to set the section as a chapter in your content,
-  - **:ref:`Teacher Only <teacher-only>`** allows you to show content that only teachers are able to see.
-  - **Content Type** allows you to write your content in either :ref:`Markdown <markdown-content-editing>`) or :ref:`HTML <html-content>`)
+  - :ref:`Teacher Only <teacher-only>` allows you to show content that only teachers are able to see.
+  - **Content Type** allows you to write your content in either :ref:`Markdown <markdown-content-editing>` or :ref:`HTML <html-content>`
 
 
 
@@ -77,9 +77,9 @@ This allows you to play audio files within your project.
      :alt: Global Settings
 
 
-- **Scripts** allows you to point to one or more `.js` files in your project (usually you would have this somewhere within the `.guides` folder) that is run when the page is shown. This is especially useful when interacting with a button in a page of content.
-- **Theme** allows you to select the default theme for people viewing the content. We currently have a light theme and will be adding a dark theme shortly. Dyslexic users can also choose a special theme from the Settings drop down in the content player.
-- **:ref:`Lexicon Topic <lexikon>`)**  if you use this option, an icon will appear in the toolbar that will load the Lexikon window with the selected topic automatically selected. Students can still access the Lexicon from the **Tools>Lexicon** menu (unless of course you are restricting the top menu available to them)
+- **Scripts** allows you to point to one or more `.js` files in your project (usually located within the `.guides` folder) that is run when the page is shown. This is especially useful when interacting with a button in a page of content.
+- **Theme** allows you to select the default theme for people viewing the content. There is currently a light theme and a dark theme will be added at a later time. Dyslexic users can also choose a special theme from the Settings drop down in the content player.
+- :ref:`Lexicon Topic <lexikon>`  if you use this option, an icon will appear in the toolbar that will load the Lexikon window with the selected topic automatically selected. Students can still access the Lexicon from the **Tools>Lexicon** menu (unless of course you are restricting the top menu available to them)
 - **Suppress page numbering** allows you to suppress the section page numbers when in Play Mode.
 - **Hide Menu** allows you to hide the main Codio menu items in the IDE (Codio/Project/File/Edit etc) when the assignment is run in a :ref:`course <add-remove-assignment>`).
 - **Allow guide to be closed** allows students to be able to close the content. It can be restarted by selecting the Start icon in the file tree:
@@ -88,9 +88,9 @@ This allows you to play audio files within your project.
      :alt: StartGuides
 
 
-- **Use submit buttons** see :ref:`Student submission options <student-submission>` for more information
-- **Use mark as completed** see ref:`Student submission options <student-submission>` for more information
-- **Collapsed on start** starts the assignment with the guides pane collapsed. Students can show the content clicking on the hamburger icon on the right
+- **Use Submit Buttons** see :ref:`Student submission options <student-submission>` for more information
+- **Use Mark as Complete** see :ref:`Student submission options <student-submission>` for more information
+- **Collapsed on start** starts the assignment with the guides pane collapsed. Students can show the content by clicking on the index icon on the right
 
   .. image:: /img/guides/guidecollapse.png
      :alt: OpenGuides

@@ -1,11 +1,11 @@
 .. meta::
-   :description: Open/close content
+   :description: Open and close files, previews and the terminal and highlight text using commands in Guides.
 
 .. _open-close:
 
 Open/close tabs from content
 ============================
-You can include links in your content to perform the same open and close actions as you do from the :ref:`open tabs <open-tabs>` dialog.
+You can include links in your content to open and close files in tabs and highlight lines of text similar to what is available in the :ref:`open tabs <open-tabs>` dialog.
 
 Syntax Summary
 **************
@@ -37,11 +37,11 @@ Closing directives
 
 Important - spaces and ; in file names and commands
 ***************************************************
-If any of your files contain spaces in the names, then you should enclose the file name in double quotes
+If any of your files contain a space in the name, enclose the file name in double quotes.
 
 - `open_file "file name.txt"`
 
-If you use `cmd` and the command has a `;` character in it, then you should also use quotes
+If you use `cmd` and the command has a `;` character in it, then you should also use quotes.
 
 - `cmd "cp file1 file2; cp file3 file4"`
 
