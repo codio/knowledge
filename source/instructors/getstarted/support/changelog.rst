@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2021**
 
+- `[I] [18th]`: Add extra credit field to csv downloads of students work
 - `[F] [13th]`: Add support for :ref:`Pyret <pyret>`
 - `[I] [12th]`: Remove students ability to grant permissions to other students in assignments
 - `[F] [11th]`: Add support for realtime :ref:`Audio/Video/Chat <av-chat>` between active users in assignments/projects
