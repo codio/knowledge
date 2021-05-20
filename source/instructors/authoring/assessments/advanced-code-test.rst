@@ -99,6 +99,7 @@ JUnit
  If you have more then one test, by default, the student will need to pass all tests to earn the specified number of points. You can toggle on **ALLOW PARTIAL POINTS** to have Codio evenly weight each test.
  
  There are 4 *optional* configurations for more complex file structures:
+ 
  - **SOURCE PATH** - specifies where the student code being tested is
  - **TESTS SOURCE PATH** - specifies where non-test-case test helper files are
  - **LIBRARY PATH** - specifies where .jar files needed to run the student code or test code at
@@ -143,10 +144,10 @@ pycodestyle
   sudo apt install python3-pip
   sudo python3 -m pip install pycodestyle
 
-  .. image:: /img/guides/assessment_act_exec_pycodestyle.png
-     :alt: Pycodestyle
+.. image:: /img/guides/assessment_act_exec_pycodestyle.png
+   :alt: Pycodestyle
 
- To add individual Python source files whose style should be checked, either enter their relative path to `~/namespace` or drag them from the File Tree into the **Add Case** text box and click **Add Case**. You may add as many cases as needed. When the assessment executes, ``pycodestyle`` inspects each added file and outputs all styling issues.
+To add individual Python source files whose style should be checked, either enter their relative path to `~/namespace` or drag them from the File Tree into the **Add Case** text box and click **Add Case**. You may add as many cases as needed. When the assessment executes, ``pycodestyle`` inspects each added file and outputs all styling issues.
 
 ----------------------
 UnitTest
@@ -161,6 +162,7 @@ UnitTest
  If you have more then one test, by default, the student will need to pass all tests to earn the specified number of points. You can toggle on **ALLOW PARTIAL POINTS** to have Codio evenly weight each test.
  
  There are 2 *optional* configurations for more complex file structures:
+ 
  - **PYTHON WORKING DIRECTORY** - specifies where in the file tree the actual test will run
  - **STUDENT FOLDER** - specifies where the student code being tested is
  
@@ -179,7 +181,7 @@ To add individual JavaScript source files for style checking, either enter their
 You can also choose **JSLint** or **JSHint** in the **Language Assessment Subtype** drop-down menu. When the assessment executes, each added file is inspected and outputs all styling issues that were found.
 
 ----------------------
-custom
+Custom
 ----------------------
 
 If you choose **Custom**, enter the following information:
