@@ -11,6 +11,7 @@ Stacks
    :hidden:
    
    using-stacks
+   stack-planning
    create-stack
    modify-stack
    update-stack

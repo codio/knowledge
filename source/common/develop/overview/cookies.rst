@@ -1,37 +1,17 @@
 .. meta::
-   :description: The Codio development environment
-
-.. toctree::
-   :name: common
-   
-Developing Code
-===============
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   
-   common/develop/overview/cookies
-   common/develop/projects/projects
-   common/develop/stacks/stacks
-   common/develop/packs/packs
-   common/develop/ide/workspace/workspace
-   common/develop/ide/editing/code-editing
-   common/tools/dyslexia
-   common/develop/ide/tools/deployment
-   common/develop/ide/boxes/overview
-   common/develop/ide/boxes/installsw/install-software
-   common/develop/ide/debugger/debugger
-
-
-A project is a Ubuntu server and is commonly referred to as a box. You can create as many projects (boxes) as needed, and with sudo privileges, you can install and configure them however you want. Each project box is fully isolated from your other project boxes.  
-
-When opening a project, you are taken into the project server (box) and are presented with the Codio IDE. You can access the command line via a terminal window.
+   :description: Cookie Requirements
 
 Cookie Requirements
 -------------------
 
-In order for Codio to work correctly you need to allow cookies. Check our Check our `Privacy policy <https://www.codio.com/legal-stuff#pii>`_ for more information about cookies.
+.. toctree::
+   :caption: The Codio development environment
+   :hidden:
+   
+   firewall
+   browsers
+
+In order for Codio to work correctly you need to allow cookies. Check our `Privacy policy <https://www.codio.com/legal-stuff#pii>`_ for more information about cookies.
 
 The following information explains how to enable cookies for all sites. You can also enable them only for certain sites, which is not explained below.
 
