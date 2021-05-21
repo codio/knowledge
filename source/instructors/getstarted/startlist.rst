@@ -18,7 +18,7 @@ Getting Started
 - See what a course looks like in Codio by trying one of our :ref:`Instructional resources <codio-resources>`.
  
 
-- View our on-demand instructional webinars (link to come)
+- View our on-demand instructional `webinars <https://www.codio.com/on-demand-webinars>`_
 
 
 - Try our **Hello Codio** Starter Packs for language specific information on creating lessons.
