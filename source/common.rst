@@ -11,7 +11,6 @@ Developing Code
    :maxdepth: 1
    :hidden:
    
-   common/develop/overview/cookies
    common/develop/projects/projects
    common/develop/stacks/stacks
    common/develop/packs/packs
@@ -22,62 +21,38 @@ Developing Code
    common/develop/ide/boxes/overview
    common/develop/ide/boxes/installsw/install-software
    common/develop/ide/debugger/debugger
+   common/develop/general
+
+Projects
+--------
 
 
 A project is a Ubuntu server and is commonly referred to as a box. You can create as many projects (boxes) as needed, and with sudo privileges, you can install and configure them however you want. Each project box is fully isolated from your other project boxes.  
 
 When opening a project, you are taken into the project server (box) and are presented with the Codio IDE. You can access the command line via a terminal window.
 
-Cookie Requirements
--------------------
+Project templates
+-----------------
 
-In order for Codio to work correctly you need to allow cookies. Check our Check our `Privacy policy <https://www.codio.com/legal-stuff#pii>`_ for more information about cookies.
+Codio works with a series of templates for software configurations, also commonly referred to as stacks. These templates deliver fully preconfigured servers in less than 5 seconds, no matter how complex the configuration. You can use our pre-configured templates or create your own. This template approach makes Codio easy to use, configure and adapt.
 
-The following information explains how to enable cookies for all sites. You can also enable them only for certain sites, which is not explained below.
+- You can take a snapshot of the software configuration on any box and add it to the **Stacks** template library.
 
-To enable cookies in Chrome:
-****************************
+- You can take a snapshot of the stack/project code workspace combination and add it to the **Starter Packs** template library.
 
-In your browser enter: `chrome://settings/content/cookies`
-and
+Project concepts and features
+-----------------------------
+We strongly recommend that you familiarize yourself with the following project related concepts and features before you get started:
 
-- enable **Allow sites to save and read cookie data (recommended)**
-- disable **Block third party cookies**
-
-.. image:: /img/chromecookies.png
-   :alt: Chrome Cookies
-
-
-*Image from Chrome Version 59.0.3071.86 (Official Build) (64-bit)*
-
-To enable cookies in Firefox:
-*****************************
-In your browser enter: `about:preferences#privacy`
-Select **User custom settings for history** from the drop down in the History section and
-
-- check **Accept cookies from sites**
-- select 'Always' in the drop down for **Accept third-party cookies**
-
-.. image:: /img/firefoxcookies.png
-   :alt: Firefox Cookies
+- :ref:`Boxes and the IDE <overview>`
+- :ref:`Stacks <stacks>`
+- :ref:`Starter Packs <starter-packs>`
+- :ref:`Authoring tutorial content with Codio Guides <guides-intro>`
+- :ref:`Creating Course Content <courses>`
 
 
-*Image from Firefox 55.0.2 (64-bit)*
+**See Also:**
 
-To enable cookies in Safari:
-****************************
-
-In your browser go to `Safari> Preferences`
-
-.. image:: /img/safari.png
-   :alt: Safari
-
-Select the **Privacy** tab and ensure check **Block all cookies** and **Prevent cross-site tracking** are not checked.
-
-.. image:: /img/crosssitetracking.png
-   :alt: Safari Cookies
-   
-
-If using an earlier version of Safari, check **Always Allow** in the Cookies and website data section
-
-*Image from Safari 12.0 on macOS Sierra 10.12.6*
+- :ref:`Project Permissions <project-permissions>`
+- :ref:`Create and Import a Project <create-import-project>`
+- :ref:`Access Projects <access-projects>`
