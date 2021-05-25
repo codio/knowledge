@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2021**
 
+- `[F] [25th]`: Add ability to manage users :ref:`dashboard items <default-student-dashboard>`
 - `[I] [18th]`: Add extra credit field to csv downloads of students work
 - `[F] [13th]`: Add support for :ref:`Pyret <pyret>`
 - `[I] [12th]`: Remove students ability to grant permissions to other students in assignments
