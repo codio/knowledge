@@ -27,7 +27,7 @@ jobs:
           git init
           git remote add deploy https://MaximKraev:$GITHUB_TOKEN@github.com/codio/knowledge-deploy
           touch .nojekyll
-          echo "docs.codiodev.com" > docs/CNAME
+          echo "docs.codio.com" > docs/CNAME
           git add .
           git commit -m "Automated deploy"
           git push -f deploy master

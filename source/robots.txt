@@ -1,4 +1,4 @@
 User-agent: *
 
-Sitemap: https://docs.codiodev.com/sitemap.xml
-Sitemap: https://docs.codiodev.com/sitemap-student.xml
+Sitemap: https://docs.codio.com/sitemap.xml
+Sitemap: https://docs.codio.com/sitemap-student.xml
