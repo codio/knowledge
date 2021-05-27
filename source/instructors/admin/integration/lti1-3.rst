@@ -30,17 +30,6 @@ How to configure lti1.3 tool in Canvas manually -part 2
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/1d-aumU5sxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Tool configuration data for canvas lms in canvas.cod.io:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-These paramaters cannot be found in canvas.cod.io (found by search only)
-
--  **platformid**: https://canvas.instructure.com
--  **PUBLIC KEYSET URL**: https://canvas.cod.io/api/lti/security/jwks
--  **ACCESS TOKEN URL**: https://canvas.cod.io/login/oauth2/token
--  **AUTHENTICATION REQUEST URL**:  https://canvas.cod.io/api/lti/authorize_redirect
-
-clientId and deploymentId can be found in tool settings in canvas.cod.io after configuration is completed
 
 How to configure lti1.3 tool in Canvas by paste json object
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
