@@ -131,6 +131,9 @@ Examples
 
 **Python**
 
+  .. image:: /img/guides/PythonVisualizerExample.png
+     :alt: Python Visualizer Example
+
 .. code:: python
 
     nested = ['spam', 1, ['Brie', 'Roquefort', 'Pol l Veq'], [1, 2, 3]]
@@ -138,12 +141,11 @@ Examples
       print(temp)
 
 
-  .. image:: /img/guides/PythonVisualizerExample.png
-     :alt: Python Visualizer Example
-     
-
-
 **Java**
+
+  .. image:: /img/guides/JavaVisualizerExample.png
+     :alt: Java visualizer Example
+
 
 .. code:: java
 
@@ -157,8 +159,7 @@ Examples
     }
 
 
-  .. image:: /img/guides/JavaVisualizerExample.png
-     :alt: Java visualizer Example
+
      
 
 
