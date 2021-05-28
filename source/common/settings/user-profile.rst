@@ -12,7 +12,7 @@ Update your name, email address or password and click **Save Changes**.
 Delete your account
 -------------------
 
-You can delete your account at any time from the **Codio > Account** menu item and going to the **Account** tab
+You can delete your account by selecting the **Codio > Account** menu item and clicking the **Account** tab
 
    .. image:: /img/delete.png
       :alt: Delete account
