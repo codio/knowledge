@@ -18,4 +18,4 @@ You can delete your account by selecting the **Codio > Account** menu item and c
       :alt: Delete account
       
 
-Please be warned that when you do finally close the account, it cannot be retrieved, nor can its contents, so please make sure you export any projects you want to keep or push the to a remote Git repo.
+.. Warning:: If you delete your account it cannot be retrieved nor can its contents be restored. To archive your data for potential later usage, export your projects or push them to a remote depository.
