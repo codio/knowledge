@@ -137,11 +137,8 @@ Examples
     for temp in nested:
       print(temp)
 
-
-  .. image:: /img/guides/PythonVisualizerExample.png
-     :alt: Python Visualizer Example
-     
-
+.. image:: /img/guides/PythonVisualizerExample.png
+   :alt: Python Visualizer Example
 
 **Java**
 
@@ -157,8 +154,9 @@ Examples
     }
 
 
-  .. image:: /img/guides/JavaVisualizerExample.png
-     :alt: Java visualizer Example
+.. image:: /img/guides/JavaVisualizerExample.png
+   :alt: Java visualizer Example
+
      
 
 
