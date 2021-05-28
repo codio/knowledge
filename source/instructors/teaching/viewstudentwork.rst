@@ -29,3 +29,11 @@ As a teacher you have access to your students cloud area within Codio. This allo
 
   .. image:: /img/openstudent.png
      :alt: Open student work
+
+Downloading students workspaces
+-------------------------------
+
+If you wish to download the students workspace you can do so either for individual students or for all students in the course: 
+
+- For indvidual student workspaces, see :ref:`Export a Project <export-project>`
+- For all students in a course, see :ref:`Export Course Data <export-course>`
