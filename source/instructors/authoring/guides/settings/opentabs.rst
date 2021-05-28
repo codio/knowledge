@@ -131,9 +131,6 @@ Examples
 
 **Python**
 
-  .. image:: /img/guides/PythonVisualizerExample.png
-     :alt: Python Visualizer Example
-
 .. code:: python
 
     nested = ['spam', 1, ['Brie', 'Roquefort', 'Pol l Veq'], [1, 2, 3]]
