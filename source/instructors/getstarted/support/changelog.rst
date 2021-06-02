@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**June 2021**
+
+- `[I] [ 1st]`: Add ability to :ref:`archive <archive-students>` students in courses
+
 **May 2021**
 
 - `[F] [25th]`: Add ability to manage users :ref:`dashboard items <default-student-dashboard>`
