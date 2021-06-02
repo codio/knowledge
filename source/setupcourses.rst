@@ -33,7 +33,7 @@ Review the following topics to get started setting up your courses:
 - :ref:`Share Course <share-course>`
 - :ref:`Add Modules and Assignments <add-remove-assignment>`
 - :ref:`Add Teachers to a Course <add-teachers>`
-- :ref:`Add or Remove Students in Course <add-remove-students>`
+- :ref:`Add, Remove or Archive Students in Course <add-remove-students>`
 - :ref:`Add and Remove Course Assignments <add-remove-assignment>`
 - :ref:`Integrate Course with LMS Platform <integrate-lms>`
    

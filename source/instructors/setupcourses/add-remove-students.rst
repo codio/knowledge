@@ -1,12 +1,12 @@
 .. meta::
-   :description: You can add or remove students assigned to your course.
+   :description: You can add, remove or archive students assigned to your course.
 
 
 .. _add-remove-students:
 
-Add or Remove Students in a Course
-==================================
-You can add students or remove students assigned to your course. View this video to learn more.
+Add, Remove or Archive Students in a Course
+===========================================
+You can add, remove or archive students assigned to your course. View this video to learn more.
 
 .. raw:: html
 
@@ -34,6 +34,8 @@ To add a student to your course, follow these steps: follow these steps to add s
     
    - Copy the URL and send to your students. Instruct them to simply click the URL and register their Codio account.
    
+   .. Note:: We would recommend the Student Invite URL option as all the students need to do is enter that URL into their browser to join the correct course in your organisation
+   
    - To add the Test Students, click the **Add test students** button. 
    
    The students who have registered for your course, or test students who have been added, are displayed on the **Students** page for the course.
@@ -53,6 +55,28 @@ To remove a student from a course, follow these steps:
 
     .. image:: /img/manage_classes/remove_student.png
        :alt: Remove Student
+       
+4.  Students can rejoin the course using either the options above. If you wish to prevent this, you can **Regenerate** the student token so the previously advised code will not work
+       
+.. _archive-students:
 
-   .. Note:: This does not remove your student entirely from your organization. To remove a student from your organization, see - :ref:`remove members <remove-org-members>`.
+Archive Students
+----------------
+
+To archive a student from a course, follow these steps:
+
+1. Navigate to the **Courses** page and select the course to open it.
+2. Click the **Students** tab and find the student you want to archive in that course.
+
+    .. image:: /img/manage_classes/students_tab.png
+       :alt: Students Tab
+
+3. Click the **Options** menu and choose **Archive student**.
+
+    .. image:: /img/manage_classes/archive_student.png
+       :alt: Archive Student
+       
+4. Teachers can unarchive students from the same **Options** meno
+
+   .. Note:: These actions do not remove your student entirely from your organization and any/all data for them in the course is not deleted. If/when they rejoin the course, all their data will be available.  To remove a student entirely from your organization, when all their data will also be deleted, see - :ref:`remove members <remove-org-members>`.
 
