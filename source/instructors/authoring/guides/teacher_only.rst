@@ -25,8 +25,8 @@ Setting an entire page as teacher only content
 Enable the **Teacher Only** slider in the :ref:`page settings <teacher-only>` to mark a page as teacher only The page will only appear in the index for teachers.
 
 
-Settin selected content within a page as teacher only
-*****************************************************
+Setting selected content within a page as teacher only
+******************************************************
 To hide pieces of information *within a page* from students enclose the content in `|||guidance ..... |||`. An example is shown below.
 
 .. code:: markdown
