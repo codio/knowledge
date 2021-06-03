@@ -123,9 +123,9 @@ Codio is best experienced on the very latest browsers, in particular Chrome, but
 
 - **Chrome** 21 or later
 - **Firefox** - 22 or later
-- **IE** - 10 or later
+- **Edge** - 44 or later
 - **Safari** - 6 or later
-- **Opera** - 15 or later
+
 
 If using **Safari** and accessing Codio via an LMS (Canvas/Blackboard/D2L/Moodle etc) , disable "Prevent cross-site tracking" to ensure access.
 
