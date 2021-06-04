@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2021**
 
+- `[I] [ 4th]`: Improve :ref:`Git Hub API <gh-api>` and add functions to split and publish projects into multiple assignments
 - `[I] [ 1st]`: Add ability to :ref:`archive <archive-students>` students in courses
 
 **May 2021**
