@@ -77,7 +77,7 @@ Example .yml file for publishing a project to an assignment
 
           - name: Cleanup
          # removes the following files/folders when publishing
-            run: rm -rf .git README.md
+            run: rm -rf README.md
 
           - name: Publish to Codio
             uses: codio/codio-assignment-publish-action@master
@@ -174,7 +174,7 @@ Example .yml workflow actions file for publishing into multiple assignments:
 
           - name: Cleanup
          # removes the following files/folders when publishing
-            run: rm -rf .git README.md
+            run: rm -rf README.md
 
           - name: Publish to Codio
             uses: codio/codio-assignment-publish-action@master
