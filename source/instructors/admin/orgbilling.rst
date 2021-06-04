@@ -12,8 +12,7 @@ Organization Billing
    :alt: Organizations Billing
 
 
-For Schools and University organisations, the billing screen allows you to generate invoices for your account (for new accounts and renewal of existing accounts),for active subscriptions, view the details of the current plan, enter the email of the person who should receive billing notifications and also where you can switch your organisation to
-**Student Pay** where students are prompted to enter a credit card when they sign up.
+For Schools and University organizations, the billing screen allows you to generate invoices for your account (for new accounts and renewal of existing accounts),for active subscriptions, view the details of the current plan, enter the email of the person who should receive billing notifications and also where you can switch your organization to **Student Pay** where students are prompted to enter a credit card when they sign up.
 
 To access the organsisation billing screen:
 
@@ -25,8 +24,7 @@ To access the organsisation billing screen:
 
 |Org Name|
 
-1. You will see billing options listed across the top of the
-page. 
+1. You will see billing options listed across the top of the page. 
 
 |Org Billing|
 
@@ -48,6 +46,10 @@ The option to switch to a Self Pay plan where students are prompted to enter a c
 .. figure:: /img/organisations_invoicing.png
    :alt: Organizations Billing
 
+Viewing Invoice History
+-----------------------
+
+To view previous invoices, click on the **View Invoice** link in the **Invoice History** section below
 
 .. Important:: This is accessed from the Organization screens and having clicked on your Organization. Please do not use the normal Billing area for individuals that you can access by clicking on your name/gravatar (bottom left of screen) and selecting the **Billing** tab unless you wish to subscribe as an **Individual** or already are subscribed as an **Individual**
 
