@@ -97,8 +97,8 @@ The course/assignment id's are found from the URL in your browser when opening t
 .. figure:: /img/course_assignment_id.png
    :alt: Course/assignment id
 
-Puublishing projects into multiple assignments
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Publishing projects into multiple assignments
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you have a large project, you can use the same methodology to publish the project into multiple assignments in as many different modules as you required. 
 
