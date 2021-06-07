@@ -34,6 +34,6 @@ Organization owners can specify the default page that is displayed to Students (
 Teachers Dashboard
 ------------------
 
-Organisation owners can also manage the dashboard items for teachers. In the same area as above, deselect the items that should not be shown for the teachers. Different settings can be applied for teachers that only have :ref:`read only <add-teachers>` to those that have full editing access.
+Organization owners can also manage the dashboard items for teachers. In the same area as above, deselect the items that should not be shown for the teachers. Different settings can be applied for teachers that only have :ref:`read only <add-teachers>` to those that have full editing access.
 
 .. Note:: If you make changes to these settings, your users may need to reload Codio in their browser upon the next login for the changes to be visible.

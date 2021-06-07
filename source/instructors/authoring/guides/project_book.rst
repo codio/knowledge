@@ -49,7 +49,7 @@ There is one minor drawback to project based assignments that you should be awar
 Book assignments
 ****************
 
-A book is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project assignments to create this content, you might end up with a very large number of assignments, say 50.  As we mentioned above, when students are revising and want to randomly move between different assignments to review content, the can get frustrated by the time it takes to switch assignments.
+A book is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project assignments to create this content, you might end up with a very large number of assignments, say 50.  As we mentioned above, when students are revising and want to randomly move between different assignments to review content, they can get frustrated by the time it takes to switch assignments.
 
 A book addresses this issue by offering sophisticated table to contents management with nested chapters and sections. As a result, you can put all of your content into a single book, with a single box running in the background.
 

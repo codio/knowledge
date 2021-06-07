@@ -12,7 +12,7 @@ You are able to create your assignments in Codio, connect the box to your GH rep
 Set up GitHub API Integration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Create your API integration in the Organisation->Integrations area. This is only available to users with
+Create your API integration in the Organization->Integrations area. This is only available to users with
 :ref:`Admin <org-owners>` rights.
 
 .. figure:: /img/gh_int.png
@@ -97,8 +97,8 @@ The course/assignment id's are found from the URL in your browser when opening t
 .. figure:: /img/course_assignment_id.png
    :alt: Course/assignment id
 
-Puublishing projects into multiple assignments
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Publishing projects into multiple assignments
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you have a large project, you can use the same methodology to publish the project into multiple assignments in as many different modules as you required. 
 
