@@ -24,7 +24,7 @@ Constant URL's allows the transfer of learning content without modifying LTI lin
 .. figure:: /img/lti/canvas_url.png
    :alt: LTI URL config
 
--  Enter in the Consumer Key and Shared Secret from your Codio organisation
+-  Enter in the Consumer Key and Shared Secret from your Codio organization
 
 .. figure:: /img/lti/lti-org-fields.png
    :alt: LTI Fields

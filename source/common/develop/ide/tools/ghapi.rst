@@ -12,7 +12,7 @@ You are able to create your assignments in Codio, connect the box to your GH rep
 Set up GitHub API Integration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Create your API integration in the Organisation->Integrations area. This is only available to users with
+Create your API integration in the Organization->Integrations area. This is only available to users with
 :ref:`Admin <org-owners>` rights.
 
 .. figure:: /img/gh_int.png
