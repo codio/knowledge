@@ -25,4 +25,4 @@ Systemd can be used in Ubuntu 18.04 boxes. If you want to configure services to 
 
 When is the Server put back to sleep?
 -------------------------------------
-Your server is put to sleep within a few minutes of you exiting your Project or after 60mins of inactivity.
+Your server is put to sleep within a few minutes of you exiting your Project or after 60 minutes of inactivity.

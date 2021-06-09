@@ -47,7 +47,7 @@ To create a debug target, follow these steps:
    -  If you are not using a single file configuration, you must also complete the following fields:
 
      -  **Before Launch** - Compilation or build command.
-     -  **Launch** - command to launch the program.
+     -  **Launch** - Command to launch the program.
 
    -  If you are creating a target for a Java application, you must also set the **Debugger Port Number** to **5105**.
 
