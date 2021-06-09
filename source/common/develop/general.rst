@@ -67,11 +67,11 @@ If using an earlier version of Safari, check **Always Allow** in the Cookies and
 Firewall and network settings
 -----------------------------
 
-Codio can usually run from anywhere in your browser without any special settings. However, some school or university firewall settings may require special configuration.
+Codio can usually run from anywhere in your browser without any special settings. However, some k12 or university firewall settings may require special configuration.
 
 This page contains information for
 
-- School network system administrators
+- Network system administrators
 - Students and teachers who may be using Codio from home
 
 Firewall settings

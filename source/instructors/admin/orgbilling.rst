@@ -12,7 +12,7 @@ Organization Billing
    :alt: Organizations Billing
 
 
-For Schools and University organizations, the billing screen allows you to generate invoices for your account (for new accounts and renewal of existing accounts),for active subscriptions, view the details of the current plan, enter the email of the person who should receive billing notifications and also where you can switch your organization to **Student Pay** where students are prompted to enter a credit card when they sign up.
+For K12 and University organizations, the billing screen allows you to generate invoices for your account (for new accounts and renewal of existing accounts),for active subscriptions, view the details of the current plan, enter the email of the person who should receive billing notifications and also where you can switch your organization to **Student Pay** where students are prompted to enter a credit card when they sign up.
 
 To access the organization billing screen:
 
@@ -20,7 +20,7 @@ To access the organization billing screen:
 
 |Profile| 
 
-1. Click the name of your school (under **My Organizations**)
+1. Click the name of your organization (under **My Organizations**)
 
 |Org Name|
 

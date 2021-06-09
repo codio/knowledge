@@ -17,7 +17,7 @@ Follow these steps to configure an IP Consent form:
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **My Organizations** area, click the name of your school.
+2. In the **My Organizations** area, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations

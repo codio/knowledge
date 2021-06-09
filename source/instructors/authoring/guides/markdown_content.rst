@@ -54,8 +54,8 @@ To display a header or title, you can use the `#` character at the start of the 
 
     # Big title
     ## Smaller title
-    # Even smaller title
-    ## etc.
+    ### Even smaller title
+    #### etc.
 
 
 Bold and Italic

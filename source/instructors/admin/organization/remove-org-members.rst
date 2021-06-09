@@ -12,7 +12,7 @@ There are some occasions where you may want to remove old members in order to ma
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **My Organizations** area, click the name of your school.
+2. In the **My Organizations** area, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations
@@ -22,7 +22,7 @@ There are some occasions where you may want to remove old members in order to ma
    .. image:: /img/manage_organization/memberstab.png
       :alt: Members
 
-4. In the **Organization Teams** section, click **All Members** to view all the members of your school organization. Alternatively, click **Users without Courses** to display students who were removed due to the course being deleted.
+4. In the **Organization Teams** section, click **All Members** to view all the members of your organization. Alternatively, click **Users without Courses** to display students who were removed due to the course being deleted.
 
    .. image:: /img/manage_organization/members.png
       :alt: All Members

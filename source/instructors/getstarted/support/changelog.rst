@@ -15,6 +15,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2021**
 
+- `[I] [ 9th]`: Improve handling for teachers previewing disabled assignments
+- `[I] [ 9th]`: Fix problem with :ref:`debugger <debugger>`
+- `[I] [ 8th]`: Update handling of Protect Layout guides setting to no affect teachers
 - `[I] [ 4th]`: Improve :ref:`Git Hub API <gh-api>` and add functions to split and publish projects into multiple assignments
 - `[I] [ 1st]`: Add ability to :ref:`archive <archive-students>` students in courses
 

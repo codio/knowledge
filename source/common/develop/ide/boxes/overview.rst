@@ -25,4 +25,8 @@ To view details about your project box, click the **Project** tab on the menu ba
 
 .. image:: /img/box_info.png
    :alt: Box Info
+   
+Important 'localhost' configuration information
+-----------------------------------------------
+In many config files on your Box you would include a reference to `127.0.0.1` to access localhost. Please be sure to use `0.0.0.0` instead.
 

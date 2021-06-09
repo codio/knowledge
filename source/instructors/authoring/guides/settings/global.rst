@@ -89,6 +89,6 @@ Enabling this hides the 'Back to Dashboard' button that otherwise displays at th
 
 Protect Layout
 **************
-Enabling this prevents tabs being opened or closed by students in an assignment.
+Enabling this prevents tabs being opened or closed by students in an assignment.  This protection will not affect teachers.
 
 

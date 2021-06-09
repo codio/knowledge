@@ -16,7 +16,7 @@ Follow these steps to add a new user to the Owners group in your organization:
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **My Organizations** area, click the name of your school.
+2. In the **My Organizations** area, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations
@@ -51,7 +51,7 @@ Follow these steps to add an existing Codio user to the Owners group in your org
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **My Organizations** area, click the name of your school.
+2. In the **My Organizations** area, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations
@@ -79,7 +79,7 @@ You can remove owners from your organization but keep in mind that you must alwa
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **My Organizations** area, click the name of your school.
+2. In the **My Organizations** area, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations
