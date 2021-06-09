@@ -146,13 +146,13 @@ Sample template from Codio Certified LAMP stack
     ## Codio Documentation
     Please be aware of the following useful links
 
-    - [How to Access your Box](/prpject/ide/boxes/)
-    - [If your firewall only allows access to port 80](/project/ide/boxes/ext-access/)
-    - [Creating Codio menu items to avoid repetitive terminal commands](/project/ide/boxes/runmenu/)
-    - [Using Git in Codio](/project/ide/editing/git/)
-    - [Customizing the IDE settings](/project/ide/customization/)
-    - [Restarting your Box](/project/ide/boxes/restart-reset/)
-    - [Creating multiple code editing panels in the IDE](/project/ide/panels/)
+    - [How to Access your Box](https://docs.codio.com/develop/develop/ide/boxes/overview.html)
+    - [If your firewall only allows access to port 80](https://docs.codio.com/develop/develop/ide/boxes/ext-access.html)
+    - [Creating Codio menu items to avoid repetitive terminal commands](https://docs.codio.com/develop/develop/ide/boxes/runmenu.html#customizable-run-menu)
+    - [Using Git in Codio](https://docs.codio.com/common/develop/ide/editing/git.html#git)
+    - [Customizing the IDE settings](https://docs.codio.com/develop/settings/user-prefs.html#user-prefs)
+    - [Restarting your Box](https://docs.codio.com/common/develop/ide/boxes/restart-reset.html#restart-and-reset)
+    - [Creating multiple code editing panels in the IDE](https://docs.codio.com/common/develop/ide/workspace/panels.html#id1)
 
     ## Stack Specific Links
 
