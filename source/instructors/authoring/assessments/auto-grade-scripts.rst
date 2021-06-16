@@ -83,8 +83,10 @@ To enable this:
     exit( 0 if res else 1)
 
 
-- Add the file to **Education> Test Autograde Script** 
-- Go to the assignment settings, enable **Script Grading** set to that file and disable **Assessments Grading**
+- Add the file to **Education>Test Autograde Script**. If your file is not a bash script or other type of file that runs independently, you will need to specify the program that will run it, for example "python3 autograde.py".
+- Note: The JSON is not updated until the assignment is marked as complete. If you are testing values from inside the assignment - you will not see the updated values.
+- Make sure to **Publish** the assignment.
+- In the course assignment settings :ref:`Grade Weights <grade-weights>` section, enable **Script Grading** set **Set custom script path** to that file and disable **Assessments Grading**.
 
 Regrade an individual student's assignment
 ------------------------------------------
