@@ -15,6 +15,7 @@ The Settings page within a project includes various options for specifying setti
 - Protect Dynamic Ports. Enable to restrict preview to the owner of the box; disable to allow preview of the box to anyone who knows the box url. This setting is only available from **Project > Settings**.
 - Stack Settings - specify current stack and version used in your project.
 - Forwarding Settings - enable SSH forwarding. See :ref:`Access Codio Box via SSH <ssh>` for more information.
+- Gigaboxes Settings - set this to the a larger size if you have a memory intensive project. You must first request a larger box for your organization.
 
 You can also perform the following tasks from the project settings:
 

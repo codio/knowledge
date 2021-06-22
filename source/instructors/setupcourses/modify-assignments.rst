@@ -32,6 +32,8 @@ When you make changes to an assignment that students have already started, you c
 2. Find the student and click the **3 blue dot** button on the right.
 3. Click the **Reset** button.
 4. Enter the confirmation code and then click **Yes** to confirm the reset.
+5. You can also allow your students to :ref:`reset their own assignments <student-reset>`. 
+
 
 Reset assignment for all students
 ---------------------------------
