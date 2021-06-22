@@ -9,6 +9,9 @@ The advanced code test assessment type allows you to easily implement unit tests
 
 To ensure that your test scripts run securely and to prevent student access to your testing files or executables, place them in the **.guides/secure** folder. This folder is not available to students in their assignments and they cannot access it from the command line. Only teachers with editing privileges have access to the **.guides/secure** folder.
 
+
+    .. Note::  If your assignment will contain multiple assessments, Code files and Test Cases for individual assessments should be placed in separate folders to avoid compiling all files. 
+
 Complete each section to set up your advanced code test.
 
 1. On the **General** page, enter the following information:
