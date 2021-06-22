@@ -1,5 +1,5 @@
 .. meta::
-   :description: Custom Button can be added to Guides to execute desired commands.
+   :description: Custom Buttons can be added to Guides to execute desired commands.
 
 .. _custom-buttons:
 
@@ -26,20 +26,21 @@ e.g.
 
 To launch a process
 *******************
-This will launch a process and execute a terminal command.
+This will launch a process and execute a terminal command. In this example a Python program is run and output is displayed in the guide.
 
 .. code:: markdown
 
-    {Button Text}(command paramater1 parameter2 parameterN)
+    {Try it}(python3 input.py)
 
 
 Launching a process in a terminal window
 ****************************************
-There are cases where you will want to launch a command in a dedicated terminal window. A typical example is when student code requires input from the user. Codio cannot handle standard input through the guides window, so use the following button command.
+There are cases where you will want to launch a command in a dedicated terminal window, for example when student code requires input. Codio cannot handle standard input through the guides window. The following button command will compile and run a Java program in the terminal window, allowing for user input.
 
 .. code:: markdown
 
-    {Button Text | terminal}(command)
+    {Try it | terminal}(javac Main.java&&java Main)
+
 
 Launching a debugger configuration
 **********************************

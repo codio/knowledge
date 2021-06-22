@@ -30,8 +30,8 @@ Writing content
 ***************
 Write content in the main content area.
 
-Markdown
-********
+Custom CSS
+**********
 
 In Play Mode or as you preview, your content is rendered as students will see it. You can override the default CSS styling by accessing **Tools->Guide->Add Custom CSS**
 
@@ -39,10 +39,12 @@ In Play Mode or as you preview, your content is rendered as students will see it
      :alt: Guide CSS
 
 
-
 'Reset Custom CSS' will restore the default CSS styling
 
 Click here for details on how to insert :ref:`images, videos and hyperlinks <add-media>`.
+
+Markdown
+********
 
 A summary of Markdown formatting codes:
 
