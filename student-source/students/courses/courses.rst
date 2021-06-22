@@ -14,6 +14,7 @@ Your Courses
    play-mode
    complete-assignment
    exam-mode
+   pair-programming
    view-grade
    restore-files
    audio-video
