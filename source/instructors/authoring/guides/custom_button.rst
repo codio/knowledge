@@ -18,7 +18,8 @@ This will jump to a specific page in the guide
     {Button Text | go-to-section-titled}(section title)
 
 
-e.g.
+example:
+
 .. code:: markdown
 
     {Go to Section: LTI | go-to-section-titled}(LTI)
@@ -30,17 +31,26 @@ This will launch a process and execute a terminal command. In this example a Pyt
 
 .. code:: markdown
 
+    {Button Text}(command parameter1 parameter2 parameterN)
+    
+example:
+
+.. code:: markdown
+
     {Try it}(python3 input.py)
 
 
 Launching a process in a terminal window
 ****************************************
-There are cases where you will want to launch a command in a dedicated terminal window, for example when student code requires input. Codio cannot handle standard input through the guides window. The following button command will compile and run a Java program in the terminal window, allowing for user input.
+There are cases where you will want to launch a command in a dedicated terminal window, for example when student code requires input. Codio cannot handle standard input through the guides window. The "Try it" button command below will compile and run a Java program in the terminal window, allowing for user input.
+
+    {Button Text | terminal}(command)
+
+example:
 
 .. code:: markdown
 
     {Try it | terminal}(javac Main.java&&java Main)
-
 
 Launching a debugger configuration
 **********************************
