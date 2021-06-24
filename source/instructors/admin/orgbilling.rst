@@ -18,13 +18,13 @@ To access the organization billing screen:
 
 1. Click on your profile picture (bottom left of **Courses**)
 
-|Profile| 
+|Profile|
 
 1. Click the name of your organization (under **My Organizations**)
 
 |Org Name|
 
-1. You will see billing options listed across the top of the page. 
+1. You will see billing options listed across the top of the page.
 
 |Org Billing|
 
@@ -37,11 +37,11 @@ If you have a promotion code, enter it in the appropriate field. Validation is c
 -  If the promotion code has expired, the message
    ``This promotion code has expired`` will be shown
 -  Promotion codes are only available for new users and not available
-   for self pay plans.
+   for student pay plans.
 
 When you are ready, click the 'Generate Invoice' button and the invoice will be generated and sent to the email address.
 
-The option to switch to a Self Pay plan where students are prompted to enter a credit card when they sign up is also available but be aware if you have an annual plan and have already paid this might lead to a conflict.
+The option to switch to a Student Pay plan where students are prompted to enter a credit card when they sign up is also available but be aware if you have an annual plan and have already paid this might lead to a conflict.
 
 .. figure:: /img/organisations_invoicing.png
    :alt: Organizations Billing
