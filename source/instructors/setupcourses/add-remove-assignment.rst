@@ -72,7 +72,7 @@ Codio recommends that you connect your assignments to a remote repo such as GitH
 
 - **Assignment Updates** - You can update all assignments that use the same content by pushing the updates to the repo and then pulling the changes into the different courses that use the content. You can also review the changes by others before deciding whether to pull the content into the course assignment. 
 
-  .. Note:: The the code workspace can be updated with new files that have been added and students can see the changes. However, existing files cannot be updated as this can invalidate work for students who have already started the assignment.  
+  .. Note:: The code workspace can be updated with new files that have been added and students can see the changes. However, existing files cannot be updated as this can invalidate work for students who have already started the assignment.  
 
   To enable students to see new content in a course they have already started, you can **Reset** the assignment (see :ref:`Assignment Settings <assignment-settings>`). However, if you reset an assignment, the existing work they have already completed is lost.
 
