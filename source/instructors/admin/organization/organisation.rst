@@ -24,6 +24,7 @@ Organization settings
    delete-org
    org-contact-url
    auto-release-grades
+   hide-av
    
  
 
@@ -53,6 +54,7 @@ The person who creates the organization in Codio is the owner and is given the a
 - :ref:`Delete an Organization <delete-org>`
 - :ref:`Set Organization Contact URL <org-contact-url>`
 - :ref:`Enable/Disable Release Grade Automatically <auto-release-grades>`
+- :ref:`Hide A/V calls <hideav>`
 
 
 
