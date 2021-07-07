@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**July 2021**
+
+- `[I] [ 6th]`: Add ability to control when to show answer/rationale to students in :ref:`assessments <add-assessment>`
+
 **June 2021**
 
 - `[I] [30th]`: Add ability to hide/disable :ref:`Audio/Video/Chat <hideav>` in organization
