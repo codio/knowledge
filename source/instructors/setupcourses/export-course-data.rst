@@ -21,6 +21,26 @@ You can export course data (including students workspaces) prior to :ref:`deleti
    .. image:: /img/class_exportlinks.png
       :alt: Course Export Links
 
+.. _export-source:
+
+Export Course Sources
+---------------------
+You can export course sources to obtain a zip file containing all the currently published assignments. 
+
+1. Navigate to the **Courses** page and select the course to open it.
+2. Click the **Admin** tab and then click **Course Sources** in the **Export** section.
+
+   .. image:: /img/source_export.png
+      :alt: Export Course Data
+
+   The currently published versions of each assignment are compiled into a **.zip** file and each assignment is compiled into a **.tar.zst** file and can be downloaded. If you update the assignment in the future, you can create a new export.
+
+3. To access the download or to export updated assignments, click **Course Sources** and click **Export** to create a new export or click the link to download the zip file.
+
+   .. image:: /img/source_exportlinks.png
+      :alt: Course Export Links
+      
+.. Note:: This feature is not available if your course is a child course of a licensed master course.
 
 Export user access data
 -----------------------
