@@ -19,7 +19,7 @@ space, you can set it up to :ref:`collapse on open <global>`.
 
 To use a project you have already created on the web version of Scratch, open the project in Scratch and select **File > Save to your computer** then in Codio select **File > Upload** and open the Scratch file you downloaded.
 
-Scratch files are **not saved automatically**, you must select **File > Save** to save your work.
+Scratch files are **not saved automatically**, students must select **File > Save** to save their work although a warning will be shown to students when they mark the assignment as completed for them to confirm before the assignment is marked as completed. This ensures that any unsaved work is saved.
 
 Get started by clicking on **Tutorials** in the Scratch menu area. For more information see `Scratch <https://scratch.mit.edu/about>`__
 
