@@ -25,6 +25,7 @@ Auto-graded assessments
    autograde-free-text
    grade-book
    parsons-puzzle
+   random
    math-assessments
    ungraded-assessments
    sense-network
@@ -53,3 +54,4 @@ Refer to the specific topics for the type of assessment:
 - :ref:`Free Text Autograde <free-text-autograde>`
 - :ref:`Grade Book <grade-book>`
 - :ref:`Parsons Puzzle <parsons-puzzle>`
+- :ref:`Random Assessment <random>`
