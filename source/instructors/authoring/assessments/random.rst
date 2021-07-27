@@ -6,7 +6,7 @@
 Random Assessment
 =================
 
-The Random assessment type allows you to set up a group of assessments to then randomly assign one to each individual student assignment. 
+The Random assessment type allows you to set up a group of assessments to then randomly assign one to each individual student assignment. Only one random assessment can be included on a page in Guides.
 
 1. On the **General** page, enter the name of your assessment that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
 
@@ -16,17 +16,42 @@ The Random assessment type allows you to set up a group of assessments to then r
 
 :ref:`Click here <assess-library>` for more information on how to use Assessment Libraries.
 
+
 Updating Random assessments
 ---------------------------
 
-If assessments that are assigned to the random assessment are updated and the assignment has been published, the changes made can be updated/synchronised so the students can then have access to the updated assignments.
+If you wish to update, change or review the assessments assigned to the random assessment, select the **Update Search** button on the **Execution** tab and this will open the assessment library field with the saved search parameters.
+
+   .. image:: /img/guides/random-update.png
+      :alt: Update Random assessment
+
+The assignments previously assigned to the assessment will show as checked and if new assignments have been added to your library using the same parameters you can add them to your assessment by checking the box and saving the assignment.
+
+You can then publish the assignment if you wish in the usual manner, but if the only changes made are in relation to the random assignment and there are students who may have already started the assignment you should do go to the **Edit** tab and use the **Sync** button. If you have made other changes to the assignment though, publish in the usual manner as well and then go to the **Edit** tab. If students have already started the assignment, the **Sync** button will show
+
+Publishing/Synchronising changes from the **Course**
+----------------------------------------------------
+
+If the only changes to a previously published assignment are for the random assessment(s), or if someone else in the organisation has updated the assessments being used in the assignment, the changes made can be updated/synchronised from the **Edit** tab in the course. 
 
 A **Sync** button will be shown on the **Edit** tab for the assignment if there are changes that can be updated/synchronised.
 
->>image required
+   .. image:: /img/guides/random-sync.png
+      :alt: Synchronise Random assessment
 
 If there are students that have already started the assignment they will not get the updates/changes unless their assignments is also reset so they will start again 'as new' and any previous work will be lost.
 
 Pressing the **Sync** button will identify if there are students who have already started and then give you the option to reset and publish or just publish so then only students who have not started the assignment will get the update/changes
 
->> image of both options required
+**Synchronising where no students started assignment**
+
+   .. image:: /img/guides/random-sync-nostudents.png
+      :alt: Synchronise Random assessment no students started
+      
+**Synchronising where students have started assignment**  
+
+>>image needed
+   .. image:: /img/guides/random-sync-studentsstarted.png
+      :alt: Synchronise Random assessment students started
+
+
