@@ -33,6 +33,8 @@ Complete each section to set up your advanced code test.
      - **Custom**: for a `custom`_ auto-grading script in any language
      
    - **Language Assessment Subtype** - Click the drop-down and choose a subtype for the selected language type, if applicable.
+   
+   - **Timeout** - Where you can amend the timeout setting for the code to execute. Arrows will allow you to set max 300 (sec), if you require longer, you can manually enter the timeout period.
        
 3. Click **Grading** in the left navigation pane and complete the following fields:
 
