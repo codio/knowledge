@@ -50,7 +50,6 @@ Pressing the **Sync** button will identify if there are students who have alread
       
 **Synchronising where students have started assignment**  
 
->>image needed
    .. image:: /img/guides/random-sync-studentsstarted.png
       :alt: Synchronise Random assessment students started
 
