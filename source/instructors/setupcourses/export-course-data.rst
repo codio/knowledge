@@ -20,6 +20,9 @@ You can export course data (including students workspaces) prior to :ref:`deleti
 
    .. image:: /img/class_exportlinks.png
       :alt: Course Export Links
+      
+.. Note:: You can also export individual assignment data if you do not need or require data for all the assignments in your course. See :ref:`Export assignment data <export-assignment>`
+
 
 
 Export user access data
