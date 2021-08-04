@@ -25,14 +25,12 @@ If you wish to update, change or review the assessments assigned to the random a
    .. image:: /img/guides/random-update.png
       :alt: Update Random assessment
 
-The assignments previously assigned to the assessment will show as checked and if new assignments have been added to your library using the same parameters you can add them to your assessment by checking the box and saving the assignment.
-
-You can then publish the assignment if you wish in the usual manner, but if the only changes made are in relation to the random assignment and there are students who may have already started the assignment you should do go to the **Edit** tab and use the **Sync** button. If you have made other changes to the assignment though, publish in the usual manner as well and then go to the **Edit** tab. If students have already started the assignment, the **Sync** button will show
+You can then review the assesments and publish the assignment if you wish in the usual manner, but if the only changes made are in relation to the random assignment and there are students who may have already started the assignment you should do go to the **Edit** tab and use the **Sync** button. If you have made other changes to the assignment though, publish in the usual manner as well and then go to the **Edit** tab. If students have already started the assignment, the **Sync** button will show
 
 Publishing/Synchronising changes from the **Course**
 ----------------------------------------------------
 
-If the only changes to a previously published assignment are for the random assessment(s), or if someone else in the organisation has updated the assessments being used in the assignment, the changes made can be updated/synchronised from the **Edit** tab in the course. 
+If the only changes to a previously published assignment are for the random assessment(s), or if someone else in the organization has updated the assessments being used in the assignment, the changes made can be updated/synchronised from the **Edit** tab in the course. 
 
 A **Sync** button will be shown on the **Edit** tab for the assignment if there are changes that can be updated/synchronised.
 
