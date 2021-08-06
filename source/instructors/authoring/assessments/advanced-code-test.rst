@@ -138,7 +138,7 @@ checkstyle
 pycodestyle
 ----------------------
 
- If you choose **pycodestyle**, you must first install it. Use the following commands to install pycodestyle:
+  If you want to use pycodestyle, you must first install it. Use the following commands to install pycodestyle:
 
 .. code:: ini
 
