@@ -70,6 +70,7 @@ Follow these steps to set up fill in the blank assessments:
   - Answer required between  1 to 100 -  ```<<</^([1-9][0-9]? 100)$/>>>``` 
   - Answer allows several answers (Place1 or Place2) -  ```<<<"Place1", "Place2">>>``` 
   - Answer allows several answers with/without " " (Place1 or "Place1" or Place2 or "Place2") -  ```<<</^(Place1 Place2 "Place1" "Place2")$/>>>``` 
+  - Answer requires case sensitivity - ```<<</CAPITAL/>>>``` or ```<<</lowercase/>>>```
 
 3. Click **Grading** in the navigation pane and complete the following fields:
 
