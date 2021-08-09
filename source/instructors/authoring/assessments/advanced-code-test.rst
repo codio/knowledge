@@ -36,6 +36,8 @@ Complete each section to set up your advanced code test.
      - **Custom**: for a `custom`_ auto-grading script in any language
      
    - **Language Assessment Subtype** - Click the drop-down and choose a subtype for the selected language type, if applicable.
+   
+   - **Timeout** - Where you can amend the timeout setting for the code to execute. Arrows will allow you to set max 300 (sec), if you require longer, you can manually enter the timeout period.
        
 3. Click **Grading** in the left navigation pane and complete the following fields:
 
@@ -43,9 +45,9 @@ Complete each section to set up your advanced code test.
       :alt: Grading
 
   - **Points** - The score given to the student if the code test passes. You can enter any positive numeric value. If this assessment should not be graded, enter 0 points.
-
+  - **Allow Partial Points** - Toggle to enable a percentage of total points to be given based on the percentage correctly answered. See :ref:`Allow Partial Points <partial-points>` for more information.
   - **One Attempt Only** - Toggle to enable the assessment to run only once. The student will be warned that they cannot resubmit the assessment. It's recommended that you provide a :ref:`Run Button <customizable-run-menu>` for the student to test the code before running the actual assessment.
-  - **Show Answer and Rationale to Students** - Toggle to display the answer, and the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. 
+  - **Show Answer and Rationale to Students** - Toggle to display the answer, and the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
   - **Answer and Rationale** - Enter guidance for the assessment. This is always visible to the teacher when the project is opened in the course or when opening the student's project. 
 
 4. Click **Metadata** in the left navigation pane and complete the following fields:
@@ -139,7 +141,7 @@ checkstyle
 pycodestyle
 ----------------------
 
- If you choose **pycodestyle**, you must first install it. Use the following commands to install pycodestyle:
+  If you want to use pycodestyle, you must first install it. Use the following commands to install pycodestyle:
 
 .. code:: ini
 

@@ -12,8 +12,6 @@ You can add, remove or archive students assigned to your course. View this video
 
     <script src="https://fast.wistia.com/embed/medias/zebku9t15m.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_zebku9t15m videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/zebku9t15m/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 
-
-
 Add Students
 ------------
 
@@ -35,11 +33,23 @@ To add a student to your course, follow these steps: follow these steps to add s
    - Copy the URL and send to your students. Instruct them to simply click the URL and register their Codio account.
    
    .. Note:: We would recommend the Student Invite URL option as all the students need to do is enter that URL into their browser to join the correct course in your organisation
-   
-   - To add the Test Students, click the **Add test students** button. 
-   
-   The students who have registered for your course, or test students who have been added, are displayed on the **Students** page for the course.
+      
+   The students who have been added are displayed on the **Students** page for the course.
 
+Add Test Students
+---------------
+You may view your course using the special student accounts Codio creates for you. There are three test student accounts available per course that allow you to view content from the student perspective. 
+
+1. Navigate to the **Courses** page and select the course to open it.
+2. Click the **Students** tab and click the **Add a student** button.
+3. Click on the **Add test students** button. You will now see three test students displayed on the **Students** page for the course. 
+
+    .. image:: /img/manage_classes/teststudents.png
+       :alt: Test Students
+
+4. Now that you have added test students, you are able to log in as one of the test students by pressing the **Login as** button. Please note that this is only available for the special test student accounts. 
+
+    .. Note:: When logged in as a test student, you will see a bar on the top of the window letting you know you are logged in as a test student. You can switch back to your main teacher account by selecting **Switch back to teachers account**. 
 
 Remove Students
 ---------------

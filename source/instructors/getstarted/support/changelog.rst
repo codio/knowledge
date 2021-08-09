@@ -28,6 +28,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2021**
 
+- `[I] [30th]`: Add ability to hide/disable :ref:`Audio/Video/Chat <hideav>` in organization
 - `[I] [ 9th]`: Improve handling for teachers previewing disabled assignments
 - `[I] [ 9th]`: Fix problem with :ref:`debugger <debugger>`
 - `[I] [ 8th]`: Update handling of Protect Layout guides setting to no affect teachers

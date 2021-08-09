@@ -40,6 +40,8 @@ Follow these steps to set up a standard code test:
    .. Note:: If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. 
        The files can be dragged and dropped from the File Tree into the field to automatically populate the necessary execution and run code.
 
+  - **Timeout** - Where you can amend the timeout setting for the code to execute. Arrows will allow you to set max 300 (sec), if you require longer, you can manually enter the timeout period.
+  
   - **Command** - Enter the command that executes the student code. This is usually a run command.  
 
   - **Pre-exec command** - Enter the command to execute before each test is run. This is usually a compile command.
@@ -128,7 +130,7 @@ Follow these steps to set up a standard code test:
 
 
   - **Show Expected Answer** - Toggle to show the students the expected output when they have submitted an answer for the question. To suppress expected output, disable the setting.
-  - **Show Answer and Rationale to Students** - Toggle to display the answer, and the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. 
+  - **Show Answer and Rationale to Students** - Toggle to display the answer, and the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
   - **Answer and Rationale** - Enter guidance for the assessment. This is always visible to the teacher when the project is opened in the course or when opening the student's project. 
 
 4. Click **Metadata** in the left navigation pane and complete the following fields:

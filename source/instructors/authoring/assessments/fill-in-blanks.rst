@@ -70,6 +70,7 @@ Follow these steps to set up fill in the blank assessments:
   - Answer required between  1 to 100 -  ```<<</^([1-9][0-9]? 100)$/>>>``` 
   - Answer allows several answers (Place1 or Place2) -  ```<<<"Place1", "Place2">>>``` 
   - Answer allows several answers with/without " " (Place1 or "Place1" or Place2 or "Place2") -  ```<<</^(Place1 Place2 "Place1" "Place2")$/>>>``` 
+  - Answer requires case sensitivity - ```<<</CAPITAL/>>>``` or ```<<</lowercase/>>>```
 
 3. Click **Grading** in the navigation pane and complete the following fields:
 
@@ -80,7 +81,7 @@ Follow these steps to set up fill in the blank assessments:
 
   - **Show Expected Answer** - Toggle to show the students the expected output when they have submitted an answer for the question. To suppress expected output, disable the setting. 
 
-  - **Show Answer and Rationale to Students** - Toggle to display the answer, and the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed.
+  - **Show Answer and Rationale to Students** - Toggle to display the answer, and the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
 
   - **Answer and Rationale** - Enter guidance for the assessment. This is always visible to the teacher when the project is opened in the course or when opening the student's project. 
 

@@ -56,7 +56,11 @@ Once students have completed their assignments, they notify the teacher by using
   .. image:: /img/grading-assign.png
      :alt: Assign Grade
 
-  If the students assignment has already been graded, another teacher in the course can click **Override Grade** to edit the grade with additional comments.
+Override Grade
+--------------
+
+If the students assignment has already been graded, another teacher in the course can click **Override Grade** to manually change the grade with additional comments.
+
 
 Anonymous grading
 -----------------

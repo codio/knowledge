@@ -12,6 +12,11 @@ When accessing another users project (where :ref:`permissions <project-permissio
 
 .. image:: /img/monitor_students/call.png
    :alt: Audio Video
+   
+Hide A/V calls
+--------------
+
+If you wish to disable A/V calls, organization owners can do this in the organization settings area. See :ref:`Hide A/V Calls <hideav>` for more information
 
 Permissions
 -----------

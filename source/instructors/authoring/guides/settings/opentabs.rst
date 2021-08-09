@@ -31,8 +31,6 @@ Open Tabs
   .. image:: /img/guides/guide_files.png
      :alt: open files
      
-
-
 Files can be opened automatically to present the student with relevant files.
 
 The **Add Tab** button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.
@@ -171,10 +169,10 @@ If your :ref:`layout <page>` for this page involves multiple panels, then you ca
   .. image:: /img/guides/panel.png
      :alt: Panel
      
-
-
 If you leave the panel field empty, then the default panel will be chosen, which is the same as 0.
 
 The panel order is left to right and then top to bottom and the last of all, the filetree (which you would rarely want to use).
 
-**Important:** The first panel is 0, not 1.
+The Guide is always in panel 1, unless **Guides Left** is specified in **Page Layout**, in which case the Guide will be in panel 0.
+
+**Important:** The first panel is 0, not 1. 
