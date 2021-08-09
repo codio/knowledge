@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**August 2021**
+
+- `[F] [10th]`: Add :ref:`Pair Programming <group-work>` allowing teachers to group students to work together
+- `[F] [ 5th]`: Add new :ref:`Random Assessment <random>` type to allow random assessments to be offered to students in assignments
+
 **July 2021**
 
 - `[I] [29th]`: Add timeout field for :ref:`Advanced Code Test <advanced-code-test>` and :ref:`Standard Code Test <standard-code-test>`
