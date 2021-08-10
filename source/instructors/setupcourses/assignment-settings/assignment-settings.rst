@@ -21,6 +21,7 @@ Managing assignments
    assignment-duration
    penalties
    exam-proctoring
+   groupwork
    grade-weights
    assign-grade-template
    
@@ -49,6 +50,7 @@ Click the **Settings** icon in the assignment or the **Settings** tab to perform
 - :ref:`Assignment Duration <assignment-duration>`
 - :ref:`Penalties <penalties>`
 - :ref:`Exam Proctoring <exam-proctoring>`
+- :ref:`Pair Programming <group-work>`
 - :ref:`Grade Weights <grade-weights>`
 - :ref:`Assign Grading Template to an Assignment <assign-grade-template>`
 
