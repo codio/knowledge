@@ -8,6 +8,12 @@ Pair Programming
 
 The Paired Programming setting is enabled by teachers to allow groups of students to work together on assignments.  Within each group a student will be a **Driver** who has the ability to edit and make changes in the assignment and others in the group will be **Navigators** who can view the work done by the **Driver**. Control can be passed between the driver and navigators as required.
 
+When others are accessing the assignment, you will see their details in the **Pair programming with:** above the assignments
+
+.. image:: /img/with.png
+   :alt: Viewing other available students
+   
+   
 Driver/Navigator
 ----------------
 
@@ -28,3 +34,6 @@ The navigator will see the Driver toggle switch flip to show they now have contr
 Audio/Video/Chat
 ----------------
 Where students are accessing the same assignment, a **Call** button will show allowing Audio/Video calls and or real time chat. See :ref:`Audio/Video/Chat <av-chat1>` for more information
+
+
+
