@@ -33,7 +33,8 @@ As a teacher you have access to your student's assignments within Codio. This al
 Downloading student workspaces
 ------------------------------
 
-If you wish to download student workspaces you can do so either for individual students or for all students in the course: 
+If you wish to download student workspaces you can do so either for individual assignments, individual students or for all students in the course: 
 
+- For individual assignment workspaces, see :ref:`Export Assignment Data <export-assignment>`
 - For indvidual student workspaces, see :ref:`Export a Project <export-project>`
 - For all students in a course, see :ref:`Export Course Data <export-course>`
