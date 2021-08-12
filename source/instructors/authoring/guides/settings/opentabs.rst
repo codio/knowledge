@@ -173,6 +173,6 @@ If you leave the panel field empty, then the default panel will be chosen, which
 
 The panel order is left to right and then top to bottom and the last of all, the filetree (which you would rarely want to use).
 
-The Guide is always in panel 1, unless **Guides Left** is specified in **Page Layout**, in which case the Guide will be in panel 0.
+The Guide defaults to the right unless **Guides Left** is specified in **Page Layout**.
 
 **Important:** The first panel is 0, not 1. 

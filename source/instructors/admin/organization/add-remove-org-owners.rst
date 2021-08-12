@@ -72,7 +72,7 @@ Follow these steps to add an existing Codio user to the Owners group in your org
 
 Remove owners
 -------------
-You can remove owners from your organization but keep in mind that you must always have at least one owner. Follow these steps to remove a user from the Owners group:
+You can remove a user from the Owners group in your organization, but keep in mind that you must always have at least one Owner. Removing a user from the Owners group does not remove them from the organization, but rather removes them from the **Owner** role. Follow these steps to remove a user from the Owners group: 
 
 1. Click your profile icon in the lower left corner of the screen.
 
