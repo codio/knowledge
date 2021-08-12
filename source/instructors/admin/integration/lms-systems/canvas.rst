@@ -15,6 +15,7 @@ System specific instructions
    d2l
    moodle
    google-classroom
+   schoology
    
 Canvas 
 ******
