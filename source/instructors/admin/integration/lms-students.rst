@@ -6,7 +6,7 @@
 User account creation
 =====================
 
-When integrating with an external system, you do not need to :ref:`add/invite <add-remove-students>` students or teachers to your course. All is handled when the users access an assignment in the system mapped to Codio.
+When integrating with an external system, you do not :ref:`add/invite <add-remove-students>` students or teachers to your course. All is handled when the users access an assignment in the system mapped to Codio and the features to invite students into the course are not enabled.
 
 
 It is also important to understand how Codio maps external system users to Codio users. The following rules should be understood. 
