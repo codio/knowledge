@@ -17,6 +17,7 @@ Managing assignments
    visibility-completed
    visibility-disabled
    allow-student-reset
+   prerequisite-assignments
    disable-mark-completed
    assignment-duration
    penalties
@@ -46,6 +47,7 @@ Click the **Settings** icon in the assignment or the **Settings** tab to perform
 - :ref:`Visibility on Completed <visibility-completed>`
 - :ref:`Visibility on Disabled <visibility-disabled>`
 - :ref:`Reset Assignment by Student <student-reset>`
+- :ref:`Prerequisite Assignment <prerequisite>`
 - :ref:`Disable Mark as Completed <disable-mark-completed>`
 - :ref:`Assignment Duration <assignment-duration>`
 - :ref:`Penalties <penalties>`

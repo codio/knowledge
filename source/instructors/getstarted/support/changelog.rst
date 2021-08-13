@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2021**
 
+- `[F] [16th]`: Add - :ref:`Prerequisite Assignment <prerequisite>` allowing teachers to set rules based on state of other assignments before students can start the assignment
 - `[F] [10th]`: Add :ref:`Pair Programming <group-work>` allowing teachers to group students to work together
 - `[F] [ 5th]`: Add new :ref:`Random Assessment <random>` type to allow random assessments to be offered to students in assignments
 
