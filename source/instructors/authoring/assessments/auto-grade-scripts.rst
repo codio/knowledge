@@ -97,7 +97,7 @@ Regrade all student's assignments
 You can regrade all student's assignments that have already been auto-graded from the **Actions** button on the assignment page.
 
 1. Navigate to the assignment and open it.
-2. Click the **Actions** button and then click **Regrade All**. This is useful if you have found a bug in your grading script. 
+2. Click the **Actions** button and then click **Regrade Completed**. This is useful if you have found a bug in your grading script. 
 
 Test and debug your grading scripts
 -----------------------------------
