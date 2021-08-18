@@ -15,17 +15,13 @@ Your Courses
    
 Navigate the Student Dashboard
 ==============================
-The Student dashboard is the main page student's use to navigate Codio. You can toggle between two dashboard views using the **New Look** button in the upper right corner.
+The Student dashboard is the main page student's use to navigate Codio. 
 
-Default Dashboard:
+Dashboard:
 
 .. image:: /img/what_students_do/newstudentdashboard.png
    :alt: Default Student Dashboard
 
-Alternative Dashboard:  
-
-.. image:: /img/what_students_do/studentdashboard.png
-   :alt: Alternative Student Dashboard
 
 Navigation menu
 ---------------
@@ -64,10 +60,6 @@ The student courses are displayed in the right pane, as shown below with the def
      .. image:: /img/what_students_do/expandedcourse.png
         :alt: Expanded Course on Default Dashboard
 
-     Below is an example of a student’s **Courses** area with the alternative dashboard:
-
-     .. image:: /img/what_students_do/studentdashboard.png
-        :alt: Courses on Alternative Dashboard
 
 .. Note:: You can also create your own projects using the links under **BUILD** in the left navigation pane. See :ref:`Creating or Importing a Project <create-import-project>` for more information.
 
