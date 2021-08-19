@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2021**
 
+- `[F] [19th]`:
 - `[I] [12th]`: Improve error messaging for connections to Google Classrooms
 - `[F] [10th]`: Add :ref:`Pair Programming <group-work>` allowing teachers to group students to work together
 - `[F] [ 5th]`: Add new :ref:`Random Assessment <random>` type to allow random assessments to be offered to students in assignments
