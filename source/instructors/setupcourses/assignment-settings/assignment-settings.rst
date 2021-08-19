@@ -18,6 +18,7 @@ Managing assignments
    visibility-disabled
    allow-student-reset
    disable-mark-completed
+   disable-download
    assignment-duration
    penalties
    exam-proctoring
