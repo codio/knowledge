@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2021**
 
+- `[I] [19th]`: Fix issue where students are first to access course from LMS when created using :ref:`LTI Course Copy <lti-course-copy>` and being added in as teacher to the course
 - `[I] [18th]`: Fix problem deleting large courses
 - `[F] [16th]`: Add - :ref:`Prerequisite Assignment <prerequisite>` allowing teachers to set rules based on state of other assignments before students can start the assignment
 - `[F] [10th]`: Add :ref:`Pair Programming <group-work>` allowing teachers to group students to work together
