@@ -9,5 +9,8 @@ jobs:
     steps:
       - name: scrape
         uses: Embraser01/docsearch-scraper-action@master
-        args: ["run /github/workspace/algolia-config.json"]
-        secrets: [ ${{ secrets.API_KEY }},  ${{ secrets.APPLICATION_ID }}]
+        args: 
+          - run /github/workspace/algolia-config.json
+        secrets: 
+          - ${{ secrets.API_KEY }}
+          - ${{ secrets.APPLICATION_ID }}]
