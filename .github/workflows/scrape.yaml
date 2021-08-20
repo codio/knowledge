@@ -10,4 +10,4 @@ jobs:
       - name: Setup env
         uses: "Embraser01/docsearch-scraper-action@master"
         args: ["run /github/workspace/algolia-config.json"]
-        secrets: ["API_KEY", "APPLICATION_ID"]
+        secrets: [ ${{ secrets.API_KEY }},  ${{ secrets.APPLICATION_ID }}]
