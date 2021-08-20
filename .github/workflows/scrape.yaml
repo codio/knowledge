@@ -1,4 +1,4 @@
-name: publish docs
+name: Update search
 on:
   schedule:
     - cron:  '0 22 * * *'
