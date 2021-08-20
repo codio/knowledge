@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     steps:
-      - name: Setup env
-        uses: "Embraser01/docsearch-scraper-action@master"
+      - name: scrape
+        uses: Embraser01/docsearch-scraper-action@master
         args: ["run /github/workspace/algolia-config.json"]
         secrets: [ ${{ secrets.API_KEY }},  ${{ secrets.APPLICATION_ID }}]
