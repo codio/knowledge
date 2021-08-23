@@ -30,7 +30,7 @@ To send notifications, follow these steps:
 
   .. Note:: To view a history of all notifications sent for published updates in the parent course, click the **View Sent Notification** link.
 
-   After a notification has been sent, a **Download** icon is displayed in the upper right corner of the course.
+4. After a notification has been sent, a **Download** icon is displayed in the upper right corner of the course.
 
    .. image:: /img/manage_classes/courseupdatelist.png
       :alt: Course Update Icon 
@@ -40,7 +40,7 @@ To send notifications, follow these steps:
    .. image:: /img/manage_classes/courseupdates.png
       :alt: Course Update Banner 
 
-4. Click **Show Changes** to view the updates, including the tagged parts of the assignment that has updates.
+5. Click **Show Changes** to view the updates, including the tagged parts of the assignment that has updates.
 
    .. image:: /img/manage_classes/detailcourseupdates.png
       :alt: Course Update Details
@@ -53,9 +53,9 @@ To send notifications, follow these steps:
 
    To view the notification message that was send with the update, click **Update History**.
 
-5. Check the check box next to the assignments you want to update and then click **Apply**. 
+6. Check the check box next to the assignments you want to update and then click **Apply**. 
 
-6. On the confirmation dialog, confirm that you want to update the assignments.
+7. On the confirmation dialog, confirm that you want to update the assignments.
 
 
 Updating without notifications
@@ -114,3 +114,34 @@ You can revert back to earlier published versions of your courses. However, reve
 
    .. image:: /img/publishedversion.png
       :alt: Latest Published Version
+
+.. _send-announcements:
+
+Send announcements
+------------------
+
+Announcements can be sent to instructors and will display a banner similar to the one above. These announcements can be used to provide information that doesn't fall under the category of course content updates.
+
+
+To send an announcement, follow these steps:
+
+1. In the Dashboard, select the course to open it and then click the **Admin** tab.
+
+2. Click the **Send New Announcement** link in the lower portion of the page.
+
+   .. image:: /img/manage_classes/send_announcement.png
+      :alt: Announcement to Child Courses 
+
+3. In the **Notification Message** text box, enter the message to instructors you wish to send.
+
+   .. image:: /img/manage_classes/announcement.png
+      :alt: Announcement Message 
+
+
+  .. Note:: To view a history of all announcements sent in the parent course, click the **View Sent Notification** link.
+
+
+4. When an instructor opens the course, a banner is displayed indicating that their is an announcement for the course.
+
+   .. image:: /img/manage_classes/announcebanner.png
+      :alt: Course Announcement Banner 
