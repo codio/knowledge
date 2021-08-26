@@ -17,6 +17,7 @@ Courses Set Up
    export-course-data
    archive-course
    delete-course
+   rename-course
    share-course
    search-course
    add-remove-assignment      

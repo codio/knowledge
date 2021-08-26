@@ -27,13 +27,31 @@ Managing assignments
    assign-grade-template
    
   
-You can manage assignments using the settings on the assignment when in **Edit** mode and the tasks on the assignment when not in edit mode. 
+You can manage assignments from the teacher dashboard or by selecting the settings gear icon on the assignment when in Teach mode.
 
-Click the **Edit** icon in the upper right corner of the assignment to enter edit mode. 
+Teacher Dashboard
+-----------------
 
-.. image:: /img/class_administration/editassignment.png
-   :alt: Edit Assignments
+From the teacher dashboard, access shortcuts to assignment actions, including:
 
+.. image:: /img/manage_classes/teacherdashboard.png
+   :alt: Teacher Dashboard
+
+- Pin and Unpin Assignment
+- Set Assignment Duration
+- Release Grades
+- Access Assignment Level Insights
+- Preview Assignment 
+- Access **Assignment Settings** *(more on this below)*
+- Access Plagiarism Checker
+- Download CSV
+- Export Assignment Data
+- Copy the LTI Integration URL *(if enabled)*
+
+The **Started** and **Completed** pie chart circles visually show the rates at which students are starting and completing assignments:
+
+- **Started**: shows the number of students who have started the assignment, where the green line indicates this number as a fraction of the whole class
+- **Completed**: shows the number of students who have completed the assignment, where the green line indicates this number as a fraction of the quantity of those that started it
 
 Assignment Settings
 -------------------
