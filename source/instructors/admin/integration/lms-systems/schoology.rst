@@ -52,9 +52,9 @@ In Schoology
 * **Privacy**: Schoology suggests **Name and email of the user who launches the tool**
 * **Configuration Type**: choose Manual > Matchy By > URL
 * **Domain/URL**: this is the **XML URL** from Codio (reference step 10 above)
-* **Custom Parameters**: this is the **Codio Target ID** from Codio (reference step 6 above)
+* **Custom Parameters**: this is the **Codio Course Target ID** from Codio (reference step 6 above)
 
-  .. Note:: If you are teaching more than one course in Codio, your system administrator will need to enter each course's **Codio Target ID** in the Custom Parameters field. Each **Codio Target ID** should be on a new line. 
+  .. Note:: If you are teaching more than one course in Codio, your system administrator will need to enter each course's **Codio Course Target ID** in the Custom Parameters field. Each **Codio Course Target ID** should be on a new line. 
 
 16. Click submit.
      

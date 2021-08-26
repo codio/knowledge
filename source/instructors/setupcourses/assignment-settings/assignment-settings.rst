@@ -32,23 +32,10 @@ You can manage assignments from the teacher dashboard or by selecting the settin
 Teacher Dashboard
 -----------------
 
-From the teacher dashboard, access shortcuts to assignment actions, including:
+From the teacher dashboard, access shortcuts to assignment actions. The image below highlights the main components of **Teach** mode in the teacher dashboard.
 
-.. image:: /img/manage_classes/teacherdashboard.png
+.. image:: /img/manage_classes/teachdashboard.png
    :alt: Teacher Dashboard
-
-- Pin and Unpin Assignment
-- Set Assignment Duration
-- Release Grades
-- Access Assignment Level Insights
-- Preview Assignment 
-- Access **Assignment Settings** *(more on this below)*
-- Access Plagiarism Checker
-- Download CSV
-- Export Assignment Data
-- Copy the LTI Integration URL *(if enabled)*
-
-The **Started** and **Completed** pie chart circles visually show the rates at which students are starting and completing assignments:
 
 - **Started**: shows the number of students who have started the assignment, where the green line indicates this number as a fraction of the whole class
 - **Completed**: shows the number of students who have completed the assignment, where the green line indicates this number as a fraction of the quantity of those that started it

@@ -40,7 +40,7 @@ You can also preview an assignment as a teacher after you have added them. Follo
      .. image:: /img/manage_classes/preview.png
         :alt: Preview Assignment
 
-3. The **"View as Teacher"** setting defaults to off, so select the settings gear and ensure it is toggled on. When **View as Teacher** is toggled on, you can see additional guidance appear on the page that students can not see. 
+3. Within the Guide Editor, the **"View as Teacher"** setting defaults to off, so select the settings gear and ensure it is toggled on. When **View as Teacher** is toggled on, you can see additional guidance appear in the Guide that students can not see. 
 
      .. image:: /img/manage_classes/viewasteacher.png
         :alt: View as Teacher
