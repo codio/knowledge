@@ -27,13 +27,18 @@ Managing assignments
    assign-grade-template
    
   
-You can manage assignments using the settings on the assignment when in **Edit** mode and the tasks on the assignment when not in edit mode. 
+You can manage assignments from the teacher dashboard or by selecting the settings gear icon on the assignment when in Teach mode.
 
-Click the **Edit** icon in the upper right corner of the assignment to enter edit mode. 
+Teacher Dashboard
+-----------------
 
-.. image:: /img/class_administration/editassignment.png
-   :alt: Edit Assignments
+From the teacher dashboard, access shortcuts to assignment actions. The image below highlights the main components of **Teach** mode in the teacher dashboard.
 
+.. image:: /img/manage_classes/teachdashboard.png
+   :alt: Teacher Dashboard
+
+- **Started**: shows the number of students who have started the assignment, where the green line indicates this number as a fraction of the whole class
+- **Completed**: shows the number of students who have completed the assignment, where the green line indicates this number as a fraction of the quantity of those that started it
 
 Assignment Settings
 -------------------
