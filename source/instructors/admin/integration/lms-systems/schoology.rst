@@ -4,7 +4,7 @@
 .. :
 
 Schoology
-******
+*********
 
 Enable LTI for Your Course
 --------------------------
@@ -59,7 +59,7 @@ In Schoology
 16. Click submit.
      
 Mapping an Assignment to a Schoology Assignment
-----------------------------------------
+-----------------------------------------------
 In Schoology
 ~~~~~~~~~~~~
 
@@ -83,8 +83,8 @@ In Codio
 21. Navigate to the course you would like to integrate with Schoology. Ensure you are in **Teach** mode. 
 22. Click the icon with 3 blue dots for each assignment you wish to map and select **LTI Integration URL.** Select the clipboard to copy the link.
 
-.. figure:: /img/lti/LMS-Unit-URL.png
-   :alt: Unit URL
+    .. figure:: /img/lti/LMS-Unit-URL.png
+       :alt: Unit URL
 
    .. Note:: If you would like to access all the LTI integration URLs at once, navigate to the course, then the Admin tab at the top of the page. Select **LTI Settings** and a CSV will download that provides the information for the course in one place. 
 
