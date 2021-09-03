@@ -120,7 +120,8 @@ You can revert back to earlier published versions of your courses. However, reve
 Send announcements
 ------------------
 
-Announcements can be sent to instructors and will display a banner similar to the one above. These announcements can be used to provide information that doesn't fall under the category of course content updates.
+
+Announcements can be sent to instructors that displays a similar banner as above in the child course informing all instructors of an announcement. These can be sent where you wish to provide information to the instructors where there are no changes/updates to the course content.
 
 
 To send an announcement, follow these steps:

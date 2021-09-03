@@ -19,6 +19,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2021**
 
+
 - `[I] [27th]`: Fix problem exporting course data for large courses
 - `[F] [23rd]`: Add feature to sent :ref:`announcements <send-announcements>` from parent courses to associated child courses
 - `[F] [19th]`: Add assignment option to :ref:`Disable Download <disable-download>` prohibiting students from downloading assignment before completing
