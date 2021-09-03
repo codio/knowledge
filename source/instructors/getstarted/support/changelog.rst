@@ -13,8 +13,14 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**September 2021**
+
+- `[F] [ 2nd]`: Add ability to create and present :ref:`Assignment Surveys <assignment-survey>` to students when they complete an assignment.
+
 **August 2021**
 
+
+- `[I] [27th]`: Fix problem exporting course data for large courses
 - `[F] [23rd]`: Add feature to sent :ref:`announcements <send-announcements>` from parent courses to associated child courses
 - `[F] [19th]`: Add assignment option to :ref:`Disable Download <disable-download>` prohibiting students from downloading assignment before completing
 - `[I] [19th]`: Fix issue where students are first to access course from LMS when created using :ref:`LTI Course Copy <lti-course-copy>` and being added in as teacher to the course

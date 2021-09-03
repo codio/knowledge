@@ -83,7 +83,7 @@ To review and grade answers given by students in a free text assessment, follow 
      .. image:: /img/guides/partial.png
         :alt: Allow Partial Points Enabled
 
-4. In the **Comments** field, enter any information (in markdown + LaTeX) about the grade, which can be viewed by the student when the grade is released, and then click **Submit **Comment**. 
+4. In the **Comments** field, enter any information (in markdown + LaTeX) about the grade, which can be viewed by the student when the grade is released, and then click **Submit Comment**. 
 
 Navigate student assessments
 .............................
@@ -98,3 +98,4 @@ You can view the points given and the Correct column checked for all free text a
 
 .. image:: /img/guides/freetextanswer.png
    :alt: View Graded Assessment
+   

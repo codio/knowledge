@@ -4,7 +4,7 @@
 .. :
 
 Schoology
-******
+*********
 
 Enable LTI for Your Course
 --------------------------
@@ -43,23 +43,23 @@ In Schoology
 14. Click **External Tools**.
 15. Click **Add External Tool Provider** and fill out the form:
 
+  .. image:: /img/lti/external-tool-form.png
+     :alt: External Tool Form
+
 * **Tool name**: this is the name educators see when adding external tools to their courses, so call this **Codio**
 * **Consumer Key**: this is the **LTI consumer key** from Codio (reference step 10 above)
 * **Shared Secret**: this is the **LTI secret key** from Codio (reference step 10 above)
 * **Privacy**: Schoology suggests **Name and email of the user who launches the tool**
 * **Configuration Type**: choose Manual > Matchy By > URL
 * **Domain/URL**: this is the **XML URL** from Codio (reference step 10 above)
-* **Custom Parameters**: this is the **Codio Target ID** from Codio (reference step 6 above)
+* **Custom Parameters**: this is the **Codio Course Target ID** from Codio (reference step 6 above)
+
+  .. Note:: If you are teaching more than one course in Codio, your system administrator will need to enter each course's **Codio Course Target ID** in the Custom Parameters field. Each **Codio Course Target ID** should be on a new line. 
 
 16. Click submit.
-
-  .. image:: /img/lti/external-tool-form.png
-     :alt: External Tool Form
      
-  .. Note:: If you are teaching more than one course in Codio, your system administrator will need to set up a Codio external tool for each course. This is because the custom parameter is different for each Codio course. If you are teaching **Intro to Python** and **Intro to Java**, for example, one external tool might be called **Codio: Python** and the other **Codio: Java**. The system administrator should follow steps 1-16 for each Codio course being integrated with Schoology.
-
 Mapping an Assignment to a Schoology Assignment
-----------------------------------------
+-----------------------------------------------
 In Schoology
 ~~~~~~~~~~~~
 
@@ -83,8 +83,8 @@ In Codio
 21. Navigate to the course you would like to integrate with Schoology. Ensure you are in **Teach** mode. 
 22. Click the icon with 3 blue dots for each assignment you wish to map and select **LTI Integration URL.** Select the clipboard to copy the link.
 
-.. figure:: /img/lti/LMS-Unit-URL.png
-   :alt: Unit URL
+    .. figure:: /img/lti/LMS-Unit-URL.png
+       :alt: Unit URL
 
    .. Note:: If you would like to access all the LTI integration URLs at once, navigate to the course, then the Admin tab at the top of the page. Select **LTI Settings** and a CSV will download that provides the information for the course in one place. 
 
