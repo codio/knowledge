@@ -14,7 +14,7 @@ Follow these steps to begin working on an assignment:
 
 3. If your instructor has connected your course to an LMS system (Blackboard, Canvas, D2l) you must begin your assignments in those systems.
 
-.. Note:: Your instructor can set prerequisite rules to assignments requiring you to have either completed, started or passed with a minimum grade other assignments before you can start a specific assignment.  If set and you have not met those requirements, you will see a message box explaining what is required and if you need help/clarification you can contact your instructor who can hel you.
+.. Note:: Your instructor can set prerequisite rules to assignments requiring you to have either completed, started or passed with a minimum grade other assignments before you can start a specific assignment.  If set and you have not met those requirements, you will see a message box explaining what is required and if you need help/clarification you can contact your instructor who can help you.
 
   .. image:: /img/student-prerequisite.png
      :alt: Student Warning

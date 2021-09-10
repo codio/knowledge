@@ -15,12 +15,12 @@ The prerequisite states that can be set are:
 - Completed
 - Passed (with a minimum grade)
 
-Multiple assignments can be included if necessary but they all will have the same prerequisite state
+Multiple assignments can be included if necessary but they all will have the same prerequisite state.
 
   .. image:: /img/prerequisite.png
      :alt: Prerequisite Rules
 
-When enabled, students can start the assignment if the requirements are met. If not, they will receive a message advising them of the prerequisite requirements
+When enabled, students can start the assignment if the requirements are met. If not, they will receive a message advising them of the prerequisite requirements.
 
   .. image:: /img/student-prerequisite.png
      :alt: Student Warning

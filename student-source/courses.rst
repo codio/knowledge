@@ -15,7 +15,7 @@ Your Courses
    
 Navigate the Student Dashboard
 ==============================
-The Student dashboard is the main page student's use to navigate Codio. 
+The Student dashboard is the main page students use to navigate Codio. 
 
 Dashboard:
 
