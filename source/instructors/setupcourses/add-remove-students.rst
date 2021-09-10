@@ -37,7 +37,7 @@ To add a student to your course, follow these steps: follow these steps to add s
    The students who have been added are displayed on the **Students** page for the course.
 
 Add Test Students
----------------
+-----------------
 You may view your course using the special student accounts Codio creates for you. There are three test student accounts within your organization that allow you to view content from the student perspective. 
 
 1. Navigate to the **Courses** page and select the course to open it.

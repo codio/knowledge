@@ -1,6 +1,8 @@
 .. meta::
    :description: Auto-Grade Jupyter notebook assignments using nbgrader.
    
+.. _notebooks:
+
 
 Auto-Grade with nbgrader
 ========================
@@ -8,11 +10,15 @@ Codio supports `Jupyter notebook <https://jupyter.org/>`_ auto-grading functiona
 
 When a student submits the assignment by marking the assignment as complete, the assignment is automatically graded. However, manual grading is also possible if desired. 
 
-.. Note:: Any user configurations for nbgrader should be stored in a **.codio-jupyter** file. If a **.codio-jupyter** file is used in a project, Codio assumes it is the Jupyter based grader so only **nbgrader** can be selected for the assessment scripts in the assignment.
+User configurations for nbgrader can be stored in a **nbgrader_config.py** or in **.codio-jupyter** file. A .codio-jupyter file must be present in a project to let Codio know that nbgrader should be used to grade Jupyter assessments.  
+
+.. Important:: If using **nbgrader_config.py** for your configurations, the **.codio-jupyter** is still required but can be empty/blank
+
+.. Note:: If both files are used the settings in the **nbgrader_config.py** take precedence. This file is not visible to students in their assignments 
 
 Configuration
 -------------
-Use the following configuration information when setting up nbgrader:
+Use the following configuration information when setting up nbgrader in a **.codio-jupyter** file. If using **nbgrader_config.py**, see :ref:`example <nb-conf-example>` below.
 
 - **Extend Timeout period** - To extend the time required for completion (to 90 seconds in this example), you can add the following to the **.codio-jupyter** file:
 
@@ -87,5 +93,76 @@ Use the following configuration information when setting up nbgrader:
               # BEGIN YOUR CODE
               raise NotImplementedError.new()
               #END YOUR CODE
+  
+.. _postgrading:
 
+- **Postgrader**       
+
+You can add a post-grading hook to Jupyter to alter the result html for the student. You can do this to remove and/or replace text from the notebook file that the students will see in their feedback.
+
+.. code:: yaml
+
+  codio:
+    postGrader: .guides/secure/postgrader.py
+
+To enable this, create a file **postgrader.py** in .guides/secure folder. This file needs to be executable.
+Running ```chmod +x .guides/secure/postgrader.py``` will make this file executable.
+
+Example postgrader.py file
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code:: python
+
+    #!/usr/bin/env python3
+    import sys
+    import re
+    START = '<span class="c1">### BEGIN HIDDEN TESTS</span>'
+    END = '<span class="c1">### END HIDDEN TESTS</span>'
+    html_path = sys.argv[1].rstrip()
+    with open(html_path, 'r') as content_file:
+        content = content_file.read()
+
+    def replaceTextBetween(originalText, delimeterA, delimterB, replacementText):
+        index_from = 0
+        index_to = len(originalText)
+        if delimeterA in originalText:
+            index_from = originalText.index(delimeterA)
+
+        if delimterB in originalText:
+            index_to = originalText.index(delimterB) + len(delimterB)
+
+        return originalText[0:index_from] + originalText[index_to:]
+
+    while START in content:
+        content = replaceTextBetween(content, START, END, '')
+    with open(html_path, 'w+') as stream:
+        stream.write(content)
+
+
+In this example anything between the ### BEGIN HIDDEN TESTS and ### END HIDDEN TESTS in the **.ipynb** file will not be shown to the students 
+  
+If using the **nbgrader_config.py**, see example below
+
+.. _nb-conf-example:
+
+Example nbgrader_config.py
+--------------------------
+
+.. code:: python
+
+    c = get_config()
+    c.ClearHiddenTests.begin_test_delimeter = "BEGIN HIDDEN TESTS"
+    c.ClearHiddenTests.end_test_delimeter = "END HIDDEN TESTS"
+    c.LockCells.lock_all_cells = True
+    c.LockCells.lock_grade_cells = True
+    c.LockCells.lock_readonly_cells = True
+    c.LockCells.lock_solution_cells = True
+    c.ExecutePreprocessor.interrupt_on_timeout = True
+    c.ExecutePreprocessor.timeout = 20
+    c.ClearSolutions.code_stub = {
+    "R": "# your R code here\n# end of R code\n",
+    "python": "# your python code here\n# end of python code\n",
+    "ruby": "# your ruby code here            \n# end of ruby code"
+    }
+    
 

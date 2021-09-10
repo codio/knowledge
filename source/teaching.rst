@@ -26,7 +26,8 @@ Teaching
 Viewing student work
 --------------------
 
-As a teacher you have access to your students cloud area within Codio. This allows you to view and access any work your students have completed at any time. Where students assignments are completed and read only, you can enable writable mode to be able to make changes if necessary. Changes made when in writable mode are not saved and do not effect the students work.
+
+As a teacher you have access to your student's assignments within Codio. This allows you to view and access any work your students have completed at any time. You can enable writable mode to be able to make changes if necessary. Changes made when in writable mode are not saved and do not affect the students work.
 
 1. From the **Courses** area, click on your course to open it.
 
@@ -48,4 +49,12 @@ As a teacher you have access to your students cloud area within Codio. This allo
   .. image:: /img/openstudent.png
      :alt: Open student work
 
+Downloading student workspaces
+------------------------------
+
+If you wish to download student workspaces you can do so either for individual assignments, individual students or for all students in the course: 
+
+- For individual assignment workspaces, see :ref:`Export Assignment Data <export-assignment>`
+- For indvidual student workspaces, see :ref:`Export a Project <export-project>`
+- For all students in a course, see :ref:`Export Course Data <export-course>`
    

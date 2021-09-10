@@ -97,7 +97,7 @@ Regrade all student's assignments
 You can regrade all student's assignments that have already been auto-graded from the **Actions** button on the assignment page.
 
 1. Navigate to the assignment and open it.
-2. Click the **Actions** button and then click **Regrade All**. This is useful if you have found a bug in your grading script. 
+2. Click the **Actions** button and then click **Regrade Completed**. This is useful if you have found a bug in your grading script. 
 
 Test and debug your grading scripts
 -----------------------------------
@@ -261,3 +261,61 @@ Example Bash auto-grading script
     POINTS=$(( ( RANDOM % 100 )  + 1 ))
     curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$POINTS -d format=md -d feedback=test
 
+Example Python auto-grading script with partial points
+......................................................
+
+.. code:: python
+
+    import os, requests, random, re, io, subprocess, shutil, sys
+    from subprocess import Popen, PIPE, STDOUT
+
+    sys.path.append('/usr/share/codio/assessments')
+    from lib.grade import send_partial_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
+
+    score = 0
+    feedback = ""
+
+    # get student code
+
+    with open('code/quizquestion2.c') as response:
+      answer = response.read()
+
+    #check student code
+
+    if re.search('pi.*=.*3.14',answer) and re.search('r.*=.*8',answer):
+      feedback+="Correct variable initialization.\n"
+      score+=5
+    else:
+      feedback+="Incorrect variable initialization.\n"
+
+    if re.search('float.*pi',answer) and re.search('float.*r',answer):
+      feedback+="Correct variable declaration.\n"
+      score+=5
+    else:
+      feedback+="Incorrect variable declaration.\n"
+
+    feedback+= "<h2>On this question you earned " + str(score) + " out of 10</h2>"
+    res = send_partial_v2(score, feedback, FORMAT_V2_HTML)
+    exit(0 if res else 1)
+    
+
+Example Bash auto-grading script with partial points
+....................................................
+
+.. code:: bash
+
+    #!/usr/bin/env bash
+    POINTS=0
+    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer1" ]
+    then
+      POINTS=1
+    fi
+    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer5" ]
+    then
+      POINTS=5
+    fi
+    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer10" ]
+    then
+      POINTS=10
+    fi
+    curl --retry 3 -s "$CODIO_PARTIAL_POINTS_V2_URL" -d points=$POINTS -d format=md -d feedback='### <strong>HTML text</strong>'

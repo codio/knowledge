@@ -7,7 +7,7 @@ Parsons Puzzle
 ==============
 Parson’s problems are available in Codio as Parsons Puzzles. Parson’s Puzzles are formative assessments that ask students to arrange blocks of scrambled code, allowing them to focus on the purpose and flow of the code (often including a new pattern or feature) instead of syntax. Codio uses `js-parsons <http://js-parsons.github.io/documentation/>`_ for Parson's Puzzles.
 
-Complete the following steps to set up a Parsons Puzzle assessment:
+Complete the following steps to set up a **Line Based Grader** Parsons Puzzle assessment. The **Line Based Grader** assessment treats student answers as correct if and only if they match the order and indentation found in **Initial Values**. For incorrect answers, it highlights the lines that were not ordered or indented properly.
 
 1. On the **General** page, enter the following information:
 
@@ -29,6 +29,9 @@ Complete the following steps to set up a Parsons Puzzle assessment:
   - **Code to Become Distractor Blocks** - Enter code blocks that serve as distractions. 
   - **Max Distractors** - Enter the maximum number of distractors allowed.
   - **Grader** - Choose the appropriate grader for the puzzle from the drop-down list. 
+  - **Require Dragging** - If you enter **Code to Become Distractor Blocks**, **Require Dragging** will automatically turn on. Without distractor blocks, you can decide whether or not you want students to drag blocks to a separate area to compose their solution.
+  - **Disable Indentation** - If you do not want to require indention, check the **Disable Indentition** box. 
+  - **Indent Size** - Each indention defaults to 50 pixels.
 
 3. Click **Grading** in the navigation pane and complete the following fields:
 
@@ -62,45 +65,61 @@ Complete the following steps to set up a Parsons Puzzle assessment:
 
 Grader Options
 --------------
-- VariableCheckGrader - Executes the code in the order submitted by the student and checks variable values afterwards.
 
-  Expected and supported options:
+**VariableCheckGrader** - Executes the code in the order submitted by the student and checks variable values afterwards.
 
-  - ``vartests`` (required)  array of variable test objects
+.. raw:: html
+
+    <script src="https://fast.wistia.com/embed/medias/zyrxf8as9m.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:54.58% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_zyrxf8as9m videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/zyrxf8as9m/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+
+ 
+Expected and supported options:
+
+- ``vartests`` (required)  array of variable test objects
     
     Each variable test object can/must have the following properties:
 
-    - ``initcode`` - code that will be prepended before the learner solution code
-    - ``code`` - code that will be appended after the learner solution code
-    - ``message`` (required) - a textual description of the test, shown to learner
+  - ``initcode`` - code that will be prepended before the learner solution code
+  - ``code`` - code that will be appended after the learner solution code
+  - ``message`` (required) - a textual description of the test, shown to learner
 
-  Properties specifying what is tested:
+Properties specifying what is tested:
 
-  - ``variables`` - an object with properties for each variable name to be tested; the value of the property is the expected value
+- ``variables`` - an object with properties for each variable name to be tested; the value of the property is the expected value
   
   or
   
-  - ``variable`` - a variable name to be tested
-  - ``expected`` - expected value of the variable after code execution
+- ``variable`` - a variable name to be tested
+- ``expected`` - expected value of the variable after code execution
 
-- TurtleGrader - for exercises that draw turtle graphics in Python. Grading is based on comparing the commands executed by the model and student turtle. If the ``executable_code`` option is also specified, the code on each line of that option will be executed instead of the code in the student constructed lines. 
+**TurtleGrader** - for exercises that draw turtle graphics in Python. Grading is based on comparing the commands executed by the model and student turtle. If the ``executable_code`` option is also specified, the code on each line of that option will be executed instead of the code in the student constructed lines. 
 
   .. Note:: Student code should use the variable ``myTurtle`` for commands to control the turtle in order for the grading to work.
 
+.. raw:: html
+
+    <script src="https://fast.wistia.com/embed/medias/818mmle6c1.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:54.58% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_818mmle6c1 videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/818mmle6c1/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+
   Required options:
 
-  - ``turtleModelCode`` - The code constructing the model drawing. The turtle is initialized to modelTurtle variable, so your code should use that variable. The following options are available:
+- ``turtleModelCode`` - The code constructing the model drawing. The turtle is initialized to modelTurtle variable, so your code should use that variable. The following options are available:
 
-    - ``turtlePenDown`` - A boolean specifying whether or not the pen should be put down initially for the student constructed code
-    - ``turtleModelCanvas`` - ID of the canvas DOM element where the model solution will be drawn. Defaults to `modelCanvas`.
-    - ``turtleStudentCanvas`` - ID of the canvas DOM element where student turtle will draw. Defaults to `studentCanvas`.
+  - ``turtlePenDown`` - A boolean specifying whether or not the pen should be put down initially for the student constructed code
+  - ``turtleModelCanvas`` - ID of the canvas DOM element where the model solution will be drawn. Defaults to `modelCanvas`.
+  - ``turtleStudentCanvas`` - ID of the canvas DOM element where student turtle will draw. Defaults to `studentCanvas`.
 
-- UnitTestGrader - Executes student code and Skulpt unit tests.
+**UnitTestGrader** - Executes student code and Skulpt unit tests. This grader is for Python problems where students create functions. Similar to traditional unit tests on code, this grader leverages a unit test framework where you set asserts - meaning this grader checks the functionality of student code. 
 
-- LanguageTranslationGrader - Code translating grader.
+.. raw:: html
 
-- LineBasedGrader - Treats student answers as correct if and only if they match the order and indentation found in **Initial Values**. For incorrect answers, it highlights the lines that were not ordered or indented properly.
+    <script src="https://fast.wistia.com/embed/medias/fafvc7pih9.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:54.58% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_fafvc7pih9 videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/fafvc7pih9/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+
+**LanguageTranslationGrader** - Code translating grader where Java or psuedocode blocks map to Python in the background. Selecting the language allows the Parson's problem to check for correct indentation and syntax.
+
+.. raw:: html
+
+    <script src="https://fast.wistia.com/embed/medias/epu2uofoo5.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:54.58% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_epu2uofoo5 videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/epu2uofoo5/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 
 Sample Starter Pack
 -------------------
-There is a Starter Pack project - Demo Guides and Assessments that you can add to your account that includes examples of Parson's Puzzle assessments. If not already loaded to your account (in your **My Projects** area), go to Starter Packs and search for **Demo Guides and Assessments**
+There is a Starter Pack project - Demo Guides and Assessments that you can add to your account that includes examples of Parson's Puzzle assessments. If not already loaded to your account (in your **My Projects** area), go to Starter Packs and search for **Demo Guides and Assessments**.

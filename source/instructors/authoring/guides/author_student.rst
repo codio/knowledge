@@ -22,7 +22,8 @@ You can preview content in Guides in one of the following ways:
 
   .. image:: /img/guides/startguides.png
      :alt: StartGuides
-     
+
+.. _custom-ide:
 
 Customizing IDE menu
 ********************
