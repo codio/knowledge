@@ -13,14 +13,26 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**September 2021**
+
+- `[I] [10th]`: Fix problem with Brightspace Deeplinking
+- `[F] [10th]`: Add :ref:`Pre-requisite assignments <prerequisite>` where students must satisfy set criteria in other assignments before able to start
+- `[I] [ 9th]`: Fix issue with :ref:`Code Visualiser <code-visualiser>`
+- `[F] [ 8th]`: Improvements for :ref:`Jupyter Notebooks with nbgrader <notebooks>` including support for :ref:`postgrading hooks <postgrading>` to hide content to students and support for nbgrader_config.py
+- `[F] [ 2nd]`: Add ability to create and present :ref:`Assignment Surveys <assignment-survey>` to students when they complete an assignment.
+
 **August 2021**
 
+
+- `[I] [27th]`: Fix problem exporting course data for large courses
+- `[F] [23rd]`: Add feature to sent :ref:`announcements <send-announcements>` from parent courses to associated child courses
 - `[F] [19th]`: Add assignment option to :ref:`Disable Download <disable-download>` prohibiting students from downloading assignment before completing
 - `[I] [19th]`: Fix issue where students are first to access course from LMS when created using :ref:`LTI Course Copy <lti-course-copy>` and being added in as teacher to the course
 - `[I] [18th]`: Fix problem deleting large courses
 - `[I] [12th]`: Improve error messaging for connections to Google Classrooms
 - `[F] [10th]`: Add :ref:`Pair Programming <group-work>` allowing teachers to group students to work together
 - `[F] [ 5th]`: Add new :ref:`Random Assessment <random>` type to allow random assessments to be offered to students in assignments
+
 
 **July 2021**
 
