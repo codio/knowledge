@@ -6,7 +6,7 @@
 Language Server Protocol
 ========================
 
-The Language Server rotocol (LSP) is used to integrate features such as autocomplete, go to definition, and find all references. Currently, Java, OCAML, and Python LSPs are available.
+The Language Server Protocol (LSP) is used to integrate features such as autocomplete, go to definition, and find all references. Currently, Java, OCAML, and Python LSPs are available.
 
 Below is a Python example:
 

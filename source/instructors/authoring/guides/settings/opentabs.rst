@@ -100,7 +100,7 @@ If there is any potential ambiguity with this approach, simply insert a comment 
 
 Any combinations are acceptable and they will be opened in the order specified.
 
-
+.. _code-visualiser:
 
 Visualiser
 **********
