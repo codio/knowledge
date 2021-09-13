@@ -295,5 +295,6 @@ Example Python auto-grading script with partial points
       feedback+="Incorrect variable declaration.\n"
 
     feedback+= "<h2>On this question you earned " + str(score) + " out of 10</h2>"
-    res = send_partial_v2(score*100, feedback, FORMAT_V2_HTML)
+    # scale up so the score by 10 because it is out of 10 and needs to be out of 100
+    res = send_partial_v2(score*10, feedback, FORMAT_V2_HTML)
     exit(0 if res else 1)
