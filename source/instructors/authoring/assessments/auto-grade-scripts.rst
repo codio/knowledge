@@ -215,11 +215,11 @@ To support this additional feedback, this URL (passed as an environment variable
 
 These variables allow POST and GET requests with the following parameters:
 
-- **Grade** (```CODIO_AUTOGRADE_V2_URL```) - 0-100 grade result
+- **Grade** (```CODIO_AUTOGRADE_V2_URL```) - return 0-100 percent. This is the percent correct out of total possible points.
 - **Feedback** - text
 - **Format** - html, md, txt - txt is default
 
-If the grade is submitted to the URL, the script output is saved as debug log.
+If the grade is submitted to the URL, the script output is saved as a debug log. This means that all information you want to pass to students must use the **Feedback** mechanism.
 
 If the script fails:
 
@@ -295,27 +295,6 @@ Example Python auto-grading script with partial points
       feedback+="Incorrect variable declaration.\n"
 
     feedback+= "<h2>On this question you earned " + str(score) + " out of 10</h2>"
-    res = send_partial_v2(score, feedback, FORMAT_V2_HTML)
+    # scale up so the score by 10 because it is out of 10 and needs to be out of 100
+    res = send_partial_v2(score*10, feedback, FORMAT_V2_HTML)
     exit(0 if res else 1)
-    
-
-Example Bash auto-grading script with partial points
-....................................................
-
-.. code:: bash
-
-    #!/usr/bin/env bash
-    POINTS=0
-    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer1" ]
-    then
-      POINTS=1
-    fi
-    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer5" ]
-    then
-      POINTS=5
-    fi
-    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer10" ]
-    then
-      POINTS=10
-    fi
-    curl --retry 3 -s "$CODIO_PARTIAL_POINTS_V2_URL" -d points=$POINTS -d format=md -d feedback='### <strong>HTML text</strong>'
