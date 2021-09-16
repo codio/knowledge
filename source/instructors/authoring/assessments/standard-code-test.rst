@@ -95,7 +95,7 @@ Follow these steps to set up a standard code test:
   - **Allow Partial Points** - Toggle to enable partial points, the grade is then based on the percentage of test cases the code passes. See :ref:`Allow Partial Points <partial-points>` for more information.
   - **Case Insensitive** - Toggle to enable a case insensitive output comparison. By default, the comparison is case sensitive.
   - **Ignore White Space** - Toggle to enable stripping out any white space characters (carriage return, line feed, tabs, etc.) from both the expected output and the student output. 
-  - **Substring Match** - Toggle to enable substring match when comparing the expected output to the student output.
+  - **Substring Match** - Toggle to enable substring match when comparing the expected output to the student output. The entire expected ouput needs to be contiguous in the student output.
   - **One Attempt Only** - Toggle to enable the assessment to run only once. The student will be warned that they cannot resubmit the assessment. It's recommended that you provide a :ref:`Run Button <customizable-run-menu>` for the student to test the code before running the actual assessment.
   - **Add Item to Check** - Click to create another set of input/output fields.
   - **Input - Arguments** - Enter the command line arguments that are read by the student code.
