@@ -6,7 +6,7 @@
 Pyret
 =====
 
-Pencil Code is now available in Codio.
+Pyret is now available in Codio.
 
 |pyret|
 
@@ -15,10 +15,10 @@ With :ref:`Codio guides <guides-intro>` you can provide instructions for an assi
 
 To create an empty Pyret project in Codio, select **File > New** from the Codio menu and create a file with an **.arr** suffix. 
 
-You can set up your Guide to :ref:`automatically open <open-tabs>` files you want your students to use. If you don't want the guide to take up screen space, you can set it up to `collapse on open <global>`__ or students can simply click on the files in the file tree for them to open in Pencil Code
+You can set up your Guide to :ref:`automatically open <open-tabs>` files you want your students to use. If you don't want the guide to take up screen space, you can set it up to `collapse on open <global>`__ or students can simply click on the files in the file tree for them to open in Pyret.
 
 
-For more information on Pyret, `click here <https://www.pyret.org/>`__
+For more information on Pyret, `click here <https://www.pyret.org/>`__.
 
 
 .. |pyret| image:: /img/pyret.png
