@@ -6,25 +6,33 @@
 Flode
 ======
 
-Flode is a course that creates executable flow charts. Flode is a great way to teach computational thinking and introduce students to programming. It can:
+Flode is a flowcharting application, using Javascript as its enginge, that allows you to:
 
--  create beautiful, annotated flow charts
+-  create annotated flowcharts
+-  execute flowcharts
 -  write proper code expressions, including decisions, in chart elements
--  integrated debugger
--  export your charts as images for project write-ups
--  input and output elements so automated tests can auto-grade charts.
+-  integrate a debugger
+-  export charts as images for project write-ups
+-  input and output elements so automated tests can auto-grade charts
 
-Please see the sections below for details on how to access ready made course or how to create your own projects where students can create Flode charts within their own projects.
+  .. image:: /img/flode.png
+     :alt: flode
+     
+Creating and editing a new Flode file
+*************************************
 
-Cheat Sheet
------------
+If you want to create Flode charts in your content, start by creating either a new project or assignment in your course. You can use any stack. 
 
-Here is a quick reference for commonly used actions.
+Once inside a project, to create a new flowchart, simply create a new file with the extension ``.flode``. A new Flode window will appear and you can start creating and editing your chart.
+
+A new file is created from either the File menu or by right-clicking on the project name line in the file tree.
+
+To edit an existing ``.flode`` file, simply click on the file name to open the Flode editor.
 
 Dragging in blocks
 ******************
 
-Drag from the top toolbar into the chart.
+- Drag from the top toolbar into the chart.
 
 Connecting blocks with lines
 ****************************
@@ -37,12 +45,12 @@ Connecting blocks with lines
 Resizing blocks
 ***************
 
-Click on a block then drag a highlighted point
+- Click on a block then drag a highlighted point
 
 Zooming & centering your chart
 ******************************
 
-Zoom controls are in the toolbar or using the mouse wheel if you have one
+- Zoom controls are in the toolbar or using the mouse wheel if you have one
 
 Multi selection
 ***************
@@ -78,44 +86,7 @@ Video overview
    </div>
    </div>
 
-Flode teaching content
-**********************
-
-The content also contains many auto-graded assessments. Results can be seen instantly on the teacher **Courses** feature.
-
-1. Log into Codio
-2. Select **Resources** from the items on the left of the Dashboard
-3. Look for **An Introduction to Programming**
-
-**An Introduction to Programming** uses Flode extensively and provides an excellent way of introducing students to programming, computational thinking and Algorithms.
-
-Creating and editing a new Flode file
-*************************************
-
-If you want to create Flode charts independently of any Codio Course content, create a new project from the **Dashboard > My Projects** area.
-
-Once inside a project, to create a new flow chart, simply create a new file with the extension ``.flode``. A new Flode window will appear and you can start creating and editing your chart.
-
-A new file is created from either the File menu or by right-clicking on the project name line in the file tree.
-
-.. figure:: /img/new-file.png
-   :alt: new file
-
-
-To edit an existing ``.flode`` file, simply click on the file name to open the Flode editor.
-
-Detailed instructions
-*********************
-
-To get detailed instructions on how to use Flode,
-
-1. Log into Codio
-2. Select **Resources** from the items on the left of the Dashboard
-3. Look for **An Introduction to Programming**
-4. Select the first Module, **Flode**
-5. Press **Start Assignment** from the first Unit in the list    **Introduction to Flode**
-
 Credits
 *******
 
-Many thanks to the folks at `JGraph <http://www.jgraph.com/>`__ for their excellent flowcharting and diagramming tools.
+Many thanks to the folks at `JGraph <http://www.jgraph.com/>`__ for their flowcharting and diagramming tools.
