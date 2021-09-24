@@ -61,7 +61,7 @@ Follow these steps to set up an autograde free text assessment:
   - **Learning Objectives** The objectives are the specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then the Learning Objectives could be *SWBAT follow the flow of recursive execution*.
   - **Tags** - By default, **Content** and **Programming Language** tags are provided and required. To add another tag, click **Add Tag** and enter the name and values.
 
-5. Click **Files** in the left navigation pane and check the check boxes for additional external files to be included with the assessment. The files are then included in the **Additional content** list.
+5. Click **Files** in the left navigation pane and check the check boxes for additional external files to be included with the assessment when adding it to an assessment library. The files are then included in the **Additional content** list.
 
    .. image:: /img/guides/assessment_files.png
       :alt: Files
@@ -99,8 +99,8 @@ To review and grade answers given by students in a free text assessment, follow 
 
 4. In the **Comments** field, enter any information (in markdown + LaTeX) about the grade, which can be viewed by the student when the grade is released, and then click **Submit **Comment**. 
 
-Example of a simple Bash script for partial points
-..................................................
+Example Bash script for free-text auto-grade with partial points
+................................................................
 
 .. code:: bash
 
@@ -121,8 +121,8 @@ Example of a simple Bash script for partial points
     curl "$CODIO_PARTIAL_POINTS_URL&points=${POINTS}" > /dev/null
 
 
-Example of a Python script for partial points
-.............................................
+Example Python script for free-text auto-grade with partial points
+..................................................................
 
 .. code:: python
 
@@ -158,14 +158,4 @@ Example of a Python script for partial points
       exit( 0 if res else 1)
 
     main()
-
-
-
-Autograding enhancements
-------------------------
-To provide you with more robust auto-grade scripts, you can send back feedback in different formats HTML, Markdown, or plaintext) and a URL is passed as an environment variable ```CODIO_PARTIAL_POINTS_V2_URL```. These variables allow POST and GET requests with the following parameters:
-
-- **Score** (```CODIO_PARTIAL_POINTS_V2_URL```) - 0-100 percent for assessment, should be a percentage of total points possible. 
-- **Feedback** - text
-- **Format** - html, md, or txt (default)
 
