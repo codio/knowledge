@@ -59,7 +59,7 @@ Complete each section to set up your advanced code test.
   - **Learning Objectives** The objectives are the specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then the Learning Objectives could be *SWBAT follow the flow of recursive execution*.
   - **Tags** - The **Content** and **Programming Language** tags are provided and required. To add another tag, click **Add Tag** and enter the name and values.
 
-5. Click **Files** in the left navigation pane and check the check boxes for additional external files to be included with the assessment. The files are then included in the **Additional content** list.
+5. Click **Files** in the left navigation pane and check the check boxes for additional external files to be included with the assessment when adding it to an assessment library. The files are then included in the **Additional content** list.
 
    .. image:: /img/guides/assessment_files.png
       :alt: Files
@@ -109,8 +109,9 @@ JUnit
  - **TESTS SOURCE PATH** - specifies where non-test-case test helper files are
  - **LIBRARY PATH** - specifies where .jar files needed to run the student code or test code at
  - **WORKING DIRECTORY** - specifies where in the file tree the actual test will run
- 
- Codio has a nice :ref:`JUnit <junit>` runner for building JUnit tests.
+
+ All code files **Source path** will be compiled. Files that fail to compile successfully will cause the tests to fail, even if they are not used.
+ Codio has a :ref:`JUnit <junit>` runner for building JUnit tests.
  
 Custom Feedback with JUnit in Codio
 -----------------------------------
@@ -217,3 +218,4 @@ To see an example of a specific unit test or style checker, see the Starter Pack
 .. _JavaScript Starter Pack: https://codio.com/home/starter-packs/aa3d0fa0-46dc-4c16-abeb-223451de3c73
 
 Additionally, Codio pre-populates a project in **My Projects** called **Demo Guides and Assessments** that contains examples for all assessment types and a guides authoring cheat sheet. If you do not see this project, go to **Starter Packs** and search for **Demo Guides and Assessments**. Click **Use Pack** and then **Create** to make a copy in your **My Projects** area.
+

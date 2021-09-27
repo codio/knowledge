@@ -1,11 +1,11 @@
 .. meta::
-   :description: Using Auto-Grade Scripts to evaluate student work.
+   :description: Assignment level scripts have access to data about all the assessments in an assignment.
    
 .. _auto-grade-scripts:
 
-Using Auto-Grade Scripts
+Assignment Level Scripts
 ========================
-You can use auto-grade scripts that evaluate the student code, and these scripts are added in the **Script Grading** field on the :ref:`Script Grading <grade-weights>` settings page. These scripts can then transfer the grading value into the grading field.
+You can use assignment level scripts to evaluate student code, normalize points, and mark for participation grading. Assignment level scripts are added in the **Script Grading** field on the :ref:`Script Grading <grade-weights>` settings page. These scripts can then transfer the grading value into the grading field. Assignment level scripts are run when an assignment is **Marked as Complete**.
 
 .. Note:: The script must execute within 3 minutes or a timeout error occurs.
 
@@ -13,11 +13,11 @@ If you are using an LMS platform with Codio, be sure to enter a percentage value
 
 Secure scripts
 -------------- 
-If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. Only instructors can access this folder.
+If you store grading scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. Only instructors can access this folder.
 
 Access authored content assessment results
 ------------------------------------------
-You can get student scores for authored content-based, auto-graded assessments. You can get both summary data and data for each assessment. This data is in JSON format and can be accessed in the ``CODIO_AUTOGRADE_ENV`` environment variable. The following is an example:
+You can access student scores for authored content-based, auto-graded assessments. You can get both summary data and data for each assessment. This data is in JSON format and can be accessed in the ``CODIO_AUTOGRADE_ENV`` environment variable. The following is an example of the format of this data:
 
 .. code:: ini
 
@@ -54,9 +54,9 @@ You can get student scores for authored content-based, auto-graded assessments. 
 Participation Grading
 ---------------------
 
-Participation grading can be enabled if required. 
+You can implement participation grading using assignment level scripts. 
 
-To enable this:
+An example of participation grading:
 
 - Add the script below as .py file to `.guides/secure` folder
 
@@ -90,14 +90,14 @@ To enable this:
 
 Regrade an individual student's assignment
 ------------------------------------------
-If students set their work to *complete* and the custom script is triggered, you can regrade their work by resetting the `complete` switch, and then set it to *complete* again, which triggers the custom script to run again.
+If students have clicked **Mark as Complete** and the custom script is triggered, you can regrade their work by resetting the `complete` switch, and then set it to *complete* again, which triggers the custom script to run again.
 
 Regrade all student's assignments
 ---------------------------------
 You can regrade all student's assignments that have already been auto-graded from the **Actions** button on the assignment page.
 
 1. Navigate to the assignment and open it.
-2. Click the **Actions** button and then click **Regrade Completed**. This is useful if you have found a bug in your grading script. 
+2. Click the **Actions** button and then click **Regrade Completed**. This is useful if you have found a bug in your assignment level grading script. **Regrade Completed** does not run individual code test assessments.
 
 Test and debug your grading scripts
 -----------------------------------
@@ -136,7 +136,7 @@ Be sure to take the following into account when using this feature:
 
 Example grading scripts
 -----------------------
-This section provide some example auto-grading scripts.
+This section provide some example assignment level scripts.
 
 Python auto-grading script
 ..........................
@@ -227,8 +227,8 @@ If the script fails:
 - The assignment is not locked (if due date is not passed).
 - An email  notification with information about the problem is sent to the course instructor(s) containing the debug output from the script.
 
-Example Python auto-grading script
-...................................
+Example Python auto-grading script 
+..................................
 
 .. code:: python
 
@@ -260,41 +260,3 @@ Example Bash auto-grading script
     set -e
     POINTS=$(( ( RANDOM % 100 )  + 1 ))
     curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$POINTS -d format=md -d feedback=test
-
-Example Python auto-grading script with partial points
-......................................................
-
-.. code:: python
-
-    import os, requests, random, re, io, subprocess, shutil, sys
-    from subprocess import Popen, PIPE, STDOUT
-
-    sys.path.append('/usr/share/codio/assessments')
-    from lib.grade import send_partial_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
-
-    score = 0
-    feedback = ""
-
-    # get student code
-
-    with open('code/quizquestion2.c') as response:
-      answer = response.read()
-
-    #check student code
-
-    if re.search('pi.*=.*3.14',answer) and re.search('r.*=.*8',answer):
-      feedback+="Correct variable initialization.\n"
-      score+=5
-    else:
-      feedback+="Incorrect variable initialization.\n"
-
-    if re.search('float.*pi',answer) and re.search('float.*r',answer):
-      feedback+="Correct variable declaration.\n"
-      score+=5
-    else:
-      feedback+="Incorrect variable declaration.\n"
-
-    feedback+= "<h2>On this question you earned " + str(score) + " out of 10</h2>"
-    # scale up so the score by 10 because it is out of 10 and needs to be out of 100
-    res = send_partial_v2(score*10, feedback, FORMAT_V2_HTML)
-    exit(0 if res else 1)
