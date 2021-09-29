@@ -1,7 +1,7 @@
 .. meta::
    :description: Integrating with Schoology
 
-.. :
+.. _schoology:
 
 Schoology
 *********

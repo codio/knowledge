@@ -18,31 +18,31 @@ Enabling this setting allows existing Codio course content used in your LMS to b
 
 First enable :ref:`LTI Constant URLs <lti-constant>` for your course.
 
--  In your existing Codio course, enable the **Enable LTI course copy** button, and save your changes
+1.  In your existing Codio course, enable the **Enable LTI course copy** button, and save your changes
 
 .. figure:: /img/lti/enable_class_fork.png
    :alt: Enable course copy field
 
 
--  In your LMS "Copy this Course" (or equivalent term for your LMS) and create your new course
+2.  In your LMS "Copy this Course" (or equivalent term for your LMS) and create your new course
 
 .. figure:: /img/lti/copy_course.png
    :alt: Copy LMS Course
 
--  When completed go to **External Apps** and edit the existing app connecting Codio to your LMS
--  Replace the existing custom field that was set from your original Codio course with an id of your own (e.g something like codio_class_target_id=my_class_id_10)
+3.  When completed go to **External Apps** and edit the existing app connecting Codio to your LMS
+4.  Replace the existing custom field that was set from your original Codio course with an id of your own (e.g something like codio_class_target_id=my_class_id_10)
 
-.. Note:: If your LMS supports ``lis_course_offering_sourcedid`` you do not need to specify ``codio_class_target_id`` for the copied course,``lis_course_offering_sourcedid`` will be used automatically to detect the course**
+.. Note:: If your LMS supports ``lis_course_offering_sourcedid`` you do not need to specify ``codio_class_target_id`` for the copied course,``lis_course_offering_sourcedid`` will be used automatically to detect the course.
 
 .. figure:: /img/lti/fork_class_id.png
    :alt: course fork id
 
--  In your existing Codio course, copy the content of the LTI course copy enabled field into a new line in the 'Edit App' custom field
+5.  In your existing Codio course, copy the content of the LTI course copy enabled field into a new line in the 'Edit App' custom field
 
 .. figure:: /img/lti/parent_class.png
    :alt: Parent course ID
 
--  Submit
+6.  Submit
 
--  In the new course created in your LMS, open one of the new  assignments and this will then create the new course in Codio containing the content from your original Codio course. 
+7.  In the new course created in your LMS, open one of the new  assignments and this will then create the new course in Codio containing the content from your original Codio course. 
 

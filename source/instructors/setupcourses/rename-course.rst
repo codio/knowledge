@@ -2,7 +2,7 @@
    :description: Courses can be renamed by course teachers and organization owners. 
 
 
-.. :
+.. _rename-course:
 
 Rename Course
 =============

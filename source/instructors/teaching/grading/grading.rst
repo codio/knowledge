@@ -61,6 +61,10 @@ Override Grade
 
 If the students assignment has already been graded, another teacher in the course can click **Override Grade** to manually change the grade with additional comments.
 
+The **Override Grade** feature can also be used to provide comments at the assignment level. If you do not wish to alter the numeric grade when adding assignment level comments, re-enter it under **Grade**, add your comment and then select **Done.**
+
+  .. image:: /img/class_administration/grading/assignment-comments.png
+     :alt: Assignment Comments
 
 Anonymous grading
 -----------------
