@@ -12,7 +12,6 @@ Admin
    :hidden:
 
    instructors/admin/integration/intro
-   instructors/admin/integration/lms-systems/canvas
    instructors/admin/organization/organisation
    instructors/admin/orgbilling
    common/settings/settings
@@ -33,19 +32,16 @@ Learning Tools Interoperability (LTI) is a standard for passing user, organizati
 
 For more see:
 
-- :ref:`LTI Keys and URLs <lti-keys>`
-- :ref:`Codio LTI App <lti-app>`
-- :ref:`LTI Constant URLs <lti-constant>`
-- :ref:`LTI Course Copy <lti-course-copy>`
-- :ref:`Grading <lti-grading>`
 - Integrating with LMS's
     - :ref:`Integrating with Canvas <canvas>`
     - :ref:`Integrating with Blackboard <blackboard>`
     - :ref:`Integrating with Moodle <moodle>`
     - :ref:`Integrating with D2L <d2l>`
     - :ref:`Integrating with Google Classroom <google-classroom>`
-- :ref:`LTI 1.3 integration <lti1-3>`
+    - :ref:`Integrating with Schoology <schoology>`    
 - :ref:`Users account creation <lms-users>`
-
-
-
+- :ref:`Grading <lti-grading>`
+- :ref:`LTI Keys and URLs <lti-keys-and-urls-information>`
+- :ref:`LTI App <lti-app>`
+- :ref:`LTI Course Copy <lti-course-copy>`
+- :ref:`LTI 1.3 integration <lti1-3>`

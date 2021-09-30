@@ -13,9 +13,11 @@ Restore current files
 
 There may be times when you want to make changes to your work or discard some of it. The easiest way to accomplish this is to restore the original files in a assignment.
 
-1. Open the assignment that you want to restore.
+1. Open the assignment. 
 
-2. In the upper right corner, click the **Settings** icon and choose **Restore current files**.
+2. Navigate to the file that you want to restore.
+
+3. In the upper right corner, click the **Settings** icon and choose **Restore current files**. This will only restore the file that you have open. This will not restore all the files in the assignment. 
 
    .. image:: /img/guides/reset.png
       :alt: Restore Current Files

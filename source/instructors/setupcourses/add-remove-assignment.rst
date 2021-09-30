@@ -29,22 +29,33 @@ Once the course modules are created, you can add assignments (projects). You can
 1. In the course module, click **Add Assignment**. 
 2. On the **Create Assignment** page, click **Project based** or **Existing**.
 
-   - To create a project-based assignment:
+   - To create a **project-based** assignment:
 
-     a. Select the project type.
-     b. Enter a name and description, and click **Create**. 
+     a. Add assignment, and choose: **project based**. 
+     b. Select the project type.
+     c. Enter a name and description, and click **Create**. 
 
-   - If you want to import a project-based assignment:
+   - If you want to **import a project-based** assignment:
 
-     a. Click the **Click here** link.
-     b. Click **Copy Project** and browse to the project and select it.
-     c. Click **Create**.
+     a. Add assignment, and choose: **project based**.  
+     b. Click the **Click here** link under **Selecting your Starting Point.**
+     c. Click **Copy Project** and browse to the project and select it.
+     d. Click **Create**.
    
-   - To add assignments from existing courses:
+   - To add assignments from **existing courses**:
 
-     a. Select the course and module.
-     b. Check the check boxes for the assignments to be added to the course.
-     c. Click **Select**. 
+     a. Add assignment, and choose: **from existing**.  
+     b. Select the course and module.
+     c. Check the check boxes for the assignments to be added to the course.
+     d. Click **Select**. 
+     
+   - To add assignments from **course share codes**:
+   
+     a. Add assignment, and choose: **from existing**.  
+     b. Select **Get by code**.
+     c. Enter course share code and click the **Show Content** button.
+     d. Check the check boxes for the assignments to be added to the course.
+     e. Click **Select**. 
 
    .. Note:: For more information about authoring course content, :ref:`click here <guides-intro>`.
 

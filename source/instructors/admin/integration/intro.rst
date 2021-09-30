@@ -11,15 +11,13 @@ Integrating with your LMS system (Canvas etc.)
    :caption: Integration with LMS systems
    :hidden:
    
-   lti-keys
-   lti-app
-   lti-constant
-   lti-course-copy
-   lms-systems/canvas
-   grading
-   lti1-3
+   lms-systems/system-specific-directions
    lms-students
-
+   grading
+   lti-app
+   lti-keys-and-urls-information
+   lti-course-copy
+   lti1-3
 
 
 Learning Tools Interoperability (LTI) is a standard for passing user, organization, and course information between learning management systems (tool consumers) and learning tools and tool providers, such as Codio.
@@ -34,18 +32,16 @@ Accessing Codio Directly for LMS Users
 --------------------------------------
 Students who initially accessed Codio through an LMS/LTI system, can set up direct access to Codio once their account has been created. They should use the same email address they use to access their LMS system for their Codio login, and then create a new password using the Lost Password process. See :ref:`Manage Password <password>` for more information.
 
-For more see:
-
-- :ref:`LTI Keys and URLs <lti-keys>`
-- :ref:`Codio LTI App <lti-app>`
-- :ref:`LTI Constant URLs <lti-constant>`
-- :ref:`LTI Course Copy <lti-course-copy>`
-- :ref:`Grading <lti-grading>`
 - Integrating with LMS's
     - :ref:`Integrating with Canvas <canvas>`
     - :ref:`Integrating with Blackboard <blackboard>`
     - :ref:`Integrating with Moodle <moodle>`
     - :ref:`Integrating with D2L <d2l>`
     - :ref:`Integrating with Google Classroom <google-classroom>`
-- :ref:`LTI 1.3 integration <lti1-3>`
+    - :ref:`Integrating with Schoology <schoology>`
 - :ref:`Users account creation <lms-users>`
+- :ref:`Grading <lti-grading>`
+- :ref:`LTI App <lti-app>`
+- :ref:`LTI Keys and URL <lti-keys-and-URLs-information>`
+- :ref:`LTI Course Copy <lti-course-copy>`
+- :ref:`LTI 1.3 integration <lti1-3>`

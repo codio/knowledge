@@ -26,7 +26,8 @@ If you have a large number of courses, you can search by Name, Created Date, Stu
 .. image:: /img/manage_classes/nameclass.png
    :alt: Search
 
+You can use this feature to more easily view just courses you teach. Search for your username and **Add as Tab** as described below. 
+
 Add as Tab
 ----------
 To save your search parameters as a tab, click **Add as Tab**. Your search is then saved as a tab so you can quickly perform the same search again.
-
