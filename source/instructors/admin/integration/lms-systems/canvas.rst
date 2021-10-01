@@ -105,7 +105,7 @@ This URL ensures that Codio knows how to redirect students back to the correct C
 20.  Below this is an empty field **Course LMS URL**. Switch back to Canvas and make sure you are on the Home page of the course. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio. The url format should end with something like ``/courses/1121212`` although the number will be different.
 
 Mapping an Assignment to a Canvas Assignment
-============================================
+--------------------------------------------
 
 The final mapping step needs to be taken for each individual assignment within Codio. It maps a Canvas assignment to a Codio assignment.
 
