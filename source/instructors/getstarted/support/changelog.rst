@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+
+
 **September 2021**
 
 - `[I] [10th]`: Fix problem with Brightspace Deeplinking
