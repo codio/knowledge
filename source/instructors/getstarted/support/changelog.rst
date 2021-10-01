@@ -13,7 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**October 2021**
 
+- `[F] [ 4th]`: Add support to integrate with :ref:`MsTeams Classroom <msteams>`
 
 **September 2021**
 
