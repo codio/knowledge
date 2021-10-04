@@ -97,7 +97,9 @@ To review and grade answers given by students in a free text assessment, follow 
      .. image:: /img/guides/partial.png
         :alt: Allow Partial Points Enabled
 
-4. In the **Comments** field, enter any information (in markdown + LaTeX) about the grade, which can be viewed by the student when the grade is released, and then click **Submit **Comment**. 
+4. In the **Comments** field, enter any information (in markdown + LaTeX) about the grade and then click **Submit Comment**. 
+5. Grades can be `viewed by the student <https://docs.codio.com/students/courses/view-grade.html#view-grade>`_ when the grade is released.
+
 
 Example Bash script for free-text auto-grade with partial points
 ................................................................

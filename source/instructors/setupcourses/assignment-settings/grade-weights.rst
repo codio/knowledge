@@ -30,22 +30,25 @@ To specify Grade Weights, follow these steps:
 3. Under assignment settings, scroll all the way down. 
 4. In the **Grade Weights** area, click the grading options you want to enable and assign the grading weights to each option:
 
-  - **Teachers Grading** - This option allows you to specify a [Grading Rubric Template](/courses/classes/#grading-rubric-templates) to use with an assignment and specify the grading weight.
+  - **Teachers Grading** - This option allows you to specify a :ref:`Grading Rubric Template <grade-template>` to use with an assignment and specify the grading weight.
 
     - Click **Teachers Grading** and enter a value in the **Grading Weight** field.
     - Click **Rubics** to assign a grading rubic template to the assignment and then choose the rubic template from the drop-down list.
 
-  - **Assessments Grading** - If your assignment includes [assessments](/courses/assessments/), this option is enabled by default. If you do not want the results of the assessments to be included in the grading, disable this option.
+  - **Assessments Grading** - If your assignment includes :ref:`auto-graded assessments <add-assessment>`, this option is enabled by default. If you do not want the results of the assessments to be included in the grading, disable this option.
 
     - Click **Assessments Grading** and enter a value in the **Grading Weight** field.
 
-  - **Script Grading** - This option allows you to specify an auto-grade script that runs when the assignment is :ref:`marked as complete <mark-assignment-complete>`. The default setting ensures that any grades generated from auto-graded assessments and grades from free text assessments are automatically transferred into the grading field.
+  - **Script Grading** - This option allows you to specify an auto-grade script that runs when the assignment is :ref:`marked as complete <mark-assignment-complete>`. 
 
-   - Click **Script Grading** and enter a value in the **Grading Weight** field.
-   - Click **Set Custom Script Path** and choose the path from the drop-down list.
-
-   For more information about auto-grade scripts, see :ref:`Using Auto-Grade Scripts <auto-grade-scripts>`.
+    - Click **Script Grading** and enter a value in the **Grading Weight** field. Assign it a weight out of 10 or 100 that has the desired proportion to the “Assessments Grading” weight.
+    - Click **Set Custom Script Path** and choose the path from the drop-down list. The “Set Custom Script Path” drop down menu will contain the autograde scripts you set up using the **Education Menu** in your assignment. Select the script you want to use for the assignment. Note: The “Set Custom Script Path” drop down only lets you run one script. You will need a helper script if you want to combine multiple tests.
    
+   For more information about assignment level scripts, see :ref:`Using Assignment Level Scripts <auto-grade-scripts>`.
+   
+5. Make sure to **Save Changes**.
+6. To force your Assignment level script to run, select :ref:`Actions <assignment-actions>` and **Run autograde script**.
+
 **View this video to learn more.**
 
 .. raw:: html
