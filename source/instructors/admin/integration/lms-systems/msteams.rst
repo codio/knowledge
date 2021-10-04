@@ -51,7 +51,7 @@ If assignments/modules are added/removed in the Codio Course, to update to your 
        :alt: Update MSTeams Classroom
 
 
-.. Note:: be aware that this may change the ordering of the assignments in your MSTeam assignment tabs and if new assignments added, they will added to the end of the **Assignments** list. There is currently no function in MSTeams to allow you to reorder the assignments manually.
+.. Note:: be aware that this may change the ordering of the assignments in your MSTeam assignment tabs and if new are assignments added, they will added to the end of the **Assignments** list. There is currently no function in MSTeams to allow you to reorder the assignments manually.
 
 Removing
 ^^^^^^^^
