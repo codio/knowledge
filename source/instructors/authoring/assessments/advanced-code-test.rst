@@ -210,12 +210,8 @@ See a Working Example
 ----------------------
 To see an example of a specific unit test or style checker, see the Starter Pack in to corresponding language: 
 
-- `Python Starter Pack`_
+Go to **Starter Packs** and search for **Advanced Features in Python** if not already loaded in your **My Projects** area. Click **Use Pack** and then **Create** to install it to your Codio account.
 
-- `JavaScript Starter Pack`_
-
-.. _Python Starter Pack: https://codio.com/home/starter-packs/e821a479-7069-48d2-8b7c-70e02a4ada13
-.. _JavaScript Starter Pack: https://codio.com/home/starter-packs/aa3d0fa0-46dc-4c16-abeb-223451de3c73
 
 Additionally, Codio pre-populates a project in **My Projects** called **Demo Guides and Assessments** that contains examples for all assessment types and a guides authoring cheat sheet. If you do not see this project, go to **Starter Packs** and search for **Demo Guides and Assessments**. Click **Use Pack** and then **Create** to make a copy in your **My Projects** area.
 

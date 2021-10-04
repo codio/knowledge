@@ -16,6 +16,7 @@ System specific instructions
    moodle
    google-classroom
    schoology
+   msteams
    
 Select your LMS below to access directions for integration:
     - :ref:`Integrating with Canvas <canvas>`
@@ -24,3 +25,4 @@ Select your LMS below to access directions for integration:
     - :ref:`Integrating with D2L <d2l>`
     - :ref:`Integrating with Google Classroom <google-classroom>`
     - :ref:`Integrating with Schoology <schoology>`
+    - :ref:`Integrating with MSTeams Classroom <msteams>`
