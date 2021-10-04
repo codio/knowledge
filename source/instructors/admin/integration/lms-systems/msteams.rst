@@ -33,7 +33,6 @@ In Codio
     
     Your Codio Course is now integrated with your MSTeams Class. 
     
-.. Note:: MSTeams classrooms do not support the ordering of modules/assignments from the Codio Course, they will be generated randomly but can easily be reordered from the **Classwork** tab in your Class 
 
 Authentication and account creation
 -----------------------------------
@@ -52,7 +51,7 @@ If assignments/modules are added/removed in the Codio Course, to update to your 
        :alt: Update MSTeams Classroom
 
 
-As above, be aware that this may change the ordering in your MSTeam classroom so review and reorder as required from the **Classwork** tab 
+.. Note:: be aware that this may change the ordering of the assignments in your MSTeam assignment tabs and if new items added, they will added to the end of the **Assignments** list. There is currently no function in MSTeams to allow you to reorder the assignments manually
 
 Removing
 ^^^^^^^^
