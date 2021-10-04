@@ -51,7 +51,7 @@ If assignments/modules are added/removed in the Codio Course, to update to your 
        :alt: Update MSTeams Classroom
 
 
-.. Note:: be aware that this may change the ordering of the assignments in your MSTeam assignment tabs and if new items added, they will added to the end of the **Assignments** list. There is currently no function in MSTeams to allow you to reorder the assignments manually
+.. Note:: be aware that this may change the ordering of the assignments in your MSTeam assignment tabs and if new assignments added, they will added to the end of the **Assignments** list. There is currently no function in MSTeams to allow you to reorder the assignments manually.
 
 Removing
 ^^^^^^^^
@@ -61,6 +61,6 @@ Removing
     .. figure:: /img/msteams_remove.png
        :alt: Remove MSTeam Classroom
 
-.. Note:: Removing the integration link will mean students will not be able to access any of their assignments any longer from MSTeam Classroom
+.. Note:: Removing the integration link will mean students will not be able to access any of their assignments any longer from MSTeam Classroom.
 
 .. |Connect to Codio| image:: /img/google_classlist.png
