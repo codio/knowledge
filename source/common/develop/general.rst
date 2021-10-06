@@ -113,7 +113,7 @@ You should check your settings and ensure that items in the above **Firewall set
 Connectivity Test
 *****************
 
-If you continue to experience difficulties, visit the `Connection Diagnostics <https://codio.com/connectivity/index.html/>`_ page and send us back the generated output going to **Help > Support/Contact Us** and attach the output file using the paperclip icon
+If you continue to experience difficulties, visit the `Connection Diagnostics <https://codio.com/connectivity/index.html>`_ page and send us back the generated output going to **Help > Support/Contact Us** and attach the output file using the paperclip icon
 
 .. _browser-support:
 
