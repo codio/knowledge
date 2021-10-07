@@ -19,9 +19,6 @@ When you are in edit mode, you can select a section by
   .. image:: /img/guides/editnav.png
      :alt: editnav
 
-
-
-
 Renaming the Section
 ********************
 Rename your section by clicking on the section title in the header area.
@@ -107,10 +104,9 @@ If you want to show some code, styled with the courier font, in a box and with s
 
 is written with the first line as
 
-`` ```js``
+`````js``
 
 then your code, and the last line as three backticks
-
 
 Note that you can specify a language type after the top 3 back ticks. Entering `python` after the backticks would apply syntax highlighting for python. Many languages are supported. See a full list of supported languages `here <https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>`_. You should search for your language and then use the `alias` shown.
 
@@ -119,9 +115,18 @@ The Code block also includes a 'copy to clipboard' button to allow students to e
   .. image:: /img/guides/copyclipboard.png
      :alt: copy to clipboard
 
+If you wish to **turn off** the 'copy to clipboard' button in the code block as in the image below:
 
+  .. image:: /img/guides/noclipboard.png
+     :alt: copy to clipboard
 
+1. Select **Tools > Guide > Add Custom CSS**
+2. A ``styles.css`` file will open. 
+3. Delete lines 1614 through 1630 (the highlighted text in the image below.)
+4. Close out of the ``style.css`` file and refresh your page to view the code block rendered without the clipboard icon. 
 
+   .. image:: /img/guides/deleteclipboard.png
+      :alt: Deleted Clipboard Icon
 
 Code Segments
 *************
