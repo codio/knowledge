@@ -17,6 +17,7 @@ Additional resources
    pyret
    tkinter
    lexikon
+   turtle
 
 .. meta::
    :description: A modern, full-featured alternative to Little Man Computer
