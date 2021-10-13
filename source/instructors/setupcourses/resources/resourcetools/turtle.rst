@@ -20,9 +20,9 @@ You can find this by either searching for "turtle" in the starter pack area or:
 -  For Codio.com users, `click here <https://codio.com/home/starter-packs/6ff2e3ab-6e02-45fc-9ed8-26793aa77336>`__
 -  For Codio.co.uk users, `click here <https://codio.co.uk/home/starter-packs/6ff2e3ab-6e02-45fc-9ed8-26793aa77336>`__
 
-Turtle is pre-installed in the Python library, so manul installation is simple:
+Turtle is pre-installed in the Python library, so manual installation is simple:
 
-1. Start by creating either a new project or assignment in your course and selecting the **Python Trajectory** stack. 
+1. Start by creating either a new project or assignment in your course and selecting the **Python Trajectory Stack**. 
 
 2. Select **Tools** at the top and click **Install software.** Search for **X server** and select install.
 
@@ -35,12 +35,14 @@ Turtle is pre-installed in the Python library, so manul installation is simple:
 
 4. Within the ``bg.sh`` file, write the following bash script:
 
-    | ``#!/bin/bash``
-    | ``set -e``
-    | ``set -o pipefail``
-    | ``. /etc/profile.d/codio-xserver.sh``
-    | ``$1 -m py_compile $2``
-    | ``nohup $@ > /dev/null 2>&1&``
+.. code:: bash
+
+    #!/bin/bash
+    set -e
+    set -o pipefail
+    . /etc/profile.d/codio-xserver.sh
+    $1 -m py_compile $2
+    nohup $@ > /dev/null 2>&1&
 
 5. Set up your page panels by selecting the **settings wrench** from inside your Guide Editor. Select 3-panels without tree, and then navigate to **Open Tabs.**
 
