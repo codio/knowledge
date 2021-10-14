@@ -77,13 +77,47 @@ PDF
 
    .. image:: /img/pdf_export.png
       :alt: PDF Export
-
+      
 Use this to obtain PDF versions of the guides content in your assignments. When selected, a dialog shows allowing you to select the assignments to obtain the PDF version
 
 - You can select a single PDF where all selected assignments are compiled into one PDF file or to receive a PDF for each selected assignment
 
 - The link will be active for 7 days and after this time the file will be removed.
 
+.. _export-assessment-data:
+
+Assessment Data
+---------------
+
+To export data related to students assessment in individual or multiple assignments in the course, follow these steps:
+
+1. Navigate to the **Courses** page and select the course to open it.
+2. Click the **Admin** tab and then click **Assessment Data** in the **Export** section. 
+
+   .. image:: /img/assessment-data-export.png
+      :alt: Assessment Data Export
+
+When selected, a dialog shows allowing you to select the assignments to obtain the data. 
+
+   The following data is exported to a **.csv** file for download (or into a **.zip** file containing individual csv files if multiple assignments selected):
+
+   - Student_Name
+   - First_Name
+   - Last_Name
+   - Username
+   - Hashed_ID
+   - Email Address
+   - Assignment_Name
+   - Total_Points_Earned
+   - Total_Points_Possible
+   - Time_Spent
+and for each assessment:
+   - <Assessment_Name>_Attempts
+   - <Assessment_Name>_Answer
+   - <Assessment_Name>_Earned_Points
+   - <Assessment_Name>_Total_Points_Possible
+
+.. Note:: The data is retained for a maximum of 6 months.
 
 **See Also:**
 - :ref:`Export Assignment Data <export-assignment>` to export individual assignment workspaces.
