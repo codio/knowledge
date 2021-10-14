@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2021**
 
+- `[F] [13th]`: Add option to export csv file for students :ref:`assessment <export-assessment-data>` data
 - `[F] [ 4th]`: Add support to integrate with :ref:`MsTeams Classroom <msteams>`
 
 **September 2021**
