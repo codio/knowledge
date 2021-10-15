@@ -140,6 +140,13 @@ In Canvas
 29.  Click the **Save and Publish** button.
 30.  Make sure the Canvas course is published.
 
+Common Cartridge
+----------------
+
+In the Canvas course you have created go to **Settings** and **Import Course Content** and xselect **Common Cartridge 1 x Package** and proceed to upload the **.ismcc** file.
+
+If using the Common Cartridge file to import the Codio course assignment details into Canvas, each assignment needs mapping as above using the **Add by Resource Selection Preview (recommended)** method noted above.
+
 Authentication and account creation
 -----------------------------------
 

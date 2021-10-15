@@ -119,6 +119,18 @@ and for each assessment:
 
 .. Note:: The data is retained for a maximum of 6 months.
 
+.. _common-cartridge:
+
+Common Cartridge
+----------------
+
+Allows you to export the `Common Cartridge 1.3 <http://www.imsglobal.org/cc/ccv1p3/imscc_Overview-v1p3.html>`_ data for the course to then use within your LMS system to import details of the assignments in your Codio courses.
+
+   .. image:: /img/common-cartridge.png
+      :alt: Common Cartridge Export
+
+.. Important:: If working with Canvas, each assignment within your LMS still needs to be configured. Refer to the :ref:`system specific instructions <system-specific-directions>` for your LMS system
+
 **See Also:**
 - :ref:`Export Assignment Data <export-assignment>` to export individual assignment workspaces.
 - :ref:`Export LTI Settings <export-lti>` to export unit LTI integration URLs.
