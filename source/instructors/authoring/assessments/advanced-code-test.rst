@@ -212,6 +212,7 @@ To see an example of a specific unit test or style checker, see the Starter Pack
 
 Go to **Starter Packs** and search for **Advanced Features in Python** if not already loaded in your **My Projects** area. Click **Use Pack** and then **Create** to install it to your Codio account.
 
+Information about C++ unit testing using GoogleTest is available in the **C++ Unit Testing Using GoogleTest** Starter Pack.
 
 Additionally, Codio pre-populates a project in **My Projects** called **Demo Guides and Assessments** that contains examples for all assessment types and a guides authoring cheat sheet. If you do not see this project, go to **Starter Packs** and search for **Demo Guides and Assessments**. Click **Use Pack** and then **Create** to make a copy in your **My Projects** area.
 
