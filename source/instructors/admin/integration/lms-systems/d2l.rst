@@ -72,6 +72,17 @@ Connect your D2L Modules to your Codio Assignments
 6. Select the Codio assignment you want to connect.
 7. Refresh your page to view the rendered connection. You will see the Teacher view of the course with the connected assignment selected. Students will see the assignment opened in student mode.
 
+Common Cartridge
+----------------
+
+If using the Common Cartridge file you should first set up an External Tool in Brightspace with the :ref:`LTI Key's and URL's <lti-keys-and-urls-information>` for your organisation.
+
+When done then in the Brightspace course you have created go to **Course Admin** and **Import/Export/Copy Components** and **Import Components** and proceed to upload the **.ismcc** file.
+
+When completed, **View Content** and then **External Learning Tools** where you will see all the assignments listed.
+
+Then go to **Content**, select **Existing Activities**, **External Learning Tools**, select your assignment from the list to add as an activity to the course. Repeat for each Codio assignment you wish to create an activity for
+
 
 Single sign-in and account creation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
