@@ -143,7 +143,7 @@ In Canvas
 Common Cartridge
 ----------------
 
-In the Canvas course you have created go to **Settings** and **Import Course Content** and xselect **Common Cartridge 1 x Package** and proceed to upload the **.ismcc** file.
+In the Canvas course you have created go to **Settings** and **Import Course Content** and select **Common Cartridge 1 x Package** and proceed to upload the **.ismcc** file.
 
 If using the Common Cartridge file to import the Codio course assignment details into Canvas, each assignment needs mapping as above using the **Add by Resource Selection Preview (recommended)** method noted above.
 
