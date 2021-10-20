@@ -1,14 +1,14 @@
 .. meta::
-   :description: Course Contact URL
+   :description: Use the Course Contact URL to specify links that will be available for students for support purposes
 
 .. _course-contact-url:
 
 Course contact URL
 ==================
 
-Contact URL's can be set at the course level so if you have specific areas/forums for your courses for students to raise questions, you can set the contact URL's there and it will override the :ref:`Organisation Contact URL <org-contact-url>` if set. You can set as many options as you require and also define the default option that will be checked automatically for the students.
+Contact URLs can be set at the course level to direct students to specific areas or forums for your course where they can raise questions. The contact URLs will override the setting in :ref:`Organization Contact URL <org-contact-url>`. You can set multiple options and specify a default option for students.
 
-Students will then be shown all the options in addition to contact Codio directly if they have a problem accessing the Codio platform, or loading a assignment.
+When students access the Support Chat they will be shown the options you have specified along with an option to contact Codio directly if they have a problem accessing the Codio platform.
 
   .. image:: /img/manage_organization/studentoptions.png
      :alt: Student options

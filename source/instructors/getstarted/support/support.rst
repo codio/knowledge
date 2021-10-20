@@ -43,11 +43,11 @@ We are always interested to hear from our users about their thoughts/ideas for f
 
 Student Support
 ***************
-You can set a Contact URL for your students at the organisation level, see :ref:`Organisation Contact URL <org-contact-url>` and/or at the course level, see :ref:`Course Contact URL <course-contact-url>` so they can raise any questions they may have directly to your preferred area
+You can set a Contact URL for your students at the organization level, see :ref:`Organization Contact URL <org-contact-url>` and/or at the course level, see :ref:`Course Contact URL <course-contact-url>` so they can raise questions directly to your preferred area.
 
-If you set the contact URL for a course, this will override any contact URL you may have set at the organisation level.
+If you set the contact URL for a course, this will override any contact URL you may have set at the organization level.
 
-Students will then be given the option to report a problem, ask a question related to their course work or if they have a problem accessing the Codio platform, or loading a specific assignment.
+Students will then be given the option to report a problem, ask a question related to their course work or access Codio support if they have a problem accessing the Codio platform.
 
   .. image:: /img/manage_organization/studentoptions.png
      :alt: Student options
