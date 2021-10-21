@@ -208,7 +208,7 @@ If you choose **Custom**, enter the following information:
 
 See a Working Example
 ----------------------
-To see an example of a specific unit test or style checker, see the Starter Pack in to corresponding language: 
+To see an example of a specific unit test or style checker, see the Starter Pack in the corresponding language: 
 
 Go to **Starter Packs** and search for **Advanced Features in Python** if not already loaded in your **My Projects** area. Click **Use Pack** and then **Create** to install it to your Codio account.
 
