@@ -7,7 +7,7 @@ Assignment Level Scripts
 ========================
 You can use assignment level scripts to evaluate student code, normalize points, and mark for participation grading. Assignment level scripts are added in the **Script Grading** field on the :ref:`Script Grading <grade-weights>` settings page. These scripts can then transfer the grading value into the grading field. Assignment level scripts are run when an assignment is **Marked as Complete**.
 
-.. Note:: The script must execute within 3 minutes or a timeout error occurs.
+.. Note:: The script must execute within 3 minutes or a timeout error occurs. There is a maximum size for the feedback that can be returned of 1Mb. If this limit is exceeded, the message **Payload content length greater than maximum allowed: 1048576** will be returned.
 
 If you are using an LMS platform with Codio, be sure to enter a percentage value in the **Grade Weight** field to maintain compatibility with LMS gradebooks. This value is then transferred into your LMS gradebook once you :ref:`release the grades <release-grades>`.
 

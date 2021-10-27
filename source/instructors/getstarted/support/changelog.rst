@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2021**
 
+- `[I] [18th]`: Update handling of disabled assignments when opening from LMS 
 - `[F] [15th]`: Add support for :ref:`Common Cartridge <common-cartridge>`
 - `[F] [13th]`: Add option to export csv file for students :ref:`assessment <export-assessment-data>` data
 - `[F] [ 4th]`: Add support to integrate with :ref:`MsTeams Classroom <msteams>`
