@@ -10,7 +10,7 @@ When a course is created by cloning or using a share code, the course (child) is
 
 Update & pull updates
 ---------------------
-After an update in the parent course has been published, in the child course(s), a **Pull** icon is displayed on the assignments that have changed (when on the **Edit** tab). Follow these steps to pull the updates.
+After an update in the parent course has been published, from **"Edit"** mode, a **Pull** icon will appear next to the assignments that have changed. Follow these steps to pull the updates.
 
 1. In the Dashboard, select the course to open it and click on the **Edit** tab. The assignments that have changed show a **Pull** icon.
 
