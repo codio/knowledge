@@ -50,27 +50,25 @@ Follow these steps to set up fill in the blank assessments:
 
   **Regular Expression Support**
 
-  Below are some examples of regular expressions that are also supported for blank fields:
+  Codio regular expression matching follows the Java language standards.
+  
+  Examples of regular expressions supported for blank fields:
 
-  - Answer allows any characters -  ```<<</./>>>``` 
-  - Answer starts with word "begin" -  ```<<</^begin/>>>``` 
-  - Answer ends with word "end" -  ```<<</end$/>>>```  
-  - Answer can contain many spaces in "this is"  -  ``` <<</this\s+is/>>>``` 
-  - Answer contains 1 or 2 or 3 -  ```<<</1 2 3/>>>``` 
-  - Answer allows color or colour -  ```<<</colou?r/>>>``` 
-  - Answer allows yes or "yes" -  ```<<<"yes", ""yes"">>>``` 
-  - Answer allows hat or cat -  ```<<</[hc]at/>>>``` 
-  - Answer checks valid gmail address formatting -  ```<<</(\W ^)[\w.\-]{0,25}@(gmail)\.com(\W $)/>>>```
-  - Answer checks date format (DD/MM/YYYY) -  ```<<</^(?:(?:31(\/ - \.)(?:0?[13578] 1[02]))\1 (?:(?:29 30)(\/ - \.)(?:0?[1,3-9] 1[0-2])\2))(?:(?:1[6-9] [2-9]\d)?\d{2})$ ^(?:29(\/ - \.)0?2\3(?:(?:(?:1[6-9] [2-9]\d)?(?:0[48] [2468][048] [13579][26]) (?:(?:16 [2468][048] [3579][26])00))))$ ^(?:0?[1-9] 1\d 2[0-8])(\/ - \.)(?:(?:0?[1-9]) (?:1[0-2]))\4(?:(?:1[6-9] [2-9]\d)?\d{2})$/>>>``` 
-  - Answer allows i==0 or i == 0 -  ```<<</i ?== ?0/>>>``` 
-  - Answer requires digit -  ```<<</^[\d]+$/>>>``` 
-  - Answer requires non-digit -  ```<<</^[\D]+$/>>>``` 
-  - Answer requires word character -  ```<<</^[\w]+$/>>>``` 
-  - Answer requires non-word character -  ```<<</^[\W]+$/>>>``` 
-  - Answer required between  1 to 100 -  ```<<</^([1-9][0-9]? 100)$/>>>``` 
-  - Answer allows several answers (Place1 or Place2) -  ```<<<"Place1", "Place2">>>``` 
-  - Answer allows several answers with/without " " (Place1 or "Place1" or Place2 or "Place2") -  ```<<</^(Place1 Place2 "Place1" "Place2")$/>>>``` 
-  - Answer requires case sensitivity - ```<<</CAPITAL/>>>``` or ```<<</lowercase/>>>```
+  - Answer allows any characters -  ``<<</./>>>`` 
+  - Answer starts with word "begin" -  ``<<</^begin/>>>``
+  - Answer ends with word "end" -  ``<<</end$/>>>``
+  - Answer can contain one or more spaces in "this is"  -  ``<<</this\s+is/>>>``
+  - Answer contains 1 or 2 or 3 -  ``<<</[1 2 3]/>>>`` 
+  - Answer allows color or colour -  ``<<</colou?r/>>>`` 
+  - Answer allows yes or "yes" -  ``<<<"yes", ""yes"">>>`` 
+  - Answer allows hat or cat -  ``<<</[hc]at/>>>`` 
+  - Answer allows i==0 or i == 0 -  ``<<</i ?== ?0/>>>`` 
+  - Answer must only contain digits -  ``<<</^[\d]+$/>>>`` 
+  - Answer must only contain non-digits -  ``<<</^[\D]+$/>>>``
+  - Answer requires word character -  ``<<</^[\w]+$/>>>`` 
+  - Answer requires non-word character -  ``<<</^[\W]+$/>>>`` 
+  - Answer allows several answers (Place1 or Place2) -  ``<<<"Place1", "Place2">>>`` 
+  - Answer requires case sensitivity - ``<<</[A-Z]/>>>`` or ``<<</[a-z]/>>>``
 
 3. Click **Grading** in the navigation pane and complete the following fields:
 
