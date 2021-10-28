@@ -52,7 +52,7 @@ Example:
 
 .. Note:: If you set Status to false students will need to use the 'Back to Dashboard' button shown on the last page of the guides to return to their dashboard area. 
 
-Setting up .codio-menu file:
+Setting up `.codio-menu` file:
 
   .. image:: /img/guides/codiomenu.png
      :alt: EditorMode
@@ -66,7 +66,41 @@ Menu items that the student will see:
 
 
 
-Students do not have access to the .codio-menu file in the **Filetree**.
+Students do not have access to the `.codio-menu` file in the **Filetree**.
+
+You can also customize the three menu items to the right of **Help** menu item using the `.codio` file. These items are often used to provide compile and run options and access to the debugger. 
+
+Example of a `.codio` file to customize the menu for a C++ development environment:
+
+.. code:: ini
+
+    {
+        // This file is used to configure the three buttons along Codio's top menu.
+
+        // Run button configuration
+        "commands": {
+            "Compile & Run": "g++ -o {{filename_no_ext}} {{filename}} && ./{{filename_no_ext}}",
+            "Compile": "g++ -o {{filename_no_ext}} {{filename}}",
+            "Run": "./{{filename_no_ext}}"
+        },
+        // Preview button configuration
+        "preview": {
+            "Project Index (static)": "https://{{domain}}/{{index}}",
+            "Current File (static)": "https://{{domain}}/{{filepath}}",
+            "Box URL": "http://{{domain3000}}/",
+            "Box URL SSL": "https://{{domain3000}}/"
+        },
+        // Debugger target button configuration
+        "debugger": [{"type":"GDB","command":"/tmp/program83b0717fa37e2e0346bafc8c1429cb87 ","before":"g++ -g {{filepath}} -o /tmp/program83b0717fa37e2e0346bafc8c1429cb87","single":true,"lang":"cpp","additionalCompilerFlags":"","sourcePath":"{{filepath}}","args":"","uuid":"63f293ba-8385-602d-bcbe-7b86f94c9c58","name":"Debug Current File"}]
+    }
+
+
+The resulting menu:
+
+  .. image:: /img/guides/compileandrun.png
+     :alt: Compile and Run and Debug menu
+
+Students do not have access to the `.codio` file in the **Filetree**. See :ref:`a preview <preview>` of static or dynamic content for more information on configuring these items. 
 
 .. _player-options:
 

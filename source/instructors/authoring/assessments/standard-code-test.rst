@@ -77,9 +77,17 @@ Follow these steps to set up a standard code test:
        Run: bash full_path.sh
 
      - **SQL**
+     
+       Codio provides three helper scripts to facilitate running queries on the database your students are modifying. These queries use ODBC to connect to and query the database and it is more strict about spacing than sqlcmd.
  
-       Run: python .guides/scripts/helper_mssql.py --db_host localhost --db_user  SA --db_pass YourPassword   --db_name DBNAME 
-      
+       Run: (depending on your version of SQL)
+       
+       python .guides/scripts/helper_mssql.py --db_host localhost --db_user  SA --db_pass YourPassword   --db_name DBNAME 
+       
+       python .guides/scripts/helper_mysql.py --db_host localhost --db_user root --db_pass YourPassword --db_name DBNAME
+       
+       python .guides/scripts/helper_postgres.py --db_host localhost --db_port 5432 --db_user postgres --db_pass YourPassword --db_name DBNAME
+       
        .. Note:: First you must use **Tools > Install Software** to install the appropriate helper script for your database (MSSQL,MySql,PostgreSQL). For example, if you are using MSSQL, you would download the Helper MSSql.
      
        .. image:: /img/sql-helpers.png
