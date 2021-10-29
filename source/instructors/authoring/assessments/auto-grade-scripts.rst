@@ -169,7 +169,7 @@ Below is an example Python file that can be loaded by a bootstrap script.
     def main():
       # Execute the test on the student's code
       grade = validate_code()
-      # Send the grade back to Codio with the penatly factor applied
+      # Send the grade back to Codio with the penalty factor applied
       res = send_grade(int(round(grade)))
       exit( 0 if res else 1)
 
@@ -202,16 +202,57 @@ Below is an example bash script file that can be stored in the **.guides/secure*
     # Send the grade back to Codio
     curl --retry 3 -s "$CODIO_AUTOGRADE_URL&grade=$POINTS"
 
+Sending Points to Codio
+----------------------
+
+Codio provides a Python library to facilitate reporting points from your custom scripts. There are four functions in this library: `send_grade`, `send_grade_v2`, `send_partial` and `send_partial_v2`. See :ref:`Allow Partial Points <partial-points>` for more information about setting up partial points.
+
+In order to use this library you need to add the following code to the top of your grading script:
+
+.. code:: python
+
+    # import grade submit function
+    sys.path.append('/usr/share/codio/assessments')
+    from lib.grade import send_grade 
+
+or:
+
+.. code:: python
+
+    # import grade submit function
+    sys.path.append('/usr/share/codio/assessments')
+    from lib.grade import send_grade_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
+    
+The calls to use these functions are as follows:
+
+.. code:: python
+
+    send_grade(grade) 
+
+`grade` - Should be 0 or the total point value for the assessment.
+
+.. code:: python
+
+    send_grade_v2(grade, feedback, format=FORMAT_V2_TXT, extra_credit=None)
+
+`grade` - Should be 0 or the total point value for the assessment.
+
+`feedback` - The buffer containing the feedback for your student - maximum size is 1 Mb.
+
+`format` - The format can be Markdown, HTML or text and the default is text.
+
+`extra_credit` - Extra points beyond the value for doing this correctly. These do not get passed to an LMS system automatically, just the percentage correct.
 
 Auto-grading enhancements
 -------------------------
-To provide instructors with more robust auto-grade scripts, you can also:
+The V2 versions of the grading functions allow you to:
 
 - Send feedback in different formats such as HTML and Markdown/plaintext.
 - Allow separate debug logs.
 - Notify (instructors and students) and reopen assignments for a student on grade script failure.
 
-To support this additional feedback, this URL (passed as an environment variable) can be used:```CODIO_AUTOGRADE_V2_URL```
+
+If you don't use the send_grade functions, this URL (passed as an environment variable) can be used:```CODIO_AUTOGRADE_V2_URL```
 
 These variables allow POST and GET requests with the following parameters:
 
@@ -219,13 +260,13 @@ These variables allow POST and GET requests with the following parameters:
 - **Feedback** - text
 - **Format** - html, md, txt - txt is default
 
-If the grade is submitted to the URL, the script output is saved as a debug log. This means that all information you want to pass to students must use the **Feedback** mechanism.
+With the V2 versions of grading, the script output is saved as a debug log. This means that all information you want to pass to students must use the **Feedback** mechanism.
 
 If the script fails:
 
 - The attempt is recorded.
 - The assignment is not locked (if due date is not passed).
-- An email  notification with information about the problem is sent to the course instructor(s) containing the debug output from the script.
+- An email notification with information about the problem is sent to the course instructor(s) containing the debug output from the script.
 
 Example Python auto-grading script 
 ..................................
