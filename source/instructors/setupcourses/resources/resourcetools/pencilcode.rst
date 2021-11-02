@@ -24,3 +24,13 @@ For more information on Pencil Code, `click here <https://pencilcode.net/>`__.
 
 .. |pencilcode| image:: /img/pencilcode.png
            :alt: Pencil Code
+           
+Starter Pack
+------------
+
+We have a **Hello Pencil Code in Codio** Starter Pack to help you get started. 
+
+You can find this by either searching for "pencilcode" in the starter pack area or:
+
+-  For Codio.com users, `click here <https://codio.com/home/starter-packs/7321a259-a411-4854-b72d-c4587f8434ac>`__
+-  For Codio.co.uk users, `click here <https://codio.co.uk/home/starter-packs/7321a259-a411-4854-b72d-c4587f8434ac>`__
