@@ -13,6 +13,9 @@ With Turtle Graphics, students can produce animations and graphical output. Line
 
 In Python
 *********
+
+Starter Pack
+------------
 We have a Turtle Graphics in Python Starter Pack to help you get started. 
 
 You can find this by either searching for "turtle" in the starter pack area or:
@@ -20,6 +23,8 @@ You can find this by either searching for "turtle" in the starter pack area or:
 -  For Codio.com users, `click here <https://codio.com/home/starter-packs/6ff2e3ab-6e02-45fc-9ed8-26793aa77336>`__
 -  For Codio.co.uk users, `click here <https://codio.co.uk/home/starter-packs/6ff2e3ab-6e02-45fc-9ed8-26793aa77336>`__
 
+Manual Set up
+-------------
 Turtle is pre-installed in the Python library, so manual installation is simple:
 
 1. Start by creating either a new project or assignment in your course and selecting the **Python Trajectory Stack**. 

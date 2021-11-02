@@ -24,3 +24,13 @@ For more information on Jeroo, `click here <https://gitlab.com/unomaha/jeroo/-/b
 
 .. |jeroo| image:: /img/jeroo.png
            :alt: Jeroo
+
+Starter Pack
+------------
+We have a **Hello Jeroo in Codio** Starter Pack to help you get started. 
+
+You can find this by either searching for "jeroo" in the starter pack area or:
+
+-  For Codio.com users, `click here <https://codio.com/home/starter-packs/c7502731-6619-4b2e-85db-5a1e0794110e>`__
+-  For Codio.co.uk users, `click here <https://codio.co.uk/home/starter-packs/c7502731-6619-4b2e-85db-5a1e0794110e>`__
+

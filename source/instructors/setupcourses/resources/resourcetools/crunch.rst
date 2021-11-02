@@ -18,6 +18,7 @@ Additional resources
    tkinter
    lexikon
    turtle
+   processing-and-p5
 
 .. meta::
    :description: A modern, full-featured alternative to Little Man Computer
