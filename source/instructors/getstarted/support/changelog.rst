@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**November 2021**
+
+- `[I] [ 9th]`: Add new :ref:`User <user-prefs>` and :ref:`Project <project-prefs>` preference setting (``show_dot_files``) to show/hide ``.`` files in file tree from students. Default = true
+
 **October 2021**
 
 - `[I] [18th]`: Update handling of disabled assignments when opening from LMS 
