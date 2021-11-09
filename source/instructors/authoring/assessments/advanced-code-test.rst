@@ -127,7 +127,7 @@ checkstyle
 
  `checkstyle (website link)`_ is a Java linter.
   
- When using checkstyle in Codio, specify the configuration file under **CONFIG PATH** -- you can use use the `Google configuration`_, `Sun configuration`_, or `create your own configuration`_.
+ When using checkstyle in Codio, specify the configuration file under **CONFIG PATH** -- you can use the `Google configuration`_, `Sun configuration`_, or `create your own configuration`_.
  
   Specify the Java files you'd like Checkstyle to check under the **ADD CASE:** option.
  
