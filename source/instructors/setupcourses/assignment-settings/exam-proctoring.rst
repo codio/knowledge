@@ -46,4 +46,4 @@ The Exam Proctoring settings are used to enable various options for assignment e
 
   On the **Students** tab in the course, click the menu icon (3 horizonatal dots) and choose **Reset Single Login**.
 
-
+- **Authentication** - If enabled, your students will need to authenticate before they can open the assignment. This option can only be used if you have configured :ref:`SSO Integration <sso-integration>` for the organisation.
