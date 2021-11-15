@@ -36,9 +36,9 @@ Enable SSO
     
 7: Go to **SSO** and copy the **SAML 2.0 Endpoint HTTP** and paste into the **Identity Provider URL** field in Codio, and find and copy the **X. 509 Certificate** into the **Certificate** field in Codio.
 
-.. Note:: These field names relate to onelogin and may be different in other Service Providers
+.. Note:: These field names relate to OneLogin and may be different in other service providers
 
-8: In Codio set up the Attributes to map the Custom User fields from your SSO Service Provider (see below)
+8: In Codio set up the Attributes to map the Custom User fields from your SSO service provider (see below)
 
 9: Press the **Update** button in Codio to create the integration
 
