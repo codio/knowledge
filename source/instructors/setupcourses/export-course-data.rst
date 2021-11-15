@@ -111,7 +111,9 @@ When selected, a dialog shows allowing you to select the assignments to obtain t
    - Total_Points_Earned
    - Total_Points_Possible
    - Time_Spent
+   
 and for each assessment:
+
    - <Assessment_Name>_Attempts
    - <Assessment_Name>_Answer
    - <Assessment_Name>_Earned_Points

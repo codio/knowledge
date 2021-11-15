@@ -15,6 +15,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2021**
 
+- `[I] [15th]`: Enable ECMAScript 6 syntax checking
+- `[F] [10th]`: Add support in :ref:`Exam Proctoring <exam-proctoring>` for SSO authentication
+- `[F] [10th]`: Add support for :ref:`SSO Integration <sso-integration>`
 - `[I] [ 9th]`: Add new :ref:`User <user-prefs>` and :ref:`Project <project-prefs>` preference setting (``show_dot_files``) to show/hide ``.`` files in file tree from students. Default = true
 
 **October 2021**

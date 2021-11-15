@@ -25,6 +25,7 @@ Organization settings
    org-contact-url
    auto-release-grades
    hide-av
+   sso
    
  
 
@@ -55,6 +56,7 @@ The person who creates the organization in Codio is the owner and is given the a
 - :ref:`Set Organization Contact URL <org-contact-url>`
 - :ref:`Enable/Disable Release Grade Automatically <auto-release-grades>`
 - :ref:`Hide A/V calls <hideav>`
+- :ref:`SSO Integration <sso-integration>`
 
 
 

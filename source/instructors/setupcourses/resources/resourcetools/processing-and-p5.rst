@@ -4,7 +4,7 @@
 .. _processing-and-p5:
 
 Processing and p5
-================
+=================
 
 **Processing** has cultivated a passionate following among the visual arts and education communities over the last sixteen years. Processing is based on Java but simplifies the syntax by not requiring that everything be an object. Some educators use Processing as a gradual introduction to Java. Students can focus on syntax and types while not having to worry about objects and methods. Also, Processing’s output is visual in nature. This makes the language well-suited for beginners.
 

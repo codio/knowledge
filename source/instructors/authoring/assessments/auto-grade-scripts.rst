@@ -203,7 +203,7 @@ Below is an example bash script file that can be stored in the **.guides/secure*
     curl --retry 3 -s "$CODIO_AUTOGRADE_URL&grade=$POINTS"
 
 Sending Points to Codio
-----------------------
+-----------------------
 
 Codio provides a Python library to facilitate reporting points from your custom scripts. There are four functions in this library: `send_grade`, `send_grade_v2`, `send_partial` and `send_partial_v2`. See :ref:`Allow Partial Points <partial-points>` for more information about setting up partial points.
 
