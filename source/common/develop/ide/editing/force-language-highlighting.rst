@@ -10,5 +10,12 @@ To choose the language to use for syntax highlighting, click the language in the
 
 .. figure:: /img/ide-force-lang.png
    :alt: Force Language Highlighting
+   
+ECMAScript 6 support
+--------------------
+
+ECMAScript 6 is enabled by default in javascript files.
+
+If you wish addtional configurations to apply, you can add a `.jshintrc` file to the root of your project/assignment to handle additional configurations. See https://github.com/jshint/jshint/blob/master/examples/.jshintrc for more information
 
 
