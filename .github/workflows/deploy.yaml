@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Setup env
-        run: pip install sphinx sphinx-sitemap recommonmark git+https://github.com/codio/pydata-sphinx-theme.git@master
+        run: pip install sphinx==4.2.0 sphinx-sitemap recommonmark git+https://github.com/codio/pydata-sphinx-theme.git@master
 
       - name: Checkout
         uses: actions/checkout@v1
