@@ -104,7 +104,6 @@ Follow these steps to set up a standard code test:
   - **Case Insensitive** - Toggle to enable a case insensitive output comparison. By default, the comparison is case sensitive.
   - **Ignore White Space** - Toggle to enable stripping out any white space characters (carriage return, line feed, tabs, etc.) from both the expected output and the student output. 
   - **Substring Match** - Toggle to enable substring match when comparing the expected output to the student output. The entire expected ouput needs to be contiguous in the student output.
-  - **One Attempt Only** - Toggle to enable the assessment to run only once. The student will be warned that they cannot resubmit the assessment. It's recommended that you provide a :ref:`Run Button <customizable-run-menu>` for the student to test the code before running the actual assessment.
   - **Add Item to Check** - Click to create another set of input/output fields.
   - **Input - Arguments** - Enter the command line arguments that are read by the student code.
 
@@ -136,8 +135,8 @@ Follow these steps to set up a standard code test:
     .. image:: /img/guides/std-assessment-error.png
        :alt: Show Error Feedback
 
-
   - **Show Expected Answer** - Toggle to show the students the expected output when they have submitted an answer for the question. To suppress expected output, disable the setting.
+  - **Define Number of Attempts** - enable to allow and set the number of attempts students can make for this assessment. If disabled, the student can make unlimited attempts.
   - **Show Answer and Rationale to Students** - Toggle to display the answer, and the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
   - **Answer and Rationale** - Enter guidance for the assessment. This is always visible to the teacher when the project is opened in the course or when opening the student's project. 
 

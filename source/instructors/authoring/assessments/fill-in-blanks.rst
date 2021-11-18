@@ -78,6 +78,8 @@ Follow these steps to set up fill in the blank assessments:
   - **Points** - Enter the score for correctly answering the question. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
   - **Show Expected Answer** - Toggle to show the students the expected output when they have submitted an answer for the question. To suppress expected output, disable the setting. 
+  
+  - **Define Number of Attempts** - enable to allow and set the number of attempts students can make for this assessment. If disabled, the student can only make one attempt.
 
   - **Show Answer and Rationale to Students** - Toggle to display the answer, and the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
 
