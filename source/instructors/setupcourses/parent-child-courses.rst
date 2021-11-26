@@ -6,7 +6,7 @@
 
 Working with Parent/Child Courses
 =================================
-When a course is created by cloning or using a share code, the course (child) is tied to the original (parent) course so that any updates to an assignment in the parent course are also updated in the child course. 
+When a course is created by cloning or using a share code, the course (child) is tied to the original (parent) course so that any updates to an assignment in the parent course are also updated in the child course. Details of the parent course for any child assignments can be seen from the :ref:`version history button <relationship>` and child assignments can also be :ref:`disconnected <disconect>` if required.
 
 Update & pull updates
 ---------------------
@@ -114,6 +114,31 @@ You can revert back to earlier published versions of your courses. However, reve
 
    .. image:: /img/publishedversion.png
       :alt: Latest Published Version
+      
+.. _relationship:
+      
+Parent/Child relationship information
+-------------------------------------
+
+Details of the parent course associated with child assignments can be seen from the **Versions** button.
+
+
+
+   .. image:: /img/manage_classes/parentdetails.png
+      :alt: Linked Parent Course 
+      
+.. _disconect:      
+
+
+Disconnecting assignments from parent course
+--------------------------------------------
+
+Assignments in child courses can be disconnected from the parent assignment so any future updates released for the parent assignment will not be available to update.
+
+   .. image:: /img/manage_classes/disconnect.png
+      :alt: Disconnect assignment
+
+.. Note:: This feature is not available to child assignments from licensed parent course
 
 .. _send-announcements:
 
