@@ -29,7 +29,7 @@ By default all assignments are mandatory but can be changed to optional in the :
 Configure Progress Bar
 ----------------------
 
-Once enabled, you can configure the progress bar where you can select/deslect whichever modules and/or assignments you wish to include in the progress bar. By default all assignments will be selected.
+Once enabled, you can configure the progress bar and can select or deselect whichever modules and/or assignments you wish to include in the progress bar. By default all assignments will be selected.
 
    .. image:: /img/class_administration/progressbar.png
       :alt: Configure Progress bar
