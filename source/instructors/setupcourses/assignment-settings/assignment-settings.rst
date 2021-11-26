@@ -28,6 +28,7 @@ Managing assignments
    groupwork
    grade-weights
    assign-grade-template
+   mandatory
    
   
 You can manage assignments from the teacher dashboard or by selecting the settings gear icon on the assignment when in Teach mode.
@@ -65,4 +66,4 @@ Click the **Settings** icon in the assignment or the **Settings** tab to perform
 - :ref:`Pair Programming <group-work>`
 - :ref:`Grade Weights <grade-weights>`
 - :ref:`Assign Grading Template to an Assignment <assign-grade-template>`
-
+- :ref:`Mandatory Assignments <mandatory-assignments>`

@@ -64,10 +64,10 @@ The student courses are displayed in the right pane, as shown below with the def
 Projects
 --------
 
-You can create your own projects using the web-based IDE in Codio. To access the project area, use the BUILD links in the left navigation pane. See :ref:`Projects <projects>` for more information.
+You can create your own projects using the web-based IDE in Codio. To access the project area, use the BUILD links in the left navigation pane.
 
 **See Also:**
 
 - :ref:`Join a Course <joining>`
 - :ref:`Pay for Codio Subscription <paying>`
-- :ref:`Create or Import a Project <create-import-project>`
+
