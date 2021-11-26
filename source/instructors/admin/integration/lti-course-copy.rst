@@ -32,7 +32,7 @@ First enable :ref:`LTI Constant URLs <lti-constant>` for your course.
 3.  When completed go to **External Apps** and edit the existing app connecting Codio to your LMS
 4.  Replace the existing custom field that was set from your original Codio course with an id of your own (e.g something like codio_class_target_id=my_class_id_10)
 
-.. Note:: If your LMS supports ``lis_course_offering_sourcedid`` you do not need to specify ``codio_class_target_id`` for the copied course,``lis_course_offering_sourcedid`` will be used automatically to detect the course.  For cases when ``offering_sourcedid`` is needed for course copy but not available due to privacy settings in Canvas, a custom parameter ``custom_codio_course_offering_sourcedid=$CourseOffering.sourcedId`` can be tried.
+.. Note:: If your LMS supports ``lis_course_offering_sourcedid`` you do not need to specify ``codio_class_target_id`` for the copied course,``lis_course_offering_sourcedid`` will be used automatically to detect the course.  For cases when ``lis_course_offering_sourcedid`` is needed for course copy but not available due to privacy settings in Canvas, a custom parameter ``custom_codio_course_offering_sourcedid=$CourseOffering.sourcedId`` can be tried.
 
 .. figure:: /img/lti/fork_class_id.png
    :alt: course fork id

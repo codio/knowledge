@@ -15,7 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2021**
 
-- `[F] [26th]`: Add support for ``custom_codio_course_offering_sourcedid`` as a unique course identifier in LMS systems for more privacy
+- `[F] [26th]`: Add support for ``custom_codio_course_offering_sourcedid=$CourseOffering.sourcedId`` as a unique course identifier in Canvas where privacy settings do not allow use of ``lis_course_offering_sourcedid``
 - `[F] [26th]`: Add ability to show :ref:`Course/Module progress bar <progress-bar>` in students dashboard
 - `[F] [18th]`: Enable support to allow define number of attempts students can make for :ref:`auto-graded assessments <add-assessment>`
 - `[I] [15th]`: Enable ECMAScript 6 syntax checking
