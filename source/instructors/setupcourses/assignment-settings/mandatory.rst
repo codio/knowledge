@@ -8,3 +8,6 @@ Mandatory Progress
 ==================
 
 By default all assignments are mandatory but can be made optional by toggling the switch off and will not then be included within the :ref:`progress bar <progress-bar>` calculation for students.
+
+
+.. Note:: This feature is only available once course/module progress bar is enabled in the course.
