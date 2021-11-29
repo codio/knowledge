@@ -37,7 +37,7 @@ Constant URL's allows the transfer of learning content without modifying LTI lin
 5.  Return to your Codio course and enable the **Enable LTI constant URL's** button, and save your changes.
 6.  Copy the **LTI constant URL's enabled** link.
 
-.. Note:: If your LMS supports it, ``lis_course_offering_sourcedid`` is also supported as a unique course identifier so you can replace``codio_class_target_id`` if required.
+.. Note:: If your LMS supports it, ``lis_course_offering_sourcedid`` is also supported as a unique course identifier so you can replace``codio_class_target_id`` if required. For cases when ``lis_course_offering_sourcedid`` is needed for course copy but not available due to privacy settings in Canvas, a custom parameter ``custom_codio_course_offering_sourcedid=$CourseOffering.sourcedId`` can be tried.
 
 .. figure:: /img/lti/constant_url.png
    :alt: Enable Constant URL

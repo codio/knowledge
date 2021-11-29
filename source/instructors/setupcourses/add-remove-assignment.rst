@@ -73,7 +73,7 @@ Once the course modules are created, you can add assignments (projects). You can
    If you add and remove the same character, it will assume that you made a change even though the start and end file are the same
 
 
-   If you make changes to the assignment, you must publish it again before the changes are visible to your students. You can view the details of previously published versions in the log area.
+   If you make changes to the assignment, you must publish it again before the changes are visible to your students. You can view the details of previously published versions in the log area and also if the course is a child of a :ref:`parent course <parent-child-courses>`, details of the associated parent course.
 
 After assignments are added to the course, students can access them from their dashboard. To confirm the assignments are available, log in as a student, select the course and module, and view the assignments.
 
