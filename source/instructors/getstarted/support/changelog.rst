@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2021**
 
+- `[F] [29th]`: Add option to show/hide feedback and higlighting errors in :ref:`parsons puzzle <parsons-puzzle>`
 - `[F] [26th]`: Add ability to :ref:`disconnect <disconect>` assignments in child courses from parent course
 - `[F] [26th]`: Add information to assignment version history to show details of the associated :ref:`parent course <relationship>`
 - `[F] [26th]`: Add support for ``custom_codio_course_offering_sourcedid=$CourseOffering.sourcedId`` as a unique course identifier in Canvas where privacy settings do not allow use of ``lis_course_offering_sourcedid``
