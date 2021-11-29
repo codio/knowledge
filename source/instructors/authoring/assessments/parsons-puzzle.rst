@@ -29,6 +29,7 @@ Complete the following steps to set up a **Line Based Grader** Parsons Puzzle as
   - **Code to Become Distractor Blocks** - Enter code blocks that serve as distractions. 
   - **Max Distractors** - Enter the maximum number of distractors allowed.
   - **Grader** - Choose the appropriate grader for the puzzle from the drop-down list. 
+  - **Show Feedback** - Select to show feedback to student and highlight error in the puzzle. Deselect to hide feedback and not show highight error in the puzzle.
   - **Require Dragging** - If you enter **Code to Become Distractor Blocks**, **Require Dragging** will automatically turn on. Without distractor blocks, you can decide whether or not you want students to drag blocks to a separate area to compose their solution.
   - **Disable Indentation** - If you do not want to require indention, check the **Disable Indentition** box. 
   - **Indent Size** - Each indention defaults to 50 pixels.
