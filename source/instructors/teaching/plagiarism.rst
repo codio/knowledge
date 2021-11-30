@@ -16,7 +16,7 @@ Plagiarism detection is best used with programming project assignments rather th
 Codio does not determine whether cheating has or has not taken place and leaves the decision making up to you.
 
 
-To run the Plagiarism checker you need to first select the assignment within the course and then press press the actions button next to the assignment name.
+To run the Plagiarism checker you need to first select the assignment within the course and then press the actions button next to the assignment name.
 
   .. image:: /img/guides/plag-button.png
      :alt: Plagiarism start

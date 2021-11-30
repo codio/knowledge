@@ -10,7 +10,7 @@ Desktop App
 
    <iframe src="https://player.vimeo.com/video/273506364" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-The desktop app is to allow a local code workspace to synchronize with a odio box.
+The desktop app is to allow a local code workspace to synchronize with a Codio box.
 
 Assignments/Projects from the :ref:`Courses dashboard <navigate-student-dashboard>` My Projects area can be connected.
 
