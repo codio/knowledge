@@ -6,7 +6,7 @@
 
 Auto-Grade with nbgrader
 ========================
-Codio supports `Jupyter notebook <https://jupyter.org/>`_ auto-grading functionality through `nbgrader <http://nbgrader.readthedocs.io/en/stable/index.html>`_. Assignments are created with `Jupyter notebook <https://jupyter.org/>`_ and when the assignment is published to a course, the release version is created for the student. If the assignment is updated and reublished, it overwrites all tests and read-only cells with the new version and the release version for the students is updated.
+Codio supports `Jupyter notebook <https://jupyter.org/>`_ auto-grading functionality through `nbgrader <http://nbgrader.readthedocs.io/en/stable/index.html>`_. Assignments are created with `Jupyter notebook <https://jupyter.org/>`_ and when the assignment is published to a course, the release version is created for the student. If the assignment is updated and republished, it overwrites all tests and read-only cells with the new version and the release version for the students is updated.
 
 When a student submits the assignment by marking the assignment as complete, the assignment is automatically graded. However, manual grading is also possible if desired. 
 
@@ -69,7 +69,7 @@ Use the following configuration information when setting up nbgrader in a **.cod
      ExecutePreprocessor.interrupt_on_timeout: True
 
 
-- **Run custom grading with Jupyter** - To avoid execution of autograder with nbgrader and allow Codio script autograder to be executed, add the following to the **.codio-jupyter** file. When this is set, Jupyter files do not display as assessments in Codio and are not submitted through nbrader after the assignment is marked as completed (no assessments and points areset in the assignment).
+- **Run custom grading with Jupyter** - To avoid execution of autograder with nbgrader and allow Codio script autograder to be executed, add the following to the **.codio-jupyter** file. When this is set, Jupyter files do not display as assessments in Codio and are not submitted through nbrader after the assignment is marked as completed (no assessments and points are set in the assignment).
 
 .. code:: yaml
 
