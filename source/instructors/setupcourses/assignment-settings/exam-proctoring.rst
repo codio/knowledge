@@ -44,6 +44,6 @@ The Exam Proctoring settings are used to enable various options for assignment e
 
   Instructors can reset the single login restriction if they feel it is appropriate:
 
-  On the **Students** tab in the course, click the menu icon (3 horizonatal dots) and choose **Reset Single Login**.
+  On the **Students** tab in the course, click the menu icon (3 horizontal dots) and choose **Reset Single Login**.
 
 - **Authentication** - If enabled, your students will need to authenticate through your SSO service provider before they can open the assignment. This option can only be used if you have configured :ref:`SSO Integration <sso-integration>` for the organisation.
