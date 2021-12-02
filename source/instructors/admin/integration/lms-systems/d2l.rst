@@ -75,7 +75,7 @@ Connect your D2L Modules to your Codio Assignments
 Common Cartridge
 ----------------
 
-If using the Common Cartridge file you should first set up an External Tool in Brightspace with the :ref:`LTI Key's and URL's <lti-keys-and-urls-information>` for your organisation.
+If using the Common Cartridge file you should first set up an External Tool in Brightspace with the :ref:`LTI Key's and URL's <lti-keys-and-urls-information>` for your organization.
 
 When done then in the Brightspace course you have created go to **Course Admin** and **Import/Export/Copy Components** and **Import Components** and proceed to upload the **.ismcc** file.
 

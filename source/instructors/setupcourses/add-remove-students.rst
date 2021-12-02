@@ -32,7 +32,7 @@ To add a student to your course, follow these steps: follow these steps to add s
     
    - Copy the URL and send to your students. Instruct them to simply click the URL and register their Codio account.
    
-   .. Note:: We would recommend the Student Invite URL option as all the students need to do is enter that URL into their browser to join the correct course in your organisation
+   .. Note:: We would recommend the Student Invite URL option as all the students need to do is enter that URL into their browser to join the correct course in your organization.
       
    The students who have been added are displayed on the **Students** page for the course.
 
