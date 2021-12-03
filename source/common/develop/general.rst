@@ -79,17 +79,25 @@ Firewall settings
 
 The following is a list of ports and URLs that Codio access from time to time. We have put these in priority order.
 
-- *.codio.com the main Codio site and application
-- *.codio.io domains that are auto-generated for each user project
-- api.keen.io statistics gathering to measure student time spent in units   (stats)
-- *.typekit.net web fonts
-- fonts.gstatic.com web fonts
-- fast.fonts.net web fonts
-- *.cloudfront.net our CDN for speeding up static content
-- *.youtube.com & *.vimeo.com for video's included in Course content
-- gravatar.com used for user gravatars (pictures
+    - `*.codio.com` the main Codio site and application
+    
+    - `*.codio.io` domains that are auto-generated for each user project
+    
+    - `api.keen.io` statistics gathering to measure student time spent in units   (stats)
+    
+    - `*.typekit.net` web fonts
+    
+    - `fonts.gstatic.com` web fonts
+    
+    - `fast.fonts.net` web fonts
+    
+    - `*.cloudfront.net` our CDN for speeding up static content
+    
+    - `*.youtube.com` & `*.vimeo.com` for video's included in Course content
+    
+    - `gravatar.com` used for user gravatars (pictures)
 
-- *.intercom.io, cdnjs.cloudflare.com and *.pubnub.com are highly recommended as they relate to  the help and support application (Intercom) built into Codio.
+    - `*.intercom.io`, `cdnjs.cloudflare.com` and `*.pubnub.com` are highly recommended as they relate to  the help and support application (Intercom) built into Codio.
 
 If your institution blocks access to YouTube as a general rule, your IT department can whitelist YouTube access that only allows access to content from registered and accredited educational content repositories. See `here <https://support.google.com/youtube/answer/2695317?hl=en-GB>`_ for more information on this.
 
