@@ -77,7 +77,7 @@ This page contains information for
 Firewall settings
 *****************
 
-The following is a list of ports and URLs that Codio access from time to time. We have put these in priority order.
+The following is a list of ports and URLs that Codio accesses from time to time. We have put these in priority order.
 
     - `*.codio.com` the main Codio site and application
     
