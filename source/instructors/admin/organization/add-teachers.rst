@@ -15,7 +15,7 @@ Invite teacher to the organization
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **My Organizations** area, click the name of your organization.
+2. In the **Organizations** area, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations
@@ -53,7 +53,7 @@ To send a teacher an invitation token to use to access Codio, follow these steps
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **My Organizations** area, click the name of your organization.
+2. In the **Organizations** area, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations

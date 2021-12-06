@@ -12,7 +12,7 @@ There are some occasions where you may want to remove old members in order to ma
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **My Organizations** area, click the name of your organization.
+2. In the **Organizations** area, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations

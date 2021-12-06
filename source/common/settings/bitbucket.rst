@@ -8,7 +8,7 @@ Connect to BitBucket
 
 If you are working with BitBucket, you must install your Codio SSH key and connect to the application. 
 
-1. Click your user name or gravatar in the lower portion of the navigation pane to open the **Settings** page.
+1. Click your user name or gravatar in the lower portion of the navigation pane.
 2. Click the **Applications** tab.
 
    .. image:: /img/prefs-account-gh1.png

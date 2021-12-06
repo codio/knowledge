@@ -12,7 +12,7 @@ In addition to Codio's global assessments library, you can create Organization a
     .. image:: /img/class_administration/profilepic.png
        :alt: profile icon
 
-- Click the name of your organization (under **My Organizations**)
+- Click the name of your organization (under **Organizations**)
 
     .. image:: /img/class_administration/addteachers/myschoolorg.png
        :alt: Organisation 

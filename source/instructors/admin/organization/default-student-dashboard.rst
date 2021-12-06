@@ -16,12 +16,12 @@ Organization owners can specify the default page that is displayed to Students (
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **My Organizations** area, click the name of your organization.
+2. In the **Organizations** area, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations
 
-3. Click the **Dashboard Settings** tab.
+3. Click the **Dashboard** tab.
 
    .. image:: /img/manage_organization/dash.png
       :alt: Dashboard Settings

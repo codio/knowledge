@@ -21,18 +21,15 @@ If you have forgotten your password, you can reset it using the following proced
 
 Change password
 ---------------
-You can change your password from the **Account** page. You should change it if you have forgotten your password or it was reset by your instructor. 
+You can change your password from the **Overview** page. You should change it if you have forgotten your password or it was reset by your instructor. 
 
-1. Click your user name or gravatar in the lower portion of the navigation pane to open the **Settings** page.
+1. Click your user name or gravatar in the lower portion of the navigation pane to open the **Overview** page.
 
    .. image:: /img/what_students_do/forgotpassword/profilepic.png
       :alt: Profile Icon
       
 
-2. Click the **Account** tab.
-
-   .. image:: /img/what_students_do/forgotpassword/account.png
-      :alt: Account
+2. Click the **Overview** tab.
 
 3. In the **Change Password** area, enter your **Current Password** and a **New Password**, and click **Update password**.
 
@@ -44,17 +41,15 @@ You can change your password from the **Account** page. You should change it if 
 Reset password
 --------------
 
-You can request a password reset from your **Account** page. It may be necessary to request a password reset if you have previously logged into Codio using a saved password, but have since, forgotten the password. 
+You can request a password reset from your **Overview** page. It may be necessary to request a password reset if you have previously logged into Codio using a saved password, but have since, forgotten the password. 
 
-1. Click your user name or gravatar in the lower portion of the navigation pane to open the **Settings** page.
+1. Click your user name or gravatar in the lower portion of the navigation pane.
 
    .. image:: /img/what_students_do/forgotpassword/profilepic.png
       :alt: Profile Icon
    
-2. Click the **Account** tab.
+2. Click the **Overview** tab.
 
-   .. image:: /img/what_students_do/forgotpassword/account.png
-      :alt: Account
    
 3. In the **Reset Password** area, enter your **Email** address and click **Reset password**. A email is sent to your inbox with a link to reset your password. 
 

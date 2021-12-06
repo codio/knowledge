@@ -13,12 +13,12 @@ Access Billing Page
 
 1. Click on your **username** in the bottom left corner of your Codio dashboard.
 
-2. Click the name of your organization (under **My Organizations**)
+2. Click the name of your organization (under **Organizations**)
 
-  .. image:: /img/manage_organization/myschoolorg.png
+  .. image:: /img/class_administration/addteachers/myschoolorg.png
      :alt: Organization 
 
-3. You will see the **Billing** option at the top of the page.
+3. You will see the **Billing** option.
 
   .. image:: /img/manage_organization/orgbilltab.png
      :alt: Organization Billing
