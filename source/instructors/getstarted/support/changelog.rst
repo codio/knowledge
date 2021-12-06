@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**December 2021**
+
+- `[F] [ 3rd]`: Add :ref:`guides editor ribbon <markdown-content-editing>` to assist in creation of markdown content in guides
+
 **November 2021**
 
 - `[F] [29th]`: Add option to show/hide feedback and higlighting errors in :ref:`parsons puzzle <parsons-puzzle>`

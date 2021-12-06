@@ -46,7 +46,12 @@ Click here for details on how to insert :ref:`images, videos and hyperlinks <add
 Markdown
 ********
 
-A summary of Markdown formatting codes:
+To assist with your creation of markdown content, an editor ribbon is available, including Codio specific buttons to :ref:`open/close content <open-close>` within Guides.
+
+  .. image:: /img/guides/editor-ribbon.png
+     :alt: Markdown Editor Ribbon
+
+If you prefer to write markdown yourself, a summary of formatting codes:
 
 Headers/Titles
 **************
