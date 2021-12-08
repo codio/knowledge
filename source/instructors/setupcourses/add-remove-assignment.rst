@@ -15,9 +15,9 @@ You must first create the module that holds the assignments. You can create an e
 
 1. From the **Courses** page, select the course to open it.
 
-2. Click the **Edit** tab. When you first create a course, the list of modules and assignments is empty.
+2. Click the **Edit Assignments** tab. When you first create a course, the list of modules and assignments is empty.
 
-3. Click the **New Module+** button  and choose **Add Empty Module** or **Add Copy from Existing**.
+3. Click the **New Module** button  and choose **Add Empty Module** or **Add Copy from Existing**.
 
     - To add an empty module, enter the name for the new module and click **Add Module**.
     - To add copy from existing module, select a course, check the check boxes for the modules to be copied, and then click **Select**. The modules are added to your course. 

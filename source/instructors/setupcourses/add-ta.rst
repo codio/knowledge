@@ -12,12 +12,12 @@ Teaching assistants can be added to a course by sending them an invite. They can
 Follow these steps to add a teaching assistant to a course:
 
 1. From the **Courses** page, select the course to open it.
-2. Click the **Admin** tab.
+2. Click the ***Teachers and TAs** tab.
 
    .. image:: /img/manage_classes/adding_teachers/admin_tab.png
       :alt: Course Admin Tab
 
-3. In the **Teachers** section in the lower left pane, click **Edit**.
+3. Click **Edit**.
 
    .. image:: /img/manage_classes/adding_teachers/edit_teachers.png
       :alt: Edit Teacher
@@ -31,8 +31,8 @@ Follow these steps to add a teaching assistant to a course:
 
 6. Click **Send Invite** and click **Yes** on the confirmation dialog.   
     
-7. In the **Teachers** section on the **Admin** page, click **Done** to save your changes.
+7. In the **Teachers and TAs** section, click **Done** to save your changes.
 
 Enable teaching assistant to be a student in course
 ---------------------------------------------------
-To enable a teaching assistant to be a student in a course, copy the **Student Invite URL** on the course **Admin** page and send it to your TA. The TA can paste it into a browser and they will be added to the course as a student.
+To enable a teaching assistant to be a student in a course, copy the **Student Invite URL** on the **Students** page, selecting the **Add a student** button and send it to your TA. The TA can paste it into a browser and they will be added to the course as a student.

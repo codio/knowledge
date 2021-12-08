@@ -10,12 +10,12 @@ Add or Remove Teachers in a Course
 Your course may be taught by more than one teacher so you can add teachers to your course. You can also enable a teacher to be a student in the course to test it. Follow these steps to add a teacher to your Codio course:
 
 1. From the **Courses** page, select the course to open it.
-2. Click the **Admin** tab.
+2. Click the **Teachers and TAs** tab.
 
    .. image:: /img/manage_classes/adding_teachers/admin_tab.png
       :alt: Course Admin Tab
 
-3. In the **Teachers** section in the lower left pane, click **Edit**.
+3. Click **Edit**.
 
    .. image:: /img/manage_classes/adding_teachers/edit_teachers.png
       :alt: Edit Teacher
@@ -44,19 +44,19 @@ Your course may be taught by more than one teacher so you can add teachers to yo
    .. image:: /img/manage_classes/adding_teachers/coursereadonly.png
       :alt: Read-Only Toggle
     
-8. In the **Teachers** section on the **Admin** page, click **Done** to save your changes.
+8. In the **Teachers and TAs** section, click **Done** to save your changes.
 
 Remove teacher from a course
 ----------------------------
 If you want to change a teacher in a course, you must first add the new teacher and then follow these steps to remove old teacher from a course:
 
-1. In the **Teachers** section on the **Admin** page, click the **X** next to the teachers name.
+1. In the **Teachers and TAs** section, click the **X** next to the teachers name.
 2. Click **Yes** on the confirmation dialog.
 
 
 Enable teacher to be a student in course
 ---------------------------------------------------
-To enable a teacher to be a student in a course, copy the **Student Invite URL** on the course **Admin** page and send it to the teacher. The TA can paste it into a browser and they will be added to the course as a student.
+To enable a teacher to be a student in a course, copy the **Student Invite URL** on the **Students** page, selecting the **Add a student** button and send it to the teacher. The TA can paste it into a browser and they will be added to the course as a student.
 
 See Also
 --------

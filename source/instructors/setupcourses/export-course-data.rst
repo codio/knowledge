@@ -9,7 +9,7 @@ Export Course Data
 You can export course data (including students workspaces) prior to :ref:`deleting a course <delete-course>`, if you want to retain the data. Follow these steps to delete the course data:
 
 1. Navigate to the **Courses** page and select the course to open it.
-2. Click the **Admin** tab and then click **Course Data** in the **Export** section.
+2. Click the **Export** tab and then click **Course Data**.
 
    .. image:: /img/class_export.png
       :alt: Export Course Data
@@ -31,7 +31,7 @@ Export Course Sources
 You can export course sources to obtain a zip file containing all the currently published assignments. 
 
 1. Navigate to the **Courses** page and select the course to open it.
-2. Click the **Admin** tab and then click **Course Sources** in the **Export** section.
+2. Click the **Export** tab and then click **Course Sources** in the **Export** section.
 
    .. image:: /img/source_export.png
       :alt: Export Course Data
@@ -50,7 +50,7 @@ Export user access data
 To export data related to users accessing assignments in the course, follow these steps:
 
 1. Navigate to the **Courses** page and select the course to open it.
-2. Click the **Admin** tab and then click **User Access Data** in the **Export** section. 
+2. Click the **Export** tab and then click **User Access Data** in the **Export** section. 
 
    .. image: /img/user_access_export.png
       :alt: Export User Access Data
@@ -92,7 +92,7 @@ Assessment Data
 To export data related to students assessment in individual or multiple assignments in the course, follow these steps:
 
 1. Navigate to the **Courses** page and select the course to open it.
-2. Click the **Admin** tab and then click **Assessment Data** in the **Export** section. 
+2. Click the **Export** tab and then click **Assessment Data** in the **Export** section. 
 
    .. image:: /img/assessment-data-export.png
       :alt: Assessment Data Export

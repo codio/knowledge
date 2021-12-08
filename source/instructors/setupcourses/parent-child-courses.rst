@@ -10,9 +10,9 @@ When a course is created by cloning or using a share code, the course (child) is
 
 Update & pull updates
 ---------------------
-After an update in the parent course has been published, from **"Edit"** mode, a **Pull** icon will appear next to the assignments that have changed. Follow these steps to pull the updates.
+After an update in the parent course has been published, from **"Edit Assignments"** area, a **Pull** icon will appear next to the assignments that have changed. Follow these steps to pull the updates.
 
-1. In the Dashboard, select the course to open it and click on the **Edit** tab. The assignments that have changed show a **Pull** icon.
+1. In the Dashboard, select the course to open it and click on the **Edit Assignments** tab. The assignments that have changed show a **Pull** icon.
 
    .. image:: /img/pullarrow.png
       :alt: Pull
@@ -83,7 +83,7 @@ Add new assignments from parent to child courses
 ------------------------------------------------
 When a new assignment has been added in the parent course, it will not automatically be added to child courses. Rather, child courses will need to add it manually to allow future updates to be pulled. Follow these steps to add an assignment from the parent course to the child course:
 
-1. In the Dashboard, select the child course to open it and go to the **Edit** tab.
+1. In the Dashboard, select the child course to open it and go to the **Edit Assignments** tab.
 
 2. Select the module and click **Add assignment**.
 
@@ -98,7 +98,7 @@ Revert to earlier version
 -------------------------
 You can revert back to earlier published versions of your courses. However, reverting automatically publishes the course and it's available to your students.
 
-1. In the Dashboard, select the course to open it and go to the **Edit** tab.
+1. In the Dashboard, select the course to open it and go to the **Edit Assignments** tab.
 
 2. On the **Assignments** page, click the **Versions** button.
 

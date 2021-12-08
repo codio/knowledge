@@ -24,6 +24,8 @@ To create an empty course, follow these steps:
    .. image:: /img/manage_classes/create_class/new-class.png
       :alt: Create Empty Course
 
+.. Note:: Courses will also automatically archive when the end date set for the course is reached. This date can be amended in the course details area if you require the course to continue to be active
+
 5. Click **Create Course**.
    
    Your new course will appear in your **Courses** area.
@@ -44,6 +46,8 @@ To create a course from share code, follow these steps:
       :alt: Create Course from Share Code
 
 4. Complete the fields on the **Clone a Course by code** form, including the **Course Code**, **Name**, **Organization**, and **Duration** (optional).
+
+.. Note:: Courses will also automatically archive when the end date set for the course is reached. This date can be amended in the course details area if you require the course to continue to be active
 
 5. Click **Create Course**.
 
