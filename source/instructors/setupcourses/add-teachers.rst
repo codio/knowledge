@@ -11,10 +11,6 @@ Your course may be taught by more than one teacher so you can add teachers to yo
 
 1. From the **Courses** page, select the course to open it.
 2. Click the **Teachers and TAs** tab.
-
-   .. image:: /img/manage_classes/adding_teachers/admin_tab.png
-      :alt: Course Admin Tab
-
 3. Click **Edit**.
 
    .. image:: /img/manage_classes/adding_teachers/edit_teachers.png

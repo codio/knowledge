@@ -72,13 +72,8 @@ If required, anonymous grading can be set for the course so students cannot see 
 
 To enable anonymous grading, follow these steps:
 
-1. Open the course and click the **Admin** tab.
-2. Click **Edit Details** in the lower portion of the page.
- 
-   .. image:: /img/class_administration/grading/anongrading.png
-      :alt: Anonymous Grading
-
-3. Toggle **Anonymous Grading** to enable it and then click **Save**.
+1. Open the course and click the **Grading/Basic Settings** tab.
+2. Toggle **Anonymous Grading** to enable it and then click **Save Changes**.
 
 Code Commenting
 ---------------

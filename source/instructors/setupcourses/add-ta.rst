@@ -13,10 +13,6 @@ Follow these steps to add a teaching assistant to a course:
 
 1. From the **Courses** page, select the course to open it.
 2. Click the ***Teachers and TAs** tab.
-
-   .. image:: /img/manage_classes/adding_teachers/admin_tab.png
-      :alt: Course Admin Tab
-
 3. Click **Edit**.
 
    .. image:: /img/manage_classes/adding_teachers/edit_teachers.png

@@ -17,10 +17,7 @@ As a teacher you have access to your student's assignments within Codio. This al
      
 
 
-1. Click on the **Students** tab, top centre of your screen.
-
-  .. image:: /img/monitor_students/students_tab.png
-     :alt: Students tab
+1. Click on the **Students** tab.
 
 
 1. You will see all students in your course displayed on this screen. By default they will show sorted alphabetically by first name but you can also sort them by last name, number of started or number of completed assignments if preferred.
