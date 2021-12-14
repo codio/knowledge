@@ -15,7 +15,7 @@ When students access the Support Chat they will be shown the options you have sp
      
 
 
-- Select the course, go to the **Admin** area and **Edit Details** where you can then enter the text and URL's to direct students to when they use any of the Contact us options.
+- Select the course, go to the **Course Details** area and **Add Support URLS** where you can then enter the text and URL's to direct students to when they use any of the Contact us options.
 
   .. image:: /img/classcontacturl.png
      :alt: Course contact url

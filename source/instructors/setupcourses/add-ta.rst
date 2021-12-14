@@ -12,22 +12,21 @@ Teaching assistants can be added to a course by sending them an invite. They can
 Follow these steps to add a teaching assistant to a course:
 
 1. From the **Courses** page, select the course to open it.
-2. Click the ***Teachers and TAs** tab.
-3. Click **Edit**.
+2. Click the **Teachers** tab.
 
-   .. image:: /img/manage_classes/adding_teachers/edit_teachers.png
-      :alt: Edit Teacher
 
-4. Click **Add Teacher** and enter the teaching assistant's email address in the **Invite Teacher** box.
+4. Enter the teaching assistant's email address in the **Invite Teacher** box.
 
    .. image:: /img/manage_classes/adding_teachers/inviteteacher.png
       :alt: Invite Teacher
 
-5. If you want to restrict the teaching assistant to only be able to view the course but not edit its content, check the **Add this teacher as read-only** check box. You can change this later by toggling the **Read-Only** setting. switch.
+5. If you want to restrict the teaching assistant to only be able to view the course but not edit its content, check the **Add this teacher as read-only** check box. You can change this later by toggling the **Course Editor** setting switch.
 
-6. Click **Send Invite** and click **Yes** on the confirmation dialog.   
+   .. image:: /img/manage_classes/adding_teachers/coursereadonly.png
+      :alt: Read-Only Toggle
+
+6. Click **Send Invite**.
     
-7. In the **Teachers and TAs** section, click **Done** to save your changes.
 
 Enable teaching assistant to be a student in course
 ---------------------------------------------------
