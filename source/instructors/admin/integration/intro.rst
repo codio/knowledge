@@ -18,6 +18,7 @@ Integrating with your LMS system (Canvas etc.)
    lti-keys-and-urls-information
    lti-course-copy
    lti1-3
+   commoncartridge
 
 
 Learning Tools Interoperability (LTI) is a standard for passing user, organization, and course information between learning management systems (tool consumers) and learning tools and tool providers, such as Codio.
@@ -46,3 +47,4 @@ Students who initially accessed Codio through an LMS/LTI system, can set up dire
 - :ref:`LTI Keys and URL <lti-keys-and-URLs-information>`
 - :ref:`LTI Course Copy <lti-course-copy>`
 - :ref:`LTI 1.3 integration <lti1-3>`
+- :ref:`Exporting Common Cartridge <common-cartridge>`

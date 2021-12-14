@@ -6,11 +6,11 @@
 
 Working with Parent/Child Courses
 =================================
-When a course is created by cloning or using a share code, the course (child) is tied to the original (parent) course so that any updates to an assignment in the parent course are also updated in the child course. Details of the parent course for any child assignments can be seen from the :ref:`version history button <relationship>` and child assignments can also be :ref:`disconnected <disconect>` if required.
+When a course is created by cloning or using a share code, the course (child) is tied to the original (parent) course and any updates to an assignment in the parent course are also updated in the child course. Details of the parent course for any child assignments can be seen from the :ref:`version history button <relationship>` and child assignments can also be :ref:`disconnected <disconect>` if required.
 
 Update & pull updates
 ---------------------
-After an update in the parent course has been published, from **"Edit Assignments"** area, a **Pull** icon will appear next to the assignments that have changed. Follow these steps to pull the updates.
+After an update in the parent course has been published, from **"Edit Assignments"** area, a **Pull** icon will appear next to assignments that have changed. Follow these steps to pull the updates.
 
 1. In the Dashboard, select the course to open it and click on the **Edit Assignments** tab. The assignments that have changed show a **Pull** icon.
 
@@ -105,7 +105,7 @@ You can revert back to earlier published versions of your courses. However, reve
    .. image:: /img/manage_classes/viewversions.png
       :alt: View Versions
 
-3. View the list of all previous version and click Revert for the version to which you want to revert. 
+3. View the list of all previous versions and click Revert for the version to which you want to revert. 
 
    .. image:: /img/manage_classes/revertversion.png
       :alt: Revert Version 
@@ -144,7 +144,7 @@ Assignments in child courses can be disconnected from the parent assignment so a
 
 Send announcements
 ------------------
-Announcements can be sent to instructors that displays a similar banner as above in the child course informing all instructors of an announcement. These can be sent where you wish to provide information to the instructors where there are no changes/updates to the course content.
+Announcements can be sent to instructors that displays a similar banner as above in the child course informing all instructors of an announcement. These can be used to provide other information to instructors.
 
 To send an announcement, follow these steps:
 
@@ -161,7 +161,7 @@ To send an announcement, follow these steps:
       :alt: Announcement Message 
 
 
-  .. Note:: To view a history of all announcements sent in the parent course, click the **View Sent Notification** link.
+  .. Note:: To view a history of all announcements sent in the parent course, click the **View Sent Announcements** link.
 
 
 4. When an instructor opens the course, a banner is displayed indicating that their is an announcement for the course.
