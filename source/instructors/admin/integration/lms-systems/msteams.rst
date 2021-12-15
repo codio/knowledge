@@ -20,7 +20,7 @@ In MS Teams
 In Codio
 --------
 
-    2. Go to the **Admin** area in the course you wish to integrate to MsTeams Classroom. 
+    2. Go to the **LTI/LMS** area in the course you wish to integrate to MsTeams Classroom. 
     3. Select **Connect to MsTeams** and authenticate to your MSTeams account.
 
     .. figure:: /img/msteams_integrate.png
@@ -44,11 +44,8 @@ Updating
 
 If assignments/modules are added/removed in the Codio Course, to update to your MSTeams Classroom:
 
-7.  Go to the **Admin** area in the course
+7.  Go to the **LTI/LMS** area in the course
 8.  Select **Update MsTeams** to update
-
-    .. figure:: /img/msteams_update.png
-       :alt: Update MSTeams Classroom
 
 
 .. Note:: be aware that this may change the ordering of the assignments in your MSTeam assignment tabs and if new are assignments added, they will added to the end of the **Assignments** list. There is currently no function in MSTeams to allow you to reorder the assignments manually.
@@ -56,10 +53,7 @@ If assignments/modules are added/removed in the Codio Course, to update to your 
 Removing
 ^^^^^^^^
 
-9. To remove the integration link between Codio and your MSTeam Classroom ​ - Go to the **Admin** area in the course - Select **Remove MsTeams** to update
-
-    .. figure:: /img/msteams_remove.png
-       :alt: Remove MSTeam Classroom
+9. To remove the integration link between Codio and your MSTeam Classroom ​ - Go to the **LTI/LMS** area in the course - Select **Remove MsTeams** to update
 
 .. Note:: Removing the integration link will mean students will not be able to access any of their assignments any longer from MSTeam Classroom.
 

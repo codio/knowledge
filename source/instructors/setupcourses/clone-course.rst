@@ -11,8 +11,7 @@ You can clone an existing course to create a new course from it. Follow these st
 
 1. Sign in to Codio at www.codio.com.
 2. Navigate to the **Courses** page and use one of the following methods:
-
-   - Click the menu on the right side of the course (3 horizontal dots) and choose **Clone Course**.
+3.Click the menu on the right side of the course (3 horizontal dots) and choose **Clone Course**.
 
      .. image:: /img/manage_classes/cloneclass.png
         :alt: Clone Course

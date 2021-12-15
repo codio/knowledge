@@ -67,9 +67,9 @@ The **Course LMS URL** is used to map an LMS course to a Codio course. It ensure
 
    <script src="https://fast.wistia.com/embed/medias/q17567v2nr.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_q17567v2nr videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/q17567v2nr/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 
-13.  In Codio, go to the **Admin** tab near the top.
-14.  Select **Edit Details** in the bottom of the page.
-15.  Near the bottom is a switch **Enable LTI** which you should enable.
+13.  In Codio, go to the **LTI/LMS** tab near the top.
+14.  Go to the **LTI/LMS Settings** section.
+15.  Select **Enable LTI** to enable.
 16.  Below this is an empty field **Course LMS URL**. Switch back to your LMS and make sure you are on the Home page of the course. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio.
 
 .. figure:: /img/lti/lti-class-url.png
@@ -103,7 +103,7 @@ In Canvas
         
     - **Add by LTI Integration URL**
     
-        - Return to Codio and navigate to the course. Ensure you are in **Teach** mode. 
+        - Return to Codio and navigate to the course. Ensure you are in **Overview** mode. 
         - To the right of the assignment, click the icon with 3 blue dots and select **LTI Integration URL**. You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).
         - Paste the **LTI Integration URL** in the URL field under **Enter or find an External Tool URL.**
 

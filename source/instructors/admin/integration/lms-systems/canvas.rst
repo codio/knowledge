@@ -23,13 +23,13 @@ Enable LTI for Your Course
 
 1. Open the course you would like to connect or create a new course.
 2. Make sure you have at least one published assignment or add a new one. (see :ref:`Add and Remove Course Assignments <add-remove-assignment>`)
-3. Select the **Admin** tab and click on the blue **Edit Details** button at the bottom.
+3. Select the **LTI/LMS** tab.
 4. Select the **ENABLE LTI** option.  
 
   .. image:: /img/lti/enable-lti.png
      :alt: enable lti
      
-5. Click **Save**.
+5. Click **Save Changes**.
 
 Bring up the LTI Integration Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -99,9 +99,9 @@ Course LMS URL
 --------------
 This URL ensures that Codio knows how to redirect students back to the correct Canvas course should they attempt to access the course through their dashboard. You need to perform the following actions one time only for a course. The Canvas user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.
 
-17.  In Codio, go to your course and click on the **Admin** tab near the top.
-18.  Select **Edit Details** in the bottom of the page.
-19.  Near the bottom is a switch **Enable LTI** which you should check is enabled.
+17.  In Codio, go to your course and click on the **LTI/LMS** tab.
+18.  Go to the **LTI/LMS Settings** area.
+19.  At the top is a switch **Enable LTI** which you should check is enabled.
 20.  Below this is an empty field **Course LMS URL**. Switch back to Canvas and make sure you are on the Home page of the course. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio. The url format should end with something like ``/courses/1121212`` although the number will be different.
 
 Mapping an Assignment to a Canvas Assignment

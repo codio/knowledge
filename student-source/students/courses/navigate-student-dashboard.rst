@@ -5,17 +5,11 @@
 
 Navigate the Student Dashboard
 ==============================
-The Student dashboard is the main page student's use to navigate Codio. You can toggle between two dashboard views using the **New Look** button in the upper right corner.
-
-Default Dashboard:
+The Student dashboard is the main page student's use to navigate Codio. 
 
 .. image:: /img/what_students_do/newstudentdashboard.png
    :alt: Default Student Dashboard
 
-Alternative Dashboard:  
-
-.. image:: /img/what_students_do/studentdashboard.png
-   :alt: Alternative Student Dashboard
 
 Navigation menu
 ---------------
@@ -45,7 +39,7 @@ The student courses are displayed in the right pane, as shown below with the def
     - Click the arrow to expand or collapse the panel. 
     - Click the feedback panel to open it and review your assessments, grading comments, and any code comments from your instructor.
 
-**4** - **Courses** panel is the main panel on the page and is where you can see the courses, modules, and assignments that have been assigned to you, and the end date for the assignment. Up to five pinned assignments can be displayed more prominently at the top of the page. From this area, you can easily re-open the assignment you were last working on, or start any of the other assignments that have been assigned to you. You start or open an assignment using the navigation buttons.
+**4** - **Courses** panel is the main panel on the page and is where you can see the courses, modules, and assignments that have been assigned to you, and the end date for the assignment. Up to five pinned assignments can be displayed more prominently at the top of the page. From this area, you can easily re-open the assignment you were last working on, or start any of the other assignments that have been assigned to you. You start or open an assignment using the navigation buttons.  If course/module progress bars are enabled by your teacher, you will also see your progress. 
 
     - Click the course pane to open and view the modules and assignments in the course. 
 
@@ -54,10 +48,7 @@ The student courses are displayed in the right pane, as shown below with the def
      .. image:: /img/what_students_do/expandedcourse.png
         :alt: Expanded Course on Default Dashboard
 
-     Below is an example of a student’s **Courses** area with the alternative dashboard:
-
-     .. image:: /img/what_students_do/studentdashboard.png
-        :alt: Courses on Alternative Dashboard
+**5** - **Leaderboard** panel (if enabled by your teacher) is where you can see your overall progress in comparison to other students in the course for mandatory assignments
 
 .. Note:: You can also create your own projects using the links under **BUILD** in the left navigation pane. See :ref:`Creating or Importing a Project <create-import-project>` for more information.
 
