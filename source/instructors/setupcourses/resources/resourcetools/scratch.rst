@@ -23,6 +23,16 @@ Scratch files are **not saved automatically**, students must select **File > Sav
 
 Get started by clicking on **Tutorials** in the Scratch menu area. For more information see `Scratch <https://scratch.mit.edu/about>`__.
 
+.. _scratchbackpack:
+
+Scratch Backpack
+----------------
+
+`Scratch Backpack <https://en.scratch-wiki.info/wiki/Backpack>`__ is available allowing users to add sprites or blocks of code to their backpack to use in other scratch files or other projects. There is a limit of 30Mb for each individual piece added to the backpack
+
+   .. image:: /img/backpack.png
+      :alt: Scratch Backpack
+
 Starter Pack
 ~~~~~~~~~~~~
 
