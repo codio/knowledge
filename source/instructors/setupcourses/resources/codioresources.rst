@@ -47,7 +47,7 @@ Overview of Codio Resources and Share Code
 *For more detail, click on the link.*
 
 -  `Engineering Software as a Service (projects only) <https://www.codio.com/resources/esaas-projects>`__ **Share Code: 42NJ-RXEA-YVN6** Armando Fox and David Patterson's popular courseware seamlessly integrated for students and zero setup for instructors.
--  `CS: Introduction in Java <https://www.codio.com/resources/intro-java>`__ Introduction to Computer Science in Java with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
+-  `CS: Introduction in Java <https://www.codio.com/resources/intro-java>`__ **Share Code: P4E2-MUV9-G3MV** Introduction to Computer Science in Java with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
 -  `CS: Introduction in Python <https://www.codio.com/resources/intro-python>`__ **Share Code: DWG4-9PHU-2X4W** Introduction to Computer Science in Python with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
 -  `Linux Command Line Interface <https://www.codio.com/resources/linux-command-line>`__ **Share Code: Q9R3-G474-TWC9** A brief introduction to useful linux commands that make a great supplement for a variety of courses.
 -  `MySQL <https://www.codio.com/resources/mysql>`__ **Share Code: Q4M4-WYP9-P7CL** An introduction to databases using SQL with native Codio content containing fully auto-graded assessments.
