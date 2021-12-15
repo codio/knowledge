@@ -28,7 +28,7 @@ Get started by clicking on **Tutorials** in the Scratch menu area. For more info
 Scratch Backpack
 ----------------
 
-`Scratch Backpack <https://en.scratch-wiki.info/wiki/Backpack>`__ is available allowing users to add sprites or blocks of code to their backpack to use in other scratch files or other projects. There is a limit of 30Mb for each individual piece added to the backpack
+The `Scratch Backpack <https://en.scratch-wiki.info/wiki/Backpack>`__ may be used to store sprites or blocks of code and then used in other Scratch files or other projects. There is a size limit of 30Mb for each item added to the backpack.
 
    .. image:: /img/backpack.png
       :alt: Scratch Backpack
