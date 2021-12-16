@@ -9,7 +9,7 @@ Delete Course
 A course can be deleted by course teachers and organization owners. You can also :ref:`export the course data <export-course>` before you delete it, if you choose to do so. Follow these steps to delete a course:
 
 1. Navigate to the **Courses** page and select the course to open it.
-2. Click the **Course Details** tab and then click **Delete Course** in the **Course Management** section.
+2. Click the **Course Details** tab and then click **Delete Course** button on the right hand side.
 3. On the **Delete course confirmation** dialog, enter the confirmation code in the text box and click one of the following buttons:
 
    .. image: /img/deleteclass.png

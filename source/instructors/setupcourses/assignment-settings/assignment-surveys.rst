@@ -16,11 +16,11 @@ The Assignment Survey setting can be enabled so when students mark the assignmen
 Adding questions to ask students
 --------------------------------
 
--Select **Add Question** to select the survey question type(s) you wish to present to the students
+- Select **Add Question** to select the survey question type(s) you wish to present to the students
 
-1. **Free Text** - where students can enter their reponse in their own words
+    - **Free Text** - where students can enter their reponse in their own words
 
-2. **Rate** - where students can rate the assignment from 1 to 10
+    - **Rate** - where students can rate the assignment from 1 to 10
 
 The question you wish to ask can be written in **Markdown** format if required. See :ref:`Markdown Content Editing <markdown-content-editing>` for more information.
 

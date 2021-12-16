@@ -46,7 +46,7 @@ From the teacher dashboard, access shortcuts to assignment actions. The image be
 
 Assignment Settings
 -------------------
-Click the **Settings** icon in the assignment or the **Settings** tab to perform the following tasks:
+Click the **Settings** icon in the assignment or the **Settings** tab when the assignment is selected to perform the following tasks:
 
 .. image:: /img/class_administration/asignmentsettings.png
    :alt: Settings

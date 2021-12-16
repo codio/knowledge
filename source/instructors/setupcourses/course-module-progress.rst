@@ -21,7 +21,7 @@ Show Course and/or Module progress can be enabled so students can see their prog
    .. image:: /img/class_administration/enableprogressbar.png
       :alt: Enable Progress Bars
       
-Students Dashboard view example:
+Students Dashboard view example (Leaderboard not enabled):
 
    .. image:: /img/class_administration/student_progress.png
       :alt: Student Progress

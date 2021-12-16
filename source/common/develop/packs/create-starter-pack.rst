@@ -27,8 +27,8 @@ You can create your own Starter Pack and upload it for others to use. Follow the
 
 6. Specify the Visibility of the Starter Pack. By default, a Starter Pack is private to your account until you make it public, at which point it is displayed in the **Popular** and **All** pages where all Codio users can access it.
 
-  .. Note:: The organization owner can disable the ability for you to create public starter packs. See :ref:Enable or Disable Public/Private Settings <public-private>`.
+  .. Note:: The organization owner can disable the ability for you to create public starter packs. See :ref:`Enable or Disable Public/Private Settings <public-private>`.
 
-  **Important** - Do not make your Starter Pack public unless you have fully tested it.
+  .. Important:: Do not make your Starter Pack public unless you have fully tested it.
 
 7. Click **Create**.

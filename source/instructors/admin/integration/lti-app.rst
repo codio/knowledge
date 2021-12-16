@@ -19,7 +19,7 @@ The **Codio LTI App** method allows for an easy way to integrate and to map Codi
 In Codio
 ~~~~~~~~
 
-1.  Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **My Organizations**.
+1.  Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **Organizations**.
 2.  Select the **LTI Integrations** tab.
 3.  Scroll down to the **LTI Integration 1.0** section. You should see the following fields. Remain on this screen for the time being.
 

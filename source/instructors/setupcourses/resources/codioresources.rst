@@ -33,13 +33,16 @@ Select **Resources** from the dashboard. You will see a list of courses recommen
 Select a course, you can then see details of the content in the module. To use this content in your course, you can either:
 
 - click the **Add to my Account** button(s) and it will be added to your Codio account.
+
+  .. image:: /img/manage_classes/createfromresources.png
+     :alt: CreatefromResources
+     
 - use the course :ref:`Share Code <create-fromsharecode>` to create the course in your account.
 
 .. Note:: if working on codio.co.uk, you need to use the **Share Code**
 
 
-  .. image:: /img/manage_classes/createfromresources.png
-     :alt: CreatefromResources
+
 
 
 Overview of Codio Resources and Share Code

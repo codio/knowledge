@@ -37,8 +37,7 @@ Assignment level insights
 2. Click the assignment name.
 3. Click the **Insights** tab.
     
-    .. image:: /img/insights/assignmentinsights.png
-       :alt: Assignment Insights
+
        
 Student level insights
 --------------------------
@@ -46,5 +45,3 @@ Student level insights
 2. Click the student name. 
 3. Click the **Insights** tab
     
-    .. image:: /img/insights/studentinsights.png
-       :alt: Student Insights

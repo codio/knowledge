@@ -28,7 +28,7 @@ Bring up the LTI Integration Information
 ----------------------------------------
 
 8. Click your user name in the bottom left of your dashboard.
-9. Choose your Organization. 
+9. Select your Organization. 
 10. Click the **LTI Integrations** tab to bring up the following settings. You will need to enter these into Schoology in the subsequent steps.
 
   .. image:: /img/lti/LTIintegrationinfo.png
@@ -86,7 +86,7 @@ In Codio
     .. figure:: /img/lti/LMS-Unit-URL.png
        :alt: Unit URL
 
-   .. Note:: If you would like to access all the LTI integration URLs at once, navigate to the course, then the Admin tab at the top of the page. Select **LTI Settings** and a CSV will download that provides the information for the course in one place. 
+   .. Note:: If you would like to access all the LTI integration URLs at once, navigate to the course, then the **LTI/LMS** in the Admin section. Select **Assignment URLS** and a CSV will download that provides the information for the course in one place. 
 
 In Schoology
 ~~~~~~~~~~~~

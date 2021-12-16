@@ -54,7 +54,11 @@ As above, be aware that this may change the ordering in your Google classroom so
 Removing
 ^^^^^^^^
 
-9. To remove the integration link between Codio and your Google Classroom ​ - Go to the **LTI/LMS** area in the course - Select **Remove Google Classroom** to update
+9. To remove the integration link between Codio and your Google Classroom ​ 
+
+- Go to the **LTI/LMS** area in the course 
+
+- Select **Remove Google Classroom** to update
 
 
 .. Note:: Removing the integration link will mean students will not be able to access any of their assignments any longer from Google Classroom
