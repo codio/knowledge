@@ -11,7 +11,7 @@ Your course may be taught by more than one teacher so you can add teachers to yo
 
 1. From the **Courses** page, select the course to open it.
 2. Click the **Teachers** tab.
-3. If the teacher is already a member in your organisation start entering their username in the field and you can add them to the course.
+3. If the teacher is already a member in your organization start entering their username in the field and you can add them to the course.
 4. Select the teacher's name in the search results and click **Yes** on the confirmation dialog.
 
    .. image:: /img/manage_classes/adding_teachers/search_teacher.png

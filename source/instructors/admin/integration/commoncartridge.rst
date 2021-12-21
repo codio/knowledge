@@ -9,12 +9,12 @@ Common Cartridge
 Allows you to export the `Common Cartridge 1.3 <http://www.imsglobal.org/cc/ccv1p3/imscc_Overview-v1p3.html>`_ data for the course to then use within your LMS system to import details of the assignments in your Codio courses.
 
 1. Navigate to the **Courses** page and select the course to open it.
-2. Click the **LTI/LMS** tab and then in the **LTI/LMS Connections** area, click to **Common Cartridge** the common cartridge information
+2. Click the **LTI/LMS** tab and then in the **LTI/LMS Connections** area, click to **Common Cartridge** the common cartridge information.
 
    .. image:: /img/common-cartridge.png
       :alt: Common Cartridge Export
 
-.. Important:: If working with Canvas, each assignment within your LMS still needs to be configured. Refer to the :ref:`system specific instructions <system-specific-directions>` for your LMS system
+.. Important:: If working with Canvas, each assignment within your LMS still needs to be configured. Refer to the :ref:`system specific instructions <system-specific-directions>` for your LMS system.
 
 **See Also:**
 - :ref:`Export Assignment Data <export-assignment>` to export individual assignment workspaces.

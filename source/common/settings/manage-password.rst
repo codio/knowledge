@@ -41,7 +41,7 @@ You can change your password from the **Overview** page. You should change it if
 Reset password
 --------------
 
-You can request a password reset from your **Overview** page. It may be necessary to request a password reset if you have previously logged into Codio using a saved password, but have since, forgotten the password. 
+You can request a password reset from your **Overview** page. It may be necessary to request a password reset if you have previously logged into Codio using a saved password, but have since forgotten the password. 
 
 1. Click your user name or gravatar in the lower portion of the navigation pane.
 
