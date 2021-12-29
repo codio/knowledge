@@ -31,12 +31,12 @@ Managing assignments
    mandatory
    
   
-You can manage assignments from the teacher dashboard or by selecting the settings gear icon on the assignment when in Teach mode.
+You can manage assignments from the teacher dashboard or by selecting the settings gear icon on the assignment when in **Overview** mode.
 
 Teacher Dashboard
 -----------------
 
-From the teacher dashboard, access shortcuts to assignment actions. The image below highlights the main components of **Teach** mode in the teacher dashboard.
+From the teacher dashboard, access shortcuts to assignment actions. The image below highlights the main components of **Overview** mode in the teacher dashboard.
 
 .. image:: /img/manage_classes/teachdashboard.png
    :alt: Teacher Dashboard
@@ -46,7 +46,7 @@ From the teacher dashboard, access shortcuts to assignment actions. The image be
 
 Assignment Settings
 -------------------
-Click the **Settings** icon in the assignment or the **Settings** tab to perform the following tasks:
+Click the **Settings** icon in the assignment or the **Settings** tab when the assignment is selected to perform the following tasks:
 
 .. image:: /img/class_administration/asignmentsettings.png
    :alt: Settings

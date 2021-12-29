@@ -15,7 +15,7 @@ The Schoology system administrator should install a Codio external tool for the 
 
 1. Open the course you would like to connect or create a new course.
 2. Make sure you have at least one published assignment or add a new one. (see :ref:`Add and Remove Course Assignments <add-remove-assignment>`)
-3. Select the **Admin** tab and click on the blue **Edit Details** button at the bottom.
+3. Select the **LTI/LMS** tab.
 4. Select the **ENABLE LTI** option.  
 5. Select the **ENABLE LTI CONSTANT URLS** option.  
 6. Note the **Codio Course Target ID**, you will need that in subsequent steps. 
@@ -28,7 +28,7 @@ Bring up the LTI Integration Information
 ----------------------------------------
 
 8. Click your user name in the bottom left of your dashboard.
-9. Choose your Organization. 
+9. Select your Organization. 
 10. Click the **LTI Integrations** tab to bring up the following settings. You will need to enter these into Schoology in the subsequent steps.
 
   .. image:: /img/lti/LTIintegrationinfo.png
@@ -80,13 +80,13 @@ Once the system administrator has configured the external tool at the system lev
 In Codio
 ~~~~~~~~
 
-21. Navigate to the course you would like to integrate with Schoology. Ensure you are in **Teach** mode. 
+21. Navigate to the course you would like to integrate with Schoology and go to the **Overview** area. 
 22. Click the icon with 3 blue dots for each assignment you wish to map and select **LTI Integration URL.** Select the clipboard to copy the link.
 
     .. figure:: /img/lti/LMS-Unit-URL.png
        :alt: Unit URL
 
-   .. Note:: If you would like to access all the LTI integration URLs at once, navigate to the course, then the Admin tab at the top of the page. Select **LTI Settings** and a CSV will download that provides the information for the course in one place. 
+   .. Note:: If you would like to access all the LTI integration URLs at once, navigate to the course, then the **LTI/LMS** in the Admin section. Select **Assignment URLS** and a CSV will download that provides the information for the course in one place. 
 
 In Schoology
 ~~~~~~~~~~~~

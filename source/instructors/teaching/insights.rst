@@ -23,8 +23,6 @@ Course level insights
 -------------------------
 Click the **Insights** tab.
     
-    .. image:: /img/insights/courseinsights.png
-       :alt: Course Insights
        
 Module level insights
 -------------------------
@@ -35,12 +33,11 @@ Click **Show Insights** to the right of the module name.
        
 Assignment level insights
 -----------------------------
-1. Click the **Teach** tab. 
+1. Click the **Overview** tab. 
 2. Click the assignment name.
 3. Click the **Insights** tab.
     
-    .. image:: /img/insights/assignmentinsights.png
-       :alt: Assignment Insights
+
        
 Student level insights
 --------------------------
@@ -48,5 +45,3 @@ Student level insights
 2. Click the student name. 
 3. Click the **Insights** tab
     
-    .. image:: /img/insights/studentinsights.png
-       :alt: Student Insights

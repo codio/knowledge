@@ -20,7 +20,7 @@ In Google Classroom
 In Codio
 --------
 
-    2. Go to the **Admin** area in the course you wish to integrate to Google Classroom. 
+    2. Go to the **LTI/LMS** area in the course you wish to integrate to Google Classroom. 
     3. Select **Connect to Google Classroom** and authenticate to your Google account.
 
     .. figure:: /img/google_integrate.png
@@ -45,11 +45,8 @@ Updating
 
 If assignments/modules are added/removed in the Codio Course, to update to your Google Classroom:
 
-7.  Go to the **Admin** area in the course
+7.  Go to the **LTI/LMS** area in the course
 8.  Select **Update Google Classroom** to update
-
-    .. figure:: /img/google_update.png
-       :alt: Update Google Classroom
 
 
 As above, be aware that this may change the ordering in your Google classroom so review and reorder as required from the **Classwork** tab 
@@ -57,10 +54,12 @@ As above, be aware that this may change the ordering in your Google classroom so
 Removing
 ^^^^^^^^
 
-9. To remove the integration link between Codio and your Google Classroom ​ - Go to the **Admin** area in the course - Select **Remove Google Classroom** to update
+9. To remove the integration link between Codio and your Google Classroom ​ 
 
-    .. figure:: /img/google_remove.png
-       :alt: Remove Google Classroom
+- Go to the **LTI/LMS** area in the course 
+
+- Select **Remove Google Classroom** to update
+
 
 .. Note:: Removing the integration link will mean students will not be able to access any of their assignments any longer from Google Classroom
 

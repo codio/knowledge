@@ -5,14 +5,14 @@
 
 User Profile
 ============
-You can update your user profile from the **Account** tab on the **Settings** page. To access this page, click your user name or gravatar in the lower portion of the navigation pane.
+You can update your user profile from the **Overview** tab. To access this page, click your user name or gravatar in the lower portion of the navigation pane.
 
 Update your name, email address or password and click **Save Changes**.
 
 Delete your account
 -------------------
 
-You can delete your account by selecting the **Codio > Account** menu item and clicking the **Account** tab
+You can delete your account by selecting the **Overview** tab.
 
    .. image:: /img/delete.png
       :alt: Delete account

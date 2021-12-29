@@ -10,9 +10,9 @@ When a course is created by cloning or using a share code, the course (child) is
 
 Update & pull updates
 ---------------------
-After an update in the parent course has been published, from **"Edit"** mode, a **Pull** icon will appear next to assignments that have changed. Follow these steps to pull the updates.
+After an update in the parent course has been published, from **Edit Assignments** area, a **Pull** icon will appear next to assignments that have changed. Follow these steps to pull the updates.
 
-1. In the Dashboard, select the course to open it and click on the **Edit** tab. The assignments that have changed show a **Pull** icon.
+1. In the Dashboard, select the course to open it and click on the **Edit Assignments** tab. The assignments that have changed show a **Pull** icon.
 
    .. image:: /img/pullarrow.png
       :alt: Pull
@@ -37,9 +37,9 @@ Some people prefer to **send notifications** to alert child courses of updates. 
 
 To send notifications, follow these steps:
 
-1. In the Dashboard, select the course to open it and then click the **Admin** tab.
+1. In the Dashboard, select the course to open it and then click the **Course Details** tab.
 
-2. Click the **Send New Notification** link in the lower left corner of the page.
+2. Click the **Send New Notification** button in the **Course Management** section.
 
 3. In the **Notification Message** text box, enter the message to instructors that explains the changes that have been made to the parent course and are now available in the child course. 
 
@@ -48,7 +48,7 @@ To send notifications, follow these steps:
 
    The message can include details of all the changes made in each assignment or just be a summary. If a summary is included, instructors can pull the assignments and review the information in the publish assignment changelog. 
 
-  .. Note:: To view a history of all notifications sent for published updates in the parent course, click the **View Sent Notification** link.
+  .. Note:: To view a history of all notifications sent for published updates in the parent course, click the **View Sent Notification** button.
 
 4. After a notification has been sent, a **Download** icon is displayed in the upper right corner of the course.
 
@@ -83,7 +83,7 @@ Add new assignments from parent to child courses
 ------------------------------------------------
 When a new assignment has been added in the parent course, it will not automatically be added to child courses. Rather, child courses will need to add it manually to allow future updates to be pulled. Follow these steps to add an assignment from the parent course to the child course:
 
-1. In the Dashboard, select the child course to open it and go to the **Edit** tab.
+1. In the Dashboard, select the child course to open it and go to the **Edit Assignments** tab.
 
 2. Select the module and click **Add assignment**.
 
@@ -98,7 +98,7 @@ Revert to earlier version
 -------------------------
 You can revert back to earlier published versions of your courses. However, reverting automatically publishes the course and it's available to your students.
 
-1. In the Dashboard, select the course to open it and go to the **Edit** tab.
+1. In the Dashboard, select the course to open it and go to the **Edit Assignments** tab.
 
 2. On the **Assignments** page, click the **Versions** button.
 
@@ -148,12 +148,9 @@ Announcements can be sent to instructors that displays a similar banner as above
 
 To send an announcement, follow these steps:
 
-1. In the Dashboard, select the course to open it and then click the **Admin** tab.
+1. In the Dashboard, select the course to open it and then click the **Course Details** tab.
 
-2. Click the **Send New Announcement** link in the lower portion of the page.
-
-   .. image:: /img/manage_classes/send_announcement.png
-      :alt: Announcement to Child Courses 
+2. Click the **Send New Announcement** button in the **Course Management** section.
 
 3. In the **Notification Message** text box, enter the message to instructors you wish to send.
 

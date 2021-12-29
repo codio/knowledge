@@ -19,9 +19,9 @@ Account Settings
    github
    upload-ssh-key-remote-server
 
-You manage your account and customize your user preferences on the **Settings** page. To access this page, click your user name or gravatar in the lower portion of the navigation pane.
+You manage your account and customize your user preferences on the **Overview** page. To access this page, click your user name or gravatar in the lower portion of the navigation pane.
 
-From the **Settings** page, you can access and manage the following:
+From the **Overview** page, you can access and manage the following:
 
 - :ref:`User Profile <user-profile>`
 - :ref:`Manage Password <password>`

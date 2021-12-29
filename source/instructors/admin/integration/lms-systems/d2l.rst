@@ -15,14 +15,13 @@ Enable LTI for Your Course
 
 1. Open the course you would like to connect or create a new course.
 2. Make sure you have at least one published assignment or add a new one. (see :ref:`Add and Remove Course Assignments <add-remove-assignment>`)
-3. Select the **Admin** tab and click on the blue **Edit Details** button at the bottom.
+3. Select the **LTI/LMS** tab.
 4. Select the **ENABLE LTI** option.  
 
   .. image:: /img/lti/enable-lti.png
      :alt: enable lti
      
-
-5. Click **Save**.
+5. Click **Save Changes**.
 
 Bring up the LTI Integration Information
 ----------------------------------------

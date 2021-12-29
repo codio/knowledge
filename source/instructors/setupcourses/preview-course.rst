@@ -13,7 +13,7 @@ You can preview a course and assignments as a student by logging into one of the
   .. image:: /img/accesscourse.png
      :alt: Access Course
      
-2. Go to the **Teach** tab.
+2. Go to the **Overview** tab.
 3. Click the assignment to open it. You should see a list of **Test Students**. If you do not see Test Students, see :ref:`Add or Remove Students in a Course <add-remove-students>` to learn how to add students.
 4. Use one of the following methods to login as the student:
 
@@ -32,10 +32,10 @@ You can preview a course and assignments as a student by logging into one of the
 
 Preview assignment as teacher
 -----------------------------
-You can also preview an assignment as a teacher after you have added them. Follow these steps to preview an assignment in **teach** mode:
+You can also preview an assignment as a teacher after you have added them. Follow these steps to preview an assignment in **Overview** mode:
 
 1. On the **Courses** page, click the course that includes the assignments you want to preview.
-2. On the **Teach** page, click the **Preview** button.
+2. On the **Overview** page, click the **Preview** button.
 
      .. image:: /img/manage_classes/preview.png
         :alt: Preview Assignment

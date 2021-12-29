@@ -53,7 +53,8 @@ LTI Keys
 
 To find these keys:
 
-1.  Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **My Organizations**.
+1.  Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within 
+**Organizations**.
 2.  Select the **LTI Integrations** tab.
 3.  Scroll down to the **LTI Integration 1.0** section. You should see the following fields.
 
@@ -67,10 +68,10 @@ The **Course LMS URL** is used to map an LMS course to a Codio course. It ensure
 
 The LMS user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.
 
-1.  In Codio, go to the **Admin** tab near the top.
-2.  Select **Edit Details** in the bottom of the page.
-3.  Near the bottom is a switch **Enable LTI** which you should enable.
-4.  Below this is an empty field **Course LMS URL**. Switch back to your LMS and make sure you are on the Home page of the course. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio.
+1.  In Codio, go to the **LTI/LMS** section.
+2.  At the top is a switch **Enable LTI** which you should enable.
+3.  Below this is an empty field **Course LMS URL**. Switch back to your LMS and make sure you are on the Home page of the course. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio.
+4. Save your changes.
 
 .. figure:: /img/lti/lti-class-url.png
    :alt: lti-class-url
@@ -86,6 +87,6 @@ The **Assignment URL** is needed to map each individual assignment within your C
 .. figure:: /img/lti/LMS-Unit-URL.png
    :alt: Assigment URL
 
-.. Note:: The LTI integration URLs for the assignments in a course can be exported. Select the course, go to the **Admin** tab, and press the **Export LTI Settings** button. 
+.. Note:: The LTI integration URLs for the assignments in a course can be exported. Select the course, go to the **LTI/LMS** tab, and press the **Assignment URLS** button and a CSV will download that provides the information for the course in one place.
 
 3.  Complete the mapping in your LMS.

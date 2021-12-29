@@ -6,7 +6,7 @@
 SSH Key
 =======
 
-An SSH public and private key pair is automatically generated for your account that can then be used when Codio attempts communication with an external server that requires authentication based on a public or private key, such as SSH terminal or SFTP. You access this key from the **SSH Key** tab on the **Settings** page.
+An SSH public and private key pair is automatically generated for your account that can then be used when Codio attempts communication with an external server that requires authentication based on a public or private key, such as SSH terminal or SFTP. You access this key from the **SSH Keys** tab.
 
     .. image:: /img/prefs-account-ssh.png
        :alt: Codio SSH Key

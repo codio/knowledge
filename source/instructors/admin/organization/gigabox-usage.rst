@@ -16,12 +16,12 @@ To view the status of your current Gigabox usage for all users, follow these ste
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **My Organizations** area, click the name of your organization.
+2. In the **Organizations** area, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations
 
-3. Click the **Organization Settings** tab.
+3. Click the **Overview** tab.
 
    .. image:: /img/manage_organization/orgsettingstab.png
       :alt: Organization Settings

@@ -15,6 +15,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **December 2021**
 
+- `[F] [30th]`: Redesign menus for :ref:`Courses <create-courses>` and :ref:`Organizations <organizations>`
+- `[F] [20th]`: Add ability to show :ref:`Leaderboard <progress-bar>` in students dashboard
+- `[F] [20th]`: Add ability to show :ref:`Average course progress bar <progress-bar>` in students dashboard
 - `[F] [15th]`: Add support for :ref:`Scratch Backpack <scratchbackpack>`
 - `[I] [13th]`: Add support for students to join courses with google/git/bb account credentials
 - `[F] [ 3rd]`: Add :ref:`guides editor ribbon <markdown-content-editing>` to assist in creation of markdown content in guides

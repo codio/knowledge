@@ -21,12 +21,12 @@ Follow these steps to create a rubric grading template:
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **My Organizations** area, click the name of your organization.
+2. In the **Organizations** area, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations
 
-3. Click the **Grading Templates** tab.
+3. Click the **Rubrics** tab.
 
    .. image:: /img/class_administration/grading/templates.png
       :alt: Grading Templates

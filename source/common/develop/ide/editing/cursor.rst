@@ -18,11 +18,10 @@ This feature is useful when assisting other users so you can see what they are d
 
 Multiple cursors
 ----------------
-You can place multiple cursors anywhere in a file using the following keyboard shortcuts:
+You can place multiple cursors anywhere in a file using the following keyboard shortcut:
 
-- **Cmd+Click** (Mac) 
-- **Ctrl+Click** (PC/Linux)
+- **Alt+Click**
 
-Click to place the cursor at the desired location, and then press and hold **Cmd** or **Ctrl** and begin clicking at new locations. When you release Cmd or Ctrl, you can start typing and the content will be duplicated at all cursor locations.
+Click to place the cursor at the desired location, and then press and hold **Alt** clicking at new locations. When you release Alt you can start typing and the content will be duplicated at all cursor locations.
 
-You can also use **Alt-Click** to place the cursor everywhere in between a start and end position.
+

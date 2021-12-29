@@ -9,8 +9,8 @@ Upload SSH Key to Remote Server
 
 To make a secure connection to a remote server, you must upload your SSH key to the server. 
 
-1. Click your user name or gravatar in the lower portion of the navigation pane to open the **Settings** page.
-2. Click the **SSH Key** tab.
+1. Click your user name or gravatar in the lower portion of the navigation pane.
+2. Click the **SSH Keys** tab.
 
    .. image:: /img/prefs-account-ssh-dialog.png
       :alt: SSH Dialog
