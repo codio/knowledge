@@ -205,7 +205,7 @@ Below is an example bash script file that can be stored in the **.guides/secure*
 Sending Points to Codio
 -----------------------
 
-Codio provides a Python library to facilitate reporting points from your custom scripts. There are four functions in this library: `send_grade`, `send_grade_v2`, `send_partial` and `send_partial_v2`. See :ref:`Allow Partial Points <partial-points>` for more information about setting up partial points.
+Codio provides a Python library to facilitate reporting points from your custom scripts. There are four functions in this library: `send_grade`, `send_grade_v2`, `send_partial` and `send_partial_v2`. Partial points are only used in Advanced Code tests, see :ref:`Allow Partial Points <partial-points>` for more information about setting up partial points.
 
 In order to use this library you need to add the following code to the top of your grading script:
 
@@ -229,13 +229,13 @@ The calls to use these functions are as follows:
 
     send_grade(grade) 
 
-`grade` - Should be 0 or the total point value for the assessment.
+`grade` - Should be the percent correct for the assessment.
 
 .. code:: python
 
     send_grade_v2(grade, feedback, format=FORMAT_V2_TXT, extra_credit=None)
 
-`grade` - Should be 0 or the total point value for the assessment.
+`grade` - Should be the percent correct for the assessment.
 
 `feedback` - The buffer containing the feedback for your student - maximum size is 1 Mb.
 
