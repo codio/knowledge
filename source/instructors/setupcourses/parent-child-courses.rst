@@ -6,7 +6,7 @@
 
 Working with Parent/Child Courses
 =================================
-When a course is created by cloning or using a share code, the course (child) is tied to the original (parent) course and any updates to an assignment in the parent course are also updated in the child course. Details of the parent course for any child assignments can be seen from the :ref:`version history button <relationship>` and child assignments can also be :ref:`disconnected <disconect>` if required.
+When a course is created by cloning or using a share code, the course (child) is tied to the original (parent) course and any updates to an assignment in the parent course are also updated in the child course. Details of the parent course for any child assignments can be seen from the :ref:`version history button <relationship>` and individual child assignments as well as the entire course can  be :ref:`disconnected <disconect>` if required.
 
 Update & pull updates
 ---------------------
@@ -130,15 +130,28 @@ Details of the parent course associated with child assignments can be seen from 
 .. _disconect:      
 
 
-Disconnecting assignments from parent course
---------------------------------------------
+Disconnecting assignments or the child course from parent course
+----------------------------------------------------------------
+
+Individual assignments
+^^^^^^^^^^^^^^^^^^^^^^
 
 Assignments in child courses can be disconnected from the parent assignment so any future updates released for the parent assignment will not be available to update.
 
    .. image:: /img/manage_classes/disconnect.png
       :alt: Disconnect assignment
 
-.. Note:: This feature is not available to child assignments from licensed parent course
+Entire Course
+^^^^^^^^^^^^^
+
+The entire course can be disconnected from the parent course so any future updates released for the parent course will not be available to update. 
+
+ - Select the course, and then click the **Course Details** tab and click **Disconnect** button in the **Course Management** section.
+
+   .. image:: /img/manage_classes/disconnectcourse.png
+      :alt: Linked Parent Course 
+
+.. Note:: This feature is not available to child courses from licensed parent course
 
 .. _send-announcements:
 

@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**January 2022**
+
+- `[F] [12th]`: Add ability to :ref:`disconnect <disconect> child course from parent course
+
 **December 2021**
 
 - `[F] [30th]`: Redesign menus for :ref:`Courses <create-courses>` and :ref:`Organizations <organizations>`
