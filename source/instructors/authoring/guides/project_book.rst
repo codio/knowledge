@@ -12,26 +12,20 @@ Projects
 
 A :ref:`project <projects>` is simply a standalone Codio box. It may or may not have guides content. Projects are to be found in the **Projects** page on the main Codio dashboard.
 
-
   .. image:: /img/projectslist.png
-     :alt: My Projects
-
-
+     :alt: Courses
 
 You would want to choose a project as the place to create your content if you have individual, ad hoc assignments or examples that do not constitute more extensive coursework or are not part of a larger series of associated projects.
 
-
 A project can be :ref:`assigned to a course <add-remove-assignment>` at any time. All the students in that course will then be able to access that project and its content.
 
-
 There are drawbacks to using projects to assign to students. If you have related projects and the number of projects grows, it can be hard to quickly find a project you want to assign to a course. There is also no way to arrange your projects into chronological order. Courses and books offer excellent solutions to this organizational problem.
-
 
 Assignments
 ***********
 An :ref:`assignment <add-remove-assignment>` is essentially the same as a project. The only difference is that your project assignments are located in the courses area in the main Codio dashboard and accessible to other teachers who can edit the item and to students in the course. Assignments are very easy to locate as they are tidily organized within the course module they belong to. You can also arrange your assignments within a course module.
 
-  .. image:: /img/courseslist.png
+  .. image:: /img/courselist.png
      :alt: Courses
 
 
