@@ -6,7 +6,7 @@
 
 Working with Parent/Child Courses
 =================================
-When a course is created by cloning or using a share code, the course (child) is tied to the original (parent) course and any updates to an assignment in the parent course are also updated in the child course. Details of the parent course for any child assignments can be seen from the :ref:`version history button <relationship>` and individual child assignments as well as the entire course can  be :ref:`disconnected <disconect>` if required.
+When a course is created by cloning or using a share code, the course (child) is tied to the original (parent) course and any updates to an assignment in the parent course may also be updated. Details of the parent course for any child assignments can be seen from the :ref:`version history button <relationship>` and individual child assignments as well as the entire course can  be :ref:`disconnected <disconect>` if required.
 
 Update & pull updates
 ---------------------

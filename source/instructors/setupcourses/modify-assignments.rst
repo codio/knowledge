@@ -11,7 +11,7 @@ You can make changes to assignments that have already been published but it is n
 Follow these steps to modify an assignment and re-publish it:
 
 1. On the **Courses** page, click the course that contains the assignment you want to edit.
-2. Click on the **Edit Assignments** tab and expand the module and click the assignment to open it. If there is a later version published than your working copy, a message will be shown offering you the option to open your last version or the most latest published version.
+2. Click on the **Edit Assignments** tab and expand the module and click the assignment to open it. If there is a more recent version published than your working copy, a message will be shown offering you the option to open your current version or the last published version.
 3. Click the assignment and make your changes to the assignment (see below).
 4. When you have completed your changes, click **Publish** in the upper right corner of the assignment or from the **Education** menu area
 5. Enter a description of your updates in the **Change Log** and then click **Publish**.
