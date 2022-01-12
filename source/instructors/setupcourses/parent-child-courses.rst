@@ -130,8 +130,8 @@ Details of the parent course associated with child assignments can be seen from 
 .. _disconect:      
 
 
-Disconnecting assignments or the child course from parent course
-----------------------------------------------------------------
+Disconnecting assignments or an entire course from a parent course
+------------------------------------------------------------------
 
 Individual assignments
 ^^^^^^^^^^^^^^^^^^^^^^
