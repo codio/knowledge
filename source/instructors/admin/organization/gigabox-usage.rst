@@ -23,7 +23,7 @@ To view the status of your current Gigabox usage for all users, follow these ste
 
 3. Click the **Overview** tab.
 
-   .. image:: /img/manage_organization/orgsettingstab.png
+   .. image:: /img/manage_organization/orggigabox.png
       :alt: Organization Settings
 
 4. In the **Giga Boxes Information** section, view your organization's usage data. You can modify the gigabox size for a project in the :ref:`Project Settings  <project-settings>`.
