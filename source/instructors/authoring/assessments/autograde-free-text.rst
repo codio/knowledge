@@ -107,19 +107,19 @@ Example Bash script for free-text auto-grade with partial points
 
     #!/usr/bin/env bash
     POINTS=0
-    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer1" ]
-    then
-      POINTS=1
-    fi
-    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer5" ]
-    then
-      POINTS=5
-    fi
-    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer10" ]
+    if [ "${CODIO_FREE_TEXT_ANSWER}" == "1" ]
     then
       POINTS=10
     fi
-    curl -s "$CODIO_PARTIAL_POINTS_URL&points=${POINTS}" > /dev/null
+    if [ "${CODIO_FREE_TEXT_ANSWER}" == "5" ]
+    then
+      POINTS=50
+    fi
+    if [ "${CODIO_FREE_TEXT_ANSWER}" == "10" ]
+    then
+      POINTS=100
+    fi
+    curl  -s "$CODIO_PARTIAL_POINTS_V2_URL" -d points=$POINTS -d format=html -d feedback='<strong>any HTML text</strong>'
 
 
 Example Python script for free-text auto-grade with partial points
