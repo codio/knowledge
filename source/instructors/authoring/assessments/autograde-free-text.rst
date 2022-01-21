@@ -11,7 +11,7 @@ Follow these steps to set up an autograde free text assessment:
 
 1. On the **General** page, enter the following information:
 
-   .. image:: /img/guides/assessment_autofree_exec.png
+   .. image:: /img/guides/assessment_free_general.png
       :alt: General
 
   - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
