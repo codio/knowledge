@@ -119,7 +119,7 @@ Example Bash script for free-text auto-grade with partial points
     then
       POINTS=10
     fi
-    curl "$CODIO_PARTIAL_POINTS_URL&points=${POINTS}" > /dev/null
+    curl -s "$CODIO_PARTIAL_POINTS_URL&points=${POINTS}" > /dev/null
 
 
 Example Python script for free-text auto-grade with partial points
