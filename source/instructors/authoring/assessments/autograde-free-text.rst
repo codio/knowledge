@@ -11,7 +11,7 @@ Follow these steps to set up an autograde free text assessment:
 
 1. On the **General** page, enter the following information:
 
-   .. image:: /img/guides/assessment_autofree_exec.png
+   .. image:: /img/guides/assessment_free_general.png
       :alt: General
 
   - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
@@ -107,19 +107,19 @@ Example Bash script for free-text auto-grade with partial points
 
     #!/usr/bin/env bash
     POINTS=0
-    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer1" ]
-    then
-      POINTS=1
-    fi
-    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer5" ]
-    then
-      POINTS=5
-    fi
-    if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer10" ]
+    if [ "${CODIO_FREE_TEXT_ANSWER}" == "1" ]
     then
       POINTS=10
     fi
-    curl "$CODIO_PARTIAL_POINTS_URL&points=${POINTS}" > /dev/null
+    if [ "${CODIO_FREE_TEXT_ANSWER}" == "5" ]
+    then
+      POINTS=50
+    fi
+    if [ "${CODIO_FREE_TEXT_ANSWER}" == "10" ]
+    then
+      POINTS=100
+    fi
+    curl  -s "$CODIO_PARTIAL_POINTS_V2_URL" -d points=$POINTS -d format=html -d feedback='<strong>any HTML text</strong>'
 
 
 Example Python script for free-text auto-grade with partial points

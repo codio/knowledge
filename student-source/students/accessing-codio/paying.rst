@@ -72,7 +72,7 @@ This means that unfortunately Codio cannot assist in solving the issue which is 
 
 In case of a transaction failure, Codio recommends to first try using an alternative credit card, or to give it another try with the same credit card again but at a later time. In most cases this would solve the issue.
 
-Carefully check the card details before confirming the transaction for processing. Also ensure your card is actually a credit card and not just a debit card.
+Carefully check the card details before confirming the transaction for processing.
 
 Should the transaction continue to fail you might want to get in touch with your credit card company. Your credit card company will be able to check the transaction log for your credit card and help fix the problem. In some cases your credit card company would need to pre-authorize the transaction for you before you can process the transaction again.
 
