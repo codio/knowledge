@@ -20,7 +20,6 @@ Teaching
    instructors/teaching/resetpassword
    instructors/teaching/remove
    instructors/teaching/plagiarism
-   instructors/teaching/datadownload
    instructors/teaching/addstudents
    
 Viewing student work
