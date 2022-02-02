@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **February 2022**
 
+- `[I] [ 2nd]`: Improve handling of :ref:`Scratch <scratch>` autosaving
 - `[I] [ 2nd]`: Fix problem downloading files from chrome browser
 - `[I] [ 2nd]`: Update handling of linter
 
