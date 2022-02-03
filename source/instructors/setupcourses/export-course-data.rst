@@ -26,6 +26,23 @@ You can export course data (including students workspaces) prior to :ref:`deleti
       
 .. Note:: You can also export individual assignment data if you do not need or require data for all the assignments in your course. See :ref:`Export assignment data <export-assignment>`
 
+.. _export-studentcourse-data:
+
+Export Student Data for the Course
+----------------------------------
+
+You can export course data for individual students (including their workspaces) rather than having to export the whole course data. Follow these steps to delete the course data:
+
+1. Navigate to the **Courses** page and select the course to open it.
+2. Click the **Students** tab and select the student
+3. Right click the 3 blue dot menu and select **Export Student Data**.
+
+   .. image:: /img/studentdata_export.png
+      :alt: Export Student Data
+
+   All the data from the course is compiled in a **.zip** file. An email is then sent to you that includes a link to download the students data. The link remains active for 7 days and then the file is removed.
+
+
 .. _export-assessment-data:
 
 Export Assessment Data
@@ -88,6 +105,7 @@ To export data related to users accessing assignments in the course, follow thes
    - IP address (IP address associated with login session)
 
 .. Note:: The data is retained for a maximum of 6 months.
+
 
 
 Course Content Exports
