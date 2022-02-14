@@ -26,7 +26,7 @@ Viewing student work
 --------------------
 
 
-As a teacher you have access to your student's assignments within Codio. This allows you to view and access any work your students have completed at any time. You can enable writable mode to be able to make changes if necessary. Changes made when in writable mode are not saved and do not affect the students work.
+As a teacher you have access to your students' assignments within Codio. This allows you to view and access work your students have completed at any time.
 
 1. From the **Courses** area, click on your course to open it.
 
@@ -44,6 +44,14 @@ As a teacher you have access to your student's assignments within Codio. This al
 
   .. image:: /img/openstudent.png
      :alt: Open student work
+
+Writeable Copy
+--------------
+When you open a student project, changes you make will be saved in their project and they will see them when they open their projects. 
+
+If you would like to try something out in their code without changing their version, click on the **WRITEABLE COPY** button on the top right. Changes made in this copy won't be saved.
+
+  .. image:: /img/monitor_students/writeable.png
 
 Downloading student workspaces
 ------------------------------
