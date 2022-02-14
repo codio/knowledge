@@ -81,12 +81,12 @@ and for each assessment:
 .. Note:: The data is retained for a maximum of 6 months.
 
 
-Export Course Data
-------------------
+Export Course Access Data
+-------------------------
 To export data related to users accessing assignments in the course, follow these steps:
 
 1. Navigate to the **Courses** page and select the course to open it.
-2. Click the **Export** tab and then click **Course Data** in the **Export** section. 
+2. Click the **Export** tab and then click **Course Access Data** in the **Export** section. 
 
    .. image:: /img/user_access_export.png
       :alt: Export Course Data
