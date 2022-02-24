@@ -10,6 +10,8 @@ Jeroo is now available in Codio as a :ref:`Stack <stacks>`.
 
 |jeroo|
 
+.. Warning:: :ref:`Pair Programming <group-work>` should not be used for Jeroo assignments. 
+
 With :ref:`Codio guides <guides-intro>` you can provide instructions for an assignment side-by-side with the Jeroo environment.
 
 Start by creating either a new project or assignment in your course, selecting the **Jeroo** stack.

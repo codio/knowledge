@@ -17,6 +17,8 @@ Flode is a flowcharting application, using Javascript as its enginge, that allow
 
   .. image:: /img/flode.png
      :alt: flode
+
+.. Warning:: :ref:`Pair Programming <group-work>` should not be used for Flode assignments. 
      
 Creating and editing a new Flode file
 *************************************
