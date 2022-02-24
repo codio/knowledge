@@ -12,7 +12,7 @@ Pyret is now available in Codio.
 
 .. Warning:: :ref:`Pair Programming <group-work>` should not be used for Pyret assignments. 
 
-With :ref:`Codio guides <guides-intro>` you can provide instructions for an assignment side-by-side with the Pencil Code environment.
+With :ref:`Codio guides <guides-intro>` you can provide instructions for an assignment side-by-side with the Pyret environment.
 
 
 To create an empty Pyret project in Codio, select **File > New** from the Codio menu and create a file with an **.arr** suffix. 
