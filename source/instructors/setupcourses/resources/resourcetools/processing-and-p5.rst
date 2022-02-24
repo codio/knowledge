@@ -13,6 +13,8 @@ Processing and p5
   .. image:: /img/process.png
      :alt: p5 example
 
+.. Warning:: :ref:`Pair Programming <group-work>` should not be used for Processing/p5 assignments. 
+
 We have a two starter packs available to help you get started:
 
 1. **Hello Processing/p5 in Codio Starter Pack:** You can find this by either searching for "processing/p5" in the starter pack area or:

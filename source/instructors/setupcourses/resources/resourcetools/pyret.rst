@@ -10,6 +10,8 @@ Pyret is now available in Codio.
 
 |pyret|
 
+.. Warning:: :ref:`Pair Programming <group-work>` should not be used for Pyret assignments. 
+
 With :ref:`Codio guides <guides-intro>` you can provide instructions for an assignment side-by-side with the Pencil Code environment.
 
 

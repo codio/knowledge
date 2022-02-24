@@ -10,6 +10,8 @@ Pencil Code is now available in Codio installing from **Tools->Install Software*
 
 |pencilcode|
 
+.. Warning:: :ref:`Pair Programming <group-work>` should not be used for Pencil Code assignments. 
+
 With :ref:`Codio guides <guides-intro>` you can provide instructions for an assignment side-by-side with the Pencil Code environment.
 
 Start by creating either a new project or assignment in your course and selecting the **Pencilcode Alpha** stack. 
