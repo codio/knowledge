@@ -14,7 +14,7 @@ The submit button
 -----------------
 By default each assessment has a submit button beneath the assessment. Once pressed, the answer is autograded. 
 
-MCQ, Fill In The Blank or Free Text questions are one attempt only, other assessments allow multiple attempts. If the **One attempt only** setting is selected for the assessment or it is one of the previously mentioned three, the student will be warned that they will not be able to resubmit. If this setting is not selected, they will be able to resubmit a response.
+Each assessment type allows you to define the number of attempts students can make. On the last allowed attempt, the student will be warned that they will not be able to resubmit after that attempt.
 
 You can suppress the use of submit buttons for MCQ, Fill in the Blank, Free Text and Free Text Autograde assessments. You cannot suppress the submit buttons for Standard Code Test, Advanced Code Test and Parsons Puzzle assessments.
 
@@ -25,7 +25,6 @@ To suppress the use of the **Submit** button, go to the **Global** settings tab 
   .. image:: /img/guides/globalsettings.png
      :alt: Global Settings
 
-.. Note:: You can suppress the use of submit buttons for MCQ, Fill in the Blank, Free Text and Free Text Autograde assessments. Standard Code Test, Advanced Code Test and Parsons Puzzle assessments submit buttons cannot be suppressed.
 
 Once the project is marked as complete (see below) all assessment responses are submitted automatically. All students work must be marked as complete either manually or using the automated **Mark as Complete** option on the final deadline.
 
