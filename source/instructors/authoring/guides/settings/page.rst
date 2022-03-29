@@ -87,8 +87,6 @@ Content Type
 ------------
 You can specify whether the page content type is Markdown or HTML. If you choose HTML, you will need to set the page HTML header and footer in :ref:`global settings <global>`.
 
-.. _teacher-only:
-
 Teacher only content
 --------------------
 If this switch is enabled then the page contents will not be show to students. Teachers will be able to see it when they open an assignment in a course or when opening a students assignment.
