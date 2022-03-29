@@ -20,6 +20,7 @@ Authoring
    previewing_content
    html_content
    teacher_only
+   solution_templating
    custom_button
    add_media
    open_close_content
