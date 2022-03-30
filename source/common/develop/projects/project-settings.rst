@@ -15,7 +15,10 @@ The Settings page within a project includes various options for specifying setti
 - Protect Dynamic Ports. Enable to restrict preview to the owner of the box; disable to allow preview of the box to anyone who knows the box url. This setting is only available from **Project > Settings**.
 - Stack Settings - specify current stack and version used in your project.
 - Forwarding Settings - enable SSH forwarding. See :ref:`Access Codio Box via SSH <ssh>` for more information.
-- Gigaboxes Settings - set this to a larger size if you have a memory intensive project. You must first request a larger box for your organization. Contact help@codio.com to initiate this discussion. If you add your project to a course as an assignment, you need to set the Gigabox usage in the course :ref:`assignment settings <assignment-gigabox>`.
+- Gigaboxes Settings - set this to a larger size if you have a memory intensive project. You must first request a larger box for your organization. Contact help@codio.com to initiate this discussion. If you add your project to a course as an assignment, as you publish your assignment, the **Propagate gigabox settings to the assignment settings** option on the publish assignment dialog will show. By default it is enabled but you can disable it if you choose.
+
+.. image:: /img/propagate.png
+   :alt: Publish Dialog
 
 You can also perform the following tasks from the project settings:
 

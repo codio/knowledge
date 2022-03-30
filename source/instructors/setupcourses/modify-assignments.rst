@@ -23,6 +23,7 @@ When you make changes to an assignment and attempt to re-publish it, if students
 .. image:: /img/updateassignment.png
    :alt: Update Assignment
 
+.. Note:: The **Propagate gigabox settings to the assignment settings** option will show if the :ref:`gigabox <assignment-gigabox>` setting for the working copy is different to that set for the assignment. By default it is enabled but you can disable it if you choose.
 
 Reset assignment for individual student
 ---------------------------------------
