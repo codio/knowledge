@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**April 2022**
+
+- `[F] [ 6th]`: Add new :ref:`Notification Email <notification-emails>` option
+
 
 **March 2022**
 
