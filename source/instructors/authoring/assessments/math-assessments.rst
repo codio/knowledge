@@ -13,7 +13,7 @@ Codio allows you to set and grade math questions for any type and level of mathe
 Manually graded assessments using free text
 *******************************************
 
-To create a manually graded math question, you can use the **Free text** assessment type. This allows the students to enter expressions or even full proofs and worked answers using Latex. For more information about Latex, please [click here](/courses/authoring/#latex-for-math-expressions).   **Update when page added for authoring**
+To create a manually graded math question, you can use the **Free text** assessment type. This allows the students to enter expressions or even full proofs and worked answers using Latex. For more information about Latex, please :ref:`click here <latex>`. 
 
 You can enter Latex in the **Question** and **Answer rationale** fields.
 

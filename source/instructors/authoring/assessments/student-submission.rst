@@ -20,7 +20,7 @@ You can suppress the use of submit buttons for MCQ, Fill in the Blank, Free Text
 
 This feature is handy for exams, students do not need to worry about the effect of pressing the button. They can provide a response and move on to other assessments or pages in the guide.
 
-To suppress the use of the **Submit** button, go to the **Global** settings tab in the guide and disable **Use submit buttons**.
+To suppress the use of the **Submit** button, go to the **settings** button in the guide and disable **Use submit buttons**.
 
   .. image:: /img/guides/globalsettings.png
      :alt: Global Settings
@@ -30,7 +30,7 @@ Once the project is marked as complete (see below) all assessment responses are 
 
 Mark as Complete
 ----------------
-To suppress the student **Mark as complete** action, go to the guide **Global** settings (see above screenshot) and disable **Use mark as complete**.
+To suppress the student **Mark as complete** action, go to the guide **settings** (see above screenshot) and disable **Use mark as complete**.
 
 A student can proactively mark an assignment as complete. This can trigger an :ref:`assignment level autograde script <auto-grade-scripts>` and it is also displayed in the teacher dashboard for that student.
 
