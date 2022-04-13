@@ -12,18 +12,12 @@ Audio
 *****
 Audio files can be added to and played from your project.
 
-To add Audio: select the  **Settings** area where you can define the source audio file along with any actions the should be triggered at specific times during playback.
-
-1. Click Editor Settings
-
-  .. image:: /img/guides/editbook.png
-     :alt: Editor settings
+To add Audio: select **Media** icon in the guides editor ribbon where you can define the source audio file along with any actions the should be triggered at specific times during playback.
 
 
-2. Select the **Media** tab
+  .. image:: /img/guides/ribbon-media.png
+     :alt: Media
 
-  .. image:: /img/guides/media.png
-     :alt: Media settings
 
 
 - **Source Name** - select the source file either from `.guides/media` folder if already uploaded to the project or upload directly from your PC and it will be stored in the `.guides/media` folder.
@@ -41,7 +35,7 @@ To add Audio: select the  **Settings** area where you can define the source audi
 
 Images
 ******
-Inserting an image is similar. Here are some examples. PNG and JPG image types are supported. Note that the 2nd and 3rd examples point to images within your project.
+Inserting an image is similar. You can use the **Image** icon in the guides editor ribbon or write in markdown within your content area. Here are some examples. PNG and JPG image types are supported. Note that the 2nd and 3rd examples point to images within your project.
 
 Store your images in the `.guides/img` folder if you do not want them to be readily accessible to students.
 
@@ -72,6 +66,8 @@ For HTML pages:
 
 Videos
 ******
+
+You can use the **Image** icon in the guides editor ribbon defining the URL to the video or you can manually add to your content.
 
 Include embedded videos using the standard `<iframe>` html tag.
 

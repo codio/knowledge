@@ -20,7 +20,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2022**
 
-- `[I] [30th]`: Improve messaging if publishing assignments with :ref:`gigabox <assignment-gigabox> slots enabled
+- `[I] [30th]`: Improve messaging if publishing assignments with :ref:`gigabox <assignment-gigabox>` slots enabled
 - `[F] [29th]`: Add :ref:`All <search-courses>` tab to courses dashboard to allow owners to see only courses they are a teacher in
 - `[F] [29th]`: Add support for :ref:`solution file templating <solutionfile>` 
 

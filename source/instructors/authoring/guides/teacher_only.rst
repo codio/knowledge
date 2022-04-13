@@ -22,7 +22,7 @@ You can make Guides content available only to course teachers in the following w
 
 Setting an entire page as teacher only content
 **********************************************
-Enable the **Teacher Only** slider in the :ref:`page settings <teacher-only>` to mark a page as teacher only The page will only appear in the index for teachers.
+Enable the **Teacher Only** slider in the :ref:`layout settings <teacher-only>` to mark a page as teacher only The page will only appear in the index for teachers.
 
 
 
