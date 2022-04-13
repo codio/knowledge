@@ -19,10 +19,9 @@ Using the Global Assessments Library
 ------------------------------------
 To access the Codio Global Assessments Library, follow these steps:
 
-1. Open an assessment in the Guide Editor.
-2. Click the **Assessments** drop-down and choose **Assessments Library**.
-3. On the **Choose an Assessment to Add** dialog, click the **Library Name** drop-down and choose **Codio Main**.
-4. You can filter through the different assessments by tags:
+1. Click the **Assessments** button and choose **Assessment** from the **Add from Library** area
+2. On the **Choose an Assessment to Add** dialog, click the **Library Name** drop-down and choose **Codio Main**.
+3. You can filter through the different assessments by tags:
 
    .. image:: /img/bloomsTax.png
       :alt: Bloom's Taxonomy
@@ -34,7 +33,7 @@ To access the Codio Global Assessments Library, follow these steps:
   - Learning Objective (in SWBAT form - "Students will be able to....")
   - Bloom's Taxonomy level
 
-5. Once you find the question you want to add to your assessment, click **Add**.
+4. Once you find the question you want to add to your assessment, click **Add**.
 
 Modify question from Global Assessment Library
 ----------------------------------------------
