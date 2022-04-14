@@ -15,10 +15,7 @@ You can automatically perform any of the following actions when a page is shown:
 
 You should also be aware that you can achieve the same actions from Markdown directives on a page. :ref:`click here <open-close>` for details.
 
-
-  .. image:: /img/guides/guide_files.png
-     :alt: open files
-     
+   
 Files can be opened automatically to present the student with relevant files.
 
 The **Add Tab** button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.

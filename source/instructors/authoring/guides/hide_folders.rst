@@ -4,4 +4,4 @@
 Hiding folders
 ==============
 
-You can organize your code samples in a dedicated folder and then use **Show Folders** on :ref:`layout settings <show-hide-folders>` to specify this folder. All non-specified folders are hidden from view in the file tree.
+You can organize your code samples in a dedicated folder and then use **Show Folders** on :ref:`layout settings <page>` to specify this folder. All non-specified folders are hidden from view in the file tree.
