@@ -15,6 +15,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2022**
 
+- `[I] [29th]`: Redesign of :ref:`Guides Authoring <authoring>` tool
+- `[F] [29th]`: Add markdown support for :ref:`announcements <send-announcements>` and :ref:
 - `[F] [ 6th]`: Add new :ref:`Notification Email <notification-emails>` option
 
 

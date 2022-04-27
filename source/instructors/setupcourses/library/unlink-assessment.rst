@@ -5,7 +5,7 @@
 
 Unlink an Assessment
 ====================
-If you want to modify an assessment that is the library, you can unlink it, make your changes, and then add your own version to your organization's assessments library. Follow these steps to find the assessment you wish to modify, either:
+If you want to modify an assessment that is in the library, you can unlink it, make your changes, and then add your own version to your organization's assessments library. Follow these steps to find the assessment you wish to modify, either:
 
 1. In the Guide Editor, click the **Edit: <Assessment Name>** button to the right of the assesment.
 

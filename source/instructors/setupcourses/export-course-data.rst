@@ -119,9 +119,11 @@ Export PDF
    .. image:: /img/pdf_export.png
       :alt: PDF Export
       
-Use this to obtain PDF versions of the guides content in your assignments. When selected, a dialog shows allowing you to select the assignments to obtain the PDF version
+Use this to obtain PDF versions of the guides content in your assignments. When selected, a dialog shows allowing you to select the assignments to obtain the PDF version.
 
-- You can select a single PDF where all selected assignments are compiled into one PDF file or to receive a PDF for each selected assignment
+- You can select a single PDF where all selected assignments are compiled into one PDF file or to receive a PDF for each selected assignment.
+
+- You can also include :ref:`teacher only notes <teacher-only>` in the PDF export
 
 - The link will be active for 7 days and after this time the file will be removed.
 
