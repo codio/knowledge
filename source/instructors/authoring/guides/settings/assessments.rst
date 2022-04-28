@@ -4,12 +4,12 @@
 Assessment Settings
 ===================
 
-Access assessment settings settings by clicking on **Settings** while editing a Guide and then clicking on the **Assessments** tab.
+Access assessment settings settings by clicking on **Assessments** while editing a Guide and then clicking on the **View Existing Assessments** option.
 
-All the :ref:`assessments <assessments>` in the book or guide are displayed and you can change point values from this tab.
+All the :ref:`assessments <assessments>` in the book or guide are displayed and you can change point values from this area.
   
-  .. image:: /img/guides/settings_assessments.png
-     :alt: Assessments
+   .. image:: /img/assessmentpoints.png
+         :alt: Edit Assessment Points
      
 Assessments that had been created and then deleted from a page will be highlighted in red. You can delete them from the project by clicking on the x to the left of the points.
 

@@ -12,7 +12,7 @@ Style your content using Markdown
 You can style your content using Markdown, a simple formatting language that is easier to use than HTML. You can embed HTML snippets in Guide content if you need a feature that is unavailable in Markdown.
 
 
-Load the **Demo Guides and Assessments** project to learn more about authoring with Guides
+Load the Demo Guides and Assessments project to learn more about authoring with Guides
 ------------------------------------------------------------------------------------------
 **Demo Guides and Assessments** is an example project you can use as a tutorial to learn more about creating Guides. If you do not see it in the **My Projects** tab of your Navigation Pane, you can load it using the instructions below.
 

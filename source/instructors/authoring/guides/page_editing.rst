@@ -7,9 +7,11 @@ Page editing overview
 =====================
 To create new content or to edit existing content, go to the **Tools->Guide->Edit** menu option.
 
-Use the layout modes to switch between editor, preview, and split view modes.
+Use the **Split View** button to switch into split view mode.
 
-When in preview mode, you can quickly switch back to editor mode by selecting the **Editor** button:
+Use the **Preview** button to switch into  preview mode.
+
+When in preview mode, you can quickly switch back to editor mode by selecting the **Edit** button:
 
 .. image:: /img/guides/editor.png
      :alt: Guides Edit Mode
@@ -33,46 +35,49 @@ Below is a screenshot of the editor with the main components highlighted.
 
 
 
-Editor settings
-***************
-Editor settings gives you access to the key functions:
+Layout
+******
 
-Page
-----
-  - :ref:`Layout <layout>` allows you to specify the panel layout you want to choose for this section,
-  - :ref:`Show Folders <show-hide-folders>` allows you to define specific folders in your project that you wish to be visible when the current section is displayed,
-  - :ref:`Close Tabs <close-tabs>` allows you to close all tabs open from previous section,
-      - **Close Terminal Session** when Close tabs enabled, allows you the option to retain terminal session from previous section. By default, terminal session will close
-  - **Set Section as Chapter** allows you to set the section as a chapter in your content,
+
+  .. image:: /img/guides/guideslayout.png
+     :alt: Layout settings
+
+
+Layout settings gives you access to the key functions:
+
+
+  - :ref:`Layout <layout>` allows you to specify the number of panels/columns you want to choose for this section, or set to **Previous** to inherit the layout settings from the previous page.
+  - **Show File Tree** allows you to define whether to show or hide the file tree.
+     - :ref:`Show Folders <show-hide-folders>` allows you to define specific folders in your project that you wish to be visible when the current section is displayed.
+  - **Content Type** allows you to write your content in either :ref:`Markdown <markdown-content-editing>` or :ref:`HTML <html-content>`.
+  - **Guides on Left** allows you to define whether the guides content shows on the left or right.
+  - :ref:`Teacher Only <teacher-only>` allows you to show content that only teachers are able to see.      
+  - :ref:`Close Tabs <close-tabs>` allows you to close all tabs open from previous section.
+      - **Close Terminal Session** when Close tabs enabled, allows you the option to retain terminal session from previous section. By default, terminal session will close.
   - :ref:`Teacher Only <teacher-only>` allows you to show content that only teachers are able to see.
-  - **Content Type** allows you to write your content in either :ref:`Markdown <markdown-content-editing>` or :ref:`HTML <html-content>`
+  - **Learning Objectives** allows you to define learning objectives for this section.
+  - :ref:`Open Tabs <open-tabs>` allows you to specify:
+      - which files you want to automatically open when the current section is displayed,
+      - Preview (including external websites),
+      - Open a Terminal window (including running a terminal command),
+      - which lines (if any) you wish to highlight within each file.
 
-
-
-:ref:`Open Tabs <open-tabs>`
-----------------------------
-This allows you to specify:
-
-  - which files you want to automatically open when the current section is displayed,
-  - Preview (including external websites),
-  - Open a Terminal window (including running a terminal command),
-  - which lines (if any) you wish to highlight within each file.
 
 
 :ref:`Assessments <assessments>`
---------------------------------
-This allows you to set up assessments.
+********************************
+
+  .. image:: /img/guides/guidesassessments.png
+     :alt: Assessment settings
+
+This allows you to set up assessments and view all assessments in the assignment/project
 
 
-:ref:`Media <add-media>`
-------------------------
-This allows you to play audio files within your project.
 
+:ref:`Settings <global>`
+************************
 
-:ref:`Global <global>`
-----------------------
-
-  .. image:: /img/guides/globalsettings.png
+  .. image:: /img/guides/guidessettings.png
      :alt: Global Settings
 
 
@@ -94,6 +99,6 @@ This allows you to play audio files within your project.
   .. image:: /img/guides/guidecollapse.png
      :alt: OpenGuides
 
-- **Hide Section List** hides the sections list in your content for the students. 
+- **Hide Section Toggle** hides the sections list in your content for the students. 
 - **Hide Back to Dashboard button** hides this button that would otherwise show on the last page of the guides.
 - **Protect Layout** prevents students from closing files in tabs.

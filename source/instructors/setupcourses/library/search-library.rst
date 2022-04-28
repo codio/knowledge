@@ -7,11 +7,8 @@ Search Assessments Library
 
 You search an assessment library the same whether you are using Codio's :ref:`Global Assessment Library <global-library>` or your :ref:`organization assessment library <org-library>`. Follow these steps to search a library:
 
-1. In the Guide Editor, click the **Add Assessments** drop-down menu and choose **Assessment Library**.
+1. In the Guide Editor, click the **Assessments** button and choose **Assessment** from the **Add from Library** area.
  
-   .. image: /img/addFromLib.png
-      :alt: Assessment Library
-
 2. Click the **Library Name** drop-down and choose the assessments library you want to search.
 
    .. image:: /img/selectLib.png

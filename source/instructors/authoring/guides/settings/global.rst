@@ -6,7 +6,7 @@
 Global Guide Settings
 =====================
 
-Access **Global** settings by clicking on **Settings** while editing a Guide and then clicking on the **Global** tab.
+Access Global settings by clicking on **Settings** while editing a Guide.
 
 The settings on this page apply to the entire guide or book.
 
@@ -46,6 +46,12 @@ Students will be able to close the guide content. The content can be restarted b
   .. image:: /img/guides/startguides.png
      :alt: StartGuides
 
+Use Submit Buttons
+******************
+For a discussion on the use of the this feature, please :ref:`click here <student-submission>`.
+
+This setting is enabled by default and provides students with a button on :ref:`assessments <assessments>` for them to submit their answers.
+If you have set the :ref:`assignment duration <assignment-duration>`, when the end of assignment duration date/time is reached, all answers to the assessments will be automatically submitted.
 
 Use Mark as Complete
 ********************
@@ -57,15 +63,6 @@ This setting is enabled by default. Students will be able to mark an assignment 
     - Selecting **Mark as Completed" from the **Education** menu in the IDE.
 
 You may decide to disable your students' ability to **Use Mark as Complete** if you have set the :ref:`assignment duration <assignment-duration>` 'On assignment End' action to **Mark as Complete** or **Disable assignment and Mark as Complete**.
-
-
-Use Submit Buttons
-******************
-For a discussion on the use of the this feature, please :ref:`click here <student-submission>`.
-
-This setting is enabled by default and provides students with a button on :ref:`assessments <assessments>` for them to submit their answers.
-If you have set the :ref:`assignment duration <assignment-duration>`, when the end of assignment duration date/time is reached, all answers to the assessments will be automatically submitted.
-
 
 
 Collapsed on Start

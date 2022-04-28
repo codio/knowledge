@@ -13,10 +13,16 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**April 2022**
+
+- `[I] [29th]`: Redesign of :ref:`Guides Authoring <authoring>` tool
+- `[F] [29th]`: Add markdown support for :ref:`announcements <send-announcements>` and :ref:
+- `[F] [ 6th]`: Add new :ref:`Notification Email <notification-emails>` option
+
 
 **March 2022**
 
-- `[I] [30th]`: Improve messaging if publishing assignments with :ref:`gigabox <assignment-gigabox> slots enabled
+- `[I] [30th]`: Improve messaging if publishing assignments with :ref:`gigabox <assignment-gigabox>` slots enabled
 - `[F] [29th]`: Add :ref:`All <search-courses>` tab to courses dashboard to allow owners to see only courses they are a teacher in
 - `[F] [29th]`: Add support for :ref:`solution file templating <solutionfile>` 
 
