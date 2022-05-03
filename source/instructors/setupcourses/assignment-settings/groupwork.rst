@@ -23,7 +23,8 @@ The Paired Programming setting is enabled to allow groups of students to work to
 Managing Groups
 ---------------
 
-Once groups have been set up and saved, teachers/instructors can manage the groups going to the **Groups** Tab that will then be shown and **Arrange Groups** button to move students between the groups and/or rename the groups
+Once groups have been set up and saved, teachers/instructors can manage the groups by selecting the **Groups** tab. Select the **Arrange Groups** button to create initial groups automatically or to move students between the groups. You can also rename the groups.
+The **Add Empty Group** button can be used to create an empty group to move students into.
 
 .. image:: /img/managegroups.png
    :alt: Managing Groups
