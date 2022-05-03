@@ -29,7 +29,7 @@ As a teacher you have access to your students' assignments within Codio. This al
 
 Writeable Copy
 --------------
-When you open a student project, changes you make will be saved in their project and they will see them when they open their projects. 
+When you open a student assignment, changes you make will be saved in their assignment and they will see them when they open their assignments. 
 
 If you would like to try something out in their code without changing their version, click on the **WRITEABLE COPY** button on the top right. Changes made in this copy won't be saved.
 
