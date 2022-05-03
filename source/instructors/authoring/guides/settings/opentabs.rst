@@ -15,22 +15,7 @@ You can automatically perform any of the following actions when a page is shown:
 
 You should also be aware that you can achieve the same actions from Markdown directives on a page. :ref:`click here <open-close>` for details.
 
-Page - Close Tabs
-*****************
-Enable this to close all panels open from the previous page.
-
-- **Close Terminal Session** when Close tabs enabled, allows you the option to retain terminal session from previous section. By default, terminal session will close
-
-  .. image:: /img/guides/page.png
-     :alt: Page_tab_options
-
-
-Open Tabs
-*********
-
-  .. image:: /img/guides/guide_files.png
-     :alt: open files
-     
+   
 Files can be opened automatically to present the student with relevant files.
 
 The **Add Tab** button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.
@@ -41,7 +26,7 @@ You can also drag and drop files in from your project file tree to the page to a
 
 Opening Files
 *************
-To open files, select the file type and enter the file name, including the path to the file if not in the root of the project workspace.
+To open files, select the file type from the drop down and enter the file name, including the path to the file if not in the root of the project workspace.
 
   .. image:: /img/guides/type_file.png
      :alt: open file
@@ -55,7 +40,7 @@ index.html, main.css
 
 Previewing
 **********
-To preview your project, select the **Preview** Type. If you wish to show a workspace or external website page, use the **Preview** option and enter the appropriate URL.
+To preview your project, select the **Preview** type from the drop down. If you wish to show a workspace or external website page, use the **Preview** option and enter the appropriate URL.
 
   .. image:: /img/guides/type_preview.png
      :alt: Preview
@@ -66,7 +51,7 @@ To preview your project, select the **Preview** Type. If you wish to show a work
 
 Opening the terminal and running system commands
 ************************************************
-To open a terminal window, select the **Terminal** option.
+To open a terminal window, select the **Terminal** type from the drop down.
 
 You can also specify a terminal command to run when a section is displayed. For example, your content may run bash scripts to copy files into the root of your project from the `/.guides` folder (which is hidden when content is running) at a certain point in your content.
 
@@ -84,7 +69,7 @@ You can also specify system commands in a new terminal window like so:
 
 Highlighting lines in your code
 *******************************
-To highlight one or more lines within an auto-opened file, select the **Highlight** option and then
+To highlight one or more lines within an auto-opened file, select the **Highlight** type from the drop down and then
 
 1. Enter a piece of reference text, contained within your target file, into the **Reference ...** field
 2. Specify the number of lines, from that reference point, you want to highlight

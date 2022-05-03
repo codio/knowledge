@@ -1,6 +1,7 @@
 .. meta::
    :description: Notification Emails
 
+.. _notification-emails:
 
 Notification Emails
 ===================
@@ -15,6 +16,7 @@ Notification details
 
 - **Not Started Assignment:** you can schedule the notifications to be sent to all students in the course that have never opened the assignment that is due soon
 - **Incomplete Assignment:** you can schedule the notifications to be sent to all students who have started but not finished an assignment that is due soon. Students that have also not started will also be notified
+- **Started and Incomplete Assignment** you can schedule the notifications to be sent to all students who have started but not finished an assignment that is due soon. Students that have not started will not be notified
 - **New Feedback:** the email notification will be sent when new feedback is available for the student
   
 

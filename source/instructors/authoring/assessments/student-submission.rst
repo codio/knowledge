@@ -14,24 +14,23 @@ The submit button
 -----------------
 By default each assessment has a submit button beneath the assessment. Once pressed, the answer is autograded. 
 
-MCQ, Fill In The Blank or Free Text questions are one attempt only, other assessments allow multiple attempts. If the **One attempt only** setting is selected for the assessment or it is one of the previously mentioned three, the student will be warned that they will not be able to resubmit. If this setting is not selected, they will be able to resubmit a response.
+Each assessment type allows you to define the number of attempts students can make. On the last allowed attempt, the student will be warned that they will not be able to resubmit after that attempt.
 
 You can suppress the use of submit buttons for MCQ, Fill in the Blank, Free Text and Free Text Autograde assessments. You cannot suppress the submit buttons for Standard Code Test, Advanced Code Test and Parsons Puzzle assessments.
 
 This feature is handy for exams, students do not need to worry about the effect of pressing the button. They can provide a response and move on to other assessments or pages in the guide.
 
-To suppress the use of the **Submit** button, go to the **Global** settings tab in the guide and disable **Use submit buttons**.
+To suppress the use of the **Submit** button, go to the **settings** button in the guide and disable **Use submit buttons**.
 
   .. image:: /img/guides/globalsettings.png
      :alt: Global Settings
 
-.. Note:: You can suppress the use of submit buttons for MCQ, Fill in the Blank, Free Text and Free Text Autograde assessments. Standard Code Test, Advanced Code Test and Parsons Puzzle assessments submit buttons cannot be suppressed.
 
 Once the project is marked as complete (see below) all assessment responses are submitted automatically. All students work must be marked as complete either manually or using the automated **Mark as Complete** option on the final deadline.
 
 Mark as Complete
 ----------------
-To suppress the student **Mark as complete** action, go to the guide **Global** settings (see above screenshot) and disable **Use mark as complete**.
+To suppress the student **Mark as complete** action, go to the guide **settings** (see above screenshot) and disable **Use mark as complete**.
 
 A student can proactively mark an assignment as complete. This can trigger an :ref:`assignment level autograde script <auto-grade-scripts>` and it is also displayed in the teacher dashboard for that student.
 

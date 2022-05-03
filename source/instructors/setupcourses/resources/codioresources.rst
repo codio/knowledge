@@ -50,12 +50,16 @@ Overview of Codio Resources and Share Code
 
 *For more detail, click on the link.*
 
+-  `Introduction to Operating Systems <https://www.codio.com/resources/intro-to-os>`__ **Share Code: 6RRV-NNYH-UGYD** Introduction to Operating Systems with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
 -  `CS: Introduction in Python <https://www.codio.com/resources/intro-python>`__ **Share Code: DWG4-9PHU-2X4W** Introduction to Computer Science in Python with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
 -  `CS: Introduction in C++ <https://www.codio.com/resources/intro-c>`__ **Share Code: YCLD-L7XW-3ZXK** Introduction to Computer Science in C++ with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
 -  `AP CS A Intro to Java <https://www.codio.com/resources/ap-cs-a>`__ Introduction to Computer Science in Java with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text. This course follows the pacing and sequencing of the AP® CS A Curriculum framework.
+-  `Essential Data Science in Python <https://www.codio.com/resources/python-data-science-essentials>`__ **Share Code: 9GYJ-RQ73-9E49** Essential Data Science in Python with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
+-  `Essential Data Science in R <https://www.codio.com/resources/r-data-science-essentials>`__ **Share Code: CXNT-RMEW-AJWN** Essential Data Science in R with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
 -  `CS: Introduction in Java <https://www.codio.com/resources/intro-java>`__ **Share Code: P4E2-MUV9-G3MV** Introduction to Computer Science in Java with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
 -  `CS: Objects in Python <https://www.codio.com/resources/objects-python>`__ **Share Code: 4HPN-GDUJ-V6AL** Introduction to Objects in Python with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
 -  `CS: Objects in C++ <https://www.codio.com/resources/objects-cpp>`__ **Share Code: RGHT-FL7F-PE2E** Introduction to Objects in C++ with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
+-  `Advanced Django <https://www.codio.com/resources/advanced-django>`__ **Share Code: FFTX-P3HG-YGAW**  Advanced Django with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
 -  `CS: Objects in Java <https://www.codio.com/resources/objects-java>`__ **Share Code: 9ELX-9M6N-JWPQ** Introduction to Objects in Java with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
 -  `Crunch <https://www.codio.com/resources/crunch>`__ **Share Code: TMUA-YGQY-GDV6** A student-friendly way to teach Assembly (based on Little Man Computer) allowing students to try low-level commands within their browser. For more details on Crunch, :ref:`click here <crunch>`
 -  `Computational Thinking - Create a Maze Game - Python <https://www.codio.com/resources/maze-python>`__ **Share Code: A2MK-QLKK-LDX9** A fun Python project covering computational thinking concepts as well as introductory programming topics with fully auto-graded assessments.
@@ -70,10 +74,10 @@ Overview of Codio Resources and Share Code
 -  `Think C: How to Think like a Computer Scientist <https://www.codio.com/resources/think-c>`__ Allen Downey's How to Think Like a Computer Scientist text ported to C by Thomas Scheffler.
 -  `R for Data Science: Import, Tidy, Transform, Visualize, and Model Data <https://www.codio.com/resources/r-for-data-science>`__ **Share Code: WM9N-QV92-7QCW** Hadley Wickham and Garrett Grolemund's text paired with RStudio for a seamless learning experience.
 -  `Applied Cryptography <https://www.codio.com/resources/cryptography>`__ **Share Code: F9UF-VDDW-K9HC** An introduction to symmetric key, and public key cryptography as well as hashing and digital signatures.
--  `Introduction to Programming Flode <https://www.codio.com/resources/program-flode>`__ **Share Code: 3UDU-EVG6-NT4C** Ease into programming concepts from numeric expressions to arrays with Codio's flowcharting tool: :ref:`Flode <flode>`
--  `Introduction to Programming JavaScript <https://www.codio.com/resources/program-javascript>`__ **Share Code: YR43-2Q4C-EVRA** Quickly cover programming basics in JavaScript from numeric expressions to error handling with native Codio content containing fully auto-graded assessments.
--  `Introduction to Programming Python <https://www.codio.com/resources/program-python>`__ **Share Code: TDND-RR7X-H3VT** Quickly cover programming basics in Python from numeric expressions to error handling with native Codio content containing fully auto-graded assessments.
--  `Introduction to Programming Java <https://www.codio.com/resources/program-java>`__ **Share Code: FNXL-3Y33-2EC9** Quickly cover programming basics in Java from numeric expressions to error handling with native Codio content containing fully auto-graded assessments.
+
+
+
+
 
 
 

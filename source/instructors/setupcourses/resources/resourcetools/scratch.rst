@@ -9,6 +9,8 @@ Scratch
 
 The desktop version of Scratch in now available in Codio. This version of Scratch has all the features of the online version but because it is the standalone version, students won’t be able to view or comment on Scratch community projects.
 
+.. Warning:: :ref:`Pair Programming <group-work>` should not be used for Scratch assignments. 
+
 With :ref:`Codio guides <guides-intro>` you can provide instructions for an assignment side-by-side with the Scratch development environment.
 
 |firstproject-small|

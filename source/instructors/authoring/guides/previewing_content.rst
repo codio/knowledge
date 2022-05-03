@@ -15,7 +15,7 @@ You can switch from editing your page content to previewing it as users will see
 
 To return to the edit mode, press the **Editor** button and you will return to edit mode on the same page.
 
-  .. image:: /img/guides/editor-button.png
+  .. image:: /img/guides/editor.png
      :alt: Editor Button
 
 
