@@ -7,7 +7,7 @@ Scratch
 =======
 
 
-The desktop version of Scratch in now available in Codio. This version of Scratch has all the features of the online version but because it is the standalone version, students won’t be able to view or comment on Scratch community projects.
+The desktop version of Scratch is available in Codio. This version of Scratch has all the features of the online version but because it is the standalone version, students won’t be able to view or comment on Scratch community projects.
 
 With :ref:`Codio guides <guides-intro>` you can provide instructions for an assignment side-by-side with the Scratch development environment.
 
@@ -19,7 +19,7 @@ space, you can set it up to :ref:`collapse on open <global>`.
 
 To use a project you have already created on the web version of Scratch, open the project in Scratch and select **File > Save to your computer** then in Codio select **File > Upload** and open the Scratch file you downloaded.
 
-Scratch files are **not saved automatically**, students must select **File > Save** to save their work although a warning will be shown to students when they mark the assignment as completed for them to confirm before the assignment is marked as completed. This ensures that any unsaved work is saved.
+Scratch files are saved automatically.
 
 Get started by clicking on **Tutorials** in the Scratch menu area. For more information see `Scratch <https://scratch.mit.edu/about>`__.
 
@@ -28,7 +28,7 @@ Get started by clicking on **Tutorials** in the Scratch menu area. For more info
 Scratch Backpack
 ----------------
 
-The `Scratch Backpack <https://en.scratch-wiki.info/wiki/Backpack>`__ may be used to store sprites or blocks of code and then used in other Scratch files or other projects. There is a size limit of 30Mb for each item added to the backpack.
+The `Scratch Backpack <https://en.scratch-wiki.info/wiki/Backpack>`__ may be used to store sprites or blocks of code that can then used in other Scratch files or other projects. There is a size limit of 30Mb for each item added to the backpack.
 
    .. image:: /img/backpack.png
       :alt: Scratch Backpack
