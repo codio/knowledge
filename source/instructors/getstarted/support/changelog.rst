@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**May 2022**
+
+- `[I] [18th]`: Add support for 'no access until grades released' for student assignment visibility
+
 **April 2022**
 
 - `[I] [29th]`: Redesign of :ref:`Guides Authoring <authoring>` tool

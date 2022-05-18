@@ -17,6 +17,7 @@ To specify student visibility to disabled assignments, follow these steps:
 
    - **Read-Only** - Allows students to access their assignment but cannot make changes.
    - **No Access** - Prevents students from accessing their assignment.
+   - **No Access until Grades Released** Prevents students from accessing their assignment until the grades are released.
 
 3. Click **Save Changes**.
 
