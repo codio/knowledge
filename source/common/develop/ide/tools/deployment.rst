@@ -12,7 +12,6 @@ IDE Tools
 
    ghapi
    ssh
-   phonegap
    desktopapp
    
 Deployment
