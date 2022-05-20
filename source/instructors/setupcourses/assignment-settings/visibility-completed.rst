@@ -18,5 +18,6 @@ To specify student visibility to assignments once completed, follow these steps:
     - **Read Only with Resubmit** - Allows students to access the assignment in *read-only* mode. They can also change the status of their assignment from *completed* to *not completed* and regain full access to resubmit their work. Any assignments not limited to *one attempt only* can be resubmitted.
     - **Read-Only** - Allows students to access their assignment but cannot make changes.
     - **No Access** - Prevents students from accessing their assigment.
+    - **No Access until Grades Released** Prevents students from accessing their assignment until the grades are released.
 3. Click **Save Changes**.
 
