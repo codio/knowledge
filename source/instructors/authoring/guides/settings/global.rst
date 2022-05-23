@@ -50,7 +50,7 @@ Use Submit Buttons
 ******************
 For a discussion on the use of the this feature, please :ref:`click here <student-submission>`.
 
-This setting is enabled by default and provides students with a button on :ref:`assessments <assessments>` for them to submit their answers.
+This setting is enabled by default and provides students with a button on :ref:`assessments <assessments>` for them to submit their answers. To suppress the submit buttons, this can be disabled.
 If you have set the :ref:`assignment duration <assignment-duration>`, when the end of assignment duration date/time is reached, all answers to the assessments will be automatically submitted.
 
 Use Mark as Complete
