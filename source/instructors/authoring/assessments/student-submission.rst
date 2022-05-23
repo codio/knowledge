@@ -16,7 +16,7 @@ By default each assessment has a submit button beneath the assessment. Once pres
 
 Each assessment type allows you to define the number of attempts students can make. On the last allowed attempt, the student will be warned that they will not be able to resubmit after that attempt.
 
-You can suppress the use of submit buttons for MCQ, Fill in the Blank, Free Text and Free Text Autograde assessments. You cannot suppress the submit buttons for Standard Code Test, Advanced Code Test and Parsons Puzzle assessments.
+You can suppress the use of submit buttons for Advanced Code Test, Standard Code Test, MCQ, Fill in the Blank, Free Text and Free Text Autograde assessments. You cannot suppress the submit buttons for Parsons Puzzle assessments.
 
 This feature is handy for exams, students do not need to worry about the effect of pressing the button. They can provide a response and move on to other assessments or pages in the guide.
 
