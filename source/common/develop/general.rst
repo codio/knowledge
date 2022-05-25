@@ -108,8 +108,6 @@ Ports
 We recommend opening the following ports
 
 - **80 and 443** for standard communications
-- **3000** is a standard port for user projects
-- **9500** is a standard SSL port for user projects
 
 Working from home
 *****************
