@@ -28,6 +28,12 @@ When enabled, students can start the assignment if the requirements are met. If 
 Copy workspace from Prerequisite Assignment
 -------------------------------------------
 
-If an assignment is selected in the dropdown, when the assignment is created, a copy of the selected prerequisite assignment's workspace will be included in the new assingment.
+The **Copy Workspace From** setting allows you to copy content from one assignment to a subsequent assignment.
 
-.. Note:: This will only pull the workspace in upon the first opening of the assignment (when it is created for the student) -- there is no update mechanism. Because of this, we highly encourage you to setup the prerequisite assignment being populated to **Completed**. 
+.. Important:: This will only pull the workspace in upon the first opening of the assignment (when it is created for the student) -- there is no update mechanism. Because of this, we highly encourage you to setup the prerequisite assignment state to **Completed**. 
+
+When the assignment is created by the student, the workspace files/folders (excluding **.guides**, **.git** folder, any node modules and any **.codio**, **.codio-menu** or **.settings** files) of the assignment selected in the dropdown will be copied into the prerequisite assignment's workspace and will be included in the new assignment. 
+
+If a file of the same name exists in both assignnments, the most recent changes to the initial assignment and will be updated in the subsequent assignment. This will apply to changes that students made.
+
+
