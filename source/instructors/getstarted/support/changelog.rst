@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2022**
 
+- `[F] [26th]`: Add ability to copy :ref:`prerequisite <prerequisite>` assignment workspace to subsequent assignment for students
 - `[I] [23rd]`: Update Home/End button navigation when grading students
 - `[I] [20th]`: Allow submit buttons to be suppressed for Standard and Advanced Code tests
 - `[I] [18th]`: Add support for 'no access until grades released' for student assignment visibility
