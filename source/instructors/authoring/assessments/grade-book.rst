@@ -5,7 +5,7 @@
 
 Grade Book
 ==========
-A Grade Book assessment may be used to manually grade assignments, it will not appear in the student guides. When the instructor opens a student assignment, the Grade Book is available for rubric based grading. Comments, points, and rubric items are visible to the student when the assessment is graded and the grades are released.
+A Grade Book assessment may be used to manually grade assignments, it will not appear in the student guides. When the instructor opens a student assignment, the Grade Book is available for rubric based grading. Comments, points, and rubric items are visible to the student when the assessment is graded and the grades are released.  Grade Book assessments do not show in the total assessment count on student/teacher dashboard.
 
 1. On the **General** page, enter a short **Name** that describes the test. This name is displayed in the teacher dashboard and when the teacher is viewing the student work. The name should reflect the challenge and thereby be clear when reviewing. 
 

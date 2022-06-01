@@ -20,7 +20,6 @@ To share your course with others, follow these steps:
 
 To manage access to the course code, toggle the **Course share** code button to **Off** after you have shared the code, or click **Regenerate** to create a new code. When you regenerate a new code, the old code is disabled and can no longer be used.
 
-4. To restrict a course that is shared or cloned from a parent course from being shared, cloned further or disconnected from the parent course, toggle Course share code to On and check the Licensed check box.
 
 When enabled you can also manage IP Consent by clicking the **Manage IP Consent** link offered.
 
@@ -38,5 +37,4 @@ You can also **Preview** your changes to see how the rendered output appears.
 
 When you are happy you can then publish and then **enable IP consent** that will then require teachers to accept your terms
 
-.. Note:: Child courses created from licensed parent courses cannot be shared or cloned, and the content cannot be added to other courses, modules, or assignments.
 

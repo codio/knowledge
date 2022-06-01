@@ -151,7 +151,7 @@ The entire course can be disconnected from the parent course so any future updat
    .. image:: /img/manage_classes/disconnectcourse.png
       :alt: Linked Parent Course 
 
-.. Note:: This feature is not available to child courses from licensed parent course
+
 
 .. _send-announcements:
 
