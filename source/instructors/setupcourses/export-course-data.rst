@@ -146,7 +146,7 @@ You can export course sources to obtain a zip file containing all the currently 
    .. image:: /img/source_exportlinks.png
       :alt: Course Export Links
       
-.. Note:: This feature is not available if your course is a child course of a licensed master course.
+
 
 
 
