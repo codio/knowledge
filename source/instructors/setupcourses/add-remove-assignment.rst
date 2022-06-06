@@ -59,7 +59,7 @@ Once the course modules are created, you can add assignments (projects). You can
 
    .. Note:: For more information about authoring course content, :ref:`click here <guides-intro>`.
 
-3. Open the assignment to review it in the IDE and when readon **Publish** it . The assignment is not visible to students until it's published.
+3. Open the assignment to review it in the IDE and when ready **Publish** it . The assignment is not visible to students until it's published.
 
     - As you update your assignment, a **Publish** button will show on the top menu bar, to the left of your username.  
 

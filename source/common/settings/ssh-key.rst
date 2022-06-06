@@ -11,4 +11,7 @@ An SSH public and private key pair is automatically generated for your account t
     .. image:: /img/prefs-account-ssh.png
        :alt: Codio SSH Key
 
+
+If you wish to regenerate the SSH public and private key in your Codio account, you can do so clicking the **Regenerate** button. If you would like to use your own custom key, click the **Replace Key** button. Any external servers that have used the original key will need to be updated to use the newly created key.
+
 To connect to a remote server, you must :ref:`upload your SSH key to the remote server <upload-ssh-key-remote-server>`.

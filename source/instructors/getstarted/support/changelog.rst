@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**June 2022**
+
+- `[F] [ 6th]`: Allow users to regenerate and replace automatically created :ref:`SSH keys <ssh-key>` for their account.
+
 **May 2022**
 
 - `[F] [26th]`: Add ability to copy :ref:`prerequisite <prerequisite>` assignment workspace to subsequent assignment for students
