@@ -88,11 +88,14 @@ Example .yml file for publishing a project to an assignment
               dir: ./
               course-id: d5acfd16bb506756595cef3399e1d4
               assignment-id: 3b52656756565656cd19a4b869b8
+              # You can also use course-name or assignment-name to reference the course/assignment if you prefer
+              # course-name: your course name
+              # assignment-name: your assignment name
               changelog: ${{ github.event.head_commit.message }}
               # Set the domain you are working on - codio.com or codio.co.uk
               domain: codio.com
 
-The course/assignment id's are found from the URL in your browser when opening the assignment when on the **Overview** tab.  The assignments need to be published to get this information
+The course/assignment id's are found from the URL in your browser when opening the assignment when on the **Overview** tab.  The assignments need to be published to get this information whether using the course/assignment id's or the course/assignment names.
 
 .. figure:: /img/course_assignment_id.png
    :alt: Course/assignment id
@@ -121,6 +124,8 @@ To publish Chapter 1, Section 1.1 into an assignment:
 
     # the id of assignment 1
     - assignment: 617c4f1cf9dcb8764hjk97100a980a09
+    # or use the assignment name of assignment 1
+    # - assignmentName: your assignment name
     # the section from guides, where both the Chapter and Section names are set in Guides
       section:  ["Chapter 1", "Section 1.1"]
     # to include all files contained in the folder Section 1.1
@@ -132,11 +137,15 @@ To publish Chapter 2, Section 2.1 and Chapter 2, Section 2.2 into an assignment:
 
     # the id of assignment 2
     - assignment: 36f5f6d99f69a7dc65f5ce8d619e8494
-      section:  ["Chapter 2", "Section 2.1"]
+    # or use the assignment name of assignment 2
+    # - assignmentName: your assignment name
+     section:  ["Chapter 2", "Section 2.1"]
       paths: ['Section 2.1/**']
       
     # to include another section from guides in the assignment
     - assignment: 36f5f6d99f69a7dc65f5ce8d619e8494
+    # or use the assignment name of assignment 2
+    # - assignmentName: your assignment name   
       section:  ["Chapter 2", "Section 2.2"]
     
       paths: ['Section 2.2/**'] 
@@ -146,6 +155,8 @@ To publish Chapter 3, Section 3.1 into an assignment:
 .. code:: yaml
 
     - assignment: 399098453265fb2c3eca360db6f5e462f
+    # or use the assignment name of assignment 3
+    # - assignmentName: your assignment name 3  
       section:  ["Chapter 3", "Section 3.1"]
       # will show all files set to be visible whether within a folder shown for the student or in the workspace
       paths: ['**']
@@ -183,14 +194,16 @@ Example .yml workflow actions file for publishing into multiple assignments:
               client-id: ${{ secrets.CODIO_PRODUCTION_CLIENT_ID }}
               secret-id: ${{ secrets.CODIO_PRODUCTION_SECRET_ID }}
               dir: ./
-              course-id: d5acfd16bb506756595cef3399e1d4
+              course-id: d5acfd16bb506756595cef3399e1
+            # You can also use course-name or assignment-name to reference the course
+              # course-name: your course name              
               changelog: ${{ github.event.head_commit.message }}
               # the location of your yaml mapping files
               yml: ./.github/yaml_map
               # Set the domain you are working on - codio.com or codio.co.uk
               domain: codio.com
 
-.. Note:: The 'assignment-id' field is not required when publishing to multiple assignments. The mapping of the content from the project to the individual assignments is managed by the files in the 'yml' location
+.. Note:: The 'assignment-id' or 'assignmentName' field is not required when publishing to multiple assignments. The mapping of the content from the project to the individual assignments is managed by the files in the 'yml' location
 
 Working with GH API
 ~~~~~~~~~~~~~~~~~~~
