@@ -3,16 +3,16 @@
 
 .. _notification-emails:
 
-Notification Emails
-===================
+Automated Emails
+================
 
-Automatic email notifications can be set up in your courses to send emails to your students. Go to the **Notifications** tab in your course to create notifications. Not available for **Read only** teachers in the course.
+Automatic email notifications can be set up in your courses to send emails to your students. Go to the **Automated Emails** tab in your course to create automatic email notifications. Not available for **Read only** teachers in the course.
 
    .. image:: /img/notificationdetails.png
       :alt: Notifications
 
-Notification details
-********************
+Automated Email details
+***********************
 
 - **Not Started Assignment:** you can schedule the notifications to be sent to all students in the course that have never opened the assignment that is due soon
 - **Incomplete Assignment:** you can schedule the notifications to be sent to all students who have started but not finished an assignment that is due soon. Students that have also not started will also be notified
@@ -28,8 +28,8 @@ Before
 
 **Reply to Email Address:** enter an email address that students can then reply to if they have questions or require further assistance.
 
-Notification Template
-*********************
+Automated Email Template
+************************
 
 We prefill a default title name and the body text including links (in the ```<<<  >>>``` tags) that will assist the students.
 
