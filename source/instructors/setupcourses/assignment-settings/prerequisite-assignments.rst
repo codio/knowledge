@@ -34,6 +34,6 @@ The **Copy Workspace From** setting allows you to copy content from one assignme
 
 When the assignment is created by the student, the workspace files/folders (excluding **.guides**, **.git** folder, any node modules and any **.codio**, **.codio-menu** or **.settings** files) of the assignment selected in the dropdown will be copied into the prerequisite assignment's workspace and will be included in the new assignment. 
 
-If a file of the same name exists in both assignnments, the most recent changes to the initial assignment and will be updated in the subsequent assignment. This will apply to changes that students made.
+If a file of the same name exists in both assignnments, the most recent changes to the initial assignment will be updated in the subsequent assignment. This will apply to changes that students made.
 
 
