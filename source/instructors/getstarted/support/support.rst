@@ -43,7 +43,7 @@ We are always interested to hear from our users about their thoughts/ideas for f
 Community
 *********
 
-The Codio community forum is a place for Codio users to engage with each other and share best practices. 
+The Codio community forum is a place for Codio users to engage with each other and share best practices. You can access it from the Connect area or go to `Codio Community <https://community.codio.com/>`_ directly.
 
 This forum does not replace our in-product customer support chat or our help center, please continue to use the support chat for product issues, and refer to our help center for product use guidance.
 
