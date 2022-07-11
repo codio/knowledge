@@ -125,7 +125,12 @@ The Code block also includes a 'copy to clipboard' button to allow students to e
      :alt: copy to clipboard
 
 
+If you wish to suppress the 'copy to clipboard' button in the code block, append ```-hide-clipboard``` to the first line
 
+Example
+
+ .. image:: /img/guides/hideclipboard.png
+     :alt: hide copy to clipboard
 
 
 Code Segments
