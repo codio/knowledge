@@ -23,7 +23,7 @@ To set the assignment duration, follow these steps:
    - Click the **Calendar** icon and select the date.
    - Click the **Clock** icon and select the time.
 
-   .. Note:: The time zone is automatically determined by your browser time zone.
+   .. Note:: The time zone is automatically from the Course time zone but if you wish to change to a different time zone, you can do so clicking the 'click here' link that will take you to the **Course Details** area where you can change the timezone for all the assignments in the course.
 
 4. Click the **On Assignment End** drop-down and choose one of the following options to indicate what happens when the **End Time** has been reached:
 

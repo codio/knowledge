@@ -19,7 +19,7 @@ To create an empty course, follow these steps:
    .. image:: /img/manage_classes/addcourse.png
       :alt: New Course
 
-4. Complete the fields on the **Create a new Course** form, including the **Name**, **Duration** (optional) and **Tags** (optional).
+4. Complete the fields on the **Create a new Course** form, including the **Name**, **Duration** (optional) and **Tags** (optional). If you wish to set a different timezone for your course you can do so from the **Timezone** drop down field
 
    .. image:: /img/manage_classes/create_class/new-class.png
       :alt: Create Empty Course
