@@ -7,11 +7,13 @@
 Computed VMs
 ============
 
-Codio supports Windows OS in **Computed VM** boxes . To enable this send an email to help@codio.com with details of the number of students who will require access to computed VMs.
+Codio supports Windows OS in **Computed VM** boxes . To enable this for your organisation, send an email to help@codio.com with approximate details of the number of students who will require access to computed VMs.
 
 .. Note:: Codio are not responsible for licensing issues in regard to any software you install to use.
 
-The computed VM's can support 1, 4, 8 or 16Gb memory.   VM's are enabled for the organisation and then set up at the **Course** level. All assignments in the course would then be able to utilise the computed VM boxes, so we would recommend setting up a new course for those assignments that require them.
+The computed VM's can support 1, 4, 8 or 16Gb memory.   VM's are enabled for the organisation and then set up at the **Course** level. All assignments in the course would then be able to utilise the computed VM boxes, so we would recommend setting up a new course for those assignments that require them.  Computed VM's are not available for individual projects (ie when created in **My Projects** area).
+
+ **Please note:** we have plans to develop this feature in the future but if you have ideas/suggestions please raise in our `Feedback area <https://feedback.codio.com/>`_
 
 
 When Computed VM's have been enabled for your organisation, follow these steps:
