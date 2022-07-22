@@ -11,7 +11,10 @@ Codio supports Windows OS in **Computed VM** boxes . To enable this for your org
 
 .. Note:: Codio are not responsible for licensing issues in regard to any software you install to use.
 
-The computed VM's can support 1, 4, 8 or 16Gb memory.   VM's are enabled for the organisation and then set up at the **Course** level. All assignments in the course would then be able to utilise the computed VM boxes, so we would recommend setting up a new course for those assignments that require them.  Computed VM's are not available for individual projects (ie when created in **My Projects** area).
+The computed VM's can support 1, 4, 8 or 16Gb memory.   VM's are enabled for the organisation and then set up at the **Course** level. All assignments in the course would then be able to utilise the computed VM boxes, so we would recommend setting up a new course for those assignments that require them.  All assignments in the course would use the same **VM Stack**.
+
+
+Computed VM's are not available for individual projects (ie when created in **My Projects** area).
 
  **Please note:** we have plans to develop this feature in the future but if you have ideas/suggestions please raise in our `Feedback area <https://feedback.codio.com/>`_
 
@@ -52,7 +55,9 @@ Setting up the assignment(s)
 
 - Save the changes.
 
-- Return to the assignment in **Edit Assignments** and publish the assignment either from the publish button that shows or from **Education>Publish Assignment** to make the assignment accessible to your students in the course.
+- Return to the assignment in **Edit Assignments** and publish the assignment either from the publish button that shows or from **Education>Publish Assignment** to make the assignment accessible to your students.
+
+.. Note::  Publishing the actual assignment in the usual manner is recommended to be done as the last step to avoid students starting the assignments before the required VM Stack is saved to the course.
 
 Updating the VM Stack after students have started the assignment(s)
 *******************************************************************
@@ -60,6 +65,11 @@ Updating the VM Stack after students have started the assignment(s)
 Students that have already started assignment(s) before a new/updated VM stack has been published will need to terminate the Virtual Machine in their assignment(s) and restart it to use the VM stack if the VM does not restart itself. There are buttons available for this purpose in the VM tab.
 
 .. Note:: Termination and restart for students can take a substantial period of time (around 20mins on average) so would recommend that you fully test all is as you require before making available/accessible to students to avoid as much as possible the need for them to have to terminate/restart.
+
+Updating the assignment content after initial publish
+*****************************************************
+
+Any changes to the actual assignment (ie in Guides or the file structure) only require the assignment to be published in the usual manner either from the publish button that shows or from **Education>Publish Assignment**.
 
 Automatically starting/opening Computed VM
 ******************************************
