@@ -7,11 +7,11 @@
 Computed VMs
 ============
 
-Codio supports Windows OS in **Computed VM** boxes . To enable this for your organization, send an email to help@codio.com with approximate details of the number of students who will require access to computed VMs.
+Codio supports Windows OS in **Computed VM** boxes. To enable this for your organization, send an email to help@codio.com with approximate details of the number of students who will require access to computed VMs.
 
 .. Note:: Codio is not responsible for licensing issues in regard to any software you install to use.
 
-The computed VM's can support 1, 4, 8 or 16Gb memory.   VM's are enabled for the organization and then set up at the **Course** level. All assignments in the course can utilize the computed VM boxes, so we would recommend setting up a new course for those assignments that require them.  All assignments in the course would use the same **VM Stack**.
+The computed VM's can support 1, 4, 8 or 16Gb memory. VM's are enabled for the organization and then set up at the **Course** level. All assignments in the course can utilize the computed VM boxes, so we would recommend setting up a new course for those assignments that require them.  All assignments in the course would use the same **VM Stack**.
 
 
 Computed VM's are not available for individual projects (ie when created in **My Projects** area).
@@ -55,7 +55,7 @@ Setting up the assignment(s)
 
 - Save the changes.
 
-- Return to the assignment in **Edit Assignments** and publish the assignment either  from the publish button in the upper right corner or from **Education>Publish Assignment** to make the assignment accessible to your students.
+- Return to the assignment in **Edit Assignments** and publish the assignment either from the publish button in the upper right corner or from **Education>Publish Assignment** to make the assignment accessible to your students.
 
 .. Note::  Publishing the assignment should be done as the last step to avoid students starting the assignments before the required VM Stack is saved to the course.
 
