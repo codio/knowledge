@@ -56,6 +56,26 @@ Once students have completed their assignments, they notify the teacher by using
   .. image:: /img/grading-assign.png
      :alt: Assign Grade
 
+.. _grading-queue:
+
+Grading Queue
+-------------
+
+Information on all students that require grading for all assignments in the course can be seen from the course **Queue** area in the **Grading** section.
+
+By default, the list is sorted by submission time, with the oldest submission at the top but other filters can be set as required.
+
+  .. image:: /img/gradingqueue.png
+     :alt: Grading Queue
+
+- Assignment Name
+- Student Name
+- Grade
+- Points
+- Graded
+- Answered
+- Time
+
 Override Grade
 --------------
 

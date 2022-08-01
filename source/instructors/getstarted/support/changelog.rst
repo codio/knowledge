@@ -13,9 +13,18 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**August 2022**
+
+- `[F] [ 1st]`: Add grading :ref:`queue <grading-queue>` for courses
+
+**July 2022**
+
+- `[F] [20th]`: Add support for **Windows OS** with :ref:`Computed VM's <computedvm>`
+- `[F] [12th]`: Add support to hide copy to clipboard button for individual :ref:`code blocks <markdown-content-editing>`
+
 **June 2022**
 
-- `[F] [ 6th]`: Allow users to regenerate and replace automatically created :ref:`SSH keys <ssh-key>` for their account.
+- `[F] [ 6th]`: Allow users to regenerate and replace automatically created :ref:`SSH keys <ssh-key>` for their account
 
 **May 2022**
 
