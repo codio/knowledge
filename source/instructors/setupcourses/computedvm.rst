@@ -7,11 +7,11 @@
 Computed VMs
 ============
 
-Codio supports Windows OS in **Computed VM** boxes . To enable this for your organisation, send an email to help@codio.com with approximate details of the number of students who will require access to computed VMs.
+Codio supports Windows OS in **Computed VM** boxes . To enable this for your organization, send an email to help@codio.com with approximate details of the number of students who will require access to computed VMs.
 
-.. Note:: Codio are not responsible for licensing issues in regard to any software you install to use.
+.. Note:: Codio is not responsible for licensing issues in regard to any software you install to use.
 
-The computed VM's can support 1, 4, 8 or 16Gb memory.   VM's are enabled for the organisation and then set up at the **Course** level. All assignments in the course would then be able to utilise the computed VM boxes, so we would recommend setting up a new course for those assignments that require them.  All assignments in the course would use the same **VM Stack**.
+The computed VM's can support 1, 4, 8 or 16Gb memory.   VM's are enabled for the organization and then set up at the **Course** level. All assignments in the course can utilize the computed VM boxes, so we would recommend setting up a new course for those assignments that require them.  All assignments in the course would use the same **VM Stack**.
 
 
 Computed VM's are not available for individual projects (ie when created in **My Projects** area).
@@ -19,7 +19,7 @@ Computed VM's are not available for individual projects (ie when created in **My
  **Please note:** we have plans to develop this feature in the future but if you have ideas/suggestions please raise in our `Feedback area <https://feedback.codio.com/>`_
 
 
-When Computed VM's have been enabled for your organisation, follow these steps:
+When Computed VM's have been enabled for your organization, follow these steps:
 
 Enabling VM for the Course
 **************************
@@ -43,33 +43,33 @@ Setting up the assignment(s)
 
 - Go to **Tools>Virtual Machine** to open the VM.
 
-.. Note::  It will take a short while for the VM to activate and start.
+.. Note::  It takes some time for the VM to activate and start.
 
-- When activated, proceed to setup/install all you require.
+- Once the VM has started you can setup or install any items you need.
 
-- When all is installed and tested go to **Tools>Virtual Machine>Publish** to publish the changes as an updated VM stack assignment your own name for the VM Stack.
+- Once you have completed setting up your environment and tested everything select **Tools>Virtual Machine>Publish** from the menu to publish the changes as an updated VM stack assignment providing your own name for the VM Stack.
 
-.. Note::  It can take around 10 minutes for the new stack to be created and be available for use.
+.. Note::  It can take around 10 minutes for the new stack to be created and available for use.
 
-- When the stack has been fully published go to **Courses>Computed VM>VM Stack** and you can then select the newly published stack that will then be avaiable to students as they start the assignment(s).
+- When the stack has been fully published go to **Courses>Computed VM>VM Stack** and select the newly published stack to make it available to students for their assignment(s).
 
 - Save the changes.
 
-- Return to the assignment in **Edit Assignments** and publish the assignment either from the publish button that shows or from **Education>Publish Assignment** to make the assignment accessible to your students.
+- Return to the assignment in **Edit Assignments** and publish the assignment either  from the publish button in the upper right corner or from **Education>Publish Assignment** to make the assignment accessible to your students.
 
-.. Note::  Publishing the actual assignment in the usual manner is recommended to be done as the last step to avoid students starting the assignments before the required VM Stack is saved to the course.
+.. Note::  Publishing the assignment should be done as the last step to avoid students starting the assignments before the required VM Stack is saved to the course.
 
 Updating the VM Stack after students have started the assignment(s)
 *******************************************************************
 
-Students that have already started assignment(s) before a new/updated VM stack has been published will need to terminate the Virtual Machine in their assignment(s) and restart it to use the VM stack if the VM does not restart itself. There are buttons available for this purpose in the VM tab.
+Students that have already started working before a new/updated VM stack has been published will need to terminate the Virtual Machine in their assignment(s) and restart it to use the updated VM stack if the VM does not restart itself. There are buttons available for this purpose in the VM tab.
 
-.. Note:: Termination and restart for students can take a substantial period of time (around 20mins on average) so would recommend that you fully test all is as you require before making available/accessible to students to avoid as much as possible the need for them to have to terminate/restart.
+.. Note:: Termination and restart for students can take a substantial period of time (around 20mins on average) so we recommend that you fully test the VM stack you create before making it available to students.
 
 Updating the assignment content after initial publish
 *****************************************************
 
-Any changes to the actual assignment (ie in Guides or the file structure) only require the assignment to be published in the usual manner either from the publish button that shows or from **Education>Publish Assignment**.
+Any changes to the actual assignment (ie in Guides or the file structure) only require the assignment to be published in the usual manner either from the publish button in the upper right corner or from **Education>Publish Assignment** menu item..
 
 Automatically starting/opening Computed VM
 ******************************************
