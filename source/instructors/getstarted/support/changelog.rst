@@ -15,6 +15,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2022**
 
+
+- `[F] [ 8th]`: Add support for **Deno** in the :ref:`Debugger <debugger>`
 - `[F] [ 1st]`: Add grading :ref:`queue <grading-queue>` for courses
 
 **July 2022**

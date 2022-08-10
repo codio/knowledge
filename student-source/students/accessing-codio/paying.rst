@@ -6,7 +6,7 @@
 Pay for Codio Subscription
 ==========================
 
-If your institution isn't providing access to Codio for you, you can purchase a subscription plan that gives you access to your courses for the semester. You can pay for your subscription using **Settings > Billing** menu. The procedure you follow depends on whether you are paying for the subscription yourself or redeeming a code for a subscription that was obtained from your campus bookstore.
+If your institution isn't providing access to Codio for you, you can purchase a subscription plan that gives you access to your courses for the semester. You can pay for your subscription using **Billing** menu. The procedure you follow depends on whether you are paying for the subscription yourself or redeeming a code for a subscription that was obtained from your campus bookstore.
 
 You can also cancel your subscription from this page. If the plan is for one or two semesters, there is no need to cancel the subscription. When your class ends, only the payment for the class is charged.
 
@@ -17,13 +17,13 @@ Individual billing
 --------------------
 If you are paying for your subscription yourself, follow these steps:
 
-1. Click your user name or gravatar in the lower portion of the navigation pane to open the **Settings** page.
+1. Click your user name or gravatar in the lower portion of the navigation pane to open the **My Account** menu listing.
 
    .. image:: /img/what_students_do/forgotpassword/profilepic.png
       :alt: User Profile
    
    
-2. Click the **Billing** tab and choose a **Plan** and **Payment Method**. 
+2. Click the **Billing** section and choose a **Plan** and **Payment Method**. 
 
    .. image:: /img/account_billing.png
       :alt: Billing
