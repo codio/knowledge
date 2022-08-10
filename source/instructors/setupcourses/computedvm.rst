@@ -7,7 +7,7 @@
 Computed VMs
 ============
 
-Codio supports Windows OS in **Computed VM** boxes. To enable this for your organization, send an email to help@codio.com with approximate details of the number of students who will require access to computed VMs.
+Codio supports Windows and Ubuntu OS in **Computed VM** boxes. To enable this for your organization, send an email to help@codio.com with approximate details of the number of students who will require access to computed VMs.
 
 .. Note:: Codio is not responsible for licensing issues in regard to any software you install to use.
 
@@ -28,11 +28,11 @@ Enabling VM for the Course
 
 - In the **Computed VM** section, toggle the **Enable Computed VM** button to **On**.
 
-- Select **OS type** (currently supported: Windows OS).
+- Select **OS type** (currently supported: Windows & Ubuntu).
 
 - Select **VM type** to allocate the memory required.
 
-- Select **VM Stack** - the default is **Windows Codio Ami** but once you have published your own VM Stack (see below), you will be able to select those as required.
+- Select **VM Stack** - select either **Windows Codio Ami** or **Ubintu Codio Ami** depending on the OS type selected above but once you have published your own VM Stack (see below), you will be able to select those as required.
 
 - Save the changes.
 
@@ -41,11 +41,11 @@ Setting up the assignment(s)
 
 - Create an assignment and open the working copy in the usual manner.
 
-- Go to **Tools>Virtual Machine** to open the VM.
+- Go to **Tools>Virtual Machine** to open the VM.  If using **Ubuntu** OS you can use **open ssh** to be able to open the same instance of the main ubuntu vm if you'd prefer to install/set up your VM that way.   You can have both options active at the same time
 
 .. Note::  It takes some time for the VM to activate and start.
 
-- Once the VM has started you can setup or install any items you need.
+- Once the VM has started you can setup or install any items you need. If using **Ubuntu** OS you can also use **Tools>Virtual Machine>open ssh** to be able to open the same instance of the main ubuntu vm if you'd prefer to install/set up your VM that way.   You can have both options active at the same time
 
 - Once you have completed setting up your environment and tested everything select **Tools>Virtual Machine>Publish** from the menu to publish the changes as an updated VM stack assignment providing your own name for the VM Stack.
 
