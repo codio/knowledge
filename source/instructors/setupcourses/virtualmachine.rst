@@ -41,7 +41,7 @@ Setting up the assignment(s)
 
 - Create an assignment and open the working copy in the usual manner.
 
-- Go to **Tools>Virtual Machine** to open the VM.  If using **Ubuntu** OS you can use **open ssh** to be able to open the same instance of the main ubuntu vm if you'd prefer to install/set up your VM that way.   You can have both options active at the same time
+- Go to **Tools>Virtual Machine** to open the VM.  If using **Ubuntu** OS you can use **open ssh** to open the same instance of the main ubuntu vm if you'd prefer to install/set up your VM that way. You can have both options active at the same time.
 
 .. Note::  It takes some time for the VM to activate and start.
 
