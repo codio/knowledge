@@ -7,6 +7,41 @@
 D2L
 ===
 
+Creating an Admin level external tool
+-------------------------------------
+1. From the **Manage Tool Provider** tab select **New Tool Provider**
+
+.. figure:: /img/lti/newtoolprovider.png
+   :alt: Create an admin tool in D2L
+
+2. For the **Launch Point** type in `https://apollo.codio.com` and fill out the next two fields as depicted below.
+
+.. figure:: /img/lti/launchpoint.png
+   :alt: The Launch Point information
+
+3. Fill in the Consumer and Secret fields with those values provided by Codio (see instructions below)
+
+.. figure:: /img/lti/consumersecret.png
+   :alt: Consumer and Secret
+
+4. Type Codio in the **Name** field and you can leave the **Description** and **Contact Email** fields empty. 
+
+5. The **Visibility** field “Allow users to use this tool provider” should remain checked.
+
+6. For the **Security Settings** check off everything as depicted further down in this document.
+
+7. Add Org units as necessary for your installation.
+
+8. Save and Close
+
+9. When the instructor wants to create a **New Link** in D2L (see below), they will use the LTI Integration link from the corresponding assignment in Codio.
+
+.. figure:: /img/lti/LMS-Unit-URL.png
+   :alt: Assigment URL
+
+
+Creating a course level tool
+----------------------------
 
 **In Codio:**
 
