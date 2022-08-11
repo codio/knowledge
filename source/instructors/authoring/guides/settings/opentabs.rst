@@ -12,7 +12,7 @@ You can automatically perform any of the following actions when a page is shown:
 - Open a url preview including external websites.
 - Open a terminal window and optionally run a terminal command.
 - Select lines you wish to highlight within each file.
-- Open a :ref:`Computed VM <computedvm>` when set up for students.
+- Open a :ref:`virtual machine <virtualmachine>` when set up for students.
 
 You should also be aware that you can achieve the same actions from Markdown directives on a page. :ref:`click here <open-close>` for details.
 
@@ -149,12 +149,12 @@ For more information and examples see `Python Tutor <http://pythontutor.com>`_.
 Open Computed VM
 ****************
 
-Select this option to automatically open the Computed VM for the students.
+Select this option to automatically open the virtual machine for the students.
 
   .. image:: /img/guides/guides_vm.png
      :alt: Open VM
 
-.. Note:: If selected but the assignment is not set up for :ref:`Computed VM <computedvm>` nothing will happen for the student.
+.. Note:: If selected but the assignment is not set up for :ref:`virtual machine <virtualmachine>` nothing will happen for the student.
 
 .. _specify-panel:
 

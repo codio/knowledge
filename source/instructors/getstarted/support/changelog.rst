@@ -21,7 +21,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2022**
 
-- `[F] [20th]`: Add support for **Windows OS** with :ref:`Computed VM's <computedvm>`
+- `[F] [20th]`: Add support for **Windows OS** with :ref:`Virtual Machine <virtualmachine>`
 - `[F] [12th]`: Add support to hide copy to clipboard button for individual :ref:`code blocks <markdown-content-editing>`
 
 **June 2022**

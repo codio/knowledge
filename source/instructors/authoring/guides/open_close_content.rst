@@ -23,7 +23,7 @@ Opening directives
 - `open_terminal command panel=0` where command (a system command) is optional and where panel is optional, in which case the default panel (0) will be used if not specified.
 - `cmd systemcommand argument1 argument2 argumentN`
 - `open_tutor file panel=0` to open :ref:`visualiser <visualiser>` and where panel is optional, in which case the default panel (0) will be used if not specified.
-- `open_vm panel=0` to open :ref:`computed vm <computedvm>` and where panel is optional, in which case the default panel (0) will be used if not specified.
+- `open_vm panel=0` to open :ref:`virtual machine <virtualmachine>` and where panel is optional, in which case the default panel (0) will be used if not specified.
 
 Closing directives
 ******************
