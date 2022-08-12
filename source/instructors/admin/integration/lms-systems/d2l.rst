@@ -33,7 +33,7 @@ Bring up the LTI Integration Information
   .. image:: /img/lti/LTIintegrationinfo.png
      :alt: Org LTI info
 
-In D2L:
+**In D2L:**
 
 Create an External Learning Tools Link in D2L
 ---------------------------------------------
