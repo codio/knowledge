@@ -20,6 +20,7 @@ Codio offers an integrated, language specific debugger that supports the followi
 -  Python 3
 -  NodeJS
 -  C and C++
+-  Deno
 
 .. Note:: :ref:`Contact us <codio-support>` if you would like support for other languages.
 

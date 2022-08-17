@@ -25,6 +25,7 @@ Authoring
    add_media
    open_close_content
    hide_folders
+   excludingfiles
    latex
 
 Introduction to Guides
