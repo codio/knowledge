@@ -44,7 +44,7 @@ You can also start the viewer first but it will be empty until a program is run;
 
 Use the viewer
 ^^^^^^^^^^^^^^
-The viewer is a special window that appears either inside Codio or in a separate browser tab. To open it, add `"Viewer": "https://{{domain3000}}/"` to the .codio file, as follows: 
+The viewer is a special window that appears either inside Codio or in a separate browser tab. To open it, add `"Viewer": "https://{{domain3050}}/"` to the .codio file, as follows: 
 
 .. code:: ini
     
@@ -61,16 +61,18 @@ The viewer is a special window that appears either inside Codio or in a separate
 
     // Preview button configuration
       "preview": {
-            "Viewer": "https://{{domain3000}}/"
+            "Viewer": "https://{{domain3050}}/"
       }
     }
 
 
 You can also access the viewer from any browser using:
 
-`https://pagoda-cigar-3000.codio.io/` 
+`https://pagoda-cigar-3050.codio.io/` 
 
 where you should replace `pagoda-cigar` with the box domain name. You can find the box domain name on the **Box Info** page in the **Web: Static content** section (**Project > Box Info** ).
+
+.. Note:: X-server port was updated to use **3050** in August 2022. Any assignments/projects that were created prior to this date will continue to function on the original port **3000** unless/until any other packages/components in the stack are re-installed. Reinstallation of X-server will then be required for all to work and will then use port **3050**
 
 Customization
 ^^^^^^^^^^^^^
