@@ -53,7 +53,7 @@ Turtle is pre-installed in the Python library, so manual installation is simple:
 
 6. Under **Open Tabs,** drag in your ``.py`` file and position it in panel 0. 
 
-7. Press the **Add Tab** button and specify the type as **Preview.** Paste the following in the URL field:  ``https://{{domain3000}}/`` Position this in panel 1. 
+7. Press the **Add Tab** button and specify the type as **Preview.** Paste the following in the URL field:  ``https://{{domain3050}}/`` Position this in panel 1. 
 
 8. Select **Save and close settings.**
 
@@ -61,6 +61,18 @@ Turtle is pre-installed in the Python library, so manual installation is simple:
 
    .. Note:: You need to import the turtle library with ``import turtle`` as the first line of your code and end your code by calling ``turtle.mainloop()``.
 
+10. Turtle automatically chooses the window position. To configure your own behavior create `turtle.cfg` file in the working directory with content defines window position. 
+
+Example:
+
+.. code:: cfg
+
+   leftright=0
+   topbottom=0
+   width=1.0
+   height=1.0
+
+   
 In Java
 *******
 
