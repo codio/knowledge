@@ -64,7 +64,7 @@ The option to switch to a **Student Pay plan** where students are prompted to en
 
 3. Students will now be prompted to make a payment when they access their Codio account, whether it be from Codio or from your LMS. 
 
-4. To support students in this process, provide them with `this documentation <https://docs.codio.com/students/accessing-codio/paying.html#pay-for-codio-subscription>`__ or guide them to contact help@codio.com.  
+4. To support students in this process, provide them with `this documentation link <https://docs.codio.com/students/accessing-codio/paying.html#pay-for-codio-subscription>`__ with specific emphasis to `this section <https://docs.codio.com/students/accessing-codio/paying.html#problems-setting-up-a-new-subscription-plan>`__ in the event they have problems especially if this may be first time they are trying to purchase online and the transaction may be refused by their bank due to the ever increasing fraud prevention measures card issues are implementing or guide them to contact help@codio.com.  
 
 Bookstore Pay
 -------------
