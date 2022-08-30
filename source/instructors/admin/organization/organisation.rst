@@ -25,6 +25,7 @@ Organization settings
    org-contact-url
    auto-release-grades
    hide-av
+   student-email
    sso
    
  
