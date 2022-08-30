@@ -28,11 +28,11 @@ Enabling VM for the Course
 
 - In the **Virtual Machine** section, toggle the **Enable Virtual Machine** button to **On**.
 
-- Select **OS type** (currently supported: Windows & Ubuntu).
+- Select **Operating System** (currently supported: Windows & Ubuntu).
 
-- Select **VM type** to allocate the memory required.
+- Select **Memory** to allocate the memory required.
 
-- Select **VM Stack** - select either **Windows Codio Ami** or **Ubuntu Codio Ami** depending on the OS type selected above but once you have published your own VM Stack (see below), you will be able to select those as required.
+- Select **Stack** - select either **Windows Codio Ami** or **Ubuntu Codio Ami** depending on the OS type selected above but once you have published your own VM Stack (see below), you will be able to select those as required.
 
 - Save the changes.
 
@@ -51,7 +51,7 @@ Setting up the assignment(s)
 
 .. Note::  It can take around 10 minutes for the new stack to be created and available for use.
 
-- When the stack has been fully published go to **Courses>Virtual Machine>VM Stack** and select the newly published stack to make it available to students for their assignment(s).
+- When the stack has been fully published go to **Courses>Virtual Machine>Stack** and select the newly published stack to make it available to students for their assignment(s).
 
 - Save the changes.
 
