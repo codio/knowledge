@@ -34,7 +34,7 @@ the **.assignmentignore** or **.unitignore** file will be
 To collaborating teachers
 *************************
 
-When collaborating with other teachers in Codio, an **authorassignmentignore** or **.authorunitignore** file can be used in the same way as the **.assignmentignore** or **.unitignore** file above.  As collaborating teacher in the course accesses the published assignment in edit mode, the files/folders included in the file will not be available to them.
+When collaborating with other teachers in Codio, an **authorassignmentignore** or **.authorunitignore** file can be used in the same way as the **.assignmentignore** or **.unitignore** file above.  When a collaborating teacher in the course accesses the published assignment in edit mode, the files/folders included in the file will not be available to them.
 
 If using Desktop App
 --------------------
