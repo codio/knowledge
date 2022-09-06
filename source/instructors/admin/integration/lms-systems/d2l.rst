@@ -68,7 +68,7 @@ Bring up the LTI Integration Information
   .. image:: /img/lti/LTIintegrationinfo.png
      :alt: Org LTI info
 
-In D2L:
+**In D2L:**
 
 Create an External Learning Tools Link in D2L
 ---------------------------------------------
@@ -107,7 +107,7 @@ Connect your D2L Modules to your Codio Assignments
 7. Refresh your page to view the rendered connection. You will see the Teacher view of the course with the connected assignment selected. Students will see the assignment opened in student mode.
 
     .. Note::  Grade items in D2L are associated with the external tool and as such each assignment will write to the same Grade item. To get around this you can either import your grades using a .csv file or use LTI 1.3.
-
+   
 Common Cartridge
 ----------------
 
