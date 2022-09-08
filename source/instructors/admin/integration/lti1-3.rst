@@ -11,6 +11,8 @@ LTI version 1.3 improves upon version [LTI-1.1] by moving away from the use of O
 
 For more information, see `Learning Tools Interoperability Core Specification <https://www.imsglobal.org/spec/lti/v1p3/>`__
 
+The deep linking url is : ``https://apollo.codio.com/lti/resource_selection``
+
 Canvas
 ------
 
