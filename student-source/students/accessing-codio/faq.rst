@@ -101,6 +101,7 @@ Accessing assignments when using an LMS platform
 ------------------------------------------------
 
 If LTI is enabled for a class, new assignments can only be started via the LMS platform. Any assignments already started can be accessed by logging into your Codio account.
+Your teacher/instructor can set up a link so if you try to start an assignment you can be given a link to click that will take you to your LMS course.
 
 - Assignments that have not been started will show with 'ready to go' in the Codio course
 - Assignments that have been started previously will show with 'In Progress' in the Codio course
@@ -108,6 +109,8 @@ If LTI is enabled for a class, new assignments can only be started via the LMS p
     .. figure:: /img/student-dash.png
        :alt: Students View
        
+.. Note:: Teachers in your organization can hide assignments that have not been started from your dashboard so you may only see those you have already started.
+
 Not able to expand the file tree in a Unit
 ------------------------------------------
 

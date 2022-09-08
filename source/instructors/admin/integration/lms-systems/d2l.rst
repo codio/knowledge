@@ -46,7 +46,7 @@ Creating a course level tool
 **In Codio:**
 
 Enable LTI for Your Course
---------------------------
+**************************
 
 1. Open the course you would like to connect or create a new course.
 2. Make sure you have at least one published assignment or add a new one. (see :ref:`Add and Remove Course Assignments <add-remove-assignment>`)
@@ -59,7 +59,7 @@ Enable LTI for Your Course
 5. Click **Save Changes**.
 
 Bring up the LTI Integration Information
-----------------------------------------
+****************************************
 
 1. Click your user name in the bottom left of your dashboard.
 2. Choose your Organization. 
@@ -71,7 +71,7 @@ Bring up the LTI Integration Information
 **In D2L:**
 
 Create an External Learning Tools Link in D2L
----------------------------------------------
+*********************************************
 
 1. From the course homepage, select the **Edit Course** tab.
 2. Under Site Resources, select **External Learning Tools**. 
@@ -93,7 +93,8 @@ Create an External Learning Tools Link in D2L
 10. Click **Save**. 
 
 Connect your D2L Modules to your Codio Assignments
---------------------------------------------------
+**************************************************
+
 1. Select the **Content** tab from the top of the page. 
 2. Add a new module in your D2L course.
 3. Select **Add Existing Activities** (1) -> **External Learning Tools** (2)

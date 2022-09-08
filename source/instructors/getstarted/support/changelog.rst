@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**September 2022**
+
+- `[F] [ 8th]`: Add feature to :ref:`Hide not started assignments <hide-assignments>` where a Codio course is integrated with an LMS course
+
 **August 2022**
 
 - `[F] [30th]`: Add support to :ref:`show student email addresses <student-email>` to teachers in courses
