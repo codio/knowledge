@@ -75,6 +75,16 @@ The **Course LMS URL** is used to map an LMS course to a Codio course. It ensure
 .. figure:: /img/lti/lti-class-url.png
    :alt: lti-class-url
 
+.. _hide-assignments:
+
+Hiding not started assignments in students dashboard
+****************************************************
+
+**Hide Not Started Assignments** can be used to hide all not started assignments in students dashboard so they would only see assignments already started. As this will mean the students will then need to log into your LMS to start new assignments and may not always recall how,  it can be better to use the **Course LMS URL** instead where they will then see a link to the course they can just click to get into the LMS and be able to start new assignments.
+
+.. figure:: /img/lti/lms_hide.png
+   :alt: Hide not started assignments
+
 Mapping an Assignment to a Canvas Assignment
 ============================================
 
