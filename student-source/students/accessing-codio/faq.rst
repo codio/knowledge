@@ -109,7 +109,7 @@ Your teacher/instructor can set up a link so if you try to start an assignment y
     .. figure:: /img/student-dash.png
        :alt: Students View
        
-.. Note:: Teachers in your organization can hide assignments that are not been started from your dashboard so you may only see those you have already started.
+.. Note:: Teachers in your organization can hide assignments that have not been started from your dashboard so you may only see those you have already started.
 
 Not able to expand the file tree in a Unit
 ------------------------------------------
