@@ -46,7 +46,7 @@ You can add a new chapter, section or page by
 
 Deleting pages, chapters and sections
 *************************************
-When in edit mode and viewing the table of contents, ctrl-click (Mac) or right-click (PC) on a page or chapter or section and you will be presented with a menu of options including the option to delete that page or whichever item is selected. 
+When in edit mode and viewing the table of contents you can select the item you wish to delete and use the trash can icon that appears on the right. Alternatively, you can ctrl-click (Mac) or right-click (PC) on a page or chapter or section and select delete from the menu of options that appears.
 
 Adding content to a chapter or section
 **************************************

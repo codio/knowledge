@@ -25,7 +25,7 @@ Follow these steps to show student email:
    .. image:: /img/manage_organization/orgsettingstab.png
       :alt: Organization Settings
 
-4. In the **Education Settingse** area, toggle the **Show Student Emails** to enable it. When enabled, teachers in your organization will be able to see student email addresses.
+4. In the **Education Settingse** area, toggle the **Show Student Emails** to enable it. When enabled, teachers in your organization will be able to see student email addresses by hovering over their name in either the main student listing or in the individual assignment listing
 
    .. image:: /img/manage_organization/show-email.png
       :alt: Show Student Email
