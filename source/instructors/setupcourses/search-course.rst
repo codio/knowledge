@@ -12,6 +12,8 @@ Courses are displayed in groups based on their creation date. The most recent co
 - Jan-May - Spring
 - Jun-Aug - Summer
 
+.. Note:: The season dividers can be turned off for the organisation if required. See :ref:`Set Users Dashboard <default-student-dashboard>`
+
 **My** and **All** tabs
 -----------------------
 
