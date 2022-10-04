@@ -21,6 +21,7 @@ Authoring
    html_content
    teacher_only
    solution_templating
+   freeze_code
    custom_button
    add_media
    open_close_content

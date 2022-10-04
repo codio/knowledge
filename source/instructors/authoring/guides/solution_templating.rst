@@ -6,7 +6,7 @@
 Solution File Templating
 ========================
 
-To help you test/check solutions for students prior to publishing, you can write your solution code within tags (**# CODIO SOLUTION BEGIN** and **# CODIO SOLUTION END** that will be visible to the teacher when editing the assignment and allow the code to be executed but will not be available to the student when the assignment is published.
+To help you test/check solutions for students prior to publishing, you can write your solution code within tags **CODIO SOLUTION BEGIN** and **CODIO SOLUTION END**. Use the appropriate syntax for your programming language (ex. Python - '#', C++ - '//' to designate these lines as comments. The code will be visible to the teacher when editing the assignment and allow the code to be executed for testing purposes but will not be available to the student when the assignment is published. Check that you do not have mis-matched BEGIN and END statements by viewing the assignment as a test student.
 
 Example Python solution file:
 
