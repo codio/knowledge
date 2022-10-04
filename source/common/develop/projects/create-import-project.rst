@@ -19,7 +19,7 @@ Follow these steps:
 
   - **Empty with Stack** - Create a new project selecting the **Stack** to use either from those shown or 'browse for more'
   - **Copy Project** - Create a new project by copying one of your other projects. If you choose this option, browse to the project to **Copy From**.
-  - **Starter Pack** - Create a project from a Stack and browse to the pre-configured **Starter Pack**. This option is a combination of a Stack and a pre-configured code workspace.
+  - **Starter Pack** -  Create a project using one of our pre-configured **Starter Packs** as a starting point. This option is a combination of a Stack, a populated code workspace and in many cases a guide containing instructional material.
   - **Import** - Create a project by importing it from Git or from a Zip file of a Codio project. If you choose this option, browse to select a **Stack** and choose the **Source** from the drop-down list.
 
 Projects created from a template include an explanatory README.md file that provides useful information to help you get started. The template (with the exception of **Empty Stack**) also includes a pre-configured .codio menu setup with basic actions the selected project requires. If you want to re-configure the .codio menu file, see :ref:`Customizable Run Menu <customizable-run-menu>` for more information.
@@ -34,4 +34,4 @@ Projects created from a template include an explanatory README.md file that prov
 
   If your project is private, you can assign read, write, or full admin permissions (ability for others to access the box from the terminal) to other users from the **Project > Permissions** menu in the IDE.
 
-5. Select gigabox if your project will more memory. See :ref:`Gigaboxes <gigabox-usage>` for more information on Gigaboxes.
+5. Modify the **Select gigabox** value if your project will require more memory. See :ref:`Gigaboxes <gigabox-usage>` for more information on Gigaboxes.

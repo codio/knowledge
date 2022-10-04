@@ -6,7 +6,7 @@
 Freezing Code
 =============
 
-If you wish to freeze code in a code file that students can't edit/change you can write code within tags (**FREEZE CODE BEGIN** and **FREEZE CODE END** using the usual commenting out characters for the language being used). The section of code will be highlighted to the students along with a padlock icon at the top right of the code block.
+If you wish to freeze portions of code in a code file that students won't be able to edit, you can surround the code with the tags **FREEZE CODE BEGIN** and **FREEZE CODE END**. Use the appropriate syntax for your programming language (ex. Python - '#', C++ - '//' to designate these lines as comments. The section of code will be highlighted to the students along with a padlock icon at the top right of the code block. Check that you do not have mis-matched BEGIN and END statements by viewing the assignment as a test student.
 
 Example Python solution file:
 
