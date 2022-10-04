@@ -15,7 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2022**
 
-- `[F] [ 4th]`: Add ability to :ref:`freeze code <freeze_code>` within code files that students cannot change
+- `[F] [ 4th]`: Add ability to :ref:`freeze code <freezecode>` within code files that students cannot change
 
 **September 2022**
 
