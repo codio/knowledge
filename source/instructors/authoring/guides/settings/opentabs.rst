@@ -86,6 +86,8 @@ If there is any potential ambiguity with this approach, simply insert a comment 
 
 Any combinations are acceptable and they will be opened in the order specified.
 
+If you wish to higlighlight code but not allow students to make any changes, you can :ref:`freeze code <freezecode>` in code files.
+
 .. _code-visualiser:
 
 Visualiser

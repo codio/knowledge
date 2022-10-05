@@ -22,6 +22,8 @@ will then show to students as:
   .. image:: /img/guides/freezecode.png
      :alt: Frozen Code
 
+If you just wish to highlight code to the students but allow them to be able to edit, you can use **Highlight** in :ref:`Open Tabs <open-tabs>`.
+
 
 Supported language files
 ------------------------
