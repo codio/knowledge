@@ -41,9 +41,9 @@ In your repo go to **Settings -> Secrets** and create Client ID and Secret ID co
    :alt: GH secret
 
 
-To create your secrets for your organisations repo (ie applies for all repos in the account and available for all collaborators), see `encrypted secrets for an organization <https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-an-organization/>`_ or to create just for the individual repo, click on **New repository secret** and create your secret keys.
+To create secrets for your organization's repo (these will apply to all repos in the account and be available for all collaborators), see `encrypted secrets for an organization <https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-an-organization/>`_. To create these for an individual repo,, click on **New repository secret** and create your secret keys.
 
-We recommend you name each key including Client/Secret to identify which key is which and use other names to identify if it is just for this repo or for all repos in the organisations repo.
+We recommend you that you use the words Client or Secret when you name each key to identify which one it is and also use the name to indicate if the key is for an individual repository or for all repos in an organization.
 
 Implementing workflow actions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
