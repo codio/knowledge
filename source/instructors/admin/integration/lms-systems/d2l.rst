@@ -122,7 +122,7 @@ Then go to **Content**, select **Existing Activities**, **External Learning Tool
 
 
 Single sign-in and account creation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------
 
 Codio maps D2L users to Codio users by using the D2L email address to identify the user and create the Codio account. In all subsequent access, the D2L userID will be used. In the event the user changes their email address in D2L, the user will be mapped to the same Codio account.
 
@@ -131,7 +131,7 @@ Codio maps D2L users to Codio users by using the D2L email address to identify t
 
 
 Teacher Roles
-~~~~~~~~~~~~~
+-------------
 
 Based on the LMS role, if teachers join Codio via the LMS, the following will apply:
 

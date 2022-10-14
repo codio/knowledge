@@ -11,8 +11,8 @@ In Brightspace - Register a Tool
 1. Name - Codio
 2. In the **Domain** field enter - ``https://apollo.codio.com``
 
-Access your LTI Integration settings in Codio
----------------------------------------------
+Access LTI Integration settings in Codio
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1.  Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **Organizations**.
 2.  Select the **LTI Integrations** tab.
 3.  Scroll down to the **LTI Integration 1.3** section. You should see the following fields. Remain on this screen for the time being.
@@ -21,15 +21,15 @@ The LTI 1.3 area of your LTI Integrations settings for your organization.
   .. image:: /img/lti/codiolti13settings.png
      :alt: LTI 1.3 settings in Codio
 
-Copy the following fields from Codio to Brightspace/D2L
--------------------------------------------------------
+Copy fields from Codio to Brightspace/D2L
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Copy **Initiate Login URL** to the **OpenID Connect Login URL** field.
 2. Copy **Redirect URL** to the **Redirect URL** field.
 3. Copy **Keyset URL** to the **Keyset URL** field.
 4. Press **Register** - leave the pop-up on the screen, you will be copying values from it.
 
-Now add the Integration you created
------------------------------------
+Add the Integration you created
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. In Codio on the LTI Integrations screen scroll down to the LTI 1.3 Configurations field and click **Add Integration**
 
   .. image:: /img/lti/addlti13integration.png
@@ -41,8 +41,8 @@ Now add the Integration you created
      :alt: LTI 1.3 Platform information in Codio
 
 
-Copy the following fields from the Brightspace/D2L pop-up to Codio
-------------------------------------------------------------------
+Copy fields from Brightspace/D2L pop-up to Codio
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Copy the **Client ID** to the **Client ID** field in Codio.
 2. Copy the **Keyset URL** to **Public Keyset URL** field.
 3. Copy the **Brightspace OAuth2 Access Token URL** to the **Access Token URL** field in Codio
@@ -58,7 +58,7 @@ Copy the following fields from the Brightspace/D2L pop-up to Codio
 13. Click **Create** in Codio.
 
 Create the new link in Brightspace/D2L
---------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. In your Brightspace/D2L environment you can dismiss the pop up.
 2. In the deployment tool click **View Links** and then create a **New Link**
 3. Name it Codio.
@@ -68,13 +68,13 @@ Create the new link in Brightspace/D2L
 
 
 
-Connect your Brightspace/D2L Modules to your Codio Assignments
-==============================================================
+Connect Brightspace/D2L and Codio assignments
+---------------------------------------------
 
 The final mapping step needs to be taken for each individual assignment within Codio. It maps a Brightspace/D2L assignment to a Codio assignment.
 
 In Brightspace/D2L
-------------------
+~~~~~~~~~~~~~~~~~~
 
 1. Select the **Content** tab from the top of the page. 
 2. Add a new module in your D2L course.
@@ -88,7 +88,7 @@ In Brightspace/D2L
 6. Select the Codio assignment you want to connect.
 
 LTI Course copy for Brightspace/D2L
-===================================
+-----------------------------------
 
 Enabling this setting allows existing Codio course content used in your LMS to be copied into a new Codio course and a new course in your LMS. This should be enabled for the courses connected with the "Master" course in your LMS. The parameter will be disabled by default for for all copied courses.
 
@@ -99,7 +99,7 @@ First enable :ref:`LTI Constant URLs <lti-constant>` for your course.
 .. figure:: /img/lti/enable_class_fork.png
    :alt: Enable course copy field
 
-Add custom parameters to your course in Brightspace/D2L
--------------------------------------------------------
+Add custom parameters to your course
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 2. In the Course Tools menu click on the tool you created in the LTI advantage menu.
 3. In the Custom Parameters section click **Add Custom parameter** and copy the ``codio_parent_course_id`` name and value from Codio.  
