@@ -107,7 +107,7 @@ Connect your D2L Modules to your Codio Assignments
 6. Select the Codio assignment you want to connect.
 7. Refresh your page to view the rendered connection. You will see the Teacher view of the course with the connected assignment selected. Students will see the assignment opened in student mode.
 
-    .. Note::  Grade items in D2L are associated with the external tool and as such each assignment will write to the same Grade item. To get around this you can either import your grades using a .csv file or use LTI 1.3.
+    .. Note::  Grade items in D2L are associated with the external tool and as such each assignment will write to the same Grade item. To get around this you can either import your grades using a .csv file or use :ref:`LTI 1.3 <lti1-3BS-D2L>`.
    
 Common Cartridge
 ----------------
@@ -122,7 +122,7 @@ Then go to **Content**, select **Existing Activities**, **External Learning Tool
 
 
 Single sign-in and account creation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------
 
 Codio maps D2L users to Codio users by using the D2L email address to identify the user and create the Codio account. In all subsequent access, the D2L userID will be used. In the event the user changes their email address in D2L, the user will be mapped to the same Codio account.
 
@@ -131,7 +131,7 @@ Codio maps D2L users to Codio users by using the D2L email address to identify t
 
 
 Teacher Roles
-~~~~~~~~~~~~~
+-------------
 
 Based on the LMS role, if teachers join Codio via the LMS, the following will apply:
 
