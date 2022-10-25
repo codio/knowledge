@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2022**
 
+- `[F] [25th]`: Add feature to copy :ref:`Pair Programming<group-work>` groups between assignments
 - `[F] [ 4th]`: Add ability to :ref:`freeze code <freezecode>` within code files that students cannot change
 
 **September 2022**
