@@ -16,6 +16,10 @@ The Paired Programming setting is enabled to allow groups of students to work to
  
 - **Shared Focus** - Enable to apply Shared Focus.  Shared focus means the "navigator" sees exactly what the "driver" sees. This prevents a student in the "navigator" role from manipulating the view of the driver (changing guide pages, opening other code files, etc) and as the driver moves around in the assignment, the navigator view will change to follow.
 
+- **Copy Groups From** - Allows you to use Pair Programming groups already set up in other assignments. As other assignments are enabled for Pair Programming, each of those assignments will show in the drop down.
+
+.. Note:: If an assignment has :ref:`Copy Workspace<prerequisite>` configured and both the 'to be copied from' and 'to be copied to' assignments are pair programming assignments, groups will be automatically copied.
+
 - **Number of Students** - Set the number of students to work together as a group (max 5). If the total number of students is greater than an equal division for the groups, extra groups will be created
 
 .. Warning:: Pair Programming should not be used for :ref:`Crunch<crunch>`, :ref:`Flode<flode>`, :ref:`Jeroo<jeroo>`, :ref:`Scratch<scratch>`, :ref:`Pencil Code<pencilcode>`, :ref:`Pyret<pyret>`, :ref:`Processing/p5<processing-and-p5>` or assignments using :ref:`virtual machine <virtualmachine>` assignments. 
