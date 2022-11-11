@@ -39,6 +39,8 @@ Free text assessments allow students to answer questions in their own words. Bec
 
   - **Rationale** - Enter guidance for the assessment. This is visible to the teacher when the project is opened in the course or when opening the student's project. This guidance information can also be shown to students after they have submitted their answer and when they reload the assignment after marking it as completed. 
 
+3. Click on the **Parameters** tab if you wish to set up **Parameterized Assessments**. See :ref:`Parameterized Assessments <parameterized>` for more information.
+
 4. Click **Metadata** in the left navigation pane and complete the following fields:
 
    .. image:: /img/guides/assessment_metadata.png

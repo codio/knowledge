@@ -14,6 +14,7 @@ Auto-graded assessments
    student-submission
    auto-grade-scripts
    partial-points
+   parameterized
    delete-assessment
    edit-assessment
    edit-assessment-points
