@@ -15,7 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2022**
 
-- `[F] [11th]`: Add feature for :ref:`Paramertized Assessments <parameterized>`
+- `[F] [11th]`: Add feature for :ref:`Paramertized Assessments<parameterized>`
 
 **October 2022**
 
