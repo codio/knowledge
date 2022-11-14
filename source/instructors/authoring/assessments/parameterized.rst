@@ -3,9 +3,9 @@
    
 .. _parameterized:
 
-Paramertized assessments
-========================
-For all assessment types except Gradebook and Random, you an set up parameterized assessments writing **python** code on the Parameters tab.
+Parameterized assessments
+=========================
+For all assessment types except Gradebook and Random, you an set up parameterized assessments by writing **python** code on the Parameters tab.
 
    .. image:: /img/guides/parameterized.png
       :alt: Parameterized Assessment
