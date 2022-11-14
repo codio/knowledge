@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**November 2022**
+
+- `[F] [11th]`: Add feature for :ref:`Parameterized Assessments<parameterized>`
+
 **October 2022**
 
 - `[F] [25th]`: Add feature to copy :ref:`Pair Programming<group-work>` groups between assignments

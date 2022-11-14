@@ -20,7 +20,7 @@ Follow these steps to set up an autograde free text assessment:
    
   - **Instruction** - Enter text that is shown to the student using optional Markdown formatting.
 
-3. Click **Execution** in the left navigation pane and complete the following fields:
+2. Click **Execution** in the left navigation pane and complete the following fields:
 
    .. image:: /img/guides/assessment_autofree_exec.png
       :alt: Execution
@@ -32,7 +32,7 @@ Follow these steps to set up an autograde free text assessment:
 
    - **Timeout** - Enter the time period (in seconds) that the test runs before terminating.
 
-4. Click **Grading** in the navigation pane and complete the following fields:
+3. Click **Grading** in the navigation pane and complete the following fields:
 
    .. image:: /img/guides/assessment_free_grading.png
       :alt: Grading
@@ -50,6 +50,8 @@ Follow these steps to set up an autograde free text assessment:
   - **Define Number of Attempts** - enable to allow and set the number of attempts students can make for this assessment. If disabled, the student can make unlimited attempts.
   - **Show Rationale to Students** - Toggle to display the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always** 
   - **Rationale** - Enter guidance for the assessment. This is always visible to the teacher when the project is opened in the course or when opening the student's project. 
+
+4. Click on the **Parameters** tab if you wish to set up **Parameterized Assessments**. See :ref:`Parameterized Assessments <parameterized>` for more information.
 
 5. Click **Metadata** in the left navigation pane and complete the following fields:
 

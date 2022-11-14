@@ -47,7 +47,9 @@ Multiple choice type assessments provide a question and then single or multiple 
 
   - **Rationale** - Enter guidance for the assessment. This is always visible to the teacher when the project is opened in the course or when opening the student's project.  
 
-4. Click **Metadata** in the left navigation pane and complete the following fields:
+4. Click on the **Parameters** tab if you wish to set up **Parameterized Assessments**. See :ref:`Parameterized Assessments <parameterized>` for more information.
+
+5. Click **Metadata** in the left navigation pane and complete the following fields:
 
    .. image:: /img/guides/assessment_metadata.png
       :alt: Metadata
@@ -56,9 +58,9 @@ Multiple choice type assessments provide a question and then single or multiple 
   - **Learning Objectives** The objectives are the specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then the Learning Objectives could be *SWBAT follow the flow of recursive execution*.
   - **Tags** - The **Content** and **Programming Language** tags are provided and required. To add another tag, click **Add Tag** and enter the name and values.
 
-5. Click **Files** in the left navigation pane and check the check boxes for additional external files to be included with the assessment when adding it to an assessment library. The files are then included in the **Additional content** list.
+6. Click **Files** in the left navigation pane and check the check boxes for additional external files to be included with the assessment when adding it to an assessment library. The files are then included in the **Additional content** list.
 
    .. image:: /img/guides/assessment_files.png
       :alt: Files
 
-6. Click **Create** to complete the process.
+7. Click **Create** to complete the process.
