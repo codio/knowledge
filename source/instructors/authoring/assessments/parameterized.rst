@@ -28,8 +28,8 @@ e.g. creating a parameter of **codio_parameters["parameter name"] = random_int**
    .. image:: /img/guides/param_commands.png
       :alt: Parameters in commands
 
-Paramter variables
-******************
+Parameter variables
+*******************
 
 We are not using global variables but explicitly storing parameter values in a dictionary. Here is an example:
 
