@@ -1,5 +1,5 @@
 .. meta::
-   :description: Paramertized assessments
+   :description: Parameterized assessments
    
 .. _parameterized:
 
