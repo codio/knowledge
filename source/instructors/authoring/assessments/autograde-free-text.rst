@@ -130,8 +130,7 @@ Example Python script for free-text auto-grade with partial points
 .. code:: python
 
     #!/usr/bin/env python
-    import os, requests, sys
-    import random
+    import os, sys
     # get free text auto value
     text = os.environ['CODIO_FREE_TEXT_ANSWER']
     # import grade submit function
@@ -139,8 +138,8 @@ Example Python script for free-text auto-grade with partial points
     from lib.grade import send_partial
     def main():
       # Execute the test on the student's code
-      grade = 0  
-      feedback = ''  
+      grade = 0
+      feedback = ''
       if text == '1':
         grade = 1
         feedback = '1 point'
@@ -152,10 +151,10 @@ Example Python script for free-text auto-grade with partial points
         feedback = '10 points'
       else:
         grade = 0
-        feedback = 'no points'    
+        feedback = 'no points'
 
       print(feedback)
-      # Send the grade back to Codio with the penatly factor applied
+      # Send the grade back to Codio with the penalty factor applied
 
       res = send_partial(int(round(grade)))
       exit( 0 if res else 1)

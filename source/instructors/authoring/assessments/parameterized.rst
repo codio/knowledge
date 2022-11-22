@@ -5,7 +5,7 @@
 
 Parameterized assessments
 =========================
-For all assessment types except Gradebook and Random, you an set up parameterized assessments by writing **python** code on the Parameters tab.
+For all assessment types except Gradebook and Random, you can set up parameterized assessments by writing **python** code on the Parameters tab.
 
    .. image:: /img/guides/parameterized.png
       :alt: Parameterized Assessment
