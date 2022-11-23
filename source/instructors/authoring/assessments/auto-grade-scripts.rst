@@ -273,12 +273,10 @@ Example Python auto-grading script
 
 .. code:: python
 
-    import os
     import random
-    import requests
-    import json
-    # import grade submit function
     import sys
+
+    # import grade submit function
     sys.path.append('/usr/share/codio/assessments')
     from lib.grade import send_grade_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
     def main():
