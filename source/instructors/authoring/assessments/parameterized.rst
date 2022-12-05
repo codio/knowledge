@@ -25,8 +25,8 @@ Creating and using parameters
 *****************************
 To create a parameter, store a value in the ``codio_parameters`` dictionary. You can then refer to the parameter throughout the assessment within double curly brackets (otherwise known as mustache templating).
 
-   .. image:: /img/guides/setupparams.png
-      :alt: Setting up parameters
+   .. image:: /img/guides/parameterSyntax.png
+      :alt: Syntax for parameters in Codio
 
 See the first image on this page for an example of creating parameters. Once created, you can then refer to parameters throughout the other fields in your assessment (e.g. instructions on the **General** tab, fields on the **Execution** tab, rationale on the **Grading** tab).
 
