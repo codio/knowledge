@@ -19,7 +19,7 @@ The **PARAMETERS** tab has a large built-in code editor to enter **python** code
 
 On the right-hand side, the **Add Code Example** button will generate 3 lines of code which (1) import the python ``random`` library, (2) declare the ``codio_parameters`` dictionary you will store parameters and their values in, and (3) provide a sample parameter.
 
-The **Generate Sample Parameters** button on the right-hand side will run the code in the editor and diaply in the small box below the button a sample set of generated parameters. If there is an error with the code, the box will turn red and the error message will be displayed.
+The **Generate Sample Parameters** button on the right-hand side will run the code in the editor and display in the small box below the button a sample set of generated parameters. If there is an error with the code, the box will turn red and the error message will be displayed.
 
 Creating and using parameters
 *****************************
