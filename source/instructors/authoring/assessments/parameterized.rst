@@ -5,59 +5,50 @@
 
 Parameterized assessments
 =========================
-For all assessment types except Gradebook and Random, you can set up parameterized assessments by writing **python** code on the Parameters tab.
+For all assessment types except Gradebook and Random, you can generate parameters by writing **python** code on the **PARAMETERS** tab.
 
-   .. image:: /img/guides/parameterized.png
+   .. image:: /img/guides/parameterized2.png
       :alt: Parameterized Assessment
 
-For more information and to get started, see `Prairielearn <https://prairielearn.readthedocs.io/en/latest/getStarted/>`_ for the popular implementation.
+Parameters tab
+**************
+The **PARAMETERS** tab has a large built-in code editor to enter **python** code that generates parameters.
 
-Setting up parameters
-*********************
+   .. image:: /img/guides/ParametersTab.png
+      :alt: Parameters Tab UI
 
-To set up your parameters, create them using **codio_parameters["parameter name"] = yourparamevalue** on the **Parameters** tab and you can then refer to them throughout the assessment within double curly brackets.
+On the right-hand side, the **Add Code Example** button will genenate 3 lines of code which (1) import the python ``random`` library, (2) declare the ``codio_parameters`` dictionary you will store parameters and their values in, and (3) provide a sample parameter.
 
-e.g. creating a parameter of **codio_parameters["parameter name"] = random_int**, you can then refer to **{{parameter name}}** in your assessment. This can be in the instructions on the **General** tab, in fields on the **Execution** tab as well as in the rationale on the **Grading** tab.
+The **Generate Saple Parameters** button on the right-hand side will run the code in the editor and diaply in the mall box below the button a sample set of generated parameters. If there is an error with the code, the box will turn red and the error message will be displayed.
+
+Creating and using parameters
+*****************************
+To create a parameter, store a value in the ``codio_parameters`` dictionary. You can then refer to the parameter throughout the assessment within double curly brackets (otherwise known as mustache templating).
 
    .. image:: /img/guides/setupparams.png
       :alt: Setting up parameters
 
-   .. image:: /img/guides/param_instructions.png
-      :alt: Parameters in instructions
+See the first image on this page for an example of creating parameters. Once created, you can then refer to parameters throughout the other fields in your assessment (e.g. instructions on the **General** tab, fields on the **Execution** tab, rationale on the **Grading** tab).
 
-   .. image:: /img/guides/param_commands.png
-      :alt: Parameters in commands
+   .. image:: /img/guides/param_instructions2.png
+      :alt: Parameters in question field
 
-Parameter variables
-*******************
+   .. image:: /img/guides/param_execution.png
+      :alt: Parameters in fields of multiple choice assessment
 
-We are not using global variables but explicitly storing parameter values in a dictionary. Here is an example:
+Accessing parameters in Auto-grading scripts
+********************************************
+When using parameters with assessments executing auto-grading scripts, such as with :ref:`Advanced Code Tests <advanced-code-test>`, you can access parameters from the ``CODIO_PARAMETERS`` environment variable.
 
-.. code:: ini
+To test your auto-grading script, you need to either:
+  1. publish your assignment and :ref:`either Preview as a teacher or as a Test Student <preview-course>` since the ``CODIO_PARAMETERS`` environment variable does not exist in the authoring version of the assignment
+  2. manually create the ``CODIO_PARAMETERS`` environment variable inside the authoring version of the assignment
 
-  import random
-  import uuid
-
-  # init codio_parameters dictionary
-  codio_parameters = dict()
-
-  # generate random values
-  random_int = random.randint(0, 100)
-  random_string = str(uuid.uuid4())
-  random_boolean = random.choice([True, False])
-  random_float = float(random.randint(0, 1000)/100)
-  random_array = []
-  random_array.append(random.randint(0, 100))
-  random_array.append(str(uuid.uuid4()))
-  random_dict = dict()
-  random_dict["int"] = random.randint(0, 100)
-  random_dict["str"] = str(uuid.uuid4())
-  random_dict["boolean"] = random.choice([True, False])
-
-  # add random values to codio_parameters dictionary
-  codio_parameters["int"] = random_int
-  codio_parameters["str"] = random_string
-  codio_parameters["boolean"] = random_boolean
-  codio_parameters["float"] = random_float
-  codio_parameters["array"] = random_array
-  codio_parameters["dict"] = random_dict
+More examples
+*************
+You can find more examples of parameterized assessments in Codio:
+  1. In our `blog post on parameterized assessments`_
+  2. In our `Developing Evergreen Course Materials webinar`_
+    
+.. _blog post on parameterized assessments: https://www.codio.com/blog/individualized-student-questions-parameterized-assessments
+.. _Developing Evergreen Course Materials webinar: https://www.codio.com/on-demand-webinars?wchannelid=rr05s1wyns&wmediaid=igvq1jnlwi
