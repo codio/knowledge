@@ -39,11 +39,6 @@ Select a course, you can then see details of the content in the module. To use t
      
 - use the course :ref:`Share Code <create-fromsharecode>` to create the course in your account.
 
-.. Note:: if working on codio.co.uk, you need to use the **Share Code**
-
-
-
-
 
 Overview of Codio Resources and Share Code
 ******************************************
