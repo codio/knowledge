@@ -12,7 +12,7 @@ jobs:
         APPLICATION_ID: ${{ secrets.API_KEY }}
         API_KEY: ${{ secrets.APPLICATION_ID }}]
         INDEX_NAME: CodioDocs
-        CONFIG: '{    "index_name": "CodioDocs",    "sitemap_urls": [      "https://docs.codio.com/sitemap.xml",      "https://docs.codio.com/sitemap-student.xml"    ],    "selectors": {      "lvl0": "main h1",      "lvl1": "main .section h2",      "lvl2": "main .section h3",      "lvl3": "main .section h4",      "lvl4": "main .section h5",      "lvl5": "main .section h6",      "text": "main .section p,main .section blockquote"    }}'
+        CONFIG: '{    "index_name": "CodioDocs",    "sitemap_urls": [      "https://docs.codio.com/sitemap.xml",      "https://docs.codio.com/sitemap-student.xml"    ],    "selectors": {      "lvl0": "main h1",      "lvl1": "main .section h2",      "lvl2": "main .section h3",      "lvl3": "main .section h4",      "lvl4": "main .section h5",      "lvl5": "main .section h6",      "text": "main .section p,main .section blockquote"    },    "only_content_level": true}'
     name: Index Algolia
     steps:
     - name: Algolia Docsearch Action
