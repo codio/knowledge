@@ -13,13 +13,13 @@ Auto-graded assessments
    assessments
    student-submission
    auto-grade-scripts
-   partial-points
    parameterized
    delete-assessment
    edit-assessment
    edit-assessment-points
    standard-code-test
    advanced-code-test
+   partial-points
    multiple-choice
    fill-in-blanks
    free-text
