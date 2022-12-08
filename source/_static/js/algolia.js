@@ -8,11 +8,5 @@ docsearch({
   // Set debug to true to inspect the dropdown
   searchParameters: {
     hitsPerPage: 20,
-  },
-  transformItems(items) {
-    if (items.length > 6) {
-      debugger
-    }
-    return items
-  },
+  }
 });
