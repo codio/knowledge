@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**December 2022**
+
+- `[F] [08th]`: Add support to create hotkeys for commonly used editing functions in :ref:`Guides editor<markdown-content-editing>`
+
 **November 2022**
 
 - `[F] [11th]`: Add feature for :ref:`Parameterized Assessments<parameterized>`
