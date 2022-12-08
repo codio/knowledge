@@ -12,5 +12,6 @@
       "lvl4": "main .section h5",
       "lvl5": "main .section h6",
       "text": "main .section p,main .section blockquote"
-    }
+    },
+    "only_content_level": true
 }

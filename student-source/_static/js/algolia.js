@@ -6,7 +6,10 @@ docsearch({
   appId: '0MJO9504F8', // Should be only included if you are running DocSearch on your own.
   // Replace inputSelector with a CSS selector
   // matching your search input
-  inputSelector: '#search-input',
+  container: '#docsearch',
+  searchParameters: {
+    hitsPerPage: 20,
+  },  
   // Set debug to true to inspect the dropdown
   debug: false,
 });
