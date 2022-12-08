@@ -223,12 +223,12 @@ html_additional_pages = {
 html_css_files = [
     'css/codio.css',
     'css/search.css',
-    'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css'
+    'https://cdn.jsdelivr.net/npm/@docsearch/css@3'
 
 ]
 
 html_js_files = [
-  ('https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js', {'defer': 'defer'}),
+  ('https://cdn.jsdelivr.net/npm/@docsearch/js@3', {'defer': 'defer'}),
   ('js/algolia.js', {'defer': 'defer'})
 ]
 

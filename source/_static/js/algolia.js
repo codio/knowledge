@@ -11,6 +11,5 @@ docsearch({
   debug: false,
   algoliaOptions: {
     hitsPerPage: 8,
-
   }
 });
