@@ -30,6 +30,16 @@ Writing content
 ***************
 Write content in the main content area.
 
+You can also set hotkeys for a range of commonly used editing functions. 
+
+- Bold selected text
+- Enumerate selected text
+- Order selected text
+- Make selected text as a code block
+- Command button 
+
+See the **[guides]** area in the :ref:`User Preferences <user-prefs>`
+
 Custom CSS
 **********
 

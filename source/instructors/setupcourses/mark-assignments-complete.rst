@@ -24,17 +24,15 @@ An assignment can be marked as complete using one of the following methods:
 View When a Student Marks Assignment as Complete
 ------------------------------------------------
 
-To see when a student marks an assignment as complete, follow one of the two options below depending on if there are assessments in the assignment:
-
-- If there is an assessment in the assignment: Use the grading dialogue box
+To see when a student marks an assignment as complete, open the grading dialogue box
     1. Navigate to the assignment in **Overview** mode. 
-    2. Click the numerical grade box to open the dialogue. 
-    3. If there is a time given, that indicates the time the student marked the assignment as complete. 
+    2. Click the numerical grade box to open the dialogue to see the completed date/time.
+
     
   .. image:: /img/mark-as-complete-time.png
      :alt: Mark As Complete Time
     
-- If there are no assessments in the assignment OR you want to see submission times in one place: Download the CSV
+If you want to see submission times in one place: Download the CSV
     1. Navigate to the course. 
     2. Ensure you are in **Overview** mode and click the settings gear to the right of the assignment to access **Assignment Settings.**
     3. Click the **Actions** button to drop down more options. 
