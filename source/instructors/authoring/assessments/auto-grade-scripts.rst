@@ -110,7 +110,7 @@ You can also use a simple bootstrap launcher that loads and executes the script 
 .. code:: bash
 
     #!/bin/bash
-    URL="https://gist.githubusercontent.com/MaximKraev/11cd4e43b0c43f79d9478efbe21ba1b9/raw/validate.py"
+    URL="https://gist.githubusercontent.com/ksimuk/11cd4e43b0c43f79d9478efbe21ba1b9/raw/validate.py"
     curl -fsSL $URL | python - $@
 
 It is important that this file is stored in the **.guides/secure** folder. You then specify the full filepath **.guides/secure/launcher.sh** in the **Set custom script path** field in the assignment settings.
