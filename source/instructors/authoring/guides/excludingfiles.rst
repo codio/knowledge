@@ -23,7 +23,7 @@ For example if the **.assignmentignore** or **.unitignore** file is located in t
 
 the **.assignmentignore** or **.unitignore** file will be
 
-.. code:: json
+.. code:: ini
 
    /testing
    /node_modules

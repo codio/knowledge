@@ -25,7 +25,7 @@ The total grade is based on the grade weight assigned to each option:
    
 To specify Grade Weights, follow these steps:
 ---------------------------------------------
-1. Navigate to your course, and ensure you are in **Teach** mode. 
+1. Navigate to your course, and go to the **Overview** area. 
 2. Select the **settings** gear to the right of the assignment name. 
 3. Under assignment settings, scroll all the way down. 
 4. In the **Grade Weights** area, click the grading options you want to enable and assign the grading weights to each option:

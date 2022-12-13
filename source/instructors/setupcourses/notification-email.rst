@@ -23,8 +23,8 @@ Automated Email details
 Before
 ******
 
-- **Due Date (before late penalties)** where :ref:`penalties deadlines <penalties>` are set and the **End Time** is set to the final date of completion, the **Due Date** is taken from the penalty deadline date
-- **End Date** is taken from the **End Time** set for the assignment duration
+- **Due Date (before late penalties)** where :ref:`penalties deadlines <penalties>` are set and the **Closing Date** is set to the final date of completion, the **Due Date** is taken from the penalty deadline date
+- **Closing Date** is taken from the **Closing Date** set for the assignment duration
 
 **Reply to Email Address:** enter an email address that students can then reply to if they have questions or require further assistance.
 
