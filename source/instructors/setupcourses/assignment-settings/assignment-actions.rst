@@ -20,8 +20,8 @@ Open the **Actions** menu to see additional buttons that allow you to run a plag
 
 - **Mark All As Completed** - Click this button to mark all student assignments as completed. Hover over a student name to see the switch appear to the left of the students name. 
 
-  .. image:: /img/mark-complete.png
-     :alt: Mark All As Completed
+.. image:: /img/mark-complete.png
+   :alt: Mark All As Completed
 
 - **Unmark As Complete** - Click this button to clear the **Mark All As Complete**.
 
@@ -29,11 +29,11 @@ Open the **Actions** menu to see additional buttons that allow you to run a plag
 
 - **Reset** - Click this button to clear all student work. This option is used when you have updated an assignment in your course and you need to reset it so all student assignments are updated with the new assignment. You can reset assignments using the **Action > Reset** button, or the menu in the assignment:
 
-  .. image:: /img/resetunitall.png
-     :alt: Action > Reset
+.. image:: /img/resetunitall.png
+   :alt: Action > Reset
 
-  .. image: /img/resetunitstudent.png
-     :alt: Reset Assignment
+.. image:: /img/resetunitstudent.png
+   :alt: Reset Assignment
 
 - **Regrade Completed** - Click this button to re-run an auto-grade script after an assignment is marked as completed.
 

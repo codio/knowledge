@@ -7,11 +7,11 @@
 Penalties
 =========
 
-You can add penalties to the assignment if students don't complete it within the specified start time and end time.
+You can add penalties to the assignment if students don't complete it within the specified start time and closing time.
 
 Penalties are not cumulative. Your student will receive the penalty associated with their submission date.
 
-.. Note:: It is recommended that you set the end date/time for the assignment (see :ref:`Assignment Duration <assignment-duration>`) to the last date/time for the penality to avoid having to change the assignment status for a student who submits the assignment late. 
+.. Note:: It is recommended that you set the closing date/time for the assignment (see :ref:`Assignment Duration <assignment-duration>`) to the last date/time for the penality to avoid having to change the assignment status for a student who submits the assignment late. 
 
 .. image:: /img/penalties.png
    :alt: Penalties
@@ -47,8 +47,8 @@ View Penalties in Instructor Dashboard
 -----------------------------------------
 You can view any penalties that have been applied in the Instructor Dashboard. If a penalty has been applied, the grade field has a light red background. Hover above the field to view the penalty details, including number, date/time, and the penalty percentage that has been applied.
 
-.. image:: /img/penaltydashboard.png
-   :alt: Penalty Indicator
+   .. image:: /img/penaltydashboard.png
+      :alt: Penalty Indicator
 
 The **Final Grade** shows the final graded score less any penalty deduction. If you have overwritten the field (see Adjust deadline), the penalty deduction is not applied.
 
@@ -66,10 +66,10 @@ To adjust the assignment deadline for an individual student, follow these steps:
 
 3. On the **Adjust Deadline for Student** dialog, increase the **Days**, **Hours**, and **Minutes** for the time to be extended for the student to complete the assignment, and then click **Apply**.
 
-   .. image: /img/deadlineadjust.png
-      :alt: Penalty Adjusted
+   .. image:: /img/deadlineadjust.png
+         :alt: Penalty Adjusted
 
    The adjustment is displayed next to the Grade field in the Instructor Dashboard.
 
    .. image:: /img/adjusted.png
-      :alt: Deadline Adjustment in Dashboard
+         :alt: Deadline Adjustment in Dashboard

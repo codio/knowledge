@@ -11,7 +11,7 @@ The Exam Proctoring settings are used to enable various options for assignment e
 .. image:: /img/examproctoring.png
    :alt: Exam Proctoring Settings
 
-- **Time Limit** - If enabled, assignments are marked as complete after the indicated amount of time has passed since the student started the assignment or the **End Time** of the assignment has been reached. 
+- **Time Limit** - If enabled, assignments are marked as complete after the indicated amount of time has passed since the student started the assignment or the **Closing Time** of the assignment has been reached. 
  
   - Click **Time Limit** to enable it and then enter the value for **Days**, **Hours**, and **Minutes**.
   
