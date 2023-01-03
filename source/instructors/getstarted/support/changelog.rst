@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**January 2023**
+
+- `[F] [03rd]`: Add feature to :ref:`Duplicate Assessment <duplicate-assessment>`
+
 **December 2022**
 
 - `[F] [08th]`: Add support to create hotkeys for commonly used editing functions in :ref:`Guides editor<markdown-content-editing>`

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Edit an assessment by clicking on the sdit button.
+   :description: Edit an assessment by clicking on the edit button.
    
 .. _edit-assessment:
 
