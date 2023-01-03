@@ -15,6 +15,7 @@ Account Settings
    ssh-key
    user-prefs
    project-prefs
+   env-variables
    bitbucket
    github
    upload-ssh-key-remote-server
@@ -30,3 +31,4 @@ From the **Overview** page, you can access and manage the following:
 - :ref:`Upload SSH Key to Remote Server <upload-ssh-key-remote-server>`
 - :ref:`User Preferences <user-prefs>`
 - :ref:`Project Preferences <project-prefs>`
+- :ref:`Environment Variables <env-var>`
