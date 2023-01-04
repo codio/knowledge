@@ -12,11 +12,11 @@ Environment Variables allow you to set your own environment variables in your pr
 Student Assignments
 ===================
 
-As mentioned above, any variables you set in your projects/assignments are not inherited by students in any course assignments. You can use the variables within :ref:`Secure Scripts <auto-grade-scripts>` but your students will need to manually create the variables themselves in the assignment.
+As mentioned above, any variables instructors set in assignments are not inherited by students in their course assignments. **Environment Variables** can be used within :ref:`Secure Scripts <auto-grade-scripts>` but your students will need to manually create the necessary variables themselves in their assignment.
+
+If a student is working with an API across a number of assignments, they can set up the environment variables once and have it propagate to all their projects without having to manually add keys to each new assignment.
 
 - **Environment Variables** are not supported for :ref:`Pair Programming <group-work>` assignments.
-
-
 
 .. Important:: Be aware that if you change the `HOME` variable you are changing the entry point for profile and it could adversely affect the user variables. If you do change this variable, it is your responsibility how environment will behave after that.
 
