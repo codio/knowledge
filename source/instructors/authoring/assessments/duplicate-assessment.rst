@@ -4,6 +4,9 @@
 
 Duplicate an Assessment
 =======================
+
+The duplicate function creates a copy of an existing assessment you can use as a starting point to make a different assessment.
+
 To duplicate an assessment, open the assessment by either:
 
 
