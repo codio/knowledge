@@ -16,6 +16,7 @@ Auto-graded assessments
    parameterized
    delete-assessment
    edit-assessment
+   duplicate-assessment
    edit-assessment-points
    standard-code-test
    advanced-code-test
