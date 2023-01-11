@@ -35,3 +35,5 @@ Based on the LMS role, if teachers join Codio via the LMS, the following will ap
 +----------------------+-----------------------------------------------------------------------------------------------------+
 | Mentor               | TEACHER (with :ref:`read only <add-teachers>` access to the course}                                 |
 +----------------------+-----------------------------------------------------------------------------------------------------+
+
+If you wish to only allow Mentors to view/manage specific students in the course, see :ref:`Filter Learners For Mentors <filter-learners>`

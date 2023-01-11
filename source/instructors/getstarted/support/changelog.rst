@@ -15,7 +15,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **January 2023**
 
-- `[F] [03rd]`: Add ability to set :ref:`Environment Variables <env-var>
+- `[F] [11th]`: Add support to :ref:`Filter Learners For Mentors <filter-learners>`
+- `[F] [03rd]`: Add ability to set :ref:`Environment Variables <env-var>`
 - `[F] [03rd]`: Add feature to :ref:`Duplicate Assessment <duplicate-assessment>`
 
 **December 2022**
