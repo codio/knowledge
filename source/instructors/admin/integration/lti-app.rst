@@ -86,6 +86,26 @@ Toggling **Hide Not Started Assignments** to on will suppress the display of ass
 .. figure:: /img/lti/lms_hide.png
    :alt: Hide not started assignments
 
+.. _filter-learners:
+
+Filter learners for mentors
+***************************
+
+Enabling **Filter Learners for Mentors** to on will allow you to only show Mentor/Observers specific students that you wish them to see/manage in the Codio course.
+
+To set this up, edit your LTI app as set up above or send as a custom parameter adding `codio_custom_mentor_for` as a custom field entering as the parameter either the students email addresses or their LMS user IDs.   To enter multiple students separate with comma (',')
+
+Example:
+
+.. code:: ini
+
+   codio_custom_mentor_for="student1@email.com,student2@email.com"
+
+
+
+.. figure:: /img/lti/filter_learners.png
+   :alt: Filter learners for mentors
+
 Mapping an Assignment to a Canvas Assignment
 ============================================
 
