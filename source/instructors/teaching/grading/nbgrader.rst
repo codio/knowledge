@@ -16,6 +16,8 @@ User configurations for nbgrader can be stored in a **nbgrader_config.py** or in
 
 .. Note:: If both files are used the settings in the **nbgrader_config.py** take precedence. This file is not visible to students in their assignments 
 
+.. Note:: Notebook files are only supported if in the workspace (root) folder
+
 Configuration
 -------------
 Use the following configuration information when setting up nbgrader in a **.codio-jupyter** file. If using **nbgrader_config.py**, see :ref:`example <nb-conf-example>` below.
