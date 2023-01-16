@@ -67,7 +67,7 @@ Use globs to search for files as follows:
    -  ``index.js``
    -  ``hello_world.js``
    -  ``app.js``
--  All files ending in ``.html`` in the root folder: ``*.html``
+-  All files ending in ``.html`` in the root (`/home/codio/workspace` or `~/workspace`) folder: ``*.html``
    -  ``index.html``
    -  ``404.html``
 -  All files in ``lib``: ``lib/*.*``

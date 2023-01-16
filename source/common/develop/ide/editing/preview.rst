@@ -38,7 +38,7 @@ Modifying the Preview menu
 You can customize the **Preview** menu using one of the following methods:
 
 - From the **Preview** or **Run** drop-down menus, choose **Configure**.
-- Open the **.codio** file in the root of your project (if it exists).
+- Open the **.codio** file in the root (`/home/codio/workspace` or `~/workspace`)of your project (if it exists).
 
 To customize the Run and Preview buttons, modify this section of the **.codio** file:
 

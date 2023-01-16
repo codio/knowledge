@@ -10,7 +10,7 @@ The Codio IDE offers the ability to customize the **Run** button, similar to usi
 Configure Run to open new terminal window
 -----------------------------------------
 
-To customize the **Run** button to open a new terminal window where you can see the output, you must edit the **.codio** file in the root of your project. 
+To customize the **Run** button to open a new terminal window where you can see the output, you must edit the **.codio** file in the root (`/home/codio/workspace` or `~/workspace`) of your project. 
 
 .. image:: /img/run-menu.png
    :alt: Run Menu

@@ -27,7 +27,7 @@ You can also drag and drop files in from your project file tree to the page to a
 
 Opening Files
 *************
-To open files, select the file type from the drop down and enter the file name, including the path to the file if not in the root of the project workspace.
+To open files, select the file type from the drop down and enter the file name, including the path to the file if not in the root (`/home/codio/workspace` or `~/workspace`) of the project workspace.
 
   .. image:: /img/guides/type_file.png
      :alt: open file
@@ -54,7 +54,7 @@ Opening the terminal and running system commands
 ************************************************
 To open a terminal window, select the **Terminal** type from the drop down.
 
-You can also specify a terminal command to run when a section is displayed. For example, your content may run bash scripts to copy files into the root of your project from the `/.guides` folder (which is hidden when content is running) at a certain point in your content.
+You can also specify a terminal command to run when a section is displayed. For example, your content may run bash scripts to copy files into the root (`/home/codio/workspace` or `~/workspace`) of your project from the `/.guides` folder (which is hidden when content is running) at a certain point in your content.
 
   .. image:: /img/guides/type_terminal.png
      :alt: terminal
