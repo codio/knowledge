@@ -100,6 +100,8 @@ The course/assignment id's are found from the URL in your browser when opening t
 .. figure:: /img/course_assignment_id.png
    :alt: Course/assignment id
 
+.. _gh-multiple:
+
 Publishing projects into multiple assignments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

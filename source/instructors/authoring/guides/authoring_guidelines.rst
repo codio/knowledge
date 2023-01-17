@@ -20,13 +20,10 @@ Load the Demo Guides and Assessments project to learn more about authoring with 
 2. Search for Demo Guides and Assessments.
 3. Click **Use Pack** and then **Create** to install it to your Codio account.
 
-Use Courses and Books to organize your instructional content
-------------------------------------------------------------
-Refer to :ref:`the differences between projects, course assignments and books <project-book>` to decide how to organize your materials.
 
 Using Media assets in your Guides
 ---------------------------------
-When creating a book or a guide, you will often be working with images, video and other media. We recommend the following.
+When creating a  a guide, you will often be working with images, video and other media. We recommend the following.
 
 - Images should be placed in the `.guides/img` folder. You can create sub-folders for organizational purposes.
 - Videos should be hosted on a 3rd party platform such as YouTube or Vimeo. You can embed these using regular HTML embed tags provided by those platforms.
