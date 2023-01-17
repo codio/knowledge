@@ -32,7 +32,7 @@ To configure to use JUnit for Java testing, follow these steps:
 
 **Notes:** 
 
-- All paths are relative to the root of the workspace folder.
+- All paths are relative to the root (`/home/codio/workspace` or `~/workspace`) of the assignment/project.
 - If using multiple cases in an assignment/project, the files for each should all be in separate folders for them to work independently of each other. This applies to student code files as well as the code used for the cases.
 - All code files **Source path** will be compiled. Files that fail to compile successfully will cause the tests to fail, even if they are not used.
 

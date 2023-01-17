@@ -25,7 +25,7 @@ If you enter ``<a`` and invoke autocomplete, a list of relevant attributes for t
 
 Tern and javascript
 -------------------
-We support intelligent autocomplete using TernJS. Tern also supports explicit directives in the **.tern-project** file, which you can move to the root of your project.
+We support intelligent autocomplete using TernJS. Tern also supports explicit directives in the **.tern-project** file, which you can move to the root (`/home/codio/workspace` or `~/workspace`) of your project.
 
 The file looks like this:
 

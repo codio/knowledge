@@ -287,7 +287,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[F] [16th]`: Add ability to more easily generate items for Standard Code test
 - `[I] [16th]`: Fix problem with Code Commenting where guides layout protected
 - `[I] [15th]`: Improvements for Code Commenting to remember toggled state and to show new comments in real time
-- `[I] [15th]`: Improve handling of .svg files in books
 - `[I] [14th]`: Fix problem with Fill in the Blank assessment points allocation
 - `[I] [14th]`: Improve handling of `<pre>` tags used in Fill in the Blank assessments
 - `[I] [14th]`: Improve presentation of adjusted deadline details to students and teachers
@@ -296,7 +295,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [ 3rd]`: Improve course assignment list handling remembering scroll location from previous visit
 - `[I] [ 3rd]`: Add additional student sorting options at assignment level
 - `[I] [ 3rd]`: Improve handling for resolving Code comments
-- `[I] [ 1st]`: Add support for 'pull' in child courses for books
 
 **August 2020**
 
@@ -312,7 +310,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [12th]`: Fix problem with guides edit button
 - `[I] [12th]`: Improve view of modules when adding existing into courses
 - `[I] [11th]`: Add Code Commenting support
-- `[I] [10th]`: Fix problem selecting book based content in assignment
 - `[I] [ 5th]`: Add support for LTI Roles
 - `[I] [ 5th]`: Add support for new files to be added to existing assignments
 
@@ -335,7 +332,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [ 8th]`: Improve handling of script output for free text auto assessment if script passes
 - `[I] [ 8th]`: Improve handling of incompatible assessments when updating course assignments
 - `[I] [ 8th]`: Remove http preview option
-- `[I] [ 7th]`: Allow updating to the latest version of the book for all assignments in a course
 - `[I] [ 3rd]`: Update guides table of contents, moving buttons to the top
 - `[I] [ 3rd]`: Fix problem with release grade settings not passing correctly when cloning course
 - `[I] [ 3rd]`: Add example using [collapsible content](courses/authoring/#collapsible-content) in guides
@@ -444,7 +440,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 **November 2019**
 
 - `[I] [22nd]`: Improve visibility of assessment id to list of assessments
-- `[I] [21st]`: Fix problem uploading images to stacks/packs/units/books/course/modules
+- `[I] [21st]`: Fix problem uploading images to stacks/packs/units/course/modules
 - `[I] [19th]`: Fix problem with assessment button not showing
 - `[F] [17th]`: Add support for LTI 1.3 integration
 - `[I] [11th]`: Fix problem connecting to BitBucket repo's
@@ -534,7 +530,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [ 7th]`: Improve visibility of keyboard focus
 - `[I] [ 7th]`: Change wording `Upgrade` to `Update` for consistency of language
 - `[F] [ 6th]`: Add ability to exclude files from students units in a class
-- `[I] [ 4th]`: Update handling of teacher only pages in books
 
 **March 2019**
 
@@ -568,7 +563,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [28th]`: Fix issue in upgrade course where long names used in module and/or units
 - `[I] [28th]`: Fix layout issue in standard code test assessment in html type of page
 - `[I] [26th]`: Improve messaging when connecting project in desktop app
-- `[I] [26th]`: Fix issue with Book permissions if a user is deleted
 - `[I] [26th]`: Improve handling of redirection when unit run in LMS when students mark the unit as completed
 - `[I] [26th]`: Add refresh button to visualisation assessment
 - `[I] [26th]`: Fix problem for students being unable to view the content of the unit when marked as complete and visibility set to read only
@@ -588,7 +582,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[F] [15th]`: Add new guides layout including file tree with guides presented on the left hand side
 - `[F] [14th]`: Add new assessment type: Parson's puzzle
 - `[I] [12th]`: Review button colours on Class Admin screen
-- `[I] [12th]`: Fix problem with returned grade score for book based units
 - `[I] [12th]`: Fix issue with one attempt only message for assessments showing incorrectly when not enabled
 - `[I] [12th]`: Fix problem with dark theme in FF65 on MacOS
 - `[I] [11th]`: Improve handling of invitation of teachers into classes
@@ -606,7 +599,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [23rd]`: Fix problem updating students units in class when archived
 - `[I] [23rd]`: Fix problem with partial points implemented in Advanced Code Test assessment
 - `[F] [21st]`: Add new guides layout for '3 panels without tree' with guides presented on the left hand side
-- `[I] [21st]`: Fix problem with book settings not applied to class units
 - `[F] [18th]`: Add ability to clone content of existing class into a new class
 - `[F] [18th]`: Add new Custom Button function to all users to restore current files in guides
 - `[F] [17th]`: Add new guides layout for '2 panels without tree' with guides presented on the left hand side
@@ -644,7 +636,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [29th]`: Improve handling of line delimiters in .codio-menu file
 - `[I] [29th]`: Improve synchronisation of files pulled/pushed to desktop app
 - `[F] [22nd]`: Allow files/folders to be excluded from synchronisation with desktop app
-- `[I] [22nd]`: Fix problem with customizing in books
 - `[F] [22nd]`: Add support for `python3` in unit tests
 - `[F] [21st]`: Add separate fields for first and last name to download csv
 - `[I] [21st]`: Fix problem with first time execution of advanced code test assessments
@@ -699,7 +690,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [20th]`: Improve download csv content adding students email address
 - `[I] [20th]`: Remove character limitation for grading comments
 - `[I] [15th]`: Improve download csv content, adding 2 new fields for Points and Max Points
-- `[I] [13th]`: Fix problem for book based units when disabling units in class module
 - `[F] [13th]`: Add ability for 'mark as completed' to be disabled for individual units in classes
 - `[I] [12th]`: Remove https preview warning to avoid confusion for students
 - `[I] [12th]`: Improve handling of fullscreen button in frames
@@ -734,14 +724,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2018**
 
-- `[I] [26th]`: Improve handling of Book deletion
 - `[F] [26th]`: Add typescript support for desktop application
 - `[F] [18th]`: Improve handling of enabling/disabling of class units
 - `[F] [17th]`: Fix issue with cloning Partial Point Rubric in IE browser
 - `[F] [13th]`: Add support for nbgrader
 - `[I] [12th]`: Improve handing of copy file actions
 - `[I] [11th]`: Improve handling of cookie consent
-- `[I] [11th]`: Fix issue in counter for grading of book based units
 - `[F] [10th]`: Allow Partial Point Rubric to be cloned from other units
 - `[I] [ 3rd]`: Update handling of Edge browser integration with LMS systems
 - `[I] [ 3rd]`: Improve Plagiarism checker adding new filters that can be set
@@ -755,7 +743,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [29th]`: Fix problem with layout for manual grading in IE browser
 - `[I] [27th]`: Fix problem with adding user project permissions
 - `[F] [22nd]`: Add STACK file type in Math assessment authoring and YAML validation.
-- `[I] [21st]`: Improve error message handling of publishing of books with broken .json files
 - `[I] [21st]`: Improve teacher view of pinned units
 - `[F] [20th]`: Add Partial Point Rubric for manual grading
 - `[I] [19th]`: Improve behaviour of free text assessment
@@ -773,7 +760,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [31st]`: Improve handling of autocomplete when searching for users to share projects
 - `[I] [28th]`: Improve handling of local deleted files and folders in desktop application
 - `[I] [28th]`: Improve handling of assessment points if changed when updating unit in class
-- `[I] [28th]`: Fix issue with plagiarism in book based units
 - `[I] [24th]`: Improve handling of `exit` terminal commands
 - `[I] [21st]`: Fix problem with teachers opening own last version of unit in courses
 - `[I] [21st]`: Fix issue with restarting guides after changing settings
@@ -812,7 +798,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2018**
 
-- `[I] [29th]`: Update handling of books requiring guides before publishing
 - `[I] [27th]`: Improve IDE menu items for better keyboard accessibility
 - `[I] [27th]`: Update structure of exporting class data
 - `[I] [27th]`: Improve memory handling for language server protocol
@@ -826,13 +811,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [ 7th]`: Improve handling of course updates in classes
 - `[I] [ 7th]`: Fix issue with class dashboard in IE browser
 - `[F] [ 6th]`: Add support for searching/filtering of classes
-- `[I] [ 6th]`: Fix problem for teachers opening latest version of books
 - `[I] [ 5th]`: Improve handling for opening of large project warning
 - `[I] [ 5th]`: Fix issue with terminal reconnections
 
 **Febuary 2018**
 
-- `[I] [28th]`: Update handling of book unit switching
 - `[I] [26th]`: Fix issue with unit reloading for students
 - `[F] [26th]`: Expand Gigabox options to include 1GB, 2GB, 8GB,16GB and GPU (for GPU-accelerated instances) boxes.
 - `[I] [26th]`: Fix issue with regrade complete
@@ -844,8 +827,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[F] [ 9th]`: Exporting LTI settings
 - `[I] [ 9th]`: Fix problem with txt files not opening correctly
 - `[F] [ 8th]`: Export class data enabling all class data, including students workspaces to be exported.
-- `[I] [ 5th]`: Fix issue with book units
-- `[I] [ 5th]`: Fix issue publishing books after changing stack
 - `[I] [ 1st]`: Fix issue with content being lost when switching browsers
 
 **January 2018**
@@ -860,7 +841,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [16th]`: Fix problem for teachers not being able to edit course/module units
 - `[I] [15th]`: Always use tabs regardless of user/project settings when using Makefile
 - `[I] [ 4th]`: Fix issue with guides table of contents focus on open
-- `[I] [ 4th]`: Improve handling of books when switching between book units
 
 **December 2017**
 
@@ -880,19 +860,16 @@ We do not report small bug fixes or issues that affect individual users, who we 
 **November 2017**
 
 - `[I] [30th]`: Update definition of incorrect points for multiple choice assessments
-- `[I] [30th]`: Improve messaging highlighting Public/Private Settings when creating Courses/Modules/Books/Projects/Stacks/Starter Packs
+- `[I] [30th]`: Improve messaging highlighting Public/Private Settings when creating Courses/Modules/Projects/Stacks/Starter Packs
 - `[I] [28th]`: Fix XSS image issue
 - `[I] [28th]`: Improve handling of teachers joining class as student through LTI
-- `[I] [28th]`: Simplify creation of book based units
 - `[I] [28th]`: Update Unit Duration
 - `[I] [28th]`: Improve student submission options
 - `[I] [28th]`: Update Guides global settings
 - `[F] [27th]`: Add functionality to change/review JUnit timeout settings
 - `[F] [24th]`: Unit Penalties to allow teachers/instructors to specify grading deadlines and associated penalties
-- `[I] [24th]`: Update Book publishing to allow pages to be selected
 - `[I] [15th]`: Fix issue when changing stack for ad-hoc projects in a class
 - `[I] [15th]`: Update guides collapse button handling when layout set to 1 panel
-- `[I] [14th]`: Fix handling of book based units opening for students
 - `[I] [14th]`: Block deletion of a course that contains modules
 - `[I] [14th]`: Improve warnings when deleting units and modules
 - `[I] [13th]`: Fix issue publishing units in IE browser
@@ -917,9 +894,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [13th]`: Improve grading for Free text assessments supporting comment field and easy navigation to other students and other assessments for the currently selected student
 - `[I] [12th]`: Update handling of symbols in free text assessment previewing
 - `[I] [12th]`: Improve class navigation for teachers, click units tab to return to main unit listing
-- `[F] [11th]`: Unify guides/books table of contents
+- `[F] [11th]`: Unify guides table of contents
 - `[I] [11th]`: Fix issue with creating projects importing from zip file
-- `[I] [10th]`: Fix problem with books upgrade to class
 - `[I] [10th]`: Improve handling of size of free text assessment field for student
 - `[I] [09th]`: Show points assigned for free text assessments to students within the unit when grades released
 - `[F] [06th]`: Add user preference editor setting to show a vertical ruler in files. `[ruler]=xx`
@@ -931,7 +907,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [04th]`: Improve grading free text to show confirmation message when applying
 - `[I] [04th]`: Improve stack handling when publishing units
 - `[I] [04th]`: Improve upgrade course process
-- `[F] [02nd]`: Release of books
 - `[I] [02nd]`: Allow LMS students to access already started units from Codio dashboard
 - `[I] [02nd]`: Redirect LMS users back to their LMS when marking unit as complete
 

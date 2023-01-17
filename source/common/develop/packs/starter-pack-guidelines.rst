@@ -13,7 +13,7 @@ When you create a Starter Pack, you should first create a new project from a sta
 
 .codio file
 -----------
-Create a **.codio** file in the root of your project so you can easily run common terminal commands and preview the code. 
+Create a **.codio** file in the root (`/home/codio/workspace` or `~/workspace`) of your project so you can easily run common terminal commands and preview the code. 
 
 To enable your project to preview inside a **Codio** tab, you must configure the preview to run over https. We recommend this as being the default behavior as it will run both inside Codio and in a new browser tab. You should configure any services to run on any port between 9500 and 9000, depending on the server technology being used.
 
@@ -53,7 +53,7 @@ You should include a full description of your Starter Pack that appears when som
 
 README.md file
 --------------
-You should create a **README.md** file in the root of your project that displays helpful information the user can see when they open the project.
+You should create a **README.md** file in the root (`/home/codio/workspace` or `~/workspace`) of your project that displays helpful information the user can see when they open the project.
 
 Below is a template that can be used:
 
