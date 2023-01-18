@@ -19,4 +19,4 @@ To move an archived course to the **Active** page, follow these steps:
 1. On the **Courses** page, click the **Archived** tab.
 2. Click the menu on the right side of the course (3 horizontal dots) and choose and choose **Unarchive Course**.
 
-.. Note:: Courses will also automatically archive when the end date set for the course is reached. This date can be amended in the course details area if you require the course to continue to be active
+.. Note:: Courses will also automatically archive when the archive date set for the course is reached. This date can be amended in the course details area if you require the course to continue to be active
