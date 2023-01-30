@@ -94,7 +94,17 @@ A list of common reasons why payments fail:
 
 Also, ensure that your browser is allowing :ref:`3rd Party Cookies <cookie-requirements>`
 
-Please try using another browser or stop your adblocker during the payment process or login to Codio either with a different browser where you don't have adblockers running or in an incognito/private session. If using incognito session in Chrome, ensure that you are not blocking third-party cookies that is enabled by default now in Chrome
+Please try using another browser or stop your adblocker during the payment process or login to Codio either with a different browser where you don't have adblockers running or in an incognito/private session. If using incognito session in Chrome, ensure that you are not blocking third-party cookies that is enabled by default now in Chrome.
 
    .. image:: /img/chrome-incognito.png
       :alt: Chrome Incognito
+
+Restarting an expired subscription plan
+---------------------------------------
+
+If you had a subscription plan that has now expired, you need to first click the **PLAN** drop down and select the subscription plan you wish to start. You will then be taken through to a form to enter your card details.
+
+Updating your card details for a recurring subscription plan
+------------------------------------------------------------
+
+To update/change the card details for future payments, click the **PAYMENT METHOD** drop down and enter in the new card details.
