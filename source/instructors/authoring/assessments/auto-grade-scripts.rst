@@ -46,7 +46,23 @@ You can access student scores for authored content-based, auto-graded assessment
           }
         }]
       },
-      "completedDate": "2017-02-07T09:47:54.471Z"
+      "completedDate": "2017-02-07T09:47:54.471Z",
+      "student": {
+        "id": "codio_GUID",
+        "username": "astudent",
+        "fullName": "A Student",
+        "email": "email@example.com"
+      },
+      "course": {
+        "id": "codio_course_id",
+        "projectId": "codio_project_id",
+        "lti": true,
+        "assignment": {
+          "id": "codio_assignment_id",
+          "start": null,
+          "end": null
+        }
+      }
     }
 
 .. _participation-grading:
@@ -299,3 +315,4 @@ Example Bash auto-grading script
     set -e
     POINTS=$(( ( RANDOM % 100 )  + 1 ))
     curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$POINTS -d format=md -d feedback=test
+  CODIO_AUTOGRADE_ENV
