@@ -51,7 +51,7 @@ extensions = [
     'recommonmark',
     'sphinx_sitemap'
 ]
-html_baseurl = 'https://docs.codio.com'
+html_baseurl = 'https://docs.codio.com/'
 
 sitemap_filename = "sitemap-student.xml"
 
