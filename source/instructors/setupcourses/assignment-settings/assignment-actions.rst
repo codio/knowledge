@@ -16,7 +16,7 @@ Open the **Actions** menu to see additional buttons that allow you to run a plag
 .. image:: /img/actionarea.png
    :alt: Actions Button
 
-- **Plagiarism** - Click this button to run the Plagiarism Checker [plagiarism detection](/courses/plagiarism/). You can also access this from the menu (3 horizontal dots) in the assignment.
+- **Plagiarism** - Click this button to run the :ref:`Plagiarism Checker <plagiarism:>`. You can also access this from the menu (3 horizontal dots) in the assignment.
 
 - **Mark All As Completed** - Click this button to mark all student assignments as completed. Hover over a student name to see the switch appear to the left of the students name. 
 
@@ -25,7 +25,7 @@ Open the **Actions** menu to see additional buttons that allow you to run a plag
 
 - **Unmark As Complete** - Click this button to clear the **Mark All As Complete**.
 
-- **Download CSV** - Click this button to download a CSV file with student grade data for the assignment.
+- **Download CSV** - Click this button to download a CSV file with student grade data for the assignment. For more information on the data included see :ref:`Export Assignment Data <export-assignment>`
 
 - **Reset** - Click this button to clear all student work. This option is used when you have updated an assignment in your course and you need to reset it so all student assignments are updated with the new assignment. You can reset assignments using the **Action > Reset** button, or the menu in the assignment:
 
