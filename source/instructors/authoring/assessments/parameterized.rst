@@ -63,11 +63,9 @@ Here is an example script:
 
    codio_parameters = dict()
 
-   codio_parameters["COUNT"] = random.randint(2, 4)
-
    words_file = urlopen("https://raw.githubusercontent.com/lorenbrichter/Words/master/Words/en.txt")
    words = words_file.readlines()
-   codio_parameters["OUTPUT"] = words[random.randint(0,len(quotes))-1].decode('utf-8')
+   codio_parameters["OUTPUT"] = words[random.randint(0,len(words))-1].decode('utf-8')
 
 
 **Limitations:**
