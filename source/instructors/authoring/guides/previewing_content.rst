@@ -2,6 +2,8 @@
    :description: Previewing Guide content
 
 
+.. _preview-content-in-guides:
+
 Previewing content
 ==================
 

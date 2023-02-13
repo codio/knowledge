@@ -40,9 +40,10 @@ Accessing parameters in Auto-grading scripts
 ********************************************
 When using parameters with assessments executing auto-grading scripts, such as with :ref:`Advanced Code Tests <advanced-code-test>`, you can access parameters from the ``CODIO_PARAMETERS`` environment variable.
 
-To test your auto-grading script, you need to either:
-  1. publish your assignment and :ref:`either Preview as a teacher or as a Test Student <preview-course>` since the ``CODIO_PARAMETERS`` environment variable does not exist in the authoring version of the assignment
-  2. manually create the ``CODIO_PARAMETERS`` environment variable inside the authoring version of the assignment
+To test your parameterized auto-grading script, you need to do one of the following:
+  1. Within the authoring version of the assignment, click **Generate Sample Parameters** on the PARAMETERS tab and **Save** the assessment (even if you made no changes). This creates the ``CODIO_PARAMETERS`` environment variable within your authoring version of the assignment. Then you can simply click the assessment button when :ref:`previewing the Guide <preview-content-in-guides>`. (Note: ``CODIO_PARAMETERS`` environment variable is only accessible through the assessment, **not** via the command line).
+  2. publish your assignment and :ref:`either Preview as a teacher or as a Test Student <preview-course>`
+  3. manually create the ``CODIO_PARAMETERS`` environment variable inside the authoring version of the assignment
 
 More examples
 *************
