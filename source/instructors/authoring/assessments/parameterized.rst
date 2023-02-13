@@ -47,11 +47,11 @@ If you choose to use Github, make sure your script has a URL that indicates the 
    https://raw.githubusercontent.com/github_user_name/repo_name/branch/folder_name/file_name.txt
 
 To find this URL, find the file through the Github interface and click the **RAW** button:
-   .. image:: /img/guides/raw_github_button.png
+   .. image:: /img/raw_github_button.png
       :alt: Raw button in Github interface
 
 If it is a particularly large file, Github will present you a link instead:
-   .. image:: /img/guides/raw_github_link.png
+   .. image:: /img/raw_github_link.png
       :alt: View raw link in Github interface
 
 Here is an example script:
