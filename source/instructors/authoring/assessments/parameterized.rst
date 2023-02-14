@@ -35,6 +35,44 @@ See the first image on this page for an example of creating parameters. Once cre
 
    .. image:: /img/guides/param_execution.png
       :alt: Parameters in fields of multiple choice assessment
+      
+Creating parameters from on web-based content
+----------------------------------------------
+When parameters are generated, the script in the PARAMETERS tab does **not** have access to the files in the box or on the stack. To pull a random choice from a large dataset, instead of hardcoding the dataset into the script, you can use Github or some other web-based CDN.
+
+If you choose to use Github, make sure your script has a URL that indicates the **RAW** version of the file which should look similar to:
+
+.. code::
+
+   https://raw.githubusercontent.com/github_user_name/repo_name/branch/folder_name/file_name.txt
+
+To find this URL, find the file through the Github interface and click the **RAW** button:
+   .. image:: /img/raw_github_button.png
+      :alt: Raw button in Github interface
+
+If it is a particularly large file, Github will present you a link instead:
+   .. image:: /img/raw_github_link.png
+      :alt: View raw link in Github interface
+
+Here is an example script:
+
+.. code:: python
+
+   import random, string
+   from urllib.request import urlopen
+
+   codio_parameters = dict()
+
+   words_file = urlopen("https://raw.githubusercontent.com/lorenbrichter/Words/master/Words/en.txt")
+   words = words_file.readlines()
+   codio_parameters["OUTPUT"] = words[random.randint(0,len(words))-1].decode('utf-8')
+
+
+**Limitations:**
+
+- We do not advise doing API calls during parameter generation due to the introduction of dependency on another system.
+- Parameters are only re-generated on Publish if the PARAMETERS code has been changed. Updating to only the CDN or Github repo will **NOT** re-generate the parameters.
+    * Best practice is to upload a new file with a new name -- and when you update the file name on the PARAMETERS tab, this will cause the regeneration and ensure clarity on which version of the file the assessment is using.
 
 Accessing parameters in Auto-grading scripts
 ********************************************
