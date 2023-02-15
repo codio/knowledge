@@ -17,6 +17,10 @@ When you have completed an assignment you can mark it as completed (if the conte
 
 - On the last page in the guide, click the **Mark as Completed** button.
 
+- On the Course assignment dashboard, toggle the **Completed** button
+
+.. Note:: If Penalties apply due to late submission you will be advised of this when completing from the course assignment dashboard
+
 If there are any assessments in the assignment that have not been submitted, details are displayed so you can review before completing the assignment.
 
 If you mistakenly mark an assignment as completed, contact your instructor. They can reset the status of the assignment so you can access it again.

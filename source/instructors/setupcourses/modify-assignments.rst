@@ -16,6 +16,8 @@ Follow these steps to modify an assignment and re-publish it:
 4. When you have completed your changes, click **Publish** in the upper right corner of the assignment or from the **Education** menu area
 5. Enter a description of your updates in the **Change Log** and then click **Publish**.
 
+.. Note:: If you wish to discard the changes you have made in your working copy, go to **Project > Discard Changes** to revert back to the last published version.
+
 Re-publish assignment that students have already started
 --------------------------------------------------------
 When you make changes to an assignment and attempt to re-publish it, if students have already started the assignment, you are warned that **Students have started this assignment** and provide options for you to continue. You can add new files but cannot update existing files as it will invalidate the student's work.
