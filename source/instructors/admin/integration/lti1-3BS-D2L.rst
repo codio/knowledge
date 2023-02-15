@@ -8,6 +8,7 @@ LTI 1.3 for Brightspace/D2L
 
 In Brightspace - Register a Tool
 --------------------------------
+The following is created in Manage Extensibility, LTI Advantage - Register a Tool, select Standard.
 1. Name - Codio
 2. In the **Domain** field enter - ``https://apollo.codio.com``
 
@@ -26,7 +27,8 @@ Copy fields from Codio to Brightspace/D2L
 1. Copy **Initiate Login URL** to the **OpenID Connect Login URL** field.
 2. Copy **Redirect URL** to the **Redirect URL** field.
 3. Copy **Keyset URL** to the **Keyset URL** field.
-4. Press **Register** - leave the pop-up on the screen, you will be copying values from it.
+4. In the **Extensions** section enable **Assignment and Grader Services**, **Deep Linking** and **Names and Role Provisioning Services**.
+5. Press **Register** - leave the pop-up on the screen, you will be copying values from it.
 
 Add the Integration you created
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
