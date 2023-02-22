@@ -12,6 +12,12 @@ Accessibility
 *************
 Codio's student experience meets the Web Content Accessibility Guidelines (WCAG) Level 2AA level of compliance and Codio is actively committed to maintaining and continuously improving the accessibility of the Codio student experience.
 
+See 
+
+- :ref:`Dyslexia Support <dyslexia>`
+- :ref:`User Preferences <user-prefs>`
+- :ref:`Project Preferences <project-prefs>`
+
 `Accessibility Information <https://www.codio.com/legal-stuff#compliance>`_ on our website
 
 

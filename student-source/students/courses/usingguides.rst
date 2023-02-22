@@ -30,7 +30,7 @@ Within the player various options can be controlled by the user
 
 
 - **Navigation Buttons** allows the user to navigate forward/backward in the content.
-- **Settings** allows the user to change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts, restore the current files (see below) and access Code Comments. See [Dyslexia Support](/students/#dyslexia-support) section
+- **Settings** allows the user to change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts, restore the current files (see below) and access Code Comments. See - :ref:`Dyslexia Support <tools>` section
 - **Show/Hide Section List Hamburger Ico** allows the user to show/hide the section list.
 - **Collapse** button will not show if the page layout is One Pane.
 
