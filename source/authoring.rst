@@ -41,3 +41,14 @@ You can launch Guides and begin content authoring in one of the following ways:
 
   .. image:: /img/guides/startguides.png
      :alt: Start Authoring
+
+Designing for Accessibility
+***************************
+
+Codio provides a range of tools to support Accessibility.
+
+ See: 
+
+- :ref:`Dyslexia Support <dyslexia>`
+- :ref:`User Preferences <user-prefs>`
+- :ref:`Project Preferences <project-prefs>`
