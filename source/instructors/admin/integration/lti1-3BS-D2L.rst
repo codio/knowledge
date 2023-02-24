@@ -80,11 +80,7 @@ In Brightspace/D2L
 
 1. Select the **Content** tab from the top of the page. 
 2. Add a new module in your D2L course.
-3. Select **Add Existing Activities** (1) -> **External Learning Tools** (2)
-
-  .. image:: /img/lti/D2Lconnectassignment.png
-     :alt: D2L view 3
-
+3. Select **Add Existing Activities** 
 4. From the list of available LTI links, select the Codio tool you created earlier.
 5. Click on the Codio link to bring up all the Codio courses for which you have enabled LTI.
 6. Select the Codio assignment you want to connect.
@@ -101,7 +97,3 @@ First enable :ref:`LTI Constant URLs <lti-constant>` for your course.
 .. figure:: /img/lti/enable_class_fork.png
    :alt: Enable course copy field
 
-Add custom parameters to your course
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-2. In the Course Tools menu click on the tool you created in the LTI advantage menu.
-3. In the Custom Parameters section click **Add Custom parameter** and copy the ``codio_parent_course_id`` name and value from Codio.  
