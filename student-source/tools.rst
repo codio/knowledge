@@ -14,6 +14,8 @@ Tools
    develop/tools/lexikon
    develop/tools/code-playback
    develop/tools/code-commenting
+
+.. _tools:
    
 Dyslexia Support
 ----------------

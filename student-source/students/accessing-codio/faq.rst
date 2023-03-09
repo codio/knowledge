@@ -125,4 +125,15 @@ Reset my assignment to its default configuration
 
 If the assignment you are referring to uses **Guides**, check out :ref:`Restore Current Files <restore-files>` as that may do what you need but if not and your instructor hasn't allowed you to :ref:`reset <student-reset>` the assignment yourself, discuss with your class instructor as they can :ref:`reset <modify-assignments>` the assignment for you and you can then start the unit again.  
 
-If you also let them know what you did , they may want to review the unit(s) you are working with to help mitigate this problem for you and other students in the future
+If you also let them know what you did, they may want to review the unit(s) you are working with to help mitigate this problem for you and other students in the future.
+
+Accessibility Options
+---------------------
+
+Codio provides a range of tools to support Accessibility.
+
+ See: 
+
+- :ref:`Dyslexia Support <tools>`
+- :ref:`User Preferences <user-prefs>`
+- :ref:`Project Preferences <project-prefs>`

@@ -52,6 +52,12 @@ You can view any penalties that have been applied in the Instructor Dashboard. I
 
 The **Final Grade** shows the final graded score less any penalty deduction. If you have overwritten the field (see Adjust deadline), the penalty deduction is not applied.
 
+Removing Penalties
+------------------
+
+If required you can remove any applied penalties to the students final grade. For more information see :ref:`Grading <grading>`
+
+
 Adjust deadline for individual students
 ---------------------------------------
 You can adjust the deadline for individual students should the circumstances warrant additional time to complete the assignment.

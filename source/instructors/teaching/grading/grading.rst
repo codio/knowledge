@@ -86,6 +86,15 @@ The **Override Grade** feature can also be used to provide comments at the assig
   .. image:: /img/class_administration/grading/assignment-comments.png
      :alt: Assignment Comments
 
+Removing Penalties
+------------------
+
+If required you can remove penalties currently applied to the students grade.
+
+   .. image:: /img/latepenalty.png
+      :alt: Remove Penalties
+
+
 Anonymous grading
 -----------------
 If required, anonymous grading can be set for the course so students cannot see the names of the teachers who graded their work. The teacher names are hidden in the shared feedback, project, and dashboard. 
