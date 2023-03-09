@@ -15,7 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2023**
 
-- `[F] [10th]`: Add support to :ref:`Filter Learners For Mentors <filter-learners>`
+- `[F] [10th]`: Allow users to enable :ref:`Behavior Insights <behavior-insights>` for their course to detect plagarism based on IDE data
 
 **January 2023**
 
@@ -56,7 +56,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2022**
 
-- `[F] [ 6th]`: Allow users to enable :ref:`Behavior Insights <behavior-insights>` for their course to detect plagarism based on IDE data
+- `[F] [ 6th]`: Allow users to regenerate and replace automatically created :ref:`SSH keys <ssh-key>` for their account
 
 **May 2022**
 
