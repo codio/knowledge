@@ -13,14 +13,14 @@ Enable Behavior Insights for your Course
 ----------------------------------------
 **Behavior Insights** is enabled at the course-level. Navigate to the **Courses** page and select the course to open it. Then choose **Basic Settings** under **Grading** in the left hand menu.
 
-  .. image:: /img/insights/BehaviorInsightsToggle.png
+  .. image:: /img/insights/BehaviorInsightsToggleV2.png
      :alt: Select: Course, Basic Settings, Enable behavioral insights, Save Changes
 
 Toggle on the **Enable Behavioral Insights** setting and click **Save Changes**.
 
 Viewing Behavior Insights
 -------------------------
-When you go to the Student progress page of an assignment in that course, you should now see a **Behavior** column and be able to filter and sort based on the behavior indicator.
+When you go to the Student progress page of an assignment in that course, you will now see a **Behavior** column and be able to filter and sort based on the behavior indicator.
 
   .. image:: /img/insights/BehaviorInsightsStudentProgressIndicator.png
      :alt: A Behavior column on the assignment progress dashboard can be filtered and sorted
@@ -30,7 +30,7 @@ Click on an indicator under the **Behavior** column to see the Behavior Insights
   .. image:: /img/insights/BehaviorInsightsDashboard.png
      :alt: Five tiles showing numeric metrics with text descriptions under each
      
-There should be between 1 and 5 tiles displayed. Tiles are only displayed if the student value is outside of a given threshold (indicated by dashed lines or red on the tile). Each tile has a textual description directly below it to help teachers interpret the numerical date presented in graphical form on the tile.
+There will be between 1 and 5 tiles displayed. Tiles are only displayed if the student value is outside of a given threshold (indicated by dashed lines or red on the tile). Each tile has a textual description directly below it to help teachers interpret the numerical date presented in graphical form on the tile.
 
 Click the **Ignore** button at the bottom of the dashboard to remove the behavior indicator for that student on that assignment. This action cannot be undone.
 
