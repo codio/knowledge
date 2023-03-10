@@ -13,6 +13,7 @@ Teaching
    
    instructors/teaching/viewstudentwork
    instructors/teaching/grading/grading
+   instructors/teaching/behaviorinsights
    instructors/teaching/insights
    instructors/teaching/playback
    instructors/teaching/commenting

@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**March 2023**
+
+- `[F] [10th]`: Allow users to enable :ref:`Behavior Insights <behavior-insights>` for their course to detect plagarism based on IDE data
+
 **January 2023**
 
 - `[F] [11th]`: Add support to :ref:`Filter Learners For Mentors <filter-learners>`
