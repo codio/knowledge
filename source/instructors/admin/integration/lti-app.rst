@@ -6,9 +6,11 @@
 LTI App
 =======
 
+.. Note:: Configuring your LTI settings using the LTI App is only for the US version of Codio. It will not work with Codio UK (codio.co.uk).
+
 The **Codio LTI App** method allows for an easy way to integrate and to map Codio course assignments to your LMS system. 
 
-.. Note:: **Please note the steps below are for implementation in Canvas.** For details on other supported systems see https://www.eduappcenter.com/tutorials.
+**Please note the steps below are for implementation in Canvas.** For details on other supported systems see https://www.eduappcenter.com/tutorials.
 
 **Video - Connect Codio to Canvas using the LTI App:**
 
