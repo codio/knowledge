@@ -12,6 +12,8 @@ Integrating with Canvas using LTI App
 
 The **Codio LTI App** method allows for an easy way to integrate and to map Codio course assignments to Canvas. Access the directions at :ref:`LTI App <lti-app>` page. If you are not able to use the LTI App, follow the manual integration directions below. 
 
+.. Note:: Configuring your LTI settings using the LTI App is only for the US version of Codio. It will not work with Codio UK (codio.co.uk).
+
 Integrating with Canvas Manually
 --------------------------------
 
