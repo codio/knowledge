@@ -20,6 +20,8 @@ Toggle on the **Enable Behavioral Insights** setting and click **Save Changes**.
 
 Viewing Behavior Insights
 -------------------------
+.. Note:: Behavior Insights will only appear once an assignment is marked as complete.
+
 When you go to the Student progress page of an assignment in that course, you will now see a **Behavior** column and be able to filter and sort based on the behavior indicator.
 
   .. image:: /img/insights/BehaviorInsightsStudentProgressIndicator.png
