@@ -26,7 +26,7 @@ When you go to the Student progress page of an assignment in that course, you wi
   .. image:: /img/insights/BehaviorInsightsStudentProgressIndicator.png
      :alt: A Behavior column on the assignment progress dashboard can be filtered and sorted
 
-.. Note:: Behavior Insights will only appear once an assignment is marked as complete. A lack of indicator means no behavior thresholds have been met - the student has no indications of the specified behavior. Click on an indicator under the Behavior column to see the Behavior Insights Dashboard.
+.. Note:: Behavior Insights will only appear once an assignment is marked as complete. A lack of indicator means no behavior thresholds have been met - the student has no indications of the specified behavior.
 
 Click on an indicator under the **Behavior** column to see the Behavior Insights Dashboard.
 
