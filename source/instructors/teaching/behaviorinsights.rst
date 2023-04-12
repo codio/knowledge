@@ -37,6 +37,11 @@ There will be between 1 and 5 tiles displayed. Tiles are only displayed if the s
 
 Click the **Ignore** button at the bottom of the dashboard to remove the behavior indicator for that student on that assignment. This action cannot be undone.
 
+Behavioral Player
+-----------------
+
+You can also view students activity for all files in the assignment going to **Education > Behavioral Player** menu option.
+
 History of External Pastes and CodePlayback
 -------------------------------------------
 If you click on a bar in the **History of External Pastes** tile, you will be presented with that paste in Codio's Code Playback feature.
