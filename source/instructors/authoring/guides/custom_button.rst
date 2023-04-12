@@ -52,6 +52,15 @@ example:
 
     {Try it | terminal}(javac Main.java&&java Main)
 
+To launch a process in the backgroud
+************************************
+
+This will launch a process in the background. I
+
+.. code:: markdown
+
+    { Button | background}(my_command_in_background)
+
 Launching a debugger configuration
 **********************************
 You can launch a debugger configuration as shown below. It is important to specify the configuration name exactly. More information about the debugger :ref:`here <start-debug>`.

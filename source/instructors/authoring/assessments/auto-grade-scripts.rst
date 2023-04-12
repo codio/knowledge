@@ -259,6 +259,8 @@ The calls to use these functions are as follows:
 
 `extra_credit` - Extra points beyond the value for doing this correctly. These do not get passed to an LMS system automatically, just the percentage correct.
 
+.. _autograde-enhance:
+
 Auto-grading enhancements
 -------------------------
 The V2 versions of the grading functions allow you to:
