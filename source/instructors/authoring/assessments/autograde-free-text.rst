@@ -124,7 +124,29 @@ Example Bash script for free-text auto-grade with partial points
     curl  -s "$CODIO_PARTIAL_POINTS_V2_URL" -d points=$POINTS -d format=html -d feedback='<strong>any HTML text</strong>'
 
 
-Example Python script for free-text auto-grade with partial points
+Example Python script for free-text auto-grade with partial points with :ref:`Autograde Enhancement<autograde-enhance>`
+.......................................................................................................................
+
+
+.. code:: python
+
+    #!/usr/bin/env python
+    import os, sys
+    import random
+
+    text = os.environ['CODIO_FREE_TEXT_ANSWER']
+    sys.path.append('/usr/share/codio/assessments')
+    from lib.grade import send_partial_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
+
+    def main():
+      grade = int(text)  
+      feedback = '## ' + text + ' points' 
+      res = send_partial_v2(int(round(grade)), feedback, FORMAT_V2_MD)
+      exit( 0 if res else 1)
+      
+    main()
+
+Example Python script for free-text auto-grade with partial points 
 ..................................................................
 
 .. code:: python
@@ -160,4 +182,3 @@ Example Python script for free-text auto-grade with partial points
       exit( 0 if res else 1)
 
     main()
-
