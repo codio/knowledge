@@ -39,7 +39,6 @@ For more see:
     - :ref:`Integrating with D2L <d2l>`
     - :ref:`Integrating with Google Classroom <google-classroom>`
     - :ref:`Integrating with Schoology <schoology>`   
-    - :ref:`Integrating with MSTeams Classroom <msteams>`
 - :ref:`Users account creation <lms-users>`
 - :ref:`Grading <lti-grading>`
 - :ref:`LTI Keys and URLs <lti-keys-and-urls-information>`
