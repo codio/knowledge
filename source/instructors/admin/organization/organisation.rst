@@ -52,7 +52,7 @@ The person who creates the organization in Codio is the owner and is given the a
 - :ref:`Remove Organization Members <remove-org-members>`
 - :ref:`Create an Organization Assessments Library <org-library>`
 - :ref:`Enable/Disable Public and Private Settings <public-private>`
-- :ref:`View Gigabox Usage <gigabox-usage>`
+- :ref:`Gigaboxes <gigabox-usage>`
 - :ref:`Delete an Organization <delete-org>`
 - :ref:`Set Organization Contact URL <org-contact-url>`
 - :ref:`Enable/Disable Release Grade Automatically <auto-release-grades>`
@@ -80,7 +80,7 @@ To access the **Organizations** page, follow these steps:
       :alt: Organization Page
 
 
-  - **Overview** - Update organization profile, enable or disable the ability to create public objects, enable or disable Codio support access,  obtain invitation token, view gigabox information, manage education settings, and delete the organization.
+  - **Overview** - Update organization profile, enable or disable the ability to create public objects, enable or disable Codio support access,  obtain invitation token, manage education settings, and delete the organization.
   - **Members** - View, add, and remove users in your organization and invite teachers to the organization.
   - **Always-On Boxes** - View the number of always-on boxes you currently have in your organization.
   - **Billing** - View your Codio plan information.

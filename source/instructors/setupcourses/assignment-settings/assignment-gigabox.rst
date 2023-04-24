@@ -5,7 +5,7 @@
 .. _assignment-gigabox:
 
 Gigabox Slot
-========================
+============
 If you have a memory intensive assignment, you can specify here that it should use a Gigabox slot. Gigabox slots are allocated on an :ref:`organization level <gigabox-usage>`. 
 
   .. image:: /img/gigaboxassignment.png
