@@ -6,7 +6,9 @@
 LTI App
 =======
 
-.. Note:: Configuring your LTI settings using the LTI App is only for the US version of Codio. It will not work with Codio UK (codio.co.uk).
+.. Note:: To use the LTI App, your email address in Codio and your LMS system must match exactly. 
+
+   The LTI App is only for the US version of Codio. It will not work with Codio UK (codio.co.uk).
 
 The **Codio LTI App** method allows for an easy way to integrate and to map Codio course assignments to your LMS system. 
 
