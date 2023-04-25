@@ -182,3 +182,14 @@ Example Python script for free-text auto-grade with partial points
       exit( 0 if res else 1)
 
     main()
+
+Automatically grade a Free Text assessment correct 
+.....................................................
+This technique can be used to automatically mark the assessment correct for students who have submitted anything in the response. 
+In the **Command** field on the **Execution** tab enter the command below:
+
+.. code:: bash
+
+  /bin/true
+
+You can use the **Rationale** field on the **Grading** tab to provide feedback since you aren't running an actual script.
