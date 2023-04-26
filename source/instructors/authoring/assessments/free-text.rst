@@ -100,4 +100,7 @@ You can view the points given and the Correct column checked for all free text a
 
 .. image:: /img/guides/freetextanswer.png
    :alt: View Graded Assessment
-   
+
+Free text assessments that are automatically graded as correct
+..............................................................
+You can do this with :ref:`Free Text Autograde <free-text-autograde>`.
