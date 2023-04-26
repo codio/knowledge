@@ -1,5 +1,5 @@
 .. meta::
-   :description: Allowing Teachers to revoke sudo access in students assignments in the course to prevent installatinn of unauthorised software in an asignment
+   :description: Allowing Teachers to revoke sudo access in students assignments in the course to prevent installation of unauthorised software in an asignment
 
 
 .. _course-revoke-sudo:
@@ -7,7 +7,7 @@
 Revoke sudo access for all assignments in the course
 ====================================================
 
-The **Revoke sudo access** is used to prevent students from being able to install any unauthorised software packages in all assignments in the course.
+The **Revoke sudo access** s used to prevent students from installing unauthorized software packages in any assignment in a course.
 
 To revoke sudo access, follow these steps:
 

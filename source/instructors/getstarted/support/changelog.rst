@@ -15,7 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2023**
 
-- `[F] [26th]`: Allow teachers to revoke sudo access to prevent students installing unauthorised software in :ref:`all assignments<course-revoke-sudo>` in a course 
+- `[F] [26th]`: Allow teachers to revoke sudo access to prevent students installing unauthorized software in :ref:`all assignments<course-revoke-sudo>` in a course 
 
 **March 2023**
 
