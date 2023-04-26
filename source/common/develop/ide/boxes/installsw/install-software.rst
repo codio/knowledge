@@ -50,3 +50,8 @@ Services that require a restart, are automatically started on installation. You 
 ``$ sudo service <package-name> stop``
 
 ``$ sudo service <package-name> restart``
+
+Restricting Students from installing unauthorised software
+----------------------------------------------------------
+
+If you wish to restrict studenst from being able to install software packages in course assignments, you can do so at the course level. See :ref:`revoking sudo access for all course assignments <course-revoke-sudo>` for more information.
