@@ -29,6 +29,7 @@ Courses Set Up
    add-remove-students
    change-student-password
    course-contact
+   course-revoke-sudo-access
    export-assignment-data
    export-lti
    lmsconnect

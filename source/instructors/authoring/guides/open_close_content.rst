@@ -26,6 +26,7 @@ Opening directives
 - `open_vm panel=0` to open :ref:`virtual machine <virtualmachine>` and where panel is optional, in which case the default panel (0) will be used if not specified.
 - `open_preview https://{{domain5000}} panel=0` to open preview of the box (on port 5000 in this example) where panel is optional, in which case the default panel (0) will be used if not specified.
 - `open_preview https://www.codio.com panel=0` to open defined website where panel is optional, in which case the default panel (0) will be used if not specified.
+
 Closing directives
 ******************
 
