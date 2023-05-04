@@ -18,17 +18,17 @@ The following information explains how to enable cookies for all sites. You can 
 To enable cookies in Chrome:
 ****************************
 
-In your browser enter: `chrome://settings/content/cookies`
+In your browser enter: `chrome://settings/cookies`
 and
 
-- enable **Allow sites to save and read cookie data (recommended)**
+- enable **Allow all cookies**
 - disable **Block third party cookies**
 
 .. image:: /img/chromecookies.png
    :alt: Chrome Cookies
 
 
-*Image from Chrome Version 59.0.3071.86 (Official Build) (64-bit)*
+*Image from Chrome Version 113.0.5672.64 (Official Build) (64-bit)*
 
 To enable cookies in Firefox:
 *****************************
