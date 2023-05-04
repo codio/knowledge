@@ -21,7 +21,7 @@ To enable cookies in Chrome:
 In your browser enter: `chrome://settings/cookies`
 and
 
-- enable **Allow sll cookies**
+- enable **Allow all cookies**
 - disable **Block third party cookies**
 
 .. image:: /img/chromecookies.png
