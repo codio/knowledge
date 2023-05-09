@@ -52,8 +52,8 @@ example:
 
     {Try it | terminal}(javac Main.java&&java Main)
 
-To launch a process in the backgroud
-************************************
+To launch a process in the background
+*************************************
 
 This will launch a process in the background. I
 
