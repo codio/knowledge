@@ -55,7 +55,7 @@ example:
 To launch a process in the background
 *************************************
 
-This will launch a process in the background. I
+This will launch a process in the background.
 
 .. code:: markdown
 
