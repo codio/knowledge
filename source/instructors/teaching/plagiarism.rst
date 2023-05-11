@@ -50,7 +50,7 @@ On the left you can:
 - restrict the file types that should be checked. It is possible to add multiple file types by pressing the **Add Extension** button.
 - add the file list in the **Files Excludes** box that you don't want to be inlcuded. If there are multiple files, add each file on a new line.
 
-.. Note:: FILES EXCLUDES is useful when there is a large data set and reporting on all returns an error.
+.. Note:: **Files Excludes** is useful when there is a large data set and reporting on all returns an error.
 
 
 These filters can be useful to avoid generating unnecessary noise in your report.
