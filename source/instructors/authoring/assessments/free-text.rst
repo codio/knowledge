@@ -25,7 +25,7 @@ Free text assessments allow students to answer questions in their own words. Bec
 
   - **Points** - Enter the score for correctly answering the question. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
-  - **Allow Partial Points** - Toggle to enable a percentage of total points to be given based on the percentage of answers they correctly answer.
+  - **Allow Partial Points** - Toggle to enable a percentage of total points to be given based on the percentage of answers they correctly answer. Once you toggle this on, you will be able to add rubric items. Rubric items are negative points, they will be subtracted from the total score of the assessment.
 
   - **Preview Type** - Choose the input (plaintext or markdown) to be provided by the student. LaTex is also supported and is useful when students need to enter mathematical formulas in their answers. The following options are available:
 
