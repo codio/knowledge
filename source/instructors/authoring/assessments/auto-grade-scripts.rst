@@ -277,6 +277,11 @@ These variables allow POST and GET requests with the following parameters:
 - **Grade** (```CODIO_AUTOGRADE_V2_URL```) - return 0-100 percent. This is the percent correct out of total possible points.
 - **Feedback** - text
 - **Format** - html, md, txt - txt is default
+- **CompletedDate** - can be set to determine relevant penalties from student completed date. State in UTC format (see example below)
+- **Penalty** - Penalty is number between 0-100, 
+
+
+.. Note:: **Grade** would be set after any penalties applied. **Grade + Penalty** should be <= 100. The Penalty is available only for assignment grading. Set penalty to -1 to remove any penalty override.
 
 With the V2 versions of grading, the script output is saved as a debug log. This means that all information you want to pass to students must use the **Feedback** mechanism.
 
@@ -291,21 +296,36 @@ Example Python auto-grading script
 
 .. code:: python
 
+    #!/usr/bin/env python
+    import os
     import random
-    import sys
-
+    import json
     # import grade submit function
+    import sys
     sys.path.append('/usr/share/codio/assessments')
     from lib.grade import send_grade_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
+    CODIO_UNIT_DATA = os.environ["CODIO_AUTOGRADE_ENV"]
     def main():
-      # Execute the test on the student's code
-      grade = random.randint(10, 100)
-      # Send the grade back to Codio with the penatly factor applied
+    # Execute the test on the student's code
+    grade = random.randint(0, 100) 
+    feedback = '## markdown text'
+    completedDate = json.loads(CODIO_UNIT_DATA)['completedDate']
+    if completedDate > "2023-05-20T00:00:00.00Z":
+        penalty = 20
+    elif completedDate > "2023-05-10T00:00:00.00Z":
+        penalty = 10
+    else:
+        penalty = -1  
+    extra_credit = random.randint(0, 100)
 
-      res = send_grade_v2(int(round(grade)), '### Hi here', FORMAT_V2_MD)
-      exit( 0 if res else 1)
-
+    # Send the grade back to Codio with the penatly factor applied
+    res = send_grade_v2(grade, feedback, FORMAT_V2_MD, extra_credit, penalty)
+    # res = send_grade_v2(grade, feedback, penalty=penalty) # if 'format' or/and 'extra credit' params are not in request then use penalty=penalty_value
+    print(CODIO_UNIT_DATA)
+    exit( 0 if res else 1)
+    
     main()
+
 
 
 Example Bash auto-grading script
@@ -314,7 +334,8 @@ Example Bash auto-grading script
 .. code:: bash
 
     #!/bin/bash
-    set -e
+
     POINTS=$(( ( RANDOM % 100 )  + 1 ))
-    curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$POINTS -d format=md -d feedback=test
-  CODIO_AUTOGRADE_ENV
+    EXTRA_CREDIT=$(( ( RANDOM % 100 )  + 1 ))
+    PENALTY=$(( ( RANDOM % 100 )  + 1 ))
+    curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$POINTS -d format=md -d feedback='### Markdown text here'  -d extra_credit=$EXTRA_CREDIT -d penalty=$PENALTY
