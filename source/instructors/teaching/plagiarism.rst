@@ -79,5 +79,5 @@ In the **Global Settings** (under the cog icon at the top right) you can configu
 - Anonymize Dataset (Anonymize the dataset by removing the names of the authors and the files)
 - Active Labels (Select the labels that should be displayed in the visualizations)
 
-For more information see the `Dolos <https://dolos.ugent.be/>`_ documentation 
+For more information see the `Dolos <https://dolos.ugent.be/>`_ documentation and if you have any feedback on the report, raise in the GitHub repository `issues <https://github.com/dodona-edu/dolos/issues>`_.
 
