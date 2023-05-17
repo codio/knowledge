@@ -60,5 +60,10 @@ Leaderboard
 
 Show a leaderboard in a bar representing each student's performance in the course from largest to smallest bar (best to worst) where performance = number of points earned on mandatory assignments / total number of points on mandatory assignments.
 
+Students can see their own details (name and performance) but details of all other students are anonymous (ie obfuscated) to them.
+
+   .. image:: /img/class_administration/leaderboard.png
+      :alt: Leaderboard
+
 
 .. Note:: Information of any test students in the course are excluded
