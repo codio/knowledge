@@ -7,11 +7,11 @@ Grading
 =======
 Codio passes grades back to the LMS as a percentage earned out of the available points designated in Codio. 
 
-By default, grades are passed when assignment is completed and Release Grades setting is enabled, but if you want to customise/configure this behavior you can set CUSTOM_CODIO_SEND_GRADE custom parameter and here is list of possible values (case insensitive):
+By default, grades are passed when assignment is completed and Release Grades setting is enabled, but if you want to customise/configure this behavior you can set **CUSTOM_CODIO_SEND_GRADE** custom parameter and here is list of possible values (case insensitive):
 
-- GRADE_RELEASE - default behavior, grades are sent when the grades are released and the assignment is graded.
-- ALWAYS - grades (even if incomplete) are sent every time on assignment submission or manual grade action even if the grade hasn't changed.
-- CHANGED - every time grade is different from the previous state.
+- **GRADE_RELEASE** - default behavior, grades are sent when the grades are released and the assignment is graded.
+- **ALWAYS** - grades (even if incomplete) are sent every time on assignment submission or manual grade action even if the grade hasn't changed.
+- **CHANGED** - every time grade is different from the previous state.
 
 Example:
 
