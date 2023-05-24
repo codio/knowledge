@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**May 2023**
+
+- `[F] [23rd]`: Add custom parameter to allow :ref:`customisation of sending of grades <lti-grading>` to LMS
+
 **April 2023**
 
 - `[F] [28th]`: Update :ref:`Plagiarism Checker <plagiarism>` to use Dolos tool and library
