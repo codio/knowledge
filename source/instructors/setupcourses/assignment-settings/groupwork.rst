@@ -27,8 +27,11 @@ The Paired Programming setting is enabled to allow groups of students to work to
 Managing Groups
 ---------------
 
-Once groups have been set up and saved, teachers/instructors can manage the groups by selecting the **Groups** tab. Select the **Arrange Groups** button to create initial groups automatically or to move students between the groups. You can also rename the groups.
-The **Add Empty Group** button can be used to create an empty group to move students into.
+Once groups have been set up and saved, teachers/instructors can manage the groups by selecting the **Groups** tab. Select the **Arrange Groups** button to create initial groups automatically or to move students between the groups. 
+
+.. Note:: Test students will not automatically be added to any groups. If you need them you can add them manually by dragging them from the Students area present at the right side and drop them into the respective groups.
+
+You can also rename the groups. The **Add Empty Group** button can be used to create an empty group to move students into.
 
 .. image:: /img/managegroups.png
    :alt: Managing Groups
@@ -51,7 +54,7 @@ If the existing driver is still actively working, the navigator can flip the tog
    :alt: Driver control
    
    
-If the driver is still working they will get a notification asking for control. This will not block the driver from continuing their work if they deny the request and when the are ready to release control, they can toggle the switch to transfer control to the requestor or grant access from the notification pop up if still showing.
+If the driver is still working they will get a notification asking for control. This will not block the driver from continuing their work if they deny the request and when they are ready to release control, they can toggle the switch to transfer control to the requestor or grant access from the notification pop up if still showing.
 
 The navigator will see the Driver toggle switch flip to show they now have control. 
 
