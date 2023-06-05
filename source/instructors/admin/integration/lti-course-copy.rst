@@ -16,7 +16,7 @@ Enabling this setting allows existing Codio course content used in your LMS to b
 
 .. Note:: the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance
 
-First enable :ref:`LTI Constant URLs <lti-constant>` for your course.
+First enable :ref:`LTI Constant URLs <lti-keys-and-urls-information>` for your course.
 
 1.  In your existing Codio course, enable the **Enable LTI course copy** button, and save your changes
 

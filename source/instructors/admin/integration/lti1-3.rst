@@ -16,6 +16,10 @@ The deep linking url is : ``https://apollo.codio.com/lti/resource_selection``
 Canvas
 ------
 
+See this page for written instructions:
+
+:ref:`LTI 1.3 integration for Canvas <lti1-3Canvas>`
+
 There are a number of ways to integrate Codio with Canvas with LTI 1.3. Check out the following videos to see the option that best suits you.
 
 How to configure lti1.3 tool in Canvas manually - part 1
