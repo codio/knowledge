@@ -6,6 +6,10 @@
 LTI 1.3 for Canvas
 ==================
 
+See this page for a video demonstration:
+
+:ref:`LTI 1.3 integration <lti1-3>`
+
 Part 1: In Canvas - Create a Developer Key
 ------------------------------------------
 The Canvas user who carries out these steps must be a system administrator.
