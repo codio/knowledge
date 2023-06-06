@@ -8,14 +8,13 @@ on:
 jobs:
   algolia_indexer:
     runs-on: ubuntu-latest
-    container: 
-      image: algolia/docsearch-scraper
-      env:
-        APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
-        API_KEY: ${{ secrets.API_KEY }}
-        INDEX_NAME: CodioDocs
-        CONFIG: '{    "index_name": "CodioDocs",    "sitemap_urls": [      "https://docs.codio.com/sitemap.xml",      "https://docs.codio.com/sitemap-student.xml"    ],    "selectors": {      "lvl0": "main h1",      "lvl1": "main .section h2",      "lvl2": "main .section h3",      "lvl3": "main .section h4",      "lvl4": "main .section h5",      "lvl5": "main .section h6",      "text": "main .section p,main .section blockquote"    },    "only_content_level": true}'
     name: Index Algolia
     steps:
     - name: Algolia Docsearch Action
-      run: cd /root && python -m src.index
+      run: | 
+        docker run -it \
+          -e "APPLICATION_ID=${{ secrets.APPLICATION_ID }}" \
+          -e "API_KEY=${{ secrets.API_KEY }}" \
+          -e "INDEX_NAME=CodioDocs" \
+          -e "CONFIG='{ \"index_name\": \"CodioDocs\", \"sitemap_urls\": [ \"https://docs.codio.com/sitemap.xml\", \"https://docs.codio.com/sitemap-student.xml\" ], \"selectors\": { \"lvl0\": \"main h1\", \"lvl1\": \"main .section h2\", \"lvl2\": \"main .section h3\", \"lvl3\": \"main .section h4\", \"lvl4\": \"main .section h5\", \"lvl5\": \"main .section h6\", \"text\": \"main .section p,main .section blockquote\" },\"only_content_level\": true}'"
+          algolia/docsearch-scraper
