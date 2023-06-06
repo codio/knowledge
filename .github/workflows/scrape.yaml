@@ -18,4 +18,4 @@ jobs:
     name: Index Algolia
     steps:
     - name: Algolia Docsearch Action
-      run: cd /root && pipenv run python -m src.index
+      run: cd /root && python -m src.index
