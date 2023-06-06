@@ -2,9 +2,6 @@ name: Update search
 on:
   schedule:
     - cron:  '0 22 */2 * *'
-  push:
-    branches:
-      - master
 jobs:
   algolia_indexer:
     runs-on: ubuntu-latest
