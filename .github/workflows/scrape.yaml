@@ -10,11 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     name: Index Algolia
     steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Get Config
+      id: config
+      run: |
+        echo "CONFIG=$(cat algolia-config.json | jq -r tostring)" >> $GITHUB_ENV
+
     - name: Algolia Docsearch Action
       run: | 
         docker run \
           -e "APPLICATION_ID=${{ secrets.APPLICATION_ID }}" \
           -e "API_KEY=${{ secrets.API_KEY }}" \
           -e "INDEX_NAME=CodioDocs" \
-          -e "CONFIG='{ \"index_name\": \"CodioDocs\", \"sitemap_urls\": [ \"https://docs.codio.com/sitemap.xml\", \"https://docs.codio.com/sitemap-student.xml\" ], \"selectors\": { \"lvl0\": \"main h1\", \"lvl1\": \"main .section h2\", \"lvl2\": \"main .section h3\", \"lvl3\": \"main .section h4\", \"lvl4\": \"main .section h5\", \"lvl5\": \"main .section h6\", \"text\": \"main .section p,main .section blockquote\" },\"only_content_level\": true}'" \
+          -e "CONFIG=${{ env.CONFIG }}" \
           algolia/docsearch-scraper
