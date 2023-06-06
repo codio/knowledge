@@ -12,7 +12,7 @@ jobs:
     steps:
     - name: Algolia Docsearch Action
       run: | 
-        docker run -it \
+        docker run \
           -e "APPLICATION_ID=${{ secrets.APPLICATION_ID }}" \
           -e "API_KEY=${{ secrets.API_KEY }}" \
           -e "INDEX_NAME=CodioDocs" \
