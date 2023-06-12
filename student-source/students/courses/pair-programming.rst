@@ -27,7 +27,7 @@ If the existing driver is still actively working, the navigator can flip the tog
    :alt: Driver control
    
    
-If the driver is still working they will get a notification asking for control. This will not block the driver from continuing their work if they deny the request and when the are ready to release control, the can toggle the switch to transfer control to the requestor or grant access from the notification pop up if still showing.
+If the driver is still working they will get a notification asking for control. This will not block the driver from continuing their work if they deny the request and when they are ready to release control, they can toggle the switch to transfer control to the requestor or grant access from the notification pop up if still showing.
 
 The navigator will see the Driver toggle switch flip to show they now have control. 
 
