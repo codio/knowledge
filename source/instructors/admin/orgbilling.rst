@@ -25,7 +25,7 @@ Access Billing Page
 
 Institution Pay
 ---------------
-To generate an invoice, enter your country and follow the steps below:
+To generate an invoice or a quote, enter your country and follow the steps below:
 
   .. image:: /img/manage_organization/directions.png
      :alt: Directions Billing
@@ -44,7 +44,7 @@ To generate an invoice, enter your country and follow the steps below:
 
 4. The plans available will be shown (semester or annual), select the plan you require and if you require the invoice to be sent to someone else, you can change the recipient.
 
-5. When you are ready, click the 'Generate Invoice' button and the invoice will be generated and sent to the email address.
+5. When you are ready, click the 'Generate Invoice' button or 'Generate Quote' button as per your requirement, and the invoice or quote will be generated and sent to the email address.
 
   .. Note:: You can access your invoice from the email, or you can click **View Invoice** from the **Invoice History** section. Pay your invoice at this link.
 
