@@ -23,7 +23,7 @@ Load the Demo Guides and Assessments project to learn more about authoring with 
 
 Using Media assets in your Guides
 ---------------------------------
-When creating a  a guide, you will often be working with images, video and other media. We recommend the following.
+When creating a guide, you will often be working with images, video and other media. We recommend the following.
 
 - Images should be placed in the `.guides/img` folder. You can create sub-folders for organizational purposes.
 - Videos should be hosted on a 3rd party platform such as YouTube or Vimeo. You can embed these using regular HTML embed tags provided by those platforms.

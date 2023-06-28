@@ -262,7 +262,7 @@ Example
 
 
 
-To following is the code used to create the image above. Three code blocks are required for this display. 
+The following is the code used to create the image above. Three code blocks are required for this display. 
 
 .. code:: markdown
 
@@ -276,7 +276,7 @@ To following is the code used to create the image above. Three code blocks are r
 
     1. Variable `a` contains a value of `infinity` which represents mathematical infinity.
     2. Variable `b` is assigned a value where the left-hand operator looks like a `string` however JavaScript tries to convert it into a number which is successful.
-    3. In the case of variable `c`, the string can't be converted and the operation returns the value of `NaN` which means _not a number_. If this is then used in susequent operations the value cascades and the result will also be `NaN`.
+    3. In the case of variable `c`, the string can't be converted and the operation returns the value of `NaN` which means _not a number_. If this is then used in subsequent operations the value cascades and the result will also be `NaN`.
 
 .. code:: markdown
 
