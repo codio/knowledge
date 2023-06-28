@@ -123,7 +123,17 @@ If you are experiencing this situation, let your teacher/professor know and they
 Reset my assignment to its default configuration
 ------------------------------------------------
 
-If the assignment you are referring to uses **Guides**, check out :ref:`Restore Current Files <restore-files>` as that may do what you need but if not and your instructor hasn't allowed you to :ref:`reset <student-reset>` the assignment yourself, discuss with your class instructor as they can :ref:`reset <modify-assignments>` the assignment for you and you can then start the unit again.  
+If the assignment you are referring to uses **Guides**, check out :ref:`Restore Current Files <restore-files>` as that may do what you need but if not and your instructor has allowed you to reset the assignment yourself, you can reset your assignment either from the Education menu area 
+
+    .. figure:: /img/education-resetbtn.png
+       :alt: Education>Reset Assignment
+
+or when you opened a completed assignment you will see the pop up to reset your assignment (check your browser isn't blocking pop ups)
+
+    .. figure:: /img/popup-resetbtn.png
+       :alt: Reset Assignment
+
+If your instructor hasn’t allowed students to reset assignments, discuss with your class instructor as they can reset the assignment for you and you can then start the unit again.
 
 If you also let them know what you did, they may want to review the unit(s) you are working with to help mitigate this problem for you and other students in the future.
 

@@ -318,7 +318,7 @@ Example Python auto-grading script
         penalty = -1  
     extra_credit = random.randint(0, 100)
 
-    # Send the grade back to Codio with the penatly factor applied
+    # Send the grade back to Codio with the penalty factor applied
     res = send_grade_v2(grade, feedback, FORMAT_V2_MD, extra_credit, penalty)
     # res = send_grade_v2(grade, feedback, penalty=penalty) # if 'format' or/and 'extra credit' params are not in request then use penalty=penalty_value
     print(CODIO_UNIT_DATA)

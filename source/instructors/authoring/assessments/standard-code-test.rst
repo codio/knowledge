@@ -103,7 +103,7 @@ Follow these steps to set up a standard code test:
   - **Allow Partial Points** - Toggle to enable partial points, the grade is then based on the percentage of test cases the code passes. See :ref:`Allow Partial Points <partial-points>` for more information.
   - **Case Insensitive** - Toggle to enable a case insensitive output comparison. By default, the comparison is case sensitive.
   - **Ignore White Space** - Toggle to enable stripping out any white space characters (carriage return, line feed, tabs, etc.) from both the expected output and the student output. 
-  - **Substring Match** - Toggle to enable substring match when comparing the expected output to the student output. The entire expected ouput needs to be contiguous in the student output.
+  - **Substring Match** - Toggle to enable substring match when comparing the expected output to the student output. The entire expected output needs to be contiguous in the student output.
   - **Add Item to Check** - Click to create another set of input/output fields.
   - **Input - Arguments** - Enter the command line arguments that are read by the student code.
 
@@ -147,7 +147,7 @@ Follow these steps to set up a standard code test:
    .. image:: /img/guides/assessment_metadata.png
       :alt: Metadata
 
-  - **Bloom's Level** - Click the drop-down and choose the level of Bloom's Taxonomy: https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/ for the current assessement.
+  - **Bloom's Level** - Click the drop-down and choose the level of Bloom's Taxonomy: https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/ for the current assessment.
   - **Learning Objectives** The objectives are the specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then the Learning Objectives could be *SWBAT follow the flow of recursive execution*.
   - **Tags** - The **Content** and **Programming Language** tags are provided and required. To add another tag, click **Add Tag** and enter the name and values.
 
