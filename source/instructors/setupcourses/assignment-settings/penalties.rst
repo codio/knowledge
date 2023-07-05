@@ -70,7 +70,7 @@ To adjust the assignment deadline for an individual student, follow these steps:
    .. image:: /img/penaltydeadline.png
       :alt: Adjust Deadline
 
-3. On the **Adjust Deadline for Student** dialog, increase the **Days**, **Hours**, and **Minutes** for the time to be extended for the student to complete the assignment, and then click **Apply**.
+3. On the **Adjust Deadline for Student** dialog, choose the **New Closing Date/Time** from the date/time picker or **Extend Time by a Set Amount** by increasing the **Days**, **Hours**, and **Minutes** for the student to complete the assignment, and then click **Apply**.
 
    .. image:: /img/deadlineadjust.png
          :alt: Penalty Adjusted
