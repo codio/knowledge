@@ -48,7 +48,7 @@ To preview your project, select the **Preview** type from the drop down. If you 
      
 
 
-**Please note:** If the URL you are previewing does not allow embedding in an `<iframe>`, then you won't be able to use `https` addresses. You would have to use an `http` address instead, in which case it will automatically open in an new browser tab and not within Codio.
+**Please note:** If the URL you are previewing does not allow embedding in an `<iframe>`, then you won't be able to use `https` addresses. You would have to use an `http` address instead, in which case it will automatically open in a new browser tab and not within Codio.
 
 Opening the terminal and running system commands
 ************************************************

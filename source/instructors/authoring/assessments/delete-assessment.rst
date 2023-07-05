@@ -18,7 +18,7 @@ To delete an assessment, follow these steps:
 
 3. To fully remove the assessment, in the Guide Editor, click the **Assessments** button.
 
-4. Click the **View Existing Assessments** option to view the list of all assessments. Deleted assessments are hightlighted in red.
+4. Click the **View Existing Assessments** option to view the list of all assessments. Deleted assessments are highlighted in red.
 
 5. Click the **X** next to the assessment you want to permanently delete.
 

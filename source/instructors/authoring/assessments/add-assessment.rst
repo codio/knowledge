@@ -39,7 +39,7 @@ Add a New Assessment
 To add a new assessment for a course, follow these steps:
 
 1. Open the assignment in the course, and click the **Edit** button to open the Guide Editor. You can also click the **Tools** menu and choose **Guides > Edit**.
-2. Click the **Assessmenta** button and choose the type of assessement you want to add to the assignment.
+2. Click the **Assessments** button and choose the type of assessment you want to add to the assignment.
 
    .. image:: /img/guides/add_assessment.png
       :alt: Add Assessment
