@@ -25,6 +25,7 @@ Managing assignments
    exam-proctoring
    assignment-surveys
    assignment-gigabox
+   prime-assignment-containers
    groupwork
    grade-weights
    assign-grade-template
@@ -63,6 +64,7 @@ Click the **Settings** icon in the assignment or the **Settings** tab when the a
 - :ref:`Exam Proctoring <exam-proctoring>`
 - :ref:`Assignment Surveys <assignment-survey>`
 - :ref:`Giga Box Slot <assignment-gigabox>`
+- :ref:`Prime Assignment Containers<prime-assignment-containers>`
 - :ref:`Pair Programming <group-work>`
 - :ref:`Grade Weights <grade-weights>`
 - :ref:`Assign Grading Template to an Assignment <assign-grade-template>`
