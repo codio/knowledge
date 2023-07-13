@@ -47,7 +47,7 @@ On the left you can:
 
 - enter a relative path in the workspace to check.
 - upload items to compare against (e.g. previous years information).
-- filter out template code setting the Max fingerprint percentage between 0 and 100%. For more information on fingerprinting see https://dolos.ugent.be/about/algorithm.html#fingerprinting
+- filter out template code setting the maximum fingerprint percentage between 0 and 100%. For more information on fingerprinting see https://dolos.ugent.be/about/algorithm.html#fingerprinting
 - restrict the file types that should be checked. It is possible to add multiple file types by pressing the **Add Extension** button.
 - add the file list in the **Files Excludes** box that you don't want to be inlcuded. If there are multiple files, add each file on a new line.
 
