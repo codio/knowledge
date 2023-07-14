@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**July 2023**
+
+- `[F] [12th]`: Added :ref:`Prime Assignment <prime-assignment-containers>` feature to remove loading time when a large number of students start assignments at the same time
+
+
 **May 2023**
 
 - `[F] [23rd]`: Add custom parameter to allow :ref:`customisation of sending of grades <lti-grading>` to LMS
