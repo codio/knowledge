@@ -110,6 +110,8 @@ Example:
 .. figure:: /img/lti/filter_learners.png
    :alt: Filter learners for mentors
 
+If you don't enable **Filter Learners for Mentors**, then mentors can see all the students in the course and access all students' work, even those for whom they are not a mentor.
+
 Mapping an Assignment to a Canvas Assignment
 ============================================
 
