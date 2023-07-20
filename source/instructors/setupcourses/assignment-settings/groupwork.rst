@@ -22,6 +22,10 @@ The Paired Programming setting is enabled to allow groups of students to work to
 
 - **Number of Students** - Set the number of students to work together as a group (max 5). If the total number of students is greater than an equal division for the groups, extra groups will be created
 
+
+.. Note::  Both the :ref:`Prime Assignment<prime-assignment-containers>` setting and the Pair Programming setting can not be enabled at the same time.
+
+
 .. Warning:: Pair Programming should not be used for :ref:`Crunch<crunch>`, :ref:`Flode<flode>`, :ref:`Jeroo<jeroo>`, :ref:`Scratch<scratch>`, :ref:`Pencil Code<pencilcode>`, :ref:`Pyret<pyret>`, :ref:`Processing/p5<processing-and-p5>` or assignments using :ref:`virtual machine <virtualmachine>` assignments. 
 
 Managing Groups
