@@ -125,11 +125,17 @@ Follow these steps to set up a standard code test:
         :alt: Ignore Whitespace
 
 
-  - **Generate Item** - Click this button and enter the following information to generate the expected output to be checked by your code. You need to have the solution code in the code file in order for the output to be generated. 
+  - **Generate** - Click this button to generate the expected output based on the input you provided in the left half of the box. You need to have the solution code in the code file in order for the output to be generated. If there is already some content in the output box then you will get a pop up asking you if you want to overwrite the existing output.
 
-    .. image:: /img/guides/generateitem.png
-       :alt: Generate Items
+  - **Check** - Use this to test whether running the solution code, using the optional input, will result in the value in the expected output box. If the test fails an output box will appear below showing the difference between the current output and the expected output.
+
+
+    .. image:: /img/guides/assessment_sct_check.png
+       :alt: Check Test Case
   
+
+  - **Check All** - Press to check all test cases at once so you can see how many of them are passed or failed.
+
   - **Show Error Feedback** - Toggle to enable feedback to students about errors related to the specific test case. 
 
     .. image:: /img/guides/std-assessment-error.png
