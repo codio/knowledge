@@ -31,7 +31,7 @@ Complete the following steps to set up a **Line Based Grader** Parsons Puzzle as
   - **Grader** - Choose the appropriate grader for the puzzle from the drop-down list. 
   - **Show Feedback** - Select to show feedback to student and highlight error in the puzzle. Deselect to hide feedback and not show highlight error in the puzzle.
   - **Require Dragging** - If you enter **Code to Become Distractor Blocks**, **Require Dragging** will automatically turn on. Without distractor blocks, you can decide whether or not you want students to drag blocks to a separate area to compose their solution.
-  - **Disable Indentation** - If you do not want to require indention, check the **Disable Indentition** box. 
+  - **Disable Indentation** - If you do not want to require indention, check the **Disable Indentation** box. 
   - **Indent Size** - Each indention defaults to 50 pixels.
 
 3. Click **Grading** in the navigation pane and complete the following fields:
@@ -53,7 +53,7 @@ Complete the following steps to set up a **Line Based Grader** Parsons Puzzle as
    .. image:: /img/guides/assessment_metadata.png
       :alt: Metadata
 
-  - **Bloom's Level** - Click the drop-down and choose the level of Bloom's Taxonomy: https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/ for the current assessement.
+  - **Bloom's Level** - Click the drop-down and choose the level of Bloom's Taxonomy: https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/ for the current assessment.
   - **Learning Objectives** specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then its Learning Objectives could be *SWBAT follow the flow of recursive execution*.
   - **Tags** - By default, **Content** and **Programming Language** tags are provided and required. To add another tag, click **Add Tag** and enter the name and values.
 
