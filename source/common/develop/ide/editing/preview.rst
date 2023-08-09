@@ -65,6 +65,8 @@ You can insert tokens to customize the menus:
 
 ``{{domain3000}}`` is replaced by the public url required to access your project over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
 
+``{{domain80}}`` can also be used instead of {{domain3000}} and is replaced by the public url required to access your project over port 80.
+
 ``{{domain}}`` is used along with the port number (default 3000) to your service. For example:
 
 ``"Box URL": "https://{{domain3000}}/",``
