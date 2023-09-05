@@ -46,7 +46,7 @@ You may find it easier to update a stack from within the IDE and the project tha
 
 View stack version history
 --------------------------
-You can view the version history of a stack from the **Stacks** page on the Codio dashbaord. Select the stack from the listing and then click the **Versions** link at the top of the page.
+You can view the version history of a stack from the **Stacks** page on the Codio dashboard. Select the stack from the listing and then click the **Versions** link at the top of the page.
 
 .. image:: /img/stacks_versions.png
    :alt: Stack Version History

@@ -80,3 +80,135 @@ Pair Programming
 ****************
 
 :ref:`Pair Programming <group-work>` is not supported for **Virtual Machines**.
+
+
+Interacting with guides and Codio file system
+****************
+
+You can interact with Virtual Machine using commands that can run from the :ref:`Terminal <terminal>` 
+
+.. figure:: /img/vm-commands.png
+   :alt: VM Commands
+
+or from a :ref:`Custom Guide Button<custom-buttons>`
+
+.. code:: ini
+
+   {Try it | terminal}(codio-vm help)
+
+
+The working directories for:
+
+- Codio - "/home/codio/workspace"
+- Windows Virtual Machine - "C:\\"
+- Ubuntu Virtual Machine - "/home/ubuntu"
+
+Following are some example of commands that can be used to interact with Virtual Machine:
+
+- **codio-vm help** - This command gives you a brief introduction about many commands that can be used to interact with Virtual Machine.
+
+- **codio-vm upload** - This command is used to upload a file from Codio filetree to Virtual Machine.
+
+   Windows example:
+
+   .. code:: ini
+
+      codio-vm upload "/home/codio/workspace/local_file.sh" "C:\remote_file.sh"
+
+   Running above command will upload ‘local_file.sh’ file present in your Codio filetree into the Virtual Machine as ‘remote_file.sh’.
+
+   Same Command in Ubuntu would be:
+
+   .. code:: ini
+
+      codio-vm upload "/home/codio/workspace/local_file.sh" "/home/ubuntu/remote_file.sh"
+
+
+   Similar to file, you can also upload the Folder
+
+   In Windows:
+
+   .. code:: ini
+
+      codio-vm upload "/home/codio/workspace/local_folder" "C:\remote_folder"
+
+
+   In Ubuntu:
+
+   .. code:: ini
+
+      codio-vm upload "/home/codio/workspace/local_folder" "/home/ubuntu/remote_folder"
+
+
+- **codio-vm download** - This command is used to download a file from Virtual Machine into your Codio filetree.
+
+   Windows example:
+
+   .. code:: ini
+
+      codio-vm download "C:\remote_file.sh" "/home/codio/workspace/local_file.sh"
+
+
+   Running above command will download ‘remote_file.sh’ file from your Virtual Machine into your Codio filetree and saves it as ‘local_file.sh’.
+
+   Same Command in Ubuntu would be:
+
+   .. code:: ini
+
+      codio-vm download "/home/ubuntu/remote_file.sh" "/home/codio/workspace/local_file.sh"
+
+
+   Similar to file, you can also download the Folder from your Virtual Machine
+
+   In Windows:
+
+   .. code:: ini
+
+      codio-vm download "C:\remote_folder" /home/codio/workspace/local_folder"
+
+
+   In Ubuntu:
+
+   .. code:: ini
+
+      codio-vm download "/home/ubuntu/remote_folder" /home/codio/workspace/local_folder"
+
+- **codio-vm start** - This command is used to start the Virtual Machine.
+
+- **codio-vm restart** -  This command is used to restart the Virtual Machine.
+
+- **codio-vm terminate** - This command is used to terminate the Virtual Machine.
+
+- **codio-vm status** - This command will return the current state of Virtual Machine. The returned value will be one of RUNNING, INACTIVE, STARTING, STOPPING.
+
+- **codio-vm get-ip** - This command will return the IP address of Virtual Machine.
+ 
+- **codio-vm get-host-name**  - This command will return the Host Name of Virtual Machine.
+
+- **codio-vm exec/codio-vm exec-async** - This command is used to execute a command on Virtual Machine.
+
+   For example
+
+   .. code:: ini
+
+      codio-vm exec mkdir -p “my_folder”
+
+   Running above command will create “my_folder” folder in the working directories of your Virtual Machine.
+
+   You can also open the Chrome browser using this command
+
+   .. code:: ini
+
+      codio-vm exec start chrome
+
+   Can also open a particular URL in the Chrome browser
+
+   .. code:: ini
+
+      codio-vm exec start chrome /incognito  https://codio.com
+
+
+
+
+
+

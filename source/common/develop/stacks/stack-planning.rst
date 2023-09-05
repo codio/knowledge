@@ -10,7 +10,7 @@ You should be familiar with the concept of :ref:`stack <stacks>` before creating
 Minimize the number of stacks
 -----------------------------
 
-It is important to think about the :ref:`stack <stacks>` that your course uses. You should avoid creating a new stack for each assignment. There are very few cases where this is needed. If you unnecessarily create new stacks for each assignment, you will be be less efficient and waste unnecessary time with stack builds/rebuilds.
+It is important to think about the :ref:`stack <stacks>` that your course uses. You should avoid creating a new stack for each assignment. There are very few cases where this is needed. If you unnecessarily create new stacks for each assignment, you will be less efficient and waste unnecessary time with stack builds/rebuilds.
 
 
 You should look to use as few stacks as possible, ideally just one, and use that stack for all assignments. There are perfectly valid exceptions, but this is the rule.
@@ -24,7 +24,7 @@ Whether you have created your own stack or used a default one, you would then po
 
 If, as you create more assignments in your course, you find you need to install more tools, then you should :ref:`update the stack with a new version <update-stack>`.
 
-By default, when you choose a stack for your new assignment, it will point to the latest version. So if the underlying stack is updated from any location at all, then any assignment that uses that stack will automatically be set to use it. Students who are using a assignment in a course will also automatically use the latest version when it is updated.
+By default, when you choose a stack for your new assignment, it will point to the latest version. So if the underlying stack is updated from any location at all, then any assignment that uses that stack will automatically be set to use it. Students who are using an assignment in a course will also automatically use the latest version when it is updated.
 
 It follows that you should be very careful when pointing to a specific version of a stack, rather than the latest version. If you do this, then you will need to update all assignments that are not set to use the latest version.
 
@@ -63,8 +63,8 @@ You now own this stack and so you can update whenever you like down the line. Wh
 Use Latest Version
 ------------------
 
-When you assign a stack to a assignment, it will be set by default to the **Use Latest Version**. You can view the stack settings from the IDE (**Project-Stack Settings**)
+When you assign a stack to an assignment, it will be set by default to the **Use Latest Version**. You can view the stack settings from the IDE (**Project-Stack Settings**)
 
-Understanding what **Use Latest Version** means is important. When you work with a assignment as a course author, that assignment is actually using a fixed version. It does not automatically switch to the latest version each time a new version of a stack is created. This could be dangerous as switching a stack resets everything outside the workspace folder. If you want to update to the latest version then you need to go to the stack settings dialog and press the save button.
+Understanding what **Use Latest Version** means is important. When you work with an assignment as a course author, that assignment is actually using a fixed version. It does not automatically switch to the latest version each time a new version of a stack is created. This could be dangerous as switching a stack resets everything outside the workspace folder. If you want to update to the latest version then you need to go to the stack settings dialog and press the save button.
 
-Where **Use Latest Version** is useful is when you assign a course module and its assignments to a course. In this case, students who have not yet started a assignment **will** get the latest version of the stack.
+Where **Use Latest Version** is useful is when you assign a course module and its assignments to a course. In this case, students who have not yet started an assignment **will** get the latest version of the stack.
