@@ -27,7 +27,7 @@ To create a new stack or new version of a stack from a project or assignment in 
    .. image:: /img/stacks_createnew.png
       :alt: Stacks Create New
 
-By default, the stack is Private. To make it available to others, refer to :ref:`Visiblity and Ownership <stacks>`. We recommend that you set the owner to your organization.
+By default, the stack is Private. To make it available to others, refer to :ref:`Visibility and Ownership <stacks>`. We recommend that you set the owner to your organization.
 
 Create a new stack from the dashboard
 -------------------------------------
