@@ -83,7 +83,7 @@ Pair Programming
 
 
 Interacting with guides and Codio file system
-****************
+*********************************************
 
 You can interact with Virtual Machine using commands that can run from the :ref:`Terminal <terminal>` 
 
