@@ -99,7 +99,7 @@ RSpec
 ----------------------
 JUnit
 ----------------------
- `JUnit (website link)`_ is a Java testing framework.
+ `JUnit (website link)`_ is a Java testing framework. Currently Codio supports JUnit 4 and JUnit 5 so you can choose any one of them as per your requirement.
   
  When using JUnit in Codio, specify the Java files containing JUnit tests you'd like to run under the **ADD CASE:** option.
  

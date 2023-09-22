@@ -49,10 +49,7 @@ To enable cookies in Safari:
 
 In your browser go to `Safari> Preferences`
 
-.. image:: /img/safari.png
-   :alt: Safari
-
-Select the **Privacy** tab and ensure check **Block all cookies** and **Prevent cross-site tracking** are not checked.
+Select the **Privacy** tab and ensure check **Block all cookies**, **Prevent cross-site tracking** are not checked and if you are electing to **Hide IP address** do not check **from Trackers and Websites**
 
 .. image:: /img/crosssitetracking.png
    :alt: Safari Cookies
@@ -60,7 +57,7 @@ Select the **Privacy** tab and ensure check **Block all cookies** and **Prevent 
 
 If using an earlier version of Safari, check **Always Allow** in the Cookies and website data section
 
-*Image from Safari 12.0 on macOS Sierra 10.12.6*
+*Image from Safari Version 16.5.1 (18615.2.9.11.7) on macOS Ventura Version 13.4.1*
 
 .. _firewalls:
 

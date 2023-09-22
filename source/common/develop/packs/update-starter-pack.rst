@@ -18,7 +18,7 @@ If you need to make changes to your Starter Pack, follow these steps:
 
 Deleting a Starter Pack
 ------------------------
-To delete a Starter Pack, folow these steps:
+To delete a Starter Pack, follow these steps:
 
 1. On the **My Packs** page, click the **Starter Pack** to open it.
 2. Click **Remove**.
