@@ -62,9 +62,9 @@ Setting up the assignment(s)
 Updating the VM Stack after students have started the assignment(s)
 *******************************************************************
 
-Students that have already started working before a new/updated VM stack has been published will need to terminate the Virtual Machine in their assignment(s) and restart it to use the updated VM stack if the VM does not restart itself. There are buttons available for this purpose in the VM tab.
+Students that have already started working before a new/updated VM stack has been published will need to reset the Virtual Machine in their assignment(s) to use the updated VM stack, restart the VM if it does not restart itself. There are buttons available for this purpose in the VM tab.
 
-.. Note:: Termination and restart for students can take a substantial period of time (around 20mins on average) so we recommend that you fully test the VM stack you create before making it available to students.
+.. Note:: Reset and restart for students can take a substantial period of time (around 20mins on average) so we recommend that you fully test the VM stack you create before making it available to students.
 
 Updating the assignment content after initial publish
 *****************************************************
@@ -177,7 +177,7 @@ Following are some example of commands that can be used to interact with Virtual
 
 - **codio-vm restart** -  This command is used to restart the Virtual Machine.
 
-- **codio-vm terminate** - This command is used to terminate the Virtual Machine.
+- **codio-vm terminate** -  This command is used to reset the Virtual Machine.
 
 - **codio-vm status** - This command will return the current state of Virtual Machine. The returned value will be one of RUNNING, INACTIVE, STARTING, STOPPING.
 
