@@ -177,6 +177,8 @@ Following are some example of commands that can be used to interact with Virtual
 
 - **codio-vm restart** -  This command is used to restart the Virtual Machine.
 
+- **codio-vm terminate** -  This command is used to reset the Virtual Machine.
+
 - **codio-vm status** - This command will return the current state of Virtual Machine. The returned value will be one of RUNNING, INACTIVE, STARTING, STOPPING.
 
 - **codio-vm get-ip** - This command will return the IP address of Virtual Machine.
