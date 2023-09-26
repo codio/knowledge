@@ -1,21 +1,21 @@
 .. meta::
-   :description: A Codio subscription gives you access to your courses for the semester.
+   :description: A Codio payment gives you access to your courses for the semester.
    
 .. _paying:
 
-Pay for Codio Subscription
-==========================
+Pay for Codio
+=============
 
-If your institution isn't providing access to Codio for you, you can purchase a subscription plan that gives you access to your courses for the semester. You can pay for your subscription using the **Billing** menu. The procedure you follow depends on whether you are paying for the subscription yourself or redeeming a code for a subscription that was obtained from your campus bookstore.
+If your institution isn't providing access to Codio for you, you can make a payment that gives you access to your courses for the semester. You can pay for Codio using the **Billing** menu. The procedure you follow depends on whether you are paying yourself or redeeming a code for a payment that was obtained from your campus bookstore.
 
-You can also cancel your subscription from this page. If the plan is for one or two semesters, there is no need to cancel the subscription. When your class ends, only the payment for the class is charged.
+If the plan is for one or two semesters, when your class ends, only the payment for the class is charged.
 
 
-.. Note:: A single subscription can be used for multiple courses in Codio during the specified timeframe.
+.. Note:: A single payment can be used for multiple courses in Codio during the specified timeframe.
 
 Individual billing
 --------------------
-If you are paying for your subscription yourself, follow these steps:
+If you are paying yourself, follow these steps:
 
 1. Click your user name or gravatar in the lower portion of the navigation pane to open the **My Account** menu listing.
 
@@ -23,12 +23,12 @@ If you are paying for your subscription yourself, follow these steps:
       :alt: User Profile
    
    
-2. Click the **Billing** section and choose a **Plan** and **Payment Method**. 
+2. Click the **Billing** section and in the **Purchase Access** area, choose a tile for the period of time you would require access to Codio for and select the **Checkout** button to enter your card details.
 
    .. image:: /img/account_billing.png
       :alt: Billing
   
-   You can also view your payment history.
+
 
 
 Redeeming code from campus bookstore
@@ -39,13 +39,13 @@ A single license can be used for a specified timeframe: 1 semester (5 months), 2
 
 To obtain and activate a license from your campus bookstore, follow these steps:
 
-1. Request one of the following subscriptions from your campus bookstore:
+1. Request one of the following plans from your campus bookstore:
 
-   - 1 Semester  - Codio 1-Semester Subscription - ISBN: 978-1-7331872-5-1
-   - 2 Semesters - Codio 2 Semester Subscription ISBN 978-1-73331872-8-2
-   - Annual - Codio Annual Subscription ISBN # 978-1-7331872-1-3
+   - 1 Semester  - Codio 1-Semester Plan - ISBN: 978-1-7331872-5-1
+   - 2 Semesters - Codio 2 Semester Plan ISBN 978-1-73331872-8-2
+   - Annual - Codio Annual Plan ISBN # 978-1-7331872-1-3
 
-   The bookstore will give you a code to redeem and activate your subscription for the specified timeframe.
+   The bookstore will give you a code to redeem and activate your plan for the specified timeframe.
 
 2. Log in to Codio following the instructions provided by your instructor. This may be through your local LMS (Canvas, Blackboard, Desire2Learn, Moodle, etc.) or through Codio.com using a course token.
 
@@ -59,10 +59,10 @@ To obtain and activate a license from your campus bookstore, follow these steps:
 
 If you have any problems contact us through your Codio account or email us at help@codio.com.
 
-Problems setting up a new subscription plan
--------------------------------------------
+Problems setting up a new payment
+---------------------------------
 
-Secure online credit card transactions are processed in real-time on behalf of Codio by the authorized merchant payment service provider Braintree using the highest levels of security available on the market.
+Secure online credit card transactions are processed in real-time on behalf of Codio by the authorized merchant payment service provider Stripe using the highest levels of security available on the market.
 
 Sometimes online credit card transactions may fail - the reasons for such failure may be an error in the card number or the card limit has been reached, ad-blockers interfering, 3rd Party Cookies not allowed etc. In other cases the reasons are less obvious and may relate to the ever increasing fraud prevention and/or other security measures implemented by credit card companies to protect the cardholder against card abuse.
 
@@ -99,12 +99,7 @@ Please try using another browser or stop your adblocker during the payment proce
    .. image:: /img/chrome-incognito.png
       :alt: Chrome Incognito
 
-Restarting an expired subscription plan
----------------------------------------
+Restarting an expired payment or extending an existing payment
+--------------------------------------------------------------
 
-If you had a subscription plan that has now expired, you need to first click the **PLAN** drop down and select the subscription plan you wish to start. You will then be taken through to a form to enter your card details.
-
-Updating your card details for a recurring subscription plan
-------------------------------------------------------------
-
-To update/change the card details for future payments, click the **PAYMENT METHOD** drop down and enter in the new card details.
+If you had a payment that has now expired, or wish to extend the period of time available, start a new payment as above.

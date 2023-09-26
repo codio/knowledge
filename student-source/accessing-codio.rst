@@ -1,5 +1,5 @@
 .. meta::
-   :description: Joining a course, passwords, subscriptions
+   :description: Joining a course, passwords, payments
 
 .. toctree::
    :name: accessing-codio
@@ -35,7 +35,7 @@ To access your course, log in to your Codio account and select **Courses** in th
 **See Also:**
 
 - :ref:`Navigating the Student Dashboard <navigate-student-dashboard>`
-- :ref:`Paying for Codio Subscription <paying>`
+- :ref:`Paying for Codio <paying>`
 - :ref:`Manage Password <password>`
 
 
