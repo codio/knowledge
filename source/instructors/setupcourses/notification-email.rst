@@ -18,7 +18,7 @@ Automated Email details
 - **Incomplete Assignment:** you can schedule the notifications to be sent to all students who have started but not finished an assignment that is due soon. Students that have also not started will also be notified
 - **Started and Incomplete Assignment** you can schedule the notifications to be sent to all students who have started but not finished an assignment that is due soon. Students that have not started will not be notified
 - **New Feedback:** the email notification will be sent when new feedback is available for the student
-  
+- **New Comment:**  the email notification will be sent when new comment is available for the student
 
 Before
 ******
@@ -44,7 +44,8 @@ You may edit this as you wish.
 - Assignment link ```<<<assignment link>>>```: link to students project (if the project is not started then the course link as above used)
 - Feedback link ```<<<feedback link>>>```: Link to assignment feedback
 - Due In ```<<<due in>>>```: when the assignment is due for completion relative to current date/time
-
+- Comment Text ```<<<Comment Text>>>``` : Comment Text
+- File Name ```<<<File Name>>>``` : File Name where the new comment is added
 
 **Please note:** we have plans to develop this feature in the future but if you have ideas/suggestions please raise in our `Feedback area <https://feedback.codio.com/>`_
 
