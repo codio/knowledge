@@ -1,5 +1,5 @@
 .. meta::
-   :description: Joining a course, subscriptions
+   :description: Joining a course, Payments
 
 Accessing Codio
 ===============

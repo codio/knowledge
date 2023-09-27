@@ -6,7 +6,7 @@
 Always-On Boxes
 ===============
 
-The Always-On feature for boxes is now available for all paid subscribers. This feature enables you to set boxes to always be on, which means they remain active whether you are in the IDE or logged out. The number of Always-On boxes you can have depends on your subscription plan.
+The Always-On feature for boxes is now available for all paid subscribers. This feature enables you to set boxes to always be on, which means they remain active whether you are in the IDE or logged out. The number of Always-On boxes you can have depends on your payment plan.
 
 If your project is archived due to inactivity (usually 30 days since last opened), this process removes it from the active fileserver and can no longer be *Always-On*. 
 
