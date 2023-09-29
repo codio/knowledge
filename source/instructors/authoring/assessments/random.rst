@@ -9,7 +9,7 @@ Random Assessment
 The Random assessment type allows you to set up a group of assessments to then randomly assign one to each individual student assignment. Only one random assessment can be included on a page in Guides.
 
 There is assignment level duplication prevention such that regardless of the query, Codio checks whether the library assessment IDs are unique. This prevents students from seeing the same assessment question multiple times in an assignment, as long as every question in the library is unique, and all randomized assessments are drawn from the same library.
-If duplicate assessments are generated, it indicates there are not enough items in the query or library to fill the random assessments in the assignment.
+If duplicate assessments are generated, it indicates that the assessment library does not have enough unique assessments for the set of random assessment queries in the assignment.
 ‌
 
 If duplicate assessments are generated it means there are not enough questions to fit the queries in the assignment.
