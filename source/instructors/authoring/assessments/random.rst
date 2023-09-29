@@ -12,8 +12,6 @@ There is assignment level duplication prevention such that regardless of the que
 If duplicate assessments are generated, it indicates that the assessment library does not have enough unique assessments for the set of random assessment queries in the assignment.
 ‌
 
-If duplicate assessments are generated it means there are not enough questions to fit the queries in the assignment.
-
 1. On the **General** page, enter the name of your assessment that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
 
 2. On the **Grading** page, enter the amount of points to assign to the assessment. Enter the score for correctly answering the question they are assigned. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
