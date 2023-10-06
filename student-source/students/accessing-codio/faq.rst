@@ -9,11 +9,11 @@ Frequently Asked Questions
 
 Not able to see the work previously completed in a Course
 ---------------------------------------------------------
-Where you can't see work you previously did or being prompted to set up a new subscription plan
+Where you can't see work you previously did or being prompted to set up a new payment plan
 
 Your Codio account is associated with an email address, used when you first registered/signed up.
 
-If you are accessing Codio via an LMS (Learning Management System) such as Canvas/Blackboard/Moodle and have logged into the LMS with a different email address as you then open an assignment a new Codio with a different email address will be created and will not see what you may have done previously and you may be prompted to start a new subscription plan.
+If you are accessing Codio via an LMS (Learning Management System) such as Canvas/Blackboard/Moodle and have logged into the LMS with a different email address as you then open an assignment a new Codio with a different email address will be created and will not see what you may have done previously and you may be prompted to start a new payment plan.
 
 If you are unsure of what different email address you are using in your LMS, go to your Codio Account settings where you can see the email address of this account.
 
