@@ -19,7 +19,7 @@ Upstart can be used in Ubuntu 14.04 boxes. If you want to configure services to 
 
 Systemd
 -------
-Systemd can be used in Ubuntu 18.04 boxes. If you want to configure services to start when your box starts up, you should configure a **.service** file and run ``sudo systemctl daemon-reload``. If you are not familiar with systemd, please Google it for configuration details.
+Systemd can be used in Ubuntu 18.04 and 22.04 boxes. If you want to configure services to start when your box starts up, you should configure a **.service** file and run ``sudo systemctl daemon-reload``. If you are not familiar with systemd, please Google it for configuration details.
 
 **Important** - You must specify the user account under which the service is run using ``setuid codio``.
 
