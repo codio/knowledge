@@ -18,8 +18,8 @@ Match tag pair
 --------------
 Searches for tag(s) content bounds from current cursor position and selects it. It will expand (outward balancing) or shrink (inward balancing) selection when called multiple times. Not every editor supports both inward and outward balancing due of some implementation issues, most editors have outward balancing only.
 
-* Mac - **Cmd+D** (inward) and **Shift+Cmd+D** (outwad)
-* PC/Linux - **Ctrl+D** (inward) and **Shift+Ctrl+D** (orutward)
+* Mac - **Cmd+D** (inward) and **Shift+Cmd+D** (outward)
+* PC/Linux - **Ctrl+D** (inward) and **Shift+Ctrl+D** (outward)
 
 Go to matching pair
 -------------------
