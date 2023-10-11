@@ -150,7 +150,7 @@ A staged file is one that is tracked and is ready to commit to the repository. O
 
 Commit your changes
 -------------------
-Committing means that you want to add your staged, files into the repository. You can commit using one of the following commands:
+Committing means that you want to add your staged files into the repository. You can commit using one of the following commands:
 
 -  ``git commit -m 'commit message'`` - commits all staged files to the repo.
 -  ``git commit -a -m 'commit message'`` commits all staged files to the repo and also automatically stages any tracked files before committing them. If you use this command, you do not need to run ``git add`` unless you want to add new, untracked files.
@@ -236,7 +236,7 @@ When you create a branch, you are creating a new area to code. You then merge an
 Use the following commands for branching:
 
 -  ``git branch`` - creates a new branch.
--  ``git checkout`` - switches to that branch (be sure to commit your current branch before switching to another branch so you don't lose any unstaged filed).
+-  ``git checkout`` - switches to that branch (be sure to commit your current branch before switching to another branch so you don't lose any unstaged files).
 -  ``git merge from-branch`` - merges code from ``from-branch`` into your current branch.
 
 It is recommended that you switch to your master branch and pull in changes from the remote, and then switch back to your working branch and merge changes. This practice will minimize conflicts.

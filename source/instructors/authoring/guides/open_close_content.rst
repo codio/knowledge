@@ -12,7 +12,7 @@ Syntax Summary
 The syntax is as follows and actions can be chained together using, separated by a `;`.
 
 ```
-[Hyperlink text](open_file file1, file2; cmd ls -al)
+[Hyperlink text](open_file file1 file2; cmd ls -al)
 ```
 
 Opening directives
