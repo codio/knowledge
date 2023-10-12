@@ -18,7 +18,7 @@ User configurations for nbgrader can be stored in a **nbgrader_config.py** or in
 
 .. Note:: Notebook files are only supported if in the root (`/home/codio/workspace` or `~/workspace`) folder
 
-.. Warning:: Pair programming should not be used for nbgrader.
+.. Warning:: :ref:`Pair Programming <group-work>` should not be used for Jupyter Notebook
 
 Configuration
 -------------
