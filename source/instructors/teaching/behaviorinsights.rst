@@ -18,6 +18,26 @@ Enable Behavior Insights for your Course
 
 Toggle on the **Enable Behavioral Insights** setting and click **Save Changes**.
 
+Configure Behavior Insights Options
+-----------------------------------
+
+You can configure the individual Behavior Insights options and set minimum and maximum values for a particular option. Values less than the minimum or greater than the maximum will trigger an indicator and show up in the Behavior column for that respective student.
+
+  .. image:: /img/insights/BehaviorInsightsOptions.png
+     :alt: Behavior Insights Options
+ 
+
+- **Time Spent** - You can monitor the amount of time the student spent on the assignment in the middle. You can set minimum and maximum values (in minutes), values less than the minimum or greater than the maximum will trigger an indicator. You can disable the minimum or the maximum or both as per your requirement.
+
+- **Rate of Edits** - You can monitor Rate of Edits (Characters per Second) of students. Based on thousands of student submissions, we determined a generalized threshold of submissions created with a pace of more than 4 characters edited (inserted or deleted) per second had a high likelihood of being plagiarized so we set the default value for Maximum to 4 but you can change the minimum and maximum values ​​as per your requirement or disable minimum or maximum or both.
+
+- **Coding vs Debugging Time** - You can monitor the percent of active time students spent in an error state (debugging) vs a non-error state (coding). In the context of detecting plagiarism, it would be odd for students to never have errors or spend time trying to resolve them. Based on thousands of student submissions, we determined a generalized threshold of less then 4% of the time in an error state (i.e. “debugging”) had a high likelihood of being plagiarized so we set the default value for Minimum to 4% but you can change the minimum and maximum values ​​as per your requirement or disable minimum or maximum or both.
+
+- **Insertions vs Deletions** - You can monitor the percent of characters inserted vs characters deleted across assignment code files for the student. you can set the minimum and maximum percentage of deletions ​​as per your requirement or disable minimum or maximum or both.
+
+- **External Pastes** - You can monitor each occurrence of a paste that did not come from an assignment code file or the Guide. You can set Minimum lines to count as occurrence and Minimum number of occurrences. You can disable this option if you don’t want to use it in your course.
+
+
 Viewing Behavior Insights
 -------------------------
 
