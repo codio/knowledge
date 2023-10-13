@@ -82,6 +82,8 @@ Pair Programming
 :ref:`Pair Programming <group-work>` is not supported for **Virtual Machines**.
 
 
+.. _interactwithguides:
+
 Interacting with guides and Codio file system
 *********************************************
 

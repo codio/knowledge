@@ -13,6 +13,16 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**October 2023**
+
+- `[I] [10th]`: Added an ability to configure the individual :ref:`Behavior Insights <behavior-insights>` options
+
+
+**August 2023**
+
+- `[F] [12th]`: Added a feature to :ref:`Interact with Guides and Codio File System <interactwithguides>` from Virtual Machine and vice versa using commands
+
+
 **July 2023**
 
 - `[F] [12th]`: Added :ref:`Prime Assignment <prime-assignment-containers>` feature to remove loading time when a large number of students start assignments at the same time
