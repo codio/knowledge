@@ -7,7 +7,8 @@ Standard Code Test
 ==================
 Standard code tests are dialog driven, where you specify input data and the expected output. Codio then executes the student code, supplies the specified input data, and compares the expected output to the student code's actual output.
 
-.. Note:: You can also write code tests that give you in-depth control by allowing you to write your own code to execute tests. See :ref:`Advanced Code Tests <advanced-code-test>` for more information.
+.. Note:: **The output (including white space) of all the test cases in your Standard Code test cannot exceed 20,000 characters**.
+    If your output will exceed this limit, or you need finer control of the tests, you can create custom code tests. See :ref:`Advanced Code Tests <advanced-code-test>` for more information.
 
 Codio provides a Starter Pack project that contains examples for all assessment types and a guides authoring cheat sheet. Go to **Starter Packs** and search for **Demo Guides and Assessments** if not already loaded in your **My Projects** area. Click **Use Pack** and then **Create** to install it to your Codio account.
 
@@ -42,7 +43,7 @@ Follow these steps to set up a standard code test:
 
   - **Timeout** - Where you can amend the timeout setting for the code to execute. Arrows will allow you to set max 300 (sec), if you require longer, you can manually enter the timeout period.
   
-  - **Command** - Enter the command that executes the student code. This is usually a run command.  
+  - **Command** - Enter the command that executes the student code. This is usually a run command. If the **Pre-exec command** fails, the **Command** will not run.
 
   - **Pre-exec command** - Enter the command to execute before each test is run. This is usually a compile command.
   
@@ -164,4 +165,14 @@ Follow these steps to set up a standard code test:
 
 7. Click **Create** to complete the process.
 
+Output written to a file
+------------------------
+If the output of a program is written to a file rather than Standard Output (stdout) you can use the **Command** portion of the execution tab to run a bash command to list out the contents of the file.
 
+For example if the output is written to a file called ``output.txt``, you would put the following into the **Command**. 
+
+.. code-block:: Bash
+
+   cat output.txt
+
+In Linux, the command ``cat`` lists out the contents of the file. You can use the **Pre-exec command** to run the student code in this case.
