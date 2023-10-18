@@ -12,6 +12,7 @@ Auto-graded assessments
    
    assessments
    student-submission
+   assessment-security
    auto-grade-scripts
    parameterized
    delete-assessment
@@ -31,6 +32,7 @@ Auto-graded assessments
    math-assessments
    ungraded-assessments
    sense-network
+   
    
    
 

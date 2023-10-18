@@ -14,6 +14,7 @@ If you are using an LMS platform with Codio, be sure to enter a percentage value
 Secure scripts
 -------------- 
 If you store grading scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. Only instructors can access this folder.
+You can find more information about assessment security :ref:`here <assessment-security>`.
 
 Access authored content assessment results
 ------------------------------------------
