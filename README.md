@@ -3,16 +3,12 @@
 ## One time setup
 
 ### Stack
-If using Codio, put on the certified Python stack.
+If using Codio, put on the certified Python stack `Python Ubuntu 22.04 (pyenv)`. 
 
 ### Install
 
 ```
-python3 -m pip install git+https://github.com/codio/pydata-sphinx-theme.git@master
-```
-
-```
-python3 -m pip install sphinx sphinx-sitemap recommonmark
+pip install sphinx==4.2.0 sphinx-sitemap sphinx_code_tabs recommonmark git+https://github.com/codio/pydata-sphinx-theme.git@master
 ```
 
 ### Build
