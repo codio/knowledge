@@ -25,3 +25,16 @@ If there are any assessments in the assignment that have not been submitted, det
 
 If you mistakenly mark an assignment as completed, contact your instructor. They can reset the status of the assignment so you can access it again.
 
+Uncomplete Assignment
+---------------------
+
+If this option is enabled by your teachers, you can change the completion status when you're in an assignment from **Education > Mark as Uncompleted** from the top menu bar.
+  
+  .. image:: /img/guides/mark-as-uncomplete.png
+     :alt: Mark as Uncompleted
+
+
+The another option you can use to mark your assignments as uncompleted is by toggling off the Completed switch available on the course dashboard.
+ 
+  .. image:: /img/guides/button.png
+     :alt: Completed Button

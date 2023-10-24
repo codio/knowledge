@@ -16,3 +16,4 @@ Review the following topics to gain an understanding of using assessments:
 - :ref:`Edit an Assessment <edit-assessment>`
 - :ref:`Edit Points for an Assessment <edit-assessment-points>`
 - :ref:`Delete an Assessment <delete-assessment>`
+- :ref:`Assessment Security <assessment-security>`
