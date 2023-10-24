@@ -3,7 +3,7 @@
 ## One time setup
 
 ### Stack
-If using Codio, put on the certified Python stack.
+If using Codio, put on the certified Python stack `Python Ubuntu 22.04 (pyenv)`. 
 
 ### Install
 
