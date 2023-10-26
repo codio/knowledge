@@ -25,10 +25,11 @@ Invite teacher to the organization
    .. image:: /img/manage_organization/memberstab.png
       :alt: Members
 
-4. In the  **Invite Teacher to the Organization** area, enter in the **Teacher Email** and optionally check the following check boxes:
+4. In the  **Invite Teacher to the Organization** area, enter in the **Teacher Email** and select one of the following option from the drop down:
 
-  - **Add this teacher to owners group** - Check the check box if you want the teacher to have full owner permissions.
-  - **Add this teacher as Read Only** - Check the check box if you want to prevent the teacher from making changes to the content in courses (cannot switch to Edit mode).
+  - **Teacher** - Select this if you want the teacher to have standard teacher permissions, this is default.
+  - **Read-only teacher** - Select this if you want to prevent the teacher from making changes to the content in courses (cannot switch to Edit mode).
+  - **Organization owner** - Select this if you want the teacher to have full owner permissions.
 
    .. image:: /img/manage_organization/inviteteacher.png
       :alt: Invite Owner

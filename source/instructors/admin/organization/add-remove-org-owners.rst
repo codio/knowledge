@@ -26,7 +26,7 @@ Follow these steps to add a new user to the Owners group in your organization:
    .. image:: /img/manage_organization/memberstab.png
       :alt: Members
 
-4. In the  **Invite Teacher to the Organization** area, enter in the **Teacher Email** and check the **Add this teacher to owners group** check box.
+4. In the  **Invite Teacher to the Organization** area, enter in the **Teacher Email** and select the **Organization owner** from the drop down.
 
    .. image:: /img/manage_organization/inviteowner.png
       :alt: Invite Owner
