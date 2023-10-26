@@ -54,7 +54,7 @@ To create a course from share code, follow these steps:
 Choose From Courseware Catalog
 ------------------------------
 
-You can add a resource from `Codio Courseware Catalog <https://www.codio.com/resources>`_ (if you are in the United Kingdom/Europe, it maybe `https://www.codio.com/uk/resources <https://www.codio.com/uk/resources>`_). These resources are completely editable and can be customized to suit your teaching context. You can mix-and-match different resources together and add your own content.
+You can add a resource from :ref:`Codio Courseware Catalog <codio-resources>`. These resources are completely editable and can be customized to suit your teaching context. You can mix-and-match different resources together and add your own content.
 
 To add a resource from Codio Courseware Catalog, follow these steps:
 
