@@ -286,9 +286,9 @@ RSpec
 Grading Code Using Linters
 ----------------------------------------------
 
-As a general rule, all linters will give either all or zero points. Since linters are not native to the language, it is very likely that you will need to install them (with the exception of pycodestyle that is already installed in our Codio certified Python stack). 
+Codio natively supports Java, JavaScript, Python and Ruby. As a general rule, all linters will give either all or zero points. Since linters are not native to the language, it is very likely that you will need to install them (with the exception of pycodestyle that is already installed in our Codio certified Python stack). 
 
-Linters usually don't require configuration files or definitions. You just need to the add the files you want to check and they will automatically give feedback to the student. 
+Linters usually don't require configuration files or definitions. You just need to the add the files you want to check and students will receive feedback for their code. 
 
 ----------------------
 checkstyle
@@ -347,12 +347,16 @@ RuboCop
  
  When using Rubocop in Codio, specify the Ruby files you'd like RuboCop to check under the **ADD CASE:** option.
  
- The student will need to follow all style conventions to earn full credit on the assessment.
- 
 .. _RuboCop (website link): https://rubocop.org/
 
-See More Working Examples
 ----------------------
+Others
+----------------------
+
+For other linters, set the ``LANGUAGE TYPE`` to ``Custom`` and then use the command to run that linter. If the linter requires multiple flags or long parameters, consider using a ``*.sh`` file. 
+
+See More Working Examples
+---------------------------
 To see an example of a specific unit test or style checker, see the Starter Pack in the corresponding language: 
 
 Go to **Starter Packs** and search for **Advanced Features in Python** if not already loaded in your **My Projects** area. Click **Use Pack** and then **Create** to install it to your Codio account.
