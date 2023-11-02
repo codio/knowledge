@@ -68,33 +68,145 @@ Complete each section to set up your advanced code test.
 
 7. Click **Create** to complete the process.
 
-----------------------
-RuboCop
-----------------------
+Example Grading Scripts for Unit Testing
+----------------------------------------------
 
- `RuboCop (website link)`_ is a Ruby Linter.
- 
- To check if RuboCop is already installed on your stack, simply run `rubocop` from the command line. If it is not installed, you can easily install it either via the command line (`gem install rubocop`) or using **bundler** (by adding `gem 'rubocop', require: false` to your Gemfile). 
- 
- When using Rubocop in Codio, specify the Ruby files you'd like RuboCop to check under the **ADD CASE:** option.
- 
- The student will need to follow all style conventions to earn full credit on the assessment.
- 
-.. _RuboCop (website link): https://rubocop.org/
+As mentioned before, you can use multiple languages for your Unit Testing. Codio natively supports Java, Python and Ruby. You can also use any other language setting the ``LANGUAGE TYPE`` to **Custom**, in this example we will use JavaScript.
 
-----------------------
-RSpec
-----------------------
+.. tabs::
 
- `RSpec (website link)`_ is a Ruby testing suite.
- 
- To check if RSpec is already installed on your stack, simply run `rspec` from the command line. If it is not installed, you can easily install it either via the command line (`gem install rspec`) or using **bundler** by adding it to your Gemfile. 
- 
- When using RSpec in Codio, specify the ruby files containing RSpec tests you'd like to run under the **ADD CASE:** option.
- 
- If you have more then one test, by default, the student will need to pass all tests to earn the specified number of points. You can toggle on **ALLOW PARTIAL POINTS** to have Codio evenly weight each test.
- 
-.. _RSpec (website link): https://rspec.info/
+    .. code-tab:: Java
+
+         package demo.tests;
+         import static org.junit.Assert.*;
+         import org.junit.AfterClass;
+         import org.junit.BeforeClass;
+         import org.junit.Test;
+
+         public class JUnitProgram {
+
+            @BeforeClass
+            public static void BeforeTests() {
+               /*
+               Use this space to create objects and definitions.
+               This code will run once before all tests.
+               */
+            }
+
+            @Test
+            public void Test1() {
+               // Do something with your students' code.
+               String str1 = "This is first the testcase in this class";
+               assertEquals("This is first the testcase in this class", str1);
+            }
+
+            @Test
+            public void Test2() {
+               // Do something with your students' code.
+               String str2 = "This is the second testcase in this class";
+               assertEquals("This is the second testcase in this class", str2);
+            }
+
+            @AfterClass
+            public static void AfterTests() {
+               /*
+               Use this space to clean your execution or execute final instructions.
+               */
+            }
+         }
+
+    .. code-tab:: JavaScript
+
+         const assert = require('assert');
+
+         describe('TestProgram', function() {
+            before(function() {
+               // Use this space to create objects and definitions.
+               // This code will run once before all tests.
+            });
+
+            it('test_1', function() {
+               // Do something with your students' code.
+               const str1 = "This is first the testcase in this class";
+               assert.strictEqual(str1, "This is first the testcase in this class");
+            });
+
+            it('test_2', function() {
+               // Do something with your students' code.
+               const str2 = "This is the second testcase in this class";
+               assert.strictEqual(str2, "This is the second testcase in this class");
+            });
+
+            after(function() {
+               // Use this space to clean your execution or execute final instructions.
+            });
+         });
+
+
+    .. code-tab:: Python 
+
+         import unittest
+
+         class TestProgram(unittest.TestCase):
+
+            @classmethod
+            def setUpClass(cls):
+               """
+               Use this space to create objects and definitions.
+               This code will run once before all tests.
+               """
+               pass
+
+            def test_1(self):
+               # Do something with your students' code.
+               str1 = "This is first the testcase in this class"
+               self.assertEqual(str1, "This is first the testcase in this class")
+
+            def test_2(self):
+               # Do something with your students' code.
+               str2 = "This is the second testcase in this class"
+               self.assertEqual(str2, "This is the second testcase in this class")
+
+            @classmethod
+            def tearDownClass(cls):
+               """
+               Use this space to clean your execution or execute final instructions.
+               """
+               pass
+
+         if __name__ == '__main__':
+            unittest.main()
+
+    .. code-tab:: Ruby
+
+         RSpec.describe "TestProgram" do
+            before(:all) do
+               # Use this space to create objects and definitions.
+               # This code will run once before all tests.
+            end
+
+            it 'test_1' do
+               # Do something with your students' code.
+               str1 = "This is first the testcase in this class"
+               expect(str1).to eq("This is first the testcase in this class")
+            end
+
+            it 'test_2' do
+               # Do something with your students' code.
+               str2 = "This is the second testcase in this class"
+               expect(str2).to eq("This is the second testcase in this class")
+            end
+
+            after(:all) do
+               # Use this space to clean your execution or execute final instructions.
+            end
+         end
+
+For each language, you have multiple methods and attributes you can use. The examples above are using two tests, together with the two methods that are executed at the beginning and at the end of the execution of the tests.
+
+As a general rule, make sure that your code always exits with code ``0``. That way Codio can assign partial points. If your code exits with an error, Codio will grade the assessment with ``0``.
+
+Keep in mind that each language has its own syntax, here you have some notes about them:
 
 ----------------------
 JUnit
@@ -114,59 +226,29 @@ JUnit
 
  All code files **Source path** will be compiled. Files that fail to compile successfully will cause the tests to fail, even if they are not used.
  Codio has a :ref:`JUnit <junit>` runner for building JUnit tests.
- 
-Custom Feedback with JUnit in Codio
------------------------------------
- When using JUnit in Codio, you can add your own custom feedback to the standard feedback Junit returns to students. The feedback message is passed to the assert method as the first parameter. 
 
-`assertEquals(feedback, expected, actual)`
- 
-.. _Junit (website link): https://junit.org/junit5/
+ .. _Junit (website link): https://junit.org/junit4/
 
 ----------------------
-checkstyle
+Custom
 ----------------------
 
- `checkstyle (website link)`_ is a Java linter.
-  
- When using checkstyle in Codio, specify the configuration file under **CONFIG PATH** -- you can use the `Google configuration`_, `Sun configuration`_, or `create your own configuration`_.
- 
- Select the **CHECKSTYLE VERSION**, by default the appropriate version is selected according to your installed Java version but you can also select one of the available options:
+In the example above, we are using a JavaScript example, but you can use any language and any framework. To execute this code we are using ``Mocha``, a popular node library for Unit Testing.
 
-  - Checkstyle v10.12(JRE 11 and above)
+If you choose **Custom**, enter the following information:
 
-  - Checkstyle v8.24(JRE 8 and above)
+   .. image:: /img/guides/assessment_act_exec_custom.png
+      :alt: Custom
 
-  - Checkstyle v8.9(JRE 8)
+   - **Command** - Enter the command that executes the student code. 
 
-  - Checkstyle v6.6(JRE 6 and 7)
+    .. Note:: If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. 
+      
+    The files can be dragged and dropped from the File Tree into the field to automatically populate the necessary execution and run code.
+      
+  - **Timeout** - Enter the time period (in seconds) that the test runs before terminating.
 
-
-  Specify the Java files you'd like Checkstyle to check under the **ADD CASE:** option.
- 
- The student will need to follow all style conventions to earn full credit on the assessment.
-  
-.. _checkstyle (website link): https://checkstyle.sourceforge.io/
-.. _Google configuration: https://github.com/checkstyle/checkstyle/blob/2954d8723003ef229f5825510a433ab8c60f2774/src/main/resources/google_checks.xml
-.. _Sun configuration: https://github.com/checkstyle/checkstyle/blob/13481f2c410e4944ecf5ab93ec49948a523a0c82/src/main/resources/sun_checks.xml
-.. _create your own configuration: https://checkstyle.sourceforge.io/config.html
-
-----------------------
-pycodestyle
-----------------------
-
-  If you want to use pycodestyle, you must first install it. Use the following commands to install pycodestyle:
-
-.. code:: ini
-
-  sudo apt update
-  sudo apt install python3-pip
-  sudo python3 -m pip install pycodestyle
-
-.. image:: /img/guides/assessment_act_exec_pycodestyle.png
-   :alt: Pycodestyle
-
-To add individual Python source files whose style should be checked, either enter their relative path to `~/namespace` or drag them from the File Tree into the **Add Case** text box and click **Add Case**. You may add as many cases as needed. When the assessment executes, ``pycodestyle`` inspects each added file and outputs all styling issues.
+  - **Allow Partial Points** - Toggle to enable partial points, the grade is then based on the percentage of test cases the code passes. See :ref:`Allow Partial Points <partial-points>` for more information.
 
 ----------------------
 UnitTest
@@ -188,6 +270,53 @@ UnitTest
 .. _UnitTest (website link): https://docs.python.org/3/library/unittest.html
 
 ----------------------
+RSpec
+----------------------
+
+ `RSpec (website link)`_ is a Ruby testing suite.
+ 
+ To check if RSpec is already installed on your stack, simply run `rspec` from the command line. If it is not installed, you can easily install it either via the command line (`gem install rspec`) or using **bundler** by adding it to your Gemfile. 
+ 
+ When using RSpec in Codio, specify the ruby files containing RSpec tests you'd like to run under the **ADD CASE:** option.
+ 
+ If you have more then one test, by default, the student will need to pass all tests to earn the specified number of points. You can toggle on **ALLOW PARTIAL POINTS** to have Codio evenly weight each test.
+ 
+.. _RSpec (website link): https://rspec.info/
+
+Grading Code Using Linters
+----------------------------------------------
+
+As a general rule, all linters will give either all or zero points. Since linters are not native to the language, it is very likely that you will need to install them (with the exception of pycodestyle that is already installed in our Codio certified Python stack). 
+
+Linters usually don't require configuration files or definitions. You just need to the add the files you want to check and they will automatically give feedback to the student. 
+
+----------------------
+checkstyle
+----------------------
+
+ `checkstyle (website link)`_ is a Java linter.
+  
+ When using checkstyle in Codio, specify the configuration file under **CONFIG PATH** -- you can use the `Google configuration`_, `Sun configuration`_, or `create your own configuration`_.
+ 
+ Select the **CHECKSTYLE VERSION**, by default the appropriate version is selected according to your installed Java version but you can also select one of the available options:
+
+  - Checkstyle v10.12(JRE 11 and above)
+
+  - Checkstyle v8.24(JRE 8 and above)
+
+  - Checkstyle v8.9(JRE 8)
+
+  - Checkstyle v6.6(JRE 6 and 7)
+
+
+  Specify the Java files you'd like Checkstyle to check under the **ADD CASE:** option.
+  
+.. _checkstyle (website link): https://checkstyle.sourceforge.io/
+.. _Google configuration: https://github.com/checkstyle/checkstyle/blob/2954d8723003ef229f5825510a433ab8c60f2774/src/main/resources/google_checks.xml
+.. _Sun configuration: https://github.com/checkstyle/checkstyle/blob/13481f2c410e4944ecf5ab93ec49948a523a0c82/src/main/resources/sun_checks.xml
+.. _create your own configuration: https://checkstyle.sourceforge.io/config.html
+
+----------------------
 JSHint and JSLint
 ----------------------
 
@@ -200,26 +329,29 @@ To add individual JavaScript source files for style checking, either enter their
 You can also choose **JSLint** or **JSHint** in the **Language Assessment Subtype** drop-down menu. When the assessment executes, each added file is inspected and outputs all styling issues that were found.
 
 ----------------------
-Custom
+pycodestyle
 ----------------------
 
-If you choose **Custom**, enter the following information:
+.. image:: /img/guides/assessment_act_exec_pycodestyle.png
+   :alt: Pycodestyle
 
-   .. image:: /img/guides/assessment_act_exec_custom.png
-      :alt: Custom
+To add individual Python source files whose style should be checked, either enter their relative path to `~/namespace` or drag them from the File Tree into the **Add Case** text box and click **Add Case**. You may add as many cases as needed. When the assessment executes, ``pycodestyle`` inspects each added file and outputs all styling issues.
 
-   - **Command** - Enter the command that executes the student code. 
+----------------------
+RuboCop
+----------------------
 
-    .. Note:: If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. 
-      
-    The files can be dragged and dropped from the File Tree into the field to automatically populate the necessary execution and run code.
-      
-  - **Timeout** - Enter the time period (in seconds) that the test runs before terminating.
+ `RuboCop (website link)`_ is a Ruby Linter.
+ 
+ To check if RuboCop is already installed on your stack, simply run `rubocop` from the command line. If it is not installed, you can easily install it either via the command line (`gem install rubocop`) or using **bundler** (by adding `gem 'rubocop', require: false` to your Gemfile). 
+ 
+ When using Rubocop in Codio, specify the Ruby files you'd like RuboCop to check under the **ADD CASE:** option.
+ 
+ The student will need to follow all style conventions to earn full credit on the assessment.
+ 
+.. _RuboCop (website link): https://rubocop.org/
 
-  - **Allow Partial Points** - Toggle to enable partial points, the grade is then based on the percentage of test cases the code passes. See :ref:`Allow Partial Points <partial-points>` for more information.
-
-
-See a Working Example
+See More Working Examples
 ----------------------
 To see an example of a specific unit test or style checker, see the Starter Pack in the corresponding language: 
 

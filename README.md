@@ -8,7 +8,7 @@ If using Codio, put on the certified Python stack `Python Ubuntu 22.04 (pyenv)`.
 ### Install
 
 ```
-pip install sphinx==4.2.0 sphinx-sitemap sphinx_code_tabs recommonmark git+https://github.com/codio/pydata-sphinx-theme.git@master
+pip install sphinx==4.2.0 sphinx-sitemap sphinx_code_tabs sphinx-copybutton recommonmark git+https://github.com/codio/pydata-sphinx-theme.git@master
 ```
 
 ### Build
