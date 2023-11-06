@@ -75,7 +75,7 @@ You can implement participation grading using assignment level scripts.
 
 An example of participation grading:
 
-- Depending on your language of choice the script below as either .sh or .py file to `.guides/secure` folder
+- Depending on your language of choice the script below add either .sh or .py file to `.guides/secure` folder
 
 .. tabs::
 
