@@ -148,7 +148,7 @@ You can regrade all student's assignments that have already been auto-graded fro
 
 Test and debug your grading scripts
 -----------------------------------
-.. Note:: Codio provides the ability to test your auto-grading scripts when creating your project, this should be done before publishing your project to a course. Once an assignment has been published to the course, any changes made to files in the student workspace (/home/codio/workspace) are not reflected in the published assignment. Grading scripts should be stored in the **.guides/secure** folder, files in the .guides and guides/secure folders can be published even if students have already started.
+.. Note:: Codio provides the ability to test your auto-grading scripts when creating your project, this should be done before publishing your project to a course. Once an assignment has been published to the course, any changes made to files in the student workspace (/home/codio/workspace) are not reflected in the published assignment. Grading scripts should be stored in the **.guides/secure** folder. Files in the .guides and guides/secure folders can be published even if students have already started.
 
 
 Test your script in the IDE
@@ -251,7 +251,7 @@ Sending Points to Codio
 
 Codio provides a Python library to facilitate reporting points from your custom scripts. There are four functions in this library: `send_grade`, `send_grade_v2`, `send_partial` and `send_partial_v2`. 
 
- .. Note:: Partial points are only used in Advanced Code tests, see :ref:`Allow Partial Points <partial-points>` for more information about setting up partial points.
+ .. Note:: Partial points are not used in assignment level scripts, see :ref:`Allow Partial Points <partial-points>` for more information about setting up partial points.
 
 In order to use this library you need to add the following code to the top of your grading script:
 
