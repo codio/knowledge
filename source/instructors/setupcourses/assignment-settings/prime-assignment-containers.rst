@@ -6,7 +6,9 @@
 Prime Assignment Containers 
 ===========================
 
-The Prime Assignment Containers settings is useful when you have a large number of students looking to start an assignment at the same time. After enabling this setting, Codio will make the specified number of containers available for you so when your students start the assignment at the same time, the containers would have already been set up for them so when they open their assignment, their time will not be wasted in loading the assignment and also they will not face any performance issues even when thousands of students start at the same time.
+The Prime Assignment Containers settings is useful when you have a large number of students scheduled to start an assignment at the same time. You do not need to do this for cohorts of less than 500 simultaneous starts.
+After enabling this setting, Codio will make the specified number of containers available at the scheduled time.  
+When your students open the assignment the containers will already be set up and they will not face any performance issues even when thousands of students begin at the same time.
 
 .. image:: /img/prime-assignment.png
    :alt: Prime Assignment Options

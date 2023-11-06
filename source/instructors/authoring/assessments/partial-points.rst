@@ -51,10 +51,12 @@ To provide you with more robust auto-grade scripts, you can send back feedback i
 
 If you use Python, you can also use the function ``send_partial_v2``. Also, through HTTP requests you can use any other language you feel comfortable with.
 
+As a general rule, your script should always exit with ``0``; otherwise, the grade will be 0. If the student receives partial points, the results will display a percent sign rather than a check mark or x.
+
 Examples auto-grading script with partial points
 ......................................................
 
-The following examples in Python and JavaScript show how you can write your scripts in any language. As a general rule, your script should always exit with ``code 0``; otherwise, the grade will be 0.
+The following examples in Python and JavaScript show how you can write your scripts in any language. 
 
 The Python script parses the student's file and then assigns points based on specific criteria. In the JavaScript version, it uses Unit Testing through Mocha, a popular `node` library and it is invoked with ``mocha 2>&1 || true`` to force the exit code to be 0. 
 
