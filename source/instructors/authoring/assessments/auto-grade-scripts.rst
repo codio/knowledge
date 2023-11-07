@@ -71,11 +71,10 @@ You can access student scores for the auto-graded assessments in an assignment. 
 Participation Grading
 ---------------------
 
-You can implement participation grading using assignment level scripts. 
+You can implement participation grading using assignment level scripts. In the examples below the Codio environment variable is checked to see how many questions were answered in the assignment. 
+The student grade is calculated based on whether they answered the question, not on correctness.
 
-An example of participation grading:
-
-- Depending on your language of choice the script below add either .sh or .py file to `.guides/secure` folder
+- Depending on your language of choice select either the .sh or .py file and add it to your `.guides/secure` folder.
 - If you are using the Bash version you will first need to install the utility "jq" to your stack (see :ref:`create a new stack <create-stack>`).
 
 .. tabs::
@@ -103,6 +102,7 @@ An example of participation grading:
             curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$GRADE -d format=md -d feedback="$FEEDBACK"
 
     .. code-tab:: python 
+            :selected:
 
             import os
             import json
@@ -183,68 +183,6 @@ It is important that this file is stored in the **.guides/secure** folder. You t
 
 It is now possible to debug the Python script and fix any bugs that you may have noticed once students have started work on the assignment.
 
-Example grading scripts
------------------------
-This section provide some example assignment level scripts.
-
-Below are Python and Bash files that can be loaded by a bootstrap script or as explained above in the participation grading section.
-
-.. Note:: Both of these examples use random numbers to generate the grade - you can substitute whatever test you would like.
-
-.. tabs::
-
-    .. code-tab:: bash
-
-      #!/bin/bash
-      set -e
-      # Your actual test logic
-      # Our demo function is just generating some random score
-      POINTS=$(( ( RANDOM % 100 )  + 1 ))
-      # Show json based passed environment
-      echo $CODIO_AUTOGRADE_ENV
-      # Send the grade back to Codio
-      curl --retry 3 -s "$CODIO_AUTOGRADE_URL&grade=$POINTS"
-
-    .. code-tab:: python 
-
-      import os
-      import random
-      import requests
-      import json
-      import datetime
-
-      # import grade submit function
-      import sys
-      sys.path.append('/usr/share/codio/assessments')
-      from lib.grade import send_grade
-
-      ##################
-      # Helper functions #
-      ##################
-
-
-      # Get the url to send the results to
-      CODIO_AUTOGRADE_URL = os.environ["CODIO_AUTOGRADE_URL"]
-      CODIO_UNIT_DATA = os.environ["CODIO_AUTOGRADE_ENV"]
-
-      def main():
-        # Execute the test on the student's code
-        grade = validate_code()
-        # Send the grade back to Codio with the penalty factor applied
-        res = send_grade(int(round(grade)))
-        exit( 0 if res else 1)
-
-      ########################################
-      # You only need to modify the code below #
-      ########################################
-
-      # Your actual test logic
-      # Our demo function is just generating some random score
-      def validate_code():
-        return random.randint(10, 100)
-
-      main()
-
 
 
 Sending Points to Codio
@@ -294,14 +232,15 @@ The calls to use these functions are as follows:
 
 Auto-grading enhancements
 -------------------------
+
 The V2 versions of the grading functions allow you to:
 
 - Send feedback in different formats such as HTML and Markdown/plaintext.
-- Allow separate debug logs.
+- Provide separate debug logs.
 - Notify (instructors and students) and reopen assignments for a student on grade script failure.
 
 
-If you don't use the send_grade functions, this URL (passed as an environment variable) can be used:```CODIO_AUTOGRADE_V2_URL```
+If you don't use the send_grade_v2 functions, this URL (passed as an environment variable) can be used:```CODIO_AUTOGRADE_V2_URL```
 
 These variables allow POST and GET requests with the following parameters:
 
@@ -322,6 +261,7 @@ If the script fails:
 - The assignment is not locked (if due date is not passed).
 - An email notification with information about the problem is sent to the course instructor(s) containing the debug output from the script.
 
+These Python and Bash files that can be loaded by a bootstrap script or as explained above in the participation grading section.
 
 .. tabs::
 
@@ -335,7 +275,8 @@ If the script fails:
         curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$POINTS -d format=md -d feedback='### Markdown text here'  -d extra_credit=$EXTRA_CREDIT -d penalty=$PENALTY
 
     .. code-tab:: python
-
+      :selected:
+      
         #!/usr/bin/env python
         import os
         import random
@@ -365,3 +306,65 @@ If the script fails:
         exit( 0 if res else 1)
         
         main()
+
+Example grading scripts
+-----------------------
+This section provides example assignment level scripts using the older methods to send grades. 
+
+.. Note:: Both of these examples use random numbers to generate the grade - you can substitute whatever test you would like.
+
+.. tabs::
+
+    .. code-tab:: bash
+
+      #!/bin/bash
+      set -e
+      # Your actual test logic
+      # Our demo function is just generating some random score
+      POINTS=$(( ( RANDOM % 100 )  + 1 ))
+      # Show json based passed environment
+      echo $CODIO_AUTOGRADE_ENV
+      # Send the grade back to Codio
+      curl --retry 3 -s "$CODIO_AUTOGRADE_URL&grade=$POINTS"
+
+    .. code-tab:: python 
+      :selected:
+
+      import os
+      import random
+      import requests
+      import json
+      import datetime
+
+      # import grade submit function
+      import sys
+      sys.path.append('/usr/share/codio/assessments')
+      from lib.grade import send_grade
+
+      ##################
+      # Helper functions #
+      ##################
+
+
+      # Get the url to send the results to
+      CODIO_AUTOGRADE_URL = os.environ["CODIO_AUTOGRADE_URL"]
+      CODIO_UNIT_DATA = os.environ["CODIO_AUTOGRADE_ENV"]
+
+      def main():
+        # Execute the test on the student's code
+        grade = validate_code()
+        # Send the grade back to Codio with the penalty factor applied
+        res = send_grade(int(round(grade)))
+        exit( 0 if res else 1)
+
+      ########################################
+      # You only need to modify the code below #
+      ########################################
+
+      # Your actual test logic
+      # Our demo function is just generating some random score
+      def validate_code():
+        return random.randint(10, 100)
+
+      main()
+
