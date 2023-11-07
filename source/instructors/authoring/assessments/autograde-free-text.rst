@@ -106,7 +106,8 @@ Example scripts for free-text auto-grade with all or nothing scoring
             exit 1; 
 
     .. code-tab:: python 
-
+            :selected:
+            
             #!/usr/bin/env python
             import os, sys
 
@@ -175,6 +176,7 @@ Example scripts for free-text auto-grade with partial points
         curl  -s "$CODIO_PARTIAL_POINTS_V2_URL" -d points=$PERCENTAGE -d format=md -d feedback="$FEEDBACK_BUFFER"
 
     .. code-tab:: python 
+        :selected:
 
         #!/usr/bin/env python
         import os, sys
