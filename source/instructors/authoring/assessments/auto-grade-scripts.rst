@@ -76,6 +76,7 @@ You can implement participation grading using assignment level scripts.
 An example of participation grading:
 
 - Depending on your language of choice the script below add either .sh or .py file to `.guides/secure` folder
+- If you are using the Bash version you will first need to install the utility "jq" to your stack (see :ref:`create a new stack <create-stack>`).
 
 .. tabs::
 
@@ -133,7 +134,7 @@ An example of participation grading:
 - Note: The JSON is not updated until the assignment is marked as complete. If you are testing values from inside the assignment - you will not see the updated values.
 - Make sure to **Publish** the assignment.
 - In the course assignment settings :ref:`Grade Weights <grade-weights>` section, enable **Script Grading** set **Set custom script path** to that file and disable **Assessments Grading**.
-- If you are using the Bash version you need to install the utility "jq" to your stack (see :ref:`create a new stack <create-stack>`).
+
 
 Regrade an individual student's assignment
 ------------------------------------------
