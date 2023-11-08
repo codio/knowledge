@@ -6,15 +6,15 @@
 
 Create a New Course
 ===================
-To work with the course features in Codio, you must first set up a course for your students. You can create a new empty course or create a course using share code. Creating a course using share code if often used when you want to create a course from content outside your organization. You can also :ref:`clone a course <clone-course>`.
+To work with the course features in Codio, you must first set up a course for your students. You can author your own course or create a course using share code or add a course from Codio Courseware Catalog. Creating a course using share code is often used when you want to create a course from content outside your organization. You can also :ref:`clone a course <clone-course>`.
 
-Create empty course
--------------------
-To create an empty course, follow these steps:
+Author Your Own Course
+----------------------
+To author your own course, follow these steps:
 
 1. Sign in to your Codio account.
 2. Click the **Codio** icon in the top left corner of the IDE, or click **Courses** in the left navigation menu on the dashboard to open the **Courses** page.
-3. Click the **New Course** drop-down and choose **Add Empty Course**.
+3. Click the **New Course** drop-down and choose **Author Your Own Course**.
 
    .. image:: /img/manage_classes/addcourse.png
       :alt: New Course
@@ -50,6 +50,33 @@ To create a course from share code, follow these steps:
 .. Note:: Courses will also automatically archive when the archive date set for the course is reached. This date can be amended (or removed) in the course details area if you require the course to continue to be active
 
 5. Click **Create Course**.
+
+Choose From Courseware Catalog
+------------------------------
+
+You can add a resource from :ref:`Codio Courseware Catalog <codio-resources>`. These resources are completely editable and can be customized to suit your teaching context. You can mix-and-match different resources together and add your own content.
+
+To add a resource from Codio Courseware Catalog, follow these steps:
+
+1. Sign in to your Codio account.
+2. Click the **Codio** icon in the top left corner of the IDE, or click **Courses** in the left navigation menu on the dashboard to open the **Courses** page.
+3. Click the **New Course** drop-down and choose **Choose From Courseware Catalog**.
+4. Select a resource you want from the resource list.
+5. Click **Evaluate** button to add the selected resource into your Codio account.
+
+   .. image:: /img/manage_classes/evaluate_button.png
+      :alt: Evaluate Button
+
+6. Complete the fields on the **Clone a Course by code** form, including the **Course Name**, **Organization**, **Start Date** (optional), **Archive Date** (optional) and **Tags** (optional).
+
+
+   .. image:: /img/manage_classes/addresource.png
+      :alt: Create Course from Share Code
+
+
+.. Note:: Courses will also automatically archive when the archive date set for the course is reached. This date can be amended (or removed) in the course details area if you require the course to continue to be active
+
+7. Click **Create Course**.
 
 More information
 ----------------

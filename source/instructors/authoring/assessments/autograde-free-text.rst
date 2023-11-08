@@ -70,118 +70,150 @@ Follow these steps to set up an autograde free text assessment:
 6. Click **Create** to complete the process.
 
 
-Grading free text assessments
------------------------------
-To review and grade answers given by students in a free text assessment, follow these steps:
+Example scripts for free-text auto-grade with all or nothing scoring
+....................................................................
 
-1. Select the assignment to view the list of all assessments in the assignment for the student.
+.. tabs::
 
-   .. image:: /img/guides/freetext-grading.png
-      :alt: Free Text Grading
+    .. code-tab:: bash
 
-   You can identify the free text assessments by the following icon in the **Type** column:
+            #!/usr/bin/env bash
 
-   .. image:: /img/guides/freetexticon.png
-      :alt: Free Text Assessments Icon
+            # Initialize variables
+            TOTAL_POINTS=10
+            POINTS=0
 
-2. Click any line to view the question and the answer submitted by the student.
+            # Check for the term "immutable"
+            if [[ $CODIO_FREE_TEXT_ANSWER == *"immutable"* ]]; then
+                POINTS=$((POINTS + 5))
+            else
+                echo "❌ You did not specify that a Tuple is immutable. "
+            fi
 
-3. In the **Points** for answer field, perform one of the following depending on whether **Allow Partial Points** was enabled or disabled for the question:
+            # Check for the term "data structure"
+            if [[ $CODIO_FREE_TEXT_ANSWER == *"data structure"* ]]; then
+                POINTS=$((POINTS + 5))
+            else
+                echo "❌ You did not qualify that a Tuple is a data structure. "
+            fi
 
-   - If **Allow Partial Points** was disabled, click **Correct** or **Incorrect**:
+            # If both terms were found, set the feedback buffer to "Your answer has passed"
+            if [ $POINTS -eq $TOTAL_POINTS ]; then
+                echo "✅ Your answer has passed."
+                exit 0
+            fi
 
-     .. image:: /img/guides/notpartial.png
-        :alt: Allow Partial Points Disabled
+            exit 1; 
 
-   - If **Allow Partial Points** was enabled, select the points to give for the answer up to the maximum points:
+    .. code-tab:: python 
+            :selected:
+            
+            #!/usr/bin/env python
+            import os, sys
 
-     .. image:: /img/guides/partial.png
-        :alt: Allow Partial Points Enabled
+            sys.path.append('/usr/share/codio/assessments')
+            from lib.grade import send_grade_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
 
-4. In the **Comments** field, enter any information (in markdown + LaTeX) about the grade and then click **Submit Comment**. 
-5. Grades can be `viewed by the student <https://docs.codio.com/students/courses/view-grade.html#view-grade>`_ when the grade is released.
+            text = os.environ['CODIO_FREE_TEXT_ANSWER']
+
+            points = 0
+            total = 10
+            
+
+            # check for required key words
+            if 'immutable' in text:
+                points+=5
+            else:
+                print("❌ You did not specify that a Tuple is immutable. ")
+            if 'data structure' in text:
+                points+=5
+            else:
+                print("❌ You did not qualify that a Tuple is a data structure. ")
+
+            if points==10:
+                print("✅ Your answer has passed. ")
+                exit(0)
+
+            exit(1)
+
+Example scripts for free-text auto-grade with partial points
+............................................................
+
+.. tabs::
+
+    .. code-tab:: bash
+
+        #!/usr/bin/env bash
+
+        # Initialize variables
+
+        TOTAL_POINTS=10
+        POINTS=0
+        FEEDBACK_BUFFER=""
+
+        # Check for the term "immutable"
+        if [[ $CODIO_FREE_TEXT_ANSWER == *"immutable"* ]]; then
+            POINTS=$((POINTS + 5))
+        else
+            FEEDBACK_BUFFER+="❌ You did not specify that a Tuple is immutable. "
+        fi
+
+        # Check for the term "data structure"
+        if [[ $CODIO_FREE_TEXT_ANSWER == *"data structure"* ]]; then
+            POINTS=$((POINTS + 5))
+        else
+            FEEDBACK_BUFFER+="❌ You did not qualify that a Tuple is a data structure. "
+        fi
+
+        # If both terms were found, set the feedback buffer to "Your answer has passed"
+        if [ $POINTS -eq $TOTAL_POINTS ]; then
+            FEEDBACK_BUFFER+="✅ Your answer has passed."
+        fi
+
+        # Calculate the percentage score
+        PERCENTAGE=$(($POINTS * 100 / $TOTAL_POINTS))
+
+        curl  -s "$CODIO_PARTIAL_POINTS_V2_URL" -d points=$PERCENTAGE -d format=md -d feedback="$FEEDBACK_BUFFER"
+
+    .. code-tab:: python 
+        :selected:
+
+        #!/usr/bin/env python
+        import os, sys
+
+        text = os.environ['CODIO_FREE_TEXT_ANSWER']
+        sys.path.append('/usr/share/codio/assessments')
+        from lib.grade import send_partial_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
+
+        def main():
+        
+        points = 0
+        total = 10
+        feedback = ''
+
+        # check for required key words
+        if 'immutable' in text:
+            points+=5
+        else:
+            feedback+="❌ You did not specify that a Tuple is immutable. "
+        if 'data structure' in text:
+            points+=5
+        else:
+            feedback+="❌ You did not qualify that a Tuple is a data structure. "
+
+        if points==10:
+            feedback+="✅ Your answer has passed. "
+
+        # calculate percent out of total
+        percent = (points/total)*100
+        # feedback+= "<h2>On this question you earned " + str(points) + " out of " + str(total) + " </h2>"
+        
+        res = send_partial_v2(percent, feedback, FORMAT_V2_HTML)
+        exit( 0 if res else 1)
+
+        main()
 
 
-Example Bash script for free-text auto-grade with partial points
-................................................................
-
-.. code:: bash
-
-    #!/usr/bin/env bash
-    POINTS=0
-    if [ "${CODIO_FREE_TEXT_ANSWER}" == "1" ]
-    then
-      POINTS=10
-    fi
-    if [ "${CODIO_FREE_TEXT_ANSWER}" == "5" ]
-    then
-      POINTS=50
-    fi
-    if [ "${CODIO_FREE_TEXT_ANSWER}" == "10" ]
-    then
-      POINTS=100
-    fi
-    curl  -s "$CODIO_PARTIAL_POINTS_V2_URL" -d points=$POINTS -d format=html -d feedback='<strong>any HTML text</strong>'
-
-
-Example Python script for free-text auto-grade with partial points with :ref:`Autograde Enhancement<autograde-enhance>`
-.......................................................................................................................
-
-
-.. code:: python
-
-    #!/usr/bin/env python
-    import os, sys
-    import random
-
-    text = os.environ['CODIO_FREE_TEXT_ANSWER']
-    sys.path.append('/usr/share/codio/assessments')
-    from lib.grade import send_partial_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
-
-    def main():
-      grade = int(text)  
-      feedback = '## ' + text + ' points' 
-      res = send_partial_v2(int(round(grade)), feedback, FORMAT_V2_MD)
-      exit( 0 if res else 1)
-      
-    main()
-
-Example Python script for free-text auto-grade with partial points 
-..................................................................
-
-.. code:: python
-
-    #!/usr/bin/env python
-    import os, sys
-    # get free text auto value
-    text = os.environ['CODIO_FREE_TEXT_ANSWER']
-    # import grade submit function
-    sys.path.append('/usr/share/codio/assessments')
-    from lib.grade import send_partial
-    def main():
-      # Execute the test on the student's code
-      grade = 0
-      feedback = ''
-      if text == '1':
-        grade = 1
-        feedback = '1 point'
-      elif text == '5':
-        grade = 5
-        feedback = '5 points'
-      elif text == '10':
-        grade = 10
-        feedback = '10 points'
-      else:
-        grade = 0
-        feedback = 'no points'
-
-      print(feedback)
-      # Send the grade back to Codio with the penalty factor applied
-
-      res = send_partial(int(round(grade)))
-      exit( 0 if res else 1)
-
-    main()
 
 Automatically grade a Free Text assessment correct 
 .....................................................

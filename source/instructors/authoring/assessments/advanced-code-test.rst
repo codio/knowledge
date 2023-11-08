@@ -131,6 +131,17 @@ checkstyle
   
  When using checkstyle in Codio, specify the configuration file under **CONFIG PATH** -- you can use the `Google configuration`_, `Sun configuration`_, or `create your own configuration`_.
  
+ Select the **CHECKSTYLE VERSION**, by default the appropriate version is selected according to your installed Java version but you can also select one of the available options:
+
+  - Checkstyle v10.12(JRE 11 and above)
+
+  - Checkstyle v8.24(JRE 8 and above)
+
+  - Checkstyle v8.9(JRE 8)
+
+  - Checkstyle v6.6(JRE 6 and 7)
+
+
   Specify the Java files you'd like Checkstyle to check under the **ADD CASE:** option.
  
  The student will need to follow all style conventions to earn full credit on the assessment.
