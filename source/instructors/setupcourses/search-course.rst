@@ -19,7 +19,7 @@ Courses are displayed in groups based on their creation date. The most recent co
 
 The **My** tab will show all courses in which you are a **Teacher**.  This can be useful where you are in the **Owners** group and do not wish to see all the courses in the organization.
 
-If you wish to see all the courses in the organization to to the **All** tab.
+If you wish to see all the courses in the organization go to the **All** tab.
 
 Sort courses
 ------------

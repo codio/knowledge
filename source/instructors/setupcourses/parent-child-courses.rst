@@ -110,7 +110,7 @@ You can revert back to earlier published versions of your courses. However, reve
    .. image:: /img/manage_classes/revertversion.png
       :alt: Revert Version 
 
-4. When other instructors open the assignment (in Edit mode), they can click **Latest Published Version** to update thier working copy to the currently published version.
+4. When other instructors open the assignment (in Edit mode), they can click **Latest Published Version** to update their working copy to the currently published version.
 
    .. image:: /img/publishedversion.png
       :alt: Latest Published Version
@@ -174,7 +174,7 @@ To send an announcement, follow these steps:
   .. Note:: To view a history of all announcements sent in the parent course, click the **View Sent Announcements** link.
 
 
-4. When an instructor opens the course, a banner is displayed indicating that their is an announcement for the course.
+4. When an instructor opens the course, a banner is displayed indicating that there is an announcement for the course.
 
    .. image:: /img/manage_classes/announcebanner.png
       :alt: Course Announcement Banner 

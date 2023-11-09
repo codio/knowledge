@@ -20,7 +20,7 @@ The scripts written by Codio typically use Ansible, a very friendly deployment m
 
 package_list.json
 ^^^^^^^^^^^^^^^^^
-The **package_list.json** file is is the manifest that lists the entire contents of the publicly available scripts. Each script has an entry in this file, and you must add a new item to the list when coding your own install package. Whenever you open the **Install Software** page (**Tools > Install Software**), this Install Software manifest is retrieved from our GitHub repo.
+The **package_list.json** file is the manifest that lists the entire contents of the publicly available scripts. Each script has an entry in this file, and you must add a new item to the list when coding your own install package. Whenever you open the **Install Software** page (**Tools > Install Software**), this Install Software manifest is retrieved from our GitHub repo.
 
 Here's a example of the MySQL entry:
 
