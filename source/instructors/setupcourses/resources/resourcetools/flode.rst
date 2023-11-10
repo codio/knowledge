@@ -6,7 +6,7 @@
 Flode
 ======
 
-Flode is a flowcharting application, using Javascript as its enginge, that allows you to:
+Flode is a flowcharting application, using Javascript as its engine, that allows you to:
 
 -  create annotated flowcharts
 -  execute flowcharts
