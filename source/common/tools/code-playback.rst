@@ -16,6 +16,8 @@ The file that is currently active is built and displayed. To review other files 
 
 - To manually walk through the changes, click the **Previous change** and **Next change** buttons. You can drag the playback slider to find points of interest.
 
+- You can also see more detailed :ref:`behavior insights <behavior-insights>` by selecting **Education > Behavioral Player** from the menu.
+
 Retrieving deleted files
 ------------------------
 If you delete a file in error, you can use **Code Playback** to find the file and recreate it. Follow these steps to retrieve a deleted file:
