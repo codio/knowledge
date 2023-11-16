@@ -29,7 +29,7 @@ Invite teacher to the organization
 
   - **Teacher** - Select this if you want the teacher to have standard teacher permissions, this is default.
   - **Read-only teacher** - Select this if you want to prevent the teacher from making changes to the content in courses (cannot switch to Edit mode).
-  - **Organization owner** - Select this if you want the teacher to have full owner permissions.
+  - **Organization owner** - Select this if you want the teacher to have full owner permissions, for more information see :ref:`Add organization owner <org-owners>`.
 
    .. image:: /img/manage_organization/inviteteacher.png
       :alt: Invite Owner

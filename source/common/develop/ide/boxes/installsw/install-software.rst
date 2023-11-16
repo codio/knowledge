@@ -17,7 +17,7 @@ Installing Software Packages
    gui
 
 
-You can view all software that is installed on your box and install new software from the **Tools > Install Software** menu. From the **Install software** page, you can run scripts that install, configure, or reconfigure software components instead of manually installing it from the command line. 
+Codio provides a way to install the set of software packages that are in high demand. You can install this software from the **Tools > Install Software** menu. From the **Install software** page, you can run scripts that install, configure, or reconfigure software components instead of manually installing them from the command line. 
 
 .. image:: /img/install-sw-g2.png
    :alt: Install Software

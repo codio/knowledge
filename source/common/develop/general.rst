@@ -143,7 +143,7 @@ If you are experiencing any issue where Codio will not run as it should, please 
 Disable IE Compatibility View
 *****************************
 
-It could happen that even if you have Internet Explorer 10 or a later version, we detect a older version of the browser.
+It could happen that even if you have Internet Explorer 10 or a later version, we detect an older version of the browser.
 
 This is due to the *Compatibility Mode* of the Browser which enables old features we no longer support.
 

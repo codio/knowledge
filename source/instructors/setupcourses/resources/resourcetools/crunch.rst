@@ -47,7 +47,7 @@ We recommend you use Codio's Lexikon feature to get inline help on Crunch usage 
 Crunch Module
 -------------
 
-We strongly recommend you use the Crunch module to teach Crunch. The Module can be found in the **Crunch - Little Man Computer on Steroids** Course. From the Dashboard, go to **Reources** and then look for **Crunch - Little Man Computer on Steroids**, within that course you will find the Crunch module and can add as a course to your account.
+We strongly recommend you use the Crunch module to teach Crunch. The Module can be found in the **Crunch - Little Man Computer on Steroids** Course. From the Dashboard, go to **Resources** and then look for **Crunch - Little Man Computer on Steroids**, within that course you will find the Crunch module and can add as a course to your account.
 
 
 
@@ -111,7 +111,7 @@ The following instructions are not available in Little Man Computer and provide 
 -  ``MUL`` multiply the accumulator by a literal value of a value stored
    in a memory location
 -  ``INC`` increment the accumulator by 1
--  ``DEC`` decrement the acculumator by 1
+-  ``DEC`` decrement the accumulator by 1
 
 You can access the full instruction list from the dropdown when you add a new instruction or you can simply type the instruction mnemonic (3 letter instruction) and press enter.
 
