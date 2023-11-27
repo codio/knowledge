@@ -28,6 +28,7 @@ Authoring
    hide_folders
    excludingfiles
    latex
+   cpumemdisk
 
 Introduction to Guides
 ----------------------
