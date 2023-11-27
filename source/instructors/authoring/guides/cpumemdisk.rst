@@ -10,7 +10,7 @@ CPU
 ---
 All Codio assignments/projects use shared CPU resources where there is fair balancing among users. You cannot configure the CPU usage for a process.
 
-You can monitor running processes and CPU utilization in real time by typing the ``top`` command in the Terminal. A 100% CPU utilization means that your process is using only one vCPU core. Long-running single-threaded processes do not usually affect the performance. 
+You can monitor running processes and CPU utilization in real time by typing the ``top`` command in the Terminal. A 100% CPU utilization means that your process is using only one vCPU (virtual CPU) core, a 200% utilization means your process is using two CPU cores. Long-running single-threaded processes do not usually affect the performance. 
 If you have multithreaded, long-running processes, we recommend using :ref:`Virtual Machines <virtualmachine>` or limiting the number of threads. 
 
   .. image:: /img/guides/top-cpu.png
@@ -19,7 +19,7 @@ If you have multithreaded, long-running processes, we recommend using :ref:`Virt
 Memory
 ------
 The default memory configuration for asssignments/projects is 756Mb. If your usage requires more memory, you can purchase a larger :ref:`Gigabox <gigabox-usage>` configuration.
-The ``top`` command can also be used to view how much memory is used by your processes. Not the value in the used column during the heaviest memory consumption as software is running. 
+The ``top`` command can also be used to view how much memory is used by your processes. Note the value in the used column during the heaviest memory consumption as software is running. 
 If the used memory, (highlighted below) is close to the limit, you will likely experience performance degradation.
 
   .. image:: /img/guides/top-memory.png
