@@ -187,29 +187,29 @@ Example scripts for free-text auto-grade with partial points
 
         def main():
         
-        points = 0
-        total = 10
-        feedback = ''
+            points = 0
+            total = 10
+            feedback = ''
 
-        # check for required key words
-        if 'immutable' in text:
-            points+=5
-        else:
-            feedback+="❌ You did not specify that a Tuple is immutable. "
-        if 'data structure' in text:
-            points+=5
-        else:
-            feedback+="❌ You did not qualify that a Tuple is a data structure. "
+            # check for required key words
+            if 'immutable' in text:
+                points+=5
+            else:
+                feedback+="❌ You did not specify that a Tuple is immutable. "
+            if 'data structure' in text:
+                points+=5
+            else:
+                feedback+="❌ You did not qualify that a Tuple is a data structure. "
 
-        if points==10:
-            feedback+="✅ Your answer has passed. "
+            if points==10:
+                feedback+="✅ Your answer has passed. "
 
-        # calculate percent out of total
-        percent = (points/total)*100
-        # feedback+= "<h2>On this question you earned " + str(points) + " out of " + str(total) + " </h2>"
-        
-        res = send_partial_v2(percent, feedback, FORMAT_V2_HTML)
-        exit( 0 if res else 1)
+            # calculate percent out of total
+            percent = (points/total)*100
+            # feedback+= "<h2>On this question you earned " + str(points) + " out of " + str(total) + " </h2>"
+            
+            res = send_partial_v2(percent, feedback, FORMAT_V2_HTML)
+            exit( 0 if res else 1)
 
         main()
 
