@@ -88,7 +88,7 @@ In Brightspace/D2L
 LTI Course copy for Brightspace/D2L
 -----------------------------------
 
-Enabling this setting allows existing Codio course content used in your LMS to be copied into a new Codio course and a new course in your LMS. This should be enabled for the courses connected with the "Master" course in your LMS. The parameter will be disabled by default for for all copied courses.
+Enabling this setting allows existing Codio course content used in your LMS to be copied into a new Codio course and a new course in your LMS. This should be enabled for the courses connected with the "Master" course in your LMS. The parameter will be disabled by default for all copied courses.
 
 First enable :ref:`LTI Constant URLs <lti-keys-and-urls-information>` for your course.
 
