@@ -21,6 +21,7 @@ Integrating with your LMS system (Canvas etc.)
    lti1-3
    lti1-3BS-D2L
    lti1-3Canvas
+   lti1-3DynReg
 
 Learning Tools Interoperability (LTI) is a standard for passing user, organization, and course information between learning management systems (tool consumers) and learning tools and tool providers, such as Codio.
 
