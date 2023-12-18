@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**December 2023**
+
+- `[F] [15th]`: Added :ref:`LTI 1.3 Dynamic Registration <lti1-3DynReg>` feature for LMS systems that support it.
+
 **October 2023**
 
 - `[I] [10th]`: Added an ability to configure the individual :ref:`Behavior Insights <behavior-insights>` options
