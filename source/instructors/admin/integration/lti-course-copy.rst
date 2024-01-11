@@ -24,22 +24,19 @@ First enable :ref:`LTI Constant URLs <lti-keys-and-urls-information>` for your c
    :alt: Enable course copy field
 
 
-2.  In your LMS "Copy this Course" (or equivalent term for your LMS) and create your new course
+2.  Both custom parameters should be added to the tool in the Master course.
+3.  In your LMS "Copy this Course" (or equivalent term for your LMS) and create your new course
 
 .. figure:: /img/lti/copy_course.png
    :alt: Copy LMS Course
 
 3.  When completed go to **External Apps** and edit the existing app connecting Codio to your LMS
-4.  Replace the existing custom field that was set from your original Codio course with an id of your own (e.g something like codio_class_target_id=my_class_id_10)
+4.  Replace the existing custom field that was set from your original Codio course with an id of your own (e.g something like codio_course_target_id=semester-year)
 
-.. Note:: If your LMS supports ``lis_course_offering_sourcedid`` you do not need to specify ``codio_class_target_id`` for the copied course, ``lis_course_offering_sourcedid`` will be used automatically to detect the course.  For cases when ``lis_course_offering_sourcedid`` is needed for course copy but not available due to privacy settings in Canvas, a custom parameter ``custom_codio_course_offering_sourcedid=$CourseOffering.sourcedId`` can be tried.
-
-.. figure:: /img/lti/fork_class_id.png
-   :alt: course fork id
-
-5.  In your existing Codio course, copy the content of the LTI course copy enabled field into a new line in the 'Edit App' custom field
+.. Note:: If your LMS supports ``lis_course_offering_sourcedid`` you do not need to specify ``codio_course_target_id`` for the copied course, ``lis_course_offering_sourcedid`` will be used automatically to detect the course.  For cases when ``lis_course_offering_sourcedid`` is needed for course copy but not available due to privacy settings in Canvas, a custom parameter ``custom_codio_course_offering_sourcedid=$CourseOffering.sourcedId`` can be tried.
 
 .. figure:: /img/lti/parent_class.png
+   :width: 400
    :alt: Parent course ID
 
 6.  Submit
