@@ -18,4 +18,8 @@ You can specify the **Start Time** when you want the containers available and th
 
 The Start Time must be at least 4 hours in the future so Codio will have enough time to ensure that the containers are available and can be started at your specified time.
 
+
+We recommend priming for large assignments, like ones that contain node modules or extensive data sets, or for assignments that have 100+ students starting at the same time, 
+like a large exam. Instructors can also prime smaller assignments with starter code files for thousands of students beginning simultaneously.
+
 .. Note::  Both the Prime Assignment setting and the :ref:`Pair Programming<group-work>` setting can not be enabled at the same time.
