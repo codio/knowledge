@@ -60,6 +60,13 @@ Once you are ready to run a new report, press the **Start** button, which will p
 
 Codio will include all code from all students in the report, irrespective of whether the assignment is marked by the student as completed.
 
+.. image:: /img/guides/generatebundle.png
+     :alt: Plagiarism generate
+
+
+
+**Generate bundle** ensures you to download the files of students and run plagarism on them outside the codio. This would enable you to use the effective code detection checks to verify the code.
+
 The report
 **********
 Once the report has been generated it can be opened by clicking the **Open** button. A typical report is shown below. The interpretation of the report is explained below.
