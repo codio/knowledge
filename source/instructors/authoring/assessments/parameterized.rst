@@ -17,7 +17,15 @@ The **PARAMETERS** tab has a large built-in code editor to enter **python** code
    .. image:: /img/guides/ParametersTab.png
       :alt: Parameters Tab UI
 
-On the right-hand side, the **Add Code Example** button will generate 3 lines of code which (1) import the python ``random`` library, (2) declare the ``codio_parameters`` dictionary you will store parameters and their values in, and (3) provide a sample parameter.
+On the right-hand side, the **Add Code Example** button will generate 9 lines of code which (1) import the python ``random`` library, (2) declare the ``codio_parameters`` dictionary you will store parameters and their values in, and (3) provide two sample parameters, one public and one private:
+
+- You can use **private** parameters to store the assessment solution, distractors, or anything students only need once they answer the question or submit their solution to the auto-grader. 
+- Use **public** parameters for instructions or anything that will help you define the problem, like hints or parameters to evaluate. 
+
+Private parameters are available only inside the assessment; public parameters are available on the assessment page and the assessment itself, as shown in this example:
+
+   .. image:: /img/guides/ParametersScope.png
+      :alt: Scope of parameters inside one assessment.
 
 The **Generate Sample Parameters** button on the right-hand side will run the code in the editor and display in the small box below the button a sample set of generated parameters. If there is an error with the code, the box will turn red and the error message will be displayed.
 
@@ -28,7 +36,9 @@ To create a parameter, store a value in the ``codio_parameters`` dictionary. You
    .. image:: /img/guides/paramterSyntax.png
       :alt: Syntax for parameters in Codio
 
-See the first image on this page for an example of creating parameters. Once created, you can then refer to parameters throughout the other fields in your assessment (e.g. instructions on the **General** tab, fields on the **Execution** tab, rationale on the **Grading** tab).
+
+
+See the first image on this page for an example of creating parameters. Once created, you can then refer to parameters throughout the other fields in your assessment and in the page your assessment is added (e.g. instructions on the **General** tab, fields on the **Execution** tab, rationale on the **Grading** tab, instructions before the assessment). 
 
    .. image:: /img/guides/param_instructions2.png
       :alt: Parameters in question field
