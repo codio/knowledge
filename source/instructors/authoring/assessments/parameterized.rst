@@ -5,7 +5,7 @@
 
 Parameterized assessments
 =========================
-For all assessment types except Gradebook and Random, you can generate parameters by writing **python** code on the **PARAMETERS** tab.
+For all assessment types except Gradebook and Random, you can generate parameters by writing **python** code in the **PARAMETERS** tab.
 
    .. image:: /img/guides/parameterized2.png
       :alt: Parameterized Assessment
@@ -17,7 +17,7 @@ The **PARAMETERS** tab has a large built-in code editor to enter **python** code
    .. image:: /img/guides/ParametersTab.png
       :alt: Parameters Tab UI
 
-On the right-hand side, the **Add Code Example** button will generate 9 lines of code which (1) import the python ``random`` library, (2) declare the ``codio_parameters`` dictionary you will store parameters and their values in, and (3) provide two sample parameters, one public and one private:
+On the right-hand side, the **Add Code Example** button will generate 9 lines of code which (1) import the python ``random`` library, (2) declare the ``codio_parameters`` dictionary where you will store parameters names and their values, and (3) provide two sample parameters, one public and one private:
 
 - You can use **private** parameters to store the assessment solution, distractors, or anything students only need once they answer the question or submit their solution to the auto-grader. 
 - Use **public** parameters for instructions or anything that will help you define the problem, like hints or parameters to evaluate. 
@@ -29,6 +29,8 @@ Private parameters are available only inside the assessment; public parameters a
 
 The **Generate Sample Parameters** button on the right-hand side will run the code in the editor and display in the small box below the button a sample set of generated parameters. If there is an error with the code, the box will turn red and the error message will be displayed.
 
+.. Note:: You can't publish an assessment if the parameters tab is in an error state. You will get a generic error message when trying to publish. Generating sample parameter values is a good way to double-check your python code. 
+
 Creating and using parameters
 *****************************
 To create a parameter, store a value in the ``codio_parameters`` dictionary. You can then refer to the parameter throughout the assessment within double curly brackets (otherwise known as mustache templating).
@@ -36,7 +38,7 @@ To create a parameter, store a value in the ``codio_parameters`` dictionary. You
    .. image:: /img/guides/paramterSyntax.png
       :alt: Syntax for parameters in Codio
 
-
+.. Note::  If you parameters include special characters, try using triple curly braces: `{{{my_parameter}}}`.
 
 See the first image on this page for an example of creating parameters. Once created, you can then refer to parameters throughout the other fields in your assessment and in the page your assessment is added (e.g. instructions on the **General** tab, fields on the **Execution** tab, rationale on the **Grading** tab, instructions before the assessment). 
 
