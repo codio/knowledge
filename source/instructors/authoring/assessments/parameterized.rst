@@ -27,6 +27,11 @@ Private parameters are available only inside the assessment; public parameters a
    .. image:: /img/guides/ParametersScope.png
       :alt: Scope of parameters inside one assessment.
 
+The example above generates the following output:
+
+   .. image:: /img/guides/params_output.png
+      :alt: Scope of parameters inside one assessment example.
+
 The **Generate Sample Parameters** button on the right-hand side will run the code in the editor and display in the small box below the button a sample set of generated parameters. If there is an error with the code, the box will turn red and the error message will be displayed.
 
 .. Note:: You can't publish an assessment if the parameters tab is in an error state. You will get a generic error message when trying to publish. Generating sample parameter values is a good way to double-check your python code. 
