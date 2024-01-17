@@ -60,12 +60,7 @@ Once you are ready to run a new report, press the **Start** button, which will p
 
 Codio will include all code from all students in the report, irrespective of whether the assignment is marked by the student as completed.
 
-.. image:: /img/guides/generatebundle.png
-     :alt: Plagiarism generate
 
-
-
-**Generate bundle** ensures you to download the files of students and run plagarism on them outside the codio. This would enable you to use the effective code detection checks to verify the code.
 
 The report
 **********
@@ -88,4 +83,14 @@ In the **Global Settings** (under the cog icon at the top right) you can configu
 - Active Labels (Select the labels that should be displayed in the visualizations)
 
 For more information see the `Dolos <https://dolos.ugent.be/>`_ documentation and if you have any feedback on the report, raise in the GitHub repository `issues <https://github.com/dodona-edu/dolos/issues>`_.
+
+
+Downloading Students Data for External Plagiarism Check
+*******************************************************
+
+You can download the files of students and run plagarism on them outside the Codio. List the files you want to download in the 'Which files should be checked' field and press the **Generate bundle** button and it will download selected data/files for all students, this data contain student wise separate data/folders. This feature is helpful if you have large cohort of students or large assignments. If you want to run plagiarism outside of Codio, check out `Dolos <https://dolos.ugent.be/>`_. 
+
+
+.. image:: /img/guides/plagiarism-generate-bundle.png
+     :alt: Plagiarism Generate Bundle
 
