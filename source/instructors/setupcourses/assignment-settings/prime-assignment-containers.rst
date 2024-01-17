@@ -18,8 +18,16 @@ You can specify the **Start Time** when you want the containers available and th
 
 The Start Time must be at least 4 hours in the future so Codio will have enough time to ensure that the containers are available and can be started at your specified time.
 
-
 We recommend priming for large assignments, like ones that contain node modules or extensive data sets, or for assignments that have 100+ students starting at the same time, 
 like a large exam. Instructors can also prime smaller assignments with starter code files for thousands of students beginning simultaneously.
+
+If the Prime Assignments has not started within the next 60 minutes after the scheduled start time, it will become inactive. You can extend this time window by 10 minutes if you are running late. The option to extend this time will be available an hour before the scheduled start time.
+
+
+.. image:: /img/prime-extension.png
+   :alt: Prime Timeout Extension
+
+
+If you feel that the extended 10 minutes are not enough and you need more time then you can extend it again by 10 more minutes. These 10 minutes extensions can be done up to maximum 18 times which will give you a total of 3 hours of extension. That means you can keep your Prime Assignment Containers active for maximum 4 hours (1 hour default active time + 3 hours of extension time) without starting them.
 
 .. Note::  Both the Prime Assignment setting and the :ref:`Pair Programming<group-work>` setting can not be enabled at the same time.
