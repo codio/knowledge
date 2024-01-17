@@ -8,6 +8,7 @@ Parameterized assessments
 For all assessment types except Gradebook and Random, you can generate parameters by writing **python** code in the **PARAMETERS** tab.
 
    .. image:: /img/guides/parameterized2.png
+      :width: 600
       :alt: Parameterized Assessment
 
 Parameters tab
@@ -15,6 +16,7 @@ Parameters tab
 The **PARAMETERS** tab has a large built-in code editor to enter **python** code that generates parameters.
 
    .. image:: /img/guides/ParametersTab.png
+      :width: 600
       :alt: Parameters Tab UI
 
 On the right-hand side, the **Add Code Example** button will generate 9 lines of code which (1) import the python ``random`` library, (2) declare the ``codio_parameters`` dictionary where you will store parameters names and their values, and (3) provide two sample parameters, one public and one private:
@@ -25,11 +27,13 @@ On the right-hand side, the **Add Code Example** button will generate 9 lines of
 Private parameters are available only inside the assessment; public parameters are available on the assessment page and the assessment itself, as shown in this example:
 
    .. image:: /img/guides/ParametersScope.png
+      :width: 600
       :alt: Scope of parameters inside one assessment.
 
 The example above generates the following output:
 
    .. image:: /img/guides/params_output.png
+      :width: 600
       :alt: Scope of parameters inside one assessment example.
 
 The **Generate Sample Parameters** button on the right-hand side will run the code in the editor and display in the small box below the button a sample set of generated parameters. If there is an error with the code, the box will turn red and the error message will be displayed.
@@ -48,10 +52,12 @@ To create a parameter, store a value in the ``codio_parameters`` dictionary. You
 See the first image on this page for an example of creating parameters. Once created, you can then refer to parameters throughout the other fields in your assessment and in the page your assessment is added (e.g. instructions on the **General** tab, fields on the **Execution** tab, rationale on the **Grading** tab, instructions before the assessment). 
 
    .. image:: /img/guides/param_instructions2.png
+      :width: 600
       :alt: Parameters in question field
 
    .. image:: /img/guides/param_execution.png
-      :alt: Parameters in fields of multiple choice assessment
+      :width: 600
+      :alt: Parameters in fields of standard code test
       
 Creating parameters from on web-based content
 ----------------------------------------------
