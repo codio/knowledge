@@ -1,5 +1,3 @@
-source/img/adjust-deadline.png
-
 .. meta::
    :description: Penalties can be added for students who don't complete an assignment within the specified start time and end time.
 
@@ -72,9 +70,6 @@ To adjust the assignment deadline for an individual student, follow these steps:
       :alt: Adjust Deadline
 
 3. On the **Adjust Deadline for Student** dialog, choose the **New Closing Date/Time** from the date/time picker or **Extend Time by a Set Amount** by increasing the **Days**, **Hours**, and **Minutes** for the student to complete the assignment, and then click **Apply**.
-
-   .. image:: /img/
-         :alt: Penalty Adjusted
 
    The adjustment is displayed next to the Grade field in the Instructor Dashboard.
 
