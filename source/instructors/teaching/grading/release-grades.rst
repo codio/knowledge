@@ -25,7 +25,7 @@ Enable Release Grades toggle
 ----------------------------
 You can enable the :ref:`Release Grades Automatically <auto-release-grades>` at the organization level so that the **Release Grades** toggle is visible on the **Course** page.
 
-.. image:: /img/grading-release.png
+.. image:: /img/Release-grades.png
    :alt: Release grades toggle
 
 Release grade from assignment

@@ -29,10 +29,10 @@ Open the **Actions** menu to see additional buttons that allow you to run a plag
 
 - **Reset** - Click this button to clear all student work. This option is used when you have updated an assignment in your course and you need to reset it so all student assignments are updated with the new assignment. You can reset assignments using the **Action > Reset** button, or the menu in the assignment:
 
-.. image:: /img/resetunitall.png
+.. image:: /img/resetunit.png
    :alt: Action > Reset
 
-.. image:: /img/resetunitstudent.png
+.. image:: /img/reset-student.png
    :alt: Reset Assignment
 
 - **Regrade Completed** - Click this button to re-run an auto-grade script after an assignment is marked as completed.
