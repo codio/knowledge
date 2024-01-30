@@ -332,7 +332,6 @@ This section provides example assignment level scripts using the older methods t
 
       import os
       import random
-      import requests
       import json
       import datetime
 
