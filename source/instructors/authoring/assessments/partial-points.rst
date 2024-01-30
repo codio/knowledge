@@ -74,7 +74,7 @@ The Python script parses the student's file and then assigns points based on spe
       .. code-tab:: python 
             :selected:
 
-            import os, requests, random, re, io, subprocess, shutil, sys
+            import os, random, re, io, subprocess, shutil, sys
             from subprocess import Popen, PIPE, STDOUT
 
             sys.path.append('/usr/share/codio/assessments')
