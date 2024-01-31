@@ -52,12 +52,13 @@ Copy fields from Brightspace/D2L pop-up to Codio
 5. Click on **View Deployments** and create a **New Deployment**
 6. In the Tool field select the tool you just created
 7. Name it Codio Deployment or something similar.
-8. Toggle **Open as External Resource** if you want to open the tool in a new tab, otherwise it will open as an iFrame.
-9. Toggle **Grades created by LTI will be included in Final Grade** if you are using grades passed from Codio.
-10. Add **Org Units** as you need for your setup.
-11. Click **Create Deployment**.
-12. Copy the deployment ID that is generated and paste it into Codio into the **Deployment ID** field.
-13. Click **Create** in Codio.
+8. In the **Security Settings** section you need to send at least the **Name** and the **Email** if you aren't choosing to enroll your students anonymously.
+9. Toggle **Open as External Resource** if you want to open the tool in a new tab, otherwise it will open as an iFrame.
+10. Toggle **Grades created by LTI will be included in Final Grade** if you are using grades passed from Codio.
+11. Add **Org Units** as you need for your setup.
+12. Click **Create Deployment**.
+13. Copy the deployment ID that is generated and paste it into Codio into the **Deployment ID** field.
+14. Click **Create** in Codio.
 
 Create the new link in Brightspace/D2L
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
