@@ -19,7 +19,7 @@ You can preview a course and assignments as a student by logging into one of the
 
    - Click the **Options** menu to the far right of the student's name and choose **Login as**.
    
-   .. image:: /img/loginasstudent.png
+   .. image:: /img/login-as-student.png
       :alt: Login as student
      
    - Click the Students tab and then click the **Login as** button to the right of the student's name.
