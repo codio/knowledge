@@ -33,3 +33,5 @@ Note:: The time zone is automatically taken from the Course time zone, if you wi
    - **Disable Assignment and Mark as Complete**
 
 5. Click **Save Changes**.
+
+You can update this setting for multiple assignments in bulk, check out :ref:`Batch Assignment Update <batch-assignment-update>`.
