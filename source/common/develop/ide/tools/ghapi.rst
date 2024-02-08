@@ -95,6 +95,11 @@ Example .yml file for publishing a project to an assignment
               # Set the domain you are working on - codio.com or codio.co.uk
               domain: codio.com
 
+.. _get-course-assignment-id:
+
+Get the Course and Assignment ID
+--------------------------------
+
 The course/assignment id's are found from the URL in your browser when opening the assignment when on the **Overview** tab.  The assignments need to be published to get this information whether using the course/assignment id's or the course/assignment names.
 
 .. figure:: /img/course_assignment_id.png

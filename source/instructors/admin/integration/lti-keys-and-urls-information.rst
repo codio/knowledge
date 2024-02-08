@@ -76,6 +76,9 @@ The LMS user who carries out these steps does not need to be a system administra
 .. figure:: /img/lti/lti-class-url.png
    :alt: lti-class-url
 
+
+.. _lti-integration-assignment-urls:
+
 LTI Integration Assignment URLs
 -------------------------------
 
