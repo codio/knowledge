@@ -20,7 +20,7 @@ Open the **Actions** menu to see additional buttons that allow you to run a plag
 
 - **Mark All As Completed** - Click this button to mark all student assignments as completed. Hover over a student name to see the switch appear to the left of the students name. 
 
-.. image:: /img/mark-complete.png
+.. image:: /img/mark-as-complete.png
    :alt: Mark All As Completed
 
 - **Unmark As Complete** - Click this button to clear the **Mark All As Complete**.

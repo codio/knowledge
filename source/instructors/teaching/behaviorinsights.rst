@@ -75,14 +75,20 @@ Viewing Behavior Insights
 
 When you go to the Student progress page of an assignment in that course, you will now see a **Behavior** column and be able to filter and sort based on the behavior indicator.
 
-  .. image:: /img/insights/BehaviorInsightsStudentProgressIndicator.png
+ You can see coloured boxes around all behavior insight indicators.When the box is empty(i.e has no tiles)it shows that no thresholds has been broken.
+
+  .. image:: /img/insights/Indicators1.png
      :alt: A Behavior column on the assignment progress dashboard can be filtered and sorted
 
-.. Note:: Behavior Insights will only appear once an assignment is marked as complete. A lack of indicator means no behavior thresholds have been met - the student has no indications of the specified behavior.
+.. Note:: Behavior Insights will only appear once an assignment is marked as complete. Lack of tiles in the coloured boxes means no behavior thresholds have been met - the student has no indications of the specified behavior which would trigger the indicator.
 
 Click on an indicator under the **Behavior** column to see the Behavior Insights Dashboard.
 
-  .. image:: /img/insights/BehaviorInsightsDashboard.png
+When thresholds are broken this would Indicate broken thresholds with red outline .Tiles without broken thresholds should be visible but won't have red outline or explanatory text beneath. 
+Student names with arrows would be visible in top left corner (similar to other grade dialogue that appears when you click on the boxed grade number) so that teachers can cycle through the different student's to view their insight dashboard.
+
+
+  .. image:: /img/insights/BehaviourInsightDashboard1.png
      :alt: Five tiles showing numeric metrics with text descriptions under each
      
 There will be between 1 and 5 tiles displayed. Tiles are only displayed if the student value is outside of a given threshold (indicated by dashed lines or red on the tile). Each tile has a textual description directly below it to help teachers interpret the numerical date presented in graphical form on the tile.
