@@ -86,6 +86,21 @@ The **Override Grade** feature can also be used to provide comments at the assig
   .. image:: /img/class_administration/grading/assignment-comments.png
      :alt: Assignment Comments
 
+Grading rubric is no longer visible to student if teacher overrides grade
+-------------------------------------------------------------------------
+When a teacher manually grades an assignment using the rubric and then overrides the grades, Grading rubric is no longer visible to students.
+
+This one has the grade overridden and this is what the student dashboard looks like
+
+.. image:: /img/Overridengarde.png
+     :alt: Overriden-grade
+
+This is the student's dashboard view if the grade has not been overridden
+
+
+.. image:: /img/No-overrindengrade.png
+     :alt: No-Overriden-grade
+
 Removing Penalties
 ------------------
 
