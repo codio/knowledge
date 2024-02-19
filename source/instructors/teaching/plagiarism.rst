@@ -84,6 +84,12 @@ In the **Global Settings** (under the cog icon at the top right) you can configu
 
 For more information see the `Dolos <https://dolos.ugent.be/>`_ documentation and if you have any feedback on the report, raise in the GitHub repository `issues <https://github.com/dodona-edu/dolos/issues>`_.
 
+.. Note:: if using the online version of `Dolos <https://dolos.ugent.be/server/#/>`_ where you upload the ZIP file  you will need to specify the programming language as it can't detect it from the .file extensions.
+
+.. Note:: If you can export with the correct language extension (eg username.py or username.java) based on the file extensions so autodetection works.
+
+.. Note:: Manifest.csv does not work with online version.
+
 
 Downloading Students Data for External Plagiarism Check
 *******************************************************

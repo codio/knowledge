@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**February 2024**
+
+- `[F] [02nd]`: Added :ref:`Batch Assignment Update <batch-assignment-update>` feature to update some assignment settings in bulk.
+
 **December 2023**
 
 - `[F] [15th]`: Added :ref:`LTI 1.3 Dynamic Registration <lti1-3DynReg>` feature for LMS systems that support it.
