@@ -21,17 +21,7 @@ To batch update the assignments settings, follow these steps:
       :alt: Select csv Batch Update
 
 
-   You can download the csv template file of your course from **Download Assignment Information** setting present in the **Bulk Settings** area. The template file will look something like:
-
-
-   .. csv-table:: 
-      :file: /instructors/setupcourses/Batch-Update-Settings.csv
-      :widths: 1, 1, 1, 1, 1, 1, 1
-      :header-rows: 1
-
-
-   You can update the fields as per your requirement and use that csv file to update the assignment settings.
-
+   You can download the csv template file of your course from **Download Assignment Information** setting present in the **Bulk Settings** area. You can update the fields as per your requirement and use that csv file to update the assignment settings.
 
    Things you should know about the csv template:
 
