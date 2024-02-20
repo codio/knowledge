@@ -6,7 +6,7 @@
 Access Codio Box via SSH
 ========================
 
-.. Warning:: Please note that Accessing Codio Boxes via SSH will be disabled on or after March 4th 2024. This feature was introduced to support the upload of large files into a Box but now can all be handled directly in assignment/projects. If you were utilising feature this within any of your course assignments to allow your students to upload large files, please let all your students know and if you have any questions relating to this, please get back to us. 
+.. Warning:: Please note that Access Codio Boxes via SSH feature will be disabled on or after March 4th 2024. This feature was introduced to support the upload of large files into a Codio project. This capability can now be handled directly in assignments/projects using :ref:`Upload and Download Files<upload-download-files>`.
 
 
 You can SSH into your Codio box from code using SSH public keys. Understanding how Codio uses SSH keys is important to accessing your box via ssh.
