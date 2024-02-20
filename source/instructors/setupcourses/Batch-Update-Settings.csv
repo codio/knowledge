@@ -1,4 +1,4 @@
-name,start_time,closing_time,closing_action,prime_time,prime_count
-assignment1,1/2/2024 12:00 PM,2/27/2024 12:00 PM,COMPLETE,2/2/2024 12:00 PM,2
-assignment2,1/2/2024 12:00 PM,2/27/2024 12:00 PM,DISABLE,,
-assignment3,,2/27/2024 12:00 PM,DISABLE_AND_COMPLETE,2/2/2024 12:00 PM,4
+assignment,name,start_time,closing_time,closing_action,prime_time,prime_count
+assignment1_ID,assignment1,01/02/2024 10:00 AM,02/29/2024 11:00 PM,COMPLETE,02/24/2024 11:00 PM,2
+assignment2_ID,assignment2,01/02/2024 11:00 PM,,,,
+assignment3_ID,assignment3,,02/279/2024 11:00 pm,COMPLETE,02/24/2024 11:00 PM,4
