@@ -91,6 +91,12 @@ For more information see the `Dolos <https://dolos.ugent.be/>`_ documentation an
 .. Note:: Manifest.csv does not work with online version.
 
 
+
+**MOSS** can handle directories and parsing out template code (they call it a base file and it's controlled with -b). Put each student's files into a directory that is their username 
+and include a directory called Starter_code with the template code.
+
+.. Note::  Use -d and -b flags for the format that codio provides.
+
 Downloading Students Data for External Plagiarism Check
 *******************************************************
 
