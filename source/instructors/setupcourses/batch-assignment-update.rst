@@ -15,39 +15,30 @@ To batch update the assignments settings, follow these steps:
 
 2. Go to **Bulk Settings** area and press **Open Updater** button from Update Assignment Setting
 
-3. Select the CSV file in which you have defined all the required settings and press **Detect CSV format** button
+3. Select the CSV file in which you have defined all the required settings and press **Parse CSV** button
 
    .. image:: /img/select-csv-batch-update.png
       :alt: Select csv Batch Update
 
 
-   Below is an example of a csv file:
+   You can download the csv template file of your course from **Download Assignment Information** setting present in the **Bulk Settings** area. You can update the fields as per your requirement and use that csv file to update the assignment settings.
 
-   .. csv-table:: 
-      :file: /instructors/setupcourses/Batch-Update-Settings.csv
-      :widths: 10, 10, 10, 10, 10, 10
-      :header-rows: 1
+   Things you should know about the csv template:
 
- 
-   - If the specific field is empty then the respective setting will not be updated  
-   - The field values are case-insensitive so complete and COMPLETE are same
-   - Header names in the above csv (name, start_time, prime_time, etc) don't have to be same, you can use any names you want for the header field, and when you press 'Detect CSV format' you can check and map the fields to whatever you want to update
-   - Instead of Assignment Name you can also use Assignment ID or LTI Integration URL of the assignment for the assignment identification (sometimes you may have multiple assignments with the same name so you can use these other unique identifiers to avoid any conflicts)
+   - Header names must be same as row 1 of above CSV
+   - If the specific field is empty then the respective setting will not be updated     
+   - All field are case-insensitive so complete and COMPLETE are same
+   - Date format is mm/dd/yyyy
+   - In the column 'assignment', instead of Assignment Name you can also use Assignment ID or LTI Integration URL of the assignment for the assignment identification (sometimes you may have multiple assignments with the same name so you can use these other unique identifiers to avoid any conflicts)
 
       - Check out :ref:`Get the Course and Assignment ID <get-course-assignment-id>` to see how you can get the assignment ID.
       - Check out :ref:`LTI Integration Assignment URLs <lti-integration-assignment-urls>` to see how you can get LTI Integration URL of the assignment or you can export the LTI Integration URLs of all assignments in the course, see :ref:`Export LTI Settings <export-lti>`
    - You can define one of these 3 possible actions when the assignment closes - Complete, Disable, Complete_and_Disable
    - If :ref:`Prime Setting <prime-assignment-containers>` is not enabled for the assignment but the prime_time is defined in the CSV then the Prime setting will be enabled automatically
 
-4. Our system will automatically detect the CSV fields as required setting fields, you can confirm them and change them if you need from CSV Configuration section as shown in the below image
-
-   .. image:: /img/assignment-batch-update-setting.png
-      :alt: Assignment Batch Update Setting
 
 
-   Once everything is correct, click **Parse CSV** button
-
-5. You will see the test result in the CSV Test Run section (you may also see the error messages if something is not correct in your CSV file)
+4. You will see the test result in the CSV Test Run section (you may also see the error messages if something is not correct in your CSV file)
 
 
    .. image:: /img/batch-csv-test-run.png
