@@ -91,18 +91,17 @@ For more information see the `Dolos <https://dolos.ugent.be/>`_ documentation an
 .. Note:: Manifest.csv does not work with online version.
 
 
-
-**MOSS** can handle directories and parsing out template code (they call it a base file and it's controlled with -b). Put each student's files into a directory that is their username 
-and include a directory called Starter_code with the template code.
-
-.. Note::  Use -d and -b flags for the format that codio provides.
-
 Downloading Students Data for External Plagiarism Check
 *******************************************************
 
-You can download the files of students and run plagarism on them outside the Codio. List the files you want to download in the 'Which files should be checked' field and press the **Generate bundle** button and it will download selected data/files for all students, this data contain student wise separate data/folders. This feature is helpful if you have large cohort of students or large assignments. If you want to run plagiarism outside of Codio, check out `Dolos <https://dolos.ugent.be/>`_. 
+You can download the files of students and run plagarism on them outside the Codio with either **Dolos** or **Moss**. List the files you want to download in the 'Which files should be checked' field and press the relevant **generate bundle** button and it will download selected data/files for all students, this data contain student wise separate data/folders. This feature is helpful if you have large cohort of students or large assignments. If you want to run plagiarism outside of Codio with Dolos, check out `Dolos <https://dolos.ugent.be/>`_. 
+
+If you wish to run with **MOSS**, they can handle directories and parsing out template code (they call it a base file and it's controlled with -b flag). Put each student's files into a directory that is their username and include a directory called Starter_code with the template code. See their documentation on usage and explanation of the flags, `Here <http://moss.stanford.edu/general/scripts/mossnet>`_ .
+
+  .. image:: /img/guides/Generatemoss-dolos.png
+     :alt: Plagiarism bundle
 
 
-.. image:: /img/guides/plagiarism-generate-bundle.png
-     :alt: Plagiarism Generate Bundle
+.. Note::  You should always use -d and -b flags with moss for the format that codio provides.
 
+ 
