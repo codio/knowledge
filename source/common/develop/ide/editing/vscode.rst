@@ -11,7 +11,12 @@ You can set up your assignment to provide VSCode as the default code editor for 
 
 Installing VSCode
 -----------------
-Use the **Tools > Install Software** :ref:`(more information) <box_parts>` menu item to easily install VSCode. 
+Use the **Tools > Install Software** :ref:`(more information) <box_parts>` menu item to easily install VSCode. If you want to run or debug your software you will also need to install language specific extensions. 
+To do that follow the instructions on **Opening VSCode** below and then select the language extension you want to use from the Marketplace tab in VSCode. 
+
+   .. image:: /img/pyforvscode.png
+      :alt: Selecting the Python language extension from the Marketplace tab in VSCode.
+
 After you have completed installing the software you will need to :ref:`create a new stack <create-stack>` or a :ref:`new stack version <update-stack>` to provide this for your students.
 
 
