@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**March 2024**
+
+- `[F] [18th]`: Added :ref:`Virtual Coach <virtual-Coach>` feature to help students with the tasks.
+
+
 **February 2024**
 
 - `[F] [02nd]`: Added :ref:`Batch Assignment Update <batch-assignment-update>` feature to update some assignment settings in bulk.

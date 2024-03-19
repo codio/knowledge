@@ -6,7 +6,7 @@
 Random Assessment
 =================
 
-The Random assessment type allows you to set up a group of assessments to then randomly assign one to each individual student assignment. Only one random assessment can be included on a page in Guides.
+The Random assessment type allows you to set up a group of assessments to then randomly assign one to each individual student assignment. Multiple Random assessments can be added on the same page but all of those random assessments must be of Simple layout type (1 Panel without tree). Random assessments with Complex layout (any layout other than 1 Panel without tree) can not be added on the same page or mixed with any other assessments. If you do mix Complex layout Random assessments with any other assessment, it may not function as intended and you will also get a warning when you Publish the assignment.
 
 There is assignment level duplication prevention such that regardless of the query, Codio checks whether the library assessment IDs are unique. This prevents students from seeing the same assessment question multiple times in an assignment, as long as every question in the library is unique, and all randomized assessments are drawn from the same library.
 If duplicate assessments are generated, it indicates that the assessment library does not have enough unique assessments for the set of random assessment queries in the assignment.

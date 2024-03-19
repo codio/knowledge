@@ -30,7 +30,7 @@ Managing assignments
    grade-weights
    assign-grade-template
    mandatory
-   
+   virtual-coach
   
 You can manage assignments from the teacher dashboard or by selecting the settings gear icon on the assignment when in **Overview** mode.
 
