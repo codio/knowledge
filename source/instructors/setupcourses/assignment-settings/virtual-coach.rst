@@ -15,27 +15,26 @@ In the assignments settings area, teachers would see a virtual coach option and 
    :alt: Assignment setting vc
 
 
-.. Note:: The :ref:`Guides<authoring>` needs to be used otherwise students would see "guides player not opened" and can get confused. 
 
-Once a student click on the virtual bot icon in the bottom right corner. 
+Once a student clicks on the virtual bot icon in the bottom right corner. 
 
 .. image:: /img/Virtual-Coach.png
    :alt: AI Bot
 
-This would open up the chat and they can see three discrete options.
+This would open up the chat and they can see up to three discrete options depending on the settings applied above or whether :ref:`Guides<authoring>` is used in the assignment.
 
-- Summarize prompt: This option would help students to understand the question in an easier way as to what they need to do and the steps.
+- **Summarize prompt**: This option would help students to understand the question in an easier way as to what they need to do and the steps.
 
-- Error Augmentation: Provides detailed error message explanations.
+- **Error Augmentation**: Provides detailed error message explanations.
 
-- Next steps hint: Helps students on how to complete, what steps would be followed to pass the test cases and requirements.
+- **Next steps hint**: Helps students on how to complete, what steps would be followed to pass the test cases and requirements.
 
 
 .. image:: /img/Hint-Bot.png
    :alt: Hint-Bot
 
 
-When a button is pressed, the corresponding prompt is sent to Claude Instant and the response is displayed for the student:
+When a button is pressed, a response is displayed for the student:
 
 
 .. image:: /img/Summarise-bot.png
@@ -43,7 +42,7 @@ When a button is pressed, the corresponding prompt is sent to Claude Instant and
 
 
 
-.. Note:: For error explanation, students will need to be able to paste in the error message, **The error message is validated using the validation prompt below**.
+.. Note:: For error explanation, students may need to be able to paste in the error message, **The error message is validated using the validation prompt below**.
 
 
 If an error message is not entered, this would throw  "The provided text does not look like an error message. Please paste an error message below." If on the second attempt the student still does not provide an error message, this would kick them back to the first screen with 3 buttons.
