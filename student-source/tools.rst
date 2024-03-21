@@ -1,5 +1,5 @@
 .. meta::
-   :description: Dyslexia support, Lexikon, Code Playback, Code Commenting, Desktop App
+   :description: Dyslexia support, Lexikon, Code Playback, Code Commenting, Desktop App, Virtual Coach
 
 
 
@@ -14,6 +14,7 @@ Tools
    develop/tools/lexikon
    develop/tools/code-playback
    develop/tools/code-commenting
+   develop/tools/student-virtual-coach
 
 .. _tools:
    
