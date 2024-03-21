@@ -100,6 +100,17 @@ Behavioral Player
 
 You can also view students activity for all files in the assignment going to **Education > Behavioral Player** menu option.
 
+
+  .. image:: /img/insights/BehaviourInsightUserEvents.png
+     :alt: Behavioral Player with User Events like Try it/Checkit button pressed along with its timeline
+ 
+
+From **User Events** row, you can see when the student clicked Try it and Check it button so you will have a complete picture of the student journey as they are constructing their code and when they are testing it. You can also see the Points earned by student at that specific Check it button so you can easily figure out the highest score.
+
+You can hover over these Check it/Try it boxes from User Events row to know the name of the respective assessment.
+
+The **Timeline** row provides the details about the date/time when the respective User Event happened.
+
 History of External Pastes and CodePlayback
 -------------------------------------------
 If you click on a bar in the **History of External Pastes** tile, you will be presented with that paste in Codio's Code Playback feature.
@@ -110,6 +121,9 @@ If you click on a bar in the **History of External Pastes** tile, you will be pr
 The top pane shows the contents of the modified file with the change higlighted in green (inserted characters) or red (deleted characters).
 
 The timeline at the bottom indicates all detected pastes, and clicking on the paste will bring you to that point in the timeline.
+
+if History of External Pastes tile is empty, you can still open the player from Education > Behavioral Player as explained in the previous section.
+
 
 No Data
 -------
