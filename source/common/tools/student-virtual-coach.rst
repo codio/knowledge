@@ -7,7 +7,7 @@
 Virtual Coach 
 =============
 
-Virtual Coach provides students the ability to use AI to help you with programming tasks without receiving answers. This will give you an quick solution/hint which can reduce the possibility of getting stuck and have more productive and positive learning experiences. It also reduce the hassle to reach out to TAs and teachers for the simple questions.
+Virtual Coach provides students the ability to use AI to help you with programming tasks without receiving answers. This will give you an quick solution/hint which can reduce the possibility of getting stuck and have more productive and positive learning experiences. It can also reduce the need for you to have to reach out to TAs and teachers for the simple questions.
 
 To open Virtual Coach you need to just click the Chatbot icon present in the bottom-right corner of the screen. If your instructors did not enabled this option then you will not see the Chatbot icon.
 
