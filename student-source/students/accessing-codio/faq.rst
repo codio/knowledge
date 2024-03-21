@@ -140,11 +140,11 @@ If you also let them know what you did, they may want to review the unit(s) you 
 How to get help from an AI Chatbot
 ----------------------------------
 
-You can get help from a AI Chatbot in your assignment. AI Chatbot provide multiple options like providing summary of the assessment, explain an error message and get hint to answer your assessment.
+You can get help from a AI Chatbot in your assignment. AI Chatbot can provide multiple options like providing a summary of the assessment, explain an error message and get hints to answer your assessment.
 
-If this options are enabled by your instructors, check out :ref:`Virtual Coach <student-virtual-coach>` where these options are explained in details.
+If these options are enabled by your instructors, check out :ref:`Virtual Coach <student-virtual-coach>` where these options are explained in details.
 
-If this options are not enabled by your instructors, you can't use them. In this case, discusss with your instructors who can look to review the assignment and consider enabling this feature.
+If these options are not enabled by your instructors, you can’t use them. In this case, discuss with your instructors who can look to review the assignment and consider enabling this feature.
 
 
 Accessibility Options
