@@ -137,6 +137,16 @@ If your instructor hasn’t allowed students to reset assignments, discuss with 
 
 If you also let them know what you did, they may want to review the unit(s) you are working with to help mitigate this problem for you and other students in the future.
 
+How to get help from an AI Chatbot
+----------------------------------
+
+You can get help from a AI Chatbot in your assignment. AI Chatbot can provide multiple options like providing a summary of the assessment, explain an error message and get hints to answer your assessment.
+
+If these options are enabled by your instructors, check out :ref:`Virtual Coach <student-virtual-coach>` where these options are explained in details.
+
+If these options are not enabled by your instructors, you can’t use them. In this case, discuss with your instructors who can look to review the assignment and consider enabling this feature.
+
+
 Accessibility Options
 ---------------------
 

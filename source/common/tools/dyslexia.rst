@@ -13,7 +13,7 @@ Tools
 
    lexikon
    code-playback
-   code-commenting
+   code-commenting   
    
 Dyslexia Support
 ----------------
