@@ -15,6 +15,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2024**
 
+- `[I] [26th]`: Added a new feature "Use maximum score" in :ref:`Auto-graded assessment <add-assessment>`
+
 - `[F] [18th]`: Added :ref:`Virtual Coach <virtual-Coach>` feature to help students with the tasks.
 
 

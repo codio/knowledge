@@ -107,6 +107,7 @@ Follow these steps to set up a standard code test:
   - **Substring Match** - Toggle to enable substring match when comparing the expected output to the student output. The entire expected output needs to be contiguous in the student output.
   - **Add Item to Check** - Click to create another set of input/output fields.
   - **Input - Arguments** - Enter the command line arguments that are read by the student code.
+  - **Use maximum score** - Toggle to enable assessment final score to be the highest score attained of all runs.
 
     .. image:: /img/guides/std-assessment-args.png
        :alt: Input Arguments
