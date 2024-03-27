@@ -29,7 +29,7 @@ Customizing IDE menu
 ********************
 The top menu can be customized to remove options you don't want your students to have access to. 
 
-.. Note::  Only students will see the modified menus. Teachers previewing the assignment will not see the customization. To view the environment as a student use the :ref:`test student <add-remove-students>` accounts.
+.. Note::  Only students will see the modified menus. Teachers will not see customizations when previewing assignments and viewing students work. To view the environment as a student use the :ref:`test student <add-remove-students>` accounts.
 
 Use a `.codio-menu` file to specify which menu items should be hidden.
 Example:
