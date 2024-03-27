@@ -36,7 +36,7 @@ Complete the following steps to set up a **Line Based Grader** Parsons Puzzle as
 
 3. Click **Grading** in the navigation pane and complete the following fields:
 
-   .. image:: /img/guides/Grading-new-feature.png
+   .. image:: /img/guides/Grading-new-feature1.png
       :alt: Grading
 
   - **Points** - Enter the score if the student selects the correct answer. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
