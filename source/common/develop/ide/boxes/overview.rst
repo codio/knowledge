@@ -12,7 +12,6 @@ IDE Box Overview
    
    ide-access-permissions
    terminal
-   access
    ext-access
    always-on
    restart-reset
