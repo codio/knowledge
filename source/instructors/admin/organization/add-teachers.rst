@@ -40,6 +40,8 @@ Invite teacher to the organization
 
    .. Note:: They must use the email address the invitation was sent to for sign up or they will not be added to the organization.
 
+   .. Note:: This invitation is valid for 48 hours. If the invitation is not used within 48 hours it will expire and the invitation receiver cannot use that invitation to join the organization. In such cases, you will need to Resend the invitation.
+
   All pending invitations are displayed and you have the option to **Resend** or **Revoke** the invitation. 
 
   .. image:: /img/manage_organization/pendinginviteowner.png
