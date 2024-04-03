@@ -7,51 +7,45 @@
 Virtual Coach 
 ================
 
-Virtual Coach allows teachers to provide to students the ability to use AI to help them with programming tasks -- WITHOUT receiving answers (they would get an quick solution/hint which can reduce the possibility of getting stuck).This will help lower the burden of helping students with simple questions for TAs and teachers, All they need to do is just click on the icon in the bottom-right will allow students to trigger the chat bot.
+When Virtual Coach is enabled, students can use AI to assist them with their programming tasks. Codio's prompts to the AI ensure that only assistance is provided, not solutions. The Virtual Coach can help students understand error messages they have received, gain a better understanding of the assignment prompt, or receive a hint about the next possible steps.
 
-In the assignments settings area, teachers would see a virtual coach option and three sub categories which they can enable  **Summarize prompt** , **Error Augmentation** and **Next steps hint** , once enabled these will be displayed in the bot.
+In the assignments settings area, there are three settings you can toggle to enable the following features: **Summarize Prompt**, **Error Augmentation**, and **Next Steps Hint**.
 
 .. image:: /img/Assignment-settings-Vc.png
    :alt: Assignment setting vc
 
 
+When a student clicks on the Virtual Coach icon in the bottom right corner, a dialog opens, and they can see up to three options depending on the settings applied. If there is no :ref:`Guide<authoring>` in the assignment only error message augmentation will be available.
 
-Once a student clicks on the virtual bot icon in the bottom right corner. 
 
-.. image:: /img/Virtual-Coach.png
-   :alt: AI Bot
 
-This would open up the chat and they can see up to three discrete options depending on the settings applied above or whether :ref:`Guides<authoring>` is used in the assignment.
-
-- **Summarize prompt**: This option would help students to understand the question in an easier way as to what they need to do and the steps.
-
-- **Error Augmentation**: Provides detailed error message explanations.
-
-- **Next steps hint**: Helps students on how to complete, what steps would be followed to pass the test cases and requirements.
-
+Students may select one of the options presented by the coach to receive more information.
 
 .. image:: /img/Hint-Bot.png
    :alt: Hint-Bot
 
 
-When a button is pressed, a response is displayed for the student:
+- **Summarize prompt**: This option summarizes the text in the guide on the page and provides students with an enumerated set of steps.
 
+- **Error Augmentation**: Provides detailed explanations of error messages.
+
+- **Next steps hint**: Provides students with ideas for the next steps they can take to complete their assignment.
 
 .. image:: /img/Summarise-bot.png
    :alt: Summary-Hint
 
 
 
-.. Note:: For error explanation, students may need to be able to paste in the error message, **The error message is validated using the validation prompt below**.
+If error output is not directed to the guide, students will need to paste the text of the error message in the prompt field in Virtual Coach.
 
 
-If an error message is not entered, this would throw  "The provided text does not look like an error message. Please paste an error message below." If on the second attempt the student still does not provide an error message, this would kick them back to the first screen with 3 buttons.
-
+If an error message is not provided, the student will receive the following: "The provided text does not look like an error message. Please paste an error message below." If, on the second attempt, the student still does not provide an error message, they will be returned to the first screen with three buttons.
 
 .. image:: /img/Explain-error.png
    :alt: Explain-Error
 
 
-.. Note::   'Explain this error' button that will show for **Advance Code Test** in Guides and isn't same as for the 'bot' that shows 'explain an error' option if that was enabled by the teacher in the assignment - the middle option - error augmentation. 
+.. Note: Standard and Advanced Code tests have an additional "Explain this error" button that will appear if Error Augmentation is on and running a code test results in an error state.
 
-.. Note::   Students can resize the window of the chatbox if they want to just they need to drag that circle that appears on the top left.
+
+The Virtual Coach window may be resized by dragging the circle in the upper left corner.
