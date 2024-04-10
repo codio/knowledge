@@ -6,9 +6,13 @@
 Desktop App
 ===========
 
+`Click here <https://www.codio.com/download>`_ to go to the download page and install to your local machine
+
+
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/273506364" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 The desktop app is to allow a local code workspace to synchronize with a Codio box.
 
@@ -44,8 +48,6 @@ the ``.codioignore`` file will be
 Please note that the ``.codioignore`` file is included in the desktop app files.
 
 If students wish to exclude files when pushing back to their Codio account they can do so, either by editing any existing ``.codioignore``file or creating the file themselves. If the teacher creates the ``.codioignore`` file, adding a 'comment' line to the top of the file to make it clear to any students what they should not change could help avoid potential problems. A line starting with ``#`` serves as a comment
-
-`Click here <https://www.codio.com/download>`_ to go to the download page and install to your local machine
 
 Starting the app
 ----------------
@@ -103,6 +105,12 @@ When you have connected you can then push/pull/open the assignment in Codio and 
 **3.** Click the **Open in Codio** button to open your assignment in a browser tab. This can be useful if you wish to compare what you have stored locally to what you last pulled from your Codio account
 
 **4.** Click the **folder** icon to manage your local workspace folder settings
+
+**5.**  Students can enable the **Auto upload** button to turn it on and the code/file changes in their local repository would be automatically pushed in the remote Codio box. If the users add files to their Codio account, they need to 'pull' to get them into their local folder even if auto upload is enabled that just 'pushes' their changes (automatically without manual intervention) made to the files/codes in their local machine.
+
+However, when it is  enabled for the first time in the app this would take a while to be fully functioning (establishing connection with the remote server).
+
+.. Note:: Students can turn it on when they have the app running but it won't remember it so if they close and restart the app again later they will need to turn it on again.
 
 Local workspace folder settings
 -------------------------------
