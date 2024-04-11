@@ -73,7 +73,7 @@ Authoring your own custom assistant as a Javascript extension
 
       - **metadata.json**: This file will contain some basic information about your extension:
 
-            - **name**: The name of your extension - rename this field to describe what your assistant will docs
+            - **name**: The name of your extension - rename this field to describe what your assistant will do
             - **type**: For any Coach extension, the default value is “helper”
             - **user_type**: Describes who will be able to see the extension - choose one of 3 possible values: “learner”, “instructor”, “all”
             - **component**: For any Coach extension, the default value is "assignment"
