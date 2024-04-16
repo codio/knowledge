@@ -71,7 +71,7 @@ Defining folders to Show:
   .. image:: /img/guides/project_3.png
      :alt: Defining folders
 
-3. You can specify the **root folder**/the sub-folders to show multiple nested sub-folders within a Single parent/root folder. Refer to the above image where you would see the root folder is the **.Guides** within which the assessments folder (specifying folders like this would only show the sub-folder which is mentioned) and all other sub-folders would be hidden by default, unlike the previous versions.
+3. You can specify the **root folder**/the sub-folders to show multiple nested sub-folders within a Single parent/root folder. Refer to the above image where you would see the root folder is the **.ipynb_checkpoints** within which the code folder (specifying folders like this would only show the sub-folder which is mentioned) and all other sub-folders would be hidden by default, unlike the previous versions.
 
 If you have several pages that show the same folders, you only need define the folders on the first page of the set of pages. All subsequent pages will use the same **Show Folders** setting until a new one is encountered.
 
