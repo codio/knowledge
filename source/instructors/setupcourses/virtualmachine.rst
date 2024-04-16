@@ -210,7 +210,42 @@ Following are some example of commands that can be used to interact with Virtual
       codio-vm exec start chrome /incognito  https://codio.com
 
 
+- **codio-vm sync** - This command is used to sync folder/file between Codio box and Virtual Machine.
+
+   Windows example:
+
+   .. code:: ini
+
+      codio-vm sync "/home/codio/workspace/folder" "C:\Users\Administrator\Desktop\folder"
 
 
+   Running above command will sync both, 'folder' in Codio box and 'folder' in Windows VM. The latest changes made to one of 'folder' will automatically synced to the other 'folder'. If the mentioned file/folder does not exist in the Virtual Machine, it will be copied from Codio box to the Virtual Machine at the mentioned path.
 
+   Same Command in Ubuntu would be:
+
+   .. code:: ini
+
+      codio-vm sync "/home/codio/workspace/folder" "/home/ubuntu/folder"
+
+
+- **codio-vm port forwarding** - This command is used to enable access to services running on the Virtual Machine from Codio box.
+
+   .. code:: ini
+
+       codio-vm port-forwarding 3355 3344
+
+   Running above command will enable access to service running on port 3344 in Virtual Machine from port 3355 in Codio box. You can use either Box URL with port 3355 or call 'curl localhost:3355' from terminal in Codio box. The port values mentioned here are just an example, you can use different port values. 
+
+
+- **codio-vm daemonized-list** - This command will list all the daemonized processes.
+
+- **codio-vm kill-all-daemonized** - This command will kill all the daemonized processes.
+
+- **codio-vm kill-daemonized** - This command will kill the specific daemonized process.
+
+   .. code:: ini
+
+      codio-vm kill-daemonized 353
+
+   Running above command will kill the daemonized process whose PID is 353. You can see PID of all daemonized processes using `codio-vm daemonized-list`.
 
