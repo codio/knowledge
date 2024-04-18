@@ -14,6 +14,7 @@ Additional resources
    jeroo
    scratch
    pencilcode
+   draw-io
    pyret
    tkinter
    lexikon
