@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**April 2024**
+
+- `[F] [10th]`: Added :ref:`Draw.io <draw-io>` feature that allows users to create, edit, and collaborate on various types of diagrams and flowcharts.
+
+
 **March 2024**
 
 - `[I] [26th]`: Added a new feature "Use maximum score" in :ref:`Auto-graded assessment <add-assessment>`
