@@ -49,21 +49,21 @@ You can place code samples for each page in separate directories and then you ca
 
 The benefit of hiding folders is that the student is not distracted by other folders and files that are not relevant to the page.
 
-Full File Tree:
+Author View:
 ***************
 
   .. image:: /img/guides/project_1.png
      :alt: Full File Tree
 
 
-Hiding of Folders:
+Student View:
 ******************
 
   .. image:: /img/guides/project_2.png
      :alt: Hiding Folders
 
 
-Defining folders to hide:
+Defining folders to Show:
 *************************
 1. From edit mode on the page you wish to hide folders, access **Layout** settings by clicking on **Layout**.
 2. Enable **Show File Tree** and then in the **Show Folders** field, specify the folder or folders which should be shown in the file tree. Use the `;` character to separate multiple folders.
@@ -71,6 +71,7 @@ Defining folders to hide:
   .. image:: /img/guides/project_3.png
      :alt: Defining folders
 
+3. You can also specify the nested folder(s). Only specified nested folder(s) will be shown and all other nested folders inside same parent folder will be hidden. As shown in the above image, you can defined nested folder like **Parentfolder/Nestedfolder** .
 
 If you have several pages that show the same folders, you only need define the folders on the first page of the set of pages. All subsequent pages will use the same **Show Folders** setting until a new one is encountered.
 
