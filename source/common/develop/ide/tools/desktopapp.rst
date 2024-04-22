@@ -100,7 +100,7 @@ When you have connected you can then push/pull/open the assignment in Codio and 
   
 **1.** Click the **pull** button to pull content in from your Codio account. **Note** Any files you already have stored locally will be overwritten
 
-**2.** Click the **push** button to push the content from your local workspace folder back to your Codio account. **Note** This will overwrite the project/assignment in your Codio account
+**2.** Click the **push** button to push the content from your local workspace folder back to your Codio account. **Note** This will overwrite the project/assignment in your Codio account. And If you see 'Cannot write to project' message, this is due to the assignment/project being Read Only and it is not possible to push and write to the assignment/project.  In such a case, use the 'Open in Codio' button to access/view the assignment/project.
 
 **3.** Click the **Open in Codio** button to open your assignment in a browser tab. This can be useful if you wish to compare what you have stored locally to what you last pulled from your Codio account
 
