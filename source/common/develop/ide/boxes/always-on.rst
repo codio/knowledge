@@ -6,6 +6,8 @@
 Always-On Boxes
 ===============
 
+.. Warning:: Please note that Always-On Boxes feature will be disabled on or after May 15th 2024. If you want to keep your box always active, you can consider other free hoisting sites like `Firebase <https://firebase.google.com/>`_ , `Heroku <https://www.heroku.com/>`_, etc. 
+
 The Always-On feature for boxes is now available for all paid subscribers. This feature enables you to set boxes to always be on, which means they remain active whether you are in the IDE or logged out. The number of Always-On boxes you can have depends on your payment plan.
 
 If your project is archived due to inactivity (usually 30 days since last opened), this process removes it from the active fileserver and can no longer be *Always-On*. 
