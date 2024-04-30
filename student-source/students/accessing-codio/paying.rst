@@ -42,7 +42,7 @@ To obtain and activate a license from your campus bookstore, follow these steps:
 1. Request one of the following plans from your campus bookstore:
 
    - 1 Semester  - Codio 1-Semester Plan - ISBN: 978-1-7331872-5-1
-   - 2 Semesters - Codio 2 Semester Plan ISBN 978-1-73331872-8-2
+   - 2 Semesters - Codio 2 Semester Plan ISBN 978-1-7331872-8-2
    - Annual - Codio Annual Plan ISBN # 978-1-7331872-1-3
 
    The bookstore will give you a code to redeem and activate your plan for the specified timeframe.
