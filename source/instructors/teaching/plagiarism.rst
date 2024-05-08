@@ -90,6 +90,9 @@ For more information see the `Dolos <https://dolos.ugent.be/>`_ documentation an
 
 .. Note:: Manifest.csv does not work with online version.
 
+.. Note:: For Dolos, LIST THE EXACT FILENAMES YOU WANT TO BE CHECKED
+
+
 
 Downloading Students Data for External Plagiarism Check
 *******************************************************
