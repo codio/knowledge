@@ -119,26 +119,51 @@ Example postgrader.py file
 
     #!/usr/bin/env python3
     import sys
-    import re
-    START = '<span class="c1">### BEGIN HIDDEN TESTS</span>'
-    END = '<span class="c1">### END HIDDEN TESTS</span>'
+
+    START_HIDDEN_TEST_TEXT = '### BEGIN HIDDEN TESTS'
+    END_HIDDEN_TEST_TEXT = '### END HIDDEN TESTS'
+
     html_path = sys.argv[1].rstrip()
     with open(html_path, 'r') as content_file:
         content = content_file.read()
 
-    def replaceTextBetween(originalText, delimeterA, delimterB, replacementText):
+
+    def search_surrounding_html(original_text, position, left):
+        index_to = len(original_text)
+        text_position = position
+
+        if not left:
+            for i in range(position, index_to):
+                if original_text[i] == '>':
+                    return i + 1
+        
+        if left:
+            for i in range(position, -1, -1):
+                print(i, original_text[i])
+                if original_text[i] == '<':
+                    return i
+
+        return text_position
+
+
+    def replace_text_between(original_text, delimeter_a, delimter_b, replacement_text):
         index_from = 0
-        index_to = len(originalText)
-        if delimeterA in originalText:
-            index_from = originalText.index(delimeterA)
+        index_to = len(original_text)
+        if delimeter_a in original_text:
+            index_from = original_text.index(delimeter_a)
+            index_from = search_surrounding_html(original_text, index_from, True)
 
-        if delimterB in originalText:
-            index_to = originalText.index(delimterB) + len(delimterB)
+        if delimter_b in original_text:
+            index_to = original_text.index(delimter_b) + len(delimter_b)
+            index_to = search_surrounding_html(original_text, index_to, False)
 
-        return originalText[0:index_from] + originalText[index_to:]
+        return original_text[0:index_from] + replacement_text + original_text[index_to:]
 
-    while START in content:
-        content = replaceTextBetween(content, START, END, '')
+
+    while START_HIDDEN_TEST_TEXT in content:
+        content = replace_text_between(content, START_HIDDEN_TEST_TEXT, END_HIDDEN_TEST_TEXT, '')
+
+
     with open(html_path, 'w+') as stream:
         stream.write(content)
 
