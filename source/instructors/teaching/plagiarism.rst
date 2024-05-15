@@ -45,6 +45,7 @@ This screen will show you any plagiarism reports that were run in the past. You 
 
 On the left you can:
 
+- list the exact filenames you want checked. If there are multiple files, list one file per line.
 - enter a relative path in the workspace to check.
 - upload items to compare against (e.g. previous years information).
 - filter out template code setting the maximum fingerprint percentage between 0 and 100%. For more information on fingerprinting see https://dolos.ugent.be/about/algorithm.html#fingerprinting
