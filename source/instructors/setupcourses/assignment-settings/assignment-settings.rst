@@ -17,6 +17,7 @@ Managing assignments
    visibility-completed
    visibility-disabled
    allow-student-reset
+   allow-regrade-request
    prerequisite-assignments
    disable-mark-completed
    disable-download
