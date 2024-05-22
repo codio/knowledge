@@ -39,7 +39,7 @@ If your organization uses an LMS platform, a URL to the grade detail is also pas
 Regrade Request
 ---------------
 
-If you are not happy with your assignment grade, you can request for regrade to your instructors. Regrade request option will be available only after your assignment is completed/graded and grades are released for the assignment.
+If you are not happy with your assignment grade and if this setting is enabled by your instructor, you can request for regrade to your instructors. Regrade request option will be available only after your assignment is completed/graded and grades are released for the assignment.
 
 The Regrade Request button is available at the top menu
 

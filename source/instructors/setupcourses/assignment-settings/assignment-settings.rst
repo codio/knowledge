@@ -53,13 +53,16 @@ Click the **Settings** icon in the assignment or the **Settings** tab when the a
 .. image:: /img/class_administration/asignmentsettings.png
    :alt: Settings
 
+- :ref:`Assignment Action Buttons <assignment-actions>`
 - :ref:`Pin and Unpin Assignment <pin-assignment>`
 - :ref:`Disable Assignment <disable-assignment>`
 - :ref:`Visibility on Completed <visibility-completed>`
 - :ref:`Visibility on Disabled <visibility-disabled>`
 - :ref:`Reset Assignment by Student <student-reset>`
+- :ref:`Allow Regrade Request <allow-regrade-request>`
 - :ref:`Prerequisite Assignment <prerequisite>`
 - :ref:`Disable Mark as Completed <disable-mark-completed>`
+- :ref:`Disable Download <disable-download>`
 - :ref:`Assignment Duration <assignment-duration>`
 - :ref:`Penalties <penalties>`
 - :ref:`Exam Proctoring <exam-proctoring>`
@@ -70,3 +73,4 @@ Click the **Settings** icon in the assignment or the **Settings** tab when the a
 - :ref:`Grade Weights <grade-weights>`
 - :ref:`Assign Grading Template to an Assignment <assign-grade-template>`
 - :ref:`Mandatory Assignments <mandatory-assignments>`
+- :ref:`Virtual Coach <virtual-coach>`
