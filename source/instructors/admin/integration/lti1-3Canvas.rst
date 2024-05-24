@@ -207,6 +207,15 @@ In Canvas:
 Note: these settings are not final and can be edited in Canvas at a later time.
 
 
+Part 5: Customizing Iframe Width/Height
+---------------------------------------
+
+You can customize the width and height of the Codio window embedded in the Canvas. The default width is 1000 pixels and height is 800 pixels, change those values if you need and press **Save Changes**.
+
+  .. image:: /img/lti/iframe-width-height.png
+     :alt: Iframe Width and Height settings
+
+
 Important Notes on Course Copy in Canvas:
 -----------------------------------------
 
