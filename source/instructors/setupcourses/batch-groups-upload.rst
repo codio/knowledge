@@ -7,7 +7,7 @@
 Batch Groups Upload
 ===================
 
-You can upload/arrange student groups in bulk using a CSV file. 
+You can upload/arrange student groups in bulk using a CSV file in assignments where :ref:`Pair Programming <group-work>` is enabled. 
 
 To batch upload the groups, follow these steps:
 

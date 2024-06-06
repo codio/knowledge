@@ -17,7 +17,7 @@ To allow regrade request by student, follow these steps:
 
 Regrade request option will be available to students only after their assignments are completed/graded and grades are released.
 
-Once a student requested for regrade, all the teachers in the course will receive an email regarding this. These requests will also appear in the grading queue and on the assignment progress page as well
+Once a student requested for regrade, by default all teachers in the course will receive a notification email regarding this. If you don't want to send emails to all the teachers then you can turn off the notification emails or customize who should receive these emails from **Grading/Basic Settings** tab. These requests will also appear in the grading queue and on the assignment progress page as well
 
 
   .. image:: /img/regrade-request-on-progress.png
