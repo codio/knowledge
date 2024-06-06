@@ -72,3 +72,13 @@ The following are the rules that govern the destination of the items you are dro
 - If you drop in the top portion of the target item, the selection will be dropped above it at the same level.
 - If you drop in middle portion of the target item, the selection will be dropped within it if the target is a section.
 - If you drop in the lower portion of the target item, the selection will be dropped below the target at the same level.
+
+Navigate to other assignments
+*****************************
+
+From Table of Contents area, you can navigate to other assignments in the course. Follow below steps to open other assignments:
+
+- Select the **Course** tab next to the TOC tab at the top and you will see the list of modules/assignments present in that course 
+- Click the assignment you want to open
+
+This option is available only for Teachers when they open the assignment from Edit Assignments tab.

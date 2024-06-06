@@ -25,6 +25,7 @@ Courses Set Up
    rename-reorder-assignments
    preview-course
    batch-assignment-update
+   batch-groups-upload
    add-teachers
    add-ta
    add-remove-students
