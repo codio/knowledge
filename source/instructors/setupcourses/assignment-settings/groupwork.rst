@@ -22,6 +22,7 @@ The Paired Programming setting is enabled to allow groups of students to work to
 
 - **Number of Students** - Set the number of students to work together as a group (max 5). If the total number of students is greater than an equal division for the groups, extra groups will be created
 
+- **Uploads Groups** - Allows you to upload/arrange student groups in bulk using a CSV file, for more information check out :ref:`Batch Groups Upload<batch-groups-upload>`
 
 .. Note::  Both the :ref:`Prime Assignment<prime-assignment-containers>` setting and the Pair Programming setting can not be enabled at the same time.
 

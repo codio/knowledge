@@ -167,8 +167,6 @@ If your :ref:`layout <page>` for this page involves multiple panels, then you ca
   .. image:: /img/guides/panel.png
      :alt: Panel
      
-If you leave the panel field empty, then the default panel will be chosen, which is the same as 0.
-
 The panel order is left to right and then top to bottom and the last of all, the filetree (which you would rarely want to use).
 
 The Guide defaults to the right unless **Guides Left** is specified in **Page Layout**.
