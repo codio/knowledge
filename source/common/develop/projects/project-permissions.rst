@@ -6,6 +6,8 @@
 Project Permissions
 ===================
 
+.. Warning:: Please note that Project Sharing via Project > Permissions feature will be disabled on or after July 8th 2024. Any existing projects shared via permission will also be removed.
+
 When a project is created, you can choose to make it private or public. By default, the following rules apply to project permissions:
 
 - Anyone can view and copy a public project but cannot edit it.
