@@ -66,6 +66,17 @@ Students that have already started working before a new/updated VM stack has bee
 
 .. Note:: Reset and restart for students can take a substantial period of time (around 20mins on average) so we recommend that you fully test the VM stack you create before making it available to students.
 
+Reset Virtual Machine for individual student
+********************************************
+
+You can reset the Virtual Machine for individual student so the student will see the updates but any work they have done so far in the Virtual Machine, will be lost. Follow these steps to reset the VM for an individual student:
+
+1. Open the course, go to the **Overview** tab and click the assignment.
+2. Find the student and click the **3 blue dot** button on the right.
+3. Click the **Reset VM** button.
+4. Click **Yes** to confirm the reset.
+
+
 Updating the assignment content after initial publish
 *****************************************************
 
