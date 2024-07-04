@@ -13,7 +13,6 @@ IDE Box Overview
    ide-access-permissions
    terminal
    ext-access
-   always-on
    restart-reset
    runmenu
    startup
