@@ -71,23 +71,16 @@ To access the **Organizations** page, follow these steps:
 
 2. In the **Organizations** area, click the name of your organization.
 
-   .. image:: /img/class_administration/addteachers/myschoolorg.png
-      :alt: My Organizations
 
-   The Admin options are displayed on the LH bar of the page.
+   The Admin options are displayed on the LH bar of the page:
 
-   .. image:: /img/manage_organization/orgtabs.png 
-      :alt: Organization Page
-
-
-  - **Overview** - Update organization profile, enable or disable the ability to create public objects, enable or disable Codio support access,  obtain invitation token, manage education settings, and delete the organization.
-  - **Members** - View, add, and remove users in your organization and invite teachers to the organization.
-  - **Always-On Boxes** - View the number of always-on boxes you currently have in your organization.
-  - **Billing** - View your Codio plan information.
-  - **Rubrics** - Create and manage your grading templates.
-  - **Dashboard** - Specify the Student Dashboard default page (My Projects or Courses), and specify whether to hide/show Courses.
-  - **IP Consent** - Enable or disable IP Consent and manage the versions.
-  - **Custom Scripts** - Manage custom scripts used to integrate third-party systems to help and track students.
-  - **LTI Integrations** - Specify and manage LTI integration settings.
-  - **Integrations** - Specify API key for Sense.Network integration, and add other API integrations.
-  - **Assessment Libraries** - Create and manage assessment libraries for your organization.
+    - **Overview** - Update organization profile, enable or disable the ability to create public objects, enable or disable Codio support access,  obtain invitation token, manage education settings, and delete the organization.
+    - **Members** - View, add, and remove users in your organization and invite teachers to the organization.
+    - **Billing** - View your Codio plan information.
+    - **Rubrics** - Create and manage your grading templates.
+    - **Dashboard** - Specify the Student Dashboard default page (My Projects or Courses), and specify whether to hide/show Courses.
+    - **IP Consent** - Enable or disable IP Consent and manage the versions.
+    - **Custom Scripts** - Manage custom scripts used to integrate third-party systems to help and track students.
+    - **LTI Integrations** - Specify and manage LTI integration settings.
+    - **Integrations** - Specify API key for Sense.Network integration, and add other API integrations.
+    - **Assessment Libraries** - Create and manage assessment libraries for your organization.
