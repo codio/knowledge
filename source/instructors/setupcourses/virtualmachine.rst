@@ -260,3 +260,62 @@ Following are some example of commands that can be used to interact with Virtual
 
    Running above command will kill the daemonized process whose PID is 353. You can see PID of all daemonized processes using `codio-vm daemonized-list`.
 
+- **codio-vm get-project-info** - This command will provide the below course/project/user information in Table or JSON format (Table is default).
+
+    - codio-vm get-project-info ``--`` format json:
+
+        .. code:: ini
+
+            {
+                "user": {
+                    "id": "6446f386-8cf7-4e8f-ba68-450398e67f0a",
+                    "userName": "stud100",
+                    "fullName": "stud 100",
+                    "email": "yescodio+stud100@gmail.com"
+                },
+                "course": {
+                    "id": "ba9c37a68782692435a47f8087e1b4d0",
+                    "name": "codio-vm get-project-info course",
+                    "lti": false,
+                    "assignment": {
+                    "id": "21fffe6e3932801221b7d5ef03fa646c",
+                    "name": "example assignment",
+                    "start": "2024-07-01T10:44:01Z",
+                    "end": "2024-07-31T10:44:01Z"
+                    },
+                    "vm": {
+                    "enabled": false
+                    }
+                },
+                "project": {
+                    "id": "c6cfed18-4164-4563-b912-e09d3b773ee1",
+                    "name": "example assignment",
+                    "slug": "example-assignment",
+                    "gigabox": "2gb"
+                }
+            }
+
+    - codio-vm get-project-info ``--`` format table:
+
+        .. code:: ini
+
+                +-------------------------+--------------------------------------+
+                | project.id              | c6cfed18-4164-4563-b912-e09d3b773ee1 |
+                | project.name            | example assignment                   |
+                | project.slug            | example-assignment                   |
+                | project.gigabox         | 2gb                                  |
+                | user.id                 | 6446f386-8cf7-4e8f-ba68-450398e67f0a |
+                | user.username           | stud100                              |
+                | user.fullName           | stud 100                             |
+                | user.email              | yescodio+stud100@gmail.com           |
+                | course.id               | ba9c37a68782692435a47f8087e1b4d0     |
+                | course.name             | codio-vm get-project-info course     |
+                | course.lti              | false                                |
+                | course.assignment.id    | 21fffe6e3932801221b7d5ef03fa646c     |
+                | course.assignment.name  | example assignment                   |
+                | course.assignment.start | 2024-07-01T10:44:01Z                 |
+                | course.assignment.end   | 2024-07-31T10:44:01Z                 |
+                | course.vm.enabled       | false                                |
+                +-------------------------+--------------------------------------+
+
+
