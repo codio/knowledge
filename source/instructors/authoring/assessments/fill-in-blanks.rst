@@ -17,28 +17,7 @@ A **Fill in the blank question** can use either free text or offer options to be
    .. image:: /img/guides/assessments-fitb2.png
       :alt: Drop-Down
 
-Assessment Auto-Generation
-++++++++++++++++++++++++++
-
-Assessments can be auto-generated from text found on a guides page. To auto-generate a Fill in the Blanks assessment, select Fill in the Blanks assessment from Assessments list and simply press the **Generate** button present at bottom right corner and press **Create** button to create the assessment.
-
-   .. image:: /img/guides/generate-assessment-button.png
-      :alt: Generate assessment button
-
-Important points to consider when auto-generating assessment:
-
-- whatever text is found on that page, the generator will use that to come up with assessment
-- you should always check what is created by looking at **Execution** tab to see output and then by previewing as well when created
-- you can edit/change the generated content as you per requirement
-- showing rationale/answers is set to 'never' so review on the **Grading** tab when to show rationale along with the points you want to allocate to the assessment
-- you cannot regenerate existing assessments, this is only for 'new' assessments
-- Library assessments are not supported
-- if there is not enough information, it may generate bad information so you should always check before creating the assessment
-- if there are some fields broken, it will not generate but contact us with details of course/assignment/assessment and we can check it out
-
-
-
-Follow these steps to set up fill in the blank assessments manually:
+Follow these steps to set up fill in the blank assessments:
 
 1. On the **General** page, enter the following information:
 
