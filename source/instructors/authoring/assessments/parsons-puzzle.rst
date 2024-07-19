@@ -7,27 +7,6 @@ Parsons Puzzle
 ==============
 Parson’s problems are available in Codio as Parsons Puzzles. Parson’s Puzzles are formative assessments that ask students to arrange blocks of scrambled code, allowing them to focus on the purpose and flow of the code (often including a new pattern or feature) instead of syntax. Codio uses `js-parsons <http://js-parsons.github.io/documentation/>`_ for Parson's Puzzles.
 
-Assessment Auto-Generation
-++++++++++++++++++++++++++
-
-Assessments can be auto-generated from text found on a guides page. To auto-generate a Parsons Puzzle, select Parsons Puzzle assessment from Assessments list and simply press the **Generate** button present at bottom right corner and press **Create** button to create the assessment.
-
-   .. image:: /img/guides/generate-assessment-button.png
-      :alt: Generate assessment button
-
-Important points to consider when auto-generating assessment:
-
-- whatever text is found on that page, the generator will use that to come up with assessment
-- you should always check what is created by looking at **Execution** tab to see output and then by previewing as well when created
-- you can edit/change the generated content as you per requirement
-- showing rationale/answers is set to 'never' so review on the **Grading** tab when to show rationale along with the points you want to allocate to the assessment
-- you cannot regenerate existing assessments, this is only for 'new' assessments
-- Library assessments are not supported
-- if there is not enough information, it may generate bad information so you should always check before creating the assessment
-- if there are some fields broken, it will not generate but contact us with details of course/assignment/assessment and we can check it out
-
-
-
 Complete the following steps to set up a **Line Based Grader** Parsons Puzzle assessment. The **Line Based Grader** assessment treats student answers as correct if and only if they match the order and indentation found in **Initial Values**. For incorrect answers, it highlights the lines that were not ordered or indented properly.
 
 1. On the **General** page, enter the following information:

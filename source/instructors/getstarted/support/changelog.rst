@@ -13,11 +13,6 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
-**July 2024**
-
-- `[F] [18th]`: Added new feature to auto-generate assessments like :ref:`Multiple Choice <multiple-choice>`, :ref:`Fill in the Blanks <fill-in-blanks>`, :ref:`Free Text <free-text>` and :ref:`Parsons Puzzle <parsons-puzzle>`.
-
-
 **June 2024**
 
 - `[F] [4th]`: Added :ref:`Batch Groups Upload <batch-groups-upload>` feature to upload/arrange student groups in bulk using a CSV file.

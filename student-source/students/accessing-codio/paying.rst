@@ -37,13 +37,13 @@ Some institutions provide Codio licenses through their campus bookstore. Your co
 
 A single license can be used for a specified timeframe: 1 semester (5 months), 2 semesters (10 months), or a year. Specific license options depend on your local bookstore.
 
-To activate a license from your campus bookstore, follow these steps:
+To obtain and activate a license from your campus bookstore, follow these steps:
 
 1. Request one of the following plans from your campus bookstore:
 
-   - 1 Semester  - Codio 1-Semester Plan
-   - 2 Semesters - Codio 2 Semester Plan
-   - Annual - Codio Annual Plan ISBN
+   - 1 Semester  - Codio 1-Semester Plan - ISBN: 978-1-7331872-5-1
+   - 2 Semesters - Codio 2 Semester Plan ISBN 978-1-7331872-8-2
+   - Annual - Codio Annual Plan ISBN # 978-1-7331872-1-3
 
    The bookstore will give you a code to redeem and activate your plan for the specified timeframe.
 
