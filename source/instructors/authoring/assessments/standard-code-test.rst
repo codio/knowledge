@@ -106,8 +106,11 @@ Follow these steps to set up a standard code test:
   - **Ignore White Space** - Toggle to enable stripping out any white space characters (carriage return, line feed, tabs, etc.) from both the expected output and the student output. 
   - **Substring Match** - Toggle to enable substring match when comparing the expected output to the student output. The entire expected output needs to be contiguous in the student output.
   - **Add Item to Check** - Click to create another set of input/output fields.
+  - **Search** - Search the test cases by the number/index assigned to it.
+  - **Expand All/Collapse All** - Click to expand/collapse all test cases.
   - **Input - Arguments** - Enter the command line arguments that are read by the student code.
   - **Use maximum score** - Toggle to enable assessment final score to be the highest score attained of all runs.
+  - **Delete** - Click to delete the test case.
 
     .. image:: /img/guides/std-assessment-args.png
        :alt: Input Arguments

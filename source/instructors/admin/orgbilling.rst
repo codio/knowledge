@@ -74,6 +74,12 @@ Codio offers the option to provide licenses through an institution's campus book
 
 2. To support students in this process, provide them with `this documentation <https://docs.codio.com/students/accessing-codio/paying.html#redeeming-code-from-campus-bookstore>`_ or guide them to contact help@codio.com.  
 
+3. The available subscription plans and their ISBNs:
+
+    - 1 Semester  - Codio 1-Semester Plan - ISBN: 978-1-7331872-5-1
+    - 2 Semesters - Codio 2 Semester Plan ISBN 978-1-7331872-8-2
+    - Annual - Codio Annual Plan ISBN # 978-1-7331872-1-3
+
 Viewing Invoice History
 -----------------------
 
