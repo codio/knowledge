@@ -56,6 +56,13 @@ Once students have completed their assignments, they notify the teacher by using
   .. image:: /img/grading-assign.png
      :alt: Assign Grade
 
+In the IDE, you can jump to next/previous student's assignment using **Next** or **Previous** button at the top.
+
+If there is another assessment that is ungraded in the assingment, the **Next Ungraded** and **Previous Ungraded** button will appear in the top menu. When clicked, you will be brought to the respective guide page where the ungraded assessment is present.
+
+  .. image:: /img/speedgrading.png
+     :alt: Speed Grading buttons
+
 .. _grading-queue:
 
 Grading Queue

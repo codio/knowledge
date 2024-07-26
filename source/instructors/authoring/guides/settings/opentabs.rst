@@ -162,7 +162,7 @@ Select this option to automatically open the virtual machine for the students.
 
 Specifying the panel number
 ***************************
-If your :ref:`layout <page>` for this page involves multiple panels, then you can also specify the panel number to display the file in.
+If your :ref:`layout <page>` for this page involves multiple panels, then you can also specify the panel letter to display the file in.
 
   .. image:: /img/guides/panel.png
      :alt: Panel
@@ -171,4 +171,3 @@ The panel order is left to right and then top to bottom and the last of all, the
 
 The Guide defaults to the right unless **Guides Left** is specified in **Page Layout**.
 
-**Important:** The first panel is 0, not 1. 

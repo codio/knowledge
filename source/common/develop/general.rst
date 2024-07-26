@@ -122,15 +122,16 @@ If you continue to experience difficulties, visit the `Connection Diagnostics <h
 
 Browser support
 ---------------
-Codio is best experienced on the very latest browsers, in particular Chrome, but should run fine on the following browsers:
+Codio supports most browsers but best experienced on the latest versions of the following browsers:
 
-- **Chrome** 21 or later
-- **Firefox** - 22 or later
-- **Edge** - 44 or later
-- **Safari** - 6 or later
+- **Chrome** 
+- **Firefox** 
+- **Edge** 
+- **Safari**
 
+if using **Safari** be aware that it can block preview cookies with their 'Intelligent Tracking Prevention 2.0' and cause assignments not to load.
 
-If using **Safari** and accessing Codio via an LMS (Canvas/Blackboard/D2L/Moodle etc) , disable "Prevent cross-site tracking" to ensure access.
+If using **Safari** and accessing Codio via an LMS (Canvas/Blackboard/D2L/Moodle etc), disable "Prevent cross-site tracking" to ensure access.
 
 .. image:: /img/crosssitetracking.png
    :alt: Safari Settings
