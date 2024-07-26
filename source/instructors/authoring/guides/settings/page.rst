@@ -34,11 +34,7 @@ You can choose from a variety of panel layouts to control the display inside the
      :alt: Layouts
 
 
-The dropdown list contains the available layouts.
-
 :ref:`click here <specify-panel>` for information on how to reference these panels when auto opening code files, url previews or terminal windows.
-
-The top-most entry in the Layout dropdown is **Previous**. This means it will use the same panel layout as specified on the previous page.
 
 
 .. _show-hide-folders:
@@ -67,9 +63,6 @@ Defining folders to Show:
 *************************
 1. From edit mode on the page you wish to hide folders, access **Layout** settings by clicking on **Layout**.
 2. Enable **Show File Tree** and then in the **Show Folders** field, specify the folder or folders which should be shown in the file tree. Use the `;` character to separate multiple folders.
-
-  .. image:: /img/guides/project_3.png
-     :alt: Defining folders
 
 3. You can also specify the nested folder(s). Only specified nested folder(s) will be shown and all other nested folders inside same parent folder will be hidden. As shown in the above image, you can defined nested folder like **Parentfolder/Nestedfolder** .
 
