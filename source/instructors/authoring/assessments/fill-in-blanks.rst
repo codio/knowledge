@@ -17,7 +17,43 @@ A **Fill in the blank question** can use either free text or offer options to be
    .. image:: /img/guides/assessments-fitb2.png
       :alt: Drop-Down
 
-Follow these steps to set up fill in the blank assessments:
+Assessment Auto-Generation
+++++++++++++++++++++++++++
+
+Assessments can be auto-generated from text found on a guides page. Follow below steps to auto-generate a Fill in the Blanks assessment:
+
+1. Select Fill in the Blanks assessment from Assessments list 
+
+2. Press the **Generate** button present at bottom right corner 
+
+   .. image:: /img/guides/generate-assessment-button.png
+      :alt: Generate assessment button
+
+3. Generation Prompt will open, press **Generate** to preview the generated assessment
+
+   .. image:: /img/guides/assessment-generation-prompt.png
+      :alt: Assessment Generation Prompt
+
+ If you are unhappy with the generated assessment, you can **Regenerate** the assessment. If you wish to guide the prompt generation with information about how you want your assessment to be, add that information to the **Generation Prompt** field. For example, *create assessment based on the last paragraph with 2 blanks.*
+
+4. When happy, press **Apply** and then **Create**
+
+
+Important points to consider when auto-generating assessment:
+
+- whatever text is found on that page, the generator will use that to come up with assessment
+- you should always check what is created by looking at **Execution** tab to see output and then by previewing as well when created
+- you can edit/change the generated content as you per requirement
+- showing rationale/answers is set to 'never' so review on the **Grading** tab when to show rationale along with the points you want to allocate to the assessment
+- you cannot regenerate existing assessments, this is only for 'new' assessments
+- Library assessments are not supported
+- if there is not enough information, it may generate bad information so you should always check before creating the assessment
+- if there are some fields broken, it will not generate but contact us with details of course/assignment/assessment and we can check it out
+
+Assessment Manual Creation
+++++++++++++++++++++++++++
+
+Follow these steps to set up fill in the blank assessments manually:
 
 1. On the **General** page, enter the following information:
 
