@@ -18,25 +18,25 @@ The syntax is as follows and actions can be chained together using, separated by
 Opening directives
 ******************
 
-- `open_file file1 file2 fileN panel=0` where panel is optional, in which case the default panel (0) will be used if not specified.
-- `open_preview file panel=0` where panel is optional, in which case the default panel (0) will be used if not specified.
-- `open_terminal command panel=0` where command (a system command) is optional and where panel is optional, in which case the default panel (0) will be used if not specified.
+- `open_file file1 file2 fileN panel=A` where panel is optional, in which case the default panel (A) will be used if not specified.
+- `open_preview file panel=A` where panel is optional, in which case the default panel (A) will be used if not specified.
+- `open_terminal command panel=A` where command (a system command) is optional and where panel is optional, in which case the default panel (A) will be used if not specified.
 - `cmd systemcommand argument1 argument2 argumentN`
-- `open_tutor file panel=0` to open :ref:`visualiser <visualiser>` and where panel is optional, in which case the default panel (0) will be used if not specified.
-- `open_vm panel=0` to open :ref:`virtual machine <virtualmachine>` and where panel is optional, in which case the default panel (0) will be used if not specified.
-- `open_preview https://{{domain5000}} panel=0` to open preview of the box (on port 5000 in this example) where panel is optional, in which case the default panel (0) will be used if not specified.
-- `open_preview https://www.codio.com panel=0` to open defined website where panel is optional, in which case the default panel (0) will be used if not specified.
+- `open_tutor file panel=A` to open :ref:`visualiser <visualiser>` and where panel is optional, in which case the default panel (A) will be used if not specified.
+- `open_vm panel=A` to open :ref:`virtual machine <virtualmachine>` and where panel is optional, in which case the default panel (A) will be used if not specified.
+- `open_preview https://{{domain5000}} panel=A` to open preview of the box (on port 5000 in this example) where panel is optional, in which case the default panel (A) will be used if not specified.
+- `open_preview https://www.codio.com panel=A` to open defined website where panel is optional, in which case the default panel (A) will be used if not specified.
 
 Closing directives
 ******************
 
 - `close_all` closes all tabs in all panels, except the Guide itself.
-- `close_all panel=0` closes all tabs in panel 0.
+- `close_all panel=A` closes all tabs in panel A.
 - `close_file file1` closes `file1` in all panels
-- `close_file file1 file2 fileN panel=0` where panel is optional, in which case the default panel (0) will be used.
+- `close_file file1 file2 fileN panel=A` where panel is optional, in which case the default panel (A) will be used.
 - `close_preview` behaves like `close_file` for preview tabs.
 - `close_terminal` behaves like `close_file` for terminal tabs.
-- `close_tutor file panel=0` where visualiser is closed for file open in panel 0
+- `close_tutor file panel=A` where visualiser is closed for file open in panel A
 
 Important - spaces and ; in file names and commands
 ***************************************************
@@ -58,16 +58,16 @@ Open a file `file.txt`
 [Click here](open_file file.txt)
 ```
 
-Open a file `file.txt` in panel 1
+Open a file `file.txt` in panel B
 
 ```
-[Click here](open_file file.txt panel=1)
+[Click here](open_file file.txt panel=B)
 ```
 
-Open a file `file.txt` in panel 1, with a code reference and highlight 3 lines
+Open a file `file.txt` in panel B, with a code reference and highlight 3 lines
 
 ```
-[Click here](open_file file.txt panel=1 ref="some text in your code" count=3)
+[Click here](open_file file.txt panel=B ref="some text in your code" count=3)
 ```
 
 Open files `file.txt` and `file2.txt`
@@ -76,22 +76,22 @@ Open files `file.txt` and `file2.txt`
 [Click here](open_files file.txt file2.txt)
 ```
 
-Open a file `file.txt` and preview of `file.txt` in panel 2
+Open a file `file.txt` and preview of `file.txt` in panel C
 
 ```
-[Click here](open_file file.txt; open_preview file.txt panel=2)
+[Click here](open_file file.txt; open_preview file.txt panel=C)
 ```
 
-Run a command then open a preview of `file.txt` in panel 2
+Run a command then open a preview of `file.txt` in panel C
 
 ```
-[Click here](cmd cp source.txt target.txt; open_preview file.txt panel=2)
+[Click here](cmd cp source.txt target.txt; open_preview file.txt panel=C)
 ```
 
-Open a Terminal window in panel 1
+Open a Terminal window in panel B
 
 ```
-[Click here](open_terminal panel=2)
+[Click here](open_terminal panel=C)
 ```
 
 Close `file.txt` and open a preview `file.txt`
@@ -112,8 +112,8 @@ Close all open files, previews and terminals, then open a file `file.txt`
 [Click here](close_all; open_file file.txt)
 ```
 
-Close all open files, previews and terminals that are in panel 2, then open a file `file.txt`
+Close all open files, previews and terminals that are in panel C, then open a file `file.txt`
 
 ```
-[Click here](close_all panel=2; open_file file.txt)
+[Click here](close_all panel=C; open_file file.txt)
 ```

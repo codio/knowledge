@@ -48,6 +48,12 @@ To add a new assessment for a course, follow these steps:
 
 3. Click **Create**.
 
+Assessment Auto-Generation
+++++++++++++++++++++++++++
+
+Assessments can be auto-generated based on the text found on a guides page. Currently only :ref:`Multiple Choice <multiple-choice>`, :ref:`Fill in the Blanks <fill-in-blanks>`, :ref:`Free Text <free-text>` and :ref:`Parsons Puzzle <parsons-puzzle>` assessments can be auto-generated.
+
+
 Refer to the specific topics for the type of assessment:
 
 - :ref:`Standard Code Test <standard-code-test>`
