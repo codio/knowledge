@@ -10,6 +10,8 @@ You can add penalties to the assignment if students don't complete it within the
 
 Penalties are not cumulative. Your student will receive the penalty associated with their submission date.
 
+To apply Penalties, a **Due Date** for the assignment must be set (see :ref:`Assignment Duration <assignment-duration>`), penalties will be applied beginning on the due date.
+
 .. Note:: It is recommended that you set the closing date/time for the assignment (see :ref:`Assignment Duration <assignment-duration>`) to the last date/time for the penality to avoid having to change the assignment status for a student who submits the assignment late. 
 
 .. image:: /img/penalties.png
@@ -20,26 +22,18 @@ Add Penalties
 To add a penalty for a late assignment, follow these steps:
 
 1. Open the assignment **Settings**.
-2. In the **Penalties** area, click **Add Penalty** and complete the following fields:
+2. In the **Penalties** area, enable **Penalty** toggle and complete the following fields:
 
-   - **Number** (auto-incremental)
-   - **Date** - The date the penalty is applied. 
-   - **Time** - The time the penalty is applied on the specified date.
-   - **Penalty %** - Percentage of the total score for the assignment to be deducted as a penalty.
-   - **Message** - Description of the penalty. If a message is not specified, one of the following default messages is displayed:
-
-     - If a student opens a project after the deadline or the student is working in the assignment when deadline is reached, the following message is displayed:
-
-      ```Deadline X (the table row number) has been reached. This deadline carries a penalty of Y%. You can review your answers with no penalty. However, if you decide to change any answers by pressing the Modify button beneath a question, a Y% penalty deduction will be applied to your overall results. Once a modify button has been pressed once, the penalty deduction will be applied and you will be free to modify as many questions as you like with no additional penalty```
-
-     - If a student clicks Modify after the deadline has passed, the following message is displayed:
-
-      ```Deadline X (the table row number) has been reached. This deadline carries a penalty of Y%. If you proceed, a Y% penalty deduction will be applied to your overall results. You will then be able to modify as many questions as you like with no additional penalty```
-
-     - If the final deadline has passed, the assignment is forced to read-only and the following message is displayed:
-
-      ```You have exceeded the final deadline. You are no longer able to make changes to your answers. You are free to review your answers.```
-
+   - **Late Submission Deduction** - Define the percentage of the total score for the assignment to be deducted as a penalty
+   - **Deduction Interval** - Select the interval (Hour or Day) and penalties will be applied on every interval
+   - **Lowest Possible Grade** - This refer to the minimum grade a student can receive after penalties for late submissions are applied. For instance, if an assignment is late by 2 days with a penalty of 10% per day, the lowest possible grades are calculated as follows:
+   
+        - Initial grade of 100 becomes 80
+        - Initial grade of 30 becomes 20
+        - Initial grade of 50 becomes 30
+        - Initial grade of 10 remains 10
+        - Initial grade of 20 remains 20
+ 
 3. Click **Save Changes**.
 
 View Penalties in Instructor Dashboard
