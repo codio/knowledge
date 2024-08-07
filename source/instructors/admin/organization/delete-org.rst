@@ -21,4 +21,14 @@ Deleting an Organization
    .. image:: /img/manage_organization/orgsettingstab.png
       :alt: Organization Settings
       
-4. Go to the **Delete Organization** area to enter the confirmation code, and click **Delete** to delete the organization.
+4. Go to the Delete Organization area, enter the confirmation text and click the **Delete** button
+
+   .. image:: /img/delete-organization.png
+      :alt: Delete account
+
+5. A Delete organization confirmation screen will appear (please don't close this screen until you complete the process) and a confirmation code will be sent to your email address.
+
+   .. image:: /img/delete-organization-confirmation.png
+      :alt: Delete account
+
+6. Enter that confirmation code and press **Yes** to permanently delete your Codio organization.
