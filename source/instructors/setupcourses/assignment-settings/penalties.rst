@@ -8,11 +8,7 @@ Penalties
 
 You can add penalties to the assignment if students don't complete it within the specified start time and closing time.
 
-Penalties are not cumulative. Your student will receive the penalty associated with their submission date.
-
 To apply Penalties, a **Due Date** for the assignment must be set (see :ref:`Assignment Duration <assignment-duration>`), penalties will be applied beginning on the due date.
-
-.. Note:: It is recommended that you set the closing date/time for the assignment (see :ref:`Assignment Duration <assignment-duration>`) to the last date/time for the penality to avoid having to change the assignment status for a student who submits the assignment late. 
 
 .. image:: /img/penalties.png
    :alt: Penalties
@@ -26,13 +22,7 @@ To add a penalty for a late assignment, follow these steps:
 
    - **Late Submission Deduction** - Define the percentage of the total score for the assignment to be deducted as a penalty
    - **Deduction Interval** - Select the interval (Hour or Day) and penalties will be applied on every interval
-   - **Lowest Possible Grade** - This refer to the minimum grade a student can receive after penalties for late submissions are applied. For instance, if an assignment is late by 2 days with a penalty of 10% per day, the lowest possible grades are calculated as follows:
-   
-        - Initial grade of 100 becomes 80
-        - Initial grade of 30 becomes 20
-        - Initial grade of 50 becomes 30
-        - Initial grade of 10 remains 10
-        - Initial grade of 20 remains 20
+   - **Lowest Possible Grade** - Penalty deductions will only be taken until the student's grade meets the Lowest Possible Grade and then the grade will not be lowered any further. For example, if the initial grade of a student is 100%, the deduction is 10% per hour, lowest possible grade is 50% and the student is 8 hours late then their final grade will be 50%
  
 3. Click **Save Changes**.
 
