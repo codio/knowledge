@@ -28,7 +28,7 @@ We support the following providers:
 Enabling LLM for Courses
 ------------------------
 
-When keys are added, you can enable use of the key in a course. See :ref:`Course LLMs <course_llm>`
+When keys are added, you can enable use of the key in a course. See :ref:`Course LLMs <course_llm>`.
 
 LLM Organization Usage
 ----------------------
@@ -37,7 +37,7 @@ LLM Organization Usage
        :alt: LLMs Usage
 
 
-.. Note::  The names showing in this screenshot are example names
+.. Note::  The names showing in this screenshot are example names.
 
 Usage will be shown for:
 

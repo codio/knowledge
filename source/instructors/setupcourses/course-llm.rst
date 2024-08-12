@@ -22,9 +22,9 @@ Reset LLM Keys
 
 If students exceed any of the limits set above, they will show in the **Reset LLM Keys** area and the teacher/instructors can reset the keys for them to continue working.  
 
-If a student exceeds more than one limit at same time, they will only show once and reetting will reset them for all exceeded limits
+If a student exceeds more than one limit at same time, they will only show once and reetting will reset them for all exceeded limits.
 
-.. Note:: Students WILL need to restart their box after limits are reset (**Project>Restart Box**). If the top menu has been hidden for students then instructors will need to restart their box for them. Open the student assignment and select **Project>Restart Box** before letting the student know they can continue
+.. Note:: Students WILL need to restart their box after limits are reset (**Project>Restart Box**). If the top menu has been hidden for students then instructors will need to restart their box for them. Open the student assignment and select **Project>Restart Box** before letting the student know they can continue.
 
 LLM Course Usage
 *****************
@@ -32,7 +32,7 @@ LLM Course Usage
     .. image:: /img/llm_course_usage.png
        :alt: LLMs Course Usage
 
-.. Note::  The names showing in this screenshot are example names
+.. Note::  The names showing in this screenshot are example names.
 
 Usage will be shown for:
 
