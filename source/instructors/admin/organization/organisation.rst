@@ -27,6 +27,7 @@ Organization settings
    hide-av
    student-email
    sso
+   llms
    
  
 
@@ -52,7 +53,7 @@ The person who creates the organization in Codio is the owner and is given the a
 - :ref:`Enable/Disable Release Grade Automatically <auto-release-grades>`
 - :ref:`Hide A/V calls <hideav>`
 - :ref:`SSO Integration <sso-integration>`
-
+- :ref:`LLMs <org_llm>`
 
 
 
