@@ -30,17 +30,20 @@ Enabling LLM for Courses
 
 When keys are added, you can enable use of the key in a course. See :ref:`Course LLMs <course_llm>`
 
-LLM Organisation Usage
+LLM Organization Usage
 ----------------------
 
     .. image:: /img/llm_org_usage.png
        :alt: LLMs Usage
 
+
+.. Note::  The names showing in this screenshot are example names
+
 Usage will be shown for:
 
 
 - Daily, weekly, monthly and annual usage
-- Daily and monthly top 10 usage users by course
+- Daily and monthly top 10 consumers by course
 - Each course total usage
 
-.. Note:: The shown values are estimates and may not always be exactly accurate. 
+.. Note:: The values shown are estimates and may not reflect the exact numbers.

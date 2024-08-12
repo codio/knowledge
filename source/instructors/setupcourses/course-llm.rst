@@ -7,12 +7,11 @@
 Large Language Model
 ====================
 
-Once :ref:`LLM API keys <org_llm>` have been added to your account, the course can use the keys set
-
+Once :ref:`LLM API keys <org_llm>` have been added to your account, the course can use the created keys
     .. image:: /img/llm_course_settings.png
        :alt: LLMs Course settings
 
-When enabled you can set limits for the students in the course
+When enabled you can set limits for the students in the course.
 
 
 Reset LLM Keys
@@ -25,7 +24,7 @@ If students exceed any of the limits set above, they will show in the **Reset LL
 
 If a student exceeds more than one limit at same time, they will only show once and reetting will reset them for all exceeded limits
 
-.. Note:: Students WILL need to restart their box after being limits are reset (**Project>Restart Box**) but if you hide the top menu then teachers should restart the box for them - open the student assignment where they will see the main menu and can **Project>Restart Box** before letting the student know they can continue
+.. Note:: Students WILL need to restart their box after limits are reset (**Project>Restart Box**). If the top menu has been hidden for students then instructors will need to restart their box for them. Open the student assignment and select **Project>Restart Box** before letting the student know they can continue
 
 LLM Course Usage
 *****************
@@ -33,10 +32,12 @@ LLM Course Usage
     .. image:: /img/llm_course_usage.png
        :alt: LLMs Course Usage
 
+.. Note::  The names showing in this screenshot are example names
+
 Usage will be shown for:
 
 
 - Daily, weekly, monthly, annual, total usage for that course.
-- Daily and monthly top 10 usage users for the course.
+- Daily and monthly top 10 consumers for the course.
 
-.. Note:: The shown values are estimates and may not always be exactly accurate
+.. Note:: The values shown are estimates and may not reflect the exact numbers.
