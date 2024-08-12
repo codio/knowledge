@@ -6,7 +6,7 @@
 Large Language Model
 ====================
 
-You can add your own LLM API keys to your Codio organisation to use in your :ref:`Course <course_llm>` from the **Organization > LLMs** page in Codio.
+You can add your own LLM API keys to your Codio organization to use in your :ref:`Course <course_llm>` from the **Organization > LLMs** page in Codio.
 
     .. image:: /img/llm_org_keys.png
        :alt: LLMs Keys
