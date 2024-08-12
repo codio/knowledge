@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**Aug 2024**
+
+- `[F] [12th]`: Add ability to add :ref:`LLM Keys <org_llm>` and manage for each :ref:`Course <course_llm>`
+
 **July 2024**
 
 - `[F] [25th]`: Added new feature to auto-generate assessments like :ref:`Multiple Choice <multiple-choice>`, :ref:`Fill in the Blanks <fill-in-blanks>`, :ref:`Free Text <free-text>` and :ref:`Parsons Puzzle <parsons-puzzle>`.
