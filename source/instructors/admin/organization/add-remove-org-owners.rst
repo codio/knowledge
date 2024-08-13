@@ -1,4 +1,4 @@
-. meta::
+.. meta::
    :description: You can add other owners that also have Admin permissions to perform administrator tasks.
    
 .. _org-owners:

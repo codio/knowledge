@@ -48,6 +48,8 @@ To add a new assessment for a course, follow these steps:
 
 3. Click **Create**.
 
+While creating/editing the assessment, you can still see/edit the guide page.
+
 Assessment Auto-Generation
 ++++++++++++++++++++++++++
 

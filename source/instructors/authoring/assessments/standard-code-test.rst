@@ -151,7 +151,7 @@ Follow these steps to set up a standard code test:
   - **Show Rationale to Students** - Toggle to display the answer, and the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
   - **Rationale** - Enter guidance for the assessment. This is always visible to the teacher when the project is opened in the course or when opening the student's project. 
 
-4. Click on the **Parameters** tab if you wish to set up **Parameterized Assessments**. See :ref:`Parameterized Assessments <parameterized>` for more information.
+4. Click on the **Parameters** tab if you wish to edit/change **Parameterized Assessments** (deprecated) using a script. See :ref:`Parameterized Assessments <parameterized>` for more information. New parameterized assessments can no longer be set up.
 
 5. Click **Metadata** in the left navigation pane and complete the following fields:
 

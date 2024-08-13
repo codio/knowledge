@@ -84,7 +84,7 @@ Complete the following steps to set up a **Line Based Grader** Parsons Puzzle as
   - **Rationale** - Enter guidance for the assessment. This is visible to the teacher when the project is opened in the course or when opening the student's project. This guidance information can also be shown to students after they have submitted their answer and when they reload the assignment after marking it as completed. 
   - **Use maximum score** - Toggle to enable assessment final score to be the highest score attained of all runs.
 
-4. Click on the **Parameters** tab if you wish to set up **Parameterized Assessments**. See :ref:`Parameterized Assessments <parameterized>` for more information.
+4. Click on the **Parameters** tab if you wish to edit/change **Parameterized Assessments** (deprecated) using a script. See :ref:`Parameterized Assessments <parameterized>` for more information. New parameterized assessments can no longer be set up.
 
 5. Click **Metadata** in the left navigation pane and complete the following fields:
 
