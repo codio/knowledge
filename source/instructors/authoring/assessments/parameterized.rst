@@ -5,7 +5,10 @@
 
 Parameterized assessments
 =========================
-For all assessment types except Gradebook and Random, you can generate parameters by writing **python** code in the **PARAMETERS** tab.
+
+.. Warning:: New Parameterized Assessments can no longer be set up.
+
+To edit/update existing assessments set up using Parameterized assessments that are using a script, go to the **Parameters** tab.  This tab is not available for new assessments or for ones using Parameterized assessments that are not using a script.
 
    .. image:: /img/guides/parameterized2.png
       :width: 600
