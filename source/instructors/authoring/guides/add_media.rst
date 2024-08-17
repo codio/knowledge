@@ -33,6 +33,21 @@ To add Audio: select **Media** icon in the guides editor ribbon where you can de
   Pause
 
 
+.. _record-audio:
+
+Recording Audio inside Guide
+****************************
+
+You can record audio using a guide button and save that audio in a file. To add record button, select Record Audio icon in the guides editor ribbon. 
+
+  .. image:: /img/guides/ribbon-record-audio.png
+     :alt: Record audio button
+
+Once the button code appears on the guide page, you can change the button text and the file location as per your requirement. If you want to hide the generated audio file from students then save the file in .guides folder.
+
+To record the audio, permission for your microphone is required and your browser will prompt you to allow permission. If permission has been denied, you can re enable in your browser, if you do not know how then see :ref:`Permissions <permissions>`.
+
+
 Images
 ******
 Inserting an image is similar. You can use the **Image** icon in the guides editor ribbon or write in markdown within your content area. Here are some examples. PNG and JPG image types are supported. Note that the 2nd and 3rd examples point to images within your project.

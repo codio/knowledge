@@ -32,6 +32,6 @@ Follow these steps to enable Public/Private Settings:
 
 **Notes:**
 
-- Private projects can still be shared with other users (See :ref:`Project Permissions <project-permissions>`).
+- Private projects can still be shared with other users (See :ref:`Share Project <share-project>`).
 
 - Any existing public projects, stacks, starter packs, courses, and modules created by members of the organization prior to changing this setting are not affected.

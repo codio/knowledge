@@ -6,8 +6,6 @@
 Share Project
 =============
 
-.. Warning:: Please note that Project Sharing via Project > Permissions feature will be disabled on or after July 8th 2024. Any existing projects shared via permission will also be removed.
-
 You can share a copy of your project, follow these steps.
 
 1. Click the **Project** tab on the menu bar and choose **Share**.
