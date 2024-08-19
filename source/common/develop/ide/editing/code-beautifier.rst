@@ -5,7 +5,9 @@
 
 Code Beautifier
 ===============
-The Code Beautifier feature automatically indents and manages spaces in your code to format it correctly. You apply the Code Beautifier using the shortcut keys, which can be customized in :ref:`User Preferences <user-prefs>`.
+The Code Beautifier feature automatically indents and manages spaces in your code to format it correctly. Currently the Code Beautifier supports langauges like HTML, CSS and JavaScript. If you are looking for a similiar setting for langauges like Java, Python, etc. then please check out :ref:`Language Server Protocol <langserver>`. 
+
+You apply the Code Beautifier using the shortcut keys, which can be customized in :ref:`User Preferences <user-prefs>`.
 
 * key_format_code = cmd+Shift+B (Mac)
 * key_format_code = Ctrl+Shift+B (PC/Linux)

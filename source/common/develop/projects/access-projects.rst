@@ -6,9 +6,7 @@
 Access Projects
 ===============
 
-You access your projects from **My Projects** in the left navigation pane. The **Projects** page shows all of your coding projects and those projects that have been shared with you.
-
-If a project has been shared with you, you can view the projects from the **Shared with me** page on the **Projects** dashboard.
+You access your projects from **My Projects** in the left navigation pane. The **Projects** page shows all of your coding projects.
 
 .. image:: /img/console-shared.png
    :alt: Shared Project

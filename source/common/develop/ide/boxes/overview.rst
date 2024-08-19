@@ -10,7 +10,6 @@ IDE Box Overview
    :caption: Boxes
    :hidden:
    
-   ide-access-permissions
    terminal
    ext-access
    restart-reset
