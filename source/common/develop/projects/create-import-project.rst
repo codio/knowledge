@@ -32,6 +32,6 @@ Projects created from a template include an explanatory README.md file that prov
 
 .. Note:: If enabled by your organization owner, you can create public projects but these are accessible by any Codio user. See :ref:`Public and Private Settings <public-private>` for more information.
 
-  If your project is private, you can assign read, write, or full admin permissions (ability for others to access the box from the terminal) to other users from the **Project > Permissions** menu in the IDE.
+  If your project is private, you can still share your project with others. See :ref:`Share Project <share-project>`
 
 5. Modify the **Select gigabox** value if your project will require more memory. See :ref:`Gigaboxes <gigabox-usage>` for more information on Gigaboxes.

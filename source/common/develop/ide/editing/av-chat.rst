@@ -18,6 +18,8 @@ Hide A/V calls
 
 If you wish to disable A/V calls, organization owners can do this in the organization settings area. See :ref:`Hide A/V Calls <hideav>` for more information
 
+.. _permissions:
+
 Permissions
 -----------
 
@@ -34,17 +36,16 @@ Click Site settings and make sure your camera and microphone both say Allow
 
 Firefox:
 ********
-If you are using Firefox as your internet browser you can access your settings by typing "about:permissions" into the location bar as if it were a website and hitting enter.
+If you are using Firefox as your internet browser you can access your settings through the padlock icon in the address bar when visiting a site, then adjust the permissions for the microphone and camera.
 
+For more detailed instructions, visit the following link:
 
-This will take you to your settings page, click the following link to find out more about changing your settings:
+https://support.mozilla.org/en-US/kb/site-permissions-panel
 
-https://support.mozilla.org/en-US/kb/permissions-manager-give-ability-store-passwords-set-cookies-more?redirectlocale=en-US&redirectslug=how-do-i-manage-website-permissions
 
 Safari:
 *******
 If you are using Safari, you can access your browser settings by clicking Safari and then Preferences. 
-
 
 You will see a pop up box and can update your settings. Learn more about how to update the settings through the following link:
 

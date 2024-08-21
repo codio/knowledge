@@ -10,7 +10,6 @@ Developing Code
    :caption: Projects
    :hidden:
    
-   project-permissions
    project-settings
    create-import-project
    access-projects
