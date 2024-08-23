@@ -13,6 +13,7 @@ Integrating with your LMS system (Canvas etc.)
    
    lms-systems/system-specific-directions
    lms-students
+   lti-enrol
    grading
    lti-app
    lti-keys-and-urls-information
