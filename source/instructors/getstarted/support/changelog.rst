@@ -15,9 +15,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **Aug 2024**
 
+- `[F] [19th]`: Added ability to :ref:`Enrol Students from LTI <lti-enrol>`
+
 - `[F] [14th]`: Added new feature to :ref:`Recording Audio inside Guide <record-audio>`
 
-- `[F] [12th]`: Add ability to add :ref:`LLM Keys <org_llm>` and manage for each :ref:`Course <course_llm>`
+- `[F] [12th]`: Added ability to add :ref:`LLM Keys <org_llm>` and manage for each :ref:`Course <course_llm>`
 
 **July 2024**
 

@@ -49,7 +49,6 @@ We strongly recommend that you familiarize yourself with the following project r
 
 **See Also:**
 
-- :ref:`Project Permissions <project-permissions>`
 - :ref:`Create and Import a Project <create-import-project>`
 - :ref:`Access Projects <access-projects>`
 

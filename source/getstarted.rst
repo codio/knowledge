@@ -15,6 +15,7 @@ Getting Started
    instructors/getstarted/howto
    instructors/getstarted/support/support
    instructors/getstarted/support/changelog
+   instructors/getstarted/support/generating_har
 
 
 - Get an overview of Codio by viewing our collection of :ref:`How to Videos <how-to-videos>`.
