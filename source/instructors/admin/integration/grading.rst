@@ -17,7 +17,7 @@ Example:
 
 .. code:: ini
 
-   CUSTOM_CODIO_SEND_GRADE="GRADE_RELEASE"
+   CUSTOM_CODIO_SEND_GRADE=GRADE_RELEASE
 
 When grades are :ref:`released <release-grades>` a URL is passed to the LMS where students/teachers can access the grading information for the assignment in the grading area of the LMS. By default, only the course teachers and the individual student can access the grading preview URL.
 
