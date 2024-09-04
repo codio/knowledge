@@ -17,7 +17,9 @@ To set the assignment duration, follow these steps:
    - Click the **Calendar** icon and select the date.
    - Click the **Clock** icon and select the time.
 
-.. Note:: The **Due Date** field specifies when the assignment is due. Select the **Mark as Completed on Due Date** checkbox if you want the assignments of all students to be marked as completed when the due date has been reached.  A Due Date must be set if you are working with :ref:`Penalties <penalties>`.
+.. Note:: You can use the Due Date field in conjunction with :ref:`Penalties <penalties>` to give students extra time to work on an assignment with a reduced score. You do not need a separate Due Date if you do not intend to have a penalty period. Set the closing time for the assignment if you wish to end access at a specific date and time.
+ 
+ Select the Mark as Completed on Due Date checkbox if you want all students’ assignments to be marked as completed when the Due Date has been reached. This will ensure that students do not unintentionally receive penalties.
 
 .. Note:: The time zone is automatically taken from the Course time zone, if you wish to change to a different time zone click the 'click here' link to open the Course Details settings. There you can change the time zone for all the assignments in the course.
 

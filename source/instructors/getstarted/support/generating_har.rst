@@ -98,4 +98,4 @@ To retrieve console logs in Edge:
 Instructions for sending HAR files
 ----------------------------------
 
-Before you send a HAR file to Codio Team, you should both rename AND zip or compress your HAR files. Uncompressed HAR files are often over standard attachment limits. Also, by default, HAR files use the page URL as the name of the file. Files with .com extensions look suspicious to spam and phishing filters. Give the HAR file a descriptive name that doesn't include their full URL.
+Before you send a HAR file to Codio Team, you should both rename AND zip or compress your HAR files. Uncompressed HAR files are often over standard attachment limits. Also, by default, HAR files use the page URL as the name of the file. Files with .com extensions look suspicious to spam and phishing filters. Give the HAR file a descriptive name that doesn't include the full URL.
