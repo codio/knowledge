@@ -67,7 +67,7 @@ If you want to configure the Run button to run commands in the current terminal 
 
 When modifying the **.codio** file, you can also use the following tokens in the shell commands:
 
-- ``{filepath}}`` - inserts the path and full file name (/path/to/file.ext).
+- ``{{filepath}}`` - inserts the path and full file name (/path/to/file.ext).
 - ``{{path}}`` - inserts only the path to the selected file (/path/to/).
 - ``{{filename}}`` - inserts the filename with its extension (file.ext).
 - ``{{filename_no_ext}}`` - inserts the filename without the extension (file).

@@ -9,6 +9,21 @@ You can update your user profile from the **Overview** tab. To access this page,
 
 Update your name, email address or password and click **Save Changes**.
 
+Change Email Address of your account
+------------------------------------
+
+Follow below steps to change the email address of your account:
+
+1. Click your profile icon in the lower left corner of the screen and click the **Overview** tab
+      
+2. Go to the **Email** area, change the email address as per your requirement, enter the current password of your Codio account and click the **Save Changes** button
+
+   .. image:: /img/email-setting.png
+      :alt: Delete account
+
+.. Note:: If the user has signed up for Codio account from their LMS, there is no password set for their account. The user's LMS password is not passed to Codio, so the user will need to create a :ref:`password <password>` for their Codio account (and of course it is always recommended that the same passwords are not used in different applications).
+
+
 Delete your account
 -------------------
 
