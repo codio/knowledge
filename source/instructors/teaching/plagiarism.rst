@@ -47,7 +47,7 @@ On the left you can:
 
 - list the exact filenames you want checked. If there are multiple files, list one file per line.
 - enter a relative path in the workspace to check.
-- upload items to compare against (e.g. previous years information).
+- upload items to compare against (e.g. previous years information), you can also use :ref:`moss bundles <mossbundle>` here.
 - filter out template code setting the maximum fingerprint percentage between 0 and 100%. For more information on fingerprinting see https://dolos.ugent.be/about/algorithm.html#fingerprinting
 - restrict the file types that should be checked. It is possible to add multiple file types by pressing the **Add Extension** button.
 - add the file list in the **Files Excludes** box that you don't want to be inlcuded. If there are multiple files, add each file on a new line.
@@ -91,6 +91,8 @@ For more information see the `Dolos <https://dolos.ugent.be/>`_ documentation an
 
 .. Note:: Manifest.csv does not work with online version.
 
+
+.. _mossbundle:
 
 Downloading Students Data for External Plagiarism Check
 *******************************************************
