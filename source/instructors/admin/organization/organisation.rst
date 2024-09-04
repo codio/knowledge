@@ -28,6 +28,7 @@ Organization settings
    student-email
    sso
    llms
+   webhook
    
  
 
