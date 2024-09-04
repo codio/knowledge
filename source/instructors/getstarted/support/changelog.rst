@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**Sep 2024**
+
+- `[F] [4th]`: Add ability to support :ref:`Webhooks <webhooks>` 
+
 **Aug 2024**
 
 - `[F] [19th]`: Added ability to :ref:`Enrol Students from LTI <lti-enrol>`

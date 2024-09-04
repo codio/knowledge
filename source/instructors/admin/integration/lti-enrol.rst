@@ -15,4 +15,4 @@ To generate LTI enrol link, follow the below steps:
 3. Enable **Enrol to course only** setting to generate the link.
 
 
-.. Note:: When you enabled the **Enrol to course only** setting, Grades will not be passed back to the LMS.
+.. Note:: When you enabled the **Enrol to course only** setting, Grades will not be passed back to the LMS although you can use a :ref:`Webhook <webhooks>` if required.
