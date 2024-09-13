@@ -118,4 +118,4 @@ Do **NOT** raise with your card issuing company as a fraudulent transaction as w
 
 To ask for a refund, contact us from your account using the **Support Chat** item in your dashboard so we will know which Codio account you are seeking a refund on (even if your payment receipt was to a different email address) and it will be dealt with as soon as possible.
 
-Refunds will not be given if you are found to have breached our `Acceptable Use Policy <https://www.codio.com/legal-stuff/>`_
+Refunds will not be given if you are found to have breached our `Acceptable Use Policy <https://www.codio.com/legal-stuff#acceptable-use-policy>`_
