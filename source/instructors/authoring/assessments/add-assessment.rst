@@ -31,7 +31,6 @@ Auto-graded assessments
    random
    math-assessments
    ungraded-assessments
-   sense-network
    
    
    
