@@ -103,3 +103,17 @@ Restarting an expired payment or extending an existing payment
 --------------------------------------------------------------
 
 If you had a payment that has now expired, or wish to extend the period of time available, start a new payment as above.
+
+.. _refund:
+
+Refund Policy
+-------------
+
+You can ask for a refund if you drop your course:
+
+- If requested within 14 days of starting the payment plan, a full refund can be given.
+- If requested after 14 days it will be a pro-rata refund.  80% if within the first month, 60% if within the second month etc.
+
+Do **NOT** raise with your card issuing company as a fraudulent transaction as we will always challenge this and additional charges may be incurred by you.
+
+To ask for a refund, contact us from your account (see https://docs.codio.com/instructors/getstarted/support/support.html#support-dialog) so we will know what Codio account you are seeking a refund on (even if your payment receipt was to a different email address) and it will be dealt with as soon as possible.

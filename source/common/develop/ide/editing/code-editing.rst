@@ -24,7 +24,6 @@ Code Editing Features
    force-language-highlighting
    preview
    quick-open
-   real-time-collaboration
    save-files
    search-replace
    share-project
