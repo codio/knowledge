@@ -116,4 +116,6 @@ You can ask for a refund if you drop your course:
 
 Do **NOT** raise with your card issuing company as a fraudulent transaction as we will always challenge this and additional charges may be incurred by you.
 
-To ask for a refund, contact us from your account (see https://docs.codio.com/instructors/getstarted/support/support.html#support-dialog) so we will know what Codio account you are seeking a refund on (even if your payment receipt was to a different email address) and it will be dealt with as soon as possible.
+To ask for a refund, contact us from your account (see :ref: `Contacting Support<codio-support>`) so we will know what Codio account you are seeking a refund on (even if your payment receipt was to a different email address) and it will be dealt with as soon as possible.
+
+Refunds will not be given if you are found to have broached our `Acceptable Usa Policy <https://www.codio.com/legal-stuff/>`_
