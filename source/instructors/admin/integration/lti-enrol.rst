@@ -3,16 +3,22 @@
 
 .. _lti-enrol:
 
-LTI Enrol to Course Only
-========================
+LTI Enroll to Course Only
+=========================
 
-You can allow students to enrol into a Codio course from the LMS. You need to generate a link from your Codio course and then you can add that link to your LMS course. When a student clicks that link, they will be enrolled in Codio course and redirected to the Codio dashboard where they can see all the assignments present in that course. Students doesn't need to go to LMS to start the assignment, they can start/open the assignment from Codio directly.
+LTI Enrollment provides single sign-on access to an entire course without linking each assignment. **It does not allow for automatic grade passback**.
 
-To generate LTI enrol link, follow the below steps:
+To use this feature, you first generate a link from your Codio course and then add it to your LMS course as an **External Tool** in an assignment or module. When students click the link, they are enrolled in the Codio course and redirected to the Codio dashboard, where they will see all the assignments for the course. 
+Students do not need to begin each assignment using the LMS system.
 
-1. Navigate to the **Courses** page and select the course to open it.
+To generate an **LTI Enroll Link**, follow the steps below:
+
+1. Navigate to the **Courses** page and select the course you wish to connect.
 2. Click **LTI/LMS** tab and turn ON the **Enable LTI** setting from LTI/LMS Setting area.
-3. Enable **Enrol to course only** setting to generate the link.
+3. Enable the **Enroll to course only** setting to generate the link.
+4. Copy the link and paste it as an **External Tool** in your LMS system.
 
 
-.. Note:: When you enabled the **Enrol to course only** setting, Grades will not be passed back to the LMS although you can use a :ref:`Webhook <webhooks>` if required.
+
+
+.. Note:: With the **Enroll to course only** setting, grades are not passed back to the LMS. Refer to :ref:`Webhook <webhooks>` for more information about passing grades back.

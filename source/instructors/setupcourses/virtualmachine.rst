@@ -107,7 +107,7 @@ or from a :ref:`Custom Guide Button<custom-buttons>`
 
 .. code:: ini
 
-   {Try it | terminal}(codio-vm help)
+   {Try it | terminal}(codio-tools help)
 
 
 The working directories for:
@@ -116,17 +116,19 @@ The working directories for:
 - Windows Virtual Machine - "C:\\"
 - Ubuntu Virtual Machine - "/home/ubuntu"
 
+.. Note::  Instead of **codio-tools** you can also use **codio-vm**, both will work the same.
+
 Following are some example of commands that can be used to interact with Virtual Machine:
 
-- **codio-vm help** - This command gives you a brief introduction about many commands that can be used to interact with Virtual Machine.
+- **codio-tools help** - This command gives you a brief introduction about many commands that can be used to interact with Virtual Machine.
 
-- **codio-vm upload** - This command is used to upload a file from Codio filetree to Virtual Machine.
+- **codio-tools upload** - This command is used to upload a file from Codio filetree to Virtual Machine.
 
    Windows example:
 
    .. code:: ini
 
-      codio-vm upload "/home/codio/workspace/local_file.sh" "C:\remote_file.sh"
+      codio-tools upload "/home/codio/workspace/local_file.sh" "C:\remote_file.sh"
 
    Running above command will upload ‘local_file.sh’ file present in your Codio filetree into the Virtual Machine as ‘remote_file.sh’.
 
@@ -134,7 +136,7 @@ Following are some example of commands that can be used to interact with Virtual
 
    .. code:: ini
 
-      codio-vm upload "/home/codio/workspace/local_file.sh" "/home/ubuntu/remote_file.sh"
+      codio-tools upload "/home/codio/workspace/local_file.sh" "/home/ubuntu/remote_file.sh"
 
 
    Similar to file, you can also upload the Folder
@@ -143,23 +145,23 @@ Following are some example of commands that can be used to interact with Virtual
 
    .. code:: ini
 
-      codio-vm upload "/home/codio/workspace/local_folder" "C:\remote_folder"
+      codio-tools upload "/home/codio/workspace/local_folder" "C:\remote_folder"
 
 
    In Ubuntu:
 
    .. code:: ini
 
-      codio-vm upload "/home/codio/workspace/local_folder" "/home/ubuntu/remote_folder"
+      codio-tools upload "/home/codio/workspace/local_folder" "/home/ubuntu/remote_folder"
 
 
-- **codio-vm download** - This command is used to download a file from Virtual Machine into your Codio filetree.
+- **codio-tools download** - This command is used to download a file from Virtual Machine into your Codio filetree.
 
    Windows example:
 
    .. code:: ini
 
-      codio-vm download "C:\remote_file.sh" "/home/codio/workspace/local_file.sh"
+      codio-tools download "C:\remote_file.sh" "/home/codio/workspace/local_file.sh"
 
 
    Running above command will download ‘remote_file.sh’ file from your Virtual Machine into your Codio filetree and saves it as ‘local_file.sh’.
@@ -168,7 +170,7 @@ Following are some example of commands that can be used to interact with Virtual
 
    .. code:: ini
 
-      codio-vm download "/home/ubuntu/remote_file.sh" "/home/codio/workspace/local_file.sh"
+      codio-tools download "/home/ubuntu/remote_file.sh" "/home/codio/workspace/local_file.sh"
 
 
    Similar to file, you can also download the Folder from your Virtual Machine
@@ -177,34 +179,34 @@ Following are some example of commands that can be used to interact with Virtual
 
    .. code:: ini
 
-      codio-vm download "C:\remote_folder" /home/codio/workspace/local_folder"
+      codio-tools download "C:\remote_folder" /home/codio/workspace/local_folder"
 
 
    In Ubuntu:
 
    .. code:: ini
 
-      codio-vm download "/home/ubuntu/remote_folder" /home/codio/workspace/local_folder"
+      codio-tools download "/home/ubuntu/remote_folder" /home/codio/workspace/local_folder"
 
-- **codio-vm start** - This command is used to start the Virtual Machine.
+- **codio-tools start** - This command is used to start the Virtual Machine.
 
-- **codio-vm restart** -  This command is used to restart the Virtual Machine.
+- **codio-tools restart** -  This command is used to restart the Virtual Machine.
 
-- **codio-vm terminate** -  This command is used to reset the Virtual Machine.
+- **codio-tools terminate** -  This command is used to reset the Virtual Machine.
 
-- **codio-vm status** - This command will return the current state of Virtual Machine. The returned value will be one of RUNNING, INACTIVE, STARTING, STOPPING.
+- **codio-tools status** - This command will return the current state of Virtual Machine. The returned value will be one of RUNNING, INACTIVE, STARTING, STOPPING.
 
-- **codio-vm get-ip** - This command will return the IP address of Virtual Machine.
+- **codio-tools get-ip** - This command will return the IP address of Virtual Machine.
  
-- **codio-vm get-host-name**  - This command will return the Host Name of Virtual Machine.
+- **codio-tools get-host-name**  - This command will return the Host Name of Virtual Machine.
 
-- **codio-vm exec/codio-vm exec-async** - This command is used to execute a command on Virtual Machine.
+- **codio-tools exec/codio-tools exec-async** - This command is used to execute a command on Virtual Machine.
 
    For example
 
    .. code:: ini
 
-      codio-vm exec mkdir -p “my_folder”
+      codio-tools exec mkdir -p “my_folder”
 
    Running above command will create “my_folder” folder in the working directories of your Virtual Machine.
 
@@ -212,22 +214,22 @@ Following are some example of commands that can be used to interact with Virtual
 
    .. code:: ini
 
-      codio-vm exec start chrome
+      codio-tools exec start chrome
 
    Can also open a particular URL in the Chrome browser
 
    .. code:: ini
 
-      codio-vm exec start chrome /incognito  https://codio.com
+      codio-tools exec start chrome /incognito  https://codio.com
 
 
-- **codio-vm sync** - This command is used to sync folder/file between Codio box and Virtual Machine.
+- **codio-tools sync** - This command is used to sync folder/file between Codio box and Virtual Machine.
 
    Windows example:
 
    .. code:: ini
 
-      codio-vm sync "/home/codio/workspace/folder" "C:\Users\Administrator\Desktop\folder"
+      codio-tools sync "/home/codio/workspace/folder" "C:\Users\Administrator\Desktop\folder"
 
 
    Running above command will sync both, 'folder' in Codio box and 'folder' in Windows VM. The latest changes made to one of 'folder' will automatically synced to the other 'folder'. If the mentioned file/folder does not exist in the Virtual Machine, it will be copied from Codio box to the Virtual Machine at the mentioned path.
@@ -236,33 +238,33 @@ Following are some example of commands that can be used to interact with Virtual
 
    .. code:: ini
 
-      codio-vm sync "/home/codio/workspace/folder" "/home/ubuntu/folder"
+      codio-tools sync "/home/codio/workspace/folder" "/home/ubuntu/folder"
 
 
-- **codio-vm port forwarding** - This command is used to enable access to services running on the Virtual Machine from Codio box.
+- **codio-tools port forwarding** - This command is used to enable access to services running on the Virtual Machine from Codio box.
 
    .. code:: ini
 
-       codio-vm port-forwarding 3355 3344
+       codio-tools port-forwarding 3355 3344
 
    Running above command will enable access to service running on port 3344 in Virtual Machine from port 3355 in Codio box. You can use either Box URL with port 3355 or call 'curl localhost:3355' from terminal in Codio box. The port values mentioned here are just an example, you can use different port values. 
 
 
-- **codio-vm daemonized-list** - This command will list all the daemonized processes.
+- **codio-tools daemonized-list** - This command will list all the daemonized processes.
 
-- **codio-vm kill-all-daemonized** - This command will kill all the daemonized processes.
+- **codio-tools kill-all-daemonized** - This command will kill all the daemonized processes.
 
-- **codio-vm kill-daemonized** - This command will kill the specific daemonized process.
+- **codio-tools kill-daemonized** - This command will kill the specific daemonized process.
 
    .. code:: ini
 
-      codio-vm kill-daemonized 353
+      codio-tools kill-daemonized 353
 
-   Running above command will kill the daemonized process whose PID is 353. You can see PID of all daemonized processes using `codio-vm daemonized-list`.
+   Running above command will kill the daemonized process whose PID is 353. You can see PID of all daemonized processes using `codio-tools daemonized-list`.
 
-- **codio-vm get-project-info** - This command will provide the below course/project/user information in Table or JSON format (Table is default).
+- **codio-tools get-project-info** - This command will provide the below course/project/user information in Table or JSON format (Table is default).
 
-    - codio-vm get-project-info ``--`` format json:
+    - codio-tools get-project-info ``--`` format json:
 
         .. code:: ini
 
@@ -275,7 +277,7 @@ Following are some example of commands that can be used to interact with Virtual
                 },
                 "course": {
                     "id": "ba9c37a68782692435a47f8087e1b4d0",
-                    "name": "codio-vm get-project-info course",
+                    "name": "codio-tools get-project-info course",
                     "lti": false,
                     "assignment": {
                     "id": "21fffe6e3932801221b7d5ef03fa646c",
@@ -295,7 +297,7 @@ Following are some example of commands that can be used to interact with Virtual
                 }
             }
 
-    - codio-vm get-project-info ``--`` format table:
+    - codio-tools get-project-info ``--`` format table:
 
         .. code:: ini
 
@@ -309,7 +311,7 @@ Following are some example of commands that can be used to interact with Virtual
                 | user.fullName           | stud 100                             |
                 | user.email              | yescodio+stud100@gmail.com           |
                 | course.id               | ba9c37a68782692435a47f8087e1b4d0     |
-                | course.name             | codio-vm get-project-info course     |
+                | course.name             | codio-tools get-project-info course     |
                 | course.lti              | false                                |
                 | course.assignment.id    | 21fffe6e3932801221b7d5ef03fa646c     |
                 | course.assignment.name  | example assignment                   |
