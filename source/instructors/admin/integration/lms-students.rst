@@ -39,3 +39,9 @@ Based on the LMS role, if teachers join Codio via the LMS, the following will ap
 +----------------------+-----------------------------------------------------------------------------------------------------+
 
 If you wish to only allow Mentors to view/manage specific students in the course, see :ref:`Filter Learners For Mentors <filter-learners>`
+
+
+LTI Field to Uniquely Identify Students
+---------------------------------------
+
+It is a custom LTI field to uniquely identify students, that field transparently added to our CSV export data files if you would like to do mapping of the results manually. You can find this setting on **LTI Integrations** tab in your Organization Settings.
