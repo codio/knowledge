@@ -7,7 +7,7 @@
 Batch Assignment Update
 =======================
 
-You can do the batch update of some assignments settings like Start date/time of the assignment, Closing date/time of the assignment, Action when assignment closes (for more information about these settings, see :ref:`Assignment Duration <assignment-duration>`) and :ref:`Prime Assignment Containers <prime-assignment-containers>` settings using a CSV file.
+You can do the batch update of some assignments settings like Start date/time of the assignment, Closing date/time of the assignment, Action when assignment closes (for more information about these settings, see :ref:`Assignment Duration <assignment-duration>`), :ref:`Prime Assignment Containers <prime-assignment-containers>` and :ref:`Virtual Coach <enable-vc-bulk>` settings using a CSV file.
 
 To batch update the assignments settings, follow these steps:
 
