@@ -24,7 +24,7 @@ Authoring
    freeze_code
    custom_button
    add_media
-   generating-content
+   generating_content
    open_close_content
    hide_folders
    excludingfiles
