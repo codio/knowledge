@@ -31,7 +31,7 @@ Auto-graded assessments
    random
    math-assessments
    ungraded-assessments
-   
+   ai-assessment-generation
    
    
 
