@@ -26,6 +26,7 @@ Courses Set Up
    preview-course
    batch-assignment-update
    batch-groups-upload
+   batch-student-tagging
    add-teachers
    add-ta
    add-remove-students

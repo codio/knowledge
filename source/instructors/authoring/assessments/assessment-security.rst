@@ -8,7 +8,7 @@ Assessment Security
 
 Data for assessments is stored in individual files in the ``.guides/assessments`` folder. 
 Other folders automatically created in the ``.guides`` directory are: ``.guides/img`` and ``.guides/content``.
-Student assignments only receive the ``.guides`` folder and the ``.guides/img`` folder. If you have have provided student access to the file tree in the :ref:`page layout <page>`, the ``.guides`` folder will not be visible. 
+Student assignments only receive the ``.guides`` folder and the ``.guides/img`` folder. If you have not provided student access to the file tree in the :ref:`page layout <page>`, the ``.guides`` folder will not be visible. 
 
 
 The ``.guides`` folder is a good place to store bash files or data files because they can't be easily deleted by the student via the file tree. Keep in mind though, if students have access to the terminal they can use it to view any files in their Linux container, including the ``.guides`` folder.

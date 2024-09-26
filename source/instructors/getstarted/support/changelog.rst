@@ -15,6 +15,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **Sep 2024**
 
+- `[F] [23rd]`: Added ability to :ref:`Generate Content Drafts with AI <generating-content>`
+
+- `[F] [23rd]`: Added ability to search and filter students using tags, see :ref:`Batch Student Tagging <batch-student-tagging>`
+
 - `[F] [4th]`: Add ability to support :ref:`Webhooks <webhooks>` 
 
 **Aug 2024**
