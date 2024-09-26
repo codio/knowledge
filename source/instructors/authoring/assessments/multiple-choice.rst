@@ -24,7 +24,7 @@ Assessments can be auto-generated from text found on a guides page. Follow below
    .. image:: /img/guides/assessment-generation-prompt.png
       :alt: Assessment Generation Prompt
 
-    If you are unhappy with the generated assessment, you can **Regenerate** the assessment. If you wish to guide the prompt generation with information about how you want your assessment to be, add that information to the **Generation Prompt** field. For example, *create assessment based on the first paragraph with 2 correct answers.*
+If you are unhappy with the generated assessment, you can **Regenerate** the assessment. If you wish to guide the prompt generation with information about how you want your assessment to be, add that information to the **Generation Prompt** field. For example, *create assessment based on the first paragraph with 2 correct answers.*
 
 4. When happy, press **Apply** and then **Create**
 

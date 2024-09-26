@@ -7,7 +7,7 @@
 Batch Student Tagging
 =====================
 
-You can easily assign tags to all or multiple students at once using a CSV file. Once the tags are assigned, you can quickly search and filter students based on those tags in the search bar.
+You can easily assign tags to all or multiple students at once using a CSV file. Once the tags are assigned, you can quickly search and filter students based on those tags in the search bar. This is a useful feature when you want to :ref:`view the work <viewing-student-work>` of specific students.
 
 To search for a specific tag, use '#' followed by the tag name. For instance, if you have assigned the tag 'groupA' to a group of students, you can locate them by typing '#groupA' into the search bar.
 
