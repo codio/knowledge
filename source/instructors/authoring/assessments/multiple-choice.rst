@@ -10,35 +10,25 @@ Multiple choice type assessments provide a question and then single or multiple 
 Assessment Auto-Generation
 ++++++++++++++++++++++++++
 
-Assessments can be auto-generated from text found on a guides page. Follow below steps to auto-generate a Multiple Choice assessment:
+Assessments can be auto-generated using the text on the current guides page as context. Follow the steps below to auto-generate a Multiple Choice assessment:
 
-1. Select Multiple Choice assessment from Assessments list 
+1. Select **Multiple Choice** from the Assessments list.
 
-2. Press the **Generate** button present at bottom right corner 
+2. Press the **Generate** button at bottom right corner. 
 
    .. image:: /img/guides/generate-assessment-button.png
       :alt: Generate assessment button
 
-3. Generation Prompt will open, press **Generate** to preview the generated assessment
+3. The Generation Prompt will open, press **Generate Using AI** to preview the generated assessment.
 
    .. image:: /img/guides/assessment-generation-prompt.png
       :alt: Assessment Generation Prompt
 
- If you are unhappy with the generated assessment, you can **Regenerate** the assessment. If you wish to guide the prompt generation with information about how you want your assessment to be, add that information to the **Generation Prompt** field. For example, *create assessment based on the first paragraph with 2 correct answers.*
+ If you are not satisfied with the result, select **Regenerate** to create a new version of the assessment. You can provide additional guidance in the **Generation Prompt** field. For example, *create assessment based on the first paragraph with 2 correct answers.*
 
-4. When happy, press **Apply** and then **Create**
+4. When you are satisfied with the result, press **Apply** and then **Create**.
 
-
-Important points to consider when auto-generating assessment:
-
-- whatever text is found on that page, the generator will use that to come up with assessment
-- you should always check what is created by looking at **Execution** tab to see output and then by previewing as well when created
-- you can edit/change the generated content as you per requirement
-- showing rationale/answers is set to 'never' so review on the **Grading** tab when to show rationale along with the points you want to allocate to the assessment
-- you cannot regenerate existing assessments, this is only for 'new' assessments
-- Library assessments are not supported
-- if there is not enough information, it may generate bad information so you should always check before creating the assessment
-- if there are some fields broken, it will not generate but contact us with details of course/assignment/assessment and we can check it out
+More information about generating assessments may be found on the :ref:`AI assessment generation <ai-assessment-generation>` page.
 
 Assessment Manual Creation
 ++++++++++++++++++++++++++
