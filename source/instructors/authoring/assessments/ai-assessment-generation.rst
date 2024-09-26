@@ -3,8 +3,8 @@
    
 .. _ai-assessment-generation:
 
-Generating Assessments
-======================
+Generating Assessments With AI
+==============================
 Important points to consider when auto-generating assessments:
 
 - The assessment generator will use the text on the current page to generate the assessment.

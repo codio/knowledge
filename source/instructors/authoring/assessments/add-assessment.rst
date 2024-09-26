@@ -11,6 +11,7 @@ Auto-graded assessments
    :hidden:
    
    assessments
+   ai-assessment-generation
    student-submission
    assessment-security
    auto-grade-scripts
@@ -31,7 +32,6 @@ Auto-graded assessments
    random
    math-assessments
    ungraded-assessments
-   ai-assessment-generation
    
    
 
