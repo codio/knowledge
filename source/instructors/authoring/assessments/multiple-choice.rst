@@ -24,11 +24,14 @@ Assessments can be auto-generated using the text on the current guides page as c
    .. image:: /img/guides/assessment-generation-prompt.png
       :alt: Assessment Generation Prompt
 
+
  If you are not satisfied with the result, select **Regenerate** to create a new version of the assessment. You can provide additional guidance in the **Generation Prompt** field. For example, *create assessment based on the first paragraph with 2 correct answers.*
 
 4. When you are satisfied with the result, press **Apply** and then **Create**.
 
+
 More information about generating assessments may be found on the :ref:`AI assessment generation <ai-assessment-generation>` page.
+
 
 Assessment Manual Creation
 ++++++++++++++++++++++++++
