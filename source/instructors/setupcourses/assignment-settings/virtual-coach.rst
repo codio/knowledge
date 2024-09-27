@@ -48,7 +48,7 @@ If an error message is not provided, the student will receive the following: "Th
 
 .. Note: Standard and Advanced Code tests have an additional "Explain this error" button that will appear if Error Augmentation is on and running a code test results in an error state.
 
-
+Students can provide feedback on the Virtual Coach’s responses by using the thumbs up icon to vote up or the thumbs down icon to vote down the responses.
 The Virtual Coach window may be resized by dragging the circle in the upper left corner.
 
 
