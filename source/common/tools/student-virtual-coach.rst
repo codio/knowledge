@@ -50,5 +50,5 @@ When you open Virtual Coach, you will see up to three options depending on the s
    :alt: Hint option by chatbot
 
 
-
-Note:   You can resize the chatbot window by dragging the circle that appears at the top left corner.
+You can provide feedback on the Virtual Coach’s responses by using the thumbs up icon to vote up or the thumbs down icon to vote down the responses.
+You can also resize the chatbot window by dragging the circle that appears at the top left corner.
