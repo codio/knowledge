@@ -11,10 +11,10 @@ If your institution isn't providing access to Codio for you, you can make a paym
 If the plan is for one or two semesters, when your class ends, only the payment for the class is charged.
 
 
-.. Note:: A single payment can be used for multiple courses in Codio during the specified timeframe.
+.. Note:: A single payment can be used for multiple courses in a Codio account during the specified timeframe.
 
 Individual billing
---------------------
+------------------
 If you are paying yourself, follow these steps:
 
 1. Click your user name or gravatar in the lower portion of the navigation pane to open the **My Account** menu listing.

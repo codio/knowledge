@@ -18,7 +18,7 @@ If you have multithreaded, long-running processes, we recommend using :ref:`Virt
 
 Memory
 ------
-The default memory configuration for asssignments/projects is 756Mb. If your usage requires more memory, you can purchase a larger :ref:`Gigabox <gigabox-usage>` configuration.
+The default memory configuration for asssignments/projects is 1024Mb. If your usage requires more memory, you can purchase a larger :ref:`Gigabox <gigabox-usage>` configuration.
 The ``top`` command can also be used to view how much memory is used by your processes. Note the value in the used column during the heaviest memory consumption as software is running. 
 If the used memory, (highlighted below) is close to the limit, you will likely experience performance degradation.
 

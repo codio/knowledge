@@ -21,6 +21,10 @@ It is also important to understand how Codio maps external system users to Codio
 
 - If the user is known to Codio then Codio will take them directly into the Codio content without any sign-in required. If they are a Codio user but are not a member of your organization then they will be required to complete a verification via email.
 
+- If a student joins Codio from an LMS a new Codio account will be created even if the student already has a Codio account using the same email address where we do not have a userID + LMS system id. 
+
+.. Note:: If you need to reset your password, you can use your username instead of your email address. Alternatively, you can contact your course instructor, who can assist with `resetting the password <https://docs.codio.com/instructors/teaching/resetpassword.html#reset-pass>`_.
+
 - After successful mapping of an user's LMS account to their Codio account, if the user has changed their details such as name or email in their LMS account, Codio will automatically update those details the next time the user accesses Codio from their LMS. Codio will not update the email if another user with the same email already exists.
 
 Teacher Roles

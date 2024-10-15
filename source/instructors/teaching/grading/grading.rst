@@ -141,3 +141,19 @@ Students can then view the comments from the **Education > Code Comments** menu.
 
 .. image:: /img/guides/codecommentguides.png
    :alt: Code Comments
+
+.. _autograde-failure-notification:
+
+Autograde Failure Notification
+------------------------------
+
+You can set autograde failure notification, so whenever the auto-grade script fails for a student submission then you will receive email notification for that.
+
+You can set all teachers in the course to receive notification or you can customize this to set only specific teachers to receive the notification.
+
+To enable this feature:
+
+1. Open the course and navigate to **Grading > Basic Settings**.
+2. From **Autograde Failure Notification** setting, you can choose who should receive the notifications..
+3. If you want to send notifications to all teachers in the course then select **Teachers** option from the dropdown but if you want to send notifications to only specific teachers then choose **Customize** option from dropdown and specify their email addressess (one email per line) in the **Notification Emails** area.
+4. Click **Save Changes**.
