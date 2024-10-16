@@ -46,11 +46,12 @@ If an error message is not provided, the student will receive the following: "Th
    :alt: Explain-Error
 
 
-.. Note: Standard and Advanced Code tests have an additional "Explain this error" button that will appear if Error Augmentation is on and running a code test results in an error state.
+.. Note:: Standard and Advanced Code tests have an additional "Explain this error" button that will appear if Error Augmentation is on and running a code test results in an error state.
 
 Students can provide feedback on the Virtual Coach’s responses by using the thumbs up icon to vote up or the thumbs down icon to vote down the responses.
 The Virtual Coach window may be resized by dragging the circle in the upper left corner.
 
+.. Note:: You can export Virtual Coach logs using one of the Codio API **codio.course.exportCoachData(courseId)**. For more information on Codio APIs and how to use it, check out `Codio JS API <https://github.com/codio/codio-api-js>`_
 
 .. _enable-vc-bulk:
 
@@ -216,6 +217,7 @@ Now you can open any of your assignments or projects and your extension should b
 
 
 .. Note::  By adding an extension to your account, it will **only be visible to you**, and not your students, even If you’ve chosen “learner” or “all” as the **user_type** in the **metadata.json** file. This will let you test your assistant, giving you the ability to make changes to it before deploying it for your organization.
+
 
 
 

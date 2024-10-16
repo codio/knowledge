@@ -3,7 +3,6 @@
    
 .. _notebooks:
 
-
 Auto-Grade with nbgrader
 ========================
 Codio supports `Jupyter notebook <https://jupyter.org/>`_ auto-grading functionality through `nbgrader <http://nbgrader.readthedocs.io/en/stable/index.html>`_. Assignments are created with `Jupyter notebook <https://jupyter.org/>`_ and when the assignment is published to a course, the release version is created for the student. If the assignment is updated and republished, it overwrites all tests and read-only cells with the new version and the release version for the students is updated. If you change the jupyter version or nbgrader version or any other nbgrader metadata in the assignment, it will not reflect automatically for students who have already started the assignment, instructor need to reset their assignment to reflect those changes. Students who haven't started the assignment will receive the updated version of assignment.
@@ -17,6 +16,9 @@ User configurations for nbgrader can be stored in a **nbgrader_config.py** or in
 .. Note:: If both files are used the settings in the **nbgrader_config.py** take precedence. This file is not visible to students in their assignments 
 
 .. Note:: Notebook files are only supported if in the root (`/home/codio/workspace` or `~/workspace`) folder
+
+
+.. Note:: Instructors can be notified of Jupyter Notebook grading failures by enabling the :ref:`Autograde Failure Notification <autograde-failure-notification>` feature in the course settings.
 
 .. Warning:: :ref:`Pair Programming <group-work>` should not be used for Jupyter Notebook
 
