@@ -19,6 +19,42 @@ For more information about adding a Standard Code Test, view this video
     <script src="https://fast.wistia.com/embed/medias/dwts4k9ftt.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_dwts4k9ftt videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/dwts4k9ftt/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 
 
+Assessment Auto-Generation
+++++++++++++++++++++++++++
+
+Assessments can be auto-generated using the text on the current guides page as context. Follow the steps below to auto-generate a Standard Code Test assessment:
+
+1. Select **Standard Code Test** from the Assessments list.
+
+2. Press the **Generate** button at bottom right corner. 
+
+   .. image:: /img/guides/generate-assessment-button.png
+      :alt: Generate assessment button
+
+3. The Generation Prompt will open, press **Generate Using AI** to preview the generated assessment.
+
+   .. image:: /img/guides/assessment-generation-prompt.png
+      :alt: Assessment Generation Prompt
+
+
+ - The Standard Code Test assessment generation provides instructions for the student, the test cases, the solution, and an explanation of the solution. The test cases may use standard input or command line arguments, and the expected output is specified.
+ 
+ - Codio also creates the code file for the student, with the solution bracketed within :ref:`solution templates <solution-file-templating>`. 
+ 
+ - The generate assessment feature does not configure the page :ref:`layout; <layout>` you should specify the layout depending on how you want to present the information to the students.
+
+ If you are not satisfied with the result, select **Regenerate** to create a new version of the assessment. You can provide additional guidance in the **Generation Prompt** field. For example, *create assessment based on the first paragraph with 2 correct answers.*
+
+
+
+4. When you are satisfied with the result, press **Apply** and then **Create**.
+
+
+
+More information about generating assessments may be found on the :ref:`AI assessment generation <ai-assessment-generation>` page.
+
+Assessment Manual Creation
+++++++++++++++++++++++++++
 
 Follow these steps to set up a standard code test:
 

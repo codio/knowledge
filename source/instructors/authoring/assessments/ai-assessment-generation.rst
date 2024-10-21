@@ -9,7 +9,7 @@ Important points to consider when auto-generating assessments:
 
 - The assessment generator will use the text on the current page to generate the assessment.
 
-- You should always review the generated assessment for correctness, including the question prompt and the button text. 
+- You should always review the generated assessment for correctness, including the question prompt, button text, expected output and generated code solutions. 
 
 - You can edit the assessment contents once they have been generated.
 
@@ -35,3 +35,6 @@ Example Prompts
 
 - List different government cybersecurity recommendations and have the student specify which agency recommended them and or what year they were recommended.
 
+**Standard Code Test**
+
+- Provide the student with simple instructions, including the formula used to calculate compound interest. Students should use standard input to prompt for input values. 
