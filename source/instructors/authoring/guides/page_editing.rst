@@ -49,7 +49,6 @@ Layout settings gives you access to the key functions:
   - :ref:`Layout <layout>` allows you to specify the number of panels/columns you want to choose for this section, or set to **Previous** to inherit the layout settings from the previous page.
   - **Show File Tree** allows you to define whether to show or hide the file tree.
      - :ref:`Show Folders <show-hide-folders>` allows you to define specific folders in your project that you wish to be visible when the current section is displayed.
-  - **Content Type** allows you to write your content in either :ref:`Markdown <markdown-content-editing>` or :ref:`HTML <html-content>`.
   - **Guides on Left** allows you to define whether the guides content shows on the left or right.
   - :ref:`Teacher Only <teacher-only>` allows you to show content that only teachers are able to see.      
   - :ref:`Close Tabs <close-tabs>` allows you to close all tabs open from previous section.

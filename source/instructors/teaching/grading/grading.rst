@@ -70,18 +70,21 @@ Grading Queue
 
 Information on all students that require grading for all assignments in the course can be seen from the course **Queue** area in the **Grading** section.
 
-By default, the list is sorted by submission time, with the oldest submission at the top but other filters can be set as required.
+The Grading Queue displays all students' submission that require grading, organized by module/assignment. For an assignment, you can search students by their name or apply below filter options to arrange the list of students.
 
   .. image:: /img/gradingqueue.png
      :alt: Grading Queue
 
-- Assignment Name
+
 - Student Name
-- Grade
-- Points
-- Graded
 - Answered
+- Points
+- Grade
 - Time
+- Graded
+
+
+As explained in the previous section, once you open a student's submission then you can use **Next**, **Previous**, **Next Ungraded** and **Previous Ungraded** buttons to move to the next/previous student submission or next/previous ungraded assessment in that specific assignment.
 
 Override Grade
 --------------
