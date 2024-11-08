@@ -70,7 +70,7 @@ Grading Queue
 
 Information on all students that require grading for all assignments in the course can be seen from the course **Queue** area in the **Grading** section.
 
-The Grading Queue displays all students' submission that require grading, organized by module/assignment. For an assignment, you can search students by their name or apply below filter options to arrange the list of students.
+By default the Grading Queue displays all students' submission that require grading, organized by module/assignment but using the Do Not Group button you can swap to view the queue where the list is sorted by submission time, with the oldest submission at the top but other filters can be set as required.
 
   .. image:: /img/gradingqueue.png
      :alt: Grading Queue
