@@ -3,13 +3,13 @@
 
 .. _markdown-content-editing:
 
-Markdown content editing
-========================
+Content editing
+===============
 
 Content can be written in
 
 - **Markdown** - Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. More information below.
-- **HTML** - Hypertext Markup Language allows more detailed control of your formatting. More information can be found :ref:`here <html-content>`.
+
 
 When you are in edit mode, you can select a section by
 
