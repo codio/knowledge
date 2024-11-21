@@ -15,12 +15,9 @@ User configurations for nbgrader can be stored in a **nbgrader_config.py** or in
 
 .. Note:: If both files are used the settings in the **nbgrader_config.py** take precedence. This file is not visible to students in their assignments 
 
-.. Note:: Notebook files are only supported if in the root (`/home/codio/workspace` or `~/workspace`) folder
-
-
 .. Note:: Instructors can be notified of Jupyter Notebook grading failures by enabling the :ref:`Autograde Failure Notification <autograde-failure-notification>` feature in the course settings.
 
-.. Warning:: :ref:`Pair Programming <group-work>` should not be used for Jupyter Notebook
+
 
 Configuration
 -------------
