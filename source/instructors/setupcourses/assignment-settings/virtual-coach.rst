@@ -83,20 +83,20 @@ Customize/Use an existing custom assistant as a Javascript extension
 
 .. Note::  These examples are experimental and may receive small improvements and updates. If you’re using them as is, please check the respective github repositories for the latest release available.
 
-3. Click on the `Fork <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo>`_ button, in the top right corner, to fork your own copy of the example repo, and give it a unique name - This will be your own copy of the custom assistant where you can make the edits to the example code to customize your assistant.
+3. Click on the green **Use This Template** button or the `Fork <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo>`_ button, in the top right corner, to create a copy of the example repo, and give it a unique name - This will be your own copy of the custom assistant where you can make edits to the example code to customize your assistant.
 
-    a.  You'll see 2 files in your forked repo:
+    a.  You'll see 2 files in your repo:
 
         i.  **metadata.json**: This file will contain some basic information about your extension:
 
              1. **name**: The name of your extension - rename this field to describe what your assistant will do
              2. **type**: For any Coach extension, the default value is “helper”
-             3. **user_type**: Describes who will be able to see the extension - choose one of 3 possible values: “learner”, “instructor”, “all”
+             3. **user_type**: Describes who will be able to see the extension - one of 3 possible values: “learner”, “instructor”, “all”
              4. **component**: For any Coach extension, the default value is "all"
 
         ii.  **index.js**: This file will contain the Javascript code for the extension.
 
-    b. The **index.js** file has a simple example of how you can use the `Coach API <https://codio.github.io/client/codioIDE.coachBot.html>`_ to create your own assistant.
+    b. The **index.js** file has example code of how you can use the `Coach API <https://codio.github.io/client/codioIDE.coachBot.html>`_ to create your own assistant.
 
 4. Edit the **metadata.json** file (rename the extension, choose **user_type**). Save and commit the changes to your branch.
 
@@ -107,9 +107,10 @@ Customize/Use an existing custom assistant as a Javascript extension
 Creating a Release
 ~~~~~~~~~~~~~~~~~~
 
-Now that the code for the extension is complete, you’ll have to create a **Release** for your repository, making it deployable and ready to use. 
-
+Now that the code for the extension is complete, you’ll have to create a **Release** for your repository, making it deployable and ready to use.
+   
 1. Navigate back to your repository and on the right panel, click on “Create a new release”.
+
 
 .. image:: /img/creating-a-release-virtual-coach.png
    :alt: create-release-example
@@ -119,6 +120,8 @@ Now that the code for the extension is complete, you’ll have to create a **Rel
 .. image:: /img/publish-release-virtual-coach.png
    :alt: publish-release-example
 
+
+.. Note:: If you’ve made any changes, updates or edits to your code files (**index.js** or **metadata.js**) after creating a release, you will need to create a new release in order to propagate those changes to your custom assistant.
 
 .. _deploy-your-assistant:
 
@@ -138,9 +141,18 @@ Now that you have authored and tested your very own custom AI assistant, let’s
 5. Paste the URL of your Github repository’s webpage that you copied in step 1, and click Add Extension. You should now see it pop up as an Inactive Extension. To deploy the assistant to your account, click Use. Now it is active and deployed in your organization.
 
 
-.. Note::  **This is an experimental feature**. By adding an assistant to your organization, it will automatically be deployed to every course in that organization. We’re currently working on a way for instructors to have more flexibility and control over deploying custom assistants to specific courses and assignments.
+.. Note::  **This is an experimental feature**. BY adding an assistant to your organization, it will automatically be available to be toggled on/off in every course in that organization. It will appear as an assignment level setting, in the Virtual Coach section.
 
+Applying updates to a custom assistant after creating a new release
+-------------------------------------------------------------------
 
+Once you’ve made more edits to your code files and created a new release, here’s how you can apply the updates to your assistant:
+
+   1. Login to your Codio account, and click on your username or Avatar on the bottom left corner of your screen to open Account Settings.
+   2. Click on Organizations and choose an Organization that you’re an owner of - this is how you’ll be able to set up your assistant as an extension. If you’re not an owner, contact your Organization Admin to help you set it up.
+   3. Now click on Extensions. You should be able to see your Custom Assistant under Active Extensions.
+   4. Click on the Check for Updates button in the top right corner.
+   5. If there are any updates to be applied, you will be prompted to do so!
 
 Authoring your own custom assistant as a Javascript extension
 -------------------------------------------------------------
@@ -154,9 +166,9 @@ https://github.com/codio-extensions/coach-custom-assistant-template-simple
 
 .. 2. Click on the green `Fork <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo>`_ button, in the top right corner, to fork your own copy of the example repo, and give it a unique name - This is where you will be making the edits to the example code to create your custom assistant.
 
-2. Click on the green **Use This Template** button in the top right corner, and select **Create a new repository** from the drop down menu to create your own repo from the template. Now pick an owner for this repository, give it a unique name and click **Create Repository** -  This is where you will be making the edits to the template code to create your own custom assistant.
+2. Click on the green **Use This Template** button in the top right corner, and select **Create a new repository** from the drop down menu to create your own repo from the template. Now pick an owner for this repository, give it a unique name and click **Create Repository** - This is where you will be making the edits to the template code to create your own custom assistant.
 
-    a.  You'll see 2 files in your forked repo:
+    a.  You'll see 2 files in your repo:
 
         i.  **metadata.json**: This file will contain some basic information about your extension:
 
@@ -167,7 +179,7 @@ https://github.com/codio-extensions/coach-custom-assistant-template-simple
 
         ii.  **index.js**: This file will contain the Javascript code for the extension.
 
-    b. The **index.js** file has a simple example of how you can use the `Coach API <https://codio.github.io/client/codioIDE.coachBot.html>`_ to create your own assistant.
+    b. The **index.js** file has boilerplate code of how you can use the `Coach API <https://codio.github.io/client/codioIDE.coachBot.html>`_ to create your own assistant.
 
 
 3. Edit the **metadata.json** file (rename the extension, choose **user_type**). Save and commit the changes to your branch.
@@ -180,7 +192,17 @@ https://github.com/codio-extensions/coach-custom-assistant-template-simple
 
 6. And finally, follow the steps in the :ref:`Deploying a custom assistant<deploy-your-assistant>` section to add the custom assistant to your organization.
 
-.. Note:: **This is an experimental feature.** By adding an assistant to your organization, it will automatically be deployed to every course in that organization. We’re currently working on a way for instructors to have more flexibility and control over deploying custom assistants to specific courses and assignments.
+.. Note:: **This is an experimental feature.** By adding an assistant to your organization, it will automatically be available to be toggled on/off in every course in that organization. It will appear as an assignment level setting, in the Virtual Coach section.
+
+Using your own LLMs in custom assistants via Codio’s LLM Proxy
+--------------------------------------------------------------
+
+If you’d prefer sending API requests to your own LLMs (commercial or open-source) instead of Codio’s built-in Anthropic LLMs, you can do so by leveraging your Organization Level LLM API keys via Codio’s LLM Proxy.
+
+Please refer to our documentation on adding LLM API keys to your Codio Organization and enabling it for a course.
+`Large Language Models in Codio <https://docs.codio.com/instructors/admin/organization/llms.html>`_
+
+Once the API keys are set up and LLMs are enabled in your course, refer to the Coach Custom Assistants `API Reference <https://codio.github.io/client/codioIDE.coachBot.html#.getLlmProxyDetails>`_  to send requests and fetch responses from your own LLMs!
 
 Testing your custom assistant  using Development Mode
 -----------------------------------------------------
@@ -198,7 +220,7 @@ If you’d like to test your assistant before deploying it to your organization,
 
     5. Make the Project visibility Public, and click Create. This will automatically open the Project as well.
 
-    6. Now, you should see the `index.js` file in the filetree on the left. Right click on it, and select Preview Static in the drop down menu.
+    6. Now, you should see the 'index.js' file in the filetree on the left. Right click on it, and select Preview Static in the drop down menu.
 
     7. This will open the file and display a web URL. Copy this web URL.
 
@@ -209,14 +231,14 @@ If you’d like to test your assistant before deploying it to your organization,
     .. image:: /img/extensions-virtual-coach.png
       :alt: extensions example Github repository
 
-    10. Paste the **index.js** webpage URL  that you copied in Step 1 in the Source Code URL field
+    10. Paste the **index.js** webpage URL that you copied in Step 1 in the Source Code URL field
 
-    11. Paste the contents of the metadata.json file that you copied in Step 2 in the metadata section, and click Save changes.
+    11. Paste the contents of the metadata.json file that you copied in Step 2 in the **metadata** section, and click **Save changes**.
 
 Now you can open any of your assignments or projects and your extension should be visible as a menu item in Coach. Test away, make changes and once you’re happy with it, :ref:`create a release<create-a-release>` and :ref:`deploy your assistant<deploy-your-assistant>`!
 
 
-.. Note::  By adding an extension to your account, it will **only be visible to you**, and not your students, even If you’ve chosen “learner” or “all” as the **user_type** in the **metadata.json** file. This will let you test your assistant, giving you the ability to make changes to it before deploying it for your organization.
+.. Note::  By adding an extension to **your** account or testing it in Development mode, it will **only** be visible to **you**, and **not** your students, even If you’ve chosen “learner” or “all” as the **user_type** in the **metadata.json** file. This will let you test your assistant, giving you the ability to make changes to it before deploying it for your organization.
 
 
 
