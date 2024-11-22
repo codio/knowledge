@@ -5,7 +5,7 @@
 
 Jupyter
 =======
-You can set up your assignment to provide your students with a Jupyter Notebook as the default code editor or to open JupyterLab. 
+You can set up your assignment to provide your students with a Jupyter Notebook as the default code editor or to open JupyterLab. More information about `Jupyter Notebook <https://jupyter.org/>`_ and `Jupyter Lab <https://jupyterlab.readthedocs.io/en/latest/>`_.
 
 .. Note:: The :ref:`Code Playback <code-playback>` functionality will not work for code your students enter in a Jupyter Notebook.
 
@@ -39,11 +39,12 @@ The following are a few of the possibilities.
                }
 
 
-- Use guides to :ref:`create a layout <page>` that automatically opens a pane containing JupyterLab or a particular Jupyter NoteBook file. The example below shows a 2-Panel layout.
+- Use guides to :ref:`create a layout <page>` that automatically opens a pane containing JupyterLab or a particular Jupyter NoteBook file. The example below shows a 2-Panel layout. You can also 
 
       - Create a **2-Panel Layout**.
       - Add a tab and for type select - "File" or select the "Jupyter Lab" type. 
-      - Into the **Filename** field paste: "yourjnfilename.ipynb"
+      - Enter the name of your file into the **Filename** field or drag it into it from the file tree.
+      - You can change the :ref:`guide settings <global>` to **Collapsed on Start** and the Jupyter pane will open with the Guides collapsed.
 
    .. image:: /img/jlablayout.png
       :alt: Configuring the layout for Jupyter Lab
