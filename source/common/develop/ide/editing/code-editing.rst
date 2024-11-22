@@ -19,6 +19,7 @@ Code Editing Features
    connect-github-codio
    cursor
    git
+   jupyter
    junit
    keyboard-shortcuts
    force-language-highlighting
