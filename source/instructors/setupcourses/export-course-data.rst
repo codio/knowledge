@@ -26,6 +26,8 @@ You can export course data (including students workspaces) prior to :ref:`deleti
       
 .. Note:: You can also export individual assignment data if you do not need or require data for all the assignments in your course. See :ref:`Export assignment data <export-assignment>`
 
+.. Note:: Students inactive for more than 90 days will not have their course data available for export. See :ref:`Remove inactive students <remove-inactive-students>`
+
 .. _export-studentcourse-data:
 
 Export Student Data for the Course
@@ -42,6 +44,8 @@ You can export course data for individual students (including their workspaces) 
 
    All the data from the course is compiled in a **.zip** file. An email is then sent to you that includes a link to download the students data. The link remains active for 7 days and then the file is removed.
 
+
+.. Note:: Students inactive for more than 90 days will not have their course data available for export. See :ref:`Remove inactive students <remove-inactive-students>`
 
 .. _export-assessment-data:
 
