@@ -33,6 +33,7 @@ Courses Set Up
    change-student-password
    course-contact
    course-revoke-sudo-access
+   course-remove-inactive-students
    export-assignment-data
    export-lti
    lmsconnect
