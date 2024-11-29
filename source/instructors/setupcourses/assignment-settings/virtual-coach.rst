@@ -53,6 +53,8 @@ The Virtual Coach window may be resized by dragging the circle in the upper left
 
 .. Note:: You can export Virtual Coach logs using one of the Codio API **codio.course.exportCoachData(courseId)**. For more information on Codio APIs and how to use it, check out `Codio JS API <https://github.com/codio/codio-api-js>`_
 
+.. Note:: You can review how the Virtual Coach interacts with students by exporting the Course Coach Log Data. For more information, see the :ref:`Course Coach Log Data<export-course-coach-logs>`
+
 .. _enable-vc-bulk:
 
 Enable/Disable Virtual Coach Assistants via Bulk Settings

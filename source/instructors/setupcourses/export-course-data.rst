@@ -110,7 +110,32 @@ To export data related to users accessing assignments in the course, follow thes
 
 .. Note:: The data is retained for a maximum of 6 months.
 
+.. _export-course-coach-logs:
 
+Export Course Coach Logs
+------------------------
+To export data related to users accessing assignments and feedback provided in a course, follow these steps:
+
+1. Navigate to the **Courses** page and select the course to open it.
+2. Click the **Export** tab and then click **Course Coach Logs** in the **Export** section. 
+
+   .. image:: /img/course_coach_logs.png
+      :alt: Export Course Coach Logs
+
+The following data is exported to a **.csv** file for download:
+
+   - Assignment_name (Book based assignments will report the name of the book)
+   - Assessment_id
+   - User_email
+   - User_id
+   - Time
+   - Question
+   - Context_guides
+   - Context_error
+   - Context_files
+   - Response
+
+Exporting and analyzing :ref:`course coach<virtual-coach>` log data helps the instructors to enhance the quality of the feedback and improve their learning experience.
 
 Course Content Exports
 ======================
