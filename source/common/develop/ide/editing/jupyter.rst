@@ -59,3 +59,6 @@ Use the **Tools > Install Software** :ref:`(more information) <box_parts>` menu 
 
 After you have completed installing the software you will need to :ref:`create a new stack <create-stack>` or a :ref:`new stack version <update-stack>` to provide this for your students.
 
+The Codio Jupyter stacks based on Ubuntu 22.04 all utilize JupyterLab, and you should open the file as a JupyterLab (see above) to use all the features of the extension. 
+
+You can check if JupyterLab is installed in your stack by entering the command ``jupyter --version`` in the terminal. This command will inform you which Jupyter packages are installed. If JupyterLab is not installed, you should open the Jupyter Notebook as a file.
