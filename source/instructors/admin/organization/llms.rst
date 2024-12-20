@@ -30,6 +30,13 @@ Enabling LLM for Courses
 
 When keys are added, you can enable use of the key in a course. See :ref:`Course LLMs <course_llm>`.
 
+
+To enable Codio LLM keys for your organization, please contact help@codio.com to initiate the process. Specify whether you require OpenAI or Anthropic keys.
+
+.. Note:: These keys are currently free but may be subject to charges in the future.
+
+
+
 LLM Organization Usage
 ----------------------
 
