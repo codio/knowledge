@@ -13,7 +13,15 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**Dec 2024**
+
+- `[F] [13th]`: Add Ability to request :ref:`Codio LLM keys <org_llm>` for OpenAI or Anthropic to use in :ref:`course <course_llm>`
+
 **Sep 2024**
+
+- `[F] [30th]`: Added ability to :ref:`vote up/down for coachbot <virtual-coach>`
+
+- `[F] [26th]`: Added ability to :ref:`Course coach logs <export-course-coach-logs>`
 
 - `[F] [23rd]`: Added ability to :ref:`Generate Content Drafts with AI <generating-content>`
 
