@@ -79,6 +79,10 @@ The following is a list of ports and URLs that Codio accesses from time to time.
     - `*.codio.com` the main Codio site and application
     
     - `*.codio.io` domains that are auto-generated for each user project
+
+    - `*.codio.co.uk` the main site for Codio services in the UK.
+
+    - `*.codio-box.uk` domains that are auto-generated for user projects in the UK.
     
     - `api.keen.io` statistics gathering to measure student time spent in units   (stats)
     
