@@ -102,7 +102,7 @@ The following is a list of ports and URLs that Codio accesses from time to time.
 
 If your institution blocks access to YouTube as a general rule, your IT department can whitelist YouTube access that only allows access to content from registered and accredited educational content repositories. See `here <https://support.google.com/youtube/answer/2695317?hl=en-GB>`_ for more information on this.
 
-.. Note::  If you are accessing Codio services from the UK, ensure that you include **codio.co.uk** and **\*.codio-box.uk** in your firewall settings. These domains are specific to UK operations and supplement the global domains **(*.codio.com and *.codio.io)**.
+.. Note::  If you are accessing Codio services from the UK, ensure that you include **codio.co.uk** and **\*.codio-box.uk** in your firewall settings.  These domains are specific to UK operations.
 
 
 Ports
