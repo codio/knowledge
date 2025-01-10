@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u''
-copyright = u'Codio 2023. All Rights Reserved'
+copyright = u'Codio 2025. All Rights Reserved'
 author = u''
 
 # The short X.Y version
