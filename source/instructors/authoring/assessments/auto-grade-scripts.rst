@@ -18,7 +18,7 @@ You can find more information about assessment security :ref:`here <assessment-s
 
 Access assessment results
 -------------------------
-You can access student scores for the auto-graded assessments in an assignment. You can get both summary data and data for each assessment. This data is in JSON format and can be accessed in the ``CODIO_AUTOGRADE_ENV`` environment variable. The following are examples of the format of this data. The first tab shows just the assessment data and the second depicts all the available values. 
+You can access student scores for the auto-graded assessments in an assignment. All this information is in JSON format and can be accessed in the ``CODIO_AUTOGRADE_ENV`` environment variable. The following tabs show the format of this data. The first tab shows just the assessment portion of the data and the second depicts all the available values. 
 
 .. tabs::
 
@@ -371,8 +371,10 @@ These variables allow POST and GET requests with the following parameters:
 - **Format** - html, md, txt - txt is default
 - **Penalty** - Penalty is number between 0-100, 
 
+If you want to calculate penalties in the grading script you can use the **completedDate** (in UTC format) in ``CODIO_AUTOGRADE_ENV`` to calculate penalties. See Python example below.
 
-.. Note:: **Grade** would be set after any penalties applied. **Grade + Penalty** should be <= 100. The Penalty is available only for assignment grading. Set penalty to -1 to remove any penalty override. The **completedDate** (in UTC format) can be used to determine penalties to set from the student completed date. 
+.. Note:: **Grade** would be set after any penalties applied. **Grade + Penalty** should be <= 100. The Penalty is available only for assignment grading. Set penalty to -1 to remove any penalty override.  
+
 
 With the V2 versions of grading, the script output is saved as a debug log. This means that all information you want to pass to students must use the **Feedback** mechanism.
 
