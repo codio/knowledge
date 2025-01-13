@@ -18,54 +18,176 @@ You can find more information about assessment security :ref:`here <assessment-s
 
 Access assessment results
 -------------------------
-You can access student scores for the auto-graded assessments in an assignment. You can get both summary data and data for each assessment. This data is in JSON format and can be accessed in the ``CODIO_AUTOGRADE_ENV`` environment variable. The following is an example of the format of this data:
+You can access student scores for the auto-graded assessments in an assignment. All this information is in JSON format and can be accessed in the ``CODIO_AUTOGRADE_ENV`` environment variable. The following tabs show the format of this data. The first tab shows just the assessment portion of the data and the second depicts all the available values. 
 
-.. code:: ini
+.. tabs::
 
-    {
-      "assessments": {
-        "stats": {
-          "total": 2,
-          "answered": 2,
-          "correct": 2,
-          "totalPoints": 12,
-          "points": 8
+    .. code-tab:: assesment
+
+        {
+        "assessments": {
+            "stats": {
+            "total": 2,
+            "answered": 2,
+            "correct": 2,
+            "totalPoints": 12,
+            "points": 8
+            },
+            "info": [{
+            "name": "Test 1",
+            "points": 5,
+            "answer": {
+                "correct": true,
+                "points": 5
+            }
+            }, {
+            "name": "Test 2",
+            "points": 7,
+            "answer": {
+                "correct": true,
+                "points": 3
+            }
+            }]
         },
-        "info": [{
-          "name": "Test 1",
-          "points": 5,
-          "answer": {
-            "correct": true,
-            "points": 5
-          }
-        }, {
-          "name": "Test 2",
-          "points": 7,
-          "answer": {
-            "correct": true,
-            "points": 3
-          }
-        }]
-      },
-      "completedDate": "2017-02-07T09:47:54.471Z",
-      "student": {
-        "id": "codio_GUID",
-        "username": "astudent",
-        "fullName": "A Student",
-        "email": "email@example.com"
-      },
-      "course": {
-        "id": "codio_course_id",
-        "projectId": "codio_project_id",
-        "lti": true,
-        "assignment": {
-          "id": "codio_assignment_id",
-          "start": null,
-          "end": null
+        "completedDate": "2017-02-07T09:47:54.471Z",
+        "student": {
+            "id": "codio_GUID",
+            "username": "astudent",
+            "fullName": "A Student",
+            "email": "email@example.com"
+        },
+        "course": {
+            "id": "codio_course_id",
+            "projectId": "codio_project_id",
+            "lti": true,
+            "assignment": {
+            "id": "codio_assignment_id",
+            "start": null,
+            "end": null
+            }
         }
-      }
-    }
+        }
 
+    .. code-tab:: all
+
+        {
+        "course": {
+            "id": "f5d936dd0f72af90aa238157f45429a4",
+            "name": "My Course Name",
+            "projectId": "50a40e7b-743c-4419-82f8-551b991cd108",
+            "lti": false,
+            "assignment": {
+            "id": "ee4e812c6571a0b0a62d29b98638cdeb",
+            "name": "An auto-graded assignment",
+            "start": null,
+            "due": null,
+            "end": null,
+            "penalties": {
+                "extendMinutes": 10080,
+                "penalties": {
+                "enabled": false,
+                "deductionIntervalMinutes": 60,
+                "deductionPercent": 0,
+                "lowestGradePercent": 0
+                }
+            }
+            },
+            "unit": {
+            "id": "ee4e812c6571a0b0a62d29b98638cdeb",
+            "name": "An auto-graded assignment",
+            "start": null,
+            "due": null,
+            "end": null,
+            "penalties": {
+                "extendMinutes": 10080,
+                "penalties": {
+                "enabled": false,
+                "deductionIntervalMinutes": 60,
+                "deductionPercent": 0,
+                "lowestGradePercent": 0
+                }
+            }
+            }
+        },
+        "class": {
+            "id": "f5d936dd0f72af90aa238157f45429a4",
+            "name": "My Course Name",
+            "projectId": "50a40e7b-743c-4419-82f8-551b991cd108",
+            "lti": false,
+            "assignment": {
+            "id": "ee4e812c6571a0b0a62d29b98638cdeb",
+            "name": "test codio grade json",
+            "start": null,
+            "due": null,
+            "end": null,
+            "penalties": {
+                "extendMinutes": 10080,
+                "penalties": {
+                "enabled": false,
+                "deductionIntervalMinutes": 60,
+                "deductionPercent": 0,
+                "lowestGradePercent": 0
+                }
+            }
+            },
+            "unit": {
+            "id": "ee4e812c6571a0b0a62d29b98638cdeb",
+            "name": "test codio grade json",
+            "start": null,
+            "due": null,
+            "end": null,
+            "penalties": {
+                "extendMinutes": 10080,
+                "penalties": {
+                "enabled": false,
+                "deductionIntervalMinutes": 60,
+                "deductionPercent": 0,
+                "lowestGradePercent": 0
+                }
+            }
+            }
+        },
+        "startedAt": "2025-01-13T13:51:38.520Z",
+        "completedDate": "2025-01-13T13:51:54.042Z",
+        "assessments": {
+            "stats": {
+            "total": 1,
+            "answered": 1,
+            "submitted": 0,
+            "correct": 1,
+            "totalPoints": 20,
+            "points": 20
+            },
+            "info": [
+            {
+                "id": "multiple-choice-927956147",
+                "name": "q1",
+                "type": "multiple-choice",
+                "instructions": "## Favorite food",
+                "points": 20,
+                "draft": {
+                "active": "61934e6f-deda-4453-b4f3-0b9dc716666f"
+                },
+                "answer": {
+                "correct": true,
+                "points": 20,
+                "correctAnswer": "Pizza",
+                "status": null
+                }
+            }
+            ]
+        },
+        "grade": {
+            "penaltyDisabled": false,
+            "assessmentGrade": 100
+        },
+        "student": {
+            "id": "00112233-4455-6677-b298-aa0336dc36e5",
+            "username": "stest-sj-test2",
+            "fullName": "Student B Test",
+            "email": "student sj-test2@codio.com"
+        }
+        }
 .. _participation-grading:
 
 Participation Grading
@@ -247,11 +369,12 @@ These variables allow POST and GET requests with the following parameters:
 - **Grade** (```CODIO_AUTOGRADE_V2_URL```) - return 0-100 percent. This is the percent correct out of total possible points.
 - **Feedback** - text
 - **Format** - html, md, txt - txt is default
-- **CompletedDate** - can be set to determine relevant penalties from student completed date. State in UTC format (see example below)
 - **Penalty** - Penalty is number between 0-100, 
 
+If you want to calculate penalties in the grading script you can use the **completedDate** (in UTC format) in ``CODIO_AUTOGRADE_ENV`` to calculate penalties. See Python example below.
 
-.. Note:: **Grade** would be set after any penalties applied. **Grade + Penalty** should be <= 100. The Penalty is available only for assignment grading. Set penalty to -1 to remove any penalty override.
+.. Note:: **Grade** would be set after any penalties applied. **Grade + Penalty** should be <= 100. The Penalty is available only for assignment grading. Set penalty to -1 to remove any penalty override.  
+
 
 With the V2 versions of grading, the script output is saved as a debug log. This means that all information you want to pass to students must use the **Feedback** mechanism.
 
