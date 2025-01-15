@@ -13,8 +13,8 @@ Files/folders may need to be excluded from students assignments. Such files may 
 
 This can be handled by using **.assignmentignore** or **.unitignore** file in the source project and when published to a course, these files/folders will not be available to the students.
 
-Enter on a new line the file/folders to be excluded defining them relative to the location of the **.assignmentignore** or **.unitignore** file 
-For example if the **.assignmentignore** or **.unitignore** file is located in the project workspace and you wish to exclude
+Enter on a new line the file/folders to be excluded defining them relative to the location of the **.assignmentignore** or **.unitignore** file. 
+For example if the **.assignmentignore** or **.unitignore** file is located in the project workspace and you wish to exclude:
 
 - testing & node_modules folder
 - the file checkscore.js in the views folder
