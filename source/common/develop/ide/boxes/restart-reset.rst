@@ -10,7 +10,11 @@ You can restart or reset your project's box from the **Project** menu.
 
 Restart
 -------
-To restart the box, click the **Project** tab and choose **Restart Box**. The reboot normally takes a few seconds.
+To restart the box, click the **Project** tab and choose **Restart Box**. You can also restart by clicking the restart box icon in the file tree. The reboot normally takes a few seconds.
+
+  .. image:: /img/restart.png
+     :alt: Restart
+
 
 Reset
 -----
