@@ -44,12 +44,6 @@ To create a new repo, follow these steps:
    .. image:: /img/RepoURL.png
       :alt: Repo URL
 
-
-4. When disconnecting your GitHub account or repository, note that this action does not remove the associated **SSH** key from the original repository. If you wish to revoke access, you will need to remove the **SSH** key manually in the repository settings on GitHub. However, you can leave the key in place if you plan to work with the original GitHub account again in the future.
-
-    .. image:: /img/delGithubConn.png
-      :alt: Delete Connection
-
 In Codio: Connect to repo
 -------------------------
 .. Note:: You can skip the rest of this guide and do your normal Git workflow via command line if you prefer. Open a terminal from **Tools > Terminal** on the menu.
@@ -145,6 +139,30 @@ We have added a few Git helpers to the **Tools > Git** menu.
 
 .. image:: /img/git-overview.png
    :alt: Git Overview
+
+
+Disconnect Codio from a GitHub Account
+---------------------------------------
+
+Follow the steps below to disconnect your GitHub account:
+
+1. Click your username in the bottom-left corner of the main menu. 
+
+2. Click the **Applications** tab.
+
+3. In the GitHub section, click **Remove connection** to disconnect your GitHub account from Codio.
+
+.. image:: /img/RemoveConnectionGithub.png
+   :alt: Remove Connection
+
+4. A Remove connection confirmation screen will appear (please don’t close this screen until you complete the process) 
+
+   .. image:: /img/delGithubConn.png
+      :alt: Delete Connection
+
+5. Enter the confirmation code provided and click **Yes** to disconnect your Codio account from the GitHub account.
+
+.. Note:: When disconnecting your GitHub account or repository, note that this action does not remove the associated **SSH** key from the original repository. If you wish to revoke access, you will need to remove the **SSH** key manually in the repository settings on GitHub. However, you can leave the key in place if you plan to work with the original GitHub account again in the future.
 
 More Information
 ----------------
