@@ -44,6 +44,12 @@ To create a new repo, follow these steps:
    .. image:: /img/RepoURL.png
       :alt: Repo URL
 
+
+4. When disconnecting your GitHub account or repository, note that this action does not remove the associated **SSH** key from the original repository. If you wish to revoke access, you will need to remove the **SSH** key manually in the repository settings on GitHub. However, you can leave the key in place if you plan to work with the original GitHub account again in the future.
+
+    .. image:: /img/delGithubConn.png
+      :alt: Delete Connection
+
 In Codio: Connect to repo
 -------------------------
 .. Note:: You can skip the rest of this guide and do your normal Git workflow via command line if you prefer. Open a terminal from **Tools > Terminal** on the menu.
