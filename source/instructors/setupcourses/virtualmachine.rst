@@ -7,7 +7,11 @@
 Virtual Machines
 ================
 
-Codio supports Windows and Ubuntu OS in **Virtual Machine** boxes. To enable this for your organization, send an email to help@codio.com with approximate details of the number of students who will require access to computed VMs.
+Codio supports Windows and Ubuntu OS in **Virtual Machine** boxes.If You are interested in running Virtual machines, you can upgrade your subscription to get access to 1-GB, 4-GB, 8-GB, 16-GB machines.
+
+You purchase a specific number of Virtual Machines that can be used by anyone in your enabled courses. Codio tracks usage based on active projects rather than total projects. In other words, you can have 100 projects in a course that use a Virtual Machine but as long as only one is active at a time, this requires only a single unit to be purchased.
+
+To enable this for your organization, send an email to help@codio.com with approximate details of the number of students who will require access to computed VMs.
 
 .. Note:: Codio is not responsible for licensing issues in regard to any software you install to use.
 
@@ -30,9 +34,11 @@ Enabling VM for the Course
 
 - Select **Operating System** (currently supported: Windows & Ubuntu).
 
-- Select **Memory** to allocate the memory required.
-
 - Select **Stack** - select either **Windows Codio Ami** or **Ubuntu Codio Ami** depending on the OS type selected above but once you have published your own VM Stack (see below), you will be able to select those as required.
+
+- Select **Performance** to allocate the memory required.
+
+
 
 - Save the changes.
 
@@ -222,6 +228,22 @@ Following are some example of commands that can be used to interact with Virtual
 
       codio-tools exec start chrome /incognito  https://codio.com
 
+
+- **codio-tools vm download <vm-name>** - This command is used to download the specified virtual machine, saving its current state for reuse or backup purposes.
+
+- **codio-tools vm destroy <vm-name>** - This command is used to permanently remove the specified virtual machine. Use this command with caution, as the VM cannot be recovered after destruction.
+
+- **codio-tools vm start <vm-name>** - This command is used to initiate the specified virtual machine, making it operational and accessible.
+
+- **codio-tools vm stop <vm-name>** - This command is used to stop the specified virtual machine, freeing up resources while preserving its state
+
+- **codio-tools vm restart <vm-name>** - This command is used to restarts the specified virtual machine, applying any changes or updates to its configuration. 
+
+- **codio-tools vm status <vm-name>** - This command is used to display the current status of the specified virtual machine, such as running, stopped, or inactive.
+
+- **codio-tools vm list** - This command is used to list all virtual machines, showing their names and statuses (stopped, running, or available).
+
+- **codio-tools vm set <param-name> <value>** - This command is used to updates the configuration of a virtual machine by setting specific parameters to the desired values. For example, memory allocation or other VM properties can be modified.
 
 - **codio-tools sync** - This command is used to sync folder/file between Codio box and Virtual Machine.
 
