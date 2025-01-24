@@ -48,7 +48,7 @@ On the left you can:
 - list the exact filenames you want checked. If there are multiple files, list one file per line.
 - enter a relative path in the workspace to check.
 - upload items to compare against (e.g. previous years information), you can also use :ref:`moss bundles <mossbundle>` here.
-- filter out template code setting the maximum fingerprint percentage between 0 and 100%. For more information on fingerprinting see https://dolos.ugent.be/about/algorithm.html#fingerprinting
+- filter out template code setting the maximum fingerprint percentage between 0 and 100%. For more information on fingerprinting see https://dolos.ugent.be/docs/running.html#ignoring-template-code
 - restrict the file types that should be checked. It is possible to add multiple file types by pressing the **Add Extension** button.
 - add the file list in the **Files Excludes** box that you don't want to be inlcuded. If there are multiple files, add each file on a new line.
 
@@ -89,7 +89,7 @@ For more information see the `Dolos <https://dolos.ugent.be/>`_ documentation an
 
 .. Note:: If you can export with the correct language extension (eg username.py or username.java) based on the file extensions so autodetection works.
 
-.. Note:: Manifest.csv does not work with online version.
+.. Note:: Manifest.csv does not work with online version but you can rename the csv file so Dolos can pick it up.
 
 
 .. _mossbundle:
