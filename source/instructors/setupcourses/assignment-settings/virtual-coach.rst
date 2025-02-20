@@ -242,7 +242,3 @@ Now you can open any of your assignments or projects and your extension should b
 
 .. Note::  By adding an extension to **your** account or testing it in Development mode, it will **only** be visible to **you**, and **not** your students, even If you’ve chosen “learner” or “all” as the **user_type** in the **metadata.json** file. This will let you test your assistant, giving you the ability to make changes to it before deploying it for your organization.
 
-
-
-
-
