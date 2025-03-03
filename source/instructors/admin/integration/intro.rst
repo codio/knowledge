@@ -20,6 +20,7 @@ Integrating with your LMS system (Canvas etc.)
    lti-course-copy
    commoncartridge
    lti1-3
+   lti1-3Blackboard
    lti1-3BS-D2L
    lti1-3Canvas
    lti1-3DynReg
