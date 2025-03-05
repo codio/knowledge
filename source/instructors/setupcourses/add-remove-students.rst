@@ -36,6 +36,8 @@ To add a student to your course, follow these steps: follow these steps to add s
       
    The students who have been added are displayed on the **Students** page for the course.
 
+    .. Note:: Students cannot be enrolled while the organization is in trial mode. Please ensure your organization has an active subscription before adding students.
+    
 Add Test Students
 -----------------
 You may view your course using the special student accounts Codio creates for you. There are three test student accounts within your organization that allow you to view content from the student perspective. 
