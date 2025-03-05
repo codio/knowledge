@@ -27,6 +27,8 @@ It is also important to understand how Codio maps external system users to Codio
 
 - After successful mapping of an user's LMS account to their Codio account, if the user has changed their details such as name or email in their LMS account, Codio will automatically update those details the next time the user accesses Codio from their LMS. Codio will not update the email if another user with the same email already exists.
 
+.. Note:: If your organization is in trial mode, student accounts will not be created via LTI integration. Ensure your organization has an active subscription to allow student enrollments.
+
 Teacher Roles
 ~~~~~~~~~~~~~
 
