@@ -24,6 +24,32 @@ We support the following providers:
 
 - `Deepinfra <https://deepinfra.com/docs/advanced/langchain>`_
 
+.. _custom_llm_provider:
+
+Custom LLM Providers
+====================
+
+You can add a custom LLM provider in Codio by entering API keys on the **Organization** > **LLMs** page. This allows you to use your chosen LLM provider in your courses.
+
+.. image:: /img/custom_llm_provider.png
+       :alt: Custom LLM Providers
+
+Steps to Add a Custom LLM Provider
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Click **Add provider** and enter the following details:
+
+- **Name:** A recognizable name for the provider.
+- **Provider:** The name of the LLM service.
+- **Endpoint:** The API endpoint URL for the provider.
+- **API Key:** The authentication key needed to access the provider.
+- **Authentication:** Select the authentication type (e.g., Header or Query Param).
+- **Auth Template:** Specify the authorization format.
+- **Endpoint Environment Variable:** Define an environment variable for the API endpoint.
+- **API Key Environment Variable:** Define an environment variable for the API key.
+
+2. Click **Create** to save and activate the provider.
+
 
 Enabling LLM for Courses
 ------------------------
