@@ -109,13 +109,13 @@ If you had a payment that has now expired, or wish to extend the period of time 
 Refund Policy
 -------------
 
-You can ask for a refund if you drop your course:
+If you drop your course the following refund policy applies:
 
-- If requested within 14 days of starting the payment plan, a full refund can be given.
-- If requested after 14 days it will be a pro-rata refund.  80% if within the first month, 60% if within the second month etc.
+- **Full Refund:** A 100% refund is available if you submit a refund request within **30 days** of your plan purchase.
+- **No Refund:** After **30 days**, no refunds will be provided.
 
-Do **NOT** raise with your card issuing company as a fraudulent transaction as we will always challenge this and additional charges may be incurred by you.
+Do **NOT** dispute the transaction with your card issuer as fraudulent. We actively challenge such claims, which may result in additional charges for you.
 
-To ask for a refund, contact us from your account using the **Support Chat** item in your dashboard so we will know which Codio account you are seeking a refund on (even if your payment receipt was to a different email address) and it will be dealt with as soon as possible.
+Refunds will not be issued if you are found to have breached our `Acceptable Use Policy <https://www.codio.com/legal-stuff#acceptable-use-policy>`_.
 
-Refunds will not be given if you are found to have breached our `Acceptable Use Policy <https://www.codio.com/legal-stuff#acceptable-use-policy>`_.
+To request a refund, please contact us via the **Support Chat** in your dashboard.

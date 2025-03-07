@@ -112,6 +112,28 @@ Example:
 
 If you don't enable **Filter Learners for Mentors**, then mentors can see all the students in the course and access all students' work, even those for whom they are not a mentor.
 
+
+.. _Destination_Page:
+
+Set Destination Page
+********************
+
+The **Set Destination Page** feature allows you to define which page within an assignment should open by default when a student launches it. This ensures students start on the most relevant content immediately.
+
+To configure this, navigate to **Settings** > **Apps** > **Edit App**, then add a custom field using either custom_codio_page or codio_page, specifying the exact page name you want students to land on. Finally, click the **Submit** button to save your changes.
+
+Example:
+
+.. code:: ini
+
+    custom_codio_page=<page name> or codio_page=<page name>
+
+
+.. figure:: /img/lti/DestinationPage.png
+   :alt: Set Destination Page
+
+This ensures that students are directed to the specified page upon opening the assignment instead of the default starting location.
+
 Mapping an Assignment to a Canvas Assignment
 ============================================
 

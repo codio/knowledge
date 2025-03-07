@@ -13,6 +13,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**Mar 2025**
+
+- `[F] [7th]`: Add Ability to :ref:`Custom LLM Providers <custom_llm_provider>`
+
+- `[F] [7th]`: Add Ability to :ref:`set destination page <Destination_Page>`
+
 **Dec 2024**
 
 - `[F] [13th]`: Add Ability to request :ref:`Codio LLM keys <org_llm>` for OpenAI or Anthropic to use in :ref:`course <course_llm>`
