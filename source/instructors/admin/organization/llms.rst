@@ -50,6 +50,52 @@ Steps to Add a Custom LLM Provider
 
 2. Click **Create** to save and activate the provider.
 
+Examples of how to use a custom LLM provider
+--------------------------------------------
+**OpenAI:**
+
+
+   | name: your openai custom name (custom value)
+   | provider: openai (custom value)
+   | api key: 'your api key from openai'
+   | authentication: Header
+   | auth template: Authorization: Bearer {{apikey}}
+   | endpoint environment variable: GEMINI_CUSTOM_URL (custom value)
+   | api key environment variable: GEMINI_CUSTOM_KEY (custom value)
+
+After saving the parameters in the organization and enabling the provider in the course, run the script below in the assignment.
+
+.. code-block:: bash
+
+   #!/bin/bash
+
+   SUB_PATH=/v1/chat/completions
+   LLM_URL=$OPENAI_CUSTOM_URL$SUB_PATH
+
+   curl -X POST $LLM_URL -H "Authorization: Bearer $OPENAI_CUSTOM_KEY" -H "Content-Type: application/json" -d '{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "your question here" }]}'
+
+
+**Gemini:**
+
+
+   | name: your gemini custom name (custom value)
+   | provider: gemini (custom value)
+   | api key: 'you api key from gemini'
+   | authentication: Query param
+   | auth template: key={{apikey}}
+   | endpoint environment variable: GEMINI_CUSTOM_URL (custom value)
+   | api key environment variable: GEMINI_CUSTOM_KEY (custom value)
+
+The script:
+
+.. code-block:: bash
+
+   #!/bin/bash
+
+   SUB_PATH=/v1beta/models/gemini-2.0-flash:generateContent
+   LLM_URL=$GEMINI_CUSTOM_URL$SUB_PATH?key=$GEMINI_CUSTOM_KEY
+
+   curl -X POST $LLM_URL  -H "Content-Type: application/json" -d '{"contents": [{"parts":[{"text": "your question here"}]}]}'
 
 Enabling LLM for Courses
 ------------------------
