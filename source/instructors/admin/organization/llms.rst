@@ -54,14 +54,14 @@ Examples of how to use a custom LLM provider
 --------------------------------------------
 **OpenAI:**
 
-
-   | name: your openai custom name (custom value)
-   | provider: openai (custom value)
-   | api key: 'your api key from openai'
-   | authentication: Header
-   | auth template: Authorization: Bearer {{apikey}}
-   | endpoint environment variable: GEMINI_CUSTOM_URL (custom value)
-   | api key environment variable: GEMINI_CUSTOM_KEY (custom value)
+- name: your openai custom name (custom value)
+- provider: openai (custom value)
+- endpoint: https://api.openai.com
+- api key: your api key from openai
+- authentication: Header
+- auth template: Authorization: Bearer {{apikey}}
+- endpoint environment variable: GEMINI_CUSTOM_URL (custom value)
+- api key environment variable: GEMINI_CUSTOM_KEY (custom value)
 
 After saving the parameters in the organization and enabling the provider in the course, run the script below in the assignment.
 
@@ -77,14 +77,14 @@ After saving the parameters in the organization and enabling the provider in the
 
 **Gemini:**
 
-
-   | name: your gemini custom name (custom value)
-   | provider: gemini (custom value)
-   | api key: 'you api key from gemini'
-   | authentication: Query param
-   | auth template: key={{apikey}}
-   | endpoint environment variable: GEMINI_CUSTOM_URL (custom value)
-   | api key environment variable: GEMINI_CUSTOM_KEY (custom value)
+- name: your gemini custom name (custom value)
+- provider: gemini (custom value)
+- endpoint: https://generativelanguage.googleapis.com
+- api key: your api key from gemini
+- authentication: Query param
+- auth template: key={{apikey}}
+- endpoint environment variable: GEMINI_CUSTOM_URL (custom value)
+- api key environment variable: GEMINI_CUSTOM_KEY (custom value)
 
 The script:
 
