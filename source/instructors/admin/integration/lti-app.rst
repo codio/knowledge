@@ -134,6 +134,68 @@ Example:
 
 This ensures that students are directed to the specified page upon opening the assignment instead of the default starting location.
 
+
+Open student assignments directly from LMS
+******************************************
+
+The **Open student assignments directly from LMS** feature allows teachers to access their students' assignments directly from their Learning Management System (LMS) without needing to navigate to the teacher dashboard. This streamlines the grading and feedback process, making it more efficient.
+
+LTI 1.1 
+"""""""
+
+**Custom parameters**
+
+1. custom_actual_user_id = lms user identification, equivalent of user_id when the request is executed without changing the current user
+2. custom_actual_user_email = actual user email, will be used for registration if custom_actual_user_id is not matched to existing user
+3. custom_actual_user_role = actual user role, should not be Student-like role
+4. custom_actual_user_name_family = actual user family name
+5. custom_actual_user_name_given = actual user given name
+6. custom_actual_user_name_full = actual user full name, could be omitted if custom_actual_user_name_family and custom_actual_user_name_given passed
+
+Example:
+
+.. code:: ini
+
+    custom_actual_user_id=123
+    custom_actual_user_email= lms-admin@email.com
+    custom_actual_user_role=Instructor
+    custom_actual_user_name_family=Family
+    custom_actual_user_name_given=Name
+    custom_actual_user_name_full=Name Family
+
+LTI 1.3
+"""""""
+
+**Custom parameters claim object**
+specified in https://purl.imsglobal.org/spec/lti/claim/custom
+
+**actual_user**
+
+1. id = lms user identification, equivalent of sub when the request is executed without changing the current user
+2. email = actual user email, will be used for registration if custom_actual_user_id is not matched to an existed user
+3. role = actual user role, should not be Student-like role
+4. given_name = actual user given name
+5. family_name = actual user family name
+6. full_name = actual user full name, could be omitted if custom_actual_user_name_family and custom_actual_user_name_given passed
+
+Example:
+
+.. code:: ini
+
+    "https://purl.imsglobal.org/spec/lti/claim/custom": {
+    "actual_user_id": "123",
+    "actual_user_email": "lms-admin@email.com",
+    "actual_user_role": "Instructor",
+    "actual_user_given_name": "Name",
+    "actual_user_family_name": "Family",
+    "actual_user_full_name": "Name Family"
+    }
+
+.. Note:: The parameters should be set by LMS dynamically based on current user, not statically.  If they need assistance contact help@codio.com
+
+.. important:: Canvas/Moodle/Blackboard do not support this feature.
+
+
 Mapping an Assignment to a Canvas Assignment
 ============================================
 
