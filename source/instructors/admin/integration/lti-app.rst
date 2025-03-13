@@ -191,7 +191,7 @@ Example:
     "actual_user_full_name": "Name Family"
     }
 
-.. Note:: The parameters should be set by LMS dynamically based on current user, not statically.  If they need assistance contact help@codio.com
+.. Note:: The parameters should be set by LMS dynamically based on current user, not statically. If you need assistance contact help@codio.com
 
 .. important:: Canvas/Moodle/Blackboard do not support this feature.
 
