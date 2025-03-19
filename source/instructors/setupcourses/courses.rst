@@ -35,6 +35,7 @@ Courses Set Up
    course-revoke-sudo-access
    course-remove-inactive-students
    export-assignment-data
+   custom-css-url
    export-lti
    lmsconnect
    mark-assignments-complete

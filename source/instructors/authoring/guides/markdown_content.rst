@@ -53,6 +53,36 @@ In Play Mode or as you preview, your content is rendered as students will see it
 
 Click here for details on how to insert :ref:`images, videos and hyperlinks <add-media>`.
 
+.. _setting_course_level_custom_css:
+
+Setting Course Level Custom CSS
+--------------------------------
+
+You can now apply custom CSS at the **course level**, eliminating the need to apply CSS to each assignment individually. This can be configured by adding CSS URLs in the **Course Details** section.
+
+To configure this, follow these steps:
+
+1. Click on **Courses** from the left navigation menu.
+2. Select the course you want to edit.
+3. Click **Course Details**.
+4. Add the URLs in the following fields:
+
+  .. image:: /img/Guide_Custom_CSS.png
+     :alt: Guide Custom CSS
+
+
+- **Override Guides CSS URL:**
+
+  - This URL completely replaces Codio's default CSS.  
+  - If a URL is provided, Codio’s default CSS will be ignored, and the CSS from the specified URL will be used.
+
+- **Extra Guides CSS URL:**  
+
+  - This URL adds additional CSS on top of Codio’s default styles.  
+  - It enhances or customizes the existing Codio CSS without removing it.
+
+5. Click **Save** to apply the changes.
+
 Markdown
 ********
 
