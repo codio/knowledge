@@ -39,7 +39,7 @@ Review the following topics to get started setting up your courses:
 - :ref:`Add, Remove or Archive Students in Course <add-remove-students>`
 - :ref:`Add and Remove Course Assignments <add-remove-assignment>`
 - :ref:`Integrate Course with LMS Platform <integrate-lms>`
-- :ref:`Custom CSS URLs <setting_course_level_custom_css>`
+
    
 
 
