@@ -15,7 +15,10 @@ Courses Set up
    instructors/setupcourses/resources/codioresources
    instructors/setupcourses/resources/resourcetools/crunch
    instructors/admin/integration/intro
-   instructors/setupcourses/assignment-settings/assignment-settings   
+   instructors/setupcourses/assignment-settings/assignment-settings
+   
+
+ 
    
 A course is a grouping of students who are taught as a logical group. One of the main tasks for instructors is to create the courses for their students, and then add content (modules and assignments), share it with others, add teachers and students to it, and other tasks. 
 With courses, you can instantly access student code and projects. 
@@ -36,6 +39,7 @@ Review the following topics to get started setting up your courses:
 - :ref:`Add, Remove or Archive Students in Course <add-remove-students>`
 - :ref:`Add and Remove Course Assignments <add-remove-assignment>`
 - :ref:`Integrate Course with LMS Platform <integrate-lms>`
+- :ref:`Custom CSS URLs <setting_course_level_custom_css>`
    
 
 

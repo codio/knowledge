@@ -6,8 +6,6 @@
 Remote SSH Terminal Access
 ==========================
 
-**Important** : if you are looking for information on how to connect to your project 'Box' using the terminal/console window, then please :ref:`read about Boxes <overview>`.
-
 Codio provides the ability to connect to remote servers via SSH. You can open multiple connections and manage connections through the **SSH Connection Manager**.
 
 A **Quick Connect** option lets you access remote servers on an ad hoc basis. The SSH Connection Manager lets you store connections for quick access later.
