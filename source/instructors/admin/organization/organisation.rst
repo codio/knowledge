@@ -67,8 +67,12 @@ To access the **Organizations** page, follow these steps:
 
 2. In the **Organizations** area, click the name of your organization.
 
+Organization Owners
+-------------------
 
-   The Admin options are displayed on the LH bar of the page:
+Organization owners can add other owners to an organization and view all members in the organization. They can also add themselves as teachers to any course.  
+
+The following Codio features are only accessible to Organization owners:
 
     - **Overview** - Update organization profile, enable or disable the ability to create public objects, enable or disable Codio support access,  obtain invitation token, manage education settings, and delete the organization.
     - **Members** - View, add, and remove users in your organization and invite teachers to the organization.
@@ -77,6 +81,8 @@ To access the **Organizations** page, follow these steps:
     - **Dashboard** - Specify the Student Dashboard default page (My Projects or Courses), and specify whether to hide/show Courses.
     - **IP Consent** - Enable or disable IP Consent and manage the versions.
     - **Custom Scripts** - Manage custom scripts used to integrate third-party systems to help and track students.
+    - **Extensions** - Add and enable custom extensions for the organization.
     - **LTI Integrations** - Specify and manage LTI integration settings.
     - **Integrations** - Specify API key for Sense.Network integration, and add other API integrations.
     - **Assessment Libraries** - Create and manage assessment libraries for your organization.
+    - **LLMs** - Specify API keys for LLM models or add a custom LLM provider.
