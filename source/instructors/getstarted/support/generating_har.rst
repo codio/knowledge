@@ -58,7 +58,7 @@ To retrieve console logs in Firefox:
 Generate a HAR file in Safari
 *****************************
 
-1. Open Safari and go to the Develop menu. If you don't see theDevelop menu, follow the instructions in this article from the Safari User Guide: `Use the developer tools in the Develop menu in Safari on Mac <https://support.apple.com/en-bh/guide/safari/sfri20948/mac>`_ .
+1. Open Safari and go to the Develop menu. If you don't see the Develop menu, follow the instructions in this article from the Safari User Guide: `Use the developer tools in the Develop menu in Safari on Mac <https://support.apple.com/en-bh/guide/safari/sfri20948/mac>`_ .
 2. Select Show Web Inspector.
 3. Click the Network tab. You must keep it open while you reproduce the issue.
 4. Reproduce the issue while the network requests are recorded.
