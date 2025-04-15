@@ -7,10 +7,10 @@ on:
 jobs:
 
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Setup env
-        run: pip install sphinx==4.2.0 sphinx-sitemap sphinx_code_tabs recommonmark git+https://github.com/codio/pydata-sphinx-theme.git@master
+        run: pip install sphinxcontrib-applehelp==1.0.4 sphinxcontrib-devhelp==1.0.2 sphinxcontrib-htmlhelp==2.0.1 sphinxcontrib-qthelp==1.0.3 sphinxcontrib-serializinghtml==1.1.5 sphinx==4.2.0 sphinx-sitemap sphinx_code_tabs recommonmark git+https://github.com/codio/pydata-sphinx-theme.git@master
 
       - name: Checkout
         uses: actions/checkout@v1
