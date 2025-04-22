@@ -31,6 +31,7 @@ Auto-graded assessments
    parsons-puzzle
    random
    math-assessments
+   splice
    ungraded-assessments
    
    
