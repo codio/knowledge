@@ -14,6 +14,7 @@ Grading
    grade-freetext
    nbgrader
    release-grades
+   reruncodetests
 
 
 Codio offers the following grading features:
