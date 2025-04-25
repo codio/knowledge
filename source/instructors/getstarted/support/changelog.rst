@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**Apr 2025**
+
+- `[F] [24th]`: Add Ability to :ref:`Rerun student code tests <reruncodetests>`
+
 **Mar 2025**
 
 - `[F] [7th]`: Add Ability to :ref:`Custom LLM Providers <custom_llm_provider>`
