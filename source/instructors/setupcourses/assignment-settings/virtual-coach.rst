@@ -60,7 +60,7 @@ The Virtual Coach window may be resized by dragging the circle in the upper left
 Enable/Disable Virtual Coach Assistants via Bulk Settings
 =========================================================
 
-You can enable/disable these three settings for all assignments in a course at bulk, check out :ref:`Batch Assignment Update<batch-assignment-update>`
+You can enable/disable these three settings for all assignments in a course at bulk, check out :ref:`Bulk Assignment Update<bulk-assignment-update>`
 
 - The csv template for bulk assignment settings upload has 3 new columns now, one for each of the virtual coach assistants.
 - These column values in the csv can be set to TRUE to enable any/all of the 3 assistants for any assignments in the course, and FALSE to disable them as part of the bulk settings update process.

@@ -24,7 +24,7 @@ Courses Set Up
    modify-assignments
    rename-reorder-assignments
    preview-course
-   batch-assignment-update
+   bulk-assignment-update
    batch-groups-upload
    batch-student-tagging
    add-teachers
