@@ -76,7 +76,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **February 2024**
 
-- `[F] [02nd]`: Added :ref:`Batch Assignment Update <batch-assignment-update>` feature to update some assignment settings in bulk.
+- `[F] [02nd]`: Added :ref:`Bulk Assignment Update <bulk-assignment-update>` feature to update some assignment settings in bulk.
 
 **December 2023**
 

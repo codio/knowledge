@@ -31,4 +31,4 @@ To set the assignment duration, follow these steps:
 
 5. Click **Save Changes**.
 
-You can update this setting for multiple assignments in bulk, check out :ref:`Batch Assignment Update <batch-assignment-update>`.
+You can update this setting for multiple assignments in bulk, check out :ref:`Bulk Assignment Update <bulk-assignment-update>`.

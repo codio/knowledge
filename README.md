@@ -30,7 +30,7 @@ python3 -m sphinx source build
 ```
 make html
 ```
-If inside Codio, you can use the Make rocketship button on the Codio menu
+If inside Codio, you can use the Make button on the Codio menu (Next to Preview)
 
 ### Preview
 
