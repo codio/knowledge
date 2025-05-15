@@ -4,19 +4,21 @@
 .. _org-owners:
 
 Add or Remove Organization Owners
-=================================
-The person who created the organization is considered the Owner. However, you can add other owners that also have Admin permissions to perform administrator tasks. You can add a new user to your organization and grant them the Owner role or add an existing user in your organization as an Owner. 
+===================================
+The person who created the organization is automatically considered the Owner. However, you can add other owners with Admin permissions to perform administrator tasks. You can do this by adding a new user to your organization or adding an existing user as an Owner. Below are step-by-step instructions on adding an Owner via both options(Note: only an Owner can add Owners).
 
-Add a new user to your organization Owners group
-------------------------------------------------
-Follow these steps to add a new user to the Owners group in your organization:
+
+Adding a New User as an Owner
+------------------------------
+
+**Follow these steps to add a new user to the Owners group in your organization:**
 
 1. Click your profile icon in the lower left corner of the screen.
 
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **Organizations** area, click the name of your organization.
+2. In the **Organizations** tab, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations
@@ -26,7 +28,7 @@ Follow these steps to add a new user to the Owners group in your organization:
    .. image:: /img/manage_organization/memberstab.png
       :alt: Members
 
-4. In the  **Invite Teacher to the Organization** area, enter in the **Teacher Email** and select the **Organization owner** from the drop down.
+4. In the  **Invite Teacher to the Organization** section, enter in the **Teacher Email** and in the **invite as** section select the **Organization owner** from the drop down.
 
    .. image:: /img/manage_organization/inviteowner.png
       :alt: Invite Owner
@@ -42,16 +44,16 @@ Follow these steps to add a new user to the Owners group in your organization:
   .. image:: /img/manage_organization/pendinginviteowner.png
      :alt: Pending Invitations
 
-Add an existing Codio user to your organization Owners group
-------------------------------------------------------------
-Follow these steps to add an existing Codio user to the Owners group in your organization:
+Adding an Existing User as an Owner
+------------------------------------- 
+**Follow these steps to add an existing Codio user to the Owners group in your organization:**
 
 1. Click your profile icon in the lower left corner of the screen.
 
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **Organizations** area, click the name of your organization.
+2. In the **Organizations** tab, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations
@@ -63,23 +65,23 @@ Follow these steps to add an existing Codio user to the Owners group in your org
 
 4. Click **Owners** and enter the username for the teacher you want to add as an Owner. Click the drop-down list and select the username.
 
-   .. image:: /img/manage_organization/owners.png
+   .. image:: /img/exsistinguserowner.png
       :alt: Owners
 
 5. Click **Add User**.
 
-6. On the confirmation dialog, click **Yes**.
+6. On the confirmation popup, click **Yes**.
 
-Remove owners
--------------
-You can remove a user from the Owners group in your organization, but keep in mind that you must always have at least one Owner. Removing a user from the Owners group does not remove them from the organization, but rather removes them from the **Owner** role. Follow these steps to remove a user from the Owners group: 
+Removing Owners
+----------------
+You can remove a user from your organization's Owners group, but you must always have at least one Owner. Removing a user from the Owners group does not remove them from the organization but from the **Owner** role. Below are the step-by-step instructions on how to remove a user from the Owners group:
 
 1. Click your profile icon in the lower left corner of the screen.
 
    .. image:: /img/class_administration/profilepic.png
       :alt: Profile
 
-2. In the **Organizations** area, click the name of your organization.
+2. In the **Organizations** tab, click the name of your organization.
 
    .. image:: /img/class_administration/addteachers/myschoolorg.png
       :alt: My Organizations
@@ -91,7 +93,7 @@ You can remove a user from the Owners group in your organization, but keep in mi
 
 4. Click **Owners** to view the list of owners in your organization.
 
-   .. image:: /img/manage_organization/owners.png
-      :alt: Owmers
+   .. image:: /img/removingowner.png
+      :alt: Owners
 
-5. Click **Remove** next to the username and then click **Yes** on the confirmation dialog.
+5. Click **Remove** next to the username and then click **Yes** on the confirmation popup window.
