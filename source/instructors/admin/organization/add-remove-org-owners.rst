@@ -5,7 +5,7 @@
 
 Add or Remove Organization Owners
 ===================================
-The person who created the organization is automatically considered the Owner. However, you can add other owners with Admin permissions to perform administrator tasks. You can do this by adding a new user to your organization and then granting them the Owner role or adding an existing user as an Owner. Below are step-by-step instructions on adding an Owner via both options.
+The person who created the organization is automatically considered the Owner. However, you can add other owners with Admin permissions to perform administrator tasks. You can do this by adding a new user to your organization or adding an existing user as an Owner. Below are step-by-step instructions on adding an Owner via both options(Note: only an Owner can add Owners).
 
 
 Adding a New User as an Owner
