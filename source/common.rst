@@ -21,7 +21,7 @@ Developing Code
    common/develop/ide/boxes/overview
    common/develop/ide/boxes/installsw/install-software
    common/develop/ide/debugger/debugger
-   common/develop/general
+   common/develop/websecuritybrowsercapabilities
 
 Projects
 --------
