@@ -13,17 +13,17 @@ Cookie Requirements
 -------------------
 
 To ensure Codio works properly, you must enable cookies in your web browser. Below you will find instructions on how to enable cookies for all sites.
-If you have any questions or concerns regarding cookies, please check our `Privacy policy <https://www.codio.com/legal-stuff#pii>`_ .
+If you have any questions about how Codio uses cookies, please check our `Privacy policy <https://www.codio.com/legal-stuff#pii>`_.
 
 
 Enabling Cookies in Chrome:
 ****************************
 
-1. Click the three-dot menu in the top right corner
-2. Go to Settings
-3. Click "Privacy and Security" tab in the main menu
-4. Select "Third-party cookies"
-5. Choose "Allow third-party cookies"
+1. Click the three-dot menu in the top right corner.
+2. Go to Settings.
+3. Click "Privacy and Security" tab in the main menu.
+4. Select "Third-party cookies".
+5. Choose "Allow third-party cookies".
 
 
 .. image:: /img/ChromeCookies.png
@@ -35,18 +35,18 @@ Enabling Cookies in Chrome:
 Enabling Cookies in Firefox:
 *****************************
 
-1. Open the menu (three horizontal lines) in the top right
-2. Go to Settings
-3. Select "Privacy & Security"
-4. Under "Enhanced Tracking Protection", choose "Standard" or select "Custom" and uncheck "Cookies"
-5. Ensure third-party cookies are not blocked
+1. Open the menu (three horizontal lines) in the top right.
+2. Go to Settings.
+3. Select "Privacy & Security".
+4. Under "Enhanced Tracking Protection", choose "Standard" or select "Custom" and uncheck "Cookies".
+5. Ensure third-party cookies are not blocked.
 
 .. image:: /img/FirefoxCookies.png
    :alt: Firefox Cookies
 
 
 
-**Ensure third-party cookies are not blocked by checking the box "Allow Firefox to automatically trust third-party..."**
+.. Note:: Ensure third-party cookies are not blocked by checking the box "Allow Firefox to automatically trust third-party..."
 
 .. image:: /img/FirefoxThirdPartyCookies.png
    :alt: Firefox Cookies
@@ -57,10 +57,10 @@ Enabling Cookies in Safari:
 ****************************
 
 
-1. Open the menu by clicking Safari in the top left
-2. Click on Settings
-3. Click the "Advanced" tab 
-4. Uncheck "Block all cookies"
+1. Open the menu by clicking Safari in the top left.
+2. Click on Settings.
+3. Click the "Advanced" tab.
+4. Uncheck "Block all cookies".
 
 
 .. image:: /img/SafariCookies25.png
@@ -69,7 +69,19 @@ Enabling Cookies in Safari:
 
 If using an earlier version of Safari, check **Always Allow** in the Cookies and website data section
 
+Enabling Cookies in Microsoft Edge:
+***********************************
 
+1. Open Microsoft Edge on your computer.
+2. Click the three dots (...) in the top-right corner to open the menu.
+3. Select "Settings".
+4. In the left sidebar, click on "Cookies and site permissions".
+5. Click "Cookies and site data"
+6. Make sure the toggle for "Block third-party cookies" is turned OFF.
+7. Ensure "Allow sites to save and read cookie data (recommended)" is turned ON. 
+
+.. image:: /img/edgecookeis.png
+   :alt: Edge Cookies
 
 .. _firewalls:
 
@@ -135,10 +147,10 @@ If you continue to experience difficulties, visit the `Connection Diagnostics <h
 
 Steps for  sending us the generated output:
 
-1. Go to your Codio dashboard 
-2. Click on **Support Chat** found on the bottom left corner under "Help"
-3. Attach the output file using the paperclip icon
-4. Send the message
+1. Go to your Codio dashboard.
+2. Click on **Support Chat** found on the bottom left corner under "Help".
+3. Attach the output file using the paperclip icon.
+4. Send the message.
 
 .. _browser-support:
 
@@ -162,7 +174,7 @@ While Codio works with most browsers we recommend using the most recent versions
 
 
 
-If you continue to experience any disruptions in Codio, please send an email to **help@codio.com**.
+If you continue to experience any disruptions in Codio, please send an email to `help@codio.com <https://help@codio.com>`_.
 
 .. _disable-ie-compatibility-view:
 
@@ -175,13 +187,13 @@ This is due to the *Compatibility Mode* of the Browser which enables old feature
 
 To disable Compatibility View in Microsoft Edge, follow these steps:
 
-1. Open Microsoft Edge
-2. Click on the three dots menu (⋯) in the top-right corner
-3. Select "Settings"
-4. In the left sidebar, click on "Default browser"
-5. Under "Internet Explorer compatibility," look for the "Allow sites to be reloaded in Internet Explorer mode" option
-6. Click the dropdown menu on the right
-7. Click "Don't allow"
+1. Open Microsoft Edge.
+2. Click on the three dots menu (⋯) in the top-right corner.
+3. Select "Settings".
+4. In the left sidebar, click on "Default browser".
+5. Under "Internet Explorer compatibility," look for the "Allow sites to be reloaded in Internet Explorer mode" option.
+6. Click the dropdown menu on the right.
+7. Click "Don't allow".
 
 
 .. image:: /img/Microsoftcompatibility.png
