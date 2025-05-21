@@ -6,7 +6,7 @@
 Remove Organization Members
 ===========================
 
-You can remove inactive members to make space for new ones. For instance, if students leave a course, you might want to free up their account licenses for other students. To remove members from your organization, please follow these steps:
+To remove members from your organization, please follow these steps:
 
 1. Click your profile icon in the lower left corner of the screen.
 
@@ -30,7 +30,7 @@ You can remove inactive members to make space for new ones. For instance, if stu
 
 5. Click **Remove** for each user you want to remove from your organization.
 
-.. image:: /img/allmembers.png
+   .. image:: /img/allmembers.png
       :alt: All Members
 
 If you want to use the accounts for new students, see :ref:`Add or Remove Students in a Course <add-remove-students>`.
