@@ -16,11 +16,12 @@ Managing assignments
    disable-assignment
    visibility-completed
    visibility-disabled
+   disable-mark-completed
+   complete-requires-all-answered
    allow-student-reset
    allow-regrade-request
-   prerequisite-assignments
-   disable-mark-completed
    disable-download
+   prerequisite-assignments
    assignment-duration
    penalties
    exam-proctoring
