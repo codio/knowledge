@@ -6,119 +6,256 @@
 LTI 1.3 for Canvas
 ==================
 
-See this page for a video demonstration:
+On this page, you will find detailed step-by-step guidelines to help you with integrating your Canvas and Codio accounts. Along with connecting/mapping assignments in Canvas.
 
-:ref:`LTI 1.3 integration <lti1-3>`
+
+LTI version 1.3 improves upon version [LTI-1.1] by moving away from the use of OAuth 1.0a-style signing for authentication and towards a new security model, using OpenID Connect, signed JWTs, and OAuth2.0 workflows for authentication. As we have implemented the majority of these improvements already in Codio, we recommend using the LT1 1.1 integration instead of 1.3 unless your LMS specifically requires it, since it is much easier to set up using the Codio LTI App.
+For more information, see Learning Tools Interoperability Core Specification
+
+The deep linking url is : https://apollo.codio.com/lti/resource_selection
+
 
 Part 1: In Canvas - Create a Developer Key
 ------------------------------------------
 The Canvas user who carries out these steps must be a system administrator.
 
 
-In Codio:
-~~~~~~~~~
-
-1. Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **Organizations**.
-2. Select the **LTI Integrations** tab.
-3. Scroll down to the **LTI Integration 1.3** section; you should see the following fields. Keep this page open.
-
-
-  .. image:: /img/lti/codiolti13settings.png
-     :alt: LTI 1.3 settings in Codio
-
-In Canvas:
-~~~~~~~~~~
-
-4. Select **Admin -> Developer** Keys.
-5. Click on **+Developer Key** and select **+LTI key**.
-
-
-  .. image:: /img/lti/canvasdeveloperkey.png
-     :alt: Creating a Canvas Developer key
-
-6. Complete the **Key Name**, **Title** and **Description** fields.
-7. From Codio, under **LTI 1.3 Integration**, copy the **LTI URL** and paste it into the **Target Link URI field** in Canvas.
-8. From Codio copy the **Initiate Login URL** and paste it into the **OpenID Connect Initiation URL**.
-9. Copy the **Redirect URL** and paste it into the **Canvas Redirect URI** field.
-
-
-  .. image:: /img/lti/developerkeyvalues.png
-     :alt: Adding the Developer key values
-
-
-10. In Canvas, change **JWK Method** to **Public JWK URL**.
-11. From Codio, copy the **Keyset URL** and paste it into the **Public JWK URL** field.
-
-
-  .. image:: /img/lti/canvasJWK.png
-     :alt: JWK URL
-
-12. Expand the **LTI Advantage Services** section and toggle each field on.
-13. Expand the **Additional Settings** section
-
-- Type ``codio.com`` in both the **Domain** and **Tool Id** fields.
-- Select the **Privacy level** as **Public**.
-
-
-
-  .. image:: /img/lti/canvasadvantage.png
-     :alt: LTI Advantage Services
-
-14. Scroll down to the **Placements** field. You can add a placement by starting to type the name and then selecting it when it appears.
-Placements that should be included (remove any others): Link Selection, Editor Button, Assignment Selection and Course Navigation. 
-
-
-
-  .. image:: /img/lti/canvasplacements.png
-     :alt: LTI Placements
-
-15. Expand each of the following fields, and copy the static links below:
-
-- **Link Selection**
-    - Select **LtiDeepLinkingRequest**
-    - **Target Link URI:** ``https://apollo.codio.com/lti/resource_selection``
-    - **Icon Url:** ``https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png``
-
-
-  .. image:: /img/lti/canvaslinkselect.png
-     :alt: Link Selection
-
-- **Editor button**
-    - **Target Link URI:** ``https://apollo.codio.com/lti/editor_button``
-    - **Icon Url:** ``https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png``
-
-
-  .. image:: /img/lti/canvaseditorbutton.png
-     :alt: Editor Button
-
-- **Assignment Selection**
-    - Select **LtiDeepLinkingRequest**
-    - **Target Link URI:** ``https://apollo.codio.com/lti/resource_selection``
-    - **Icon Url:** ``https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png``
++-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. raw:: html                                                                           |                                                                                                                                                              |
+|                                                                                         |                                                                                                                                                              |
+|     <div class="small">                                                                 |                                                                                                                                                              |
+|      <strong>In Codio:</strong><br>                                                     |    |image1|                                                                                                                                                  |
+|     1. Go to your organization account settings by clicking on your user                |                                                                                                                                                              |
+|        name in the bottom left of your dashboard,                                       |                                                                                                                                                              |
+|     and then selecting your organization within <strong>Organizations</strong>.<br><br> |                                                                                                                                                              |
+|                                                                                         |                                                                                                                                                              |
+|     2. Select the <strong>LTI Integrations</strong> tab.<br><br>                        |                                                                                                                                                              |
+|     3. Scroll down to the <strong>LTI Integration 1.3</strong> section; you should      |                                                                                                                                                              |
+|         see the following fields. Keep this page open.                                  |                                                                                                                                                              |
+|     </div>                                                                              |                                                                                                                                                              |
++-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. raw:: html                                                                           |                                                                                                                                                              |
+|                                                                                         |                                                                                                                                                              |
+|     <div class="small">                                                                 |                                                                                                                                                              |
+|      <strong>In Canvas:</strong><br>                                                    |    |image2|                                                                                                                                                  |
+|     4. Select <strong>Admin -> Developer</strong> Keys  <br><br>                        |                                                                                                                                                              |
+|     5. Click on <strong>Developer Key</strong> and select <strong>+LTI key</strong>.    |                                                                                                                                                              |
+|                                                                                         |                                                                                                                                                              |
+|     </div>                                                                              |                                                                                                                                                              |
++-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. raw:: html                                                                           |                                                                                                                                                              |
+|                                                                                         |                                                                                                                                                              |
+|     <div class="small">                                                                 |                                                                                                                                                              |
+|                                                                                         |    |image3|                                                                                                                                                  |
+|     6. Complete the <strong>Key Name, Title</strong> and <strong>Description</strong>   |                                                                                                                                                              |
+|         fields.<br><br>                                                                 |                                                                                                                                                              |
+|     7. From Codio, under <strong>LTI 1.3 Integration, copy the LTI URL</strong>         |                                                                                                                                                              |
+|         and paste it into the <strong>Target Link URI field</strong> in Canvas.<br><br> |                                                                                                                                                              |
+|     8. From Codio copy the <strong>Initiate Login URL</strong> and paste it into the    |                                                                                                                                                              |
+|        <strong>OpenID Connect Initiation URL</strong>.<br><br>                          |                                                                                                                                                              |
+|     9. Copy the <strong>Redirect URL</strong> and paste it into the                     |                                                                                                                                                              |
+|      <strong>Canvas Redirect URI</strong> field.                                        |                                                                                                                                                              |
+|                                                                                         |                                                                                                                                                              |
+|     </div>                                                                              |                                                                                                                                                              |
++-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. raw:: html                                                                           |                                                                                                                                                              |
+|                                                                                         |                                                                                                                                                              |
+|     <div class="small">                                                                 |                                                                                                                                                              |
+|                                                                                         |    |image4|                                                                                                                                                  |
+|     10. In Canvas, change <strong>JWK Method</strong> to                                |                                                                                                                                                              |
+|          <strong>Public JWK URL</strong>. <br><br>                                      |                                                                                                                                                              |
+|     11. From Codio, copy the <strong>Keyset URL</strong> and paste it into              |                                                                                                                                                              |
+|          the <strong>Public JWK URL</strong> field.                                     |                                                                                                                                                              |
+|     </div>                                                                              |                                                                                                                                                              |
++-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. raw:: html                                                                           |                                                                                                                                                              |
+|                                                                                         |                                                                                                                                                              |
+|     <div class="small">                                                                 |                                                                                                                                                              |
+|                                                                                         |    |image5|                                                                                                                                                  |
+|     12. Expand the <strong>LTI Advantage Services</strong> section and toggle           |                                                                                                                                                              |
+|         each field on.<br><br>                                                          |                                                                                                                                                              |
+|     13. Expand the <strong>Additional Settings</strong> section<br><br>                 |                                                                                                                                                              |
+|                                                                                         |                                                                                                                                                              |
+|     14. Type "codio.com" in both the <strong>Domain</strong> and                        |                                                                                                                                                              |
+|        <strong>Tool Id</strong> fields.<br><br>                                         |                                                                                                                                                              |
+|     15. Select the <strong>Privacy level</strong> as <strong>Public</strong>.           |                                                                                                                                                              |
+|                                                                                         |                                                                                                                                                              |
+|                                                                                         |                                                                                                                                                              |
+|     </div>                                                                              |                                                                                                                                                              |
++-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. raw:: html                                                                           |                                                                                                                                                              |
+|                                                                                         |                                                                                                                                                              |
+|     <div class="small">                                                                 |                                                                                                                                                              |
+|                                                                                         |    |image6|                                                                                                                                                  |
+|     16. Scroll down to the <strong>Placements</strong> field. You can add a placement   |                                                                                                                                                              |
+|          by starting to type the name and then selecting it when it appears.            |                                                                                                                                                              |
+|          Placements that should be included (remove any others):                        |                                                                                                                                                              |
+|          Link Selection, Editor Button,  Assignment Selection and Course Navigation.    |                                                                                                                                                              |
+|     </div>                                                                              |                                                                                                                                                              |
++-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-  .. image:: /img/lti/canvasassignment.png
-     :alt: Assignment Selection
-
-- **Course Navigation** 
-    - **Target Link URI:** ``https://apollo.codio.com/lti/course_navigation``
-    - **Icon Url:** ``https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png``
 
 
-  .. image:: /img/lti/canvasnavigation.png
-     :alt: Course Navigation
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| |image7|                                                                                                                                                                                                                                                                                                    | 
+|                                                                                                                                                                                                                                                                                                             |
+| .. raw:: html                                                                                                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                                                             |
+|     <div class="small">                                                                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                             |
+|     17. Expand each of the following fields, and copy the static links below:<br><br>                                                                                                                                                                                                                       |
+|     <strong>Link Selection</strong><br>                                                                                                                                                                                                                                                                     |
+|     Select <strong>LtiDeepLinkingRequest</strong><br>                                                                                                                                                                                                                                                       |
+|     <span style="color: teal;">Target Link URI:</span>                                                                                                                                                                                                                                                      |
+|     https://apollo.codio.com/lti/resource_selection                                                                                                                                                                                                                                                         |
+|     <button onclick="copyRSTUrl1()">Copy URL</button><br>                                                                                                                                                                                                                                                   |
+|     <script> function copyRSTUrl1() {                                                                                                                                                                                                                                                                       |
+|     const url = "https://apollo.codio.com/lti/resource_selection";                                                                                                                                                                                                                                          |
+|     navigator.clipboard.writeText(url).then(() => {                                                                                                                                                                                                                                                         |
+|      alert('URL copied to clipboard!'); }).catch(err => {                                                                                                                                                                                                                                                   |  
+|      console.error('Failed to copy: ', err); }); } </script>                                                                                                                                                                                                                                                |
+|     <span style="color: teal;">Icon Url:</span><br>                                                                                                                                                                                                                                                         |
+|     https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                                                             |
+|     <button onclick="copyRSTUrl1()">Copy URL</button><br>                                                                                                                                                                                                                                                   |
+|     <script> function copyRSTUrl1() {                                                                                                                                                                                                                                                                       |
+|     const url = "https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png";                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                                                             |
+|     navigator.clipboard.writeText(url).then(() => {                                                                                                                                                                                                                                                         |
+|      alert('URL copied to clipboard!'); }).catch(err => {                                                                                                                                                                                                                                                   |  
+|      console.error('Failed to copy: ', err); }); } </script>                                                                                                                                                                                                                                                |
+|     </div>                                                                                                                                                                                                                                                                                                  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| |image8|                                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                             |
+| .. raw:: html                                                                                                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                                                             |
+|     <div class="small">                                                                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                             |
+|     <strong>Editor button</strong><br>                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                                                                                                                             |
+|     <span style="color: teal;">Target Link URI:</span>                                                                                                                                                                                                                                                      |
+|     https://apollo.codio.com/lti/editor_button                                                                                                                                                                                                                                                              |
+|     <button onclick="copyRSTUrl1()">Copy URL</button><br>                                                                                                                                                                                                                                                   |
+|     <script> function copyRSTUrl1() {                                                                                                                                                                                                                                                                       |
+|     const url = "https://apollo.codio.com/lti/editor_button";                                                                                                                                                                                                                                               |
+|     navigator.clipboard.writeText(url).then(() => {                                                                                                                                                                                                                                                         |
+|     alert('URL copied to clipboard!'); }).catch(err => {                                                                                                                                                                                                                                                    |  
+|     console.error('Failed to copy: ', err); }); } </script>                                                                                                                                                                                                                                                 |
+|     <span style="color: teal;">Icon Url:</span><br>                                                                                                                                                                                                                                                         |
+|     https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                                                             |
+|     <button onclick="copyRSTUrl1()">Copy URL</button><br>                                                                                                                                                                                                                                                   |
+|     <script> function copyRSTUrl1() {                                                                                                                                                                                                                                                                       |
+|     const url = "https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png";                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                                                             |
+|     navigator.clipboard.writeText(url).then(() => {                                                                                                                                                                                                                                                         |
+|      alert('URL copied to clipboard!'); }).catch(err => {                                                                                                                                                                                                                                                   |  
+|      console.error('Failed to copy: ', err); }); } </script>                                                                                                                                                                                                                                                |
+|     </div>                                                                                                                                                                                                                                                                                                  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| |image9|                                                                                                                                                                                                                                                                                                    |      
+|                                                                                                                                                                                                                                                                                                             |
+| .. raw:: html                                                                                                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                                                             |
+|     <div class="small">                                                                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                             |
+|     <strong>Assignment Selection</strong><br>                                                                                                                                                                                                                                                               |
+|     Select <strong>LtiDeepLinkingRequest</strong><br>                                                                                                                                                                                                                                                       |
+|     <span style="color: teal;">Target Link URI:</span>                                                                                                                                                                                                                                                      |
+|     https://apollo.codio.com/lti/resource_selection                                                                                                                                                                                                                                                         |
+|     <button onclick="copyRSTUrl1()">Copy URL</button><br>                                                                                                                                                                                                                                                   |
+|     <script> function copyRSTUrl1() {                                                                                                                                                                                                                                                                       |
+|     const url = "https://apollo.codio.com/lti/resource_selection";                                                                                                                                                                                                                                          |
+|     navigator.clipboard.writeText(url).then(() => {                                                                                                                                                                                                                                                         |
+|     alert('URL copied to clipboard!'); }).catch(err => {                                                                                                                                                                                                                                                    |  
+|     console.error('Failed to copy: ', err); }); } </script>                                                                                                                                                                                                                                                 |
+|     <span style="color: teal;">Icon Url:</span><br>                                                                                                                                                                                                                                                         |
+|     https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                                                             |
+|     <button onclick="copyRSTUrl1()">Copy URL</button><br>                                                                                                                                                                                                                                                   |
+|     <script> function copyRSTUrl1() {                                                                                                                                                                                                                                                                       |
+|     const url = "https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png";                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                                                             |
+|     navigator.clipboard.writeText(url).then(() => {                                                                                                                                                                                                                                                         |
+|      alert('URL copied to clipboard!'); }).catch(err => {                                                                                                                                                                                                                                                   |  
+|      console.error('Failed to copy: ', err); }); } </script>                                                                                                                                                                                                                                                |
+|     </div>                                                                                                                                                                                                                                                                                                  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| |image10|                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                                                                                                                                                                             |
+| .. raw:: html                                                                                                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                                                             |
+|     <div class="small">                                                                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                             |
+|     <strong>Course Navigation</strong><br>                                                                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                                                                                             |
+|     <span style="color: teal;">Target Link URI:</span>                                                                                                                                                                                                                                                      |
+|     https://apollo.codio.com/lti/course_navigation                                                                                                                                                                                                                                                          |
+|     <button onclick="copyRSTUrl1()">Copy URL</button><br>                                                                                                                                                                                                                                                   |
+|     <script> function copyRSTUrl1() {                                                                                                                                                                                                                                                                       |
+|     const url = "https://apollo.codio.com/lti/course_navigation";                                                                                                                                                                                                                                           |
+|     navigator.clipboard.writeText(url).then(() => {                                                                                                                                                                                                                                                         |
+|     alert('URL copied to clipboard!'); }).catch(err => {                                                                                                                                                                                                                                                    |  
+|     console.error('Failed to copy: ', err); }); } </script>                                                                                                                                                                                                                                                 |
+|     <span style="color: teal;">Icon Url:</span><br>                                                                                                                                                                                                                                                         |
+|     https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                                                             |
+|     <button onclick="copyRSTUrl1()">Copy URL</button><br>                                                                                                                                                                                                                                                   |
+|     <script> function copyRSTUrl1() {                                                                                                                                                                                                                                                                       |
+|     const url = "https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png";                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                                                             |
+|     navigator.clipboard.writeText(url).then(() => {                                                                                                                                                                                                                                                         |
+|      alert('URL copied to clipboard!'); }).catch(err => {                                                                                                                                                                                                                                                   |  
+|      console.error('Failed to copy: ', err); }); } </script>                                                                                                                                                                                                                                                |
+|     </div>                                                                                                                                                                                                                                                                                                  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. raw:: html                                                                             |                                                                                                                                                              |
+|                                                                                           |                                                                                                                                                              |
+|     <div class="small">                                                                   |                                                                                                                                                              |
+|                                                                                           |    |image11|                                                                                                                                                 |
+|     18. Press <strong>Save</strong> in bottom right corner<br><br>                        |                                                                                                                                                              |
+|     19. You will be back at the list of developer keys.<br><br>                           |                                                                                                                                                              |
+|     20. Update <strong>State</strong> to: on<br><br>                                      |                                                                                                                                                              |
+|     21. Copy the number in the <strong>Details<strong> column (for use in Parts 2 and 3)  |                                                                                                                                                              |
+|     </div>                                                                                |                                                                                                                                                              |
++-------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-16. Press **Save** in bottom right corner
+.. |image1| image:: /instructors/admin/integration/CodioLTI1.3Integration.png
+   :width: 1500px  
+.. |image2| image:: /img/lti/canvasdeveloperkey.png
+   :width: 1500px
+.. |image3| image:: /img/lti/developerkeyvalues.png
+   :width: 1500px
+.. |image4| image:: /img/lti/canvasJWK.png
+   :width: 1500px
+.. |image5| image:: /img/lti/canvasadvantage.png
+   :width: 1500px
+.. |image6| image:: /img/lti/canvasplacements.png
+   :width: 1500px
+.. |image7| image:: /img/lti/canvaslinkselect.png
+   :width: 1500px
+.. |image8| image:: /img/lti/canvaseditorbutton.png
+   :width: 1500px
+.. |image9| image:: /img/lti/canvasassignment.png
+   :width: 1500px
+.. |image10| image:: /img/lti/canvasnavigation.png
+   :width: 1500px
+.. |image11| image:: /img/lti/canvasdetails.png
+   :width: 1500px
 
-17. You will be back at the list of developer keys.
-
-- Update **State** to: on
-- Copy the number in the **Details** column (for use in Parts 2 and 3)
 
 
-  .. image:: /img/lti/canvasdetails.png
-     :alt: Developer Key
 
 Part 2: Create an application in your course in Canvas
 ------------------------------------------------------
@@ -126,31 +263,29 @@ Part 2: Create an application in your course in Canvas
 In Canvas:
 ~~~~~~~~~~
 
++-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+| .. raw:: html                                                                             |                                                                                    |
+|                                                                                           | .. image:: /img/lti/addlti13app.png                                                |
+|     <div class="small">                                                                   |                                                                                    |
+|     1. Select an existing course or create a new course.<br>                              |                                                                                    |
+|      <strong>Optional</strong>: create a test course called Codio Test Course before      |                                                                                    |
+|        you do it with a production course.<br><br>                                        |                                                                                    |
+|      2. In your course, go to <strong>Settings → Apps → + App</strong><br><br>            |                                                                                    |
+|      3. In Configuration Type, select: <strong>By Client ID</strong><br><br>              |                                                                                    |
+|      4. Paste number you copied in Part 1 into <strong>Client ID</strong> field<br><br>   |                                                                                    |
+|      5. <strong>Submit → Install</strong><br><br>                                         |                                                                                    |
+|        </div>                                                                             |                                                                                    |
++-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+| .. raw:: html                                                                             |                                                                                    |
+|                                                                                           | .. image:: /img/lti/canvasdeployment.png                                           |
+|     <div class="small">                                                                   |                                                                                    |
+|     6. After you click install, click the gear icon by the tool you just created<br><br>  |                                                                                    |
+|     7. Select <strong>Deployment ID</strong><br><br>                                      |                                                                                    |
+|                                                                                           |                                                                                    |
+|      8. Copy the ID displayed, it will be used in Part 3                                  |                                                                                    |                                                                                                                           
+|        </div>                                                                             |                                                                                    |
++-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
 
-1. Select an existing course or create a new course. 
-    - Optional: create a test course called Codio Test Course before you do it with a production course.
-
-2. In your course, go to **Settings → Apps → + App**
-
-3. In Configuration Type, select: **By Client ID**
-
-4. Paste number you copied in Part 1 into **Client ID** field
-
-- **Submit → Install**
-
-
-  .. image:: /img/lti/addlti13app.png
-     :alt: Add App
-
-5. After you click install, click the gear icon by the tool you just created
-
-- Select **Deployment ID**
-
-6. Copy the ID displayed, it will be used in Part 3
-
-
-  .. image:: /img/lti/canvasdeployment.png
-     :alt: Deployment ID
 
 
 Part 3: Create an LTI configuration in Codio
@@ -159,50 +294,92 @@ Part 3: Create an LTI configuration in Codio
 In Codio:
 ~~~~~~~~~
 
-1. In your org → **LTI Integrations**
++-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+| .. raw:: html                                                                             |                                                                                    |
+|                                                                                           |                                                                                    |
+|     <div class="small">                                                                   |                                                                                    |
+|     1. In your org → <strong>LTI Integrations</strong><br>                                |     .. image:: /img/lti/addlti13integration.png                                    |
+|            - Scroll down to <strong>LTI 1.3 Configurations</strong><br>                   |                                                                                    |
+|            - Click <strong>Add Integration</strong><br><br>                               |                                                                                    |                                                                                                                         
+|        </div>                                                                             |                                                                                    |
++-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+| .. raw:: html                                                                             |                                                                                    |
+|                                                                                           |                                                                                    |
+|     <div class="small">                                                                   |                                                                                    |
+|     Updating the fields in Platform Information<br><br>                                   |                                                                                    |
+|     <strong>Note: replace [CANVAS DOMAIN] with your institution’s                         |                                                                                    |
+|       domain in steps 5-7</strong><br><br>                                                |    .. image:: /img/lti/canvasplatform25.png                                        |    
+|     2. <span style="color: teal;">Platform ID:</span>                                     |                                                                                    |
+|         https://canvas.instructure.com                                                    |                                                                                    |
+|                                                                                           |                                                                                    |
+|       <button onclick="copyRSTUrl1()">Copy URL</button><br>                               |                                                                                    |
+|       <script> function copyRSTUrl1() {                                                   |                                                                                    |
+|       const url = "https://canvas.instructure.com";                                       |                                                                                    |
+|       navigator.clipboard.writeText(url).then(() => {                                     |                                                                                    |
+|       alert('URL copied to clipboard!'); }).catch(err => {                                |                                                                                    |
+|        console.error('Failed to copy: ', err); }); } </script><br><br>                    |                                                                                    |
+|                                                                                           |                                                                                    |
+|      3. <strong>Client ID:</strong> copied from Developer Keys at end of Part 1<br><br>   |                                                                                    |
+|      4. <strong>Deployment Id:</strong> copied in Part 2<br><br>                          |                                                                                    |
+|                                                                                           |                                                                                    |
+|      5. <span style="color: teal;">Public Keyset URL:</span>                              |                                                                                    |
+|         https://[CANVAS DOMAIN]/api/lti/security/jwks                                     |                                                                                    |
+|                                                                                           |                                                                                    |
+|         <button onclick="copyRSTUrl1()">Copy URL</button><br>                             |                                                                                    |
+|         <script> function copyRSTUrl1() {                                                 |                                                                                    |
+|         const url = "https://[CANVAS DOMAIN]/api/lti/security/jwks";                      |                                                                                    |
+|         navigator.clipboard.writeText(url).then(() => {                                   |                                                                                    |
+|        alert('URL copied to clipboard!'); }).catch(err => {                               |                                                                                    |
+|        console.error('Failed to copy: ', err); }); } </script><br><br>                    |                                                                                    |
+|                                                                                           |                                                                                    |
+|      6. <span style="color: teal;">Access Token URL:</span>                               |                                                                                    |
+|         https://[CANVAS DOMAIN]/login/oauth2/token                                        |                                                                                    |
+|                                                                                           |                                                                                    |
+|         <button onclick="copyRSTUrl1()">Copy URL</button><br>                             |                                                                                    |
+|         <script> function copyRSTUrl1() {                                                 |                                                                                    |
+|         const url = "https://[CANVAS DOMAIN]/login/oauth2/token";                         |                                                                                    |
+|         navigator.clipboard.writeText(url).then(() => {                                   |                                                                                    |
+|        alert('URL copied to clipboard!'); }).catch(err => {                               |                                                                                    |
+|        console.error('Failed to copy: ', err); }); } </script><br><br>                    |                                                                                    |
+|                                                                                           |                                                                                    |
+|      7. <span style="color: teal;">Authentication Request URL:</span>                     |                                                                                    |
+|         https://[CANVAS DOMAIN]/api/lti/authorize_redirect                                |                                                                                    |
+|                                                                                           |                                                                                    |
+|         <button onclick="copyRSTUrl1()">Copy URL</button><br>                             |                                                                                    |
+|         <script> function copyRSTUrl1() {                                                 |                                                                                    |
+|         const url = "https://[CANVAS DOMAIN]/api/lti/authorize_redirect";                 |                                                                                    |
+|         navigator.clipboard.writeText(url).then(() => {                                   |                                                                                    |
+|        alert('URL copied to clipboard!'); }).catch(err => {                               |                                                                                    |
+|        console.error('Failed to copy: ', err); }); } </script><br><br>                    |                                                                                    |
+|                                                                                           |                                                                                    |
+|      8. Click <strong>Create</strong>                                                     |                                                                                    |                                                                                                                              
+|                                                                                           |                                                                                    |                                                                                                                                                                  
+|        </div>                                                                             |                                                                                    |
++-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
 
-    - Scroll down to **LTI 1.3 Configurations**
-    - Click **Add Integration**
-
-
-  .. image:: /img/lti/addlti13integration.png
-     :alt: LTI 1.3 Configurations
-
-Updating the fields in Platform Information
-  .. Note:: replace [CANVAS DOMAIN] with your institution’s domain in steps 5-7
-
-2. **Platform ID:** ``https://canvas.instructure.com``
-3. **Client ID:** copied from Developer Keys at end of Part 1
-4. **Deployment Id:** copied in Part 2
-5. **Public Keyset URL:** ``https://[CANVAS DOMAIN]/api/lti/security/jwks``
-6. **Access Token URL:** ``https://[CANVAS DOMAIN]/login/oauth2/token``
-7. **Authentication Request URL:** ``https://[CANVAS DOMAIN]/api/lti/authorize_redirect``
-8. Click **Create**
-
-  .. image:: /img/lti/canvasplatform.png
-     :alt: Create LTI Integration
 
 Part 4: Adding a resource
 -------------------------
 In Canvas:
 ~~~~~~~~~~
-
-1. Go to Assignments in your course, select **+Assignment**.
-2. Give your assignment a name.
-3. Select a number of points.
-4. Under **Submission Type**, select **External Tool**.
-5. Select Find.
-
-  .. Note:: Do not use LTI Integration URL to assign an assignment
-
-6. Select the tool created in Part 1.
-- Choose the Course and Assignment to connect to
-- Recommended: Select Load in a new tab
-
-  .. image:: /img/lti/createassignment.png
-     :alt: Create an Assignment
-
-7. Select **Save** at bottom of the page
++-------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. raw:: html                                                                                   |      .. image:: /img/lti/createassignment.png                                                                                                        |
+|                                                                                                 |                                                                                                                                                      |
+|     <div class="small">                                                                         |                                                                                                                                                      |
+|      1. Go to Assignments in your course, select <strong>Assignment</strong><br><br>.           |                                                                                                                                                      |
+|      2. Give your assignment a name.<br><br>                                                    |                                                                                                                                                      |
+|      3. Select a number of points.<br><br>                                                      |                                                                                                                                                      |
+|      4. Under <strong>Submission Type</strong>, select <strong>External Tool</strong>.<br><br>  |                                                                                                                                                      |
+|      5. Select Find.<br><br>                                                                    |                                                                                                                                                      |
+|                                                                                                 |                                                                                                                                                      |
+|  <strong>Note: Do not use LTI Integration URL to assign an assignment</strong><br><br>          |                                                                                                                                                      |
+|                                                                                                 |                                                                                                                                                      |
+|     6. Select the tool created in Part 1.<br>                                                   |                                                                                                                                                      |
+|         - Choose the Course and Assignment to connect to<br>                                    |                                                                                                                                                      |
+|         - Recommended: Select Load in a new tab<br><br>                                         |                                                                                                                                                      |
+|      7. Select <strong>Save</strong> at bottom of the page                                      |                                                                                                                                                      |
+|       </div>                                                                                    |                                                                                                                                                      |
++-------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Note: these settings are not final and can be edited in Canvas at a later time.
 
@@ -217,8 +394,44 @@ You can customize the width and height of the Codio window embedded in the Canva
 
 
 Important Notes on Course Copy in Canvas:
------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - In Canvas, once you copy the course, you must enter a unique SIS ID in Course Settings.
     - An SIS ID that is different from the Blueprint Course (Canvas’ Parent Course) is required for Codio to spawn a corresponding child course.
     - An SIS ID is optional for the Blueprint Course.
+
+Connecting/mapping assignments in Canvas
+------------------------------------------
+
+There are also a number of ways you can connect/map assignments. Check out the following videos to see the option that best suits you.
+
+How to connect assignment by lti integration url of assignment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+    <script src="https://fast.wistia.com/embed/medias/bzowzoyfz1.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_bzowzoyfz1 seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/bzowzoyfz1/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+
+How to connect assignment by resource selection preview
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+    <script src="https://fast.wistia.com/embed/medias/ksdwvd0z3i.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_ksdwvd0z3i seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/ksdwvd0z3i/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+
+How to connect assignment by endpoint url
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+    <script src="https://fast.wistia.com/embed/medias/fvyglizd2l.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_fvyglizd2l seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/fvyglizd2l/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+
+How to connect assignment with custom param
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+    <script src="https://fast.wistia.com/embed/medias/4hacq8dpos.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_4hacq8dpos seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/4hacq8dpos/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+
+If you require any assistance, please don't hesitate to :ref:`contact us <codio-support>`
+
