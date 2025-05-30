@@ -35,10 +35,6 @@ Things you should know about the csv template:
 
 **Here is a reference guide on how to update your csv template file:** 
 
-.. table:: Reference Guide
-   :widths: 40 25 25 75
-
-
 
 +-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
 | Column Name                   | Data Type     | Possible Values        | Description                                                                          |
