@@ -29,6 +29,7 @@ Organization settings
    sso
    llms
    webhook
+   course-action-data
    
  
 

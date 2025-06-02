@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**June 2025**
+
+- `[F] [2nd]`: Add Ability to :ref:`Export all course management activity data <course-action-data>`
+
 **May 2025**
 
 - `[F] [23rd]`: Add Ability to :ref:`Require all assessments be answered before marking as complete <complete-requires-all-answered>`
