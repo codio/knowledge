@@ -7,6 +7,8 @@ Course Action Data
 ==================
 You can create a report of all course management activities for all courses in your organization. Examples of the types of activities you will find in the report are rearranging student groups, resetting assignments, regrading, and adding teachers.
 
+.. Note:: The collection of this data began in June 2025; prior data is not available.
+
 1. Click your profile icon in the lower left corner of the screen.
 
    .. image:: /img/class_administration/profilepic.png
