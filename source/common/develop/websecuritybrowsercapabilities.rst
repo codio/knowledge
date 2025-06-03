@@ -195,7 +195,7 @@ Connectivity Test
 If you continue to experience difficulties, visit the `Connection Diagnostics <https://codio.com/connectivity/index.html>`_ page and send us back the generated output.
 
 
-Steps for  sending us the generated output:
+Steps for sending us the generated output:
 
 
 1. Go to your Codio dashboard.
