@@ -23,7 +23,10 @@ To add a student to your course, follow these steps: follow these steps to add s
     .. image:: /img/manage_classes/students_tab.png
        :alt: Students Tab
 
-3. On the **Add a Student** dialog, use one of the following methods to add your students to a course
+3. On the **Add a Student** dialog, use one of the following methods to add your students to a course. 
+   
+      **Note: The token is only available if LTI is disabled.**
+
 
     .. image:: /img/manage_classes/addstudents.png
        :alt: Add Students
