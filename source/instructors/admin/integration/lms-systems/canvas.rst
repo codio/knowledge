@@ -3,14 +3,14 @@
 
 .. _canvas:
 
-Canvas
-======
+LTI 1.1 Setup
+==============
 
 Integrating with Canvas using LTI App
 -------------------------------------
 **This method is recommended.**
 
-The **Codio LTI App** method allows for an easy way to integrate and to map Codio course assignments to Canvas. Access the directions at :ref:`LTI App <lti-app>` page. If you are not able to use the LTI App, follow the manual integration directions below. 
+The **Codio LTI App** method allows for an easy way to integrate and to map Codio course assignments to Canvas. Access the directions at :ref:`LTI App(LTI 1.1 Only) <lti-app>` page. If you are not able to use the LTI App, follow the manual integration directions below. 
 
 .. Note:: Configuring your LTI settings using the LTI App is only for the US version of Codio. It will not work with Codio UK (codio.co.uk).
 
@@ -23,32 +23,45 @@ In Codio
 Enable LTI for Your Course
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Open the course you would like to connect or create a new course.
-2. Make sure you have at least one published assignment or add a new one. (see :ref:`Add and Remove Course Assignments <add-remove-assignment>`)
-3. Select the **LTI/LMS** tab.
-4. Select the **ENABLE LTI** option.  
-
-  .. image:: /img/lti/enable-lti.png
-     :alt: enable lti
-     
-5. Click **Save Changes**.
++---------------------------------------------------+-----------------------------------------------------------------------------------------+
+| 1. Open the course you would like to connect or   | .. image:: /img/lti/enable-lti.png                                                      |
+|    create a new course.                           |    :alt: enable lti                                                                     |
+|                                                   |                                                                                         |
+| 2. Make sure you have at least one published      |                                                                                         |
+|    assignment or add a new one. (see              |                                                                                         |
+|    :ref:`Add and Remove Course Assignments        |                                                                                         |
+|    <add-remove-assignment>`)                      |                                                                                         |
+|                                                   |                                                                                         |
+| 3. Select the **LTI/LMS** tab.                    |                                                                                         |
+|                                                   |                                                                                         |
+| 4. Select the **ENABLE LTI** option.              |                                                                                         |
+|                                                   |                                                                                         |
+| 5. Click **Save Changes**.                        |                                                                                         |
++---------------------------------------------------+-----------------------------------------------------------------------------------------+
 
 Bring up the LTI Integration Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-6. Click your user name in the bottom left of your dashboard
-7. Choose your Organization 
-8. Click the **LTI Integrations** tab to bring up the following settings.
++---------------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+|                                                   |  .. image:: /img/lti/LTIintegrationinfo.png                                                               |
+|                                                   |     :alt: Org LTI info                                                                                    |
+|                                                   |                                                                                                           |
+| 6. Click your user name in the bottom left of     |                                                                                                           |
+|    your dashboard                                 |                                                                                                           |
+|                                                   |                                                                                                           |
+| 7. Choose your Organization                       |                                                                                                           |
+|                                                   |                                                                                                           |
+| 8. Click the **LTI Integrations** tab to bring    |                                                                                                           |
+|    up the following settings.                     |                                                                                                           |
++---------------------------------------------------+-----------------------------------------------------------------------------------------------------------+
 
-  .. image:: /img/lti/LTIintegrationinfo.png
-     :alt: Org LTI info
 
-In Canvas, adding Codio as an App
+In Canvas, Adding Codio as an App
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Canvas user who carries out these steps must be a system administrator.
+**The Canvas user who carries out these steps must be a system administrator.**
 
-9.  Create a new Course in Canvas. We suggest you create a test course called **Codio Canvas** before you do it with a production course.
+9. Create a new Course in Canvas. We suggest you create a test course called **Codio Canvas** before you do it with a production course.
 10.  Select the Course.
 11.  Click on **Settings** in the left set of options.
 12.  In the top links, select **Apps**.
@@ -87,15 +100,21 @@ Option 2: Paste XML
 Option 3: Manual Entry
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  Paste the 3 keys above into the appropriate fields.
--  Enter a suitable name (Codio Canvas LTI) in the **Name** field.
--  Enter **apollo.codio.com** into the **Domain** field.
--  In the **Privacy** field, select **Public**.
++--------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| - Paste the 3 keys above into the appropriate                | .. figure:: /img/lti/canvas-global.png                                               |
+|   fields.                                                    |    :alt: Canvas Global                                                               |
+|                                                              |                                                                                      |
+| - Enter a suitable name (Codio Canvas LTI) in                |                                                                                      |
+|   the **Name** field.                                        |                                                                                      |
+|                                                              |                                                                                      |
+| - Enter **apollo.codio.com** into the **Domain**             |                                                                                      |
+|   field.                                                     |                                                                                      |
+|                                                              |                                                                                      |
+| - In the **Privacy** field, select **Public**.               |                                                                                      |
+|                                                              |                                                                                      |
+| You should have an output similar to the image on the right. |                                                                                      |
++--------------------------------------------------------------+--------------------------------------------------------------------------------------+
 
-You should end up with something like this.
-
-.. figure:: /img/lti/canvas-global.png
-   :alt: Canvas Global
 
 Course LMS URL
 --------------
@@ -118,10 +137,13 @@ In Canvas
 22.  Click on the **Assignments** link in the left hand side.
 23.  Provide a name for the Assignment.
 24.  Set the points for the Assignment. When the grades get passed back later, the Codio percentage score will be scaled to the points value you specify here.
-25.  Scroll down and look for the **Submission Type** field.
 
 .. figure:: /img/lti/canvas-submission-type.png
    :alt: Canvas Submission
+   :align: right
+   :figwidth: 300px
+
+25. Scroll down and look for the **Submission Type** field. 
 
 26.  You should now click on the dropdown list and select **External Tool**.
 27.  Specify the assignment using one of the two options: 
@@ -149,7 +171,7 @@ In the Canvas course you have created go to **Settings** and **Import Course Con
 
 If using the Common Cartridge file to import the Codio course assignment details into Canvas, each assignment needs mapping as above using the **Add by Resource Selection Preview (recommended)** method noted above.
 
-Authentication and account creation
+Authentication and Account Creation
 -----------------------------------
 
 To add students/teachers see :ref:`Users account creation <lms-users>`
