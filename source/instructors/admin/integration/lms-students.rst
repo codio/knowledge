@@ -68,4 +68,4 @@ If you wish to only allow Mentors to view/manage specific students in the course
 LTI Field to Uniquely Identify Students
 ---------------------------------------
 
-It is a custom LTI field to uniquely identify students, that field transparently added to our CSV export data files if you would like to do mapping of the results manually. You can find this setting on **LTI Integrations** tab in your Organization Settings.
+This is a unique identifier for students found in a custom LTI field. This field is automatically added to the CSV export data files, enabling you to map results manually if necessary. You can adjust this option in the **LTI Integrations** section of your Organization Settings.
