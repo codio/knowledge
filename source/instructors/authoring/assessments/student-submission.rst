@@ -1,4 +1,4 @@
-.. meta::
+=.. meta::
    :description: Student Submission Options
   
 .. _student-submission:

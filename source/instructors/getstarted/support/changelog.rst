@@ -19,6 +19,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2025**
 
+- `[F] [23rd]`: Add Ability to :ref:`Grade using an LLM-based rubric grader <llm-based-rubric>`
 - `[F] [23rd]`: Add Ability to :ref:`Require all assessments be answered before marking as complete <complete-requires-all-answered>`
 
 **Apr 2025**
