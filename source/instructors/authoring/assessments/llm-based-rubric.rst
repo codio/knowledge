@@ -10,48 +10,63 @@ You can find the **LLM Based Rubric** assessment in the **Manually Graded** sect
 
 There are three steps to this process. 
 
-- Rubric generation
-- LLM-based grading using the generated rubric
-- Teacher approval of LLM-generated grades
+1. Rubric generation
+2. LLM-based grading using the generated rubric
+3. Manual approval of LLM-generated grades by the instructor
 
+.. Note:: Step 3 is required - LLM feedback will not be released to the student until the instructor reviews and approves it.
 
-LLM-Based Rubric Creation
--------------------------
+LLM-Based Rubric Creation (Step 1)
+----------------------------------
 
 Add an **LLM Based Rubric** assessment to your guide page and follow the steps below.
 
-- Add a solution file (1) if you wish the rubric creation process to consider your solution.
 
-   .. image:: /img/guides/llmbasedrubric.png
-      :height: 600
-      :alt: Generate a rubric
+1. On the **General** page, enter the following information:
 
-- Then, click the **Generate Rubrics** (2) button to initiate the process.
+   - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
 
-The **Rubric Creation Agent** uses the following items to generate the rubric items:
+     Toggle the **Show Name** setting to hide the name in the challenge text the student sees.
+     
+   - **Instructions** - Enter text that is shown to the student using optional Markdown formatting.
 
-- The assessment name
-- Instructions provided in the **General** tab of the assessment
-- Content of the Guide Page where the assessment is being added
-- Contents of the provided solution file
-- The Course, Module, and Assignment name
-- Requirements specified in the Rubric creation tab
+2. Click **Grading** in the navigation pane and complete the following information:
 
-- You can add your requirements in the **Rubrics Requirements** dialog. 
+   - Add a solution file (1) if you wish the rubric creation process to consider your solution.
 
-   .. image:: /img/guides/llmrubricreqs.png
-      :height: 600
-      :alt: Area to add your rubric requirements
+      .. image:: /img/guides/llmbasedrubric.png
+         :height: 600
+         :alt: Generate a rubric
 
-- Once you are done, click **Generate Using AI**. Note: You are not required to add anything to this dialog; the process will also use general code grading norms to supply rubric items.
+   - Then, click the **Generate Rubrics** (2) button to initiate the process.
 
-- You can provide additional rubric items by clicking **Add Rubric** and entering information.
+   The **Rubric Creation Agent** uses the following items to generate the rubric items:
 
-- Once you have reviewed the rubric items and other settings, click **Save** to save the assessment.
+   - The assessment name
+   - Instructions provided in the **General** tab of the assessment
+   - Content of the Guide Page where the assessment is being added
+   - Contents of the provided solution file
+   - The Course, Module, and Assignment name
+   - Requirements specified in the Rubric creation tab
+
+   .. Note:: You are not required to add rubric requirements; the process will also use general code grading norms to supply rubric items.
+
+   You can add your requirements in the **Rubrics Requirements** dialog: 
+
+      .. image:: /img/guides/llmrubricreqs.png
+         :height: 600
+         :alt: Area to add your rubric requirements
 
 
-LLM Grading Based on the Created Rubric 
----------------------------------------
+   - Once you are done, click **Generate Using AI**. 
+
+
+   - You can provide additional rubric items by clicking **Add Rubric** and entering information.
+   - Once you have reviewed the rubric items and other settings, click **Save** to save the assessment.
+
+
+LLM Grading Based on the Created Rubric (Step 2)
+------------------------------------------------
 
 The LLM Grading agent uses the following to grade the student work:
 
@@ -61,15 +76,17 @@ The LLM Grading agent uses the following to grade the student work:
 - The student file
 - The rubric generated in the previous step to identify the grading criteria
 
-The grading occurs when the student clicks the **Check It** button. The student receives information about whether they have passed or failed each rubric item, but does not see the rest of the LLM-generated feedback until after the instructor conducts their review.
-   .. image:: /img/guides/rubricprelim.png
-      :height: 600
-      :alt: Preliminary grading information displayed to the student
+.. Note:: The grading occurs when the student clicks the **Check It** button. The student receives information about whether they have passed or failed each rubric item, but does not see the rest of the LLM-generated feedback until after the instructor conducts their review.
+
+.. image:: /img/guides/rubricprelim.png
+    :height: 600
+    :alt: Preliminary grading information displayed to the student
 
 
-Manual Approval by Instructor 
------------------------------
-The final step involves the instructor opening the student assignment and selecting the passing test cases as part of the :ref:`grading process <grading>`. The instructor can also edit the comments generated by the LLM. Once this process is complete, click on **Apply Grade**.
+Manual Approval by Instructor (Step 3)
+--------------------------------------
+The final step involves the instructor opening the student assignment and selecting the passing test cases as part of the :ref:`grading process <grading>`. The instructor can also edit the comments generated by the LLM. Once this process is complete, click on **Apply Grade**. Once the feedback is released to students, it cannot be modified.
+
    .. image:: /img/guides/rubricapproval.png
       :height: 600
       :alt: The teacher approves each comment generated by the LLM grader
