@@ -5,7 +5,7 @@
 
 Assessments
 ===========
-Assessments can be used to determine how well students understand course material, and can be automatically or manually graded. Codio offers a wide range of assessment types, including autom-graded code tests, multiple choice tests, fill in the blanks, drop-down selection, free text responses and assignment grading. Assessments can be interspersed throughout tutorial materials or stand alone using an :ref:`assignment level script <auto-grade-scripts>`. 
+Assessments can be used to determine how well students understand course material, and can be automatically or manually graded. Codio offers a wide range of assessment types, including auto-graded code tests, multiple choice tests, fill in the blanks, drop-down selection, free text responses and assignment grading. Assessments can be interspersed throughout tutorial materials or stand alone using an :ref:`assignment level script <auto-grade-scripts>`. 
 
 You can view the results of assessments in a course from the teacher dashboard.
 
