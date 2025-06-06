@@ -138,8 +138,3 @@ Allows you to export the `Common Cartridge 1.3 <http://www.imsglobal.org/cc/ccv1
 
 .. Important:: If working with Canvas, each assignment within your LMS still needs to be configured. Refer to the :ref:`system specific instructions <system-specific-directions>` for your LMS system.
 
-**See Also:**
-
-  - :ref:`Export Assignment Data <export-assignment>` to export individual assignment workspaces.
-
-  - :ref:`Import Project <create-import-project>` to import the zipped exported folder to review student workspaces. The exported workspace does not include the stack so you should select the appropriate stack when importing the project or switch the stack in **Project > Stack > Settings**.
