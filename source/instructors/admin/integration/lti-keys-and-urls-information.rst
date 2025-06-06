@@ -74,9 +74,8 @@ The **Assignment URL** is needed to map each individual assignment within your C
 .. figure:: /img/lti/LMS-Unit-URL.png
    :alt: Assigment URL
 
-.. Note:: The LTI integration URLs for the assignments in a course can be exported. Select the course, go to the **LTI/LMS** tab, and press the **Assignment URLS** button and a CSV will download that provides the information for the course in one place.
 
-
+.. Note:: The LTI integration URLs for the assignments in a course can be exported, see instructions below. 
 
 
 
