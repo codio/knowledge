@@ -11,27 +11,28 @@ Auto-graded assessments
    :hidden:
    
    assessments
-   ai-assessment-generation
-   student-submission
-   assessment-security
-   auto-grade-scripts
-   parameterized
-   delete-assessment
-   edit-assessment
-   duplicate-assessment
-   edit-assessment-points
-   standard-code-test
    advanced-code-test
-   partial-points
-   multiple-choice
+   ai-assessment-generation  
+   assessment-security
+   autograde-free-text
+   auto-grade-scripts  
+   delete-assessment
+   duplicate-assessment
+   edit-assessment
+   edit-assessment-points
    fill-in-blanks
    free-text
-   autograde-free-text
    grade-book
-   parsons-puzzle
-   random
+   llm-based-rubric
    math-assessments
+   multiple-choice
+   parameterized
+   parsons-puzzle
+   partial-points
+   random
    splice
+   standard-code-test
+   student-submission
    ungraded-assessments
    
    
