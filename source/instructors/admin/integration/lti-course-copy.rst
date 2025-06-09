@@ -28,8 +28,8 @@ First enable :ref:`LTI Constant URLs <lti-keys-and-urls-information>` for your c
 |                                               |                                                                              |
 | |                                             |                                                                              |
 |                                               |                                                                              |
-| 2. Both custom parameters should be added     |                                                                              |
-|    to the tool in the Master course.          |                                                                              |
+| 2. Both custom parameters should be added to  |                                                                              |
+|    the tool in the Master course in Canvas.   |                                                                              |
 |                                               |                                                                              |
 | |                                             |                                                                              |
 |                                               |                                                                              |
