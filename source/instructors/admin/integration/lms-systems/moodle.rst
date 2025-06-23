@@ -70,24 +70,7 @@ To add students/teachers see :ref:`Users account creation <lms-users>`
 LTI 1.3 Dynamic Registration
 -----------------------------
 
-Dynamic Registration simplifies the setup process by automatically sharing configuration information between Tools and LMS systems. For LMS platforms that are compatible with this standard, you can enable it by following these steps.
-
-
-Access LTI Integration Settings in Codio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. image:: /img/lti/codiolti13settings.png
-     :alt: LTI 1.3 settings in Codio
-     :align: right
-     :width: 350px
-     :class: img-responsive
-
-1. Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **Organizations**.
-2. Select the **LTI Integrations** tab.
-3. Scroll down to the **LTI Integration 1.3** section. 
-4. The **Dynamic Registration URL** is at the bottom of the list, you can copy it by clicking on the **Dynamic Registration URL** button.
-
-
+Dynamic Registration simplifies the setup process by automatically sharing configuration information between Tools and LMS systems. For LMS platforms that are compatible with this standard, you can enable it by following these steps. For more information on how to find the values in Codio please visit :ref:`Dynamic Registration <lti1-3DynReg>` .
 
 
 Adding the Tool in Moodle
@@ -136,7 +119,7 @@ Using the Tool in Moodle
 LTI Version 1.3
 ----------------
 
-LTI version 1.3 improves upon version [LTI-1.1] by moving away from the use of OAuth 1.0a-style signing for authentication and towards a new security model, using OpenID Connect, signed JWTs, and OAuth2.0 workflows for authentication. As we have implemented the majority of these improvements already in Codio, we recommend using the LT1 1.1 integration instead of 1.3 unless your LMS specifically requires it, since it is much easier to set up using the :ref:`Codio LTI App <lti-app>`.
+LTI version 1.3 improves upon version [LTI-1.1] by moving away from the use of OAuth 1.0a-style signing for authentication and towards a new security model, using OpenID Connect, signed JWTs, and OAuth2.0 workflows for authentication. 
 
 
 For more information, see `Learning Tools Interoperability Core Specification <https://www.imsglobal.org/spec/lti/v1p3/>`__
