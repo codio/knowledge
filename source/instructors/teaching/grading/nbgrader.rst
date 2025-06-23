@@ -6,7 +6,11 @@
 Auto-Grade with nbgrader
 ========================
 Codio supports :ref:`Jupyter Notebook <jupyter>` auto-grading functionality through `nbgrader <http://nbgrader.readthedocs.io/en/stable/index.html>`_. 
-Assignments are created using Jupyter Notebook or JupyterLab and when the assignment is published to a course, the release version is created for the student. If the assignment is updated and republished, it overwrites all tests and read-only cells with the new version and the release version for the students is updated. If you change the jupyter version or nbgrader version or any other nbgrader metadata in the assignment, it will not reflect automatically for students who have already started the assignment, instructor need to reset their assignment to reflect those changes. Students who haven't started the assignment will receive the updated version of assignment.
+Assignments are created using Jupyter Notebook or JupyterLab and when the assignment is published to a course, the release version is created for the student. 
+If the assignment is updated and republished, it overwrites all tests and read-only cells with the new version and the release version for the students is updated. 
+Ungraded Markdown cells will be overwritten when a new version of the Jupyter Notebook is published. To prevent cells you intend to manually grade from being overwritten, make sure to designate them as manually graded cells.
+
+If you change the jupyter version or nbgrader version or any other nbgrader metadata in the assignment, it will not reflect automatically for students who have already started the assignment, instructors need to reset their assignment to reflect those changes. Students who haven't started the assignment will receive the updated version of assignment.
 
 When a student submits the assignment by marking the assignment as complete, the assignment is automatically graded. However, manual grading is also possible if desired. 
 
