@@ -5,21 +5,15 @@
 
 Configure Student IP Consent Form
 ==================================
-You can create an Intellectual Property (IP) consent form and display this form to your Codio users. They must agree to the agreement before they can access Codio. 
-
-.. image:: /img/studentconsent.png
-   :alt: IP Consent Form
+You can create an Intellectual Property (IP) consent form and display the form to your Codio users. They must accept the terms of the consent form before they can access Codio. 
 
 Follow these steps to configure an IP Consent form:
 
-1. Click your profile icon in the lower left corner of the screen.
+1. Click your username in the top-right corner, then select **Organization** from the menu.
 
-   .. image:: /img/class_administration/profilepic.png
-      :alt: Profile
+2. In the **Organizations** tab, click the name of your organization.
 
-2. In the **Organizations** area, click the name of your organization.
-
-   .. image:: /img/class_administration/addteachers/myschoolorg.png
+   .. image:: /img/class_administration/createanorganization/organizations.png
       :alt: My Organizations
 
 3. Click the **IP Consent** tab and enter the text you want to be displayed in the **IP Consent Revision** text box. You can use markdown or HTML to format your text.
