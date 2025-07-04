@@ -10,23 +10,17 @@ The **Hide A/V calls** feature disables users from starting  :ref:`Audio/Video/C
 
 Follow these steps to Hide A/V calls:
 
-1. Click your profile icon in the lower left corner of the screen.
+1. Click your username in the top-right corner, then select **Organization** from the menu.
 
-   .. image:: /img/class_administration/profilepic.png
-      :alt: Profile
+2. In the **Organizations** tab, click the name of your organization.
 
-2. In the **Organizations** area, click the name of your organization.
-
-   .. image:: /img/class_administration/addteachers/myschoolorg.png
+   .. image:: /img/class_administration/createanorganization/organizations.png
       :alt: My Organizations
 
-3. Click the **Overview** tab.
+3. Click the **Overview** tab and scroll down.
 
-   .. image:: /img/manage_organization/orgsettingstab.png
-      :alt: Organization Settings
+4. In the **Education Settingse** area, toggle the **Hide A/V calls** to hide the feature. When enabled, members of your organization will not be able to start A/V calls
 
-4. In the **Education Settingse** area, toggle the **Hide A/V calls** to enable it. When enabled, members of your organization will not be able to start A/V calls
-
-   .. image:: /img/manage_organization/hide-av-calls.png
-      :alt: Hide A/V calls
+   .. image:: /img/manage_organization/education-settings.png
+      :alt: Education Settings
 
