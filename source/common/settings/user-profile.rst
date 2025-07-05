@@ -10,8 +10,6 @@ You can update your name, email address, password or delete your account from th
    .. image:: /img/overview.png
       :alt: Overview settings
 
-You can update your name, email address, password or delete your account from the **Overview** tab in your **Preferences**.
-
 
 Change Email Address of your account
 ------------------------------------
@@ -25,7 +23,7 @@ Follow below steps to change the email address of your account:
    .. image:: /img/email-setting.png
       :alt: Change email address
 
-.. Note:: If the user has signed up for Codio account from their LMS, there is no password set for their account. The user's LMS password is not passed to Codio, so the user will need to create a :ref:`password <password>` for their Codio account (and of course it is always recommended that the same passwords are not used in different applications).
+.. Note:: If the user has signed up for a Codio account from their LMS, there is no password set for their account. The user's LMS password is not passed to Codio, so the user will need to create a :ref:`password <password>` for their Codio account.
 
 
 Delete your account
