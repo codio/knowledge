@@ -11,23 +11,21 @@ For K12 and University organizations, the billing screen allows you to generate 
 Access Billing Page
 -------------------
 
-1. Click on your **username** in the bottom left corner of your Codio dashboard.
+1. Click your username in the top-right corner, then select **Organization** from the menu.
 
-2. Click the name of your organization (under **Organizations**)
+2. In the **Organizations** tab, click the name of your organization.
 
-  .. image:: /img/class_administration/addteachers/myschoolorg.png
-     :alt: Organization 
+   .. image:: /img/class_administration/createanorganization/organizations.png
+      :alt: My Organizations
 
-3. You will see the **Billing** option.
+3. Click the **Billing** option.
 
-  .. image:: /img/manage_organization/orgbilltab.png
-     :alt: Organization Billing
 
 Institution Pay
 ---------------
 To generate an invoice or a quote, enter your country and follow the steps below:
 
-  .. image:: /img/manage_organization/directions.png
+  .. image:: /img/manage_organization/orgbilltab.png
      :alt: Directions Billing
 
 1. Enter the number of student licenses required.
@@ -42,9 +40,11 @@ To generate an invoice or a quote, enter your country and follow the steps below
    ``This promotion code has expired`` will be shown
 -  Promotion codes are only available for new users and not available for student pay plans.
 
-4. The plans available will be shown (semester or annual), select the plan you require and if you require the invoice to be sent to someone else, you can change the recipient.
+4. Enter a billing email address.
 
-5. When you are ready, click the 'Generate Invoice' button or 'Generate Quote' button as per your requirement, and the invoice or quote will be generated and sent to the email address.
+5. The plans available will be shown (semester or annual), select the plan you require and if you require the invoice to be sent to someone else, you can change the recipient.
+
+6. When you are ready, click the 'Generate Invoice' button or 'Generate Quote' button as per your requirement, and the invoice or quote will be generated and sent to the email address.
 
   .. Note:: You can access your invoice from the email, or you can click **View Invoice** from the **Invoice History** section. Pay your invoice at this link.
 
@@ -85,8 +85,5 @@ Viewing Invoice History
 
 To view previous invoices, click on the **View Invoice** link in the **Invoice History** section below:
 
-.. Important:: This is accessed from the Organization screen and having clicked on your Organization. Please do not use the normal Billing area for individuals that you can access by clicking on your name/gravatar (bottom left of screen) and selecting the **Billing** tab unless you wish to subscribe as an **Individual** or already are subscribed as an **Individual**.
-
-.. |Profile| image:: /img/class_administration/profilepic.png
-.. |Org Name| image:: /img/class_administration/addteachers/myschoolorg.png
-.. |Org Billing| image:: /img/class_administration/orgbilling.png
+  .. image:: /img/manage_organization/invoice_history.png
+     :alt: List of past invoiced
