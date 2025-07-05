@@ -16,11 +16,6 @@ Plagiarism detection is best used with programming project assignments rather th
 Codio does not determine whether cheating has or has not taken place and leaves the decision making up to you.
 
 
-To run the Plagiarism checker you need to first select the assignment within the course and then press the Plagiarism button.
-
-  .. image:: /img/guides/plag-button.png
-     :alt: Plagiarism start
-
 Courses
 *******
 In order to use this feature you need to set up a course. If you are not using Codio as your main IDE and want to use only the plagiarism detection feature then you should still follow these instructions and ask your students to upload their code into the project using Git or by uploading files manually.
@@ -36,7 +31,7 @@ When in your course, select your assignment and then click the **Plagiarism** bu
 Run
 ***
 
-You can see the **Plagiarism** button near in the upper part of the screen. When you press this you are taken to the following screen.
+You can see the **Plagiarism** button in the lower right corner of the screen. When you press this you are taken to the following screen.
 
   .. image:: /img/guides/plag-summary.png
      :alt: Plagiarism summary
