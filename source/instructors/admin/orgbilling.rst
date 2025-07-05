@@ -48,8 +48,6 @@ To generate an invoice or a quote, enter your country and follow the steps below
 
   .. Note:: You can access your invoice from the email, or you can click **View Invoice** from the **Invoice History** section. Pay your invoice at this link.
 
-  .. image:: /img/manage_organization/viewinvoice.png
-     :alt: View Invoice
 
 Student Pay
 -----------
