@@ -48,7 +48,7 @@ To send notifications, follow these steps:
 
    The message can include details of all the changes made in each assignment or just be a summary. If a summary is included, instructors can pull the assignments and review the information in the publish assignment changelog. 
 
-  .. Note:: To view a history of all notifications sent for published updates in the parent course, click the **View Sent Notification** button.
+  .. Note:: To view a history of all notifications sent for published updates in the parent course, click the **View Sent Notifications** button.
 
 4. After a notification has been sent, a **Download** icon is displayed in the upper right corner of the course.
 
@@ -65,7 +65,7 @@ To send notifications, follow these steps:
    .. image:: /img/manage_classes/detailcourseupdates.png
       :alt: Course Update Details
 
-   To view the notification message that was send with the update, click **Update History**.
+   To view the notification message that was send with the update, click **Updates History**.
 
    .. image:: /img/manage_classes/updatehistory.png
       :alt: View update notification history
@@ -153,15 +153,15 @@ The entire course can be disconnected from the parent course so any future updat
 
 Send announcements
 ------------------
-Announcements can be sent to instructors that displays a similar banner as above in the child course informing all instructors of an announcement. These can be used to provide other information to instructors.
+Announcements can be sent to instructors that display a banner all child courses informing instructors of an announcement. 
 
 To send an announcement, follow these steps:
 
-1. In the Dashboard, select the course to open it and then click the **Course Details** tab.
+1. In the Dashboard, select the course to open it and then click the **Notifications** tab.
 
-2. Click the **Send New Announcement** button in the **Course Management** section.
+2. Click the **Send Announcement** button.
 
-3. In the **Notification Message** text box, enter the message to instructors you wish to send.
+3. In the **Announcement Message** text box, enter the message to instructors you wish to send.
 
    .. image:: /img/manage_classes/announcement.png
       :alt: Announcement Message 

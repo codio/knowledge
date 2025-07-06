@@ -11,12 +11,7 @@ Higher Education institutions in the United States have access to Codio's Learni
 Available Learning Insight Views
 --------------------------------
 
-Access **Learning Insights** from inside a course. Navigate to the **Courses** page and select the course to open it.
-
-
-  .. image:: /img/accesscourse.png
-     :alt: Select Course
-
+Access **Learning Insights** from inside a course. Select **Courses** from the top menu and click the course to open it.
 
 
 Course level insights

@@ -12,7 +12,7 @@ Export Coursework Data
 You can export course data (including students workspaces) prior to :ref:`deleting a course <delete-course>`, if you want to retain the data. Follow these steps to delete the course data:
 
 1. Navigate to the **Courses** page and select the course to open it.
-2. Click the **Export** tab and then click **Coursework Data**.
+2. Click the **Export** tab and then click **Coursework Data** in the **Data Exports** section.
 
    .. image:: /img/class_export.png
       :alt: Export Course Data
@@ -55,10 +55,7 @@ Export Assessment Data
 To export data related to students assessment in individual or multiple assignments in the course, follow these steps:
 
 1. Navigate to the **Courses** page and select the course to open it.
-2. Click the **Export** tab and then click **Assessment Data** in the **Export** section. 
-
-   .. image:: /img/assessment-data-export.png
-      :alt: Assessment Data Export
+2. Click the **Export** tab and then click **Assessment Data** in the **Data Exports** section.
 
 When selected, a dialog shows allowing you to select the assignments to obtain the data. 
 
@@ -89,11 +86,8 @@ Export Course Access Data
 -------------------------
 To export data related to users accessing assignments in the course, follow these steps:
 
-1. Navigate to the **Courses** page and select the course to open it.
-2. Click the **Export** tab and then click **Course Access Data** in the **Export** section. 
-
-   .. image:: /img/user_access_export.png
-      :alt: Export Course Data
+1. Navigate to the **Courses** page and select the course to open it. 
+2. Click the **Export** tab and then click **Course Access Data** in the **Data Exports** section..
 
    The following data is exported to a **.csv** file for download:
 
@@ -117,10 +111,8 @@ Export Course Coach Logs
 To export data related to users accessing assignments and feedback provided in a course, follow these steps:
 
 1. Navigate to the **Courses** page and select the course to open it.
-2. Click the **Export** tab and then click **Course Coach Logs** in the **Export** section. 
+2. Click the **Export** tab and then click **Course Coach Logs** in the **Data Exports** section. 
 
-   .. image:: /img/course_coach_logs.png
-      :alt: Export Course Coach Logs
 
 The following data is exported to a **.csv** file for download:
 
@@ -145,12 +137,12 @@ Course Content Exports
 Export PDF
 ----------
 
-   .. image:: /img/pdf_export.png
-      :alt: PDF Export
-      
+1. Navigate to the **Courses** page and select the course to open it. 
+2. Click the **Export** tab and then click **PDF** in the **Course Content Exports** section..
+
 Use this to obtain PDF versions of the guides content in your assignments. When selected, a dialog shows allowing you to select the assignments to obtain the PDF version.
 
-- You can select a single PDF where all selected assignments are compiled into one PDF file or to receive a PDF for each selected assignment.
+- You can select a single PDF that compiles all selected assignments into one file, or receive a separate PDF for each selected assignment.
 
 - You can also include :ref:`teacher only notes <teacher-only>` in the PDF export
 
@@ -160,13 +152,11 @@ Use this to obtain PDF versions of the guides content in your assignments. When 
 
 Export Course Sources
 ---------------------
-You can export course sources to obtain a zip file containing all the currently published assignments. 
+Export course sources to obtain a zip file containing all the currently published assignments. 
 
-1. Navigate to the **Courses** page and select the course to open it.
-2. Click the **Export** tab and then click **Course Sources** in the **Export** section.
+1. Navigate to the **Courses** page and select the course to open it. 
+2. Click the **Export** tab and then click **Course Sources** in the **Course Content Exports** section..
 
-   .. image:: /img/source_export.png
-      :alt: Export Course Data
 
    The currently published versions of each assignment are compiled into a **.zip** file and each assignment is compiled into a **.tar.zst** file and can be downloaded. If you update the assignment in the future, you can create a new export.
 

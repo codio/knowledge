@@ -6,7 +6,7 @@
 
 Modify Assignments
 ==================
-You can make changes to assignments that have already been published but it is not available to students until you re-publish it. There are certain considerations when making changes to assignments that students have already started to avoid invalidating their work. You can also reset assignments so that your students have the latest version.
+You can make changes to assignments that have already been published but they are not available to students until you re-publish it. There are certain considerations when making changes to assignments that students have already started to avoid invalidating their work. You can also reset assignments so that your students have the latest version.
 
 Follow these steps to modify an assignment and re-publish it:
 
@@ -59,9 +59,6 @@ The following settings allow you to modify an assignment:
 
 - **Version history** (3) - View the version history of published assignments, including date/time assignment was published who published it, and the name/version of the stack.
 
-  .. image:: /img/versiondetails.png
-     :alt: Versions
-
 - **Delete assignment** (4) - Click **Delete** to remove the assignment from the course module. You can choose to **Convert content to a project**, which saves the assignment content to your project list, or **Delete content** entirely.
 
 - **Delete module** (5) - Click **Delete** to remove the entire module.
@@ -70,9 +67,3 @@ The following settings allow you to modify an assignment:
 
 
 - **Duplicate assignment** (7) - Click **Duplicate** to create a copy of the assignment.
-
-
-
-.. raw:: html
-
-    <script src="https://fast.wistia.com/embed/medias/rr89iix30c.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_rr89iix30c seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/rr89iix30c/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
