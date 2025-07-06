@@ -6,10 +6,10 @@
 Access Projects
 ===============
 
-You access your projects from **My Projects** in the left navigation pane. The **Projects** page shows all of your coding projects.
+Projects may be accessed from the **Build** menu by selecting **My Projects**.
 
-.. image:: /img/console-shared.png
-   :alt: Shared Project
+.. image:: /img/projectslist.png
+   :alt: Access projects from the build menu
 
 Access another user's project
 -----------------------------

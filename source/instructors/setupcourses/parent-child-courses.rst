@@ -37,9 +37,9 @@ Some people prefer to **send notifications** to alert child courses of updates. 
 
 To send notifications, follow these steps:
 
-1. In the Dashboard, select the course to open it and then click the **Course Details** tab.
+1. In the Dashboard, select the course to open it and then click the **Notifications** tab.
 
-2. Click the **Send New Notification** button in the **Course Management** section.
+2. Click the **Send Notification** button.
 
 3. In the **Notification Message** text box, enter the message to instructors that explains the changes that have been made to the parent course and are now available in the child course. 
 
@@ -65,12 +65,10 @@ To send notifications, follow these steps:
    .. image:: /img/manage_classes/detailcourseupdates.png
       :alt: Course Update Details
 
-   To understand the tags, click the **?** to view a description.
-
-   .. image:: /img/tags.png
-      :alt: Tag Descriptions 
-
    To view the notification message that was send with the update, click **Update History**.
+
+   .. image:: /img/manage_classes/updatehistory.png
+      :alt: View update notification history
 
 6. Check the check box next to the assignments you want to update and then click **Apply**. 
 
@@ -85,14 +83,12 @@ When a new assignment has been added in the parent course, it will not automatic
 
 1. In the Dashboard, select the child course to open it and go to the **Edit Assignments** tab.
 
-2. Select the module and click **Add assignment**.
+2. Select the module and from the **Add assignment** dropdown select **Add Copy From Existing**.
 
-   .. image:: /img/addfromexist.png
+   .. image:: /img/manage_classes/addchild.png
       :alt: Add Assignment 
 
-3. On the **Create Assignment** dialog, click **Existing**
-
-4. Select the parent course, module and assignment(s) to be added to the child course. The assignment in the child course is automatically published.
+3. Select the parent course, module and assignment(s) to be added to the child course. The assignment in the child course is automatically published.
 
 Revert to earlier version
 -------------------------
@@ -146,7 +142,7 @@ Entire Course
 
 The entire course can be disconnected from the parent course so any future updates released for the parent course will not be available to update. 
 
- - Select the course, and then click the **Course Details** tab and click **Disconnect** button in the **Course Management** section.
+ - Select the course, and then click the **Course Management** tab and click the **Disconnect** button in the **Course Management** section.
 
    .. image:: /img/manage_classes/disconnectcourse.png
       :alt: Linked Parent Course 

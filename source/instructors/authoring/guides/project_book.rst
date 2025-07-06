@@ -10,7 +10,7 @@ Before you start to author content you should be aware of the two different plac
 Projects
 ********
 
-A :ref:`project <projects>` is simply a standalone Codio box. It may or may not have guides content. Projects are to be found in the **My Projects** page on the main Codio dashboard.
+A :ref:`project <projects>` is simply a standalone Codio box. It may or may not have guides content. Projects may be accessed from the **Build** menu by selecting **My Projects**.
 
   .. image:: /img/projectslist.png
      :alt: Courses
@@ -23,7 +23,7 @@ There are drawbacks to using projects to assign to students. If you have related
 
 Assignments
 ***********
-An :ref:`assignment <add-remove-assignment>` is essentially the same as a project. The only difference is that your project assignments are located in the courses area in the main Codio dashboard and accessible to other teachers who can edit the item and to students in the course. Assignments are very easy to locate as they are tidily organized within the course module they belong to. You can also arrange your assignments within a course module.
+An :ref:`assignment <add-remove-assignment>` is essentially the same as a project. The only difference is that your project assignments are located in courses. They are accessible to other teachers and students in the course. Assignments are organized in modules within a course, and other teachers with editing privileges can modify them.
 
   .. image:: /img/courselist.png
      :alt: Courses
