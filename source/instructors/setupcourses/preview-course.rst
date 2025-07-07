@@ -8,11 +8,7 @@ Preview Courses and Assignments
 ===============================
 You can preview a course and assignments as a student by logging into one of the Test Student accounts that are provided with your Codio account. Follow these steps to preview a course:
 
-1. On the **Courses** page, click the course that includes the assignments you want to preview
-
-  .. image:: /img/accesscourse.png
-     :alt: Access Course
-     
+1. Click the **Courses** menu item then click the course that includes the assignments you want to preview
 2. Go to the **Overview** tab.
 3. Click the assignment to open it. You should see a list of **Test Students**. If you do not see Test Students, see :ref:`Add or Remove Students in a Course <add-remove-students>` to learn how to add students.
 4. Use one of the following methods to login as the student:

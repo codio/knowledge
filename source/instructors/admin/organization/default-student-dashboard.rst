@@ -11,14 +11,11 @@ Student Dashboard
 
 Organization owners can specify the default page that is displayed to Students (My Projects or Courses). Follow these steps to set the default student dashboard:
 
-1. Click your profile icon in the lower left corner of the screen.
+1. Click your username in the top-right corner, then select **Organization** from the menu.
 
-   .. image:: /img/class_administration/profilepic.png
-      :alt: Profile
+2. In the **Organizations** tab, click the name of your organization.
 
-2. In the **Organizations** area, click the name of your organization.
-
-   .. image:: /img/class_administration/addteachers/myschoolorg.png
+   .. image:: /img/class_administration/createanorganization/organizations.png
       :alt: My Organizations
 
 3. Click the **Dashboard** tab.

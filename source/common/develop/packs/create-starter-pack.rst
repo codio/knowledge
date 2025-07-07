@@ -7,7 +7,7 @@ Create Starter Pack
 ===================
 You can create your own Starter Pack and upload it for others to use. Follow these steps to create a Starter Pack:
 
-1. In the navigation pane, click **Starter Packs**.
+1. In the top menu bar, select **Starter Packs** from the **Build** menu.
 
 2. On the **Packs** page, click **New Pack**.
 

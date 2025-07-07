@@ -32,9 +32,6 @@ Search course
 -------------
 If you have a large number of courses, you can search by Name, Created Date, Student Count, or Start Date. Choose the sort option and then simply start typing your search criteria in the **Search** box. Codio searches all course names and filters your list accordingly.
 
-.. image:: /img/manage_classes/nameclass.png
-   :alt: Search
-
 You can use this feature to more easily view just courses you teach. Search for your username and **Add as Tab** as described below. 
 
 Add as Tab

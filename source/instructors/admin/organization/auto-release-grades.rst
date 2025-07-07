@@ -11,22 +11,16 @@ Follow these steps to enable releasing grades automatically:
 
 .. Note:: Enabling this feature does not affect existing courses. You can enable this feature on individual courses if needed.
 
-1. Click your profile icon in the lower left corner of the screen.
+1. Click your username in the top-right corner, then select **Organization** from the menu.
 
-   .. image:: /img/class_administration/profilepic.png
-      :alt: Profile
+2. In the **Organizations** tab, click the name of your organization.
 
-2. In the **Organizations** area, click the name of your organization.
-
-   .. image:: /img/class_administration/addteachers/myschoolorg.png
+   .. image:: /img/class_administration/createanorganization/organizations.png
       :alt: My Organizations
 
-3. Click the **Overview** tab.
-
-   .. image:: /img/manage_organization/orgsettingstab.png
-      :alt: Organization Settings
+3. Click the **Overview** tab and scroll down.
 
 4. In the Education Settings area, toggle **Release Grades Automatically** to enable the feature.
 
-   .. image:: /img/manage_organization/org_releasegrades.png
-      :alt: Release Grades Automatically
+   .. image:: /img/manage_organization/education-settings.png
+      :alt: Education Settings

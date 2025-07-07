@@ -13,8 +13,8 @@ Author Your Own Course
 To author your own course, follow these steps:
 
 1. Sign in to your Codio account.
-2. Click the **Codio** icon in the top left corner of the IDE, or click **Courses** in the left navigation menu on the dashboard to open the **Courses** page.
-3. Click the **New Course** drop-down and choose **Author Your Own Course**.
+2. Click the **Courses** menu at the top.
+3. Click the **New Course** button in the upper right.
 
    .. image:: /img/manage_classes/addcourse.png
       :alt: New Course
@@ -39,7 +39,7 @@ You can create courses from code users in other organizations share with you. Wh
 To create a course from share code, follow these steps:
 
 1. Sign in to your Codio account.
-2. Click the **Codio** icon in the top left corner of the IDE, or click **Courses** in the left navigation menu on the dashboard to open the **Courses** page.
+2. 2. Click the **Courses** menu at the top.
 3. Click the **New Course** drop-down and choose **Add From Share Code**.
 
    .. image:: /img/manage_classes/sharecode.png
@@ -62,17 +62,8 @@ To add a resource from Codio Courseware Catalog, follow these steps:
 2. Click the **Codio** icon in the top left corner of the IDE, or click **Courses** in the left navigation menu on the dashboard to open the **Courses** page.
 3. Click the **New Course** drop-down and choose **Choose From Courseware Catalog**.
 4. Select a resource you want from the resource list.
-5. Click **Evaluate** button to add the selected resource into your Codio account.
-
-   .. image:: /img/manage_classes/evaluate_button.png
-      :alt: Evaluate Button
-
+5. Click **Try for Free** button to add the selected resource into your Codio account.
 6. Complete the fields on the **Clone a Course by code** form, including the **Course Name**, **Organization**, **Start Date** (optional), **Archive Date** (optional) and **Tags** (optional).
-
-
-   .. image:: /img/manage_classes/addresource.png
-      :alt: Create Course from Share Code
-
 
 .. Note:: Courses will also automatically archive when the archive date set for the course is reached. This date can be amended (or removed) in the course details area if you require the course to continue to be active
 

@@ -23,7 +23,7 @@ Getting Started
 
 - Try our **Hello Codio** Starter Packs for language specific information on creating lessons.
 
-    + Click **Starter Packs** in the Navigation Pane on the left
+    + In the top menu bar, select **Starter Packs** from the **Build** menu.
     + Click the **Certified** tab
     + Type in "Hello Codio" in the search bar and select the Starter Pack that meets your needs.
     + Select **Use Pack** then click **Create** to add it to your projects.

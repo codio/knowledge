@@ -12,19 +12,13 @@ After setting up your organization, you can add teachers to give them access to 
 **To invite teachers directly, follow these steps:**
 
 
-1. Click your profile icon in the lower left corner of the screen.
-
-
-  .. image:: /img/class_administration/profilepic.png
-     :alt: Profile
+1. Click your username in the top-right corner, then select **Organization** from the menu.
 
 
 2. In the **Organizations** tab, click the name of your organization.
 
-
-  .. image:: /img/class_administration/addteachers/myschoolorg.png
-     :alt: My Organizations
-
+   .. image:: /img/class_administration/createanorganization/organizations.png
+      :alt: My Organizations
 
 3. Click the **Members** tab.
 
@@ -33,11 +27,10 @@ After setting up your organization, you can add teachers to give them access to 
      :alt: Members
 
 
-4. In the  **Invite Teacher to the Organization** section, enter in the **Teacher Email** and select one of the following options from the drop down menu.
-
+4. Click the **Add Member** button, enter in the **Teacher Email** and in the **invite as** section select **Teacher** from the drop down.
 
   .. image:: /img/manage_organization/inviteteacher.png
-     :alt: Invite Owner
+     :alt: Invite Teacher
 
 
 +-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -60,10 +53,6 @@ After setting up your organization, you can add teachers to give them access to 
 .. Note:: They must use the same email address to which the invitation was sent; otherwise, they will not be added to the organization. 
     
     This invitation is valid for 7 days. If it is not used within that time frame, it will expire, and the recipient will no longer be able to use it to join the organization. In such cases, you will need to resend the invitation. All pending invitations are displayed and you have the option to **Resend** or **Revoke** the invitation.
-
-
- .. image:: /img/manage_organization/pendinginviteowner.png
-    :alt: Pending Invitations
 
 
 

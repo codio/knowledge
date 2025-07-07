@@ -17,18 +17,9 @@ Individual billing
 ------------------
 If you are paying yourself, follow these steps:
 
-1. Click your user name or gravatar in the lower portion of the navigation pane to open the **My Account** menu listing.
-
-   .. image:: /img/what_students_do/forgotpassword/profilepic.png
-      :alt: User Profile
-   
+1. Click your username in the top-right corner, then select **Preferences** from the menu.
    
 2. Click the **Billing** section and in the **Purchase Access** area, choose a tile for the period of time you would require access to Codio for and select the **Checkout** button to enter your card details.
-
-   .. image:: /img/account_billing.png
-      :alt: Billing
-  
-
 
 
 Redeeming code from campus bookstore

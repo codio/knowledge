@@ -14,12 +14,12 @@ Update stack from the dashboard
 -------------------------------
 To update the stack from the Codio dashboard, follow these steps:
 
-1. In the navigation pane, click **Stacks** and then select the stack from the list.
+1. In the top menu bar, select **Stacks** from the **Build** menu.
   
    .. image:: /img/stackdetails.png
       :alt: Stacks Dashboard 
 
-2. Click **Edit** to update the **Stack Name** or **Description**.
+2. Click the pencil icon to update the **Stack Name** or **Description**.
 
 3. Click **New Version** to create a new version of the stack and then choose the project from which the stack should be generated from the **Source** drop-down list. 
 

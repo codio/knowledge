@@ -10,14 +10,11 @@ The **Public/Private Settings** feature determines whether users can create publ
 
 Follow these steps to enable Public/Private Settings:
 
-1. Click your profile icon in the lower left corner of the screen.
+1. Click your username in the top-right corner, then select **Organization** from the menu.
 
-   .. image:: /img/class_administration/profilepic.png
-      :alt: Profile
+2. In the **Organizations** tab, click the name of your organization.
 
-2. In the **Organizations** area, click the name of your organization.
-
-   .. image:: /img/class_administration/addteachers/myschoolorg.png
+   .. image:: /img/class_administration/createanorganization/organizations.png
       :alt: My Organizations
 
 3. Click the **Overview** tab.
@@ -27,8 +24,6 @@ Follow these steps to enable Public/Private Settings:
 
 4. In the **Public/Private** area, toggle the **Public/Private Settings** to enable it. When enabled, members of your organization can only create private objects.
 
-   .. image:: /img/manage_organization/public_private.png
-      :alt: Public/Private Settings
 
 **Notes:**
 

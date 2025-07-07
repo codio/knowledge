@@ -10,7 +10,7 @@ If you need support, then the most effective way is to use our integrated suppor
 
 Dashboard
 *********
-Support is available in the dashboard from the **Chat** link on the left.
+Support is available in the dashboard by clicking on the **Help** menu item at the top and selecting **Support Chat**.
 
 IDE
 ***
@@ -35,7 +35,7 @@ An email will also be sent to you if you do not see the reply within 2 minutes o
 Feedback
 ********
 
-We are always interested to hear from our users about their thoughts/ideas for future improvements. To raise an idea or vote on other ideas already raised, either click on **Feedback** in your dashboard area or go to `Codio Feedback <https://feedback.codio.com>`_ directly.
+We are always interested to hear from our users about their thoughts/ideas for future improvements. To raise an idea or vote on other ideas already raised, either select **Feedback** from the **Connect** menu at the top or go to `Codio Feedback <https://feedback.codio.com>`_ directly.
 
   .. image:: /img/codiofeedback.png
      :alt: Feedback
@@ -43,7 +43,7 @@ We are always interested to hear from our users about their thoughts/ideas for f
 Community
 *********
 
-The Codio community forum is a place for Codio users to engage with each other and share best practices. You can access it from the Connect area or go to `Codio Community <https://community.codio.com/>`_ directly.
+The Codio community forum is a place for Codio users to engage with each other and share best practices. You can access it from the Connect menu or go to `Codio Community <https://community.codio.com/>`_ directly.
 
 This forum does not replace our in-product customer support chat or our help center, please continue to use the support chat for product issues, and refer to our help center for product use guidance.
 

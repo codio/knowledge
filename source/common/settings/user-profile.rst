@@ -5,23 +5,25 @@
 
 User Profile
 ============
-You can update your user profile from the **Overview** tab. To access this page, click your user name or gravatar in the lower portion of the navigation pane.
+You can update your name, email address, password or delete your account from the **Overview** tab in your **Preferences**.
 
-Update your name, email address or password and click **Save Changes**.
+   .. image:: /img/overview.png
+      :alt: Overview settings
+
 
 Change Email Address of your account
 ------------------------------------
 
 Follow below steps to change the email address of your account:
 
-1. Click your profile icon in the lower left corner of the screen and click the **Overview** tab
+1. Click your username in the top-right corner, then select **Preferences** from the menu.
       
-2. Go to the **Email** area, change the email address as per your requirement, enter the current password of your Codio account and click the **Save Changes** button
+2. Go to the **Email** area, modify the address and click the **Save Changes** button. You will be required to complete a confirmation by entering your password and a code which will be emailed to you.
 
    .. image:: /img/email-setting.png
-      :alt: Delete account
+      :alt: Change email address
 
-.. Note:: If the user has signed up for Codio account from their LMS, there is no password set for their account. The user's LMS password is not passed to Codio, so the user will need to create a :ref:`password <password>` for their Codio account (and of course it is always recommended that the same passwords are not used in different applications).
+.. Note:: If the user has signed up for a Codio account from their LMS, there is no password set for their account. The user's LMS password is not passed to Codio, so the user will need to create a :ref:`password <password>` for their Codio account.
 
 
 Delete your account
@@ -29,9 +31,9 @@ Delete your account
 
 Follow below steps to delete your account:
 
-1. Click your profile icon in the lower left corner of the screen and click the **Overview** tab
+1. Click your username in the top-right corner, then select **Preferences** from the menu.
       
-2. Go to the Delete Account area, enter the confirmation text and click the **Delete Account** button
+2. Click the **Delete Account** button and then click **Get Confirmation Code**.
 
    .. image:: /img/delete.png
       :alt: Delete account

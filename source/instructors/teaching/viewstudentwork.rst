@@ -12,7 +12,7 @@ As a teacher you have access to your students' assignments within Codio. This al
 
 1. From the **Courses** area, click on your course to open it.
 
-  .. image:: /img/monitor_students/year10class.png
+  .. image:: /img/courselist.png
      :alt: Course
      
 
@@ -22,7 +22,7 @@ As a teacher you have access to your students' assignments within Codio. This al
 
 3. You will see all students in your course displayed on this screen. By default they will show sorted alphabetically by first name but you can also sort them by last name, number of started or number of completed assignments if preferred. You can also search and filter students using tags, see :ref:`Batch Student Tagging <batch-student-tagging>`.
 
-4. To view/access an individual students work click on their name. On the far right of the screen, under the heading **Open**, click the blue arrow to open the students work.
+4. To view/access an individual students work click on their name. On the far right of the screen, in the 3 dots menu, click **Open student's project**.
 
   .. image:: /img/openstudent.png
      :alt: Open student work

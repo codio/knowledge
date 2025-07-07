@@ -33,7 +33,7 @@ Create a new stack from the dashboard
 -------------------------------------
 To create a new stack or new version of a stack from the Codio dashboard, follow these steps:
 
-1. In the left navigation pane, **Stacks**.
+1. In the top menu bar, select **Stacks** from the **Build** menu.
 
 2. On the **Stacks** page, click **New Stack** and point to your project.
 

@@ -9,14 +9,11 @@ You can create a report of all course management activities for all courses in y
 
 .. Note:: The collection of this data began in June 2025; prior data is not available.
 
-1. Click your profile icon in the lower left corner of the screen.
+1. Click your username in the top-right corner, then select **Organization** from the menu.
 
-   .. image:: /img/class_administration/profilepic.png
-      :alt: Profile
+2. In the **Organizations** tab, click the name of your organization.
 
-2. In the **Organizations** area, click the name of your organization.
-
-   .. image:: /img/class_administration/addteachers/myschoolorg.png
+   .. image:: /img/class_administration/createanorganization/organizations.png
       :alt: My Organizations
 
 3. Click the **Course Action Data** tab.
