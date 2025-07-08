@@ -51,7 +51,7 @@ Assignment Settings
 -------------------
 Click the **Settings** icon in the assignment or the **Settings** tab when the assignment is selected to perform the following tasks:
 
-.. image:: /img/class_administration/asignmentsettings.png
+.. image:: /img/class_administration/assignmentsettings.png
    :alt: Settings
 
 - :ref:`Assignment Action Buttons <assignment-actions>`

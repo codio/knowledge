@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2025**
 
+- `[F] [8th]`: Add :ref:`Blueprints for guide pages <blueprints>`
 - `[F] [7th]`: The Codio dashboard has been updated.
 
 **June 2025**
