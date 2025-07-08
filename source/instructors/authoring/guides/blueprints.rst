@@ -6,13 +6,13 @@
 Blueprints for Guide Pages
 ==========================
 
-Use Blueprints to save your Markdown content and **Layout** settings as reusable templates for guide pages. When creating new pages, you can apply these Blueprints to maintain consistent styling and formatting across all your guides.
+Use Blueprints to save your Markdown content and **Layout** settings as reusable templates for guide pages. When creating new pages, you can use these Blueprints to facilitate consistent styling and formatting across all your guides.
 
 .. Note:: Blueprints are stored in courses and are available to all assignments in a course. They cannot be used in standalone projects.
 
 Creating a **Blueprint**
 ------------------------
-1. Enter instructions you might use every time on the Guide page.
+1. Enter the content, including the formatting and styling you want for the template.
 2. Make your **Layout** selections.
 
 .. image:: /img/blueprints/blueprintcreate1.png
@@ -41,7 +41,9 @@ You can also access them from the Table of Contents by clicking the **Add Page**
 
 Modifying an existing **Blueprint**
 -----------------------------------
-To modify an existing **Blueprint** with the contents of your current guide page and **Layout**, enter the name of the **Blueprint** you want to modify and click **Save**. A warning will display to let you know you are overwriting an existing template.
+Modifying an existing **Blueprint** will overwrite its contents. To modify an existing **Blueprint** first create a page using that **Blueprint**, then make your changes. Select the name of the **Blueprint** you are modifying and click **Save**. A warning will display to let you know you are overwriting an existing template.
 
 .. image:: /img/blueprints/blueprintmodify.png
    :alt: Modifying an existing bluepring
+
+.. Note:: When you save a **Blueprint** it saves whatever you currently have on the guide page and in the layout.
