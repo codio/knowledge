@@ -23,6 +23,7 @@ Authoring
    solution_templating
    freeze_code
    custom_button
+   blueprints
    add_media
    generating_content
    open_close_content

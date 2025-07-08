@@ -31,10 +31,7 @@ When in your course, select your assignment and then click the **Plagiarism** bu
 Run
 ***
 
-You can see the **Plagiarism** button in the lower right corner of the screen. When you press this you are taken to the following screen.
-
-  .. image:: /img/guides/plag-summary.png
-     :alt: Plagiarism summary
+You can see the **Plagiarism** button in the lower right corner of the screen. When you press this you are taken to the plagiarism summary screen.
 
 This screen will show you any plagiarism reports that were run in the past. You can open these if you wish.
 

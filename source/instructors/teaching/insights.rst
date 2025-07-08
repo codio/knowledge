@@ -16,9 +16,11 @@ Access **Learning Insights** from inside a course. Select **Courses** from the t
 
 Course level insights
 -------------------------
-Click the **Insights** tab.
+Click the **Insights** tab at the bottom of the Course menu tabs.
     
-       
+       .. image:: /img/insights/courseinsights.png
+       :alt: Course Insights
+
 Module level insights
 -------------------------
 Click **Show Insights** to the right of the module name.
@@ -31,7 +33,9 @@ Assignment level insights
 1. Click the **Overview** tab. 
 2. Click the assignment name.
 3. Click the **Insights** tab.
-    
+
+    .. image:: /img/insights/assignmentinsights.png
+       :alt: Assignment Insights 
 
        
 Student level insights
@@ -40,3 +44,5 @@ Student level insights
 2. Click the student name. 
 3. Click the **Insights** tab
     
+    .. image:: /img/insights/studentinsights.png
+       :alt: Student Insights 
