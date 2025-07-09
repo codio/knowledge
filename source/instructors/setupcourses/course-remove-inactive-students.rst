@@ -13,8 +13,10 @@ To enable remove inactive student feature, follow these steps:
 
 1. On the **Courses** page, select the course and then click the **Course Details** tab.
 
-2. In the **Course Management** section, select the **Remove Inactive Students** button.
+2. In the **Course Access** section at the bottom, toggle the **Remove Inactive Students** button and then **Save Changes**.
 
+.. image:: /img/manage_classes/remove_inactive_students.png
+      :alt: Remove Inactive Students Toggle
 
 .. Note:: The action will not be performed immediately. It will be queued, and the cleanup process may take up to one day. This will only affect students who have been inactive for over 90 days. If they return, their previous activity will be restored.
 

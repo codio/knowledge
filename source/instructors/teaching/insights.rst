@@ -19,7 +19,7 @@ Course level insights
 Click the **Insights** tab at the bottom of the Course menu tabs.
     
        .. image:: /img/insights/courseinsights.png
-       :alt: Course Insights
+         :alt: Course Insights
 
 Module level insights
 -------------------------

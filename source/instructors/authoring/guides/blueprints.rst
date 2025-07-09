@@ -8,7 +8,7 @@ Blueprints for Guide Pages
 
 Use Blueprints to save your Markdown content and **Layout** settings as reusable templates for guide pages. When creating new pages, you can use these Blueprints to facilitate consistent styling and formatting across all your guides.
 
-.. Note:: Blueprints are stored in courses and are available to all assignments in a course. They cannot be used in standalone projects.
+.. Note:: Blueprints are stored in courses and are available to all assignments in a course and in any any of its clone. They cannot be used in standalone projects. 
 
 Creating a **Blueprint**
 ------------------------
