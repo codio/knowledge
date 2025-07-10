@@ -13,9 +13,9 @@ To revoke sudo access, follow these steps:
 
 1. On the **Courses** page, select the course and then click the **Course Details** tab.
 
-2. In the **Course Management** section, select **Revoke sudo access** button 
+2. In the **Course Access** section at the bottom, toggle the **Revoke Sudo Access** button and then **Save Changes**.
 
-To reinstate sudo access, click the **Grant sudo access**
+To reinstate sudo access, toggle the **Revoke Sudo Access** button and then **Save Changes**.
 
 .. Note:: The settings will be inherited to any :ref:`child course<parent-child-courses>` subsequently created from the parent course.
 

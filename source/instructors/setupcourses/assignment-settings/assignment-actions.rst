@@ -8,7 +8,7 @@ Assignment Action Buttons
 =========================
 Additional options are available from the **Actions** button in the assignment. Access assignment **Actions** by selecting the **Settings** icon in the assignment.
 
-.. image:: /img/class_administration/asignmentsettings.png
+.. image:: /img/class_administration/assignmentsettings.png
    :alt: Settings
 
 Open the **Actions** menu to see additional buttons that allow you to run a plagiarism check, mark and unmark all assignments as completed, download the assignment grade data, reset student's work on assignments, re-run an auto-grade script, and release the grades for the assignment. 

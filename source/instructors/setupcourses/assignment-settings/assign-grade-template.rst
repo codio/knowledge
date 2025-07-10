@@ -11,7 +11,7 @@ If :ref:`grading templates <grade-template>` have been created for your organiza
 
 2. Click the **Settings** icon for the assignment you want to assign a grading template.
 
-   .. image:: /img/class_administration/asignmentsettings.png
+   .. image:: /img/class_administration/assignmentsettings.png
       :alt: Assignment Settings
 
 3. In the **Grade Weights** section, complete the following information:
