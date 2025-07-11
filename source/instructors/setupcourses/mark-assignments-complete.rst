@@ -10,16 +10,16 @@ Mark Assignment as Complete/Uncomplete
 An assignment can be marked as complete using one of the following methods:
 
 - Student marks the assignment as complete from their dashboard.
-- Instructor marks the assignment as complete for the student from the assignment on the **Courses** dashboard.
-- Instructor marks all assignments as complete for all students from the **Actions** button on the assignment.
+- Instructor marks the assignment as complete for the student from the three dot menu on the assignment **Progress** page.
+- Instructor marks all assignments as complete for all students from the **Mark All Completed** button on the assignment.
 - If the **Assignment Duration** feature is enabled, all student assignments are marked as complete as soon as the assignment duration expiration date and time is reached.
 
-- **Mark All As Completed** - Click this button to mark all student assignments as completed. Hover over a student name to see the switch appear to the left of the students name. 
+- **Mark All Completed** - Click this button to mark all student assignments as completed. A check mark to the left of the student's name indicates their assignment has been marked as completed. 
 
   .. image:: /img/mark-as-complete.png
      :alt: Mark All As Completed
 
-- **Unmark As Complete** - Click this button to clear the **Mark All As Complete**.
+- **Unmark All Completed** - Click this button to clear the the completed status on all the assigments.
 
 View When a Student Marks Assignment as Complete
 ------------------------------------------------

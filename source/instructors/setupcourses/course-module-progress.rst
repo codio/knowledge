@@ -37,15 +37,12 @@ Average Course Progress Bar
 
 Show a progress bar to students that represents the average progress of the students in the course.
 
-   .. image:: /img/class_administration/averagecourse.png
-      :alt: Enable Average Course Progress Bar
-
-.. Note:: Progress of any test students in the course are excluded
+.. Note:: This information does not include test students.
 
 Mandatory Assignments
 ---------------------
 
-By default all assignments are mandatory but can be changed to optional in the :ref:`Assignment settings <assignment-settings>` area
+By default all assignments are mandatory but can be changed to optional in the :ref:`Assignment settings <assignment-settings>` area.
 
 Configure Progress Bar
 ----------------------
@@ -60,10 +57,10 @@ Leaderboard
 
 Show a leaderboard in a bar representing each student's performance in the course from largest to smallest bar (best to worst) where performance = number of points earned on mandatory assignments / total number of points on mandatory assignments.
 
-Students can see their own details (name and performance) but details of all other students are anonymous (ie obfuscated) to them.
+Students can see their own details (name and performance) but details of all other students are blurred for them.
 
    .. image:: /img/class_administration/leaderboard.png
       :alt: Leaderboard
 
 
-.. Note:: Information of any test students in the course are excluded
+.. Note:: This information does not include test students.

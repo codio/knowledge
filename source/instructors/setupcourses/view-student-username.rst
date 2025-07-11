@@ -7,11 +7,6 @@
 View Student Usernames
 ======================
 
-Students can log in with their username if they can't remember their email address. If they have forgotten their username, organization owners can find their username on the Members tab on the Organization dashboard.
+Students can log in with their username if they can't remember their email address. 
 
-1. Click your profile icon in the lower left corner of the screen.
-2. Under **Organizations**, click the link for the organization you want to view.
-3. On the **Members** tab, click **Students** and find the student's name in the list.
-4. Provide the student with their username. 
-
-Alternatively, you can obtain the student's username from the browser when you access the students assignments.
+You can obtain the student's username from the browser when you access the students assignments. For more information see :ref:`viewing student work. <viewing-student-work>`.
