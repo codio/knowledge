@@ -17,7 +17,7 @@ Your course may be taught by more than one teacher, so you can add teachers to y
    .. image:: /img/manage_classes/adding_teachers/search_teacher.png
       :alt: Search Teacher
    
-5: If the teacher is not a member of your organization, you can send them an invitation email. Click the **Add Member** button and enter their email address and click **Send Invite**. An email is sent that includes a link for them to sign up for a Codio account. Upon completion, they are automatically added to your organization and course.
+5. If the teacher is not a member of your organization, you can send them an invitation email. Click the **Add Member** button and enter their email address and click **Send Invite**. An email is sent that includes a link for them to sign up for a Codio account. Upon completion, they are automatically added to your organization and course.
    
    .. image:: /img/manage_classes/adding_teachers/inviteteacher.png
       :alt: Invite Teacher
