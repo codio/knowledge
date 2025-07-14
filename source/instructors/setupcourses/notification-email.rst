@@ -6,7 +6,7 @@
 Automated Emails
 ================
 
-Automatic email notifications can be set up in your courses to send emails to your students. Go to the **Automated Emails** tab in your course to create automatic email notifications. Not available for **Read only** teachers in the course.
+Automatic email notifications can be set up in your courses to send emails to your students. Go to the **Automated Emails** tab in your course and click the pencil icon to create automatic email notifications. Not available for **Read only** teachers in the course.
 
    .. image:: /img/notificationdetails.png
       :alt: Notifications

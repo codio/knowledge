@@ -9,13 +9,12 @@ Virtual Machines
 
 Codio supports Windows and Ubuntu OS in **Virtual Machine** boxes.If You are interested in running Virtual machines, you can upgrade your subscription to get access to 1-GB, 4-GB, 8-GB, 16-GB machines.
 
-You purchase a specific number of Virtual Machines that can be used by anyone in your enabled courses. Codio tracks usage based on active projects rather than total projects. In other words, you can have 100 projects in a course that use a Virtual Machine but as long as only one is active at a time, this requires only a single unit to be purchased.
+When you buy Virtual Machines, you're purchasing units that can be shared across all your active courses. Usage is calculated based on projects concurrently running, not the total number of projects you have. For example, if your course contains 100 projects that need Virtual Machines, but only one project runs at any given time, you'll only need to purchase one unit.
+To set this up for your organization, contact help@codio.com and provide an estimate of how many students will need access to compute-enabled Virtual Machines.
 
-To enable this for your organization, send an email to help@codio.com with approximate details of the number of students who will require access to computed VMs.
+.. Note:: Codio is not responsible for licensing issues related to the software you install.
 
-.. Note:: Codio is not responsible for licensing issues in regard to any software you install to use.
-
-The virtual machines can support 1, 4, 8 or 16Gb memory. VM's are enabled for the organization and then set up at the **Course** level. All assignments in the course can utilize the virtual machines boxes, so we would recommend setting up a new course for those assignments that require them.  All assignments in the course would use the same **VM Stack**.
+The virtual machines can support 1, 4, 8 or 16Gb memory. VM's are enabled for the organization and then set up at the **Course** level. All assignments in the course can utilize the virtual machines. We recommend setting up a new course for those assignments that require them.  All assignments in the course would use the same **VM Stack**.
 
 
 Virtual machines are not available for individual projects (ie when created in **My Projects** area).
@@ -30,7 +29,7 @@ Enabling VM for the Course
 
 - On the **Courses** page, select the course and then click the **Course Details** tab.
 
-- In the **Virtual Machine** section, toggle the **Enable Virtual Machine** button to **On**.
+- In the **Virtual Machine** section, select the **Standalone VM** option.
 
 - Select **Operating System** (currently supported: Windows & Ubuntu).
 
