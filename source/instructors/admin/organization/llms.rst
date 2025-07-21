@@ -29,7 +29,7 @@ We support the following providers:
 Custom LLM Providers
 ====================
 
-You can add a custom LLM provider in Codio by entering API keys on the **Organization** > **LLMs** page. This allows you to use your chosen LLM provider in your courses.
+You can add a custom LLM provider, such as Gemini, to Codio by entering the API keys on the **Organization** > **LLMs** page. This allows you to use your chosen LLM provider in your courses.
 
 .. image:: /img/custom_llm_provider.png
        :alt: Custom LLM Providers
