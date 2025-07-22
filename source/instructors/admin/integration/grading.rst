@@ -29,7 +29,7 @@ Example:
 
 When grades are :ref:`released <release-grades>` a URL is passed to the LMS where students/teachers can access the grading information for the assignment in the grading area of the LMS. By default, only the course teachers and the individual student can access the grading preview URL.
 
-In order to pass a different URL back to your LMS system allowing anyone who knows the URL to access the students grading information, enable the **Provide Feedback Link** option for the course. You can find this at the botton of the **LTI/LMS Settings** on the **LTI/LMS** tab.
+In order to pass a different URL back to your LMS system allowing anyone who knows the URL to access the students grading information, enable the **Provide Feedback Link** option for the course. You can find this at the bottom of the **LTI/LMS Settings** on the **LTI/LMS** tab.
 
   .. image:: /img/lmssharedfeedback.png
      :alt: LMS Shared Feedback
