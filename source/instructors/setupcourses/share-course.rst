@@ -11,7 +11,7 @@ To share your course with others, follow these steps:
 
 1. On the **Courses** page, select the course and then click the **Course Details** tab.
 
-2. In the **Course Management** section, toggle the **Course share code** button to **On** and a code is generated.
+2. In the **Course Management** section, toggle the **Course share code** button to **On**. Once you **Save Changes** a code is generated.
 
    .. image:: /img/manage_classes/createsharecode.png
       :alt: Create Share Code

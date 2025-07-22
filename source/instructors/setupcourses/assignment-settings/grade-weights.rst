@@ -20,7 +20,7 @@ The total grade is based on the grade weight assigned to each option:
     
 - If the enabled options have the different weights, the final grade is calculated as a fraction of the enabled options. For example, if **Teachers Grading** has a grading weight of 2 and **Assessments Grading** has a grading weight of 1, the final grade is calculated as **Teachers Grading** points * 2/3 + **Assessments Grading** points * 1/3.
    
-.. image:: /img/gradingweights.png
+.. image:: /img/allgradeweights.png
    :alt: Grade Weights
    
 To specify Grade Weights, follow these steps:

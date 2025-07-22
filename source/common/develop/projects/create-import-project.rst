@@ -10,7 +10,7 @@ You can create a new project or import a project from the **Projects** page by f
 
 Follow these steps:
 
-1. Click **My Projects** in the navigation pane and click **New Project**.
+1. Select **My Projects** from the **Build** menu and click the **New Project** button.
 
    .. image:: /img/project_create.png
       :alt: Create Project

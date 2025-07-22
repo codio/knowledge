@@ -7,19 +7,19 @@ Connecting a Codio Box to a GitHub Repo
 =======================================
 The first step to using GitHub in Codio is connecting your Codio and GitHub accounts. You only have to do this once. Follow these steps:
 
-1. Click your user name in the bottom left of the main menu. 
+1. Click your username in the top-right corner, then select **Preferences** from the menu.
 
 2. Click the **Applications** tab.
 
-   .. image:: /img/GitHub1.png
-      :alt: 
+   .. image:: /img/gitHub1.png
+      :alt: The connecting GitHub dialog
 
 3. In the GitHub section, click **Connect account** and log in to your Github account when prompted.
 
-   .. image:: /img/Github2.png
-      :alt: GitHub Connect Account
-
 4. If you are using SSH connections, click **Upload public key** so Codio and Github can exchange keys. 
+
+   .. image:: /img/gitHub2.png
+      :alt: Upload Public Key
 
 In GitHub: Make a new repo
 --------------------------
@@ -118,20 +118,18 @@ To manually import a Git repo into Codio, follow these steps:
 
   If you are cloning using SSH, you must have already added the Codio SSH public key as described in :ref:`Upload SSH Key to Remote Server <upload-ssh-key-remote-server>`.
 
-2. Log in to Codio and click **New Project**.
-
-3. Click the **Click here** link for more options.
+2. Create a :ref:`new project <create-import-project>` or :ref:`add an assignment <add-remove-assignment>` to a course.
 
    .. image:: /img/github-create.png
       :alt: create from GitHub
 
-4. In the **Select your Starting Point** area, click **Import**.
+3. In the **Select your Starting Point** area, click **Import**.
 
-5. From the **Source** drop-down list, choose **Git**.
+4. From the **Source** drop-down list, choose **Git**.
 
-6. Paste the Git URL into the **URL** field and add details about the project.
+5. Paste the Git URL into the **URL** field and add details about the project.
 
-7. Click **Create**. Codio loads the repo and displays it.
+6. Click **Create**. Codio loads the repo and displays it.
 
 A few Git helpers
 -----------------
@@ -146,21 +144,16 @@ Disconnect Codio from a GitHub Account
 
 Follow the steps below to disconnect your GitHub account:
 
-1. Click your username in the bottom-left corner of the main menu. 
+1. Click your username in the top-right corner, then select **Preferences** from the menu.
 
 2. Click the **Applications** tab.
 
 3. In the GitHub section, click **Remove connection** to disconnect your GitHub account from Codio.
 
 .. image:: /img/RemoveConnectionGithub.png
-   :alt: Remove Connection
+   :alt: Confirm removing GitHub connection
 
-4. A Remove connection confirmation screen will appear (please don’t close this screen until you complete the process) 
-
-   .. image:: /img/delGithubConn.png
-      :alt: Delete Connection
-
-5. Enter the confirmation code provided and click **Yes** to disconnect your Codio account from the GitHub account.
+4. A Remove connection confirmation screen will appear, click **Yes**.
 
 .. Note:: When disconnecting your GitHub account or repository, note that this action does not remove the associated **SSH** key from the original repository. If you wish to revoke access, you will need to remove the **SSH** key manually in the repository settings on GitHub. However, you can leave the key in place if you plan to work with the original GitHub account again in the future.
 
