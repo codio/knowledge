@@ -12,7 +12,7 @@ The first step to using GitHub in Codio is connecting your Codio and GitHub acco
 2. Click the **Applications** tab.
 
    .. image:: /img/gitHub1.png
-      :alt: 
+      :alt: The connecting GitHub dialog
 
 3. In the GitHub section, click **Connect account** and log in to your Github account when prompted.
 
@@ -148,7 +148,7 @@ Follow the steps below to disconnect your GitHub account:
 3. In the GitHub section, click **Remove connection** to disconnect your GitHub account from Codio.
 
 .. image:: /img/RemoveConnectionGithub.png
-   :alt: Remove Connection
+   :alt: Confirm removing GitHub connection
 
 4. A Remove connection confirmation screen will appear, click **Yes**.
 
