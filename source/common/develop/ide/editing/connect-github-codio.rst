@@ -18,6 +18,9 @@ The first step to using GitHub in Codio is connecting your Codio and GitHub acco
 
 4. If you are using SSH connections, click **Upload public key** so Codio and Github can exchange keys. 
 
+   .. image:: /img/gitHub2.png
+      :alt: Upload Public Key
+
 In GitHub: Make a new repo
 --------------------------
 Each Codio box (Assignment, Book, or Project) can be mapped to a GitHub repo. This connection only needs to be established once per box.
