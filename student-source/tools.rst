@@ -11,7 +11,6 @@ Tools
    :hidden:
    
 
-   develop/tools/lexikon
    develop/tools/code-playback
    develop/tools/code-commenting
    develop/tools/student-virtual-coach

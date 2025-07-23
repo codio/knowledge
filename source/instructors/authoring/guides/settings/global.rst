@@ -27,10 +27,6 @@ Theme
 *****
 There is currently only a single theme.
 
-Lexikon Topic
-*************
-Designate the name of the Lexikon topic you wish to appear, this is optional.
-
 Suppress page numbering
 ***********************
 Page numbers will not be shown on the individual pages.
