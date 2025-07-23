@@ -82,7 +82,6 @@ This allows you to set up assessments and view all assessments in the assignment
 
 - **Scripts** allows you to point to one or more `.js` files in your project (usually located within the `.guides` folder) that is run when the page is shown. This is especially useful when interacting with a button in a page of content.
 - **Theme** allows you to select the default theme for people viewing the content. There is currently a light theme and a dark theme will be added at a later time. Dyslexic users can also choose a special theme from the Settings drop down in the content player.
-- :ref:`Lexicon Topic <lexikon>`  if you use this option, an icon will appear in the toolbar that will load the Lexikon window with the selected topic automatically selected. Students can still access the Lexicon from the **Tools>Lexicon** menu (unless of course you are restricting the top menu available to them)
 - **Suppress page numbering** allows you to suppress the section page numbers when in Play Mode.
 - **Hide Menu** allows you to hide the main Codio menu items in the IDE (Codio/Project/File/Edit etc) when the assignment is run in a :ref:`course <add-remove-assignment>`).
 - **Allow guide to be closed** allows students to be able to close the content. It can be restarted by selecting the Start icon in the file tree:

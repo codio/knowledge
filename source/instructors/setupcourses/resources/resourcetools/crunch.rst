@@ -17,7 +17,6 @@ Additional resources
    draw-io
    pyret
    tkinter
-   lexikon
    turtle
    processing-and-p5
 
@@ -39,11 +38,6 @@ Crunch Course
 We have built a 3 assignment Course that combines teaching materials with over 20 challenges of gradually increasing complexity. This is a great resource for teachers wanting to teach the basics of Assembly Language programming as well as computational thinking.
 
 From the Dashboard, go to **Resources** and then look for **Crunch - Little Man Computer on Steroids**.
-
-Lexikon
--------
-
-We recommend you use Codio's Lexikon feature to get inline help on Crunch usage and commands. You can find the Lexikon in the **Tools** menu. Once it appears, select the dropdown list on the right side and select Crunch. You can then search for commands. Try entering **Overview** in the search box for an overview of all the Crunch commands.
 
 Crunch Module
 -------------
@@ -96,7 +90,7 @@ Click on the **+** to add a new instruction.
 Instructions
 ------------
 
-Crunch comes with a good base set of instructions. To see the full set of instructions, along with explanations for each one, add a new line as explained above. You can then scroll through the list of available instructions. There is also a complete Lexicon available. Go to **Tools>Lexicon** and select the **Crunch** option to search.
+Crunch comes with a good base set of instructions. To see the full set of instructions, along with explanations for each one, add a new line as explained above. You can then scroll through the list of available instructions.
 
 The following instructions are not available in Little Man Computer and provide a more complete experience.
 

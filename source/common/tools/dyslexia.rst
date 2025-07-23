@@ -11,7 +11,6 @@ Tools
    :hidden:
    
 
-   lexikon
    code-playback
    code-commenting   
    
