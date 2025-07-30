@@ -10,7 +10,7 @@ Bulk Assignment Update
 You have the ability to perform a bulk update for various assignment settings, including start date/time of the assignment, closing date/time of the assignment, action when assignment closes, due dates and penalties. For more information about these settings, see :ref:`Assignment Duration <assignment-duration>`, :ref:`Prime Assignment Containers <prime-assignment-containers>` and :ref:`Virtual Coach <enable-vc-bulk>` settings using a CSV file.
 
 
-Before you begin, make sure to download the csv template file. You can download the csv template file of your course from  “Download Assignment Information setting” present in the “Assignment settings” in the  “Bulk Settings area”. You can update the fields as per your requirement(s) and use that csv file to update the assignment settings. 
+Before you begin, make sure to download the csv template file. You can download the csv template file of your course from  “Download Assignment Information” present in the “Assignment settings” in the  “Bulk Settings area”. You can update the fields as per your requirement(s) and use that csv file to update the assignment settings. 
 Here is a sample screenshot of the csv template:
 
 
@@ -112,9 +112,9 @@ To bulk update the assignments settings, follow these steps:
 
 1. On the **Courses** page, click the course that contains the assignment you want to edit
 
-2. Go to **Bulk Settings** area and press **Open Updater** button from Update Assignment Setting
+2. Go to **Bulk Settings** area and press **Open Updater** button from Update Assignment in the Assignment Setting area.
 
-3. Select the CSV file in which you have defined all the required settings and press **Parse CSV** button
+3. Select or drag and drop the CSV file in which you have defined all the required settings.
 
    .. image:: /img/select-csv-batch-update.png
       :alt: Select csv Batch Update
@@ -127,4 +127,4 @@ To bulk update the assignments settings, follow these steps:
       :alt: Batch csv Test Run
 
 
-   Click **Update Assignments** to reflect these settings to your actual assignments settings
+   Click **Apply** to reflect these settings to your actual assignments settings
