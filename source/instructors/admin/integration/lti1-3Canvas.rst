@@ -9,7 +9,7 @@ LTI 1.3 for Canvas
 On this page, you will find detailed step-by-step guidelines to help you integrate your Canvas and Codio accounts and connect assignments between the two applications.
 
 
-LTI version 1.3 improves upon version [LTI-1.1] by moving away from the use of OAuth 1.0a-style signing for authentication and towards a new security model, using OpenID Connect, signed JWTs, and OAuth2.0 workflows for authentication.
+LTI version 1.3 improves upon version 1.1 by moving away from the use of OAuth 1.0a-style signing for authentication and towards a new security model, using OpenID Connect, signed JWTs, and OAuth2.0 workflows for authentication.
 For more information, see Learning Tools Interoperability Core Specification
 
 The deep linking url is : https://apollo.codio.com/lti/resource_selection
@@ -25,9 +25,9 @@ The Canvas user who carries out these steps must be a system administrator.
 |                                                                                         |                                                                                                                                                              |
 |     <div class="small">                                                                 |                                                                                                                                                              |
 |      <strong>In Codio:</strong><br>                                                     |    |image1|                                                                                                                                                  |
-|     1. Go to your organization account settings by clicking on your user                |                                                                                                                                                              |
-|        name in the top right of your screen,                                            |                                                                                                                                                              |
-|     and then selecting your organization within <strong>Organizations</strong>.<br><br> |                                                                                                                                                              |
+|     1. Go to your organization account settings. Click your username in the             |                                                                                                                                                              |
+|        top-right corner, then select Organization from the menu.                        |                                                                                                                                                              |
+|        In the Organizations tab, click the name of your organization.<br><br>           |                                                                                                                                                              |
 |                                                                                         |                                                                                                                                                              |
 |     2. Select the <strong>LTI Integrations</strong> tab.<br><br>                        |                                                                                                                                                              |
 |     3. Scroll down to the <strong>LTI Integration 1.3</strong> section; you should      |                                                                                                                                                              |
