@@ -2,7 +2,7 @@
     // This file is used to configure the three buttons along Codio's top menu.
     // Run button configuration
     "commands": {
-        "Make": "make html",
+        "Make": "clear && make html",
         "Start Ungit":"ungit --port=4000 --ungitBindIp 0.0.0.0"
     },
     // Preview button configuration

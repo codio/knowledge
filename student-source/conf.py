@@ -88,7 +88,7 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'pydata_sphinx_theme'
+html_theme = "sphinxawesome_theme"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -96,12 +96,6 @@ html_theme = 'pydata_sphinx_theme'
 #
 html_theme_options = {
     "show_prev_next": True,
-    "footer_items": ["copyright"],
-    "navbar_end": ["navbar-icon-links", "search-field"],
-    "navbar_align": "none",
-    "search_bar_text": "Search ...",
-    "show_toc_level": 2,
-    "page_sidebar_items": [],
 #   "external_links": [
 #       {"name": "Overview", "url": "/instructors/getstarted"},
 #       {"name": "Authoring", "url": "/instructors/authoring"},
@@ -128,7 +122,7 @@ html_static_path = ['_static']
 html_sidebars = {
     "index": [],
     "student": [],
-    "**": ['sidebar-nav-bs.html'],
+    # "**": ['sidebar-nav-bs.html'],
 }
 
 
@@ -212,7 +206,9 @@ epub_exclude_files = ['search.html']
 # -- Options for intersphinx extension ---------------------------------------
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3', None),
+}
 
 # -- Options for todo extension ----------------------------------------------
 
