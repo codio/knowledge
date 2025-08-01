@@ -20,9 +20,9 @@ In Codio
 
 +----------------------------------------------------------------------+------------------------------------------------------------------------------------------+
 |                                                                      |                                                                                          |
-| **1.** Go to your organization account settings by clicking on your  | .. figure:: /img/lti/LTI1.1IntegrationCodio.png                                          |
-| user name in the bottom left of your dashboard and then              |     :alt: LTI Fields                                                                     |
-| selecting your organization within **Organizations**.                |                                                                                          |
+| **1.** Click your username in the top-right corner, then select      | .. figure:: /img/lti/LTI1.1IntegrationCodio.png                                          |
+| **Organization** from the menu. In the organization area, click the  |     :alt: LTI Fields                                                                     |
+| name of your organization.                                           |                                                                                          |
 |                                                                      |                                                                                          |
 | **2.** Select the **LTI Integrations** tab.                          |                                                                                          |
 |                                                                      |                                                                                          |
@@ -93,19 +93,23 @@ The **Course LMS URL** is used to map an LMS course to a Codio course. It ensure
 
 
 +--------------------------------------------------------------------------+----------------------------------------------------------------------------------+
-| **13.** In Codio, go to the **LTI/LMS** tab near the top.                | .. figure:: /img/lti/lti-class-url.png                                           |
+| **13.** In Codio, naviagte to your course of choice.                     | .. figure:: /img/lti/lti-class-url.png                                           |
 |                                                                          |    :alt: lti-class-url                                                           |                        
-| **14.** Go to the **LTI/LMS Settings** section.                          |                                                                                  |
 |                                                                          |                                                                                  |
-| **15.** Select **Enable LTI** to enable.                                 |                                                                                  |
+| **14.** Go to the **LTI/LMS** section on the left under Admin.           |                                                                                  |
 |                                                                          |                                                                                  |
-| **16.** Below this is an empty field **Course LMS URL**. Switch back to  |                                                                                  |
+| **15.** In **LTI/LMS Settings** Select **Enable LTI** to enable.         |                                                                                  |
+|                                                                          |                                                                                  |
+| **16.** In this field **Course LMS URL** you customize where you         |                                                                                  |
+| would like your students to return to. If you want your students to      |                                                                                  |
+| return to a specific page in your LMS, for example your course home      |                                                                                  |
+| page, paste that URL here.Switch back to                                 |                                                                                  | 
 | your LMS and make sure you are on the Home page of the course.           |                                                                                  |
 | Copy the url in the address bar of your browser to the clipboard         |                                                                                  |
 | and paste it into the above mentioned field in Codio.                    |                                                                                  |
 +--------------------------------------------------------------------------+----------------------------------------------------------------------------------+
 
-. _hide-assignments:
+
 
 Hiding "not started" Assignments in Students Dashboard
 *******************************************************
