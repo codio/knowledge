@@ -93,20 +93,19 @@ The **Course LMS URL** is used to map an LMS course to a Codio course. It ensure
 
 
 +--------------------------------------------------------------------------+----------------------------------------------------------------------------------+
-| **13.** In Codio, naviagte to your course of choice.                     | .. figure:: /img/lti/lti-class-url.png                                           |
+| **13.** In Codio, navigate to your course of choice.                     | .. figure:: /img/lti/lti-class-url.png                                           |
 |                                                                          |    :alt: lti-class-url                                                           |                        
 |                                                                          |                                                                                  |
 | **14.** Go to the **LTI/LMS** section on the left under Admin.           |                                                                                  |
 |                                                                          |                                                                                  |
-| **15.** In **LTI/LMS Settings** Select **Enable LTI** to enable.         |                                                                                  |
+| **15.** In **LTI/LMS Settings** toggle **Enable LTI** on.                |                                                                                  |
 |                                                                          |                                                                                  |
-| **16.** In this field **Course LMS URL** you customize where you         |                                                                                  |
-| would like your students to return to. If you want your students to      |                                                                                  |
-| return to a specific page in your LMS, for example your course home      |                                                                                  |
-| page, paste that URL here.Switch back to                                 |                                                                                  | 
-| your LMS and make sure you are on the Home page of the course.           |                                                                                  |
-| Copy the url in the address bar of your browser to the clipboard         |                                                                                  |
-| and paste it into the above mentioned field in Codio.                    |                                                                                  |
+| **16.** Use **Course LMS URL** to define where students return in the LMS|                                                                                  |
+| after leaving Codio. Paste the desired page URL (e.g., the LMS course    |                                                                                  |
+| home page) here. Switch back to your LMS and make sure you are           |                                                                                  |
+| on the Home page of the course. Copy the url in the address bar of your  |                                                                                  | 
+| browser to the clipboard and paste it into the above mentioned field     |                                                                                  |
+| in Codio                                                                 |                                                                                  |
 +--------------------------------------------------------------------------+----------------------------------------------------------------------------------+
 
 
