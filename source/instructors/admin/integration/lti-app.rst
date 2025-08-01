@@ -102,10 +102,7 @@ The **Course LMS URL** is used to map an LMS course to a Codio course. It ensure
 |                                                                          |                                                                                  |
 | **16.** Use **Course LMS URL** to define where students return in the LMS|                                                                                  |
 | after leaving Codio. Paste the desired page URL (e.g., the LMS course    |                                                                                  |
-| home page) here. Switch back to your LMS and make sure you are           |                                                                                  |
-| on the Home page of the course. Copy the url in the address bar of your  |                                                                                  | 
-| browser to the clipboard and paste it into the above mentioned field     |                                                                                  |
-| in Codio                                                                 |                                                                                  |
+| home page) here.                                                         |                                                                                  |
 +--------------------------------------------------------------------------+----------------------------------------------------------------------------------+
 
 
