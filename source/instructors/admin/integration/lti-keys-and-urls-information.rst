@@ -24,15 +24,15 @@ LTI Keys
 
 To find these keys:
 
-+---------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| 1. Go to your organization account settings by clicking on    | .. figure:: /img/lti/lti-org-fields.png                                                     |
-|    your user name in the bottom left of your dashboard and    |    :alt: lti-keys                                                                           |
-|    then selecting your organization within **Organizations**. |                                                                                             |
++---------------------------------------------------------------+---------------------------------------------------------------------------------------------+   
+| 1. Click your user name in the top right corner,              |    .. figure:: /img/lti/LTI1.1IntegrationCodio.png                                          |
+|    then select **Organization** from the menu.                |       :alt: lti-keys                                                                        |
 |                                                               |                                                                                             |
-| 2. Select the **LTI Integrations** tab.                       |                                                                                             |
+| 2. In the **Organizations** area, click the name              |                                                                                             |
+|    of your organization.                                      |                                                                                             |
 |                                                               |                                                                                             |
-| 3. Scroll down to the **LTI Integration 1.0** section. You    |                                                                                             |
-|    should see the following fields.                           |                                                                                             |
+| 3. Click the **LTI Integrations** section on the              |                                                                                             |
+|    left to bring up the following settings.                   |                                                                                             |
 +---------------------------------------------------------------+---------------------------------------------------------------------------------------------+
 
 
@@ -112,10 +112,10 @@ To generate an **LTI Enroll Link**, follow the steps below:
 .. image:: /img/lti/LTIenrolllink.png
    :alt: Export LTI settings
    :align: right
-   :width: 510px
+   :width: 490px
 
 1. Navigate to the **Courses** page and select the course you wish to connect.
-2. Click **LTI/LMS** tab and turn ON the **Enable LTI** setting from LTI/LMS Setting area.
+2. Click the **LTI/LMS** tab and toggle the **Enable LTI** setting on from the LTI/LMS Setting area.
 3. Enable the **Enroll to course only** setting to generate the link.
 4. Copy the link and paste it as an **External Tool** in your LMS system.
 
