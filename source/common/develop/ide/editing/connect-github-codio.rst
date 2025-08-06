@@ -116,7 +116,7 @@ To manually import a Git repo into Codio, follow these steps:
    .. figure:: /img/github-clone-url.png
       :alt: create from GitHub
 
-  If you are cloning using SSH, you must have already added the Codio SSH public key as described in :ref:`Upload SSH Key to Remote Server <upload-ssh-key-remote-server>`.
+  If you are cloning using SSH, you must have already added the Codio SSH public key as described in :ref:`SSH Key <ssh-key>`.
 
 2. Create a :ref:`new project <create-import-project>` or :ref:`add an assignment <add-remove-assignment>` to a course.
 

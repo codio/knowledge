@@ -11,24 +11,9 @@ Please be sure to check out the :ref:`Codio LTI App <lti-app>` which allows for 
 Setup and Configuration
 ------------------------
 
-.. raw:: html
 
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Important Notice</title>
-    </head>
-    <body style="font-family: Arial, sans-serif; padding: 20px;">
-        <div style="margin: 0 0 10px 20px; padding: 10px; background: #ffffff; border: 5px solid #2baeff;">
-            <div style="background: #e6f5ff; padding: 5px 8px; margin: -10px -10px 8px -10px; border-radius: 2px;">
-                <span style="color: #2baeff; font-weight: bold;">!</span> <strong>Important</strong>
-            </div>
-            Codio needs the User Role, Email Address and Name of the Moodle user in order to work. It is important that you access the LTI security settings and ensure that these three fields are enabled. If they are not available, contact Moodle support who can help you enable this. If enabled after you have mapped Codio content to Moodle, you may need to re publish for the changes to be implemented.
-        </div>
-    </body>
-    </html>
-
+.. important:: 
+   Codio needs the User Role, Email Address and Name of the Moodle user in order to work. It is important that you access the LTI security settings and ensure that these three fields are enabled. If they are not available, contact Moodle support who can help you enable this. If enabled after you have mapped Codio content to Moodle, you may need to re publish for the changes to be implemented.
 
 **Video: Connect Moodle to Codio using the LTI Integration URL**
 
@@ -48,11 +33,9 @@ Then in the Moodle course you have created:
 - Proceed through the steps.
 
 
-.. raw:: html
-
-    <div style= " margin: 0 0 10px 20px; padding: 10px; background: #f0f0f0; border: 3px solid #00ece5;">
-    <strong>Note:</strong> Restore is required as Moodle currently does not support importing of <strong>.imscc </strong> files.
-    </div>
+ .. note::
+   Restore is required as Moodle currently does not support importing of **.imscc** files.
+    
 
 
 To confirm your setup, just click on any assignment available in Moodle. If all configurations are correct, you will be redirected straight to the Teacher view of that assignment in Codio.

@@ -58,17 +58,14 @@ After setting up your organization, you can add teachers to give them access to 
 
 
 
-.. raw:: html
 
 
- <div style= " margin: 0 0 10px 20px; padding: 10px; background: #f0f0f0; border: 3px solid #00ece5;">
- <strong>Note:</strong> They must use the same email address to which the invitation was sent; otherwise, they will not be added to the organization. This invitation is valid for 7 days. If it is not used within that time frame, it will expire, and the recipient will no longer be able to use it to join the organization. In such cases, you will need to resend the invitation. All pending invitations are displayed and you have the option to <strong>Resend</strong> or <strong>Revoke</strong> the invitation.
-
- </div>
-
-.. raw:: html
+.. note:: 
+    They must use the same email address to which the invitation was sent; otherwise, they will not be added to the organization. This invitation is valid for 7 days. If it is not used within that time frame, it will expire, and the recipient will no longer be able to use it to join the organization. In such cases, you will need to resend the invitation. All pending invitations are displayed and you have the option to **Resend** or **Revoke** the invitation.
 
 
- <div style= " margin: 0 0 10px 20px; padding: 10px; background: #f0f0f0; border: 3px solid #00ece5;">
- <strong>Note:</strong> If you already have courses set up, you can add and invite teachers directly into your course(s). See <a href="https://docs.codio.com/instructors/setupcourses/add-teachers.html#add-teachers" target="_blank">Add or Remove Teachers in a Course</a>. You can then add them as an <a href="https://docs.codio.com/instructors/admin/organization/add-remove-org-owners.html#org-owners" target="_blank">organization owner</a> so they can then manage and create courses, and have full Admin access to the organization.
- </div>
+
+
+
+.. note:: 
+   If you already have courses set up, you can add and invite teachers directly into your course(s). See :ref:`Add or Remove Teachers in a Course <add-teachers>`. You can then add them as an :ref:`Organization Owner <org-owners>` so they can then manage and create courses, and have full Admin access to the organization.

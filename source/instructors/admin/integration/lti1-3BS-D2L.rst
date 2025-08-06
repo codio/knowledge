@@ -14,37 +14,54 @@ The following is created in Manage Extensibility, LTI Advantage - Register a Too
 
 Access LTI Integration settings in Codio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1.  Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **Organizations**.
-2.  Select the **LTI Integrations** tab.
-3.  Scroll down to the **LTI Integration 1.3** section. You should see the following fields. Remain on this screen for the time being.
+1. Click your username in the top-right corner, then select **Organizations** from the menu.
+2.  In the **Organizations** area, click the name of your organization.
+3.  Select the **LTI Integrations** tab.
+4.  Scroll down to the **LTI Integration 1.3** section. You should see the following fields. Remain on this screen for the time being.
 
-The LTI 1.3 area of your LTI Integrations settings for your organization.
-  .. image:: /img/lti/codiolti13settings.png
-     :alt: LTI 1.3 settings in Codio
 
 Copy fields from Codio to Brightspace/D2L
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: /img/lti/codiolti13settings.png
+     :alt: LTI 1.3 settings in Codio
+     :width: 350px
+     :figwidth: 415px
+     :align: right
+
+     LTI 1.3 settings in your organization's LTI Integrations.
+
 1. Copy **Initiate Login URL** to the **OpenID Connect Login URL** field.
 2. Copy **Redirect URL** to the **Redirect URL** field.
 3. Copy **Keyset URL** to the **Keyset URL** field.
 4. In the **Extensions** section enable **Assignment and Grader Services**, **Deep Linking** and **Names and Role Provisioning Services**.
 5. Press **Register** - leave the pop-up on the screen, you will be copying values from it.
 
+|
+|
+
 Add the Integration you created
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1. In Codio on the LTI Integrations screen scroll down to the LTI 1.3 Configurations field and click **Add Integration**
 
-  .. image:: /img/lti/addlti13integration.png
+.. image:: /img/lti/addlti13integration.png
      :alt: LTI 1.3 Configurations
+    
+|
 
 2. From the pop-up in Brightspace/D2L copy the **Issuer ID** and place in the **PLATFORM ID** field
-
-  .. image:: /img/lti/codioplatformlti1-3.png
-     :alt: LTI 1.3 Platform information in Codio
 
 
 Copy fields from Brightspace/D2L pop-up to Codio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: /img/lti/codioplatformlti1-3.png
+     :alt: LTI 1.3 Platform information in Codio
+     :width: 325px
+     :align: right
+
+
 1. Copy the **Client ID** to the **Client ID** field in Codio.
 2. Copy the **Keyset URL** to **Public Keyset URL** field.
 3. Copy the **Brightspace OAuth2 Access Token URL** to the **Access Token URL** field in Codio
@@ -89,12 +106,44 @@ In Brightspace/D2L
 LTI Course copy for Brightspace/D2L
 -----------------------------------
 
+.. figure:: /img/lti/enable_class_fork.png
+   :alt: Enable course copy field
+   :width: 375px
+   :align: right
+
 Enabling this setting allows existing Codio course content used in your LMS to be copied into a new Codio course and a new course in your LMS. This should be enabled for the courses connected with the "Master" course in your LMS. The parameter will be disabled by default for all copied courses.
 
 First enable :ref:`LTI Constant URLs <lti-keys-and-urls-information>` for your course.
 
 1.  In your existing Codio course, enable the **Enable LTI course copy** button, and save your changes
 
-.. figure:: /img/lti/enable_class_fork.png
-   :alt: Enable course copy field
+
+
+
+
+
+LTI 1.3 Dynamic Registration
+-----------------------------
+
+
+Dynamic Registration simplifies the setup process by automatically sharing configuration information between Tools and LMS systems. 
+
+
+Access LTI Integration Settings in Codio
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+.. image:: /img/lti/codiolti13settings.png
+    :alt: LTI 1.3 settings in Codio
+    :align: right
+    :width: 350px
+    :class: img-responsive
+
+
+1. Click your username in the top-right corner, then select **Organizations** from the menu.
+2. In the **Organizations** area, click the name of your organization.
+3. Select the **LTI Integrations** tab.
+4. Scroll down to the **LTI Integration 1.3** section.
+5. The **Dynamic Registration URL** is at the bottom of the list, you can copy it by clicking on the **Dynamic Registration URL** button.
+
 
