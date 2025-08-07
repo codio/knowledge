@@ -13,26 +13,44 @@ In Codio
 
 The Schoology system administrator should install a Codio external tool for the course so that it is quick and easy for instructors to add material. The Schoology system administrator should follow these directions to install Codio as an external tool:
 
+.. image:: /img/lti/enable-lti-new.png
+    :alt: enable lti and urls
+    :width: 400px
+    :align: right
+
 1. Open the course you would like to connect or create a new course.
 2. Make sure you have at least one published assignment or add a new one. (see :ref:`Add and Remove Course Assignments <add-remove-assignment>`)
 3. Select the **LTI/LMS** tab.
-4. Select the **ENABLE LTI** option.  
-5. Select the **ENABLE LTI CONSTANT URLS** option.  
+4. Toggle **ENABLE LTI** on.  
+5. Toggle **ENABLE LTI CONSTANT URLS** on.  
 6. Note the **Codio Course Target ID**, you will need that in subsequent steps. 
 7. Click **Save**.
 
-  .. image:: /img/lti/enable-lti-new.png
-     :alt: enable lti and urls
+|
+|
+|
         
 Bring up the LTI Integration Information
 ----------------------------------------
 
-8. Click your user name in the bottom left of your dashboard.
-9. Select your Organization. 
+.. image:: /img/lti/LTIintegrationinfo.png
+    :alt: Org LTI info
+    :width: 375px
+    :align: right
+
+|
+|
+|
+
+8. Click your username in the top-right corner, then select **Organizations** from the menu.
+9. In the **Organizations** area, click the name of your organization.
 10. Click the **LTI Integrations** tab to bring up the following settings. You will need to enter these into Schoology in the subsequent steps.
 
-  .. image:: /img/lti/LTIintegrationinfo.png
-     :alt: Org LTI info
+|
+|
+|
+|
+|
      
 In Schoology
 ~~~~~~~~~~~~
@@ -81,7 +99,7 @@ In Codio
 ~~~~~~~~
 
 21. Navigate to the course you would like to integrate with Schoology and go to the **Overview** area. 
-22. Click the icon with 3 blue dots for each assignment you wish to map and select **LTI Integration URL.** Select the clipboard to copy the link.
+22. Click the 3 vertical dots to the right of the assignment for each assignment you wish to map and select **LTI Integration URL.** Select the clipboard to copy the link.
 
     .. figure:: /img/lti/LMS-Unit-URL.png
        :alt: Unit URL

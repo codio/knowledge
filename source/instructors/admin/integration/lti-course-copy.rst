@@ -8,12 +8,9 @@ LTI Course copy
 
 Enabling this setting allows existing Codio course content used in your LMS to be copied into a new Codio course and a new course in your LMS. This should be enabled for the courses connected with the "Master" course in your LMS. The parameter will be disabled by default for all copied courses.
 
-.. raw:: html
-
-
-  <div style= " margin: 0 0 10px 20px; padding: 10px; background: #f0f0f0; border: 3px solid #00ece5;">
-  <strong>Note:</strong> The screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance.
-  </div>
+ .. note::
+    The screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance.
+  
 
 
 First enable :ref:`LTI Constant URLs <lti-keys-and-urls-information>` for your course.
@@ -62,8 +59,6 @@ First enable :ref:`LTI Constant URLs <lti-keys-and-urls-information>` for your c
 +-----------------------------------------------+------------------------------------------------------------------------------+
 
 
-.. raw:: html
+.. note:: 
+   If your LMS supports ``lis_course_offering_sourcedid`` you do not need to specify ``codio_course_target_id`` for the copied course, ``lis_course_offering_sourcedid`` will be used automatically to detect the course. For cases when ``lis_course_offering_sourcedid`` is needed for course copy but not available due to privacy settings in Canvas, a custom parameter ``custom_codio_course_offering_sourcedid=$CourseOffering.sourcedId`` can be tried.
 
-  <div style="margin: 0 0 10px 20px; padding: 10px; background: #f0f0f0; border: 3px solid #00ece5;">   
-    <strong>Note:</strong> If your LMS supports <code style="color: #9747ff; background: rgba(151, 71, 255, 0.1); padding: 2px 4px; border-radius: 3px;">lis_course_offering_sourcedid</code> you do not need to specify <code style="color: #9747ff; background: rgba(151, 71, 255, 0.1); padding: 2px 4px; border-radius: 3px;">codio_course_target_id</code> for the copied course, <code style="color: #9747ff; background: rgba(151, 71, 255, 0.1); padding: 2px 4px; border-radius: 3px;">lis_course_offering_sourcedid</code> will be used automatically to detect the course. For cases when <code style="color: #9747ff; background: rgba(151, 71, 255, 0.1); padding: 2px 4px; border-radius: 3px;">lis_course_offering_sourcedid</code> is needed for course copy but not available due to privacy settings in Canvas, a custom parameter <code style="color: #9747ff; background: rgba(151, 71, 255, 0.1); padding: 2px 4px; border-radius: 3px;">custom_codio_course_offering_sourcedid=$CourseOffering.sourcedId</code> can be tried.   
-  </div>
