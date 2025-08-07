@@ -310,7 +310,7 @@ In Codio:
 |     Updating the fields in Platform Information<br><br>                                   |                                                                                    |
 |     <strong>Note: replace [CANVAS DOMAIN] with your institution’s                         |                                                                                    |
 |       domain in steps 5-7. Make sure to remove the brackets. Example:                     |                                                                                    |
-|       https://Codio.instructure/api/lti/security/jwks      </strong><br><br>              |    .. image:: /img/lti/canvasplatform25.png                                        |    
+|       https://Codio.instructure.com/api/lti/security/jwks      </strong><br><br>          |    .. image:: /img/lti/canvasplatform25.png                                        |    
 |     2. <span style="color: teal;">Platform ID:</span>                                     |                                                                                    |
 |         https://canvas.instructure.com                                                    |                                                                                    |
 |                                                                                           |                                                                                    |
