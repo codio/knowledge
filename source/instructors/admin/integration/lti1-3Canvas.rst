@@ -402,6 +402,11 @@ Important Notes on Course Copy in Canvas:
     - An SIS ID that is different from the Blueprint Course (Canvas’ Parent Course) is required for Codio to spawn a corresponding child course.
     - An SIS ID is optional for the Blueprint Course.
 
+
+
+
+
+
 Connecting/mapping assignments in Canvas
 ------------------------------------------
 
@@ -435,36 +440,4 @@ How to connect assignment with custom param
 
     <script src="https://fast.wistia.com/embed/medias/4hacq8dpos.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_4hacq8dpos seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/4hacq8dpos/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 
-
-LTI 1.3 Dynamic Registration
------------------------------
-
-
-Dynamic Registration simplifies the setup process by automatically sharing configuration information between Tools and LMS systems. 
-
-
-
-Access LTI Integration Settings in Codio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-.. image:: /img/lti/codiolti13settings.png
-    :alt: LTI 1.3 settings in Codio
-    :align: right
-    :width: 350px
-    :class: img-responsive
-
-
-1. Click your username in the top-right corner, then select **Organizations** from the menu.
-2. In the **Organizations** area, click the name of your organization.
-3. Select the **LTI Integrations** tab.
-4. Scroll down to the **LTI Integration 1.3** section.
-5. The **Dynamic Registration URL** is at the bottom of the list, you can copy it by clicking on the **Dynamic Registration URL** button.
-
-
-
-
-
-
-If you require any assistance, please don't hesitate to :ref:`contact us <codio-support>`
 

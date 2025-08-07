@@ -6,7 +6,7 @@
 Blackboard LTI 1.x
 ==================
 
-Please be sure to check out the :ref:`Codio LTI App <lti-app>` which allows for an easy way to integrate and to map Codio course assignments to your LMS system. The `following page <http://library.blackboard.com/ref/df5b20ed-ce8d-4428-a595-a0091b23dda3/Content/_admin_app_system/admin_app_basic_lti_tool_providers.htm>`_ explains how to set up external apps in Blackboard Learn.
+Please be sure to check out the :ref:`Codio LTI App <lti-app>` which allows for an easy way to integrate and to map Codio course assignments to your LMS. The `following page <https://library.blackboard.com/ref/df5b20ed-ce8d-4428-a595-a0091b23dda3/Content/_admin_app_system/admin_app_basic_lti_tool_providers.htm>`_ explains how to set up external apps in Blackboard Learn.
 
 In Codio:
 
@@ -26,8 +26,8 @@ Enable LTI for Your Course
 Bring up the LTI Integration Information
 ----------------------------------------
 
-6. Click your user name in the bottom left of your dashboard
-7. Choose your Organization 
+6. Click your user name in the top right corner of your dashboard.
+7. Choose your Organization. 
 8. Click the **LTI Integrations** tab to bring up the following settings.
 
   .. image:: /img/lti/LTIintegrationinfo.png
@@ -81,7 +81,7 @@ In Codio
 24.  On the main course screen, make sure the **Edit Assignments** tab is selected.
 25.  Click the **Add Assignment** button and select **Project Based**.
 26.  Select a project that has some autograded assessments. The **My First Project** that you created earlier in the Onboarding Guide has some auto-graded assessments. You can also assign another project but you will need to manually grade the assignment so there are some scores to pass back to the Blackboard gradebook.
-27.  Once the assignment has been added to the course, you should click the icon with 3 blue dots and select **LTI Integration URL**.
+27.  Once the assignment has been added to the course, you should click the 3 dots to the right of that assignment and select **LTI Integration URL**.
 28.  You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).
 
 .. figure:: /img/lti/LMS-Unit-URL.png
@@ -99,7 +99,7 @@ We now return to Blackboard complete the mapping.
 33.  In the **Web Link Information** section ...
 34.  Enter a name for the content
 35.  Paste in the **LTI Integration URL** that you just copied to the clipboard from Codio
-36.  Check the box **Ths is a link to a tool provider**
+36.  Check the box **This is a link to a tool provider**
 37.  Select **Yes** for the field **Enable Evaluation** after which more fields will appear
 38.  Set the points you want to award for this content (Codio will automatically scale the percentage value it uses to the points you specify here)
 39.  Save the content settings.
@@ -108,3 +108,4 @@ Authentication and account creation
 -----------------------------------
 
 To add students/teachers see :ref:`Users account creation <lms-users>`
+
