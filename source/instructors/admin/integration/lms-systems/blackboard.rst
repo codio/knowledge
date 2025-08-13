@@ -26,7 +26,7 @@ Enable LTI for Your Course
 Bring up the LTI Integration Information
 ----------------------------------------
 
-6. Click your user name in the top right corner of your dashboard.
+6. Click your username in the top right corner of your dashboard.
 7. Choose your Organization. 
 8. Click the **LTI Integrations** tab to bring up the following settings.
 
@@ -107,5 +107,4 @@ We now return to Blackboard complete the mapping.
 Authentication and account creation
 -----------------------------------
 
-To add students/teachers see :ref:`Users account creation <lms-users>`
-
+To add students/teachers see :ref:`User account creation <lms-users>`

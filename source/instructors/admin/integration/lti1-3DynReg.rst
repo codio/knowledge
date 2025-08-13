@@ -31,7 +31,7 @@ Access LTI Integration Settings in Codio
 2. In the **Organizations** area, click the name of your organization.
 3. Select the **LTI Integrations** tab.
 4. Scroll down to the **LTI Integration 1.3** section.
-5. The **Dynamic Registration URL** is at the bottom of the list, you can copy it by clicking on the **Dynamic Registration URL** button.
+5. Scroll to the bottom of the list and click **Dynamic Registration URL** to copy it.
 
 
 

@@ -12,7 +12,7 @@ On this page, you will find detailed step-by-step guidelines to help you integra
 LTI version 1.3 improves upon version 1.1 by moving away from the use of OAuth 1.0a-style signing for authentication and towards a new security model, using OpenID Connect, signed JWTs, and OAuth2.0 workflows for authentication.
 For more information, see Learning Tools Interoperability Core Specification
 
-The deep linking url is : https://apollo.codio.com/lti/resource_selection
+The deep-linking URL is ``https://apollo.codio.com/lti/resource_selection``.
 
 
 Part 1: In Canvas - Create a Developer Key
@@ -96,7 +96,8 @@ The Canvas user who carries out these steps must be a system administrator.
 +-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-
+ .. important::
+    When copying links, please use the copy button adjacent to each link to ensure accuracy and prevent linking errors.
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -227,7 +228,7 @@ The Canvas user who carries out these steps must be a system administrator.
 |     18. Press <strong>Save</strong> in bottom right corner<br><br>                        |                                                                                                                                                              |
 |     19. You will be back at the list of developer keys.<br><br>                           |                                                                                                                                                              |
 |     20. Update <strong>State</strong> to: on<br><br>                                      |                                                                                                                                                              |
-|     21. Copy the number in the <strong>Details<strong> column (for use in Parts 2 and 3)  |                                                                                                                                                              |
+|     21. Copy the number in the <strong>Details</strong> column (for use in Parts 2 and 3) |                                                                                                                                                              |
 |     </div>                                                                                |                                                                                                                                                              |
 +-------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
