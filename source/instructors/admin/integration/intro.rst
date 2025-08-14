@@ -14,6 +14,7 @@ Integrating with your LMS system (Canvas etc.)
    lms-systems/system-specific-directions
    lms-students
    lti-enrol
+   open-student-assignments-lms
    grading
    lti-app
    lti-keys-and-urls-information

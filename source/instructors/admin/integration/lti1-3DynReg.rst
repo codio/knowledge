@@ -27,10 +27,19 @@ Access LTI Integration Settings in Codio
     :class: img-responsive
 
 
-1. Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **Organizations**.
-2. Select the **LTI Integrations** tab.
-3. Scroll down to the **LTI Integration 1.3** section.
-4. The **Dynamic Registration URL** is at the bottom of the list, you can copy it by clicking on the **Dynamic Registration URL** button.
+1. Click your username in the top-right corner, then select **Organizations** from the menu.
+2. In the **Organizations** area, click the name of your organization.
+3. Select the **LTI Integrations** tab.
+4. Scroll down to the **LTI Integration 1.3** section.
+5. Scroll to the bottom of the list and click the copy icon next to **Dynamic Registration URL**.
+
+
+
+
+
+
+
+
 
 
 

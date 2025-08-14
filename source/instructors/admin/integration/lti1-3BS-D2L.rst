@@ -23,6 +23,12 @@ Access LTI Integration settings in Codio
 Copy fields from Codio to Brightspace/D2L
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+ .. important::
+    When copying links, please use the copy button adjacent to each link to ensure accuracy and prevent linking errors.
+
+
+
+
 .. figure:: /img/lti/codiolti13settings.png
      :alt: LTI 1.3 settings in Codio
      :width: 350px
@@ -120,30 +126,5 @@ First enable :ref:`LTI Constant URLs <lti-keys-and-urls-information>` for your c
 
 
 
-
-
-LTI 1.3 Dynamic Registration
------------------------------
-
-
-Dynamic Registration simplifies the setup process by automatically sharing configuration information between Tools and LMS systems. 
-
-
-Access LTI Integration Settings in Codio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-.. image:: /img/lti/codiolti13settings.png
-    :alt: LTI 1.3 settings in Codio
-    :align: right
-    :width: 350px
-    :class: img-responsive
-
-
-1. Click your username in the top-right corner, then select **Organizations** from the menu.
-2. In the **Organizations** area, click the name of your organization.
-3. Select the **LTI Integrations** tab.
-4. Scroll down to the **LTI Integration 1.3** section.
-5. The **Dynamic Registration URL** is at the bottom of the list, you can copy it by clicking on the **Dynamic Registration URL** button.
 
 

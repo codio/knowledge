@@ -201,43 +201,6 @@ LTI 1.1
 
 
 
-LTI 1.3
-"""""""
-
-**Custom parameters claim object**
-specified in https://purl.imsglobal.org/spec/lti/claim/custom
-
-**actual_user**
-
-
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
-| Parameter        | Description                                                   | Example                                          |
-+==================+===============================================================+==================================================+
-| id               | id= lms user identification                                   | "actual_user_id": "123"                          |
-|                  |                                                               |                                                  |
-|                  | This is equivalent of sub when the request is executed        |                                                  | 
-|                  | without changing the current user.                            |                                                  |
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
-| email            | email= actual user email                                      |                                                  |
-|                  |                                                               |                                                  |
-|                  | This will be used for registration if                         | "actual_user_email": "lms-admin@email.com"       |
-|                  | custom_actual_user_id is not matched to an existed user.      |                                                  |
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
-| role             | role= actual user role                                        |                                                  |
-|                  |                                                               |                                                  |
-|                  | This should not be Student-like role.                         | "actual_user_role": "Instructor"                 |
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
-| given_name       | given_name= actual user given name                            | "actual_user_given_name": "Name"                 |
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
-| family_name      | family_name= actual user family name                          | "actual_user_family_name": "Family"              |
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
-| full_name        | full_name= actual user full name                              |                                                  |
-|                  |                                                               |                                                  |
-|                  | This could be omitted if                                      | "actual_user_full_name": "Name Family"           |
-|                  | custom_actual_user_name_family and                            |                                                  |
-|                  | custom_actual_user_name_given passed.                         |                                                  |
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
-
 .. Note:: The parameters should be set by LMS dynamically based on current user, not statically. If you need assistance contact help@codio.com
 
 .. important:: Canvas/Moodle/Blackboard do not support this feature.

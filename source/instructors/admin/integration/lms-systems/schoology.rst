@@ -113,3 +113,5 @@ In Schoology
 24. You can enable grading on external tool items which adds the material to your Gradebook so that you can assign a grade for each student who completes the assignment launched via the external tool.
 
    .. Note:: LTI and external tool materials that have grading enabled in Schoology do not trigger submission notifications, grading reminders, or overdue notifications because Schoology does not automatically detect submissions from external tools. 
+
+
