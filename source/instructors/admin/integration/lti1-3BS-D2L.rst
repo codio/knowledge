@@ -23,6 +23,12 @@ Access LTI Integration settings in Codio
 Copy fields from Codio to Brightspace/D2L
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+ .. important::
+    When copying links, please use the copy button adjacent to each link to ensure accuracy and prevent linking errors.
+
+
+
+
 .. figure:: /img/lti/codiolti13settings.png
      :alt: LTI 1.3 settings in Codio
      :width: 350px

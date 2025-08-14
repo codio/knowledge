@@ -17,7 +17,8 @@ LTI 1.3
 """""""
 
 
-**Custom parameters**
+Custom parameters
+~~~~~~~~~~~~~~~~~
 
 
 
@@ -53,6 +54,6 @@ LTI 1.3
 +------------------+---------------------------------------------------------------+--------------------------------------------------+
 
 
-.. Note:: The parameters should be set by LMS dynamically based on current user, not statically. If you need assistance contact help@codio.com
-
-
+ .. note::
+    These parameters must be set dynamically by the LMS based on the current user (not configured statically).
+    If you need assistance, contact <mailto:help@codio.com>.

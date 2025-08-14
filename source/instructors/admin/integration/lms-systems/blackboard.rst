@@ -26,7 +26,7 @@ Enable LTI for Your Course
 Bring up the LTI Integration Information
 ----------------------------------------
 
-6. Click your username in the top right corner of your dashboard.
+6. Click your username in the top-right corner of your dashboard.
 7. Choose your Organization. 
 8. Click the **LTI Integrations** tab to bring up the following settings.
 
@@ -81,7 +81,7 @@ In Codio
 24.  On the main course screen, make sure the **Edit Assignments** tab is selected.
 25.  Click the **Add Assignment** button and select **Project Based**.
 26.  Select a project that has some autograded assessments. The **My First Project** that you created earlier in the Onboarding Guide has some auto-graded assessments. You can also assign another project but you will need to manually grade the assignment so there are some scores to pass back to the Blackboard gradebook.
-27.  Once the assignment has been added to the course, you should click the 3 dots to the right of that assignment and select **LTI Integration URL**.
+27.  Once the assignment has been added to the course, you should click the three dots to the right of that assignment and select **LTI Integration URL**.
 28.  You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).
 
 .. figure:: /img/lti/LMS-Unit-URL.png
@@ -107,4 +107,4 @@ We now return to Blackboard complete the mapping.
 Authentication and account creation
 -----------------------------------
 
-To add students/teachers see :ref:`User account creation <lms-users>`
+To add students/teachers, see :ref:`User account creation <lms-users>`.

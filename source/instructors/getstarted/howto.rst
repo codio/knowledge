@@ -8,7 +8,9 @@ How to Videos
 
 On this page you will find detailed step-by-step video tutorials designed to guide your initial setup and orientation.
 
-|
+
+
+
 
 Codio Overview
 ~~~~~~~~~~~~~~~
@@ -31,7 +33,7 @@ Using Codio Resources
 
 
 
-Editing Existing Guides Content
+Editing Existing Guide Content
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -76,7 +78,7 @@ Additional tutorial videos are available below to further assist with setup and 
    * - **Student Insights & Experience**
      - | `Learner Behavior Insights in Codio <https://codio.wistia.com/medias/6s4dihtc0k>`_
        | `Flexible Student Learning Experience <https://codio.wistia.com/medias/igr61rump5>`_
-       | `Student Codio IDE Overview video <https://codio.wistia.com/medias/7aevzapmtp>`_
+       | `Student Codio IDE Overview <https://codio.wistia.com/medias/7aevzapmtp>`_
    * - **Assessment & Grading**
      - | `Auto Grading in Codio <https://codio.wistia.com/medias/wmgnz6sh9s>`_
        | `Combining Grading Sources <https://codio.wistia.com/medias/yk8uqpdbkr>`_

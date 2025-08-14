@@ -19,6 +19,10 @@ Part 1: In Canvas - Create a Developer Key
 ------------------------------------------
 The Canvas user who carries out these steps must be a system administrator.
 
+ .. important::
+    When copying links, please use the copy button adjacent to each link to ensure accuracy and prevent linking errors.
+
+
 
 +-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | .. raw:: html                                                                           |                                                                                                                                                              |
@@ -96,10 +100,7 @@ The Canvas user who carries out these steps must be a system administrator.
 +-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
- .. important::
-    When copying links, please use the copy button adjacent to each link to ensure accuracy and prevent linking errors.
-
-
+ 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | |image7|                                                                                                                                                                                                                                                                                                    | 
 |                                                                                                                                                                                                                                                                                                             |
@@ -118,7 +119,7 @@ The Canvas user who carries out these steps must be a system administrator.
 |     navigator.clipboard.writeText(url).then(() => {                                                                                                                                                                                                                                                         |
 |      alert('URL copied to clipboard!'); }).catch(err => {                                                                                                                                                                                                                                                   |  
 |      console.error('Failed to copy: ', err); }); } </script>                                                                                                                                                                                                                                                |
-|     <span style="color: teal;">Icon Url:</span><br>                                                                                                                                                                                                                                                         |
+|     <span style="color: teal;">Icon URL:</span><br>                                                                                                                                                                                                                                                         |
 |     https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png                                                                                                                                                                                                               |
 |                                                                                                                                                                                                                                                                                                             |
 |     <button onclick="copyRSTUrl2()">Copy URL</button><br>                                                                                                                                                                                                                                                   |
@@ -310,8 +311,8 @@ In Codio:
 |     <div class="small">                                                                   |                                                                                    |
 |     Updating the fields in Platform Information<br><br>                                   |                                                                                    |
 |     <strong>Note: replace [CANVAS DOMAIN] with your institution’s                         |                                                                                    |
-|       domain in steps 5-7. Make sure to remove the brackets. Example:                     |                                                                                    |
-|       https://Codio.instructure.com/api/lti/security/jwks      </strong><br><br>          |    .. image:: /img/lti/canvasplatform25.png                                        |    
+|       domain in steps 5–7. Remove the brackets. Example:                                  |                                                                                    |
+|       https://yourinstitution.instructure.com/api/lti/security/jwks</strong><br><br>      |    .. image:: /img/lti/canvasplatform25.png                                        |    
 |     2. <span style="color: teal;">Platform ID:</span>                                     |                                                                                    |
 |         https://canvas.instructure.com                                                    |                                                                                    |
 |                                                                                           |                                                                                    |
@@ -323,7 +324,7 @@ In Codio:
 |        console.error('Failed to copy: ', err); }); } </script><br><br>                    |                                                                                    |
 |                                                                                           |                                                                                    |
 |      3. <strong>Client ID:</strong> copied from Developer Keys at end of Part 1<br><br>   |                                                                                    |
-|      4. <strong>Deployment Id:</strong> copied in Part 2<br><br>                          |                                                                                    |
+|      4. <strong>Deployment ID:</strong> copied in Part 2<br><br>                          |                                                                                    |
 |                                                                                           |                                                                                    |
 |      5. <span style="color: teal;">Public Keyset URL:</span>                              |                                                                                    |
 |         https://[CANVAS DOMAIN]/api/lti/security/jwks                                     |                                                                                    |
@@ -375,22 +376,28 @@ In Canvas:
 |      4. Under <strong>Submission Type</strong>, select <strong>External Tool</strong>.<br><br>  |                                                                                                                                                      |
 |      5. Select Find.<br><br>                                                                    |                                                                                                                                                      |
 |                                                                                                 |                                                                                                                                                      |
-|  <strong>Note: Do not use LTI Integration URL to assign an assignment</strong><br><br>          |                                                                                                                                                      |
+|  <strong>Note:</strong> Do not paste the LTI Integration URL directly into the Canvas           |                                                                                                                                                      |
+|           External Tool URL field when creating an assignment. Instead, use the deep link       |                                                                                                                                                      |
+|          “Find” flow (recommended) or follow the “Connect by LTI Integration URL” method        |                                                                                                                                                      |
+|           described below. <br><br>                                                             |                                                                                                                                                      |
+|                                                                                                 |                                                                                                                                                      |
 |                                                                                                 |                                                                                                                                                      |
 |     6. Select the tool created in Part 1.<br>                                                   |                                                                                                                                                      |
-|         - Choose the Course and Assignment to connect to<br>                                    |                                                                                                                                                      |
-|         - Recommended: Select Load in a new tab<br><br>                                         |                                                                                                                                                      |
+|         <ul><li>Choose the Course and Assignment to connect to</li>                             |                                                                                                                                                      |
+|          <li> Recommended: Select Load in a new tab</li></ul><br>                               |                                                                                                                                                      |
+|                                                                                                 |                                                                                                                                                      |
 |      7. Select <strong>Save</strong> at bottom of the page                                      |                                                                                                                                                      |
 |       </div>                                                                                    |                                                                                                                                                      |
 +-------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-Note: these settings are not final and can be edited in Canvas at a later time.
+ .. note::
+    These settings are not final and can be edited in Canvas at a later time.
 
 
 Part 5: Customizing Iframe Width/Height
 ---------------------------------------
 
-You can customize the width and height of the Codio window embedded in the Canvas. The default width is 1000 pixels and height is 800 pixels, change those values if you need and press **Save Changes**.
+You can customize the width and height of the Codio window embedded in Canvas. The default width is 1000 pixels and height is 800 pixels; change those values if needed and press **Save Changes**.
 
   .. image:: /img/lti/iframe-width-height.png
      :alt: Iframe Width and Height settings
@@ -413,29 +420,29 @@ Connecting/mapping assignments in Canvas
 
 There are also a number of ways you can connect/map assignments. Check out the following videos to see the option that best suits you.
 
-How to connect assignment by lti integration url of assignment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to Connect an Assignment by LTI Integration URL
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
     <script src="https://fast.wistia.com/embed/medias/bzowzoyfz1.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_bzowzoyfz1 seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/bzowzoyfz1/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 
-How to connect assignment by resource selection preview
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to Connect an Assignment via Resource Selection Preview
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
     <script src="https://fast.wistia.com/embed/medias/ksdwvd0z3i.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_ksdwvd0z3i seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/ksdwvd0z3i/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 
-How to connect assignment by endpoint url
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to Connect an Assignment by Endpoint URL
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
     <script src="https://fast.wistia.com/embed/medias/fvyglizd2l.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_fvyglizd2l seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/fvyglizd2l/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 
-How to connect assignment with custom param
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to Connect an Assignment with a Custom Parameter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
