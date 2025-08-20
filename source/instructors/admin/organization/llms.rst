@@ -60,7 +60,7 @@ Examples of how to use a custom LLM provider
 - api key: your api key from openai
 - authentication: Header
 - auth template: Authorization: Bearer {{apikey}}
-- endpoint environment variable: OPENAI_CUSTOM_KEY (custom value)
+- endpoint environment variable: OPENAI_CUSTOM_URL (custom value)
 - api key environment variable: OPENAI_CUSTOM_KEY (custom value)
 
 After saving the parameters in the organization and enabling the provider in the course, run the script below in the assignment.
