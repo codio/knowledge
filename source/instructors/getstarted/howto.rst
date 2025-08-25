@@ -18,7 +18,7 @@ Codio Overview
 .. raw:: html
 
 
-    <script src="https://fast.wistia.com/embed/medias/5z8sv6nw5q.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script> <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_5z8sv6nw5q videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/5z8sv6nw5q/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div><script>window._wq = window._wq || [];_wq.push({ id: "5z8sv6nw5q", onReady: function(video) {video.time(8);}});</script>
+    <script src="https://fast.wistia.com/embed/medias/5z8sv6nw5q.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script> <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_5z8sv6nw5q videoFoam=true muted=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/5z8sv6nw5q/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div><script>window._wq = window._wq || [];_wq.push({ id: "5z8sv6nw5q", onReady: function(video) {video.mute(); video.time(8);}});</script>
 
 
 
@@ -29,7 +29,7 @@ Using Codio Resources
 .. raw:: html
 
 
-    <script src="https://fast.wistia.com/embed/medias/kpwbszlupk.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_kpwbszlupk videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/kpwbszlupk/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div><script>window._wq = window._wq || [];_wq.push({ id: "kpwbszlupk", onReady: function(video) {video.time(8);}});</script>
+    <script src="https://fast.wistia.com/embed/medias/kpwbszlupk.jsonp" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_kpwbszlupk videoFoam=true muted=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/kpwbszlupk/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div><script>window._wq = window._wq || [];_wq.push({ id: "kpwbszlupk", onReady: function(video) {video.mute(); video.time(8); }});</script>
 
 
 
@@ -39,7 +39,7 @@ Editing Existing Guide Content
 .. raw:: html
 
 
-    <script src="https://fast.wistia.com/embed/medias/011ctesax7.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_011ctesax7 videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/011ctesax7/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div><script>window._wq = window._wq || [];_wq.push({ id: "011ctesax7", onReady: function(video) {video.time(8);}});</script>
+    <script src="https://fast.wistia.com/embed/medias/011ctesax7.jsonp" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_011ctesax7 videoFoam=true muted=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/011ctesax7/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div><script>window._wq = window._wq || [];_wq.push({ id: "011ctesax7", onReady: function(video) {video.mute(); video.time(8); }});</script>
 
 
     
@@ -49,8 +49,16 @@ Adding Students and Test Students
 .. raw:: html
 
 
-    <script src="https://fast.wistia.com/embed/medias/u19upfunmo.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_u19upfunmo videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/u19upfunmo/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div><script>window._wq = window._wq || [];_wq.push({ id: "u19upfunmo", onReady: function(video) {video.time(8);}});</script>
+    <script src="https://fast.wistia.com/embed/medias/u19upfunmo.jsonp" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_u19upfunmo videoFoam=true muted=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/u19upfunmo/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div><script>window._wq = window._wq || [];_wq.push({ id: "u19upfunmo", onReady: function(video) {video.mute(); video.time(8);}});</script>
 
+
+
+Creating a Standard Code Test in Codio
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+    <script src="https://fast.wistia.com/embed/medias/rsmrdwd2y2.jsonp" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_rsmrdwd2y2 videoFoam=true muted=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/rsmrdwd2y2/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div><script>window._wq = window._wq || [];_wq.push({ id: "rsmrdwd2y2", onReady: function(video) {video.mute(); video.time(8); }});</script>
 
 
 
@@ -89,4 +97,4 @@ Additional tutorial videos are available below to further assist with setup and 
 
 
  .. note::
-    All videos are configured to start at the 8-second mark for optimal viewing experience.
+    All embedded videos start at 8 seconds and are muted by default for a consistent, accessible experience.

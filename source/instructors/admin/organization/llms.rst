@@ -3,8 +3,8 @@
    
 .. _org_llm:
 
-Large Language Model
-====================
+Large Language Models
+=====================
 
 You can add your own LLM API keys to your Codio organization to use in your :ref:`Course <course_llm>` from the **Organization > LLMs** page in Codio.
 
@@ -57,11 +57,11 @@ Examples of how to use a custom LLM provider
 - name: your openai custom name (custom value)
 - provider: openai (custom value)
 - endpoint: https://api.openai.com
-- api key: your api key from openai
+- API key: your API key from openai
 - authentication: Header
 - auth template: Authorization: Bearer {{apikey}}
-- endpoint environment variable: OPENAI_CUSTOM_KEY (custom value)
-- api key environment variable: OPENAI_CUSTOM_KEY (custom value)
+- endpoint environment variable: OPENAI_CUSTOM_URL (custom value)
+- API key environment variable: OPENAI_CUSTOM_KEY (custom value)
 
 After saving the parameters in the organization and enabling the provider in the course, run the script below in the assignment.
 
@@ -80,11 +80,11 @@ After saving the parameters in the organization and enabling the provider in the
 - name: your gemini custom name (custom value)
 - provider: gemini (custom value)
 - endpoint: https://generativelanguage.googleapis.com
-- api key: your api key from gemini
+- API key: your API key from gemini
 - authentication: Query param
 - auth template: key={{apikey}}
 - endpoint environment variable: GEMINI_CUSTOM_URL (custom value)
-- api key environment variable: GEMINI_CUSTOM_KEY (custom value)
+- API key environment variable: GEMINI_CUSTOM_KEY (custom value)
 
 The script:
 
