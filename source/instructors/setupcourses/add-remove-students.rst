@@ -11,7 +11,7 @@ You can add, remove or archive students assigned to your course. View this video
 Add Students
 ------------
 
-To add a student to your course, follow these steps: follow these steps to add students to a course:
+To add a student to your course, follow these steps:
 
 1. Navigate to the **Courses** page and select the course to open it.
 2. Click the **Students** tab and then click the **Add a student** button.
@@ -27,11 +27,11 @@ To add a student to your course, follow these steps: follow these steps to add s
     .. image:: /img/manage_classes/addstudents.png
        :alt: Add Students
 
-    - Copy the multi-word token and send to your students. Instruct your students to go to https://codio.com/p/join-class or click the **Join Course** button on our main website. They should enter the token and register their Codio account.
+   - Copy the multi-word token and send it to your students. Ask them to go to `Join Course <https://codio.com/p/join-class>`_ on the Codio website, enter the token, and then sign in or create a Codio account.
     
    - Copy the URL and send to your students. Instruct them to simply click the URL and register their Codio account.
    
-   .. Note:: We would recommend the Student Invite URL option as all the students need to do is enter that URL into their browser to join the correct course in your organization.
+   .. Note:: We recommend the Student Invite URL option because students can simply open the URL to join the correct course in your organization.
       
    The students who have been added are displayed on the **Students** page for the course.
 
@@ -46,7 +46,7 @@ You may view your course using the special student accounts Codio creates for yo
 3. Click on the **Add test students** button. You will now see three test students displayed on the **Students** page for the course. 
 4. Now that you have added test students, you are able to log in as one of the test students by pressing the **Login as** button. Please note that this is only available for the special test student accounts. 
 
-    .. Note:: When logged in as a test student, you will see a bar on the top of the window letting you know you are logged in as a test student. You can switch back to your main teacher account by selecting **Switch back to teachers account**. 
+ .. Note:: When logged in as a test student, you will see a bar at the top of the window indicating you are logged in as a test student. You can switch back to your main teacher account by selecting **Switch back to teacher's account**. 
 
 Remove Students
 ---------------
@@ -63,8 +63,8 @@ To remove a student from a course, follow these steps:
     .. image:: /img/manage_classes/remove_student.png
        :alt: Remove Student
        
-4.  Students can rejoin the course using either the options above. If you wish to prevent this, you can **Regenerate** the student token so the previously advised code will not work
-       
+4.  Students can rejoin the course using any of the options above. Students who originally enrolled using the course token or URL link will continue to have access through those methods. To revoke access via the original token, simply regenerate it by clicking the circular arrow icon next to the token name this will deactivate the old token and create a new one.
+
 .. _archive-students:
 
 Archive Students
@@ -83,7 +83,7 @@ To archive a student from a course, follow these steps:
     .. image:: /img/manage_classes/archive_student.png
        :alt: Archive Student
        
-4. Teachers can unarchive students from the same **Options** meno
+4. Teachers can unarchive students from the same **Options** menu.
 
    .. Note:: These actions do not remove your student entirely from your organization and any/all data for them in the course is not deleted. If/when they rejoin the course, all their data will be available.  To remove a student entirely from your organization, when all their data will also be deleted, see - :ref:`remove members <remove-org-members>`.
 
