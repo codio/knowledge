@@ -237,7 +237,7 @@ The Canvas user who carries out these steps must be a system administrator.
 |                                                                                           |                                                                                                                                                              |
 |     <div class="small">                                                                   |                                                                                                                                                              |
 |                                                                                           |    |image11|                                                                                                                                                 |
-|     18. Press <strong>Save</strong> in bottom-right corner<br><br>                        |                                                                                                                                                              |
+|     18. Click <strong>Save</strong> in bottom-right corner<br><br>                        |                                                                                                                                                              |
 |     19. You will be back at the list of developer keys.<br><br>                           |                                                                                                                                                              |
 |     20. Update <strong>State</strong> to: on<br><br>                                      |                                                                                                                                                              |
 |     21. Copy the number in the <strong>Details</strong> column (for use in Parts 2 and 3) |                                                                                                                                                              |
@@ -263,15 +263,15 @@ The Canvas user who carries out these steps must be a system administrator.
 
  .. |image5| image:: /img/lti/canvasadvantage.png
     :alt: LTI Advantage Services toggles in Canvas
-    :width: 1500px
+    :width: 1500px 
 
  .. |image6| image:: /img/lti/canvasplacements.png
     :alt: Canvas placements configuration
-    :width: 1500px
+    :width: 1500px 
 
  .. |image7| image:: /img/lti/canvaslinkselect.png
     :alt: Canvas Link Selection placement
-    :width: 1500px
+    :width: 1500px 
 
  .. |image8| image:: /img/lti/canvaseditorbutton.png
     :alt: Canvas Editor Button placement
@@ -279,7 +279,7 @@ The Canvas user who carries out these steps must be a system administrator.
 
  .. |image9| image:: /img/lti/canvasassignment.png
     :alt: Canvas Assignment Selection placement
-    :width: 1500px
+    :width: 1500px 
 
  .. |image10| image:: /img/lti/canvasnavigation.png
     :alt: Canvas Course Navigation placement
@@ -287,7 +287,7 @@ The Canvas user who carries out these steps must be a system administrator.
 
  .. |image11| image:: /img/lti/canvasdetails.png
     :alt: Canvas Developer Key list with details
-    :width: 1500px
+    :width: 1500px 
 
 
 
