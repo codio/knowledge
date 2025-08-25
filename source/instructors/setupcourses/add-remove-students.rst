@@ -27,7 +27,7 @@ To add a student to your course, follow these steps: follow these steps to add s
     .. image:: /img/manage_classes/addstudents.png
        :alt: Add Students
 
-    - Copy the two-word token and send to your students. Instruct your students to go to https://codio.com/p/join-class or click the **Join Course** button on our main website. They should enter the token and register their Codio account.
+    - Copy the multi-word token and send to your students. Instruct your students to go to https://codio.com/p/join-class or click the **Join Course** button on our main website. They should enter the token and register their Codio account.
     
    - Copy the URL and send to your students. Instruct them to simply click the URL and register their Codio account.
    
