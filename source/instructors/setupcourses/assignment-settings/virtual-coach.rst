@@ -9,6 +9,8 @@ Virtual Coach
 
 When Virtual Coach is enabled, students can use AI to assist them with their programming tasks. Codio's prompts to the AI ensure that only assistance is provided, not solutions. The Virtual Coach can help students understand error messages they have received, gain a better understanding of the assignment prompt, or receive a hint about the next possible steps.
 
+Codio conducts extensive research in the field of AI use in computing education, with error messages, summaries, and hints representing well-researched use cases for AI-assisted learning. Our Coach feature, which generates AI-powered error messages, demonstrates positive benefits for learners through improved completion rates and higher median grade attainment. Coach is powered by Anthropic's Claude model. No student's personally identifiable information (PII) is stored by Anthropic, ensuring student privacy protection. For more information, you can download our research paper: https://www.codio.com/research/impact-of-codio-coach.
+
 In the assignments settings area, there are three settings you can toggle to enable the following features: **Summarize Prompt**, **Error Augmentation**, and **Next Steps Hint**. 
 
 
