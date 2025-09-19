@@ -51,4 +51,4 @@ Modifying an existing **Blueprint** will overwrite its contents. To modify an ex
 Reusing a **Blueprint** in a different course
 ---------------------------------------------
 
-As previously mentioned, Blueprints are only available in the course in which they were created. However, it is possible to transfer them to a different course by exporting and importing. See :ref:`Exporting and Importing Blueprints <course-blueprint-transfer>` to learn how transfer them between courses. 
+As previously mentioned, Blueprints are only available in the course in which they were created. However, you can transfer them to a different course by exporting and importing them. See :ref:`Course Blueprint Transfer <course-blueprint-transfer>` to learn how to transfer them between courses.

@@ -170,33 +170,33 @@ Export course sources to obtain a zip file containing all the currently publishe
 Course Blueprint Transfer
 -------------------------
 
-It is possible to Export Course Blueprints to a file so you can transfer them to a differnt course. 
+You can export course Blueprints to a file to transfer them to a different course.
 
-   1. Navigate to the **Courses** page and select the course where you want to export **Blueprints** to open it. 
+   1. 1. Navigate to the **Courses** page and open the course from which you want to export **Blueprints**.
    2. Click the **Export** tab and then scroll down to **Course Blueprint Transfer**.
    3. Click the **Export** button.
-   4. In the pop up, click **Export** once again to download a `json` file containing the Blueprints for the course. 
+   4. In the pop-up dialog, click **Export** again to download a JSON file containing the course Blueprints.
    
 
 .. image:: /img/export_blueprints.png
       :alt: Export Blueprints window
 
-With the exported file, you can also share Blueprints to other instructors or import them into a different course. 
+With the exported file, you can share Blueprints with other instructors or import them into a different course.
 
-   1. Navigate to the **Courses** page and select the course where you want to import **Blueprints** to open it. 
+   1. Navigate to the **Courses** page and open the course into which you want to import **Blueprints**.
    2. Click the **Export** tab and then scroll down to **Course Blueprint Transfer**.
    3. Click the **Import** button.
-   4. In the pop up, you can import blueprints from a file or a GitHub repository. 
+   4. In the pop-up dialog, you can import Blueprints from a file or a GitHub repository.
 
-- For a file, just select File as the source and then click the **Insert a File** field. This will open a dialog to select a file in your computer.
+- For a file, select File as the source and then click the **Insert a File** field. This opens a dialog to select a file on your computer.
 
 - For Git, select Git as the source. 
 
-   - In the Git repository, use the `https` URL of the repo. `SSH` is not allowed. The repository needs to be publicly accesible.
-   - For the **Path to blueprints**, you will need to use the full path of where the template is stored, including the name and extension of the file. For example:
+   - In the Git repository, use the `HTTPS` URL of the repo. `SSH` is not allowed. The repository must be publicly accessible.
+   - For the **Path to blueprints**, use the full file path (including name and extension). For example:
 
 
 .. image:: /img/export_import_blueprints.png
       :alt: Import Blueprints window from GitHub
 
-.. Note:: Existing Blueprints won't be overwritten, imported Blueprints will added to the existing ones.
+.. Note:: Existing Blueprints aren't overwritten; imported Blueprints will be added to the existing ones.
