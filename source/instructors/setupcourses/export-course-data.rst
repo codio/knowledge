@@ -165,14 +165,14 @@ Export course sources to obtain a zip file containing all the currently publishe
    .. image:: /img/source_exportlinks.png
       :alt: Course Export Links
 
-.. _course-blueprint-transfer:
+.. _course-blueprint-export:
 
-Course Blueprint Transfer
--------------------------
+Course Blueprint Export
+-----------------------
 
 You can export course Blueprints to a file to transfer them to a different course.
 
-   1. 1. Navigate to the **Courses** page and open the course from which you want to export **Blueprints**.
+   1. Navigate to the **Courses** page and open the course from which you want to export **Blueprints**.
    2. Click the **Export** tab and then scroll down to **Course Blueprint Transfer**.
    3. Click the **Export** button.
    4. In the pop-up dialog, click **Export** again to download a JSON file containing the course Blueprints.
@@ -181,7 +181,12 @@ You can export course Blueprints to a file to transfer them to a different cours
 .. image:: /img/export_blueprints.png
       :alt: Export Blueprints window
 
-With the exported file, you can share Blueprints with other instructors or import them into a different course.
+.. _course-blueprint-import:
+
+Course Blueprint Import
+-----------------------
+
+Once you download a blueprint, you can share Blueprints with other instructors or import them into a different course by following these instructions:
 
    1. Navigate to the **Courses** page and open the course into which you want to import **Blueprints**.
    2. Click the **Export** tab and then scroll down to **Course Blueprint Transfer**.
