@@ -164,9 +164,39 @@ Export course sources to obtain a zip file containing all the currently publishe
 
    .. image:: /img/source_exportlinks.png
       :alt: Course Export Links
-      
+
+.. _course-blueprint-transfer:
+
+Course Blueprint Transfer
+-------------------------
+
+It is possible to Export Course Blueprints to a file so you can transfer them to a differnt course. 
+
+   1. Navigate to the **Courses** page and select the course where you want to export **Blueprints** to open it. 
+   2. Click the **Export** tab and then scroll down to **Course Blueprint Transfer**.
+   3. Click the **Export** button.
+   4. In the pop up, click **Export** once again to download a `json` file containing the Blueprints for the course. 
+   
+
+.. image:: /img/export_blueprints.png
+      :alt: Export Blueprints window
+
+With the exported file, you can also share Blueprints to other instructors or import them into a different course. 
+
+   1. Navigate to the **Courses** page and select the course where you want to import **Blueprints** to open it. 
+   2. Click the **Export** tab and then scroll down to **Course Blueprint Transfer**.
+   3. Click the **Import** button.
+   4. In the pop up, you can import blueprints from a file or a GitHub repository. 
+
+- For a file, just select File as the source and then click the **Insert a File** field. This will open a dialog to select a file in your computer.
+
+- For Git, select Git as the source. 
+
+   - In the Git repository, use the `https` URL of the repo. `SSH` is not allowed. The repository needs to be publicly accesible.
+   - For the **Path to blueprints**, you will need to use the full path of where the template is stored, including the name and extension of the file. For example:
 
 
+.. image:: /img/export_import_blueprints.png
+      :alt: Import Blueprints window from GitHub
 
-
-
+.. Note:: Existing Blueprints won't be overwritten, imported Blueprints will added to the existing ones.

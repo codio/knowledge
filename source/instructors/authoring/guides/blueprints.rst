@@ -47,3 +47,8 @@ Modifying an existing **Blueprint** will overwrite its contents. To modify an ex
    :alt: Modifying an existing bluepring
 
 .. Note:: When you save a **Blueprint** it saves whatever you currently have on the guide page and in the layout.
+
+Reusing a **Blueprint** in a different course
+---------------------------------------------
+
+As previously mentioned, Blueprints are only available in the course in which they were created. However, it is possible to transfer them to a different course by exporting and importing. See :ref:`Exporting and Importing Blueprints <course-blueprint-transfer>` to learn how transfer them between courses. 
