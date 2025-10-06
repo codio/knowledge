@@ -1,97 +1,102 @@
 {% extends "layout.html" %}
 {% set title = _('Codio') %}
 {% block body %}
+
+<!-- Keep your custom CSS includes -->
 <link rel="stylesheet" href="{{ pathto('_static/css/custom_body.css', 1) }}">
 <link rel="stylesheet" href="{{ pathto('_static/css/custom_index.css', 1) }}">
-<div class="index-page">
-  <div class="codio-title">
-    Codio Instructor Help Center
-  </div>
-  <div class="codio-tiles">
-    <a class="codio-tile" href="{{ pathto("getstarted") }}">
-      <div class="codio-tile-title">
-        <strong>Overview: Getting Started in Codio</strong>
+
+<div class="index-page codio-home" id="top">
+  <!-- Skip link for a11y -->
+  <!-- <a class="skip-link" href="#home-content">Skip to content</a> -->
+
+  <!-- Hero -->
+  <header class="home-hero" role="banner" aria-labelledby="home-title">
+    <div class="home-container">
+      <h1 class="home-title" id="home-title">Codio Instructor Help Center</h1>
+      <p class="home-subtitle">
+        Docs, guides, and how-tos for building courses, authoring content, and teaching with Codio.
+      </p>
+
+      <!-- Native Sphinx search -->
+      <!-- <form class="home-search" role="search" action="{{ pathto('search') }}" method="get" aria-label="Search the docs">
+        <label class="sr-only" for="q">Search the docs</label>
+        <input id="q" name="q" type="search" placeholder="Search the docs…" autocomplete="off" required />
+        <button type="submit" class="search-btn" aria-label="Submit search"> -->
+          <!-- magnifier icon (inline, no external dep) -->
+          <!-- <svg viewBox="0 0 24 24" aria-hidden="true" class="icon">
+            <path d="M15.5 14h-.79l-.28-.27a6.3 6.3 0 1 0-.71.71l.27.28v.79L20 20.5 21.5 19 15.5 14zM10.5 15a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"/>
+          </svg>
+          <span class="btn-text">Search</span>
+        </button>
+      </form> -->
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main id="home-content" class="home-main" role="main">
+    <section class="section">
+      <div class="home-container">
+
+        <!-- Card Grid -->
+        <div class="card-grid" role="list">
+          <a class="card" role="listitem" href="{{ pathto('getstarted') }}" aria-label="Overview: Getting Started in Codio">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2l9 4.5v11L12 22 3 17.5v-11L12 2zM5 8.1l7 3.5 7-3.5"/></svg>
+            </div>
+            <h3 class="card-title">Overview: Getting Started</h3>
+            <p class="card-desc">Videos, tutorials, and key concepts to hit the ground running.</p>
+            <span class="card-cta">Explore</span>
+          </a>
+
+          <a class="card" role="listitem" href="{{ pathto('authoring') }}" aria-label="Content Authoring">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 0 0 0-1.41L18.37 3.3a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.84z"/></svg>
+            </div>
+            <h3 class="card-title">Content Authoring</h3>
+            <p class="card-desc">Author instructional content and build auto-graded assessments.</p>
+            <span class="card-cta">Explore</span>
+          </a>
+
+          <a class="card" role="listitem" href="{{ pathto('common') }}" aria-label="Developing Code">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8 17l-5-5 5-5 1.41 1.41L6.83 12l2.58 2.59L8 17zm8 0l-1.41-1.41L17.17 12l-2.58-2.59L16 8l5 5-5 5z"/></svg>
+            </div>
+            <h3 class="card-title">Developing Code</h3>
+            <p class="card-desc">Use the Codio IDE, terminal, and environment features.</p>
+            <span class="card-cta">Explore</span>
+          </a>
+
+          <a class="card" role="listitem" href="{{ pathto('setupcourses') }}" aria-label="Course Configuration">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 6l-8 4 8 4 8-4-8-4zm0 6l-8 4 8 4 8-4-8-4z"/></svg>
+            </div>
+            <h3 class="card-title">Course Configuration</h3>
+            <p class="card-desc">Create courses, add students, and connect to your LMS.</p>
+            <span class="card-cta">Explore</span>
+          </a>
+
+          <a class="card" role="listitem" href="{{ pathto('teaching') }}" aria-label="Teaching in Codio">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm-9 9a9 9 0 0 1 18 0z"/></svg>
+            </div>
+            <h3 class="card-title">Teaching in Codio</h3>
+            <p class="card-desc">Monitor progress, grade efficiently, and use the remote toolkit.</p>
+            <span class="card-cta">Explore</span>
+          </a>
+
+          <a class="card" role="listitem" href="{{ pathto('admin') }}" aria-label="Admin">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm8.94 3a8.94 8.94 0 0 0-1.73-4.18l1.45-1.45-1.41-1.41-1.45 1.45A8.94 8.94 0 0 0 15 3.06V1h-2v2.06a8.94 8.94 0 0 0-4.18 1.73L7.37 3.34 5.96 4.75l1.45 1.45A8.94 8.94 0 0 0 5.06 10H3v2h2.06a8.94 8.94 0 0 0 1.73 4.18l-1.45 1.45 1.41 1.41 1.45-1.45A8.94 8.94 0 0 0 10 18.94V21h2v-2.06a8.94 8.94 0 0 0 4.18-1.73l1.45 1.45 1.41-1.41-1.45-1.45A8.94 8.94 0 0 0 20.94 12H23v-2z"/></svg>
+            </div>
+            <h3 class="card-title">Admin</h3>
+            <p class="card-desc">LMS integrations, org settings, FERPA, and accessibility.</p>
+            <span class="card-cta">Explore</span>
+          </a>
+        </div>
       </div>
-      <div class="codio-tile-triangle-top"></div>
-      <div class="codio-tile-triangle-bottom"></div>
-      <div class="codio-tile-information">
-        Getting started with Codio including videos and tutorials.
-      </div>
-      <div class="codio-tile-footer">
-        <span class="codio-tile-link">Learn More</span>
-        <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
-      </div>
-    </a>
-    <a class="codio-tile" href="{{ pathto("authoring") }}">
-      <div class="codio-tile-title">
-        <strong>Content Authoring</strong>
-      </div>
-      <div class="codio-tile-triangle-top"></div>
-      <div class="codio-tile-triangle-bottom"></div>
-      <div class="codio-tile-information">
-        Authoring instructional content and assessments.
-      </div>
-      <div class="codio-tile-footer">
-        <span class="codio-tile-link">Learn More</span>
-        <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
-      </div>
-    </a>
-    <a class="codio-tile" href="{{ pathto("common") }}">
-      <div class="codio-tile-title">
-        <strong>Developing Code</strong>
-      </div>
-      <div class="codio-tile-triangle-top"></div>
-      <div class="codio-tile-triangle-bottom"></div>
-      <div class="codio-tile-information">
-        The Codio development environment.
-      </div>
-      <div class="codio-tile-footer">
-        <span class="codio-tile-link">Learn More</span>
-        <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
-      </div>
-    </a>
-    <a class="codio-tile" href="{{ pathto("setupcourses") }}">
-      <div class="codio-tile-title">
-        <strong>Course Configuration</strong>
-      </div>
-      <div class="codio-tile-triangle-top"></div>
-      <div class="codio-tile-triangle-bottom"></div>
-      <div class="codio-tile-information">
-        Creating courses, adding students, connecting to LMS TAs.
-      </div>
-      <div class="codio-tile-footer">
-        <span class="codio-tile-link">Learn More</span>
-        <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
-      </div>
-    </a>
-    <a class="codio-tile" href="{{ pathto("teaching") }}">
-      <div class="codio-tile-title">
-        <strong>Teaching in Codio</strong>
-      </div>
-      <div class="codio-tile-triangle-top"></div>
-      <div class="codio-tile-triangle-bottom"></div>
-      <div class="codio-tile-information">
-        Grading, viewing student work, remote toolkit.
-      </div>
-      <div class="codio-tile-footer">
-        <span class="codio-tile-link">Learn More</span>
-        <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
-      </div>
-    </a>
-    <a class="codio-tile" href="{{ pathto("admin") }}">
-      <div class="codio-tile-title">
-        <strong>Admin</strong>
-      </div>
-      <div class="codio-tile-triangle-top"></div>
-      <div class="codio-tile-triangle-bottom"></div>
-      <div class="codio-tile-information">
-        LMS Integration, Organization settings, FERPA, Accessibility.
-      </div>
-      <div class="codio-tile-footer">
-        <span class="codio-tile-link">Learn More</span>
-        <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
-      </div>
-    </a>
-  </div>
+    </section>
+  </main>
 </div>
+
 {% endblock %}

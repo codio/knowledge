@@ -8,7 +8,7 @@ Courses Set up
 --------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :hidden:
    
    instructors/setupcourses/courses

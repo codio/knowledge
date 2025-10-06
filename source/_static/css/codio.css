@@ -235,3 +235,21 @@
 .float-right { 
   float: right; width: 300px; margin-left: 50px;
    }
+
+header img[src$="logo-white.svg"],
+header img[src$="logo-dark.svg"] {
+  height: 32px !important;
+  width: auto !important;
+}
+
+/* header .brand .site-name, */
+header span.font-bold {
+  display: none !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html { background: #0b0d17; }
+}
+@media (prefers-color-scheme: light) {
+  html { background: #ffffff; }
+}

@@ -16,12 +16,29 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+from sphinxawesome_theme.postprocess import Icons
+from sphinxawesome_theme import ThemeOptions
+from datetime import date
+
+from dataclasses import asdict
 
 # -- Project information -----------------------------------------------------
 
 project = u''
-copyright = u'Codio 2025. All Rights Reserved'
+copyright = f"Codio {date.today().year}. All rights reserved."
 author = u''
+
+# Global substitutions for reStructuredText files
+substitutions = [
+    ":tocdepth: 3",
+    " ",
+    ".. meta::",
+    "   :keywords: Documentation,Sphinx,Python,Tailwind",
+    ".. |rst| replace:: reStructuredText",
+    ".. |product| replace:: Documentation",
+    ".. |conf| replace:: File: conf.py",
+]
+rst_prolog = "\n".join(substitutions)
 
 # The short X.Y version
 version = u''
@@ -94,17 +111,30 @@ html_theme = "sphinxawesome_theme"
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-html_theme_options = {
-    "show_prev_next": True,
-#   "external_links": [
-#       {"name": "Overview", "url": "/instructors/getstarted"},
-#       {"name": "Authoring", "url": "/instructors/authoring"},
-#       {"name": "IDE", "url": "/common"},
-#       {"name": "Course Set Up", "url": "/instructors/setupcourses"},
-#       {"name": "Teaching", "url": "/instructors/teaching"},
-#       {"name": "Admin", "url": "/instructors/admin"}
-#   ]
-}
+
+theme_options = ThemeOptions(
+    show_prev_next=True,
+    awesome_external_links=True,
+    main_nav_links={"Changelog": "/instructors/getstarted/support/changelog.html"},
+    logo_light="logo-dark.svg",
+    logo_dark="logo-white.svg",
+)
+
+html_theme_options = asdict(theme_options)
+
+# html_theme_options = {
+#     "show_prev_next": True,
+#     "logo_light": "_static/logo-white.svg",
+#     "logo_dark": "_static/logo-white.svg",
+# #   "external_links": [
+# #       {"name": "Overview", "url": "/instructors/getstarted"},
+# #       {"name": "Authoring", "url": "/instructors/authoring"},
+# #       {"name": "IDE", "url": "/common"},
+# #       {"name": "Course Set Up", "url": "/instructors/setupcourses"},
+# #       {"name": "Teaching", "url": "/instructors/teaching"},
+# #       {"name": "Admin", "url": "/instructors/admin"}
+# #   ]
+# }
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -216,12 +246,12 @@ todo_include_todos = True
 
 html_additional_pages = {
     'index': 'index.html'
-    }
+}
+
 html_css_files = [
     'css/codio.css',
     'css/search.css',
     'https://cdn.jsdelivr.net/npm/@docsearch/css@3'
-
 ]
 
 html_js_files = [
@@ -229,6 +259,10 @@ html_js_files = [
   ('js/algolia.js', {'defer': 'defer'})
 ]
 
-html_logo = "_static/logo-white.svg"
+# html_logo = "_static/logo-white.svg"
+html_logo = None
+html_title = "Codio"
 html_favicon = "_static/favicon.ico"
 html_extra_path = ['robots.txt']
+html_permalinks_icon = Icons.permalinks_icon
+html_show_sphinx = False
