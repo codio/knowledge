@@ -18,9 +18,9 @@ In Blackboard:
 - On the administrator tools page select the **Register LTI1.3/Advantage Tool** tab.
 - In the **Client ID** section enter:
 
-    For codio.com - ``4eb78f1c-aae1-4d0f-843d-00eca4cbca18``
+    For codio.com - ``0128e3c6-67a1-4bfb-9881-747baf0c7105``
 
-    For codio.co.uk - ``53e3fa08-0dd6-4b84-bb7d-5048bb7b32be``
+    For codio.co.uk - ``20d13eaa-8d29-4763-87ab-8137aa94129f``
 
 .. Note:: If you get a message saying you are migrating your tool from LTI 1.1 to LTI 1.3 click **Ok**.
 
