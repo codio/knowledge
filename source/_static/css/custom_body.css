@@ -1,19 +1,138 @@
-body {
-    background-color: #02064e;
+/* =========================================
+   Codio Docs — Home (index) only
+   Pure theme background, centered layout
+   ========================================= */
+
+/* Hide sidebars on the homepage and center content */
+.index-page .bd-sidebar-primary,
+.index-page .bd-sidebar-secondary { display: none !important; }
+
+.index-page .bd-content,
+.index-page .bd-article-container {
+  max-width: 100%;
+  margin-inline: auto !important;
+  padding-inline: 1rem;
 }
 
-.footer {
-    border-top: none;
+/* Make every wrapper transparent so there is NO boxed panel */
+.index-page,
+.index-page .bd-main,
+.index-page .bd-content,
+.index-page .bd-article-container,
+.index-page .bd-article {
+  background: transparent !important;
 }
 
-.container-xl .row {
-    justify-content: center;
+/* ------- Theme tokens (only for the homepage components) ------- */
+html[data-theme="dark"] .index-page,
+[data-theme="dark"] .index-page {
+  --text: #e6eaf2;
+  --muted: #9aa3b2;
+  --border: rgba(255,255,255,0.14);
+  --surface-hover: rgba(255,255,255,0.06);
+  --brand: #6ee7ff;
+  --brand-strong: #3dd8ff;
+  --ring: #9feaff;
+  --shadow: 0 10px 26px rgba(3,8,48,0.35);
 }
 
-.container-xl .no-sidebar {
-    display: none !important;
+html[data-theme="light"] .index-page,
+[data-theme="light"] .index-page {
+  --text: #0b1020;
+  --muted: #475569;
+  --border: rgba(0,0,0,0.12);
+  --surface-hover: rgba(2,132,199,0.05);
+  --brand: #0ea5e9;
+  --brand-strong: #0284c7;
+  --ring: #38bdf8;
+  --shadow: 0 10px 24px rgba(2,132,199,0.08);
 }
 
-.container-xl .d-none {
-    display: none !important;
+/* Fallback to OS pref if the site doesn't set data-theme */
+@media (prefers-color-scheme: light) {
+  html:not([data-theme="dark"]) .index-page {
+    --text: #0b1020;
+    --muted: #475569;
+    --border: rgba(0,0,0,0.12);
+    --surface-hover: rgba(2,132,199,0.05);
+    --brand: #0ea5e9;
+    --brand-strong: #0284c7;
+    --ring: #38bdf8;
+    --shadow: 0 10px 24px rgba(2,132,199,0.08);
+  }
+}
+
+/* ------- Hero ------- */
+.home-hero { padding: 5rem 1rem 1.5rem; text-align: center; }
+.home-title { color: var(--text); font-size: clamp(2rem, 2.8vw + 1rem, 3rem); margin: 0 0 .6rem; }
+.home-subtitle { color: var(--muted); margin: 0 auto 1.8rem; max-width: 62ch; }
+
+/* (Search form is commented out in your HTML, but styles left here in case you re-enable) */
+.home-search {
+  display: inline-flex; gap: .5rem; align-items: center;
+  background: transparent;               /* no panel */
+  border: 1px solid var(--border);
+  border-radius: 999px; padding: .5rem;
+  box-shadow: none;
+}
+.home-search input[type="search"] {
+  min-width: clamp(260px, 42vw, 560px);
+  background: transparent; border: none; color: var(--text);
+  outline: none; padding: .75rem 1rem; font-size: 1rem;
+}
+.home-search input::placeholder { color: var(--muted); }
+.search-btn {
+  display: inline-flex; align-items: center; gap: .5rem;
+  border: 1px solid transparent;
+  background: linear-gradient(180deg, var(--brand), var(--brand-strong));
+  color: #001; font-weight: 700; padding: .7rem 1rem;
+  border-radius: 999px; cursor: pointer;
+  box-shadow: 0 10px 24px rgba(0, 190, 255, .18);
+}
+.search-btn:focus-visible { outline: 3px solid var(--ring); outline-offset: 2px; }
+.search-btn .icon { width: 20px; height: 20px; }
+
+/* ------- Sections ------- */
+.home-main { padding: .5rem 0 3rem; }
+.home-container { max-width: 1100px; margin-inline: auto; padding-inline: 1rem; }
+.section { margin-top: 1.25rem; }
+.section-title { color: var(--muted); font-weight: 600; letter-spacing: .2px; margin: 0 0 1rem; }
+
+/* ------- Cards: transparent by default (no fill), subtle outline ------- */
+.card-grid {
+  --min: 260px;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
+  gap: 1rem; align-items: stretch;
+}
+.card {
+  display: grid; grid-template-rows: auto auto 1fr auto; gap: .5rem;
+  padding: 1rem; border-radius: 16px; text-decoration: none; color: var(--text);
+  background: transparent;                      /* <- no box */
+  border: 1px solid var(--border);
+  box-shadow: none;
+  transition: transform .2s ease, background-color .15s ease, border-color .15s ease;
+}
+.card:hover { transform: translateY(-2px); background: var(--surface-hover); border-color: var(--brand); }
+.card:focus-visible { outline: 3px solid var(--ring); outline-offset: 2px; }
+
+.card-icon {
+  width: 36px; height: 36px; display: grid; place-items: center;
+  border-radius: 12px;
+  background: linear-gradient(180deg, var(--brand), var(--brand-strong));
+  box-shadow: 0 8px 18px rgba(0, 190, 255, .2);
+}
+.card-icon svg { width: 22px; height: 22px; fill: #001; }
+
+.card-title { font-size: 1.05rem; margin: .25rem 0; }
+.card-desc { margin: 0; color: var(--muted); }
+.card-cta { margin-top: .5rem; font-weight: 700; color: var(--brand); display: inline-flex; gap: .35rem; }
+.card-cta::after { content: "›"; font-size: 1.2em; transform: translateY(-1px); }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) { .card, .search-btn { transition: none; } }
+
+/* Small screens */
+@media (max-width: 480px) {
+  .home-search { width: 100%; }
+  .home-search input[type="search"] { min-width: 0; width: 100%; }
 }

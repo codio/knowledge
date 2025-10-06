@@ -8,7 +8,7 @@ Developing Code
 ===============
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :hidden:
    
    common/develop/projects/projects

@@ -8,7 +8,7 @@ Accessing Codio
 ===============
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :hidden:
 
 

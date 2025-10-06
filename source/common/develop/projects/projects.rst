@@ -8,6 +8,7 @@ Developing Code
 
 .. toctree::
    :caption: Projects
+   :maxdepth: 3
    :hidden:
    
    project-settings

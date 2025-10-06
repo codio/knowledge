@@ -3,8 +3,8 @@ Welcome to CodioDocs's documentation!
 
 
 .. toctree::
-   :caption: Theme Documentation
-   :maxdepth: 2
+   :caption: Documentation
+   :maxdepth: 3
 
    Accessing Codio <accessing-codio>
    Your Courses <courses>

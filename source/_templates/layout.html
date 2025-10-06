@@ -1,5 +1,26 @@
 {% extends "!layout.html" %}
 
+{% block extrahead %}
+  {{ super() }}
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('darkMode') || 'auto';
+        var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var scheme = saved === 'auto' ? (systemDark ? 'dark' : 'light') : saved;
+
+        var html = document.documentElement;
+
+        html.setAttribute('data-theme', scheme);
+        html.classList.remove('theme-light','theme-dark','light','dark');
+        html.classList.add('theme-' + scheme, scheme);
+
+        html.style.colorScheme = scheme;
+      } catch (e) { /* ignore */ }
+    })();
+  </script>
+{% endblock %}
+
 {% block footer %}
 {{ super() }}
 <!-- Google tag (gtag.js) -->

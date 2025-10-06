@@ -8,7 +8,7 @@ Your Courses
 ------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :hidden:
 
    students/courses/courses

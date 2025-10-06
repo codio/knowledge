@@ -8,7 +8,7 @@
 Admin
 =====
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :hidden:
 
    instructors/admin/integration/intro
