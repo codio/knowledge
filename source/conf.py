@@ -19,7 +19,6 @@
 from sphinxawesome_theme.postprocess import Icons
 from sphinxawesome_theme import ThemeOptions
 from datetime import date
-
 from dataclasses import asdict
 
 # -- Project information -----------------------------------------------------
@@ -33,7 +32,7 @@ substitutions = [
     ":tocdepth: 3",
     " ",
     ".. meta::",
-    "   :keywords: Documentation,Sphinx,Python,Tailwind",
+    "   :keywords: Documentation,Codio",
     ".. |rst| replace:: reStructuredText",
     ".. |product| replace:: Documentation",
     ".. |conf| replace:: File: conf.py",
@@ -62,6 +61,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
+    'sphinx_docsearch',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
@@ -266,3 +266,7 @@ html_favicon = "_static/favicon.ico"
 html_extra_path = ['robots.txt']
 html_permalinks_icon = Icons.permalinks_icon
 html_show_sphinx = False
+
+docsearch_app_id = "0MJO9504F8"
+docsearch_api_key = "7e59277e32050e11c2e8915f1b09d6e2"
+docsearch_index_name = "CodioDocs"

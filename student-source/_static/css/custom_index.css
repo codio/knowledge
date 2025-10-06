@@ -1,0 +1,12 @@
+/* Slight width nudge only (kept minimal) */
+.index-page .home-container { max-width: 100%; }
+
+/* Ensure any Bootstrap-like main column stays centered on the homepage */
+@media (min-width: 1200px) {
+  .index-page .col-xl-8 {
+    flex: 0 0 91.66667% !important;
+    max-width: 91.66667% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}

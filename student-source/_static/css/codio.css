@@ -225,3 +225,32 @@
 .bd-content a.reference {
   font-weight: 600;
 }
+
+.small-text {
+    font-size: 0.85em;
+}
+
+.tiny { 
+  font-size: 0.75em; 
+}
+
+.float-right { 
+  float: right; width: 300px; margin-left: 50px;
+}
+
+header img[src$="logo-white.svg"],
+header img[src$="logo-dark.svg"] {
+  height: 32px !important;
+  width: auto !important;
+}
+
+header span.font-bold {
+  display: none !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html { background: #0b0d17; }
+}
+@media (prefers-color-scheme: light) {
+  html { background: #ffffff; }
+}

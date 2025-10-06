@@ -225,16 +225,18 @@
 .bd-content a.reference {
   font-weight: 600;
 }
+
 .small-text {
     font-size: 0.85em;
 }
+
 .tiny { 
   font-size: 0.75em; 
-  }
+}
 
 .float-right { 
   float: right; width: 300px; margin-left: 50px;
-   }
+}
 
 header img[src$="logo-white.svg"],
 header img[src$="logo-dark.svg"] {
@@ -242,7 +244,6 @@ header img[src$="logo-dark.svg"] {
   width: auto !important;
 }
 
-/* header .brand .site-name, */
 header span.font-bold {
   display: none !important;
 }

@@ -2,67 +2,60 @@
 {% set title = _('Student') %}
 {% block body %}
   <link rel="stylesheet" href="{{ pathto('_static/css/custom_body.css', 1) }}">
-  <div class="student-page">
-    <div class="codio-title">
-      Codio Student Help Center
-    </div>
-    <div class="codio-tiles">
-      <a class="codio-tile" href="{{ pathto("accessing-codio") }}">
-        <div class="codio-tile-title">
-          <strong>Accessing Codio</strong>
+  <link rel="stylesheet" href="{{ pathto('_static/css/custom_index.css', 1) }}">
+
+  <div class="student-page" id="top">
+    <header class="home-hero" role="banner" aria-labelledby="student-title">
+      <div class="home-container">
+        <h1 class="home-title" id="student-title">Codio Student Help Center</h1>
+        <p class="home-subtitle">
+          Quick guides for joining courses, using tools, and doing your assignments in Codio.
+        </p>
+      </div>
+    </header>
+
+    <main class="home-main" role="main">
+      <section class="section">
+        <div class="home-container">
+          <div class="card-grid" role="list">
+            <a class="card" role="listitem" href="{{ pathto('accessing-codio') }}" aria-label="Accessing Codio">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2l9 4.5v11L12 22 3 17.5v-11L12 2zM5 8.1l7 3.5 7-3.5"/></svg>
+              </div>
+              <h3 class="card-title">Accessing Codio</h3>
+              <p class="card-desc">Join a course, manage passwords, and payments.</p>
+              <span class="card-cta">Explore</span>
+            </a>
+
+            <a class="card" role="listitem" href="{{ pathto('courses') }}" aria-label="Your Courses">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 6l-8 4 8 4 8-4-8-4zm0 6l-8 4 8 4 8-4-8-4z"/></svg>
+              </div>
+              <h3 class="card-title">Your Courses</h3>
+              <p class="card-desc">Dashboard, assignments, grades, and deadlines.</p>
+              <span class="card-cta">Explore</span>
+            </a>
+
+            <a class="card" role="listitem" href="{{ pathto('tools') }}" aria-label="Tools">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 0 0 0-1.41L18.37 3.3a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.84z"/></svg>
+              </div>
+              <h3 class="card-title">Tools</h3>
+              <p class="card-desc">Code Playback, Dyslexia support, Virtual Coach.</p>
+              <span class="card-cta">Explore</span>
+            </a>
+
+            <a class="card" role="listitem" href="{{ pathto('develop') }}" aria-label="Developing Code">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M8 17l-5-5 5-5 1.41 1.41L6.83 12l2.58 2.59L8 17zm8 0l-1.41-1.41L17.17 12l-2.58-2.59L16 8l5 5-5 5z"/></svg>
+              </div>
+              <h3 class="card-title">Developing Code</h3>
+              <p class="card-desc">The Codio IDE and development environment.</p>
+              <span class="card-cta">Explore</span>
+            </a>
+          </div>
         </div>
-        <div class="codio-tile-triangle-top"></div>
-        <div class="codio-tile-triangle-bottom"></div>
-        <div class="codio-tile-information">
-          Joining a course, passwords, payments.
-        </div>
-        <div class="codio-tile-footer">
-          <span class="codio-tile-link">Learn More</span>
-          <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
-        </div>
-      </a>
-      <a class="codio-tile" href="{{ pathto("courses") }}">
-        <div class="codio-tile-title">
-          <strong>Your Courses</strong>
-        </div>
-        <div class="codio-tile-triangle-top"></div>
-        <div class="codio-tile-triangle-bottom"></div>
-        <div class="codio-tile-information">
-          Dashboard, courses, assignments, grades.
-        </div>
-        <div class="codio-tile-footer">
-          <span class="codio-tile-link">Learn More</span>
-          <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
-        </div>
-      </a>
-      <a class="codio-tile" href="{{ pathto("tools") }}">
-        <div class="codio-tile-title">
-          <strong>Tools</strong>
-        </div>
-        <div class="codio-tile-triangle-top"></div>
-        <div class="codio-tile-triangle-bottom"></div>
-        <div class="codio-tile-information">
-          Code Playback, Dyslexia support, Virtual Coach.
-        </div>
-        <div class="codio-tile-footer">
-          <span class="codio-tile-link">Learn More</span>
-          <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
-        </div>
-      </a>
-      <a class="codio-tile" href="{{ pathto("develop") }}">
-        <div class="codio-tile-title">
-          <strong>Developing Code</strong>
-        </div>
-        <div class="codio-tile-triangle-top"></div>
-        <div class="codio-tile-triangle-bottom"></div>
-        <div class="codio-tile-information">
-          The Codio development environment.
-        </div>
-        <div class="codio-tile-footer">
-          <span class="codio-tile-link">Learn More</span>
-          <i class="codio-tile-link-angle icon fa fa-angle-right"></i>
-        </div>
-      </a>
-    </div>
+      </section>
+    </main>
   </div>
 {% endblock %}

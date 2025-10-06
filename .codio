@@ -7,7 +7,8 @@
     },
     // Preview button configuration
     "preview": {
-        "Preview": "https://{{domain}}/build/html/index.html",
+        "Instructor": "https://{{domain}}/build/html/index.html",
+        "Student": "https://{{domain}}/build/html/student.html",
         "Visit Ungit": "https://{{domain4000}}/#/repository?path=%2Fhome%2Fcodio%2Fworkspace"
         
        
