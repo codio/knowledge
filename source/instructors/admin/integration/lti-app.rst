@@ -121,11 +121,12 @@ Toggling **Hide Not Started Assignments** to "on" will suppress the display of a
 Filter Learners for Mentors
 ****************************
 
-Enabling **Filter Learners for Mentors** to "on" will allow you to only show Mentor/Observers specific students that you wish them to see/manage in the Codio course.
+Enabling **Filter Learners for Mentors** to "on" will allow you to show Mentor/Observers only specific students that you wish them to see/manage in the Codio course.
 
-To set this up, edit your LTI app as set up above or send as a custom parameter adding `codio_custom_mentor_for` as a custom field entering as the parameter either the students email addresses or their LMS user IDs.   To enter multiple students separate with comma (',')
+To set this up, edit your LTI app as set up above or send as a custom parameter by adding codio_custom_mentor_for as a custom field, entering as the parameter either the students' email addresses or their LMS user IDs. To enter multiple students, separate with commas (',').
 
 Example:
+
 
 .. code:: ini
 
@@ -136,8 +137,19 @@ Example:
 .. figure:: /img/lti/filter_learners.png
    :alt: Filter learners for mentors
 
-If you don't enable **Filter Learners for Mentors**, then mentors can see all the students in the course and access all students' work, even those for whom they are not a mentor.
 
+.. note:: If you don't enable Filter Learners for Mentors, then mentors can see all the students in the course and access all students' work, even those for whom they are not a mentor.
+
+
+
+**In Canvas:**
+
+After you have enabled Filter Learners for Mentors in your course's LTI/LMS settings, then go to Canvas and complete the following:
+
+1. In the **People** section of the course, find the mentor and click the three vertical dots on the right of the name, then click **Edit Role**.
+2. Change the role to **Observer**.
+3. Click the three vertical dots on the right of the name and click **Link to Students**.
+4. Find and click the names of the students associated with that mentor. Once done, click **Update**.
 
 .. _Destination_Page:
 
@@ -200,43 +212,6 @@ LTI 1.1
 +-----------------------------------+---------------------------------------------------------------+--------------------------------------------------------+
 
 
-
-LTI 1.3
-"""""""
-
-**Custom parameters claim object**
-specified in https://purl.imsglobal.org/spec/lti/claim/custom
-
-**actual_user**
-
-
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
-| Parameter        | Description                                                   | Example                                          |
-+==================+===============================================================+==================================================+
-| id               | id= lms user identification                                   | "actual_user_id": "123"                          |
-|                  |                                                               |                                                  |
-|                  | This is equivalent of sub when the request is executed        |                                                  | 
-|                  | without changing the current user.                            |                                                  |
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
-| email            | email= actual user email                                      |                                                  |
-|                  |                                                               |                                                  |
-|                  | This will be used for registration if                         | "actual_user_email": "lms-admin@email.com"       |
-|                  | custom_actual_user_id is not matched to an existed user.      |                                                  |
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
-| role             | role= actual user role                                        |                                                  |
-|                  |                                                               |                                                  |
-|                  | This should not be Student-like role.                         | "actual_user_role": "Instructor"                 |
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
-| given_name       | given_name= actual user given name                            | "actual_user_given_name": "Name"                 |
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
-| family_name      | family_name= actual user family name                          | "actual_user_family_name": "Family"              |
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
-| full_name        | full_name= actual user full name                              |                                                  |
-|                  |                                                               |                                                  |
-|                  | This could be omitted if                                      | "actual_user_full_name": "Name Family"           |
-|                  | custom_actual_user_name_family and                            |                                                  |
-|                  | custom_actual_user_name_given passed.                         |                                                  |
-+------------------+---------------------------------------------------------------+--------------------------------------------------+
 
 .. Note:: The parameters should be set by LMS dynamically based on current user, not statically. If you need assistance contact help@codio.com
 

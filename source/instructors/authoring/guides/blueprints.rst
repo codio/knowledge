@@ -44,6 +44,11 @@ Modifying an existing **Blueprint**
 Modifying an existing **Blueprint** will overwrite its contents. To modify an existing **Blueprint** first create a page using that **Blueprint**, then make your changes. Select the name of the **Blueprint** you are modifying and click **Save**. A warning will display to let you know you are overwriting an existing template.
 
 .. image:: /img/blueprints/blueprintmodify.png
-   :alt: Modifying an existing bluepring
+   :alt: Modifying an existing blueprint
 
 .. Note:: When you save a **Blueprint** it saves whatever you currently have on the guide page and in the layout.
+
+Reusing a **Blueprint** in a different course
+---------------------------------------------
+
+Blueprints are scoped to the course where they were created. To reuse a Blueprint in another course, export it from the source course and import it into the target course. See :ref:`Course Blueprint Export <course-blueprint-export>` and :ref:`Course Blueprint Import <course-blueprint-import>` for step‑by‑step instructions.

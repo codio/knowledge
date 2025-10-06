@@ -39,9 +39,10 @@ Part 2: In Codio - Create the configuration
 
 In Codio:
 ~~~~~~~~~
-- Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **Organizations**.
+- Click your username in the top-right corner, then select **Organizations** from the menu.
+- In the **Organizations** area, click the name of your organization.
 - Select the **LTI Integrations** tab.
-- Scroll down to the **LTI Integration 1.3** section.
+- Scroll down to the **LTI 1.3 Configurations** section.
 - Click **Add Blackboard Integration**
 - In the **Deployment Id:** field paste the value you copied above.
 - Click **Create**.
@@ -56,14 +57,15 @@ In Codio enable LTI for Your Course
 - Open the course you would like to connect or create a new course.
 - Make sure you have at least one published assignment or add a new one. (see :ref:`Add and Remove Course Assignments <add-remove-assignment>`)
 - Select the **LTI/LMS** tab.
-- Select the **ENABLE LTI** option.  
+- Toggle **ENABLE LTI** on.  
 
   .. image:: /img/lti/enable-lti.png
      :alt: enable lti
      
 - Click **Save Changes**.
 
-- Select an assignment you want to connect and click the icon with 3 blue dots and select **LTI Integration URL**.
+- Select an assignment you want to connect and click the 3 vertical dots to the right of that assignment.
+- Select **LTI Integration URL**.
 - Copy the LTI integration url to the clipboard by clicking on the clipboard icon.
 
 .. figure:: /img/lti/LMS-Unit-URL.png
@@ -73,3 +75,5 @@ In Blackboard:
 ~~~~~~~~~~~~~~
 
 - Paste the **LTI Integration URL** you copied in the last step into the **Configuration URL** field for your assignments.
+
+

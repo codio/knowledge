@@ -72,11 +72,9 @@ To manually import a Git repo into Codio, follow these steps:
 
 
 
-.. raw:: html
-
-  <div style="margin: 0 0 10px 20px; padding: 10px; background: #f0f0f0; border: 3px solid #00ece5;">
-  <strong>Note:</strong> If you are cloning using SSH, you must have already added the Codio SSH public key as described in <a href="https://docs.codio.com/common/settings/upload-ssh-key-remote-server.html#upload-ssh-key-remote-server">Upload SSH Key to Remote Server</a>.
-  </div>
+.. note::  
+   If you are cloning using SSH, you must have already added the Codio SSH public key as described in :ref:`SSH Key <ssh-key>`.
+  
 
 Create New GitHub Repo From Codio
 ---------------------------------
@@ -89,15 +87,15 @@ If you have code in Codio and want to create a new GitHub (or other remote) repo
 
 1. Create a new project in Codio or open up an existing project.
 2. Open the terminal (**Tools > Terminal**), type **git init** and press **Enter** to initialize Git.
+ 
+
+.. container:: float-right
+
+   .. note:: 
+      If you're using GitHub, use the **SSH url** rather than **https**. Also make sure that your Codio public key is uploaded to your GitHub account or repo settings as described in :ref:`SSH Key <ssh-key>`.
+   
 3. Create a new, empty repo on GitHub or other remote repo.
-4. Copy the repo url to the clipboard. 
-
-.. raw:: html
-
-   <div style="float: right; width: 350px; margin: 0 0 10px 20px; padding: 10px; background: #f0f0f0; border: 3px solid #00ece5;">
-   <strong>Note:</strong> If you're using GitHub, use the <strong>SSH url</strong> rather than <strong>https</strong>. Also make sure that your Codio public key is uploaded to your GitHub account or repo settings as described in <a href="https://docs.codio.com/common/settings/upload-ssh-key-remote-server.html#upload-ssh-key-remote-server">Upload SSH Key to Remote Server</a>.
-   </div>
-
+4. Copy the repo url to the clipboard.
 5. In the Codio IDE, click **Tools > Git > Remotes** on the menu.
 6. Click the **Edit** icon and enter the **Name** and paste the **URL** into the field. It is recommended you use **origin** as the name to confirm the normal standards. You do not need to specify a username or password if you are using SSH.
 7. Click **Save**.
@@ -108,8 +106,6 @@ Github Commands
 
 GitHub functions normally within Codio, giving you access to all the standard Git commands and GitHub features you're familiar with.
 
-.. raw:: html
-
-   <div style="margin: 0 0 10px 20px; padding: 10px; background: #f0f0f0; border: 3px solid #00ece5;">
-   <strong>Note:</strong> The Guides folder is automatically included in your project, unless you manually remove it</a>.
-   </div>
+.. note:: 
+   The Guides folder is automatically included in your project, unless you manually remove it.
+   

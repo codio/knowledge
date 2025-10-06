@@ -61,7 +61,7 @@ Enable LTI for Your Course
 Bring up the LTI Integration Information
 ****************************************
 
-1. Click your user name in the bottom left of your dashboard.
+1. Click your username in the top-right corner of the dashboard, then select **Organizations**.
 2. Choose your Organization. 
 3. Click the **LTI Integrations** tab to bring up the following settings.
 
@@ -144,3 +144,5 @@ Based on the LMS role, if teachers join Codio via the LMS, the following will ap
 +----------------------+-----------------------------------------------------------------------------------------------------+
 | Mentor               | TEACHER (with :ref:`read only <add-teachers>` access to the course}                                 |
 +----------------------+-----------------------------------------------------------------------------------------------------+
+
+

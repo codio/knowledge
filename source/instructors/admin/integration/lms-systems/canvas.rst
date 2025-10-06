@@ -12,7 +12,8 @@ Integrating with Canvas using LTI App
 
 The **Codio LTI App** method allows for an easy way to integrate and to map Codio course assignments to Canvas. Access the directions at :ref:`LTI App(LTI 1.1 Only) <lti-app>` page. If you are not able to use the LTI App, follow the manual integration directions below. 
 
-.. Note:: Configuring your LTI settings using the LTI App is only for the US version of Codio. It will not work with Codio UK (codio.co.uk).
+.. Note:: The LTI App configuration works **only** with the US instance of Codio (`codio.com`) and is not supported on Codio UK (`codio.co.uk`).
+
 
 Integrating with Canvas Manually
 --------------------------------
@@ -32,9 +33,10 @@ Enable LTI for Your Course
 |    :ref:`Add and Remove Course Assignments        |                                                                                         |
 |    <add-remove-assignment>`)                      |                                                                                         |
 |                                                   |                                                                                         |
-| 3. Select the **LTI/LMS** tab.                    |                                                                                         |
+| 3. In the left-hand **Admin** menu, open the      |                                                                                         |
+|    **LTI/LMS** section.                           |                                                                                         |
 |                                                   |                                                                                         |
-| 4. Select the **ENABLE LTI** option.              |                                                                                         |
+| 4. Toggle  **ENABLE LTI** on.                     |                                                                                         |
 |                                                   |                                                                                         |
 | 5. Click **Save Changes**.                        |                                                                                         |
 +---------------------------------------------------+-----------------------------------------------------------------------------------------+
@@ -46,13 +48,14 @@ Bring up the LTI Integration Information
 |                                                   |  .. image:: /img/lti/LTIintegrationinfo.png                                                               |
 |                                                   |     :alt: Org LTI info                                                                                    |
 |                                                   |                                                                                                           |
-| 6. Click your user name in the bottom left of     |                                                                                                           |
-|    your dashboard                                 |                                                                                                           |
+| 6. Click your **username** in the top-right corner|                                                                                                           |
+|    and choose **Organization**.                   |                                                                                                           |
 |                                                   |                                                                                                           |
-| 7. Choose your Organization                       |                                                                                                           |
+| 7. In **Organizations**, select your              |                                                                                                           |
+|    organization’s name.                           |                                                                                                           |
 |                                                   |                                                                                                           |
-| 8. Click the **LTI Integrations** tab to bring    |                                                                                                           |
-|    up the following settings.                     |                                                                                                           |
+| 8. In the left panel, open **LTI Integrations**   |                                                                                                           |
+|    to view the settings.                          |                                                                                                           |
 +---------------------------------------------------+-----------------------------------------------------------------------------------------------------------+
 
 

@@ -64,3 +64,5 @@ Removing
 .. Note:: Removing the integration link will mean students will not be able to access any of their assignments any longer from Google Classroom
 
 .. |Connect to Codio| image:: /img/google_classlist.png
+
+
