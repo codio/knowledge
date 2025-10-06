@@ -115,7 +115,7 @@ html_theme = "sphinxawesome_theme"
 theme_options = ThemeOptions(
     show_prev_next=True,
     awesome_external_links=True,
-    main_nav_links={"Changelog": "/instructors/getstarted/support/changelog.html"},
+    main_nav_links={"Changelog": "/instructors/getstarted/support/changelog"},
     logo_light="logo-dark.svg",
     logo_dark="logo-white.svg",
 )
