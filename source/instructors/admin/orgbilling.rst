@@ -68,7 +68,7 @@ Bookstore Pay (Access Codes)
 ----------------------------
 Codio offers the option to provide licenses through your institution's campus bookstore. This enables students, especially those using financial aid, to purchase an access code directly from the bookstore. The access code serves as the Codio license. When students first access their Codio account, they simply enter the access code to activate their license.
 
-Only one access code is required per student even if the student is enrolled in multiple courses. Instructors provide students with information on how to use the code, and additional guidance is available on each student's page. Note, the setup is institution specific.
+Only one access code is required per student even if the student is enrolled in multiple courses. Instructors provide students with information on how to use the code, and additional guidance is available on each student's page. Note that the setup is institution-specific.
 
 Any unsold access codes will remain active and can be used in subsequent semesters.
 
@@ -102,7 +102,7 @@ Upon receipt of the order, Codio will issue:
 
 - Each access code should only be sold once.
 - Access codes never expire and are not course specific, allowing them to be sold in future semesters.
-- Bookstores should  manage the codes like physical stock and can place additional code orders at any time.
+- Bookstores should manage the codes like physical stock and can place additional code orders at any time.
 - Codes are non-refundable.
 
 

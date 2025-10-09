@@ -42,7 +42,7 @@ To activate a license from your campus bookstore, follow these steps:
 
    The first time you log in, you will see a dialog prompting you to pay.
    
-3. If you don't see the dialog, click **Get Started** in the banner, or click your **User name > Preferences > Billing**.
+3. If you don't see the dialog, click **Get Started** in the banner, or click your **Username > Preferences > Billing**.
 
 4. From the **Plan** dialog, choose **Redeem Code**.
 
