@@ -23,28 +23,20 @@ Access Billing Page
 
 Institution Pay
 ---------------
-To generate an invoice or a quote, enter your country and follow the steps below:
+To generate an invoice or a quote, follow the steps below:
 
   .. image:: /img/manage_organization/orgbilltab.png
      :alt: Directions Billing
 
-1. Enter the number of student licenses required.
+1. Enter the **Number of students** and **Student start date**.
 
-2. Enter the student start date. 
+2. Enter **Promotion Code** (if any). Codes are not case sensitive, valid for new users only, and not for student pay plans. Invalid or expired codes will display a message.
 
-3. If you have a promotion code, enter it in the appropriate field. Validation is case insensitive.
+4. Enter **Purchase Order** Number (if applicable) and **Billing Email**.
 
--  If the promotion code is invalid, the message
-   ``Invalid promotion code`` will be shown
--  If the promotion code has expired, the message
-   ``This promotion code has expired`` will be shown
--  Promotion codes are only available for new users and not available for student pay plans.
+5. **Select a Plan** (semester or annual).
 
-4. Enter a billing email address.
-
-5. The plans available will be shown (semester or annual), select the plan you require and if you require the invoice to be sent to someone else, you can change the recipient.
-
-6. When you are ready, click the 'Generate Invoice' button or 'Generate Quote' button as per your requirement, and the invoice or quote will be generated and sent to the email address.
+6. Click **Generate Invoice** or **Generate Quote**. The document will be sent to the email provided.
 
   .. Note:: You can access your invoice from the email, or you can click **View Invoice** from the **Invoice History** section. Pay your invoice at this link.
 
@@ -90,7 +82,7 @@ Any unsold access codes will remain active and can be used in subsequent semeste
 **2. Ordering Process**
 
 - Communicate the number of licenses required and subscription type to your bookstore.
-- The bookstore places an email order with this information to accounts@codio.com including a purchase order if required.
+- The bookstore sends an email with this information to accounts@codio.com, including a purchase order if required.
 
 Upon receipt of the order, Codio will issue:
 

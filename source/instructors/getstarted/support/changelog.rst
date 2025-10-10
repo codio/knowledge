@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**October 2025**
+
+- `[I] [9th]`: New guides button for uploading files.
+
 **July 2025**
 
 - `[I] [30th]`: If a student tries to log in when they have an uncompleted assignment in Single Login mode, they have the option to mark that assignment as complete.
