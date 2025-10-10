@@ -23,28 +23,20 @@ Access Billing Page
 
 Institution Pay
 ---------------
-To generate an invoice or a quote, enter your country and follow the steps below:
+To generate an invoice or a quote, follow the steps below:
 
   .. image:: /img/manage_organization/orgbilltab.png
      :alt: Directions Billing
 
-1. Enter the number of student licenses required.
+1. Enter the **Number of students** and **Student start date**.
 
-2. Enter the student start date. 
+2. Enter **Promotion Code** (if any). Codes are not case sensitive, valid for new users only, and not for student pay plans. Invalid or expired codes will display a message.
 
-3. If you have a promotion code, enter it in the appropriate field. Validation is case insensitive.
+4. Enter **Purchase Order** Number (if applicable) and **Billing Email**.
 
--  If the promotion code is invalid, the message
-   ``Invalid promotion code`` will be shown
--  If the promotion code has expired, the message
-   ``This promotion code has expired`` will be shown
--  Promotion codes are only available for new users and not available for student pay plans.
+5. **Select a Plan** (semester or annual).
 
-4. Enter a billing email address.
-
-5. The plans available will be shown (semester or annual), select the plan you require and if you require the invoice to be sent to someone else, you can change the recipient.
-
-6. When you are ready, click the 'Generate Invoice' button or 'Generate Quote' button as per your requirement, and the invoice or quote will be generated and sent to the email address.
+6. Click **Generate Invoice** or **Generate Quote**. The document will be sent to the email provided.
 
   .. Note:: You can access your invoice from the email, or you can click **View Invoice** from the **Invoice History** section. Pay your invoice at this link.
 
@@ -64,19 +56,47 @@ The option to switch to a **Student Pay plan** where students are prompted to en
 
 4. To support students in this process, provide them with `this documentation link <https://docs.codio.com/students/accessing-codio/paying.html#pay-for-codio-subscription>`__ with specific emphasis to `this section <https://docs.codio.com/students/accessing-codio/paying.html#problems-setting-up-a-new-subscription-plan>`__ in the event they have problems especially if this may be first time they are trying to purchase online and the transaction may be refused by their bank due to the ever increasing fraud prevention measures card issuers are implementing or guide them to contact help@codio.com.  
 
-Bookstore Pay
--------------
-Codio offers the option to provide licenses through an institution's campus bookstore. This can ensure students on financial aid who need to buy licenses can do so through the bookstore. Students pay the bookstore for the license, the bookstore provides a redemption code, and students enter the code when they first access their Codio account. Codio then invoices the campus bookstore for codes purchased.
+Bookstore Pay (Access Codes)
+----------------------------
+Codio offers the option to provide licenses through your institution's campus bookstore. This enables students, especially those using financial aid, to purchase an access code directly from the bookstore. The access code serves as the Codio license. When students first access their Codio account, they simply enter the access code to activate their license.
 
-1. `Send this article <https://intercom.help/codio/en/articles/3609689-how-do-students-buy-codio-though-the-campus-bookstore>`_ to your bookstore manager to get the process started. 
+Only one access code is required per student even if the student is enrolled in multiple courses. Instructors provide students with information on how to use the code, and additional guidance is available on each student's page. Note that the setup is institution-specific.
 
-2. To support students in this process, provide them with `this documentation <https://docs.codio.com/students/accessing-codio/paying.html#redeeming-code-from-campus-bookstore>`_ or guide them to contact help@codio.com.  
+Any unsold access codes will remain active and can be used in subsequent semesters.
 
-3. The available subscription plans and their ISBNs:
+**1. Determining License Requirements**
 
-    - 1 Semester  - Codio 1-Semester Plan - ISBN: 978-1-7331872-5-1
-    - 2 Semesters - Codio 2 Semester Plan ISBN 978-1-7331872-8-2
-    - Annual - Codio Annual Plan ISBN # 978-1-7331872-1-3
+- Determine the number of licenses required based on expected student enrollment
+- Select the appropriate subscription type:
+
++---------------------+-------------------+
+| Subscription Type   | ISBN              |
++=====================+===================+
+| 1-Semester          | 978-1-7331872-5-1 |
++---------------------+-------------------+
+| 2-Semester          | 978-1-7331872-8-2 |
++---------------------+-------------------+
+| Annual              | 978-1-7331872-1-3 |
++---------------------+-------------------+
+
+**2. Ordering Process**
+
+- Communicate the number of licenses required and subscription type to your bookstore.
+- The bookstore sends an email with this information to accounts@codio.com, including a purchase order if required.
+
+Upon receipt of the order, Codio will issue:
+
+- A printable pdf letter to give to each student purchasing a code, providing instructions for code use.
+- A CSV file listing all the access code numbers issued in the order.
+- An invoice for the codes purchased, payable within 30 days of the invoice date.
+
+**3. Bookstore Management Guidelines**
+
+- Each access code should only be sold once.
+- Access codes never expire and are not course specific, allowing them to be sold in future semesters.
+- Bookstores should manage the codes like physical stock and can place additional code orders at any time.
+- Codes are non-refundable.
+
 
 Viewing Invoice History
 -----------------------

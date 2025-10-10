@@ -40,11 +40,11 @@ To activate a license from your campus bookstore, follow these steps:
 
 2. Log in to Codio following the instructions provided by your instructor. This may be through your local LMS (Canvas, Blackboard, Desire2Learn, Moodle, etc.) or through Codio.com using a course token.
 
-   The first time you log in, a small banner is displayed in the upper portion of the screen requesting that you go to **Billing**.
+   The first time you log in, you will see a dialog prompting you to pay.
    
-3. Click the link in the banner, or click your **User name > Settings > Billing**.
+3. If you don't see the dialog, click **Get Started** in the banner, or click your **Username > Preferences > Billing**.
 
-4. From the **Plan** drop-down, choose **Redeem Code** and click **Upgrade**.
+4. From the **Plan** dialog, choose **Redeem Code**.
 
 5. Enter the code that was provided to you. Note that the code is case sensitive so enter it exactly as provided to you.
 
