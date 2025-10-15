@@ -140,7 +140,7 @@ To create a numbered list, you start the line with a `1.` The numbers are automa
 
 Code Blocks
 ***********
-If you want to show some code, styled with the courier font, in a box and with syntax highlighting applied you surround your code block with three backticks. For example, the following javascript snippet
+If you want to show some code, styled with the courier font, in a box and with syntax highlighting applied you surround your code block with three backticks. For example, the following javascript snippet:
 
 .. code:: javascript
 
@@ -152,7 +152,9 @@ If you want to show some code, styled with the courier font, in a box and with s
 
 is written with the first line as
 
-`` ```js``
+.. code:: markdown
+
+    ```js
 
 then your code, and the last line as three backticks
 
@@ -287,8 +289,8 @@ This can be achieved with collapsible content and the `<details> <summary>` elem
 Example
 -------
 
-  .. image:: /img/guides/collapsible.png
-     :alt: CollapsibleContent
+.. image:: /img/guides/collapsible.png
+    :alt: CollapsibleContent
 
 
 
@@ -308,11 +310,9 @@ The following is the code used to create the image above. Three code blocks are 
     2. Variable `b` is assigned a value where the left-hand operator looks like a `string` however JavaScript tries to convert it into a number which is successful.
     3. In the case of variable `c`, the string can't be converted and the operation returns the value of `NaN` which means _not a number_. If this is then used in subsequent operations the value cascades and the result will also be `NaN`.
 
-.. code:: markdown
-
     <h6>Code Block</h6>
 
-    ```js `
+    ```js-hide-clipboard
     const name = {
             first: 'John',
             'last name': 'Doe',
@@ -321,8 +321,7 @@ The following is the code used to create the image above. Three code blocks are 
                 month: 'January'
         }
     }
-
-.. code:: markdown
+    ```
 
     </details>
 
