@@ -32,11 +32,11 @@ To generate an invoice or a quote, follow the steps below:
 
 2. Enter **Promotion Code** (if any). Codes are not case sensitive, valid for new users only, and not for student pay plans. Invalid or expired codes will display a message.
 
-4. Enter **Purchase Order** Number (if applicable) and **Billing Email**.
+3. Enter **Purchase Order** Number (if applicable) and **Billing Email**.
 
-5. **Select a Plan** (semester or annual).
+4. **Select a Plan** (semester or annual).
 
-6. Click **Generate Invoice** or **Generate Quote**. The document will be sent to the email provided.
+5. Click **Generate Invoice** or **Generate Quote**. The document will be sent to the email provided.
 
   .. Note:: You can access your invoice from the email, or you can click **View Invoice** from the **Invoice History** section. Pay your invoice at this link.
 
@@ -54,7 +54,7 @@ The option to switch to a **Student Pay plan** where students are prompted to en
 
 3. Students will now be prompted to make a payment when they access their Codio account, whether it be from Codio or from your LMS. 
 
-4. To support students in this process, provide them with `this documentation link <https://docs.codio.com/students/accessing-codio/paying.html#pay-for-codio-subscription>`__ with specific emphasis to `this section <https://docs.codio.com/students/accessing-codio/paying.html#problems-setting-up-a-new-subscription-plan>`__ in the event they have problems especially if this may be first time they are trying to purchase online and the transaction may be refused by their bank due to the ever increasing fraud prevention measures card issuers are implementing or guide them to contact help@codio.com.  
+4. To support students in this process, provide them with `this documentation link <https://docs.codio.com/students/accessing-codio/paying.html#pay-for-codio-subscription>`__ with specific emphasis to `this section <https://docs.codio.com/students/accessing-codio/paying.html#problems-setting-up-a-new-payment>`__ in the event they have problems especially if this may be first time they are trying to purchase online and the transaction may be refused by their bank due to the ever increasing fraud prevention measures card issuers are implementing or guide them to contact help@codio.com.  
 
 Bookstore Pay (Access Codes)
 ----------------------------
@@ -64,7 +64,8 @@ Only one access code is required per student even if the student is enrolled in 
 
 Any unsold access codes will remain active and can be used in subsequent semesters.
 
-**1. Determining License Requirements**
+Determining License requirements
+--------------------------------
 
 - Determine the number of licenses required based on expected student enrollment
 - Select the appropriate subscription type:
@@ -79,23 +80,25 @@ Any unsold access codes will remain active and can be used in subsequent semeste
 | Annual              | 978-1-7331872-1-3 |
 +---------------------+-------------------+
 
-**2. Ordering Process**
+Ordering process
+----------------
 
 - Communicate the number of licenses required and subscription type to your bookstore.
 - The bookstore sends an email with this information to accounts@codio.com, including a purchase order if required.
 
 Upon receipt of the order, Codio will issue:
 
-- A printable pdf letter to give to each student purchasing a code, providing instructions for code use.
+- A printable PDF letter to give to each student purchasing a code, providing instructions for code use.
 - A CSV file listing all the access code numbers issued in the order.
 - An invoice for the codes purchased, payable within 30 days of the invoice date.
 
-**3. Bookstore Management Guidelines**
+Bookstore Management Guidelines
+-------------------------------
 
 - Each access code should only be sold once.
-- Access codes never expire and are not course specific, allowing them to be sold in future semesters.
-- Bookstores should manage the codes like physical stock and can place additional code orders at any time.
-- Codes are non-refundable.
+- Access codes never expire and are not course-specific, allowing them to be sold in future semesters.
+- Bookstores should manage access codes like physical stock and can place additional code orders at any time.
+- Access codes are non-refundable.
 
 
 Viewing Invoice History
