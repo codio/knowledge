@@ -44,10 +44,9 @@ Download CSV
 
    
 and for each assessment:
-
-   - <Assessment_Name>_Correct (True/False)
-   - <Assessment_Name>_Answer
-   - <Assessment_Name>_Attempts
+ - <Assessment_Name>_Correct (True/False)
+ - <Assessment_Name>_Answer
+ - <Assessment_Name>_Attempts
 
 Export Assignment Data
 ----------------------
