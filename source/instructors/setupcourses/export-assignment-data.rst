@@ -40,7 +40,7 @@ Download CSV
    - Completed (True/False)
    - Completed Date/Time (all instances)
    - LTI ID
-   - behavioral insights (0-5 indicates how many thresholds the student exceeded. A higher number indicates more suspicious behavior.)
+   - Behavioral Insights (Indicates how many monitoring thresholds the student exceeded; values range from 0 to 5, with higher numbers signaling more suspicious behavior.)
 
    
 and for each assessment:
