@@ -140,7 +140,7 @@ To create a numbered list, you start the line with a `1.` The numbers are automa
 
 Code Blocks
 ***********
-If you want to show some code, styled with the courier font, in a box and with syntax highlighting applied you surround your code block with three backticks. For example, the following javascript snippet:
+If you want to show code in a box with syntax highlighting, surround it with three backticks. For example, the following JavaScript snippet:
 
 .. code:: javascript
 
@@ -155,8 +155,10 @@ is written with the first line as
 .. code:: markdown
 
     ```js
+    // your code...
+    ```
 
-then your code, and the last line as three backticks
+then your code, and the last line as three backticks.
 
 
 Note that you can specify a language type after the top 3 back ticks. Entering `python` after the backticks would apply syntax highlighting for python. Many languages are supported. See a full list of supported languages `here <https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>`_. You should search for your language and then use the `alias` shown.
@@ -290,7 +292,7 @@ Example
 -------
 
 .. image:: /img/guides/collapsible.png
-    :alt: CollapsibleContent
+    :alt: Collapsible content
 
 
 
