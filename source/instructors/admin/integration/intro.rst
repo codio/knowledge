@@ -52,5 +52,6 @@ Students who initially accessed Codio through an LMS/LTI system, can set up dire
 - :ref:`LTI Course Copy <lti-course-copy>`
 - :ref:`Exporting Common Cartridge <common-cartridge>`
 - :ref:`LTI 1.3 integration <lti1-3>`
-- :ref:`LTI 1.3 integration for Blackboard/D2L <lti1-3BS-D2L>`
+- :ref:`LTI 1.3 integration for Brightspace/D2L <lti1-3BS-D2L>`
 - :ref:`LTI 1.3 integration for Canvas <lti1-3Canvas>`
+- :ref:`LTI 1.3 integration for Blackboard <lti1-3Blackboard>`
