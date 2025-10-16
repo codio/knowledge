@@ -56,6 +56,7 @@ The option to switch to a **Student Pay plan** where students are prompted to en
 
 4. To support students in this process, provide them with `this documentation link <https://docs.codio.com/students/accessing-codio/paying.html#pay-for-codio-subscription>`__ with specific emphasis to `this section <https://docs.codio.com/students/accessing-codio/paying.html#problems-setting-up-a-new-payment>`__ in the event they have problems especially if this may be first time they are trying to purchase online and the transaction may be refused by their bank due to the ever increasing fraud prevention measures card issuers are implementing or guide them to contact help@codio.com.  
 
+
 Bookstore Pay (Access Codes)
 ----------------------------
 Codio offers the option to provide licenses through your institution's campus bookstore. This enables students, especially those using financial aid, to purchase an access code directly from the bookstore. The access code serves as the Codio license. When students first access their Codio account, they simply enter the access code to activate their license.
@@ -64,7 +65,7 @@ Only one access code is required per student even if the student is enrolled in 
 
 Any unsold access codes will remain active and can be used in subsequent semesters.
 
-Determining License requirements
+Determining License Requirements
 --------------------------------
 
 - Determine the number of licenses required based on expected student enrollment
