@@ -12,6 +12,9 @@ reviews:
   poem: false
   review_status: true
   collapse_walkthrough: false
+  sequence_diagrams: false
+  unit_tests:
+    enabled: false
   auto_review:
     enabled: true
     drafts: false
