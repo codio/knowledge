@@ -25,7 +25,7 @@ Open the **Actions** menu to see additional buttons that allow you to run a plag
 
 - **Unmark As Complete** - Click this button to clear the **Mark All As Complete**.
 
-- **Download CSV** - Click this button to download a CSV file with student grade data for the assignment. For more information on the data included see :ref:`Export Assignment Data <export-assignment>`
+- **Download CSV** - Click this button to download a CSV file with student grade data for the assignment. For more information on the data included, see :ref:`Assignment Data <export-assignment>`
 
 - **Reset** - Click this button to clear all student work. This option is used when you have updated an assignment in your course and you need to reset it so all student assignments are updated with the new assignment. You can reset assignments using the **Action > Reset** button, or the menu in the assignment:
 

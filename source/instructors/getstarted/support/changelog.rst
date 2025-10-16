@@ -15,7 +15,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2025**
 
-- `[I] [9th]`: New guides button for uploading files.
+- `[I] [14th]`: Behavior insight information is available in the assignment CSV file. :ref:`Assignment data <export-assignment>`
+- `[I] [9th]`: New Guides button for uploading files.
 
 **July 2025**
 

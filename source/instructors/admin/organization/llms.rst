@@ -24,7 +24,10 @@ We support the following providers:
 
 - `Deepinfra <https://deepinfra.com/docs/advanced/langchain>`_
 
+
 .. _custom_llm_provider:
+
+|
 
 Custom LLM Providers
 ====================
@@ -96,6 +99,10 @@ The script:
    LLM_URL=$GEMINI_CUSTOM_URL$SUB_PATH?key=$GEMINI_CUSTOM_KEY
 
    curl -X POST $LLM_URL  -H "Content-Type: application/json" -d '{"contents": [{"parts":[{"text": "your question here"}]}]}'
+
+
+.. Note:: SDKs may require or expect standard environment variables (e.g., `OPENAI_BASE_URL`, `OPENAI_API_KEY`) or explicit values, while `curl` can use the custom names you configure.
+
 
 Enabling LLM for Courses
 ------------------------

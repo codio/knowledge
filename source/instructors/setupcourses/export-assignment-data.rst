@@ -4,18 +4,17 @@
 
 .. _export-assignment:
 
-Export Assignment Data
-======================
-Use this to export data related to a specific assignment. Exported data includes student workspace files, in a zip archive for each student. If students have completed the assignment there will also be a .csv file with information such as number of assessment attempts, completion date, time spent, final grade and more.
+Assignment Data
+================
 
-Follow these steps to export assignment data:
+.. image:: /img/class_administration/grading/assignmentdata.png
+   :alt: Download assignment data
 
-1. Open the course and expand the course module.
-2. Click the **Options** menu (the 3 dots on the far right) for the assignment and choose **Export Assignment Data**. 
-
-   An email notification is sent when the data is available for download. 
-
-   The following data is included in a **.csv** file:
+Download CSV
+------------
+1. Click the **Overview** tab.
+2. Click the **Options** menu (the 3 dots on the far right) for the assignment and choose **Download CSV**. 
+   The following data is included in the **.csv** file:
 
    - Student_Name
    - First_Name
@@ -40,12 +39,24 @@ Follow these steps to export assignment data:
    - Created Date
    - Completed (True/False)
    - Completed Date/Time (all instances)
+   - LTI ID
+   - behavioral insights (0-5 indicates how many thresholds the student exceeded. A higher number indicates more suspicious behavior.)
 
    
 and for each assessment:
+ - <Assessment_Name>_Correct (True/False)
+ - <Assessment_Name>_Answer
+ - <Assessment_Name>_Attempts
 
-   - <Assessment_Name>_Correct (True/False)
-   - <Assessment_Name>_Answer
-   - <Assessment_Name>_Attempts
+Export Assignment Data
+----------------------
+Use this to export data related to a specific assignment. Exported data includes student workspace files, in a zip archive for each student. If students have completed the assignment there will also be a .csv file with information such as number of assessment attempts, completion date, time spent, final grade and more. See the full list in the section above.
+
+Follow these steps to export assignment data:
+
+1. Click the **Overview** tab.
+2. Click the **Options** menu (the 3 dots on the far right) for the assignment and choose **Export Assignment Data**. 
+
+   An email notification is sent when the data is available for download. 
 
 .. Note:: The data is retained for a maximum of 6 months.

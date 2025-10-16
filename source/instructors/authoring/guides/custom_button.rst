@@ -78,6 +78,28 @@ Students can restore current files to the default setting from the :ref:`setting
 
     {Button text | reset}(optional commands to run)
 
+Creating an Upload File Button
+******************************
+
+Use the **Upload File** button to request that learners upload files to a folder in the file tree. This is useful when collecting multiple files across different folders:
+
+.. image:: /img/guides/upload-file-example.png
+    :alt: Screenshot of Guides with multiple buttons to upload files.
+
+.. Note:: You do not need to create the folder in advance. If the folder does not exist, it will be created automatically.
+
+To create an Upload File button, use the button in the ribbon:
+
+.. image:: /img/guides/upload-file-button.png
+    :alt: Button to create an Upload File directive.
+
+Alternatively, this is the synxtax:
+
+.. code:: markdown
+
+    {Upload | upload-file}(path/optional)
+
+After adding the button to your guide, you can change the button label, the folder name, and the folder path. You can also use subfolders.
 
 Writing a custom event handler
 ******************************
