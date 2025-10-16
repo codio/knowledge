@@ -97,6 +97,10 @@ The script:
 
    curl -X POST $LLM_URL  -H "Content-Type: application/json" -d '{"contents": [{"parts":[{"text": "your question here"}]}]}'
 
+
+.. Note:: SDKs may require or expect standard environment variables (e.g., `OPENAI_BASE_URL`, `OPENAI_API_KEY`) or explicit values, while `curl` can use the custom names you configure.
+
+
 Enabling LLM for Courses
 ------------------------
 
