@@ -10,7 +10,7 @@ You access your courses from the **Courses** page and drill down to view the ass
 
 1. Select **Courses** in the navigation pane to display all of the courses assigned to you in the right pane. Your current courses are displayed on the **Active** page and previous courses are displayed on the **Archived** page.
 
-   .. image:: /img/what_students_do/studentdashboard.png
+   .. image:: /img/what_students_do/newstudentdashboard.png
       :alt: Student Dashboard
    
    Up to 5 pinned assignments are displayed more prominently at the top of the page and includes the end date for the assignment, which was set by your instructor.

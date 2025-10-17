@@ -33,7 +33,8 @@ Open the **Progress** tab to see additional buttons that allow you to:
 
 - **Download CSV** - Click this button to download a CSV file with student grade data for the assignment. For more information on the data included see :ref:`Export Assignment Data <export-assignment>`
 
-- **Reset** -You can reset assignments using the **Reset** button in the Progress tab, or the three-dots menu in the student row next to the student name.
+- **Reset** - You can reset assignments using the **Reset** button in the Progress tab. This will erase all student work and progress for the entire class. To reset an assignment for a single student without affecting others, use the three-dot menu next to their name.
+
 
 .. image:: /img/resetunit.png
    :alt: Progress tab > Reset

@@ -92,7 +92,7 @@ In Codio enable LTI for Your Course
 In Blackboard:
 ~~~~~~~~~~~~~~
 
-- Paste the **LTI Integration URL** you copied in the last step into the **Configuration URL** field for your assignments.
+- Paste the **LTI Integration URL** you copied in the last step into the **URL** field for your assignments.
 
   .. image:: /img/Blackboardweblink.png
      :alt: Blackboard Configuration URL field for LTI Integration URL
