@@ -8,7 +8,6 @@ LTI 1.3 for Canvas
 
 On this page, you will find detailed step-by-step guidelines to help you integrate your Canvas and Codio accounts and connect assignments between the two applications.
 
-
 LTI version 1.3 improves upon version 1.1 by moving away from the use of OAuth 1.0a-style signing for authentication and towards a new security model, using OpenID Connect, signed JWTs, and OAuth2.0 workflows for authentication.
 For more information, see Learning Tools Interoperability Core Specification
 
