@@ -40,7 +40,7 @@ The student courses are displayed in the right pane, as shown below with the def
     - Click the arrow to expand or collapse the panel. 
     - Click the feedback panel to open it and review your assessments, grading comments, and any code comments from your instructor.
 
-**3** - **Courses** panel is the main panel on the page and is where you can see the courses, modules, and assignments that have been assigned to you, and the end date for the assignment. Up to five pinned assignments can be displayed more prominently at the top of the page. From this area, you can easily re-open the assignment you were last working on, or start any of the other assignments that have been assigned to you. You start or open an assignment using the navigation buttons.  If course/module progress bars are enabled by your teacher, you will also see your progress. 
+**3** - **Courses** panel is the main panel on the page where you can see your courses, modules, and assignments. Up to five pinned assignments appear at the top of the page for quick access. You can restart a previous assignment or start any newly assigned work. If progress bars are enabled by your teacher, you will also see your progress.
 
     - Click the course pane to open and view the modules and assignments in the course. 
 

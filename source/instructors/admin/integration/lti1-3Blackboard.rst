@@ -95,6 +95,7 @@ In Blackboard:
 - Paste the **LTI Integration URL** you copied in the last step into the **Configuration URL** field for your assignments.
 
   .. image:: /img/Blackboardweblink.png
+     :alt: Blackboard Configuration URL field for LTI Integration URL
      :width: 750px
 
 
