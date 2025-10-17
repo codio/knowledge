@@ -15,7 +15,7 @@ By default students are not shown the grades until you decide to release them to
 
 If you want to release the grades as the assignments are graded, follow these steps:
 
-1. Open the course and click the **Grading Basics** tab.
+1. Open the course and click the **Basic Settings** tab under **Grading**.
 2. Toggle the **Release Grades Automatically** setting to enable it.
 
    .. image:: /img/changereleasegrades.png
