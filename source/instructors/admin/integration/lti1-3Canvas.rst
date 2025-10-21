@@ -9,9 +9,7 @@ LTI 1.3 for Canvas
 On this page, you will find detailed step-by-step guidelines to help you integrate your Canvas and Codio accounts and connect assignments between the two applications.
 
 LTI version 1.3 improves upon version 1.1 by moving away from the use of OAuth 1.0a-style signing for authentication and towards a new security model, using OpenID Connect, signed JWTs, and OAuth2.0 workflows for authentication.
-For more information, see Learning Tools Interoperability Core Specification
-
-The deep-linking URL is ``https://apollo.codio.com/lti/resource_selection``.
+For more information, see `Learning Tools Interoperability Core Specification <https://www.imsglobal.org/spec/lti/v1p3/>`__
 
 
 Part 1: In Canvas - Create a Developer Key
@@ -76,19 +74,16 @@ The Canvas user who carries out these steps must be a system administrator.
 
 |image4|
 
-17. Expand each of the following fields, and copy the static links below:
+17. Expand each field below and copy the static links provided. Each section has two steps—use the image as a reference guide to help you along the way.
+
+
+Link Selection and Assignment Selection
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /img/canvaslinkassignmentselect.png
     :alt: Canvas Link Selection placement
     :width: 750px 
 
-
-.. list-table:: **Link Selection and Assignment Selection**
-    :widths: 30 70
-    :header-rows: 0
-
-    * - **Select Message Type**
-      - **LtiDeepLinkingRequest**
     
 .. tabs::
 
@@ -105,18 +100,14 @@ The Canvas user who carries out these steps must be a system administrator.
       https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
 
 
+Course Navigation and Editor Button
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 .. image:: /img/canvascourseeditortselect.png
-    :alt: Canvas Link Selection placement
+    :alt: Canvas Course Navigation and Editor Button placement
     :width: 750px 
 
-
-.. list-table:: **Course Navigation and Editor Button**
-    :widths: 30 70
-    :header-rows: 0
-
-    * - **Select Message Type**
-      - **LtiDeepLinkingRequest**
-  
 
 .. tabs::
 
@@ -324,9 +315,4 @@ Important Notes on Course Copy in Canvas:
 
 
 
-
-Connecting/mapping assignments in Canvas
-------------------------------------------
-
-There are also a number of ways you can connect/map assignments. Check out the following videos to see the option that best suits you.
 
