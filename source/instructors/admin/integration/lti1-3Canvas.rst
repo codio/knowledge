@@ -105,7 +105,7 @@ Course Navigation and Editor Button
 
 
 .. image:: /img/canvascourseeditortselect.png
-    :alt: Canvas Link Selection placement
+    :alt: Canvas Course Navigation and Editor Button placement
     :width: 750px 
 
 
