@@ -78,6 +78,8 @@ Students can restore current files to the default setting from the :ref:`setting
 
     {Button text | reset}(optional commands to run)
 
+.. _upload-file-button:
+
 Creating an Upload File Button
 ******************************
 

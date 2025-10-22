@@ -15,8 +15,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2025**
 
+- `[I] [22th]`: Pagination is now persistent across pages.
+- `[I] [20th]`: Added support for the Math markdown code block.
 - `[I] [14th]`: Behavior insight information is available in the assignment CSV file. :ref:`Assignment data <export-assignment>`
-- `[I] [9th]`: New Guides button for uploading files.
+- `[I] [9th]`: New Guides button for :ref:`uploading files<upload-file-button>`.
 
 **July 2025**
 
