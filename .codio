@@ -3,6 +3,8 @@
     // Run button configuration
     "commands": {
         "Make": "clear && make html",
+        "Make Instructor": "clear && make html TYPE=instructor",
+        "Make Student": "clear && make html TYPE=student",
         "Start Ungit":"ungit --port=4000 --ungitBindIp 0.0.0.0"
     },
     // Preview button configuration

@@ -6,7 +6,7 @@ tone_instructions: |
   Provide clear, concise, and professional feedback focused on improving documentation clarity, grammar, and consistency.
   Suggest improvements for readability and structure, and highlight any potential ambiguities.
 reviews:
-  profile: "chill"
+  profile: "assertive"
   request_changes_workflow: false
   high_level_summary: true
   poem: false
