@@ -187,6 +187,25 @@ We can define a variable `var x;` if we like
 
 We can define a variable \`var x;\` if we like
 
+.. _math-blocks:
+
+Math Blocks
+*************
+
+To add mathematical expressions, you can use the `math` block as follows:
+
+.. code:: markdown
+
+    ```math
+    F = G \frac{m_1 m_2}{r^2}
+    ```
+
+The example above will render:
+
+.. image:: /img/guides/math-code-block.png
+    :alt: Newton's law of universal gravitation using the Math block.
+    :width: 60%
+    :align: center
 
 Indented Lists
 **************
