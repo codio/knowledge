@@ -15,23 +15,41 @@ The Blackboard user who carries out these steps must be a system administrator.
 In Blackboard:
 ~~~~~~~~~~~~~~
 
-- On the administrator tools page select the **Register LTI1.3/Advantage Tool** tab.
+- On the administrator tools page select **LTI Tool Providers** under the **Integrations** section.
+- Select **Register LTI1.3/Advantage Tool** tab.
 - In the **Client ID** section enter:
 
-    For codio.com - ``0128e3c6-67a1-4bfb-9881-747baf0c7105``
 
-    For codio.co.uk - ``20d13eaa-8d29-4763-87ab-8137aa94129f``
+.. tabs::
+
+
+  .. code-tab:: text
+     :caption: For codio.com
+
+
+      0128e3c6-67a1-4bfb-9881-747baf0c7105
+
+
+  .. code-tab:: text
+     :caption: For codio.co.uk
+
+
+      20d13eaa-8d29-4763-87ab-8137aa94129f
+
+
+
 
 .. Note:: If you get a message saying you are migrating your tool from LTI 1.1 to LTI 1.3 click **Ok**.
 
-- At the bottom:
+- Click **Submit**.
+- At the bottom of the new page:
+- Click **Yes** for **Allow Grade Service Access**
+- Click **Yes** for **Allow Membership Service Access**
 
-    - Click **Yes** for **Allow Grade Service Access**
-    - Click **Yes** for **Allow Membership Service Access**
+- Copy the **Default Deployment ID** value from this page.
 
 - Click **Submit** and the tool will be created.
 
-- Copy the **Default Deployment ID** value from this page.
 
 
 Part 2: In Codio - Create the configuration
@@ -74,6 +92,12 @@ In Codio enable LTI for Your Course
 In Blackboard:
 ~~~~~~~~~~~~~~
 
-- Paste the **LTI Integration URL** you copied in the last step into the **Configuration URL** field for your assignments.
+- Paste the **LTI Integration URL** you copied in the last step into the **URL** field for your assignments.
+
+  .. image:: /img/Blackboardweblink.png
+     :alt: Blackboard Configuration URL field for LTI Integration URL
+     :width: 750px
+
+
 
 
