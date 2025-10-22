@@ -18,7 +18,8 @@ ROOT_DIRS = [
     Path(r"student-source"),
 ]
 
-IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp"}
+# IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp"} # .svg for logos.
+IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
 
 # Matches:
 #   .. image:: /path.png
@@ -106,15 +107,12 @@ def resolve_reference(rst_file: Path, ref: str, roots_abs: list[Path]) -> tuple[
 
     ref = normalize_ref(ref)
 
-    # Absolute style (Sphinx-rooted): /img/foo.png
     if ref.startswith("/"):
         rel = ref.lstrip("/")
-        # Prefer an existing file under any root; otherwise just bind to the rst's root
         for r in roots_abs:
             cand = (r / rel).resolve()
             if cand.exists():
                 return r, rel
-        # fallback: attach to the .rst file's own root anchor (even if missing)
         for r in roots_abs:
             try:
                 rst_file.relative_to(r)
@@ -123,7 +121,6 @@ def resolve_reference(rst_file: Path, ref: str, roots_abs: list[Path]) -> tuple[
                 continue
         return None
 
-    # Relative to the .rst file directory
     candidate = (rst_file.parent / ref)
     try:
         cand_abs = candidate.resolve()
@@ -134,16 +131,13 @@ def resolve_reference(rst_file: Path, ref: str, roots_abs: list[Path]) -> tuple[
     if mapped:
         return mapped
 
-    # If not under any root (odd), try binding to rst_file's root
     for r in roots_abs:
         try:
             rst_file.relative_to(r)
-            # make rel w.r.t that root if possible
             try:
                 rel = cand_abs.relative_to(r).as_posix()
                 return r, rel
             except ValueError:
-                # last resort: synthesize rel from string form
                 return r, Path(ref).as_posix()
         except ValueError:
             continue
@@ -223,20 +217,15 @@ def main():
     for r in roots_abs:
         print(f"[info] Root directory: {r}")
 
-    # Gather images and references from all roots
     images_on_disk = list_image_files(roots_abs, debug=args.debug)         # set[(root, rel)]
     referenced = parse_rst_image_refs(roots_abs, debug=args.debug)         # set[(root, rel)]
 
-    # Treat references as shared by RELATIVE PATH across roots:
-    # if any root references 'img/foo.png', we consider that rel used everywhere,
-    # so remove (root, rel) from unused for every root containing that rel.
     referenced_rels = {rel for (_root, rel) in referenced}
     unused = sorted([(root, rel) for (root, rel) in images_on_disk if rel not in referenced_rels],
                     key=lambda x: (str(x[0]), x[1]))
 
     print(f"[result] Found {len(unused)} unused image(s) across all roots).")
 
-    # CSV goes to the common parent of all roots
     out_csv = common_parent(roots_abs) / "unused_images.csv"
 
     if args.delete:
