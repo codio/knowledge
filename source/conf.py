@@ -65,8 +65,8 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
-    'recommonmark',
     'sphinx_code_tabs',
+    'sphinx_design',
     'sphinx_sitemap'
 ]
 html_baseurl = 'https://docs.codio.com/'

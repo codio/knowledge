@@ -8,7 +8,7 @@ If using Codio, put on the certified Python stack `Python Ubuntu 22.04 (pyenv)`.
 ### Install
 
 ```
-pip install sphinx==8.2.0 sphinxawesome-theme==5.3.2 sphinx-docsearch==0.1.0 sphinx-sitemap==2.9.0 sphinx_code_tabs==0.5.5 recommonmark==0.7.1
+pip install sphinx==8.2.0 sphinxawesome-theme==5.3.2 sphinx-docsearch==0.1.0 sphinx-sitemap==2.9.0 sphinx_code_tabs==0.5.5
 ```
 
 ### Build
