@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 '''
 python find_unused_images.py
 python find_unused_images.py --delete
@@ -5,7 +6,6 @@ python find_unused_images.py --delete --yes
 python find_unused_images.py --debug
 '''
 
-#!/usr/bin/env python3
 import argparse
 import csv
 import os
