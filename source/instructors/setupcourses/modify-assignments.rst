@@ -32,8 +32,8 @@ Reset assignment for individual student
 When you make changes to an assignment that students have already started, you can reset the assignment so the students will see the updates but any work they have done so far, will be lost. Follow these steps to reset an assignment for an individual student:
 
 1. Open the course, go to the **Overview** tab and click the assignment.
-2. Find the student and click the **3 blue dot** button on the right.
-3. Click the **Reset** button.
+2. Find the student and click the 3 dot **More Actions** menu on the right..
+3. Select the **Reset** menu item at the bottom.
 4. Enter the confirmation code and then click **Yes** to confirm the reset.
 5. You can also allow your students to :ref:`reset their own assignments <student-reset>`. 
 
@@ -42,9 +42,12 @@ Reset assignment for all students
 ---------------------------------
 Follow these steps to reset an assignment for all students:
 
-1. Open the course, go to the **Overview** tab and click the assignment.
-2. Click the **Actions** button and choose **Reset**.
+1. Open the course, go to the **Overview** tab, and click the assignment.
+2. At the bottom, find the **Reset** option and click it (see image below).
 3. Enter the confirmation code and then click **Yes** to confirm the reset.
+
+.. image:: /img/class_administration/resetassignment.png
+   :alt: Reset Assignment for all students
 
 Options for modifying an assignment
 -----------------------------------
