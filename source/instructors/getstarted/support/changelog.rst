@@ -15,10 +15,15 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2025**
 
-- `[I] [22th]`: Pagination is now persistent across pages.
+- `[I] [24th]`: Pyret support has been deprecated.
+- `[I] [22nd]`: Pagination is now persistent across pages.
 - `[I] [20th]`: Added support for the Math markdown code block.
 - `[I] [14th]`: Behavior insight information is available in the assignment CSV file. :ref:`Assignment data <export-assignment>`
 - `[I] [9th]`: New Guides button for :ref:`uploading files<upload-file-button>`.
+
+**September 2025**
+
+- `[I] [29th]`: Option added to display expected answer and Rationale when grades have been released.
 
 **July 2025**
 
