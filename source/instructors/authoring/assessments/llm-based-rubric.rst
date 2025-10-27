@@ -12,7 +12,7 @@ Codio has provided two versions of the **LLM-Based Rubric Grader**. One requires
 The **LLM Rubric Autograde** assessment is in the **Auto-Graded** section of the assessments menu and the **LLM Rubric** assessment is in the **Manually Graded** section.
 More information about adding assessments can be found in our :ref:`assessment documentation <add-assessment>`.
 
-The first two steps for both of these are the same: 
+The first two steps are the same for both versions: 
 
 1. Rubric generation
 2. LLM-based grading using the generated rubric
