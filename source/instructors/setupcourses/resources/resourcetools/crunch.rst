@@ -15,7 +15,6 @@ Additional resources
    scratch
    pencilcode
    draw-io
-   pyret
    tkinter
    turtle
    processing-and-p5
