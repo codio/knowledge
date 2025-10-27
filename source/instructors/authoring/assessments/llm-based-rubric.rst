@@ -58,7 +58,7 @@ Add an **LLM Rubric** or **LLM Rubric Autograde** assessment to your guide page 
 
    .. Note:: If you do not add rubric requirements; the process will use general code grading norms to supply rubric items.
 
-Add your requirements in the **Rubrics Requirements** dialog (optional) : 
+Add your requirements in the **Rubric Requirements** dialog (optional) : 
 
 .. image:: /img/guides/llmrubricreqs.png
     :height: 600
