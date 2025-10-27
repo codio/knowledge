@@ -107,7 +107,7 @@ Sample Instructor view of LLM-generated feedback:
 
 .. image:: /img/guides/rubricapproval.png
     :height: 600
-    :alt: Preliminary grading information displayed to the student
+    :alt: Instructor view of LLM-generated feedback for approval
 
 
 
