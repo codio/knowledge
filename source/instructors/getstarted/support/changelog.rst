@@ -16,7 +16,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 **October 2025**
 
 - `[I] [24th]`: Pyret support has been deprecated.
-- `[I] [22th]`: Pagination is now persistent across pages.
+- `[I] [22nd]`: Pagination is now persistent across pages.
 - `[F] [21st]`: Added :ref:`Common Storage<common-storage>` to courses.
 - `[I] [20th]`: Added support for the `math` :ref:`markdown block<math-blocks>` using LaTeX.
 - `[F] [17th]`: Add Ability to :ref:`Auto-Grade using an LLM-based rubric grader <llm-based-rubric>`

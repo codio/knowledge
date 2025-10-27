@@ -4,11 +4,11 @@
 
 .. _common-storage:
 
-============================
-Common Storage for a Courses
-============================
+==========================
+Common Storage for Courses
+==========================
 
-Course Shared Storage lets instructors place common files (docs, data sets, starter code, assets) in one location that's available inside every assignment workspace. There are read-only files securily shared and available for all students.
+Course Shared Storage lets instructors place common files (docs, data sets, starter code, assets) in one location that's available inside every assignment workspace. Read-only files are securely shared and available for all students.
 
 Key Benefits
 ------------
@@ -45,11 +45,11 @@ Add Folders & Files
 4. Repeat for additional assignments or resources as needed.
 
 .. image:: /img/storage-browser.png
-   :alt: Storage browser showing an dataset folder with uploaded files
+   :alt: Storage browser showing a dataset folder with uploaded files
    :width: 80%
    :align: center
 
-.. topic:: You can upload many files, but no single file can be more than 5GB. 
+.. caution:: You can upload many files, but no single file can be more than 5 GB.
 
 Access Storage From Assignments
 -------------------------------
