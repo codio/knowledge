@@ -26,7 +26,7 @@ reviews:
         - Proper use of rst syntax (e.g., avoid broken links or invalid code blocks).
         - Adherence to style guides (e.g., consistent tone, terminology).
         Suggest improvements to enhance readability and accessibility.
-        - Avoid suggenting new changes after applying fixes requested by you.
+        - Avoid suggesting new changes after applying fixes requested by you.
         Suggest improvements on the first review only.
   path_filters:
     - "!**/*.png"
