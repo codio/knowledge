@@ -18,7 +18,6 @@ Authoring
    authoring_guidelines
    markdown_content
    previewing_content
-   html_content
    teacher_only
    solution_templating
    freeze_code
