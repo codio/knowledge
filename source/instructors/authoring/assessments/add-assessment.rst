@@ -47,14 +47,14 @@ To add a new assessment for a course, follow these steps:
    .. image:: /img/guides/add_assessment.png
       :alt: Add Assessment
 
-3. Click **Create**.
+3. Fill the appropriate fields and click **Create**.
 
 While creating/editing the assessment, you can still see/edit the guide page.
 
 Assessment Auto-Generation
 ++++++++++++++++++++++++++
 
-Assessments can be auto-generated based on the text found on a guides page. Currently only :ref:`Multiple Choice <multiple-choice>`, :ref:`Fill in the Blanks <fill-in-blanks>`, :ref:`Free Text <free-text>` and :ref:`Parsons Puzzle <parsons-puzzle>` assessments can be auto-generated. For more information, please check out :ref:`Generating Assessments With AI <ai-assessment-generation>`
+Assessments can be auto-generated based on the text found on a guides page. Currently only :ref:`Multiple Choice <multiple-choice>`, :ref:`Fill in the Blanks <fill-in-blanks>`, :ref:`Free Text <free-text>`, , :ref:`Standard Code Test <standard-code-test>`, and :ref:`Parsons Puzzle <parsons-puzzle>` assessments can be auto-generated. For more information, please check out :ref:`Generating Assessments With AI <ai-assessment-generation>`
 
 
 Refer to the specific topics for the type of assessment:
@@ -68,3 +68,4 @@ Refer to the specific topics for the type of assessment:
 - :ref:`Grade Book <grade-book>`
 - :ref:`Parsons Puzzle <parsons-puzzle>`
 - :ref:`Random Assessment <random>`
+- :ref:`LLM Rubric and LLM Rubric Autograde <llm-based-rubric>`
