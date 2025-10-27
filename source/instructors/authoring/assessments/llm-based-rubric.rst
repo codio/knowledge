@@ -93,7 +93,7 @@ Manual Approval by Instructor (Step 3 - only for the manually-graded version)
 .. Note::  The student receives information about whether they have passed or failed each rubric item, but does not see the rest of the LLM-generated feedback until after the instructor conducts their review.
 
 
-Sample student view of the feedback, before teacher approval:
+Sample student view of the feedback, before instructor approval:
 
 .. image:: /img/guides/rubricprelim.png
     :height: 600
