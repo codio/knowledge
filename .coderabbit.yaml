@@ -26,10 +26,14 @@ reviews:
         - Proper use of rst syntax (e.g., avoid broken links or invalid code blocks).
         - Adherence to style guides (e.g., consistent tone, terminology).
         Suggest improvements to enhance readability and accessibility.
+        - Make sure to find all improvements on the first pass.
+        Go through the material multiple times before submitting comments.
   path_filters:
     - "!**/*.png"
   finishing_touches:
     unit_tests:
+      enabled: false
+    docstrings:
       enabled: false
 chat:
   auto_reply: true
