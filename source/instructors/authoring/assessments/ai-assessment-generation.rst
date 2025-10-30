@@ -21,8 +21,37 @@ Important points to consider when auto-generating assessments:
 
 This is a new feature, and if it does not work properly for you, please let us know via the support chat or by emailing help@codio.com. If you would like us to take a look, send us your course name, the module, the assignment, and the page.
 
+.. note:: Not all assessments can be AI-generated. If you don't see a "Generate" button in the bottom right corner when you click on an assessment, that assessment type does not support AI generation. 
+
+
+How to Generate an Assessment with AI
+-------------------------------------
+
+Assessments can be auto-generated using the text on the current guides page as context. Follow the steps below to auto-generate an assessment:
+
+1. Select an assessment from the Assessments list.
+
+2. Press the **Generate** button at bottom right corner. 
+
+   .. image:: /img/guides/generate-assessment-button.png
+      :alt: Generate assessment button
+
+3. The Generation Prompt will open, press **Generate Using AI** to preview the generated assessment. 
+
+   .. image:: /img/guides/assessment-generation-prompt.png
+      :alt: Assessment Generation Prompt
+
+
+4. When you are satisfied with the result, press **Apply** and then **Create**.
+
+
+.. important:: The generate assessment feature does not configure the page :ref:`layout; <layout>` you should specify the layout depending on how you want to present the information to the students.
+
+
+
+
 Example Prompts
----------------
+----------------
 **Multiple choice**
 
 - Create a question about how to refactor the code below with multiple correct answers: (include code)

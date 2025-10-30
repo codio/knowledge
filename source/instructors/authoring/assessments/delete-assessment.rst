@@ -24,7 +24,7 @@ To delete an assessment, follow these steps:
 
 6. You can also use the **Filter By**, select **Not Used** and delete all unused assessments together. You can search for assessments by name,points or order in guides and order them up or down using the arrow buttons
 
-.. Note:: You can restore a deleted assessment, if it is still on the Assessments tab, by clicking on the name and copying the unique identification (see image below). For this example, the line in your guide will be: ``{Check It!|assessment}(multiple-choice-1735957228)``.
+.. Note:: You can restore a deleted assessment, if it is still on the Assessments tab, by clicking on the name and copying the unique identification (see image below). For this example, the line in your guide will be: ``{Check It!|assessment}(multiple-choice-3865028352)``.
 
    .. image:: /img/guides/assessment_undelete.png
       :alt: Assessment Undelete
