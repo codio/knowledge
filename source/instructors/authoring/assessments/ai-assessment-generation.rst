@@ -24,8 +24,8 @@ This is a new feature, and if it does not work properly for you, please let us k
 .. note:: Not all assessments can be AI-generated. If you don't see a "Generate" button in the bottom right corner when you click on an assessment, that assessment type does not support AI generation. 
 
 
-How to Generate Assessment with AI
------------------------------------
+How to Generate an Assessment with AI
+-------------------------------------
 
 Assessments can be auto-generated using the text on the current guides page as context. Follow the steps below to auto-generate an assessment:
 
@@ -36,7 +36,7 @@ Assessments can be auto-generated using the text on the current guides page as c
    .. image:: /img/guides/generate-assessment-button.png
       :alt: Generate assessment button
 
-3. The Generation Prompt will open, press **Generate Using AI** to preview the generated assessment. Not all assessments can be AI-generated.
+3. The Generation Prompt will open, press **Generate Using AI** to preview the generated assessment. 
 
    .. image:: /img/guides/assessment-generation-prompt.png
       :alt: Assessment Generation Prompt
