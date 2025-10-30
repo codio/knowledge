@@ -94,7 +94,7 @@ To check if RSpec is already installed on your stack, simply run `rspec` from th
  
 When using RSpec in Codio, specify the ruby files containing RSpec tests you'd like to run under the **ADD CASE:** option.
  
-If you have more then one test, by default, the student will need to pass all tests to earn the specified number of points. You can toggle on **ALLOW PARTIAL POINTS** to have Codio evenly weight each test.
+If you have more than one test, by default, the student will need to pass all tests to earn the specified number of points. You can toggle on **ALLOW PARTIAL POINTS** to have Codio evenly weight each test.
  
 .. _RSpec (website link): https://rspec.info/
 
@@ -106,7 +106,7 @@ JUnit
   
 When using JUnit in Codio, specify the Java files containing JUnit tests you'd like to run under the **ADD CASE:** option.
  
-If you have more then one test, by default, the student will need to pass all tests to earn the specified number of points. You can toggle on **ALLOW PARTIAL POINTS** to have Codio evenly weight each test.
+If you have more than one test, by default, the student will need to pass all tests to earn the specified number of points. You can toggle on **ALLOW PARTIAL POINTS** to have Codio evenly weight each test.
  
 There are 4 *optional* configurations for more complex file structures:
  
@@ -115,7 +115,7 @@ There are 4 *optional* configurations for more complex file structures:
  - **LIBRARY PATH** - Specifies the location of .jar files needed to run the student code or test code.
  - **WORKING DIRECTORY** - Specifies where in the file tree the test will run.
 
-All code files **Source path** will be compiled. Files that fail to compile successfully will cause the tests to fail, even if they are not used.
+All code files **SOURCE PATH** will be compiled. Files that fail to compile successfully will cause the tests to fail, even if they are not used.
 Codio has a :ref:`JUnit <junit>` runner for building JUnit tests.
  
 -----------------------------------

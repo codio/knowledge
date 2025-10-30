@@ -61,7 +61,7 @@ Follow these steps to set up an autograde free text assessment:
 
 
 Example Scripts for Free-Text Auto-Grade with All or Nothing Scoring
-.....................................................................
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. tabs::
 
@@ -127,7 +127,7 @@ Example Scripts for Free-Text Auto-Grade with All or Nothing Scoring
             exit(1)
 
 Example Scripts for Free-Text Auto-Grade with Partial Points
-............................................................
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. tabs::
 
@@ -206,7 +206,7 @@ Example Scripts for Free-Text Auto-Grade with Partial Points
 
 
 Automatically Grade a Free Text Assessment as Correct 
-......................................................
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This technique can be used to automatically mark the assessment correct for students who have submitted anything in the response. 
 In the **Command** field on the **Execution** tab enter the command below:

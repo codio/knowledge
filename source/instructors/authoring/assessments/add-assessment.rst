@@ -7,7 +7,7 @@ Auto-Graded Assessments
 ========================
 
 .. toctree::
-   :caption: Auto-graded assessments
+   :caption: Auto-Graded Assessments
    :hidden:
    
    assessments
