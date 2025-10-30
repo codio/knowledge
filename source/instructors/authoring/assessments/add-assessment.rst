@@ -24,6 +24,7 @@ Auto-Graded Assessments
    free-text
    grade-book
    llm-based-rubric
+   llm-based-auto-rubric
    math-assessments
    multiple-choice
    parsons-puzzle
@@ -69,4 +70,5 @@ Refer to the specific topics for the type of assessment:
 - :ref:`Grade Book <grade-book>`
 - :ref:`Parsons Puzzle <parsons-puzzle>`
 - :ref:`Random Assessment <random>`
-- :ref:`LLM Rubric and LLM Rubric Autograde <llm-based-rubric>`
+- :ref:`LLM Rubric <llm-based-rubric>`
+- :ref:`LLM Rubric Autograde <llm-based-auto-rubric>`
