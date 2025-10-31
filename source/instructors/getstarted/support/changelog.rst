@@ -27,6 +27,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 - `[I] [29th]`: Option added to display expected answer and Rationale when grades have been released.
 
+**August 2025**
+
+- `[I] [21st]`: The Join a Course token is now four words instead of two. 
+
 **July 2025**
 
 - `[I] [30th]`: If a student tries to log in when they have an uncompleted assignment in Single Login mode, they have the option to mark that assignment as complete.
