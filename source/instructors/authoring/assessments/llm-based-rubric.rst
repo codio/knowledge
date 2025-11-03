@@ -4,8 +4,8 @@
 .. _llm-based-rubric:
 
 
-LLM Rubric Grader
-=================
+The LLM Rubric Grader
+=====================
 
 The **LLM Rubric** assessment requires instructor approval before feedback is displayed to students. It can be found in the **Manually Graded** section of the assessments menu. 
 
@@ -27,7 +27,7 @@ Add an **LLM Rubric** assessment to your guide page and follow the steps below.
 LLM Based Rubric Creation (Step 1)
 ----------------------------------
 
-Complete the sections below to set up your rubric grader. For more information on **General**, **Metadata** and **Files** see :ref:`Assessments <assessments>`.
+Complete the sections below to set up your rubric grader. For more information on **General**, **Metadata** (optional) and **Files** (optional) see :ref:`Assessments <assessments>`.
 
 1. Complete **General**.
 
