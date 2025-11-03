@@ -50,7 +50,7 @@ The **Rubric Creation Agent** uses the following items to generate the rubric it
 - The Course, Module, and Assignment name
 - Requirements specified in the Rubric creation tab
 
-.. Note:: If you do not add rubric requirements; the process will use general code grading norms to supply rubric items.
+.. Note:: If you do not specify rubric requirements, the system will generate rubric items using general code grading norms.
 
 Add your requirements in the **Rubric Requirements** dialog (optional): 
 
@@ -74,11 +74,11 @@ The grading occurs when the student clicks the **Check It** button. The LLM Grad
 - The student file
 - The rubric generated in the previous step to identify the grading criteria
 
-Sample feedback for the Auto-Graded Version:
+Sample feedback displayed to the student (before instructor approval):
 
-.. image:: /img/guides/rubricfinal.png
+.. image:: /img/guides/rubricprelim.png
     :height: 600
-    :alt: Final grading information displayed to the student
+    :alt: Sample feedback displayed to the student before instructor approval
 
 
 Manual Approval by Instructor (Step 3)
@@ -106,6 +106,7 @@ Sample Instructor view of LLM-generated feedback:
 
 Rubric Requirements Example
 ---------------------------
+(You can view another example on the :ref:`LLM Rubric Autograde <llm-based-auto-rubric>` page.) 
 
 Use only the following criteria for evaluating the student code:
 

@@ -47,7 +47,7 @@ The **Rubric Creation Agent** uses the following items to generate the rubric it
 - The Course, Module, and Assignment name
 - Requirements specified in the Rubric creation tab
 
-.. Note:: If you do not add rubric requirements, the process will use general code grading norms to supply rubric items.
+.. Note:: If you do not specify rubric requirements, the system will generate rubric items using general code grading norms.
 
 Add your requirements in the **Rubric Requirements** dialog (optional): 
 
@@ -80,6 +80,7 @@ Sample feedback for the Auto-Graded Version:
 
 Rubric Requirements Example
 ---------------------------
+(You can view another example on the :ref:`LLM Rubric Grader <llm-based-rubric>` page.) 
 
 Use only the following criteria for evaluating the student code:
 
