@@ -4,7 +4,7 @@
 .. _llm-based-auto-rubric:
 
 
-LLM-Rubric Autograde
+LLM Rubric Autograde
 ====================
 
 The **LLM Rubric Autograde** assessment automatically grades student submissions using an LLM-generated rubric and displays feedback directly to students without requiring instructor approval.
@@ -21,10 +21,10 @@ There are two steps to the **LLM Rubric Autograde** process:
 
 Add an **LLM Rubric Autograde** assessment to your guide page and follow the steps below.
 
-LLM-Based Rubric Creation (Step 1)
+LLM Based Rubric Creation (Step 1)
 ----------------------------------
 
-Complete each section to set up your rubric grader. For more information on **General**, **Metadata** and **Files** see :ref:`Assessments <assessments>`.
+Complete the sections below to set up your rubric grader. For more information on **General**, **Metadata** and **Files** see :ref:`Assessments <assessments>`.
 
 1. Complete **General**.
 
@@ -47,7 +47,7 @@ The **Rubric Creation Agent** uses the following items to generate the rubric it
 - The Course, Module, and Assignment name
 - Requirements specified in the Rubric creation tab
 
-.. Note:: If you do not add rubric requirements; the process will use general code grading norms to supply rubric items.
+.. Note:: If you do not add rubric requirements, the process will use general code grading norms to supply rubric items.
 
 Add your requirements in the **Rubric Requirements** dialog (optional): 
 

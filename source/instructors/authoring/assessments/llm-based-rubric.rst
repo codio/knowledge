@@ -24,10 +24,10 @@ There are three steps to the **LLM Rubric** process:
 
 Add an **LLM Rubric** assessment to your guide page and follow the steps below.
 
-LLM-Based Rubric Creation (Step 1)
+LLM Based Rubric Creation (Step 1)
 ----------------------------------
 
-Complete each section to set up your rubric grader. For more information on **General**, **Metadata** and **Files** see :ref:`Assessments <assessments>`.
+Complete the sections below to set up your rubric grader. For more information on **General**, **Metadata** and **Files** see :ref:`Assessments <assessments>`.
 
 1. Complete **General**.
 
@@ -107,6 +107,7 @@ Sample Instructor view of LLM-generated feedback:
 Rubric Requirements Example
 ---------------------------
 
-Use the following criteria, assigning equal weight to each one.
+Use only the following criteria for evaluating the student code:
+
 - Program correctness
 - Proper and efficient usage of a dictionary data structure

@@ -69,5 +69,5 @@ Refer to the specific topics for the type of assessment:
 - :ref:`Grade Book <grade-book>`
 - :ref:`Parsons Puzzle <parsons-puzzle>`
 - :ref:`Random Assessment <random>`
-- :ref:`LLM Rubric <llm-based-rubric>`
+- :ref:`LLM Rubric Grader <llm-based-rubric>`
 - :ref:`LLM Rubric Autograde <llm-based-auto-rubric>`
