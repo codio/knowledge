@@ -3,11 +3,11 @@
    
 .. _add-assessment:
 
-Auto-Graded Assessments
-========================
+Auto-graded assessments
+=======================
 
 .. toctree::
-   :caption: Auto-Graded Assessments
+   :caption: Auto-graded assessments
    :hidden:
    
    assessments
@@ -27,6 +27,7 @@ Auto-Graded Assessments
    llm-based-auto-rubric
    math-assessments
    multiple-choice
+   parameterized
    parsons-puzzle
    partial-points
    random
@@ -36,14 +37,10 @@ Auto-Graded Assessments
    ungraded-assessments
    
    
-Codio offers a variety of auto-graded assessments to streamline your grading process. Below, you'll find instructions on how to add assessments to your assignment, along with links to pages detailing specific assessment types and their features. Some auto-graded assessments can also be generated automatically.
 
-Assessments can be auto-generated based on the content found on a guides page. Currently, the following assessment types support auto-generation: :ref:`Multiple Choice <multiple-choice>`, :ref:`Fill in the Blanks <fill-in-blanks>`, :ref:`Free Text <free-text>`, :ref:`Standard Code Test <standard-code-test>`, and :ref:`Parsons Puzzle <parsons-puzzle>`. For more information, please check out :ref:`Generating Assessments With AI <ai-assessment-generation>`.
-
-
-How to Add a New Assessment
-----------------------------
-To add a new assessment for an assignment, follow these steps:
+Add a New Assessment
+--------------------
+To add a new assessment for a course, follow these steps:
 
 1. Open the assignment in the course, and click the **Edit** button to open the Guide Editor. You can also click the **Tools** menu and choose **Guides > Edit**.
 2. Click the **Assessments** button and choose the type of assessment you want to add to the assignment.
@@ -55,9 +52,11 @@ To add a new assessment for an assignment, follow these steps:
 
 While creating/editing the assessment, you can still see/edit the guide page.
 
+Assessment Auto-Generation
+++++++++++++++++++++++++++
 
-Auto-Graded Assessment Types
------------------------------
+Assessments can be auto-generated based on the text found on a guides page. Currently only :ref:`Multiple Choice <multiple-choice>`, :ref:`Fill in the Blanks <fill-in-blanks>`, :ref:`Free Text <free-text>`, :ref:`Standard Code Test <standard-code-test>`, and :ref:`Parsons Puzzle <parsons-puzzle>` assessments can be auto-generated. For more information, please check out :ref:`Generating Assessments With AI <ai-assessment-generation>`
+
 
 Refer to the specific topics for the type of assessment:
 

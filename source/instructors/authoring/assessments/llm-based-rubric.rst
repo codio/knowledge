@@ -7,9 +7,10 @@
 LLM Rubric Grader
 =================
 
-Codio has provided two versions of the LLM-Based Rubric Graders. One requires the instructor to manually approve the LLM-generated feedback, and the other automatically displays it to the student.
+The **LLM Rubric** assessment requires instructor approval before feedback is displayed to students. It can be found in the **Manually Graded** section of the assessments menu. 
 
-The **LLM Rubric** assessment is in the **Manually Graded** section and the :ref:`LLM Rubric Autograde <llm-based-auto-rubric>` assessment is in the **Auto-Graded** section of the assessments menu.
+If you wish to skip the approval process see the :ref:`LLM Rubric Autograde <llm-based-auto-rubric>` assessment in the **Auto-Graded** section.
+
 More information about adding assessments can be found in our :ref:`assessment documentation <add-assessment>`.
 
 There are three steps to the **LLM Rubric** process:
