@@ -7,9 +7,11 @@ Edit Assessment Points
 ======================
 To edit assessment points, follow these steps:
 
-1. In the Guide Editor, click the **Assessments** button to view the list of all assessments.
+1. In the Guide Editor, click the **Assessments** button.
 
-2. Click the assessment to open it and modify the points.
+2. Then click **"View Existing Assessments"** in the bottom right corner to view the list of all assessments.
+
+3. Modify the point value in the box to the left of the assessment you want to update. Once done, click the **Close** button on the bottom left.
 
    .. image:: /img/assessmentpoints.png
       :alt: Edit Assessment Points
