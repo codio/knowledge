@@ -6,7 +6,7 @@
 Assignment Level Scripts
 ========================
 
-You can use assignment level scripts to evaluate student code, normalize points, and mark for participation grading. Assignment level scripts are added in the **Script Grading** field on the :ref:`Script Grading <grade-weights>` settings page. If you need to locate where to add the script grading, it can also be found on the Script Grading page. These scripts can then transfer the grading value into the grading field. Assignment level scripts are run when an assignment is **Marked as Complete**.
+You can use assignment level scripts to evaluate student code, normalize points, and mark for participation grading. Assignment level scripts are added in the **Script Grading** field on the :ref:`Script Grading <grade-weights>` settings page. These scripts can then transfer the grading value into the grading field. Assignment level scripts are run when an assignment is **Marked as Complete**.
 
 .. Note:: The script must execute within 3 minutes or a timeout error occurs. There is a maximum size for the feedback that can be returned of 1Mb. If this limit is exceeded, the message **Payload content length greater than maximum allowed: 1048576** will be returned.
 
@@ -261,19 +261,19 @@ The student grade is calculated based on whether they answered the question, not
 
 Regrade an Individual Student's Assignment
 -------------------------------------------
-If students have clicked **Mark as Complete** and the custom script is triggered, you can regrade their work by resetting the `complete` switch, and then set it to *complete* again, which triggers the custom script to run again.
+If students have clicked **Mark as Complete** and the custom script is triggered, you can regrade their work by resetting the `complete` switch, and then set it to `complete` again, which triggers the custom script to run again.
 
-Regrade All Student's Assignments
+Regrade All Students' Assignments
 ---------------------------------
-You can regrade all student's assignments that have already been auto-graded from the **Regrade Completed** button on the bottom of the assignment page.
+You can regrade all students' assignments that have already been auto-graded by clicking the **Regrade Completed** button at the bottom of the assignment page.
 
 1. Navigate to the assignment and click it.
-2. Click then click **Regrade Completed** at the bottom of the page. This is useful if you have found a bug in your assignment level grading script. **Regrade Completed** does not run individual code test assessments.
+2. Then click **Regrade Completed** at the bottom of the page. This is useful if you have found a bug in your assignment level grading script. **Regrade Completed** does not run individual code test assessments.
 
 Test and Debug Your Grading Scripts
 ------------------------------------
 
-Codio provides the ability to test your auto-grading scripts when creating your project, this should be done before publishing your project to a course. Once an assignment has been published to the course, any changes made to files in the student workspace (/home/codio/workspace) are not reflected in the published assignment. Grading scripts should be stored in the **.guides/secure** folder. Files in the .guides and guides/secure folders can be published even if students have already started.
+Codio provides the ability to test your auto-grading scripts when creating your project, this should be done before publishing your project to a course. Once an assignment has been published to the course, any changes made to files in the student workspace (/home/codio/workspace) are not reflected in the published assignment. Grading scripts should be stored in the **.guides/secure** folder. Files in the **.guides** and **.guides/secure** folders can be published even if students have already started.
 
 
 Test Your Script in the IDE
@@ -297,7 +297,7 @@ Be sure to take the following into account when using this feature:
 Test Your Script Using Bootstrap Launcher
 ------------------------------------------
 
-You can also use a simple bootstrap launcher that loads and executes the script from a remote location so that you can edit and debug independently of the Codio box. The following example bash script shows a Python script that is located as a Gist on GitHub. This script might be called **.guides/secure/launcher.sh**.
+You can also use a simple bootstrap launcher that loads and executes the script from a remote location so that you can edit and debug independently of the Codio box. The following example is a bash launcher script that downloads and runs a Python script from a GitHub Gist. This script would be saved as **.guides/secure/launcher.sh**.
 
 .. code:: bash
 

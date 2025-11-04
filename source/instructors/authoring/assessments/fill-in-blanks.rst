@@ -28,7 +28,7 @@ A **Fill in the blank question** can use either free text or offer options to be
 Assessment Auto-Generation
 ++++++++++++++++++++++++++
 
-Assessments can be auto-generated using the text on the current guides page as context. For more information about generating assessments may be found on the :ref:`AI assessment generation <ai-assessment-generation>` page.
+Assessments can be auto-generated using the text on the current guide page as context. For more information, see the :ref:`AI assessment generation <ai-assessment-generation>` page.
 
 
 Assessment Manual Creation
@@ -43,18 +43,15 @@ Follow these steps to set up fill in the blank assessments manually. For more in
    .. image:: /img/guides/assessment_fitb_exec.png
       :alt: Execution
 
-- **Text** - Enter the question in markdown, 
-  including the correct answer specification. For example:
+- **Text** - Enter the question in markdown, including the correct answer specification. For example:
 
-  ``A prime number (or a prime) is a 
-  <<<natural>>> number greater than <<<1>>> 
-  that has no positive divisors other than 
-  <<<1>>> and <<<itself>>>.``
+.. code-block:: text
 
+   A prime number (or a prime) is a <<<natural>>> number greater than <<<1>>> that has no positive divisors other than <<<1>>> and <<<itself>>>.
 
 - **Show Possible Values** - Toggle to display possible options for the correct answer:
     
-  - For text-free questions, blank fields are available for the student to enter the correct answer.
+  - For free- text questions, blank fields are available for the student to enter the correct answer.
   - For drop-down questions, all the correct values (anything within the `<<< >>>` chevrons) are provided in each of the answer positions in a randomized order. You can also add incorrect answers (one per line).
 
 .. image:: /img/guides/distractors.png
@@ -89,7 +86,7 @@ Examples of regular expressions supported for blank fields:
 
 - **Points** - Enter the score for correctly answering the question. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
-- **Show Expected Answer** - Toggle to show the students the expected output when they have submitted an answer for the question. To suppress expected output, disable the setting. 
+- **Show Expected Answer** - Toggle to show students the expected output when they have submitted an answer for the question. To suppress expected output, disable the setting.
   
 - **Define Number of Attempts** - enable to allow and set the number of attempts students can make for this assessment. If disabled, the student can make unlimited attempts.
 

@@ -12,7 +12,7 @@ Free text assessments allow students to answer questions in their own words. Thi
 Assessment Auto-Generation
 ++++++++++++++++++++++++++
 
-Assessments can be auto-generated using the text on the current guides page as context. For more information about generating assessments may be found on the :ref:`AI assessment generation <ai-assessment-generation>` page.
+Assessments can be auto-generated using the text on the current guides page as context. For more information about generating assessments, see the :ref:`AI assessment generation <ai-assessment-generation>` page.
 
 Assessment Manual Creation
 ++++++++++++++++++++++++++
@@ -28,9 +28,9 @@ Follow these steps to set up a free text assessment manually. For more informati
 
 - **Points** - Enter the score for correctly answering the question. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
-- **Partial Points** - Toggle to enable a percentage of total points to be given based on the percentage of answers they correctly answer. Once you toggle this on, you will be able to add rubric items. Rubric items are negative points, they will be subtracted from the total score of the assessment.
+- **Partial Points** - Toggle to enable a percentage of total points to be awarded based on the percentage of correct answers. Once you enable this, you can add rubric items. Rubric items are negative points that will be subtracted from the total score.
 
-- **Preview Type** - Choose the input (plaintext or markdown) to be provided by the student. LaTex is also supported and is useful when students need to enter mathematical formulas in their answers. The following options are available:
+- **Preview Type** - Choose the format for student input (plaintext, markdown, or LaTeX). LaTeX is useful when students need to enter mathematical formulas in their answers. The following options are available:
 
 .. list-table::
    :widths: 20 80
@@ -47,9 +47,9 @@ Follow these steps to set up a free text assessment manually. For more informati
 
 - **Define Number of Attempts** - Enable to allow and set the number of attempts students can make for this assessment. If disabled, the student can make unlimited attempts.
   
-- **Show Rationale to Students** - Toggle to display the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
+- **Show Rationale to Students** - Toggle to display the rationale to students. This guidance information will be shown after they have submitted their answer and whenever they view the assignment after marking it as completed. You can control the display by selecting **Never**, **After x attempts**, **If score is ≥ x% of total**, or **Always**.
 
-- **Rationale** - Enter guidance for the assessment. This is visible to the teacher when the project is opened in the course or when opening the student's project. This guidance information can also be shown to students after they have submitted their answer and when they reload the assignment after marking it as completed. 
+- **Rationale** - Enter guidance for the assessment. This is visible to the teacher when the project is opened in the course or when viewing the student's project. It can also be shown to students after submission or when they revisit the assignment after marking it as completed.
 
 3. **(Optional)** Complete **Metadata**.
 
@@ -64,7 +64,7 @@ To review and grade answers given by students in a free text assessment, follow 
 
 1. Select the assignment.
 
-2. Find the student you want to grade and click the number under **Points** to view the list of all assessments in the assignment for the student.
+2. Find the student you want to grade and click the number under **Points** to view all assessments in the assignment.
 
    .. image:: /img/guides/freetext-grading.png
       :alt: Free Text Grading
@@ -111,4 +111,4 @@ You can view the points given and the Correct column checked for all free text a
 
 Free Text Assessments That Are Automatically Graded as Correct
 --------------------------------------------------------------
-Free text assessments can be automatically graded as correct. To learn more see :ref:`Free Text Autograde <free-text-autograde>`.
+Free text assessments can be automatically graded as correct. To learn more, see :ref:`Free Text Autograde <free-text-autograde>`.
