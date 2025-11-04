@@ -316,7 +316,7 @@ Sending Points to Codio
 
 Codio provides a Python library to facilitate reporting points from your custom scripts. There are four functions in this library: `send_grade`, `send_grade_v2`, `send_partial` and `send_partial_v2`. 
 
-.. Note:: Partial points are not used in assignment level scripts, see :ref:`Allow Partial Points <partial-points>` for more information about setting up partial points.
+.. Note:: Partial points are not used in assignment level scripts. See :ref:`Allow Partial Points <partial-points>` for more information about setting up partial points.
 
 In order to use this library you need to add the following code to the top of your grading script:
 

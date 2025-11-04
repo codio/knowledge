@@ -51,7 +51,7 @@ Follow these steps to set up fill in the blank assessments manually. For more in
 
 - **Show Possible Values** - Toggle to display possible options for the correct answer:
     
-  - For free- text questions, blank fields are available for the student to enter the correct answer.
+  - For free text questions, blank fields are available for the student to enter the correct answer.
   - For drop-down questions, all the correct values (anything within the `<<< >>>` chevrons) are provided in each of the answer positions in a randomized order. You can also add incorrect answers (one per line).
 
 .. image:: /img/guides/distractors.png
