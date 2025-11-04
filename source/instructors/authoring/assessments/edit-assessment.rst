@@ -8,12 +8,20 @@ Edit an Assessment
 To edit an assessment, either:
 
 
-1. In the Guide Editor, click the **Edit: <Assessment Name>** button to the right of the assessment.
+- In the Guide Editor, click the **Edit: <Assessment Name>** button to the right of the assessment.
 
    .. image:: /img/guides/editassessmentbutton.png
       :alt: Edit Assessment
 
-2. Click the **Assessment** button to view the list of all assessments and click the assessment to open it and make your changes.
+or:
+
+- In the Guide Editor:
+
+   1. Click the **Assessment** button.
+
+   2. Then click **"View Exsisting Assessments"** in the bottom right corner to view the list of all assessments.
+   
+   3. Click the assessment to open it and make your changes.
 
    .. image:: /img/guides/editassessmentlist.png
       :alt: Edit Assessment List
