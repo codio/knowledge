@@ -11,7 +11,7 @@ To edit assessment points, follow these steps:
 
 2. Then click **"View Existing Assessments"** in the bottom right corner to view the list of all assessments.
 
-3. Click the assessment to open it and modify the points.
+3. Modify the point value in the box to the left of the assessment you want to update.
 
    .. image:: /img/assessmentpoints.png
       :alt: Edit Assessment Points

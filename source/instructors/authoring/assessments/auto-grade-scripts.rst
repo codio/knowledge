@@ -261,7 +261,7 @@ The student grade is calculated based on whether they answered the question, not
 
 Regrade an Individual Student's Assignment
 -------------------------------------------
-If students have clicked **Mark as Complete** and the custom script is triggered, you can regrade their work by resetting the `complete` switch, and then set it to `complete` again, which triggers the custom script to run again.
+If students have clicked **Mark as Complete** and the custom script has been triggered, you can regrade their work by clicking the three vertical dots next to the student's name to access additional actions. Select **Mark as Incomplete**, then click the three vertical dots again and select **Mark as Complete** to retrigger the custom script.
 
 Regrade All Students' Assignments
 ---------------------------------
@@ -374,7 +374,7 @@ The V2 versions of the grading functions allow you to:
 - Notify (instructors and students) and reopen assignments for a student on grade script failure.
 
 
-If you don't use the send_grade_v2 functions, this URL (passed as an environment variable) can be used:```CODIO_AUTOGRADE_V2_URL```
+If you don't use the send_grade_v2 functions, this URL (passed as an environment variable) can be used:``CODIO_AUTOGRADE_V2_URL``
 
 These variables allow POST and GET requests with the following parameters:
 

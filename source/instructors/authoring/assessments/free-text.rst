@@ -17,7 +17,7 @@ Assessments can be auto-generated using the text on the current guides page as c
 Assessment Manual Creation
 ++++++++++++++++++++++++++
 
-Follow these steps to set up a free text assessment manually. For more information on General, Metadata, and Files, see :ref:`Assessments <assessments>`.
+Follow these steps to set up a free text assessment manually. For more information on **General**, **Metadata** (optional), and **Files** (optional), see :ref:`Assessments <assessments>`.
 
 1. Complete **General**.
 
