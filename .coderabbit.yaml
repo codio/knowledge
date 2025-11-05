@@ -21,6 +21,7 @@ reviews:
       instructions: |
         Review files for:
         - Consistent formatting (e.g., headings, lists, links).
+        - Anywhere there are tables, they should use `list-table`.
         - Clear and concise language.
         - Correct grammar and spelling.
         - Proper use of rst syntax (e.g., avoid broken links or invalid code blocks).

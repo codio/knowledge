@@ -20,7 +20,6 @@ The Canvas user who carries out these steps must be a system administrator.
    When copying links, please use the copy button adjacent to each link to ensure accuracy and prevent linking errors.
 
 
-
 **In Codio:**
 
 1. Click your username in the top-right corner, then select **Organization** from the menu. In the Organizations area, click the name of your organization.
@@ -39,25 +38,72 @@ The Canvas user who carries out these steps must be a system administrator.
 
 5. Click on **Developer Key** and select **+LTI key**.
 
+Using JSON configuration Url
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+It is possible to use a JSON configuration Url that will take care of most settings in Canvas as follows:
+
+.. image:: /img/lti-json-url.png
+    :alt: Canvas configuration for JSON configuration Url
+    :width: 80%
+
+You only need to configure:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 5 30 70
+
+   * - 
+     - **Value**
+     - **What to add**
+   * - a
+     - **Key Name:**
+     - A name for the Tool, i.e.: "Codio"
+   * - b
+     - **Owner Email:**
+     - An email for reference, you can use help@codio.com.
+   * - c
+     - **Redirect URIs:**
+     - Paste the Redirect URL from your Codio integration
+   * - d
+     - Set the Method as **Enter URL**
+     - 
+   * - e
+     - **JSON URL**
+     - Paste the URL from **Canvas JSON configuration Url**
+
+.. note::
+   If you want to configure set up everything manually, continue with the steps below. If not, go to **Part 2**.
+
+Completing Canvas Steps Manually
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 6. Complete the **Key Name, Title** and **Description** fields. Make sure to set the **method** to **Manual Entry**.
 
 |image2|
 
+.. list-table::
+   :header-rows: 1
+   :widths: 5 50 50
 
-+------+--------------------------------------------------------+-----------------------------------------------------------------------+
-|      | **Copy**                                               | **Paste**                                                             |
-+======+========================================================+=======================================================================+
-| 7    | From Codio, under **LTI 1.3 Integration, copy the**    | Paste it into the **Canvas Redirect URI** field.                      |
-|      | **Redirect URL**                                       |                                                                       |
-+------+--------------------------------------------------------+-----------------------------------------------------------------------+
-| 8    | Copy the **LTI URL**                                   | Paste it into the **Target Link URI field** in Canvas.                |
-+------+--------------------------------------------------------+-----------------------------------------------------------------------+
-| 9    | Copy the **Initiate Login URL**                        | Paste it into the **OpenID Connect Initiation URL**.                  |
-+------+--------------------------------------------------------+-----------------------------------------------------------------------+
-| 10   | In Canvas, change **JWK Method** to **Public JWK URL**.|                                                                       |
-+------+--------------------------------------------------------+-----------------------------------------------------------------------+
-| 11   | From Codio, copy the **Keyset URL**                    | Paste it into the **Public JWK URL** field.                           |
-+------+--------------------------------------------------------+-----------------------------------------------------------------------+
+   * - 
+     - **Copy**
+     - **Paste**
+   * - 7
+     - From Codio, under **LTI 1.3 Integration, copy the Redirect URL**
+     - Paste it into the **Canvas Redirect URI** field.
+   * - 8
+     - Copy the **LTI URL**
+     - Paste it into the **Target Link URI** field in Canvas.
+   * - 9
+     - Copy the **Initiate Login URL**
+     - Paste it into the **OpenID Connect Initiation URL**.
+   * - 10
+     - In Canvas, change **JWK Method** to **Public JWK URL**.
+     - 
+   * - 11
+     - From Codio, copy the **Keyset URL**
+     - Paste it into the **Public JWK URL** field.
 
 
 |image3|
@@ -100,8 +146,8 @@ Link Selection and Assignment Selection
       https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
 
 
-Course Navigation and Editor Button
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Editor Button
+~~~~~~~~~~~~~
 
 
 .. image:: /img/canvascourseeditortselect.png
@@ -114,7 +160,31 @@ Course Navigation and Editor Button
    .. code-tab:: text
       :caption: Target Link URI
 
-      https://apollo.codio.com/lti/resource_selection
+      https://apollo.codio.com/lti/editor_button
+
+.. tabs::
+
+   .. code-tab:: text
+      :caption: Icon URL
+
+      https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
+
+
+Course Navigation
+~~~~~~~~~~~~~~~~~
+
+
+.. image:: /img/canvascoursecoursetselect.png
+    :alt: Canvas Course Navigation and Editor Button placement
+    :width: 750px 
+
+
+.. tabs::
+
+   .. code-tab:: text
+      :caption: Target Link URI
+
+      https://apollo.codio.com/lti/course_navigation
 
 .. tabs::
 
