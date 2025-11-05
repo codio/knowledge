@@ -223,7 +223,7 @@ Updating the fields in Platform Information
    .. code-tab:: text
       :caption: Platform ID
 
-       https://canvas.instructure.com
+      https://canvas.instructure.com
 
 
 
@@ -240,7 +240,7 @@ Updating the fields in Platform Information
    .. code-tab:: text
       :caption: Public Keyset URL
 
-       https://[CANVAS DOMAIN]/api/lti/security/jwks
+      https://[CANVAS DOMAIN]/api/lti/security/jwks
 
 6. **Access Token URL:**
    
@@ -249,7 +249,7 @@ Updating the fields in Platform Information
    .. code-tab:: text
       :caption: Access Token URL
    
-       https://[CANVAS DOMAIN]/login/oauth2/token
+      https://[CANVAS DOMAIN]/login/oauth2/token
 
 7. **Authentication Request URL:**
    
@@ -258,7 +258,7 @@ Updating the fields in Platform Information
    .. code-tab:: text
       :caption: Authentication Request URL
 
-       https://[CANVAS DOMAIN]/api/lti/authorize_redirect
+      https://[CANVAS DOMAIN]/api/lti/authorize_redirect
 
 8. Click **Create**
 
