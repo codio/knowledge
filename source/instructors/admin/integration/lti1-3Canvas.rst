@@ -41,7 +41,7 @@ The Canvas user who carries out these steps must be a system administrator.
 Using JSON configuration Url
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It is possible to use a JSON configuration Url that will take care of most settings in Canvas as follows:
+You can use a JSON configuration URL to automatically configure most Canvas settings:
 
 .. image:: /img/lti-json-url.png
     :alt: Canvas configuration for JSON configuration Url
@@ -53,7 +53,7 @@ You only need to configure:
    :header-rows: 1
    :widths: 5 30 70
 
-   * - 
+   * - **Step**
      - **Value**
      - **What to add**
    * - a
