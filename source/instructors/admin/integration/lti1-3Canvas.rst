@@ -73,7 +73,7 @@ You only need to configure:
      - Paste the URL from **Canvas JSON configuration Url**
 
 .. note::
-   If you want to configure set up everything manually, continue with the steps below. If not, go to **Part 2**.
+   If you use the JSON configuration URL method, skip to **Part 2**. To manually configure everything, continue with the steps below.
 
 Completing Canvas Steps Manually
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
