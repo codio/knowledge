@@ -17,17 +17,14 @@ Assessment Manual Creation
 --------------------------
 
 
-Complete the following steps to set up a **Line Based Grader** Parsons Puzzle assessment. The **Line Based Grader** assessment treats student answers as correct if and only if they match the order and indentation found in **Initial Values**. For incorrect answers, it highlights the lines that were not ordered or indented properly.
-
-.. note::
-  For more information on **General**, **Metadata** (optional) and **Files** (optional) see :ref:`Assessments <assessments>`.
+Complete the following steps to set up a **Line Based Grader** Parsons Puzzle assessment. The **Line Based Grader** assessment treats student answers as correct if and only if they match the order and indentation found in **Initial Values**. For incorrect answers, it highlights the lines that were not ordered or indented properly. For more information on **General**, **Metadata** (optional) and **Files** (optional) see :ref:`Assessments <assessments>`.
 
 1. Complete **General**.
 
 2. Click **Execution** in the navigation pane and complete the following information:
 
-   .. image:: /img/guides/assessment_parsons_exec.png
-      :alt: Execution
+.. image:: /img/guides/assessment_parsons_exec.png
+   :alt: Execution
 
 .. list-table::
    :widths: 30 70
@@ -54,9 +51,9 @@ Complete the following steps to set up a **Line Based Grader** Parsons Puzzle as
 
 3. Click **Grading** in the navigation pane and complete the following fields:
 
-   .. image:: /img/guides/parsonspuzzlegrading.png
-      :alt: Grading
-      :width: 450px
+.. image:: /img/guides/parsonspuzzlegrading.png
+   :alt: Grading
+   :width: 450px
 
 - **Points** - Enter the score if the student selects the correct answer. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
@@ -67,11 +64,7 @@ Complete the following steps to set up a **Line Based Grader** Parsons Puzzle as
 - **Use maximum score** - Toggle to enable assessment final score to be the highest score attained of all runs.
 
 
-4. **(Optional)** Complete **Metadata**.
-
-5. **(Optional)** Complete **Files**.
-
-6. Click **Create** to complete the process.
+4. Click **Create** to complete the process.
 
 
 .. _grader-options:

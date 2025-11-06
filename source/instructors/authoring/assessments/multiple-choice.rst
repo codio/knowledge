@@ -16,16 +16,12 @@ Assessments can be auto-generated using the text on the current guide page as co
 Assessment Manual Creation
 --------------------------
 
-Follow these steps to set up multiple choice assessments manually:
-
-.. note:: 
-   For more information on **Metadata** and **Files** see :ref:`Assessments <assessments>`.
-
+Follow these steps to set up multiple choice assessments manually. For more information on **Metadata** and **Files**, see :ref:`Assessments <assessments>`.
 
 1. On the **General** page, enter the following information:
 
-   .. image:: /img/guides/assessment_mc_general.png
-      :alt: General
+.. image:: /img/guides/assessment_mc_general.png
+   :alt: General
 
 - **Name** - Enter a short name that describes the test. This name appears in the teacher dashboard for easy reference. To hide the name from the student's view of the challenge, toggle **Show Name** to disable it.
    
@@ -33,9 +29,9 @@ Follow these steps to set up multiple choice assessments manually:
 
 2. Click **Execution** in the navigation pane and complete the following information:
 
-   .. image:: /img/guides/assessment_mc_exec.png
-      :alt: Execution
-      :width: 450px
+.. image:: /img/guides/assessment_mc_exec.png
+   :alt: Execution
+   :width: 450px
 
 - **Shuffle Answers** - Toggle to randomize the order of the answers so each student sees the answers in a different order.
 - **Multiple Response** - Toggle to enable a user to select more than one answer. 
@@ -44,13 +40,13 @@ Follow these steps to set up multiple choice assessments manually:
 
 3. Click **Grading** in the navigation pane and complete the following fields:
 
-   .. image:: /img/guides/assessment_mc_grading.png
-      :alt: Grading
-      :width: 450px
+.. image:: /img/guides/assessment_mc_grading.png
+   :alt: Grading
+   :width: 450px
 
 - **Correct Points** - Enter the score if the student selects the correct answer. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
-- **Incorrect Points** - The score to be deducted if the student makes an incorrect selection. Typically, this value will be 0 but you can assign any positive numeric value if you wish to penalize guessing. If this assessment is to be ungraded, set '0' points
+- **Incorrect Points** - The score to be deducted if the student makes an incorrect selection. Typically, this value will be 0, but you can assign any positive numeric value if you wish to penalize guessing. If this assessment is to be ungraded, enter zero (0).
 
 - **Allow Partial Points** - Toggle to enable a percentage of total points to be given based on the percentage of answers they correctly answer.
 
@@ -60,12 +56,8 @@ Follow these steps to set up multiple choice assessments manually:
 
 - **Define Number of Attempts** - Toggle to enable attempt limits and specify the maximum number of attempts. If disabled, students can make unlimited attempts.
 
-- **Show Rationale to Students** - Toggle to display the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
+- **Show Rationale to Students** - Toggle to display the rationale for the answer. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this by selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total**, **When grades are released**, or **Always**.
 
 - **Rationale** - Enter guidance for the assessment. This is always visible to the teacher when the project is opened in the course or when opening the student's project. 
 
-4. **(Optional)** Complete **Metadata**.
-
-5. **(Optional)** Complete **Files**.
-
-6. Click **Create** to complete the process.
+4. Click **Create** to complete the process.
