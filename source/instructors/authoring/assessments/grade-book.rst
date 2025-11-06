@@ -47,4 +47,4 @@ Click on the 0 or 1 to allocate initial points for overall correctness and then 
 
     .. image:: /img/guides/assessment_gb_grade.png
        :alt: Grade book assessment
-       :width: 700 px
+       :width: 700px

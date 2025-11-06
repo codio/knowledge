@@ -14,7 +14,7 @@ Autograding Enhancements for Partial Points
 To provide you with more robust auto-grade scripts, you can send back feedback in different formats HTML, Markdown, or plaintext and a URL is passed as an environment variable ```CODIO_PARTIAL_POINTS_V2_URL```. These variables allow POST and GET requests with the following parameters:
 
 
-- **Score** (```CODIO_PARTIAL_POINTS_V2_URL```) - should be a percentage of total points possible between 0-100. 
+- **Score** (```CODIO_PARTIAL_POINTS_V2_URL```) - a percentage of total points possible between 0-100. 
 - **Feedback** - text - this is limited to 1 Mb
 - **Format** - html, md, or txt (default)
 

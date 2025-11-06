@@ -60,7 +60,7 @@ Complete the following steps to set up a **Line Based Grader** Parsons Puzzle as
 
 - **Points** - Enter the score if the student selects the correct answer. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
-- **Define Number of Attempts** - enable to allow and set the number of attempts students can make for this assessment. If disabled, the student can make unlimited attempts.
+- **Define Number of Attempts** - Enable to allow and set the number of attempts students can make for this assessment. If disabled, the student can make unlimited attempts.
 - **Show Rationale to Students** - Toggle to display the answer, and the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
 
 - **Rationale** - Enter guidance for the assessment. This is visible to the teacher when the project is opened in the course or when opening the student's project. This guidance information can also be shown to students after they have submitted their answer and when they reload the assignment after marking it as completed. 
@@ -133,7 +133,7 @@ TurtleGrader
 
 This is for exercises that draw turtle graphics in Python. Grading is based on comparing the commands executed by the model and student turtle. If the ``executable_code`` option is also specified, the code on each line of that option will be executed instead of the code in the student constructed lines. 
 
-.. Note:: Student code should use the variable ``myTurtle`` for commands to control the turtle in order for the grading to work.
+.. note:: Student code should use the variable ``myTurtle`` for commands to control the turtle in order for the grading to work.
 
 .. raw:: html
 

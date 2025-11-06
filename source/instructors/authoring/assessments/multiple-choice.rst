@@ -50,7 +50,7 @@ Follow these steps to set up multiple choice assessments manually:
 
 - **Correct Points** - Enter the score if the student selects the correct answer. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
-- **Incorrect Points** is the score to be deducted if the student makes an incorrect selection. Typically, this value will be 0 but you can assign any positive numeric value if you wish to penalize guessing. If this assessment is to be ungraded, set '0' points
+- **Incorrect Points** - The score to be deducted if the student makes an incorrect selection. Typically, this value will be 0 but you can assign any positive numeric value if you wish to penalize guessing. If this assessment is to be ungraded, set '0' points
 
 - **Allow Partial Points** - Toggle to enable a percentage of total points to be given based on the percentage of answers they correctly answer.
 
@@ -58,8 +58,8 @@ Follow these steps to set up multiple choice assessments manually:
 
 - **Show Expected Answer** - Choose when students can view the expected output: **never**, **when grades are released**, or **always**.
 
-- **Define Number of Attempts** - enable to allow and set the number of attempts students can make for this assessment. If disabled, the student can make unlimited attempts.
- 
+- **Define Number of Attempts** - Toggle to enable attempt limits and specify the maximum number of attempts. If disabled, students can make unlimited attempts.
+
 - **Show Rationale to Students** - Toggle to display the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
 
 - **Rationale** - Enter guidance for the assessment. This is always visible to the teacher when the project is opened in the course or when opening the student's project. 
