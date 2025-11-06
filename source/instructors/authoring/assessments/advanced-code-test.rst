@@ -13,7 +13,7 @@ To ensure that your test scripts run securely and to prevent student access to y
 .. note::  If your assignment will contain multiple assessments, Code files and Test Cases for individual assessments should be placed in separate folders to avoid compiling all files. 
 
 
-Complete each section to set up your advanced code test. For more information on **General**, **Metadata** and **Files** see :ref:`Assessments <assessments>`.
+Complete each section to set up your advanced code test. For more information on **General**, **Metadata** (Optional) and **Files** (Optional) see :ref:`Assessments <assessments>`.
 
 1. Complete **General**.
 
