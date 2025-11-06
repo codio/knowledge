@@ -51,11 +51,7 @@ Follow these steps to set up a free text assessment manually. For more informati
 
 - **Rationale** - Enter guidance for the assessment. This is visible to the teacher when the project is opened in the course or when viewing the student's project. It can also be shown to students after submission or when they revisit the assignment after marking it as completed.
 
-3. **(Optional)** Complete **Metadata**.
-
-4. **(Optional)** Complete **Files**.
-
-5. Click **Create** to complete the process.
+3. Click **Create** to complete the process.
 
 
 Grading Free Text Assessments

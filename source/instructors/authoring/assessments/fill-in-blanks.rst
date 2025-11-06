@@ -95,8 +95,4 @@ Examples of regular expressions supported for blank fields:
 - **Rationale** - Enter guidance for the assessment. This is always visible to the teacher when the project is opened in the course or when opening the student's project. 
 - **Use maximum score** - Toggle to enable assessment final score to be the highest score attained of all runs.
 
-4. **(Optional)** Complete **Metadata**.
-
-5. **(Optional)** Complete **Files**.
-
-6. Click **Create** to complete the process.
+4. Click **Create** to complete the process.

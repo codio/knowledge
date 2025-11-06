@@ -8,112 +8,90 @@ Parsons Puzzle
 Parson’s problems are available in Codio as Parsons Puzzles. Parson’s Puzzles are formative assessments that ask students to arrange blocks of scrambled code, allowing them to focus on the purpose and flow of the code (often including a new pattern or feature) instead of syntax. Codio uses `js-parsons <http://js-parsons.github.io/documentation/>`_ for Parson's Puzzles.
 
 Assessment Auto-Generation
-++++++++++++++++++++++++++
+--------------------------
 
-Assessments can be auto-generated using the text on the current guides page as context. Follow the steps below to auto-generate a Parsons Puzzle assessment:
+Assessments can be auto-generated using the text on the current guide page as context. For more information, see the :ref:`AI assessment generation <ai-assessment-generation>` page.
 
-1. Select **Parson's Puzzle** assessment from Assessments list.
-
-2. Press the **Generate** button at bottom right corner. 
-
-   .. image:: /img/guides/generate-assessment-button.png
-      :alt: Generate assessment button
-
-3. The Generation Prompt will open, press **Generate Using AI** to preview the generated assessment.
-
-   .. image:: /img/guides/assessment-generation-prompt.png
-      :alt: Assessment Generation Prompt
-
-If you are not satisfied with the result, select **Regenerate** to create a new version of the assessment. You can provide additional guidance in the **Generation Prompt** field. For example, *create assessment based on the first paragraph with 2 correct answers.*
-
-4. When you are satisfied with the result, press **Apply** and then **Create**.
-
-More information about generating assessments may be found on the :ref:`AI assessment generation <ai-assessment-generation>` page.
 
 Assessment Manual Creation
-++++++++++++++++++++++++++
+--------------------------
 
 
-Complete the following steps to set up a **Line Based Grader** Parsons Puzzle assessment. The **Line Based Grader** assessment treats student answers as correct if and only if they match the order and indentation found in **Initial Values**. For incorrect answers, it highlights the lines that were not ordered or indented properly.
+Complete the following steps to set up a **Line Based Grader** Parsons Puzzle assessment. The **Line Based Grader** assessment treats student answers as correct if and only if they match the order and indentation found in **Initial Values**. For incorrect answers, it highlights the lines that were not ordered or indented properly. For more information on **General**, **Metadata** (optional) and **Files** (optional) see :ref:`Assessments <assessments>`.
 
-1. On the **General** page, enter the following information:
-
-   .. image:: /img/guides/assessment_general.png
-      :alt: General
-
-  - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
-
-    If you want to hide the name in the challenge text the student sees, toggle the **Show Name** setting to disable it.
-   
-  - **Instruction** - Enter the instructions in markdown to be shown to the students.
+1. Complete **General**.
 
 2. Click **Execution** in the navigation pane and complete the following information:
 
-   .. image:: /img/guides/assessment_parsons_exec.png
-      :alt: Execution
+.. image:: /img/guides/assessment_parsons_exec.png
+   :alt: Execution
 
-  - **Code to Become Blocks** - Enter code blocks that make up the initial state of the puzzle for the students.
-  - **Code to Become Distractor Blocks** - Enter code blocks that serve as distractions. 
-  - **Max Distractors** - Enter the maximum number of distractors allowed.
-  - **Grader** - Choose the appropriate grader for the puzzle from the drop-down list. 
-  - **Show Feedback** - Select to show feedback to student and highlight error in the puzzle. Deselect to hide feedback and not show highlight error in the puzzle.
-  - **Require Dragging** - If you enter **Code to Become Distractor Blocks**, **Require Dragging** will automatically turn on. Without distractor blocks, you can decide whether or not you want students to drag blocks to a separate area to compose their solution.
-  - **Disable Indentation** - If you do not want to require indention, check the **Disable Indentation** box. 
-  - **Indent Size** - Each indention defaults to 50 pixels.
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Option
+     - Description
+   * - **Code to Become Blocks**
+     - Enter the code solution in the correct order using proper indentation.
+   * - **Code to Become Distractor Blocks**
+     - Enter lines of code that serve as distractions.
+   * - **Max Distractors**
+     - Enter the maximum number of distractors allowed.
+   * - **Grader**
+     - Choose the appropriate grader for the puzzle from the drop-down list. For more information see :ref:`Grader Options <grader-options>`.
+   * - **Show Feedback**
+     - Select to show feedback to students and highlight errors in the puzzle. Deselect to hide feedback and not highlight errors in the puzzle.
+   * - **Require Dragging**
+     - If you enter **Code to Become Distractor Blocks**, **Require Dragging** will automatically turn on. Without distractor blocks, you can decide whether you want students to drag blocks to a separate area to compose their solution.
+   * - **Disable Indentation**
+     - If you do not want to require indentation, check the **Disable Indentation** box.
+   * - **Indent Size**
+     - Each indentation defaults to 50 pixels.
 
 3. Click **Grading** in the navigation pane and complete the following fields:
 
-   .. image:: /img/guides/Grading-new-feature1.png
-      :alt: Grading
+.. image:: /img/guides/parsonspuzzlegrading.png
+   :alt: Grading
+   :width: 450px
 
-  - **Points** - Enter the score if the student selects the correct answer. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
+- **Points** - Enter the score if the student selects the correct answer. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
-  - **Define Number of Attempts** - enable to allow and set the number of attempts students can make for this assessment. If disabled, the student can make unlimited attempts.
-  - **Show Rationale to Students** - Toggle to display the answer, and the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
+- **Define Number of Attempts** - Enable to allow and set the number of attempts students can make for this assessment. If disabled, the student can make unlimited attempts.
+- **Show Rationale to Students** - Toggle to display the answer, and the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
 
-  - **Rationale** - Enter guidance for the assessment. This is visible to the teacher when the project is opened in the course or when opening the student's project. This guidance information can also be shown to students after they have submitted their answer and when they reload the assignment after marking it as completed. 
-  - **Use maximum score** - Toggle to enable assessment final score to be the highest score attained of all runs.
+- **Rationale** - Enter guidance for the assessment. This is visible to the teacher when the project is opened in the course or when opening the student's project. This guidance information can also be shown to students after they have submitted their answer and when they reload the assignment after marking it as completed. 
+- **Use Maximum Score** - Toggle to enable assessment final score to be the highest score attained of all runs.
 
-4. Click on the **Parameters** tab if you wish to edit/change **Parameterized Assessments** (deprecated) using a script. See :ref:`Parameterized Assessments <parameterized>` for more information. New parameterized assessments can no longer be set up.
 
-5. Click **Metadata** in the left navigation pane and complete the following fields:
+4. Click **Create** to complete the process.
 
-   .. image:: /img/guides/assessment_metadata.png
-      :alt: Metadata
 
-  - **Bloom's Level** - Click the drop-down and choose the level of Bloom's Taxonomy: https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/ for the current assessment.
-  - **Learning Objectives** specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then its Learning Objectives could be *SWBAT follow the flow of recursive execution*.
-  - **Tags** - By default, **Content** and **Programming Language** tags are provided and required. To add another tag, click **Add Tag** and enter the name and values.
-
-6. Click **Files** in the left navigation pane and check the check boxes for additional external files to be included with the assessment when adding it to an assessment library. The files are then included in the **Additional content** list.
-
-   .. image:: /img/guides/assessment_files.png
-      :alt: Files
-
-7. Click **Create** to complete the process.
-
+.. _grader-options:
 
 Grader Options
 --------------
 
-**VariableCheckGrader** - Executes the code in the order submitted by the student and checks variable values afterwards.
+VariableCheckGrader 
+~~~~~~~~~~~~~~~~~~~
+Executes the code in the order submitted by the student and checks variable values afterwards.
 
 .. raw:: html
 
     <script src="https://fast.wistia.com/embed/medias/zyrxf8as9m.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:54.58% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_zyrxf8as9m videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/zyrxf8as9m/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 
  
-Expected and supported options:
+**Expected and supported options**:
 
 - ``vartests`` (required)  array of variable test objects
     
-    Each variable test object can/must have the following properties:
+Each variable test object can/must have the following properties:
 
-  - ``initcode`` - code that will be prepended before the learner solution code
-  - ``code`` - code that will be appended after the learner solution code
-  - ``message`` (required) - a textual description of the test, shown to learner
+- ``initcode`` - code that will be prepended before the learner solution code
+- ``code`` - code that will be appended after the learner solution code
+- ``message`` (required) - a textual description of the test, shown to learner
 
-Properties specifying what is tested:
+**Properties specifying what is tested**:
 
 - ``variables`` - an object with properties for each variable name to be tested; the value of the property is the expected value
   
@@ -122,9 +100,33 @@ Properties specifying what is tested:
 - ``variable`` - a variable name to be tested
 - ``expected`` - expected value of the variable after code execution
 
-**TurtleGrader** - for exercises that draw turtle graphics in Python. Grading is based on comparing the commands executed by the model and student turtle. If the ``executable_code`` option is also specified, the code on each line of that option will be executed instead of the code in the student constructed lines. 
 
-  .. Note:: Student code should use the variable ``myTurtle`` for commands to control the turtle in order for the grading to work.
+UnitTestGrader
+~~~~~~~~~~~~~~
+
+Executes student code and Skulpt unit tests. This grader is for Python problems where students create functions. Similar to traditional unit tests on code, this grader leverages a unit test framework where you set asserts - meaning this grader checks the functionality of student code. 
+
+.. raw:: html
+
+    <script src="https://fast.wistia.com/embed/medias/fafvc7pih9.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:54.58% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_fafvc7pih9 videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/fafvc7pih9/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+
+LanguageTranslationGrader
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Code translating grader where Java or psuedocode blocks map to Python in the background. Selecting the language allows the Parson's problem to check for correct indentation and syntax.
+
+.. raw:: html
+
+    <script src="https://fast.wistia.com/embed/medias/epu2uofoo5.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:54.58% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_epu2uofoo5 videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/epu2uofoo5/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+
+
+
+TurtleGrader
+~~~~~~~~~~~~
+
+This is for exercises that draw turtle graphics in Python. Grading is based on comparing the commands executed by the model and student turtle. If the ``executable_code`` option is also specified, the code on each line of that option will be executed instead of the code in the student constructed lines. 
+
+.. note:: Student code should use the variable ``myTurtle`` for commands to control the turtle in order for the grading to work.
 
 .. raw:: html
 
@@ -138,17 +140,6 @@ Properties specifying what is tested:
   - ``turtleModelCanvas`` - ID of the canvas DOM element where the model solution will be drawn. Defaults to `modelCanvas`.
   - ``turtleStudentCanvas`` - ID of the canvas DOM element where student turtle will draw. Defaults to `studentCanvas`.
 
-**UnitTestGrader** - Executes student code and Skulpt unit tests. This grader is for Python problems where students create functions. Similar to traditional unit tests on code, this grader leverages a unit test framework where you set asserts - meaning this grader checks the functionality of student code. 
-
-.. raw:: html
-
-    <script src="https://fast.wistia.com/embed/medias/fafvc7pih9.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:54.58% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_fafvc7pih9 videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/fafvc7pih9/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
-
-**LanguageTranslationGrader** - Code translating grader where Java or psuedocode blocks map to Python in the background. Selecting the language allows the Parson's problem to check for correct indentation and syntax.
-
-.. raw:: html
-
-    <script src="https://fast.wistia.com/embed/medias/epu2uofoo5.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:54.58% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_epu2uofoo5 videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/epu2uofoo5/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 
 Sample Starter Pack
 -------------------
