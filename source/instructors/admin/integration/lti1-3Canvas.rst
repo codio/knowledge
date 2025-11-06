@@ -143,9 +143,8 @@ Link Selection and Assignment Selection
 Editor Button
 ~~~~~~~~~~~~~
 
-
 .. image:: /img/canvascourseeditortselect.png
-    :alt: Canvas Course Navigation and Editor Button placement
+    :alt: Canvas Editor Button placement
     :width: 750px 
 
 
@@ -169,7 +168,7 @@ Course Navigation
 
 
 .. image:: /img/canvascoursecoursetselect.png
-    :alt: Canvas Course Navigation and Editor Button placement
+    :alt: Canvas Course Navigation placement
     :width: 750px 
 
 
