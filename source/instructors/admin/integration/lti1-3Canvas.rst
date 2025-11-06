@@ -38,8 +38,8 @@ The Canvas user who carries out these steps must be a system administrator.
 
 5. Click on **Developer Key** and select **+LTI key**.
 
-Using JSON configuration Url
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(Step 6, Option 1) Using JSON configuration Url
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can use a JSON configuration URL to automatically configure most Canvas settings:
 
@@ -51,34 +51,28 @@ You only need to configure:
 
 .. list-table::
    :header-rows: 1
-   :widths: 5 30 70
+   :widths: 30 70
 
-   * - **Step**
-     - **Value**
+   * - **Value**
      - **What to add**
-   * - a
-     - **Key Name:**
+   * - **Key Name:**
      - A name for the Tool, i.e.: "Codio"
-   * - b
-     - **Owner Email:**
-     - An email for reference, you can use help@codio.com.
-   * - c
-     - **Redirect URIs:**
+   * - **Owner Email:**
+     - An email, you can use your own email.
+   * - **Redirect URIs:**
      - Paste the Redirect URL from your Codio integration
-   * - d
-     - Set the Method as **Enter URL**
+   * - Set the Method as **Enter URL**
      - 
-   * - e
-     - **JSON URL**
+   * - **JSON URL**
      - Paste the URL from **Canvas JSON configuration Url**
 
 .. note::
    If you use the JSON configuration URL method, skip to **Part 2**. To manually configure everything, continue with the steps below.
 
-Completing Canvas Steps Manually
+(Step 6, Option 2) Completing Canvas Steps Manually
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-6. Complete the **Key Name, Title** and **Description** fields. Make sure to set the **method** to **Manual Entry**.
+Complete the **Key Name, Title** and **Description** fields. Make sure to set the **method** to **Manual Entry**.
 
 |image2|
 
