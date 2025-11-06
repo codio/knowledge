@@ -27,7 +27,7 @@ Follow these steps to set up multiple choice assessments manually:
    .. image:: /img/guides/assessment_mc_general.png
       :alt: General
 
-- **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing. If you want to hide the name in the challenge text the student sees, toggle the **Show Name** setting to disable it.
+- **Name** - Enter a short name that describes the test. This name appears in the teacher dashboard for easy reference. To hide the name from the student's view of the challenge, toggle **Show Name** to disable it.
    
 - **Question** - Enter the question instruction that is shown to the student.
 
