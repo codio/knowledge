@@ -16,7 +16,7 @@ Assessments can be auto-generated using the text on the current guide page as co
 Assessment Manual Creation
 --------------------------
 
-Follow these steps to set up multiple choice assessments manually. For more information on **Metadata** and **Files**, see :ref:`Assessments <assessments>`.
+Follow these steps to set up multiple choice assessments manually. For more information on **Metadata** (optional)  and **Files** (optional), see :ref:`Assessments <assessments>`.
 
 1. On the **General** page, enter the following information:
 
@@ -50,7 +50,7 @@ Follow these steps to set up multiple choice assessments manually. For more info
 
 - **Allow Partial Points** - Toggle to enable a percentage of total points to be given based on the percentage of answers they correctly answer.
 
-- **Use maximum score** - Toggle to enable assessment final score to be the highest score attained of all runs. 
+- **Use Maximum Score** - Toggle to enable assessment final score to be the highest score attained of all runs. 
 
 - **Show Expected Answer** - Choose when students can view the expected output: **never**, **when grades are released**, or **always**.
 

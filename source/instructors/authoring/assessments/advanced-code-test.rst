@@ -44,7 +44,7 @@ Complete each section to set up your advanced code test. For more information on
 - **Define Number of Attempts** - enable to allow and set the number of attempts students can make for this assessment. If disabled, the student can make unlimited attempts.
 - **Show Rationale to Students** - Toggle to display the rationale for the answer to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
 - **Rationale** - Enter guidance for the assessment. This is always visible to the teacher when the project is opened in the course or when opening the student's project. 
-- **Use maximum score** - Toggle to enable assessment final score to be the highest score attained of all runs.
+- **Use Maximum Score** - Toggle to enable assessment final score to be the highest score attained of all runs.
 
 4. Click **Create** to complete the process.
 
