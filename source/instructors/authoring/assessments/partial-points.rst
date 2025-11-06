@@ -9,12 +9,12 @@ You can award partial points for student assessments in your testing scripts. Us
 
 
 
-Autograding enhancements for partial points
+Autograding Enhancements for Partial Points
 -------------------------------------------
 To provide you with more robust auto-grade scripts, you can send back feedback in different formats HTML, Markdown, or plaintext and a URL is passed as an environment variable ```CODIO_PARTIAL_POINTS_V2_URL```. These variables allow POST and GET requests with the following parameters:
 
 
-- **Score** (```CODIO_PARTIAL_POINTS_V2_URL```) - 0-100 percent for assessment, should be a percentage of total points possible. 
+- **Score** (```CODIO_PARTIAL_POINTS_V2_URL```) - should be a percentage of total points possible between 0-100. 
 - **Feedback** - text - this is limited to 1 Mb
 - **Format** - html, md, or txt (default)
 
@@ -22,8 +22,8 @@ If you use Python, you can also use the function ``send_partial_v2``. Also, thro
 
 As a general rule, your script should always exit with ``0``; otherwise, the grade will be 0. If the student receives partial points, the results will display an orange percent sign rather than a green check mark or red x.
 
-Example auto-grading scripts with partial points
-................................................
+Example Auto-Grading Scripts With Partial Points
+------------------------------------------------
 
 The following examples in Python and JavaScript show how you can write your scripts in any language. 
 
@@ -113,7 +113,7 @@ The Python script parses the student's file and then assigns points based on spe
             exit(0 if res else 1)
 
  
-Example grading script for partial points
+Example Grading Script for Partial Points
 -----------------------------------------
 These are examples of the older method of partial points reporting.
 
@@ -145,4 +145,5 @@ These are examples of the older method of partial points reporting.
         main()
 
 
-The score you award should be any value between 0 and the maximum score you specified when defining the assessment in the Codio authoring editor.
+.. important::
+   The score you award should be any value between 0 and the maximum score you specified when defining the assessment in the Codio authoring editor.
