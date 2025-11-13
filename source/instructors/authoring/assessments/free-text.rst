@@ -5,91 +5,62 @@
 
 Free Text
 =========
-Free text assessments allow students to answer questions in their own words. Because Free Text assessments allow for LaTeX formatting, this type of assessment is recommended for math assessments. Teachers are then able to review and manually grade their answers. 
+Free text assessments allow students to answer questions in their own words. This type of assessment is recommended for math assessments since it allows for LaTeX formatting. Teachers are then able to review and manually grade their answers.
+
+
 
 Assessment Auto-Generation
 ++++++++++++++++++++++++++
 
-Assessments can be auto-generated using the text on the current guides page as context. Follow the steps below to auto-generate a Free Text assessment:
-
-1. Select **Free Text** assessment from Assessments list. 
-
-2. Press the **Generate** button at bottom right corner. 
-
-   .. image:: /img/guides/generate-assessment-button.png
-      :alt: Generate assessment button
-
-3. The Generation Prompt will open, press **Generate Using AI** to preview the generated assessment.
-
-   .. image:: /img/guides/assessment-generation-prompt.png
-      :alt: Assessment Generation Prompt
-
-If you are not satisfied with the result, select **Regenerate** to create a new version of the assessment. You can provide additional guidance in the **Generation Prompt** field. For example, *create assessment based on the first paragraph with 2 correct answers.*
-
-4. When you are satisfied with the result, press **Apply** and then **Create**.
-
-More information about generating assessments may be found on the :ref:`AI assessment generation <ai-assessment-generation>` page.
+Assessments can be auto-generated using the text on the current guides page as context. For more information about generating assessments, see the :ref:`AI assessment generation <ai-assessment-generation>` page.
 
 Assessment Manual Creation
 ++++++++++++++++++++++++++
 
-Follow these steps to set up a free text assessment manually:
+Follow these steps to set up a free text assessment manually. For more information on **General**, **Metadata** (optional), and **Files** (optional), see :ref:`Assessments <assessments>`.
 
-1. On the **General** page, enter the following information:
-
-   .. image:: /img/guides/assessment_free_general.png
-      :alt: General
-
-  - **Name** - Enter a short name that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
-
-    If you want to hide the name in the challenge text the student sees, toggle the **Show Name** setting to disable it.
-   
-  - **Instruction** - Enter the instructions in markdown to be shown to the students.
+1. Complete **General**.
 
 2. Click **Grading** in the navigation pane and complete the following fields:
 
    .. image:: /img/guides/assessment_free_grading.png
       :alt: Grading
 
-  - **Points** - Enter the score for correctly answering the question. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
+- **Points** - Enter the score for correctly answering the question. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
-  - **Allow Partial Points** - Toggle to enable a percentage of total points to be given based on the percentage of answers they correctly answer. Once you toggle this on, you will be able to add rubric items. Rubric items are negative points, they will be subtracted from the total score of the assessment.
+- **Partial Points** - Toggle to enable a percentage of total points to be awarded based on the percentage of correct answers. Once you enable this, you can add rubric items. Rubric items are negative points that will be subtracted from the total score.
 
-  - **Preview Type** - Choose the input (plaintext or markdown) to be provided by the student. LaTex is also supported and is useful when students need to enter mathematical formulas in their answers. The following options are available:
+- **Preview Type** - Choose the format for student input (plaintext, markdown, or LaTeX). LaTeX is useful when students need to enter mathematical formulas in their answers. The following options are available:
 
-    - **Plaintext** - Students enter ordinary text with no markdown formatting; there is no preview window.
-    - **Plaintext + LaTeX** - Students enter plaintext with no markdown formatting but offers support for LaTeX commands. A preview window is available where students can see the rendered LaTeX output.
-    - **Markdown + LaTeX** - Students enter markdown that also offers support for LaTex commands. A preview window is available where students can see the rendered markdown with LaTeX output.
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
 
-  - **Define Number of Attempts** - enable to allow and set the number of attempts students can make for this assessment. If disabled, the student can make unlimited attempts.
+   * - Format Type
+     - Description
+   * - **Plaintext**
+     - Students enter ordinary text with no markdown formatting; there is no preview window.
+   * - **Plaintext + LaTeX**
+     - Students enter plaintext with no markdown formatting but offers support for LaTeX commands. A preview window is available where students can see the rendered LaTeX output.
+   * - **Markdown + LaTeX**
+     - Students enter markdown that also offers support for LaTeX commands. A preview window is available where students can see the rendered markdown with LaTeX output.
+
+- **Define Number of Attempts** - Enable to allow and set the number of attempts students can make for this assessment. If disabled, the student can make unlimited attempts.
   
-  - **Show Rationale to Students** - Toggle to display the rationale for the answer, to the student. This guidance information will be shown to students after they have submitted their answer and any time they view the assignment after marking it as completed. You can set when to show this selecting from **Never**, **After x attempts**, **If score is greater than or equal to a % of the total** or **Always**
+- **Show Rationale to Students** - Toggle to display the rationale to students. This guidance information will be shown after they have submitted their answer and whenever they view the assignment after marking it as completed. You can control the display by selecting **Never**, **After x attempts**, **If score is ≥ x% of total**, or **Always**.
 
-  - **Rationale** - Enter guidance for the assessment. This is visible to the teacher when the project is opened in the course or when opening the student's project. This guidance information can also be shown to students after they have submitted their answer and when they reload the assignment after marking it as completed. 
+- **Rationale** - Enter guidance for the assessment. This is visible to the teacher when the project is opened in the course or when viewing the student's project. It can also be shown to students after submission or when they revisit the assignment after marking it as completed.
 
-3. Click on the **Parameters** tab if you wish to edit/change **Parameterized Assessments** (deprecated) using a script. See :ref:`Parameterized Assessments <parameterized>` for more information. New parameterized assessments can no longer be set up.
+3. Click **Create** to complete the process.
 
-4. Click **Metadata** in the left navigation pane and complete the following fields:
 
-   .. image:: /img/guides/assessment_metadata.png
-      :alt: Metadata
-
-  - **Bloom's Level** - Click the drop-down and choose the level of Bloom's Taxonomy: https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/ for the current assessment.
-  - **Learning Objectives** specific educational goal of the current assessment. Typically, objectives begin with Students Will Be Able To (SWBAT). For example, if an assessment asks the student to predict the output of a recursive code segment, then its Learning Objectives could be *SWBAT follow the flow of recursive execution*.
-  - **Tags** - By default, **Content** and **Programming Language** tags are provided and required. To add another tag, click **Add Tag** and enter the name and values.
-
-5. Click **Files** in the left navigation pane and check the check boxes for additional external files to be included with the assessment. The files are then included in the **Additional content** list.
-
-   .. image:: /img/guides/assessment_files.png
-      :alt: Files
-
-6. Click **Create** to complete the process.
-
-Grading free text assessments
+Grading Free Text Assessments
 -----------------------------
 To review and grade answers given by students in a free text assessment, follow these steps:
 
-1. Select the assignment to view the list of all assessments in the assignment for the student.
+1. Select the assignment.
+
+2. Find the student you want to grade and click the number under **Points** to view all assessments in the assignment.
 
    .. image:: /img/guides/freetext-grading.png
       :alt: Free Text Grading
@@ -99,36 +70,41 @@ To review and grade answers given by students in a free text assessment, follow 
    .. image:: /img/guides/freetexticon.png
       :alt: Free Text Assessments Icon
 
-2. Click any line to view the question and the answer submitted by the student.
+3. Click any line to view the question and the answer submitted by the student.
 
-3. In the **Points** for answer field, perform one of the following depending on whether **Allow Partial Points** was enabled or disabled for the question:
+4. In the **Points** for answer field, perform one of the following depending on whether **Allow Partial Points** was enabled or disabled for the question:
 
    - If **Allow Partial Points** was disabled, click **Correct** or **Incorrect**:
 
      .. image:: /img/guides/notpartial.png
         :alt: Allow Partial Points Disabled
+        :width: 450px
 
-   - If **Allow Partial Points** was enabled, select the points to give for the answer up to the maximum points:
-
+   - If **Allow Partial Points** is enabled, assign points for the answer up to the maximum allowed. You can also add rubric items and specify the point value for each:
+     
      .. image:: /img/guides/partial.png
         :alt: Allow Partial Points Enabled
+        :width: 450px
 
-4. In the **Comments** field, enter any information (in markdown + LaTeX) about the grade, which can be viewed by the student when the grade is released, and then click **Submit Comment**. 
 
-Navigate student assessments
-.............................
-You can navigate through student assessments using the left (**<**) and right (**>**) arrow buttons at the top of the **Assessments grading** dialog. 
+5. In the **Comments** field, enter any information about the grade, which can be viewed by the student when the grade is released, and then click **Submit Comment**. 
+
+
+Navigate Student Assessments
+----------------------------
+
+You can navigate through student assessments using the left (**<**) and right (**>**) arrow buttons at the bottom of the **Assessments grading** dialog. 
 
 .. image:: /img/guides/freetext_navigate.png
    :alt: Navigating Assessments
 
-View graded free text assessments
-.................................
+View Graded Free Text Assessments
+----------------------------------
 You can view the points given and the Correct column checked for all free text assessments that have been graded.
 
 .. image:: /img/guides/freetextanswer.png
    :alt: View Graded Assessment
 
-Free text assessments that are automatically graded as correct
-..............................................................
-You can do this with :ref:`Free Text Autograde <free-text-autograde>`.
+Free Text Assessments That Are Automatically Graded as Correct
+--------------------------------------------------------------
+Free text assessments can be automatically graded as correct. To learn more, see :ref:`Free Text Autograde <free-text-autograde>`.
