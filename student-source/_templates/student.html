@@ -4,20 +4,25 @@
   <link rel="stylesheet" href="{{ pathto('_static/css/custom_body.css', 1) }}">
   <link rel="stylesheet" href="{{ pathto('_static/css/custom_index.css', 1) }}">
 
-  <div class="student-page" id="top">
-    <header class="home-hero" role="banner" aria-labelledby="student-title">
+  <div class="landing-page student-page" id="top">
+    <header class="landing-hero" role="banner" aria-labelledby="student-title" aria-describedby="student-lede">
       <div class="home-container">
-        <h1 class="home-title" id="student-title">Codio Student Help Center</h1>
-        <p class="home-subtitle">
-          Quick guides for joining courses, using tools, and doing your assignments in Codio.
-        </p>
+        <div class="hero-inner">
+          <p class="hero-eyebrow">Student Resources</p>
+          <h1 class="hero-title" id="student-title">Codio Student Help Center</h1>
+          <p class="hero-lede" id="student-lede">
+            Get set up quickly, stay on track in your courses, and make the most of the Codio tools that
+            support your learning.
+          </p>
+        </div>
       </div>
     </header>
 
     <main class="home-main" role="main">
-      <section class="section">
+      <section class="section" id="student-guides">
         <div class="home-container">
-          <div class="card-grid" role="list">
+          <h2 class="section-title">Student guides</h2>
+          <div class="card-grid cards-4" role="list">
             <a class="card" role="listitem" href="{{ pathto('accessing-codio') }}" aria-label="Accessing Codio">
               <div class="card-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24"><path d="M12 2l9 4.5v11L12 22 3 17.5v-11L12 2zM5 8.1l7 3.5 7-3.5"/></svg>
