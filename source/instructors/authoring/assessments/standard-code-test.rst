@@ -51,8 +51,8 @@ Follow these steps to set up a standard code test. For more information on **Gen
 
    .. Note:: If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. The files can be dragged and dropped from the File Tree into the field to automatically populate the necessary execution and run code.
   
-   - **Command** - Command that executes the student code (usually run).
-   - **Pre-exec command** - Command to execute before each test runs (usually compile). If this fails, the main Command will not run.
+   - **Command** - Executes the student code (usually run).
+   - **Pre-exec command** - Executes before each test runs (usually compile). If this fails, the main Command will not run.
    - **Timeout** - Amend the timeout setting for code execution (up to 300 seconds via arrows, or manually enter a longer period).
 
    **Language-Specific Commands**

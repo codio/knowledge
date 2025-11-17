@@ -14,7 +14,7 @@ The Submit Button
 --------------------
 By default each assessment has a Submit button beneath the assessment. Once pressed, the answer is autograded. 
 
-.. note:: You can customize the Submit button label to any text you prefer. In the markdown update the text to the left of "|assessment".
+.. note:: You can customize the Submit button label to any text you prefer. In the assessment markdown, update the text to the left of "|assessment".
     
     .. image:: /img/guides/customizeSubmitbutton.png
        :alt: Customize Submit Button
@@ -35,14 +35,14 @@ To suppress the use of the **Submit** button, go to the **settings** button in t
      :alt: Global Settings
 
 
-Once the project is marked as complete (see below) all assessment responses are submitted automatically. All students work must be marked as complete either manually or using the automated **Mark as Complete** option on the final deadline.
+Once the project is marked as complete (see below) all assessment responses are submitted automatically. All student work must be marked as complete either manually or using the automated **Mark as Complete** option on the final deadline.
 
 
 
 Mark as Complete
 ----------------
 
-A student can proactively mark an assignment as complete. This triggers an :ref:`assignment level autograde script <auto-grade-scripts>` and displays the completion status in the teacher dashboard.
+A student can proactively mark an assignment as complete. This triggers an :ref:`assignment-level autograde script <auto-grade-scripts>` and displays the completion status in the teacher dashboard.
 
 **Advantages:**
 Instructors can grade students' work ahead of a deadline.
@@ -75,4 +75,4 @@ If you disable student mark as complete, you can use one of the following method
 
 Penalty Deadlines
 -----------------
-Another related feature is **Penalty deadlines** which allow you to specify deadlines, before the final grading deadline, where a percentage deduction of the final grade is made. :ref:`Click here <penalties>` for more information on managing penalty deadlines.
+Another related feature is **Penalty Deadlines** which allow you to specify deadlines, before the final grading deadline, where a percentage deduction of the final grade is made. :ref:`Click here <penalties>` for more information on managing penalty deadlines.

@@ -10,8 +10,8 @@ The Random assessment type allows you to define a pool of assessments, with each
 
 **Layout Requirements**
 
-* **Simple Layout (1 Panel without tree)**: Multiple Random assessments can be added on the same page
-* **Complex Layout (any other layout)**: 
+* **Simple Layout (1-panel layout without tree)**: Multiple Random assessments can be added on the same page
+* **Complex Layout (multi-panel or tree-based layouts)**: 
   
   * Cannot be added on the same page
   * Cannot be mixed with any other assessments
@@ -133,7 +133,7 @@ When random assessment changes are made (either by you or another organization m
 A **Sync** button appears on the **Edit** tab when changes are available to synchronize.
 
 .. image:: /img/guides/random-sync.png
-   :alt: Synchronise Random assessment
+   :alt: Synchronize Random assessment
    :width: 500px
 
 .. warning::
@@ -148,8 +148,9 @@ When you press the **Sync** button, Codio will check if students have started an
 
 The assignment will sync and publish to all students.
 
-   .. image:: /img/guides/random-sync-nostudents.png
-      :alt: Synchronise Random assessment - no students started
+.. image:: /img/guides/random-sync-nostudents.png
+   :alt: Synchronize Random assessment - no students started
+   :width: 300px
       
 **Students have started**  
 
@@ -158,5 +159,6 @@ You can choose to:
 * **Reset and publish**: All students restart with new changes (previous work lost)
 * **Publish only**: Only students who haven't started receive the changes
 
-   .. image:: /img/guides/random-sync-studentsstarted.png
-      :alt: Synchronise Random assessment - students started
+.. image:: /img/guides/random-sync-studentsstarted.png
+   :alt: Synchronize Random assessment - students started
+   :width: 450px
