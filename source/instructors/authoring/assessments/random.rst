@@ -37,7 +37,7 @@ Creating a Random Assessment
 
 2. On the **Grading** page, enter the amount of points to assign to the assessment. Enter the score for correctly answering the question they are assigned. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
-- **Use maximum score** - Use the highest score from all attempts as the final assessment score.
+- **Use maximum score** - Enables selection of the highest score from all attempts as the final assessment score.
 
 3. On the **Execution** page, browse to an assessment library where you can set up filters define the range of assessments to randomly assign. You can work from any assessment library you have access to.
 
