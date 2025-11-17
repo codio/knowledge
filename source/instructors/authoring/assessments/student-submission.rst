@@ -3,51 +3,76 @@
   
 .. _student-submission:
 
-Student submission options
+Student Submission Options
 ==========================
-There are two important settings that control
+You can control the following:
 
-- the way a student submits individual questions
-- the way a student notifies the course instructors that an assignment is completed.
+- How students submit individual questions.
+- How students notify course instructors that an assignment is completed.
 
-The submit button
------------------
-By default each assessment has a submit button beneath the assessment. Once pressed, the answer is autograded. 
+The Submit Button
+--------------------
+By default each assessment has a Submit button beneath the assessment. Once pressed, the answer is autograded. 
 
-Each assessment type allows you to define the number of attempts students can make. On the last allowed attempt, the student will be warned that they will not be able to resubmit after that attempt.
+.. note:: You can customize the Submit button label to any text you prefer. In the assessment markdown, update the text to the left of "|assessment".
+    
+    .. image:: /img/guides/customizeSubmitbutton.png
+       :alt: Customize Submit Button
+       :width: 400px
 
-You can suppress the use of submit buttons for Advanced Code Test, Standard Code Test, MCQ, Fill in the Blank, Free Text and Free Text Autograde assessments. You cannot suppress the submit buttons for Parsons Puzzle assessments.
+Each assessment type allows you to define the number of attempts students can make. Students can see the number of attempts they have left to the right of the Submit button.
 
-This feature is handy for exams, students do not need to worry about the effect of pressing the button. They can provide a response and move on to other assessments or pages in the guide.
+Suppressing the Submit Button
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To suppress the use of the **Submit** button, go to the **settings** button in the guide and disable **Use submit buttons**.
+You can suppress the Submit button for the following assessment types: Advanced Code Test, Standard Code Test, MCQ, Fill in the Blank, Parsons Puzzle, LLM Rubric Auto Grade, LLM Rubric, Free Text, and Free Text Autograde.
+
+This feature is useful for exams where students shouldn't need to worry about pressing a submit button. They can simply provide their response and move on to other assessments or pages.
+
+To suppress the use of the **Submit** button, go to the **Settings** button in the guide and disable **Use submit buttons**.
 
   .. image:: /img/guides/globalsettings.png
      :alt: Global Settings
 
 
-Once the project is marked as complete (see below) all assessment responses are submitted automatically. All students work must be marked as complete either manually or using the automated **Mark as Complete** option on the final deadline.
+Once the project is marked as complete (see below) all assessment responses are submitted automatically. All student work must be marked as complete either manually or using the automated **Mark as Complete** option on the final deadline.
+
+
 
 Mark as Complete
 ----------------
-To suppress the student **Mark as complete** action, go to the guide **settings** (see above screenshot) and disable **Use mark as complete**.
 
-A student can proactively mark an assignment as complete. This can trigger an :ref:`assignment level autograde script <auto-grade-scripts>` and it is also displayed in the teacher dashboard for that student.
+A student can proactively mark an assignment as complete. If there is an :ref:`assignment-level autograde script <auto-grade-scripts>` it will be run at this time and the completion status will be displayed in the teacher dashboard.
 
-The drawback of using the student driven mark as complete option is that once students mark an assignment as complete, they are no longer able to make changes to the assignment, including answering assessments. The advantage is that instructors are able to grade those students' work ahead of a deadline.
+**Advantages:**
+Instructors can grade students' work as soon as they mark it as complete.
 
-If the project has been marked as completed, students can click on the 'graded' button to access grade feedback. If they wish to view the project, they can click on the name of the project on the left hand side. As the assignment is completed they will not be able to edit anything but can still view the content.
+**Drawbacks:**
+Once students mark an assignment as complete, they can no longer make changes to the assignment, including answering assessments.
 
-You can disable your students' ability to **Mark as Complete** entirely and eliminate instances of prematurely marking as complete or forgetting to do so. This means students won't need to request that their assignment be re-enabled if they submitted by mistake or decide they want to change something after marking as complete.
+Viewing Completed Assignments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you choose to disable your students' ability to mark as complete, you can use one of the following methods to mark assignments as complete:
+If a project has been marked as completed, students can:
 
-- Once the assignment deadline has been reached and you want to start grading student work, :ref:`mark all students' work as complete <grading>` from the assignment actions area.
+- Click on their grade to access grade feedback
+- Click on the project name on the left side to view the content (read-only)
 
-- Set an :ref:`end of assignment date <assignment-duration>` and specify that once the date is reached, the students' work should be **Marked as Complete** automatically.
+Disabling Student Mark as Complete
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+You can disable students' ability to **Mark as Complete** entirely. This eliminates instances of prematurely marking as complete or forgetting to do so, and prevents students from needing to request that their assignment be re-enabled.
 
+To disable this feature, go to the guide **Settings** and disable **Use mark as complete**.
 
-Penalty deadlines
+Alternative Methods for Marking Complete
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you disable student mark as complete, you can use one of the following methods:
+
+- Once the assignment deadline has been reached, :ref:`mark all students' work as complete <grading>` from the assignment actions area
+- Set an :ref:`end of assignment date <assignment-duration>` and specify that student work should be **Marked as Complete** automatically when the date is reached
+
+Penalty Deadlines
 -----------------
-Another related feature is **Penalty deadlines** which allow you to specify deadlines, before the final grading deadline, where a percentage deduction of the final grade is made. :ref:`Click here <penalties>` for more information on managing penalty deadlines.
+Another related feature is **Penalty Deadlines** which allow you to specify deadlines, before the final grading deadline, where a percentage deduction of the final grade is made. :ref:`Click here <penalties>` for more information on managing penalty deadlines.

@@ -42,7 +42,8 @@ Assessments can be auto-generated using the text on the current guides page as c
       :alt: Assessment Generation Prompt
 
 
-4. When you are satisfied with the result, press **Apply** and then **Create**.
+4. When you are satisfied with the result, press **Apply** and then **Create**. If you are not satisfied with the result, select **Regenerate** to create a new version of the assessment. You can provide additional guidance in the **Generation Prompt** field. For example, ``create assessment based on the first paragraph with 2 correct answers``.
+
 
 
 .. important:: The generate assessment feature does not configure the page :ref:`layout; <layout>` you should specify the layout depending on how you want to present the information to the students.

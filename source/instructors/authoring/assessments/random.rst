@@ -6,55 +6,159 @@
 Random Assessment
 =================
 
-The Random assessment type allows you to set up a group of assessments to then randomly assign one to each individual student assignment. Multiple Random assessments can be added on the same page but all of those random assessments must be of Simple layout type (1 Panel without tree). Random assessments with Complex layout (any layout other than 1 Panel without tree) can not be added on the same page or mixed with any other assessments. If you do mix Complex layout Random assessments with any other assessment, it may not function as intended and you will also get a warning when you Publish the assignment.
+The Random assessment type allows you to define a pool of assessments, with each student receiving a randomly selected assessment from that pool. Note that specific layout requirements apply.
 
-There is assignment level duplication prevention such that regardless of the query, Codio checks whether the library assessment IDs are unique. This prevents students from seeing the same assessment question multiple times in an assignment, as long as every question in the library is unique, and all randomized assessments are drawn from the same library.
-If duplicate assessments are generated, it indicates that the assessment library does not have enough unique assessments for the set of random assessment queries in the assignment.
-‌
+**Layout Requirements**
+
+* **Simple Layout (1-panel)**: Multiple Random assessments can be added on the same page
+* **Complex Layout (multi-panel)**: 
+  
+  * Cannot be added on the same page
+  * Cannot be mixed with any other assessments
+  * Warning will display when Publishing if mixed with other assessments
+  * May not function as intended if layout requirements are violated
+
+**Duplication Prevention**
+
+Codio automatically prevents duplicate assessments at the assignment level by checking library assessment IDs for uniqueness. This ensures students won't see the same assessment question multiple times within an assignment.
+
+**Requirements for duplication prevention:**
+
+* All questions in the assessment library must be unique
+* All randomized assessments must be drawn from the same library
+
+.. note::
+   If duplicate assessments are generated, the assessment library does not contain enough unique assessments to satisfy all random assessment queries in the assignment.
+
+Creating a Random Assessment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. On the **General** page, enter the name of your assessment that describes the test. This name is displayed in the teacher dashboard so the name should reflect the challenge and thereby be clear when reviewing.
 
 2. On the **Grading** page, enter the amount of points to assign to the assessment. Enter the score for correctly answering the question they are assigned. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
-- **Use maximum score** - Toggle to enable assessment final score to be the highest score attained of all runs.
+- **Use maximum score** - Enables selection of the highest score from all attempts as the final assessment score.
 
 3. On the **Execution** page, browse to an assessment library where you can set up filters define the range of assessments to randomly assign. You can work from any assessment library you have access to.
+
+.. list-table:: Filter Categories and Inputs
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Category
+     - Available Inputs & Description
+   * - Bloom's Taxonomy Level
+     - .. tab-set::
+
+          .. tab-item:: Levels I-III
+          
+             * Level I - Remembering
+             * Level II - Understanding
+             * Level III - Applying
+
+          .. tab-item:: Levels IV-VI
+          
+             * Level IV - Analyzing
+             * Level V - Evaluating
+             * Level VI - Creating
+   * - Assessment Type (auto-detected)
+     - .. tab-set::
+
+          .. tab-item:: Code-Based
+          
+             * Standard Code Test 
+             * Advanced Code Test 
+             * Parsons Puzzle 
+
+          .. tab-item:: Text-Based
+          
+             * Multiple Choice 
+             * Fill in the Blanks 
+             * Free Text Autograde 
+   * - Programming Language
+     - Select the programming language for code-based assessments (e.g., Python, Java, C++, JavaScript)
+   * - Category (topic-level)
+     - Broad subject area or topic category for filtering assessments (e.g., variables, functions, loops).
+   * - Content (sub-topic level)
+     - Specific subtopic or concept within the category (e.g., modifying variables, creating functions, nesting for loops).
+   * - Learning Objective (SWBAT form)
+     - Define what "Students Will Be Able To..." accomplish after completing the assessment
+       
+       Example: "Students will be able to implement binary search algorithms efficiently"
+
 
 :ref:`Click here <assess-library>` for more information on how to use Assessment Libraries.
 
 
-Updating Random assessments
----------------------------
 
-If you wish to update, change or review the assessments assigned to the random assessment, select the **Update Search** button on the **Execution** tab and this will open the assessment library field with the saved search parameters.
+
+Updating Random Assessments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Modifying Assessment Parameters
+-------------------------------
+
+To update, change, or review the assessments assigned to a random assessment:
+
+1. Navigate to the **Execution** tab
+2. Select the **Update Search** button
+3. The assessment library field will open with your saved search parameters
 
    .. image:: /img/guides/random-update.png
       :alt: Update Random assessment
+      :width: 450px
 
-You can then review the assesments and publish the assignment if you wish in the usual manner, but if the only changes made are in relation to the random assignment and there are students who may have already started the assignment you should do go to the **Edit** tab and use the **Sync** button. If you have made other changes to the assignment though, publish in the usual manner as well and then go to the **Edit** tab. If students have already started the assignment, the **Sync** button will show
 
-Publishing/Synchronising changes from the **Course**
-----------------------------------------------------
+Publishing Changes
+------------------
 
-If the only changes to a previously published assignment are for the random assessment(s), or if someone else in the organization has updated the assessments being used in the assignment, the changes made can be updated/synchronised from the **Edit** tab in the course. 
+After reviewing assessments, follow the appropriate publishing method based on your situation:
 
-A **Sync** button will be shown on the **Edit** tab for the assignment if there are changes that can be updated/synchronised.
+**If ONLY random assessment changes were made:**
 
-   .. image:: /img/guides/random-sync.png
-      :alt: Synchronise Random assessment
+* Students have not started: Publish normally
+* Students have already started: Use the **Sync** button on the **Edit** tab (see Synchronizing Changes below)
 
-If there are students that have already started the assignment they will not get the updates/changes unless their assignments is also reset so they will start again 'as new' and any previous work will be lost.
+**If other assignment changes were also made:**
 
-Pressing the **Sync** button will identify if there are students who have already started and then give you the option to reset and publish or just publish so then only students who have not started the assignment will get the update/changes
+* Publish normally first
+* Then navigate to the **Edit** tab to sync if students have started
 
-**Synchronising where no students started assignment**
+Synchronizing Changes from the Course
+-------------------------------------
 
-   .. image:: /img/guides/random-sync-nostudents.png
-      :alt: Synchronise Random assessment no students started
+When random assessment changes are made (either by you or another organization member), synchronize them from the **Edit** tab in the course.
+
+A **Sync** button appears on the **Edit** tab when changes are available to synchronize.
+
+.. image:: /img/guides/random-sync.png
+   :alt: Synchronize Random assessment
+   :width: 500px
+
+.. warning::
+   Students who have already started the assignment will not receive updates unless their assignment is reset. Resetting will cause them to start "as new" and **all previous work will be lost**.
+
+Sync Options
+------------
+
+When you press the **Sync** button, Codio will check if students have started and present appropriate options:
+
+**No students have started**
+
+The assignment will sync and publish to all students.
+
+.. image:: /img/guides/random-sync-nostudents.png
+   :alt: Synchronize Random assessment - no students started
+   :width: 300px
       
-**Synchronising where students have started assignment**  
+**Students have started**  
 
-   .. image:: /img/guides/random-sync-studentsstarted.png
-      :alt: Synchronise Random assessment students started
+You can choose to:
 
+* **Reset and publish**: All students restart with new changes (previous work lost)
+* **Publish only**: Only students who haven't started receive the changes
 
+.. image:: /img/guides/random-sync-studentsstarted.png
+   :alt: Synchronize Random assessment - students started
+   :width: 450px
