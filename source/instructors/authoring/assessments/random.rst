@@ -80,7 +80,7 @@ Creating a Random Assessment
    * - Category (topic-level)
      - Broad subject area or topic category for filtering assessments (e.g., variables, functions, loops).
    * - Content (sub-topic level)
-     - Specific subtopic or concept within the category (e.g., modyfying variables, creating functions, nesting for loops).
+     - Specific subtopic or concept within the category (e.g., modifying variables, creating functions, nesting for loops).
    * - Learning Objective (SWBAT form)
      - Define what "Students Will Be Able To..." accomplish after completing the assessment
        

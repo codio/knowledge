@@ -5,7 +5,7 @@
 
 Student Submission Options
 ==========================
-There are two important settings control:
+There are two important settings to control:
 
 - How students submit individual questions.
 - How students notify course instructors that an assignment is completed.
@@ -22,8 +22,8 @@ By default each assessment has a Submit button beneath the assessment. Once pres
 
 Each assessment type allows you to define the number of attempts students can make. Students can see the number of attempts they have left to the right of the Submit button.
 
-Supressing the Submit Button
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Suppressing the Submit Button
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can suppress the Submit button for the following assessment types: Advanced Code Test, Standard Code Test, MCQ, Fill in the Blank, Parsons Puzzle, LLM Rubric Auto Grade, LLM Rubric, Free Text, and Free Text Autograde.
 
