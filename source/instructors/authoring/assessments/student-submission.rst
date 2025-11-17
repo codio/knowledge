@@ -5,7 +5,7 @@
 
 Student Submission Options
 ==========================
-There are two important settings to control:
+You can control the following:
 
 - How students submit individual questions.
 - How students notify course instructors that an assignment is completed.
@@ -29,7 +29,7 @@ You can suppress the Submit button for the following assessment types: Advanced 
 
 This feature is useful for exams where students shouldn't need to worry about pressing a submit button. They can simply provide their response and move on to other assessments or pages.
 
-To suppress the use of the **Submit** button, go to the **settings** button in the guide and disable **Use submit buttons**.
+To suppress the use of the **Submit** button, go to the **Settings** button in the guide and disable **Use submit buttons**.
 
   .. image:: /img/guides/globalsettings.png
      :alt: Global Settings
@@ -42,10 +42,10 @@ Once the project is marked as complete (see below) all assessment responses are 
 Mark as Complete
 ----------------
 
-A student can proactively mark an assignment as complete. This triggers an :ref:`assignment-level autograde script <auto-grade-scripts>` and displays the completion status in the teacher dashboard.
+A student can proactively mark an assignment as complete. If there is an :ref:`assignment-level autograde script <auto-grade-scripts>` it will be run at this time and the completion status will be displayed in the teacher dashboard.
 
 **Advantages:**
-Instructors can grade students' work ahead of a deadline.
+Instructors can grade students' work as soon as they mark it as complete.
 
 **Drawbacks:**
 Once students mark an assignment as complete, they can no longer make changes to the assignment, including answering assessments.
@@ -63,7 +63,7 @@ Disabling Student Mark as Complete
 
 You can disable students' ability to **Mark as Complete** entirely. This eliminates instances of prematurely marking as complete or forgetting to do so, and prevents students from needing to request that their assignment be re-enabled.
 
-To disable this feature, go to the guide **settings** and disable **Use mark as complete**.
+To disable this feature, go to the guide **Settings** and disable **Use mark as complete**.
 
 Alternative Methods for Marking Complete
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

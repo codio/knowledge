@@ -48,8 +48,6 @@ Follow these steps to set up a standard code test. For more information on **Gen
    .. image:: /img/guides/assessment_sct_execution.png
       :alt: Execution
       :width: 350px
-
-   .. Note:: If you store the assessment scripts in the **.guides/secure** folder, they run securely and students cannot see the script or the files in the folder. The files can be dragged and dropped from the File Tree into the field to automatically populate the necessary execution and run code.
   
    - **Command** - Executes the student code (usually run).
    - **Pre-exec command** - Executes before each test runs (usually compile). If this fails, the main Command will not run.
@@ -89,6 +87,8 @@ Follow these steps to set up a standard code test. For more information on **Gen
          - Run: ``bash full_path.sh``
 
       .. tab:: SQL
+
+         - Run: ``mysql EPDriver < /home/codio/workspace/codetest.sql --table``
 
          Codio provides helper scripts to run queries via ODBC (stricter spacing than sqlcmd).
          

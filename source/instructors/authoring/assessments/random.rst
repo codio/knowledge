@@ -10,8 +10,8 @@ The Random assessment type allows you to define a pool of assessments, with each
 
 **Layout Requirements**
 
-* **Simple Layout (1-panel layout without tree)**: Multiple Random assessments can be added on the same page
-* **Complex Layout (multi-panel or tree-based layouts)**: 
+* **Simple Layout (1-panel)**: Multiple Random assessments can be added on the same page
+* **Complex Layout (multi-panel)**: 
   
   * Cannot be added on the same page
   * Cannot be mixed with any other assessments
@@ -37,7 +37,7 @@ Creating a Random Assessment
 
 2. On the **Grading** page, enter the amount of points to assign to the assessment. Enter the score for correctly answering the question they are assigned. You can choose any positive numeric value. If this is an ungraded assessment, enter zero (0).
 
-- **Use maximum score** - Toggle to enable assessment final score to be the highest score attained of all runs.
+- **Use maximum score** - Use the highest score from all attempts as the final assessment score.
 
 3. On the **Execution** page, browse to an assessment library where you can set up filters define the range of assessments to randomly assign. You can work from any assessment library you have access to.
 
