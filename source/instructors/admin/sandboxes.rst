@@ -67,6 +67,9 @@ Define sandboxes in YAML. The best starting point is using this command to get f
 
     git clone git@github.com:codio-content/sandboxes_examples.git .
 
+.. important::
+
+    The command above will copy the repository to your current directory. Make sure your folder is empty.
 
 Configuration Reference
 -----------------------
@@ -138,7 +141,7 @@ Top-level keys
 .. _ec2type-sandboxes:
 
 ``settings.parameters`` for ``aws_ec2``
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After setting ``type`` to ``aws_ec2``, configure the following ``parameters``:
 
