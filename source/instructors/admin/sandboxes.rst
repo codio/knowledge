@@ -9,7 +9,7 @@ Sandboxes
 About Sandboxes
 ---------------
 
-Sandboxes provide **time‑boxed, ephemeral AWS Management Console environments** that expire automatically. A sandbox's permissions are defined by a template and can range **from full administrator access to least‑privileged** roles, depending on need. When a sandbox's **duration** ends, **access is revoked and all resources created inside the sandbox are cleaned up automatically—no user action required**.
+Sandboxes provide time‑boxed, ephemeral **AWS Management Console environments** that expire automatically. A sandbox's permissions are defined by a template and can range from full administrator access to least‑privileged roles, depending on need. When a sandbox's duration ends, access is revoked and all resources created inside the sandbox are cleaned up automatically—no user action required.
 
 .. important::
 
