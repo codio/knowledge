@@ -1,5 +1,5 @@
 .. meta::
-   :description: Sandboxes allow instructors set safe AWS environment for students.
+   :description: Sandboxes allow instructors to set safe AWS environments.
 
 .. _sandboxes:
 
@@ -56,7 +56,7 @@ Lifecycle, Duration, and Cleanup
 
 - **Start:** Launch a sandbox from a ``sandbox.yml`` template. The environment and its access are created for the configured ``lifetime``.
 - **Extend:** While running, you may extend the lifetime in ``lifetime_extension`` increments, **not exceeding** ``lifetime_max``.
-- **Expire & Clean:** When the lifetime ends, **access is revoked** and **resources created by the sandbox are cleaned up automatically**—no user action required.
+- **Expire & Clean:** When the lifetime ends, access is revoked and resources created by the sandbox are cleaned up automatically—no user action required.
 
 Sandbox Configuration (``sandbox.yml``)
 ---------------------------------------
