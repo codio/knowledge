@@ -39,7 +39,7 @@ Key Concepts
    * - **Lifetime**
      - The initial duration of the sandbox (e.g., ``15m``, ``30m``). Access and resources automatically expire at the end of the lifetime.
    * - **Lifetime Extension**
-     - Optional, on-demand increments (e.g., ``5m``, ``10m``) that can be applied to a running sandbox, up to **``lifetime_max``**.
+     - Optional, on-demand increments (e.g., ``5m``, ``10m``) that can be applied to a running sandbox, up to ``lifetime_max``.
    * - **Policy**
      - The permissions definition attached to the sandbox (for example, an IAM policy file like ``lab.policy``). This **controls the permission level** from **full** to **least-privileged**.
    * - **Provision Engine**
@@ -49,13 +49,13 @@ Key Concepts
    * - **Parameters**
      - Resource-specific inputs for the sandbox type (for example, EC2 instance settings: ``instance_type``, ``image``, ``volume_size``, ``connection_mode``).
    * - **Region**
-     - The AWS region in which sandboxes are created. **Currently fixed to ``us-east-1``**.
+     - The AWS region in which sandboxes are created. **Currently fixed to** ``us-east-1``.
 
 Lifecycle, Duration, and Cleanup
 --------------------------------
 
-- **Start:** Launch a sandbox from a ``sandbox.yml`` template. The environment and its access are created for the configured **``lifetime``**.
-- **Extend:** While running, you may extend the lifetime in **``lifetime_extension``** increments, **not exceeding ``lifetime_max``**.
+- **Start:** Launch a sandbox from a ``sandbox.yml`` template. The environment and its access are created for the configured ``lifetime``.
+- **Extend:** While running, you may extend the lifetime in ``lifetime_extension`` increments, **not exceeding** ``lifetime_max``.
 - **Expire & Clean:** When the lifetime ends, **access is revoked** and **resources created by the sandbox are cleaned up automatically**—no user action required.
 
 Sandbox Configuration (``sandbox.yml``)
@@ -121,7 +121,7 @@ Top-level keys
    * - ``policy``
      - string
      - Conditional
-     - **(Primarily for ``aws_cloud``)** Path or reference to the IAM policy that defines the sandbox's permissions. Controls access level from **full** to **least-privileged**.
+     - Path or reference to the IAM policy that defines the sandbox's permissions. Controls access level from **full** to **least-privileged**.
    * - ``provision_engine``
      - string
      - Conditional
@@ -133,7 +133,7 @@ Top-level keys
    * - ``parameters``
      - mapping
      - Conditional
-     - Type-specific inputs. **Required for ``aws_ec2``** (see below).
+     - Type-specific inputs. **Required for** ``aws_ec2`` (see below).
 
 .. _ec2type-sandboxes:
 
