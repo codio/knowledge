@@ -70,7 +70,7 @@ You only need to configure:
    If you use the JSON configuration URL method, skip to **Part 2**. To manually configure everything, continue with the steps below.
 
 (Step 6, Option 2) Completing Canvas Steps Manually
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Complete the **Key Name, Title** and **Description** fields. Make sure to set the **method** to **Manual Entry**.
 
@@ -118,7 +118,7 @@ Complete the **Key Name, Title** and **Description** fields. Make sure to set th
 
 
 Link Selection and Assignment Selection
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /img/canvaslinkassignmentselect.png
     :alt: Canvas Link Selection placement

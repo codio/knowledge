@@ -2,44 +2,24 @@
 {% set title = _('Codio') %}
 {% block body %}
 
-<!-- Keep your custom CSS includes -->
 <link rel="stylesheet" href="{{ pathto('_static/css/custom_body.css', 1) }}">
 <link rel="stylesheet" href="{{ pathto('_static/css/custom_index.css', 1) }}">
 
-<div class="index-page codio-home" id="top">
-  <!-- Skip link for a11y -->
-  <!-- <a class="skip-link" href="#home-content">Skip to content</a> -->
-
-  <!-- Hero -->
-  <header class="home-hero" role="banner" aria-labelledby="home-title">
+<div class="landing-page index-page" id="top">
+  <header class="landing-hero" role="banner" aria-labelledby="home-title" aria-describedby="home-lede">
     <div class="home-container">
-      <h1 class="home-title" id="home-title">Codio Instructor Help Center</h1>
-      <p class="home-subtitle">
-        Docs, guides, and how-tos for building courses, authoring content, and teaching with Codio.
-      </p>
-
-      <!-- Native Sphinx search -->
-      <!-- <form class="home-search" role="search" action="{{ pathto('search') }}" method="get" aria-label="Search the docs">
-        <label class="sr-only" for="q">Search the docs</label>
-        <input id="q" name="q" type="search" placeholder="Search the docs…" autocomplete="off" required />
-        <button type="submit" class="search-btn" aria-label="Submit search"> -->
-          <!-- magnifier icon (inline, no external dep) -->
-          <!-- <svg viewBox="0 0 24 24" aria-hidden="true" class="icon">
-            <path d="M15.5 14h-.79l-.28-.27a6.3 6.3 0 1 0-.71.71l.27.28v.79L20 20.5 21.5 19 15.5 14zM10.5 15a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"/>
-          </svg>
-          <span class="btn-text">Search</span>
-        </button>
-      </form> -->
+      <div class="hero-inner">
+        <p class="hero-eyebrow">Instructor Resources</p>
+        <h1 class="hero-title" id="home-title">Codio Instructor Help Center</h1>
+      </div>
     </div>
   </header>
 
-  <!-- Main content -->
   <main id="home-content" class="home-main" role="main">
-    <section class="section">
+    <section class="section" id="instructor-guides">
       <div class="home-container">
-
-        <!-- Card Grid -->
-        <div class="card-grid" role="list">
+        <h2 class="section-title">Instructor guides</h2>
+        <div class="card-grid cards-6" role="list">
           <a class="card" role="listitem" href="{{ pathto('getstarted') }}" aria-label="Overview: Getting Started in Codio">
             <div class="card-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24"><path d="M12 2l9 4.5v11L12 22 3 17.5v-11L12 2zM5 8.1l7 3.5 7-3.5"/></svg>
