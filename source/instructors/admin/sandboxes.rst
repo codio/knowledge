@@ -41,15 +41,15 @@ Key Concepts
    * - **Lifetime Extension**
      - Optional, on-demand increments (e.g., ``5m``, ``10m``) that can be applied to a running sandbox, up to ``lifetime_max``.
    * - **Policy**
-     - The permissions definition attached to the sandbox (for example, an IAM policy file like ``lab.policy``). This **controls the permission level** from **full** to **least-privileged**.
+     - The permissions definition attached to the sandbox (for example, an IAM policy file like ``lab.policy``). This controls the permission level from full to least-privileged.
    * - **Provision Engine**
-     - The engine used to orchestrate resources defined by the sandbox (e.g., ``terraform``,  or ``bash`` for **CloudFormation**).
+     - The engine used to orchestrate resources defined by the sandbox (e.g., ``terraform``, ``bash``, or CloudFormation).
    * - **Billing Limit**
-     - A numeric cap used by the platform to **help control costs** attributed to the sandbox (e.g., ``5.0``). 
+     - A numeric cap used by the platform to help control costs attributed to the sandbox (e.g., ``5.0``).
    * - **Parameters**
      - Resource-specific inputs for the sandbox type (for example, EC2 instance settings: ``instance_type``, ``image``, ``volume_size``, ``connection_mode``).
    * - **Region**
-     - The AWS region in which sandboxes are created. **Currently fixed to** ``us-east-1``.
+     - The AWS region in which sandboxes are created. Currently fixed to ``us-east-1``.
 
 Lifecycle, Duration, and Cleanup
 --------------------------------
@@ -124,7 +124,7 @@ Top-level keys
    * - ``policy``
      - string
      - Conditional
-     - Path or reference to the IAM policy that defines the sandbox's permissions. Controls access level from **full** to **least-privileged**.
+     - Path or reference to the IAM policy that defines the sandbox's permissions. Controls access level from full to **least-privileged**.
    * - ``provision_engine``
      - string
      - Conditional
@@ -136,7 +136,7 @@ Top-level keys
    * - ``parameters``
      - mapping
      - Conditional
-     - Type-specific inputs. **Required for** ``aws_ec2`` (see below).
+     - Type-specific inputs. Required for ``aws_ec2`` (see below).
 
 .. _ec2type-sandboxes:
 
