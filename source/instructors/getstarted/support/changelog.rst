@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**November 2025**
+
+- `[I] [10th]`: Added the option to launch :ref:`EC2 VMs using Sandboxes<ec2type-sandboxes>`. 
+
 **October 2025**
 
 - `[I] [24th]`: Pyret support has been deprecated.
@@ -29,6 +33,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2025**
 
+- `[F] [26th]`: Added :ref:`Sanboxes<sandboxes>` for teaching AWS Cloud.
 - `[I] [21st]`: The Join a Course token is now four words instead of two. 
 
 **July 2025**

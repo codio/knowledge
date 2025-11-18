@@ -13,9 +13,11 @@ Admin
 
    instructors/admin/integration/intro
    instructors/admin/organization/organisation
-   instructors/admin/orgbilling
    common/settings/settings
+   instructors/admin/sandboxes
+   instructors/admin/orgbilling
    instructors/admin/legal
+
    
 Integrating with your LMS system (Canvas etc.)
 ----------------------------------------------
