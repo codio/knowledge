@@ -13,7 +13,7 @@ Sandboxes provide time‑boxed, ephemeral **AWS Management Console environments*
 
 .. important::
 
-   **Sandboxes are not enabled by default.** They require a **signed agreement** because they **incur additional costs** for your organization. To enable Sandboxes for your organization, please **reach out to Support**.
+   **Sandboxes are not enabled by default.** They require a signed agreement because they incur additional costs for your organization. To enable Sandboxes for your organization, please reach out to Support.
 
 .. note::
 
@@ -65,7 +65,7 @@ Define sandboxes in YAML. The best starting point is using this command to get f
 
 .. code-block:: bash
 
-    git clone git@github.com:codio-content/sandboxes_examples.git .
+    git clone https://github.com/codio-content/sandboxes_examples.git .
 
 .. important::
 
