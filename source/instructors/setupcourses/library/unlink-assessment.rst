@@ -5,25 +5,39 @@
 
 Unlink an Assessment
 ====================
-If you want to modify an assessment that is in the library, you can unlink it, make your changes, and then add your own version to your organization's assessments library. Follow these steps to find the assessment you wish to modify, either:
 
-1. In the Guide Editor, click the **Edit: <Assessment Name>** button to the right of the assesment.
+To modify a library assessment, you must first unlink it from the library. After making changes, you can add your modified version to your organization's assessment library.
 
-   .. image:: /img/guides/editassessmentbutton.png
-      :alt: Edit Assessment
 
-Or 
+Unlink Process
+--------------
 
-2. Click the **Assessment** button to view the list of all assessments and click the assessment to open it.
+1. Choose one of the following methods to find the assessment you want to modify:
 
-   .. image:: /img/guides/editassessmentlist.png
-      :alt: Edit Assessment List
+.. tab-set::
 
-3. To unlink the assessment, open the assessment, 
+   .. tab-item:: From the Guide Editor
 
-4. Click **Disconnect** in the lower right corner.
+      Click the **Edit: <Assessment Name>** button to the right of the assessment.
+
+      .. image:: /img/guides/editassessmentbutton.png
+         :alt: Edit Assessment
+         :width: 450px
+
+   .. tab-item:: From the Assessment List
+
+      Click the **Assessment** button to view all assessments, then click the assessment to open it.
+
+      .. image:: /img/guides/editassessmentlist.png
+         :alt: Edit Assessment List
+
+
+2. To unlink the assessment, open the assessment, 
+
+3. Click **Disconnect** in the lower right corner.
 
    .. image:: /img/DisconnectFromlib.png
       :alt: Disconnect
+      :width: 450px
 
    A message is displayed confirming that the assessment has been successfully disconnected from the appropriate library.

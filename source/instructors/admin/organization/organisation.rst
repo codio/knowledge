@@ -18,7 +18,6 @@ Organization settings
    enable-custom-script
    grade-templates
    remove-org-members
-   create-org-library
    public-private-settings
    gigabox-usage
    delete-org
