@@ -41,6 +41,7 @@ To access the Codio Global Assessments Library, follow these steps:
    :alt: Bloom's Taxonomy
    :width: 650px
   
+
 .. list-table:: Filter Categories and Inputs
    :widths: 30 70
    :header-rows: 1
@@ -48,39 +49,35 @@ To access the Codio Global Assessments Library, follow these steps:
    * - Category
      - Available Inputs & Description
    * - Bloom's Taxonomy Level
-     - .. tab-set::
-
-          .. tab-item:: Levels I-III
-          
-             * Level I - Remembering
-             * Level II - Understanding
-             * Level III - Applying
-
-          .. tab-item:: Levels IV-VI
-          
-             * Level IV - Analyzing
-             * Level V - Evaluating
-             * Level VI - Creating
+     - Level I - Remembering
+       
+       Level II - Understanding
+       
+       Level III - Applying
+       
+       Level IV - Analyzing
+       
+       Level V - Evaluating
+       
+       Level VI - Creating
    * - Assessment Type (auto-detected)
-     - .. tab-set::
-
-          .. tab-item:: Code-Based
-          
-             * Standard Code Test 
-             * Advanced Code Test 
-             * Parsons Puzzle 
-
-          .. tab-item:: Text-Based
-          
-             * Multiple Choice 
-             * Fill in the Blanks 
-             * Free Text Autograde 
+     - Standard Code Test
+       
+       Advanced Code Test
+       
+       Parsons Puzzle
+       
+       Multiple Choice
+       
+       Fill in the Blanks
+       
+       Free Text Autograde
    * - Programming Language
      - Select the programming language for code-based assessments (e.g., Python, Java, C++, JavaScript)
    * - Category (topic-level)
-     - Broad subject area or topic category for filtering assessments (e.g., variables, functions, loops).
+     - Broad subject area or topic category for filtering assessments (e.g., variables, functions, loops)
    * - Content (sub-topic level)
-     - Specific subtopic or concept within the category (e.g., modifying variables, creating functions, nesting for loops).
+     - Specific subtopic or concept within the category (e.g., modifying variables, creating functions, nesting for loops)
    * - Learning Objective (SWBAT form)
      - Define what "Students Will Be Able To..." accomplish after completing the assessment
        
