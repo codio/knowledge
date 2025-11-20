@@ -9,7 +9,7 @@ Codio Global Assessments Library
 The Global Assessments Library is an assessment library to which all Codio users have **read-only access**. The library contains auto-graded assessment questions that cover a wide variety of topics, difficulties, and assessment types.
 
 Current Coverage
--------------------
+----------------
 
 We are currently populating it with assessments in:
 
