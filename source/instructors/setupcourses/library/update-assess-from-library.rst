@@ -29,7 +29,7 @@ To update assessments in the library, follow these steps:
 
 
 
-3. To update the assessment, open the assessment, and click **Update in Library** in the lower right corner.
+2. To update the assessment, open the assessment, and click **Update in Library** in the lower right corner.
 
    .. image:: /img/guides/UpdateInLib.png
       :alt: Update in Library

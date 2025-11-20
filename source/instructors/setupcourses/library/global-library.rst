@@ -39,6 +39,7 @@ To access the Codio Global Assessments Library, follow these steps:
 
 .. image:: /img/bloomsTax.png
    :alt: Bloom's Taxonomy
+   :width: 650px
   
 .. list-table:: Filter Categories and Inputs
    :widths: 30 70

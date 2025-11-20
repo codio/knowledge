@@ -45,6 +45,6 @@ How to Add Questions to a Library
    .. image:: /img/guides/assessment-library-selection.png
       :alt: Select Library
 
-.. note:: If you receive an error message, ensure that you have write access to your organization's assessment library. See :ref:`Create an Organization Assessments Library <org-library>` for more information.
+.. warning:: If you receive an error message, ensure that you have write access to your organization's assessment library. See :ref:`Create an Organization Assessments Library <org-library>` for more information.
 
 5. Once a question has been added, follow the steps in :ref:`Update an Existing Assessment from Library <update-library>` to update your assessment with the newly added question.

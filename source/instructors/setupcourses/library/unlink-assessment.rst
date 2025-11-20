@@ -32,7 +32,7 @@ Unlink Process
          :alt: Edit Assessment List
 
 
-2. To unlink the assessment, open the assessment, 
+2. To unlink the assessment, open the assessment. 
 
 3. Click **Disconnect** in the lower right corner.
 
