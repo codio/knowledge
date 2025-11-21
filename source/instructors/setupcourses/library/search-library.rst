@@ -5,71 +5,115 @@
 Search Assessments Library
 ==========================
 
-You search an assessment library the same whether you are using Codio's :ref:`Global Assessment Library <global-library>` or your :ref:`organization assessment library <org-library>`. Follow these steps to search a library:
+Searching an assessment library works the same way whether you're using Codio's :ref:`Global Assessment Library <global-library>` or your :ref:`organization assessment library <org-library>`. To search a library, follow these steps:
 
-1. In the Guide Editor, click the **Assessments** button and choose **Assessment** from the **Add from Library** area.
+1. From the course dashboard navigate to **Edit Assignments**. 
+
+2. Click and Open an Assignment. 
+
+3. Click **Edit**. 
+
+4. In the Guide Editor, click the **Assessments** button and choose **Assessment** from the **Add from Library** area.
  
-2. Click the **Library Name** drop-down and choose the assessments library you want to search.
+5. Click the **Library Name** drop-down and choose the assessments library you want to search.
 
    .. image:: /img/selectLib.png
       :alt: Select Library
 
-3. To narrow the assessments that are displayed, enter a tag and value pair. For example, you can search by the **Programming Language** (tag) and indicate you want **Python** (value) questions. The search is not case sensitive and Codio presents auto-complete suggestions as you type.
+
+6. To narrow the displayed assessments, enter a tag and value pair. For example, select **Programming Language** as the tag and **Python** as the value. The search is not case sensitive, and Codio provides auto-complete suggestions as you type.
 
    .. image:: /img/autoComplete.png
       :alt: Autocomplete
 
-   You can also click any of the tag fields in the results to automatically filter and add a new row (click +) to your search query. You can add as many tag:value pairs as needed to narrow your search.
    
-   .. image:: /img/doubleTags.png
-      :alt: Add Tags
+.. tab-set::
 
-   Once you have completed entering tag and value pairs, the results are displayed.
+   .. tab-item:: Filter Categories
 
-   .. image:: /img/searchResults.png
-      :alt: Search Results
+      .. list-table:: Filter Categories and Inputs
+         :widths: 30 70
+         :header-rows: 1
 
-4. Scroll through the search results using the scroll bar or use the navigation buttons in the upper portion of the page to move forward, back, or to a specific page.
+         * - Category
+           - Available Inputs & Description
+         * - Bloom's Taxonomy Level
+           - Level I - Remembering
+             
+             Level II - Understanding
+             
+             Level III - Applying
+             
+             Level IV - Analyzing
+             
+             Level V - Evaluating
+             
+             Level VI - Creating
+         * - Assessment Type (auto-detected)
+           - Standard Code Test
+             
+             Advanced Code Test
+             
+             Parsons Puzzle
+             
+             Multiple Choice
+             
+             Fill in the Blanks
+             
+             Free Text Autograde
+         * - Programming Language
+           - Select the programming language for code-based assessments (e.g., Python, Java, C++, JavaScript)
+         * - Category (topic-level)
+           - Broad subject area or topic category for filtering assessments (e.g., variables, functions, loops)
+         * - Content (sub-topic level)
+           - Specific subtopic or concept within the category (e.g., modifying variables, creating functions, nesting for loops)
+         * - Learning Objective (SWBAT form)
+           - Define what "Students Will Be Able To..." accomplish after completing the assessment
+             
+             Example: "Students will be able to implement binary search algorithms efficiently"
 
-   .. image:: /img/scrollThrough.png
-      :alt: Scroll Results
+   .. tab-item:: Using Multiple Filters
 
-5. Click an assessment to preview the question.
+      **Adding multiple filters:**
+      
+      - Click any tag field in the results to automatically add it to your search query
+      - Click the **+** button to add a new row for additional tag and value pairs
+      - Add as many tag and value pairs as needed to refine your search
 
-   .. image:: /img/previewQuestion1.png
-      :alt: Preview Question
+      .. image:: /img/doubleTags.png
+         :alt: Add Tags
 
-   If you preview a second question, the first preview collapses.
+      The results update automatically based on your selected filters.
 
-   .. image:: /img/previewQuestion2.png
-      :alt: Preview Collapsed
+      .. image:: /img/searchResults.png
+         :alt: Search Results
 
-Saving searches
----------------
-If you want to save search parameters, follow these steps:
 
-1. Click the **Save** button to the right of the tags and values.
+Managing Saved Searches
+-----------------------
 
-   .. image:  /img/doubleTags2.png
-      :alt: Save Search
+.. tab-set::
 
-2. On the **Save Search** dialog, enter a **Search Name** and click **OK**.
+   .. tab-item:: Saving Searches
 
-   .. image:: /img/nameSearch.png
-      :alt: Search Name
+      If you want to save search parameters, follow these steps:
 
-Using saved searches
---------------------
-To use a saved search, click the **Saved** drop-down list and choose the saved search.
+      1. Click the **Save** button to the right of the tags and values.
 
-    .. image: /img/savedSearch.png
-       :alt: Use Saved Search
+      2. On the **Save Search** dialog, enter a **Search Name** and click **OK**.
 
-You can edit these search parameters  without changing your saved search.
+         .. image:: /img/nameSearch.png
+            :alt: Search Name
 
-Delete saved searches
----------------------
-To remove a saved search, click the **Saved** drop-down list and click the red **x** to the name.
+   .. tab-item:: Using Saved Searches
 
-    .. image:: /img/savedSearchDelete.png
-       :alt: Delete Saved Search
+      To use a saved search, click the **Saved** drop-down list and choose the saved search.
+
+      You can edit these search parameters without changing your saved search.
+
+   .. tab-item:: Deleting Saved Searches
+
+      To remove a saved search, click the **Saved** drop-down list and click the red **x** next to the name.
+
+      .. image:: /img/savedSearchDelete.png
+         :alt: Delete Saved Search

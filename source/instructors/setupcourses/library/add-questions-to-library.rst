@@ -3,27 +3,37 @@
    
 .. _add-questions-to-library:
 
-Add Questions to an Assessments Library
-=======================================
-Once an assessment is added to an assessment library, it can be accessed later and added to a project or course. 
+Add Questions to an Assessment Library
+======================================
 
-**Prerequisite:**
-Before you can add questions to an assessment library, an Admin in your organization must create an organization assessments library. See :ref:`Create an Organization Assessments Library <org-library>` for more information.
+You can add assessments to a library to reuse them across multiple projects and courses.
 
-Follow these steps to add questions to your assessments library:
 
-1. Create the assessment (see :ref:`Add a New Assessment <add-assessment>`) for the assignment and be sure to keep the following in mind:
+.. important:: Before you can add questions to an assessment library, an Admin in your organization must create an organization assessments library. See :ref:`Create an Organization Assessments Library <org-library>` for more information.
 
-  - Assessments on pages set to the :ref:`*1 Panel without tree* layout <layout>` are saved with a :ref:`simple layout <add-questions-from-library>`.
+How to Add Questions to a Library
+---------------------------------
 
-  - Use the **Metadata** tab to tag your assessment so it appears when the :ref:`searching the assessments library <search-library>`.
+1. Create the assessment (see :ref:`Add a New Assessment <add-assessment>`). Keep the following in mind:
 
-  - Use the **Files** tab to ensure all dependent files, such as grading scripts, images used in the guides pane, etc. are associated with the assessment so it works properly when added from the library.
+   **Layout considerations:**
+   
+   - Assessments on pages using the :ref:`1 Panel without tree layout <layout>` are saved with a :ref:`simple layout <add-questions-from-library>`.
+
+   **Tagging for searchability:**
+   
+   - Use the **Metadata** tab to tag your assessment so it appears when :ref:`searching the assessments library <search-library>`.
+
+   **Including dependencies:**
+   
+   - Use the **Files** tab to include all dependent files (grading scripts, images, etc.) so the assessment works properly when added from the library.
+
 
 2. Once the assessment is created, click **Save in Library** in the lower right corner on the assessment page.
    
    .. image:: /img/guides/assessment-save-to-library.png
       :alt: Save in Library
+      :width: 450px
 
 3. On the **Select Library** dialog, choose the library from the drop-down list.
 
@@ -35,6 +45,6 @@ Follow these steps to add questions to your assessments library:
    .. image:: /img/guides/assessment-library-selection.png
       :alt: Select Library
 
-   If you receive an error message, ensure that you have write access to your organization's assessment library. See :ref:`Create an Organization Assessments Library <org-library>` for more information.
+.. warning:: If you receive an error message, ensure that you have write access to your organization's assessment library. See :ref:`Create an Organization Assessments Library <org-library>` for more information.
 
 5. Once a question has been added, follow the steps in :ref:`Update an Existing Assessment from Library <update-library>` to update your assessment with the newly added question.
