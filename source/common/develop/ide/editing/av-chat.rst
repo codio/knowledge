@@ -3,50 +3,74 @@
 
 .. _av-chat:
 
-Audio Video Chat
+
+Audio/Video Chat
 ================
 
+Overview
+--------
 
-When accessing another users project (where :ref:`permissions <project-permissions>` have been granted by the project owner or for teachers viewing the students assignment, a **Call** button will show allowing Audio/Video calls and or real time chat.
+When viewing another user's project, a **Call** button will appear if your organization has enabled A/V calling. This feature allows you to:
 
+* Initiate audio/video calls
+* Engage in real-time chat
+* Collaborate directly with other users
 
 .. image:: /img/monitor_students/call.png
-   :alt: Audio Video
-   
-Hide A/V calls
---------------
+   :alt: Audio/Video call button
+   :align: center
 
-If you wish to disable A/V calls, organization owners can do this in the organization settings area. See :ref:`Hide A/V Calls <hideav>` for more information
+|
 
 .. _permissions:
 
-Permissions
------------
+Setting Up Permissions
+----------------------
 
-Permission for your camera/microphone is required and your browser will prompt you to allow.Permission
+Camera and microphone access is required for A/V calls. Your browser will prompt you to allow access when you first use this feature.
 
-If permission has been denied, you can re enable in your browser
+**If you previously denied permission**, follow the browser-specific instructions below to re-enable access.
 
-Google Chrome:
-**************
+Enabling Permissions by Browser
+********************************
 
-If you are using Google Chrome you can access your settings through the padlock icon in the top left of your screen, next to the URL of the page you are currently on.
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
 
-Click Site settings and make sure your camera and microphone both say Allow
+   * - Browser
+     - Steps to Enable Permissions
+   * - **Google Chrome**
+     - 1. Click the settings icon in the address bar
+       
+       2. Select **Site settings**
+       
+       3. Set both **Camera** and **Microphone** to **Allow**
+   * - **Firefox**
+     - 1. Click **Firefox** in the top menu bar
+       
+       2. Select **Preferences** (or **Settings** on Windows/Linux)
+       
+       3. Use the search bar to find "permissions"
+       
+       4. Adjust **Microphone** and **Camera** permissions to **Allow**
+       
+       5. `View detailed instructions for Firefox <https://support.mozilla.org/en-US/kb/site-permissions-panel>`_
+   * - **Safari**
+     - 1. Click **Safari** > **Settings** in the menu bar
+       
+       2. Navigate to the **Websites** tab
+       
+       3. Update **Camera** and **Microphone** settings
+       
+       4. `View detailed instructions for Safari <https://support.apple.com/en-nz/guide/safari/ibrwe2159f50/mac>`_
 
-Firefox:
-********
-If you are using Firefox as your internet browser you can access your settings through the padlock icon in the address bar when visiting a site, then adjust the permissions for the microphone and camera.
-
-For more detailed instructions, visit the following link:
-
-https://support.mozilla.org/en-US/kb/site-permissions-panel
 
 
-Safari:
-*******
-If you are using Safari, you can access your browser settings by clicking Safari and then Preferences. 
+Disabling A/V Calls (Organization Owners)
+------------------------------------------
 
-You will see a pop up box and can update your settings. Learn more about how to update the settings through the following link:
+Organization owners can disable A/V calling for their entire organization through the organization settings. See :ref:`Hide A/V Calls <hideav>` for more information.
 
-https://support.apple.com/en-nz/guide/safari/ibrwe2159f50/mac
+.. note::
+   Only organization owners have permission to modify this setting.       
