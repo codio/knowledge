@@ -41,7 +41,7 @@ Enabling Permissions by Browser
    * - Browser
      - Steps to Enable Permissions
    * - **Google Chrome**
-     - 1. Click the settings icon in the address bar
+     - 1. Click the lock or site controls icon next to the URL in the address bar
        
        2. Select **Site settings**
        
