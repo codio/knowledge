@@ -120,7 +120,7 @@ To display a header or title, you can use the `#` character at the start of the 
 Bold and Italic
 ^^^^^^^^^^^^^^^
 
-To create bold or italic text, you use `**` and `*` either side of the respective words.
+To create bold or italic text, you use `**` and `*` either side of the text.
 
 .. code:: markdown
 
@@ -208,7 +208,7 @@ Code blocks automatically include a 'copy to clipboard' button, allowing student
    :alt: copy to clipboard
 
 
-If you wish to suppress the 'copy to clipboard' button in the code block, append ```-hide-clipboard``` to the first line
+If you wish to suppress the 'copy to clipboard' button in the code block, append ```-hide-clipboard``` to the first line.
 
 Example
 
@@ -258,7 +258,7 @@ The example above will render:
 Callout Blocks
 ^^^^^^^^^^^^^^
 
-If you want to show a callout block a number of options are available and others can be easily added if required.
+If you want to show a callout block, a number of options are available and others can be easily added if required.
 
 Available callout types:
 
@@ -284,7 +284,7 @@ Available callout types:
      -
 
 
-e.g.
+For example:
 
 .. code:: markdown
 
@@ -339,15 +339,13 @@ The example above will render:
 
 
 
-Inline math equations are encapsulated in a single `$` like this: $\omega = d\phi / dt$. :ref:`Click here <latex>` for more details on Latex and Mathjax.
+Inline math equations are encapsulated in a single `$` like this: $\omega = d\phi / dt$. :ref:`For more information on LaTeX and MathJax <latex>`.
 
 
 Collapsible Content
 ^^^^^^^^^^^^^^^^^^^
 
-In writing content, it is sometimes useful to provide information for the student, but to keep it hidden until they are ready.
-
-This can be achieved with collapsible content and the `<details> <summary>` elements. The content is treated as HTML and as such a mix of HTML and Markdown can be required.
+Collapsible content is useful for providing information that students can reveal when ready. Use the <details> <summary> HTML elements, which may require mixing HTML and Markdown syntax.
 
 .. Note::
 
