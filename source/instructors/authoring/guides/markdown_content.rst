@@ -6,8 +6,6 @@
 Content Editing
 ===============
 
-**Writing Content**
-
 Content can be written in Markdown, a lightweight markup language for adding formatting to plaintext documents. See below for more details.
 
 **Selecting Sections in Edit Mode**
@@ -21,14 +19,13 @@ To select a section while editing:
    :alt: editnav
 
 
-Editing Your Section
-********************
-
-**Renaming**
+Renaming the Section
+--------------------
 
 To rename your section, click on the section title in the header area.
 
-**Writing Content**
+Writing Content
+---------------
 
 Write content in the main content area.
 
@@ -45,7 +42,7 @@ Set hotkeys for commonly used editing functions:
 For more information, see the **[guides]** area in :ref:`User Preferences <user-prefs>`.
 
 Custom CSS
-**********
+----------
 
 Your content in Play Mode or preview matches the student view exactly.
 
@@ -60,8 +57,10 @@ For instructions on inserting :ref:`images, videos and hyperlinks <add-media>`, 
 
 .. _setting_course_level_custom_css:
 
+
 Setting Course Level Custom CSS
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 You can now apply custom CSS at the **course level**, eliminating the need to apply CSS to each assignment individually. This can be configured by adding CSS URLs in the **Course Details** section.
 
@@ -91,7 +90,7 @@ To configure this, follow these steps:
 
 
 Markdown
-********
+--------
 
 An editor ribbon is available to help you create markdown content, including Codio-specific buttons for :ref:`opening and closing content <open-close>` within Guides.
 
@@ -105,7 +104,7 @@ Basic Formatting
 ----------------
 
 Headers/Titles
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
 To display a header or title, you can use the `#` character at the start of the line. The more `#` characters you add, the smaller the font.
 
@@ -118,7 +117,7 @@ To display a header or title, you can use the `#` character at the start of the 
 
 
 Bold and Italic
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~
 
 To create bold or italic text, you use `**` and `*` either side of the text.
 
@@ -130,43 +129,34 @@ To create bold or italic text, you use `**` and `*` either side of the text.
 
 
 Lists
-^^^^^
+~~~~~
 
-.. tabs::
+.. list-table:: Lists
+   :header-rows: 1
+   :widths: 20 40 40
 
-   .. tab:: Bullet Lists
-
-      To create a list of bullet points, start each line with a ``-``
-
-      **Syntax:**
-
-      .. code:: markdown
+   * - List Type
+     - Description
+     - Syntax
+   * - Bullet Lists
+     - To create a list of bullet points, start each line with a ``-``
+     - .. code:: markdown
 
           - Bullet 1
           - Bullet 2
           - Bullet 3
           - etc
-
-   .. tab:: Numbered Lists
-
-      To create a numbered list, start each line with ``1.`` The numbers are automatically calculated for you.
-
-      **Syntax:**
-
-      .. code:: markdown
+   * - Numbered Lists
+     - To create a numbered list, start each line with ``1.`` The numbers are automatically calculated for you.
+     - .. code:: markdown
 
           1. Item 1
           1. Item 2
           1. Item 3
           1. etc
-
-   .. tab:: Indented Lists
-
-      To indent a list, add 2 spaces before each line.
-
-      **Syntax:**
-
-      .. code:: markdown
+   * - Indented Lists
+     - To indent a list, add 2 spaces before each line.
+     - .. code:: markdown
 
             - Bullet 1
             - Bullet 2
@@ -175,7 +165,7 @@ Lists
 
 
 Code Blocks
-^^^^^^^^^^^
+-----------
 
 Code blocks display syntax-highlighted code in a formatted box. To create one, wrap your code between two lines of three backticks. Here is an example using Javascript.
 
@@ -200,7 +190,8 @@ is created using:
 
 The opening backticks should include a language identifier (e.g., ``js``, ``python``) for proper syntax highlighting. Many languages are supported. See a full list of supported languages `here <https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>`_. 
 
-**Copy to Clipboard Feature**
+Copy to Clipboard Feature
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Code blocks automatically include a 'copy to clipboard' button, allowing students to easily copy code for use in assignments.
 
@@ -218,7 +209,7 @@ Example
 
 
 Code Segments
-^^^^^^^^^^^^^
+-------------
 
 If you want to insert a piece of code inline with the rest of your text, then you use a single \` (backtick) character either side of the text. For example,
 
@@ -236,7 +227,7 @@ We can define a variable \`var x;\` if we like
 .. _math-blocks:
 
 Math Blocks
-^^^^^^^^^^^
+-----------
 
 Display mathematical formulas and equations using LaTeX syntax in math blocks. To add mathematical expressions, you can use the `math` block as follows:
 
@@ -253,35 +244,18 @@ The example above will render:
     :width: 60%
     :align: center
 
-
+.. important:: 
+   
+   Math blocks do not include a clipboard icon for copying content.
 
 Callout Blocks
-^^^^^^^^^^^^^^
+--------------
 
-If you want to show a callout block, a number of options are available and others can be easily added if required.
+If you want to show a callout block, a number of options are available.
 
 Available callout types:
 
-.. list-table::
-   :widths: 25 25 25 25
-   :class: compact-list
-
-   * - ``important``
-     - ``info``
-     - ``warning``
-     - ``topic``
-   * - ``definition``
-     - ``challenge``
-     - ``guidance``
-     - ``meetup``
-   * - ``hackathon``
-     - ``create``
-     - ``calendar``
-     - ``growthhack``
-   * - ``xdiscipline``
-     - ``debugging``
-     - 
-     -
+``important``, ``info``, ``warning``, ``topic``, ``definition``, ``challenge``, ``guidance``, ``meetup``, ``hackathon``, ``create``, ``calendar``, ``growthhack``, ``xdiscipline``, ``debugging``
 
 
 For example:
@@ -305,26 +279,41 @@ For example:
 
 
 Hyperlinks, Images, Videos & iframes
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------------
 
 For detailed instructions on adding hyperlinks, images, videos, and iframes, see :ref:`Adding Media <add-media>`.
 
 
 HTML
-^^^^
+----
 Include HTML tags directly in your content for additional formatting and functionality.
 
 
-Latex / MathJax
-^^^^^^^^^^^^^^^
 
-Latex is supported using `MathJax <http://www.mathjax.org/>`_. For example
+Latex / MathJax
+---------------
+
+Latex is supported using `MathJax <http://www.mathjax.org/>`_.
+
+**Inline Math**
+
+Use single ``$`` symbols to wrap inline equations:
 
 .. code:: markdown
 
-    When $a \ne 0$ there are two solutions to $(ax^2 + bx + c = 0)$ and they are $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+    When $a \ne 0$ there are two solutions to $(ax^2 + bx + c = 0)$
 
-    and for multiple lines we do the following
+The example above will render:
+
+.. image:: /img/guides/inlinemath.png
+   :alt: MathJax
+   :width: 450px
+
+**Multi-line Math**
+
+Use double ``$$`` symbols for multi-line equations:
+
+.. code:: markdown
 
     $$
     y=x^2
@@ -333,17 +322,18 @@ Latex is supported using `MathJax <http://www.mathjax.org/>`_. For example
 
 The example above will render:
 
-.. image:: /img/guides/mathjax.png
+.. image:: /img/guides/multilinemath.png
    :alt: MathJax
    :width: 450px
 
+:ref:`For more information on LaTeX and MathJax <latex>`.
 
 
-Inline math equations are encapsulated in a single `$` like this: $\omega = d\phi / dt$. :ref:`For more information on LaTeX and MathJax <latex>`.
+
 
 
 Collapsible Content
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 Collapsible content is useful for providing information that students can reveal when ready. Use the <details> <summary> HTML elements, which may require mixing HTML and Markdown syntax.
 
