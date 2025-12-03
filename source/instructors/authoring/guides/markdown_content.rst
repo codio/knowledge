@@ -34,7 +34,7 @@ Write content in the main content area.
 
 **Editing Hotkeys**
 
-You can set hotkeys for commonly used editing functions:
+Set hotkeys for commonly used editing functions:
 
 - Bold selected text
 - Enumerate selected text
@@ -47,7 +47,7 @@ For more information, see the **[guides]** area in :ref:`User Preferences <user-
 Custom CSS
 **********
 
-In Play Mode or while previewing, your content appears exactly as students will see it. 
+Your content in Play Mode or preview matches the student view exactly.
 
 To customize the default CSS styling, navigate to **Tools → Guide → Add Custom CSS**.
 
@@ -198,7 +198,7 @@ is created using:
     // your code...
     ```
 
-The opening backticks should include a language identifier (e.g., ``js``, ``python``) for proper syntax highlighting. Many languages are supported. See a full list of supported languages `here <https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>`_. You should search for your language and then use the `alias` shown.
+The opening backticks should include a language identifier (e.g., ``js``, ``python``) for proper syntax highlighting. Many languages are supported. See a full list of supported languages `here <https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>`_. 
 
 **Copy to Clipboard Feature**
 
@@ -312,7 +312,7 @@ For detailed instructions on adding hyperlinks, images, videos, and iframes, see
 
 HTML
 ^^^^
-You can include HTML tags directly in your content for additional formatting and functionality.
+Include HTML tags directly in your content for additional formatting and functionality.
 
 
 Latex / MathJax
