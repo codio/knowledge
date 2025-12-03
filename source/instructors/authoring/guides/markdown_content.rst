@@ -3,55 +3,60 @@
 
 .. _markdown-content-editing:
 
-Content editing
+Content Editing
 ===============
 
-Content can be written in
+**Writing Content**
 
-- **Markdown** - Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. More information below.
+Content can be written in Markdown, a lightweight markup language for adding formatting to plaintext documents. See below for more details.
+
+**Selecting Sections in Edit Mode**
+
+To select a section while editing:
+
+- Use the navigation buttons in the header area
+- Choose a section from the index list
+
+.. image:: /img/guides/editnav.png
+   :alt: editnav
 
 
-When you are in edit mode, you can select a section by
-
-- using the navigation buttons in the header area
-- selecting a section from the index list
-
-  .. image:: /img/guides/editnav.png
-     :alt: editnav
-
-
-
-
-Renaming the Section
+Editing Your Section
 ********************
-Rename your section by clicking on the section title in the header area.
 
-Writing content
-***************
+**Renaming**
+
+To rename your section, click on the section title in the header area.
+
+**Writing Content**
+
 Write content in the main content area.
 
-You can also set hotkeys for a range of commonly used editing functions. 
+**Editing Hotkeys**
+
+You can set hotkeys for commonly used editing functions:
 
 - Bold selected text
 - Enumerate selected text
 - Order selected text
 - Make selected text as a code block
-- Command button 
+- Command button
 
-See the **[guides]** area in the :ref:`User Preferences <user-prefs>`
+For more information, see the **[guides]** area in :ref:`User Preferences <user-prefs>`.
 
 Custom CSS
 **********
 
-In Play Mode or as you preview, your content is rendered as students will see it. You can override the default CSS styling by accessing **Tools->Guide->Add Custom CSS**
+In Play Mode or while previewing, your content appears exactly as students will see it. 
+
+To customize the default CSS styling, navigate to **Tools → Guide → Add Custom CSS**.
 
   .. image:: /img/guides/guidecss.png
      :alt: Guide CSS
 
+To restore the default CSS styling, select **Reset Custom CSS**.
 
-'Reset Custom CSS' will restore the default CSS styling
-
-Click here for details on how to insert :ref:`images, videos and hyperlinks <add-media>`.
+For instructions on inserting :ref:`images, videos and hyperlinks <add-media>`, see the media guide.
 
 .. _setting_course_level_custom_css:
 
@@ -62,7 +67,7 @@ You can now apply custom CSS at the **course level**, eliminating the need to ap
 
 To configure this, follow these steps:
 
-1. Click on **Courses** from the left navigation menu.
+1. Click on **Courses** from the top navigation menu.
 2. Select the course you want to edit.
 3. Click **Course Details**.
 4. Add the URLs in the following fields:
@@ -70,31 +75,38 @@ To configure this, follow these steps:
   .. image:: /img/Guide_Custom_CSS.png
      :alt: Guide Custom CSS
 
+.. list-table::
+   :widths: 25 75
+   :header-rows: 1
 
-- **Override Guides CSS URL:**
+   * - CSS Option
+     - Description
+   * - **Override Guides CSS URL**
+     - This URL completely replaces Codio's default CSS. If a URL is provided, Codio's default CSS will be ignored, and the CSS from the specified URL will be used.
+   * - **Extra Guides CSS URL**
+     - This URL adds additional CSS on top of Codio's default styles. It enhances or customizes the existing Codio CSS without removing it.
 
-  - This URL completely replaces Codio's default CSS.  
-  - If a URL is provided, Codio’s default CSS will be ignored, and the CSS from the specified URL will be used.
-
-- **Extra Guides CSS URL:**  
-
-  - This URL adds additional CSS on top of Codio’s default styles.  
-  - It enhances or customizes the existing Codio CSS without removing it.
 
 5. Click **Save** to apply the changes.
+
 
 Markdown
 ********
 
-To assist with your creation of markdown content, an editor ribbon is available, including Codio specific buttons to :ref:`open/close content <open-close>` within Guides.
+An editor ribbon is available to help you create markdown content, including Codio-specific buttons for :ref:`opening and closing content <open-close>` within Guides.
 
   .. image:: /img/guides/editor-ribbon.png
      :alt: Markdown Editor Ribbon
 
-If you prefer to write markdown yourself, a summary of formatting codes:
+For those who prefer to write markdown manually, here's a summary of formatting codes:
+
+
+Basic Formatting
+----------------
 
 Headers/Titles
-**************
+^^^^^^^^^^^^^^
+
 To display a header or title, you can use the `#` character at the start of the line. The more `#` characters you add, the smaller the font.
 
 .. code:: markdown
@@ -106,7 +118,8 @@ To display a header or title, you can use the `#` character at the start of the 
 
 
 Bold and Italic
-***************
+^^^^^^^^^^^^^^^
+
 To create bold or italic text, you use `**` and `*` either side of the respective words.
 
 .. code:: markdown
@@ -115,32 +128,59 @@ To create bold or italic text, you use `**` and `*` either side of the respectiv
     I *really* like chocolate
 
 
-Bullet Lists
-************
-To create a list of bullet points, you start the line with a `-`
 
-.. code:: markdown
+Lists
+^^^^^
 
-    - Bullet 1
-    - Bullet 2
-    - Bullet 3
-    - etc
+.. tabs::
 
+   .. tab:: Bullet Lists
 
-Numbered Lists
-**************
-To create a numbered list, you start the line with a `1.` The numbers are automatically calculated for you.
+      To create a list of bullet points, start each line with a ``-``
 
-.. code:: markdown
+      **Syntax:**
 
-    1. Item 1
-    1. Item 2
-    1. Item 3
-    1. etc
+      .. code:: markdown
+
+          - Bullet 1
+          - Bullet 2
+          - Bullet 3
+          - etc
+
+   .. tab:: Numbered Lists
+
+      To create a numbered list, start each line with ``1.`` The numbers are automatically calculated for you.
+
+      **Syntax:**
+
+      .. code:: markdown
+
+          1. Item 1
+          1. Item 2
+          1. Item 3
+          1. etc
+
+   .. tab:: Indented Lists
+
+      To indent a list, add 2 spaces before each line.
+
+      **Syntax:**
+
+      .. code:: markdown
+
+            - Bullet 1
+            - Bullet 2
+            - Bullet 3
+            - etc
+
 
 Code Blocks
-***********
-If you want to show code in a box with syntax highlighting, surround it with three backticks. For example, the following JavaScript snippet:
+^^^^^^^^^^^
+
+Code blocks display syntax-highlighted code in a formatted box. To create one, wrap your code between two lines of three backticks. Here is an example using Javascript.
+
+
+This JavaScript code:
 
 .. code:: javascript
 
@@ -150,7 +190,7 @@ If you want to show code in a box with syntax highlighting, surround it with thr
     }
 
 
-is written with the first line as
+is created using:
 
 .. code:: markdown
 
@@ -158,27 +198,28 @@ is written with the first line as
     // your code...
     ```
 
-then your code, and the last line as three backticks.
+The opening backticks should include a language identifier (e.g., ``js``, ``python``) for proper syntax highlighting. Many languages are supported. See a full list of supported languages `here <https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>`_. You should search for your language and then use the `alias` shown.
 
+**Copy to Clipboard Feature**
 
-Note that you can specify a language type after the top 3 back ticks. Entering `python` after the backticks would apply syntax highlighting for python. Many languages are supported. See a full list of supported languages `here <https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>`_. You should search for your language and then use the `alias` shown.
+Code blocks automatically include a 'copy to clipboard' button, allowing students to easily copy code for use in assignments.
 
-The Code block also includes a 'copy to clipboard' button to allow students to easily copy the code to their clipboard where you may want them to run this code in the assignment
-
-  .. image:: /img/guides/copyclipboard.png
-     :alt: copy to clipboard
+.. image:: /img/guides/copyclipboard.png
+   :alt: copy to clipboard
 
 
 If you wish to suppress the 'copy to clipboard' button in the code block, append ```-hide-clipboard``` to the first line
 
 Example
 
- .. image:: /img/guides/hideclipboard.png
-     :alt: hide copy to clipboard
+.. image:: /img/guides/hideclipboard.png
+   :alt: hide copy to clipboard
+
 
 
 Code Segments
-*************
+^^^^^^^^^^^^^
+
 If you want to insert a piece of code inline with the rest of your text, then you use a single \` (backtick) character either side of the text. For example,
 
 We can define a variable `var x;` if we like
@@ -187,12 +228,17 @@ We can define a variable `var x;` if we like
 
 We can define a variable \`var x;\` if we like
 
+.. note::
+   For multi-line code or longer snippets, use code blocks instead (see Code Blocks section).
+
+
+
 .. _math-blocks:
 
 Math Blocks
-*************
+^^^^^^^^^^^
 
-To add mathematical expressions, you can use the `math` block as follows:
+Display mathematical formulas and equations using LaTeX syntax in math blocks. To add mathematical expressions, you can use the `math` block as follows:
 
 .. code:: markdown
 
@@ -207,36 +253,36 @@ The example above will render:
     :width: 60%
     :align: center
 
-Indented Lists
-**************
-If you want to indent a list, then indent just 2 spaces and it will indent.
-
-.. code:: markdown
-
-      - Bullet 1
-      - Bullet 2
-      - Bullet 3
-      - etc
 
 
 Callout Blocks
-**************
-If you want to show a callout block a number of options are available and others can be easily added if required
+^^^^^^^^^^^^^^
 
-  - important
-  - info
-  - warning
-  - topic
-  - definition
-  - challenge
-  - guidance
-  - meetup
-  - hackathon
-  - create
-  - calendar
-  - growthhack
-  - xdiscipline
-  - debugging
+If you want to show a callout block a number of options are available and others can be easily added if required.
+
+Available callout types:
+
+.. list-table::
+   :widths: 25 25 25 25
+   :class: compact-list
+
+   * - ``important``
+     - ``info``
+     - ``warning``
+     - ``topic``
+   * - ``definition``
+     - ``challenge``
+     - ``guidance``
+     - ``meetup``
+   * - ``hackathon``
+     - ``create``
+     - ``calendar``
+     - ``growthhack``
+   * - ``xdiscipline``
+     - ``debugging``
+     - 
+     -
+
 
 e.g.
 
@@ -249,26 +295,28 @@ e.g.
 
     |||
 
-  .. image:: /img/guides/callout_info.png
-     :alt: calloutinfo
+.. image:: /img/guides/callout_info.png
+   :alt: calloutinfo
 
 
 
 
-The **Guidance** callout block is only visible in play mode to designated teachers within a course. It is not visible for students.
+.. note:: The **Guidance** callout block is only visible in play mode to designated teachers within a course. It is not visible for students.
 
 
 Hyperlinks, Images, Videos & iframes
-************************************
-We describe these in :ref:`this section <add-media>`.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For detailed instructions on adding hyperlinks, images, videos, and iframes, see :ref:`Adding Media <add-media>`.
+
 
 HTML
-****
-You can include HTML tags
+^^^^
+You can include HTML tags directly in your content for additional formatting and functionality.
 
 
 Latex / MathJax
-***************
+^^^^^^^^^^^^^^^
 
 Latex is supported using `MathJax <http://www.mathjax.org/>`_. For example
 
@@ -283,18 +331,20 @@ Latex is supported using `MathJax <http://www.mathjax.org/>`_. For example
     y=\frac{x^2}{x+1}
     $$
 
+The example above will render:
 
-:ref:`Click here <latex>` for more details on Latex and Mathjax.
-
-  .. image:: /img/guides/mathjax.png
-     :alt: MathJax
-
+.. image:: /img/guides/mathjax.png
+   :alt: MathJax
+   :width: 450px
 
 
-Inline math equations are encapsulated in a single `$` like this: $\omega = d\phi / dt$.
+
+Inline math equations are encapsulated in a single `$` like this: $\omega = d\phi / dt$. :ref:`Click here <latex>` for more details on Latex and Mathjax.
+
 
 Collapsible Content
-*******************
+^^^^^^^^^^^^^^^^^^^
+
 In writing content, it is sometimes useful to provide information for the student, but to keep it hidden until they are ready.
 
 This can be achieved with collapsible content and the `<details> <summary>` elements. The content is treated as HTML and as such a mix of HTML and Markdown can be required.
@@ -308,7 +358,7 @@ This can be achieved with collapsible content and the `<details> <summary>` elem
   - If you want the content to show by default, use `<details  open>`.
 
 Example
--------
+"""""""
 
 .. image:: /img/guides/collapsible.png
     :alt: Collapsible content
@@ -319,7 +369,7 @@ The following is the code used to create the image above. Three code blocks are 
 
 .. code:: markdown
 
-    ###Example Collapsible Content
+    ## Example Collapsible Content
 
     <details><summary>
         There are some <b>Special Numeric Values</b> which are part of the number data type. For each of the variables <code>a</code> <code>b</code>and <code>c</code> print out their data types and values.
@@ -345,6 +395,17 @@ The following is the code used to create the image above. Three code blocks are 
     ```
 
     </details>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
