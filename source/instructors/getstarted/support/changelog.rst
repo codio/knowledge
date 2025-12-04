@@ -29,8 +29,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2025**
 
-- `[I] [29th]`: Option added to display expected answer and Rationale when grades have been released.
 - `[F] [30th]`: Add Ability to :ref:`restrict IP addresses <exam-proctoring>`
+- `[I] [29th]`: Option added to display expected answer and Rationale when grades have been released.
 
 **August 2025**
 
