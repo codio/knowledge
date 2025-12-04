@@ -20,7 +20,7 @@ The regrade request option will be available to students only after their assign
 Once a student requests a regrade, all teachers in the course will receive a notification email by default. If you don't want all teachers to receive these emails, you can turn off notifications or customize recipients in the **Grading/Basic Settings** tab. Regrade requests will also appear in the grading queue and on the assignment progress page.
 
 .. image:: /img/regrade-request-on-progress.png
-   :alt: Regrade request showing on Prograss page
+   :alt: Regrade request showing on Progress page
 
 Click on it to open the grading dialog and see the regrade request with the student's message from the **Regrade Request** section.
 
@@ -31,6 +31,6 @@ From this grading dialog you can:
 
 - Open the student's project involved using the **Open Project** button
 - **Override Grade** of the student (once you override the grade, the regrade request will be automatically removed)
-- **Reject** the regrade request with a message for student 
+- **Reject** the regrade request with a message for the student
 
 .. note:: If you have enabled resubmission after marking as complete, students will automatically be prompted to submit a regrade request when they resubmit and mark their work as completed.
