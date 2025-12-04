@@ -27,10 +27,10 @@ Click on it to open the grading dialog and see the regrade request with the stud
 .. image:: /img/regrade-request-grade-dialog.png
    :alt: Grade Dialog
 
-From this grading dialog you can: 
+From this grading dialog, you can: 
 
-- Open the student's project involved using the **Open Project** button
+- Open the student's project using the **Open Project** button
 - **Override Grade** of the student (once you override the grade, the regrade request will be automatically removed)
 - **Reject** the regrade request with a message for the student
 
-.. note:: If you have enabled resubmission after marking as complete, students will automatically be prompted to submit a regrade request when they resubmit and mark their work as completed.
+.. note:: If you have enabled resubmission after marking as complete, students will automatically be prompted to request a regrade when they resubmit their work.
