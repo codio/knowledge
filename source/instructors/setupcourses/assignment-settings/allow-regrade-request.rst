@@ -33,4 +33,4 @@ From this grading dialog, you can:
 - **Override Grade** of the student (once you override the grade, the regrade request will be automatically removed)
 - **Reject** the regrade request with a message for the student
 
-.. note:: If you have enabled resubmission after marking as complete, students will automatically be prompted to request a regrade when they resubmit their work.
+.. note:: If you have enabled resubmission after marking as complete, students will have the option to request a regrade when they resubmit their work.
