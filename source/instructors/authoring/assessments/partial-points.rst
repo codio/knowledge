@@ -9,7 +9,7 @@ You can award partial points for student assessments in your testing scripts. Us
 
 Feedback for Partial Points
 ---------------------------
-In addition to the red **x** and green **checkmark** indicators for correctness there is a third indicator that displays when the student gets only a portion of the available points, an orange **percent** sign.
+In addition to the **red x** and **green checkmark** indicators for correctness there is a third indicator that displays when the student receives partial points, an orange **percent** sign.
 
 .. image:: /img/guides/indicators.png
    :alt: Indicators for assessment correctness

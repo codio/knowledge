@@ -22,7 +22,7 @@ The Exam Proctoring settings are used to enable various options for exam assignm
   .. image:: /img/extendtime.png
      :alt: Extend Time
 
-  You can easily see which students have an extension for the assignment when you view the dashboard for that assignment. In the image below the student had an extra 60 minutes to complete the assignment.
+  You can easily see which students have an extension for the assignment when you view the dashboard for that assignment. In the image below, the student has an extra 60 minutes to complete the assignment.
 
   .. image:: /img/assignmentsettings/extendedtime.png
      :alt: Image of indicator showing the student has an extra 60 minutes to complete the assignment.
@@ -54,7 +54,7 @@ The Exam Proctoring settings are used to enable various options for exam assignm
 
   On the **Students** tab in the course, click the menu icon (3 horizontal dots) and choose **Reset Single Login**.
 
-- **Restrict IP Addresses** - You must enable **Single Login** (see above) first to use this. Once **Restrict IP Addresses** is enabled you can enter the allowed **Public** IP ranges. Each IP address should be on a separate line and you can specify a subnet as depicted below. Students will only be able to open the assignment if their IP matches the specification.
+- **Restrict IP Addresses** - You must enable **Single Login** (see above) first to use this. Once **Restrict IP Addresses** is enabled, you can enter the allowed **Public** IPs and IP ranges. Each IP address should be on a separate line and you can specify a subnet as depicted below. Students will only be able to open the assignment if their IP matches the specification.
 
   .. image:: /img/assignmentsettings/restrictip.png
      :alt: Restrict Allowable IP addresses for an assignment
