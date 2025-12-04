@@ -7,7 +7,12 @@ Partial Points
 ==============
 You can award partial points for student assessments in your testing scripts. Use the following Bash and Python grading scripts to enable partial points. You must toggle **Allow Partial Points** on in the **Grading** section of the Advanced Code Test dialog.
 
+Feedback for Partial Points
+---------------------------
+In addition to the red **x** and green **checkmark** indicators for correctness there is a third indicator that displays when the student gets only a portion of the available points, an orange **percent** sign.
 
+.. image:: /img/guides/indicators.png
+   :alt: Indicators for assessment correctness
 
 Autograding Enhancements for Partial Points
 -------------------------------------------
