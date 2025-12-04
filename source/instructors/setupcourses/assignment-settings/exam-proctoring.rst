@@ -17,7 +17,7 @@ The Exam Proctoring settings are used to enable various options for exam assignm
   
   - To disable, uncheck **Time Limit**.
   
-  - Students can be granted additional time if required. Select the menu icon (3 horizontal dots) for the student's assignment and **Extend Time**
+  - Students can be granted additional time if required. Select the menu icon (3 horizontal dots) for the student's assignment and then click **Extend Time**.
   
   .. image:: /img/extendtime.png
      :alt: Extend Time
@@ -54,7 +54,7 @@ The Exam Proctoring settings are used to enable various options for exam assignm
 
   On the **Students** tab in the course, click the menu icon (3 horizontal dots) and choose **Reset Single Login**.
 
-- **Restrict IP Addresses** - You must enable **Single Login** (see above) first to use this. Once Restrict IP Addresses is enabled you can enter the allowed **Public** IP ranges. Each IP address should be on a separate line and you can specify a subnet as depicted below. Students will only be able to open the assignment if their IP matches the specification.
+- **Restrict IP Addresses** - You must enable **Single Login** (see above) first to use this. Once **Restrict IP Addresses** is enabled you can enter the allowed **Public** IP ranges. Each IP address should be on a separate line and you can specify a subnet as depicted below. Students will only be able to open the assignment if their IP matches the specification.
 
   .. image:: /img/assignmentsettings/restrictip.png
      :alt: Restrict Allowable IP addresses for an assignment
