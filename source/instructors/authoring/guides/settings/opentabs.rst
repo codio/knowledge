@@ -57,11 +57,13 @@ To preview your project, select the **Preview** type from the drop down. If you 
 Opening the Terminal and Running System Commands
 ************************************************
 
-**Opening a Terminal Window**
+Opening a Terminal Window
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To open a terminal window, select **Terminal** from the type dropdown menu.
 
-**Running Commands Automatically**
+Running Commands Automatically
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can specify a terminal command to run automatically when a section is displayed. This is useful for setup tasks such as:
 
@@ -81,7 +83,8 @@ You can specify a terminal command to run automatically when a section is displa
 Highlighting Lines in Your Code
 ********************************
 
-**Setting Up Code Highlighting**
+Setting Up Code Highlighting
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To highlight one or more lines within an auto-opened file:
 
@@ -92,17 +95,20 @@ To highlight one or more lines within an auto-opened file:
 .. image:: /img/guides/type_highlight.png
    :alt: Highlight
 
-**Why Use Reference Text?**
+Why Use Reference Text?
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Using reference text instead of line numbers makes your highlighting more resilient to changes. If you add or remove lines elsewhere in your file, Codio automatically adjusts the highlighted block based on the reference text. 
 
 .. note:: If you insert or remove lines *within* the highlighted block, you'll need to adjust the line count manually.
 
-**Ensuring Unique References**
+Ensuring Unique References
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If there's any potential ambiguity with your reference text, insert a unique comment in your code and reference that instead.
 
-**Additional Options**
+Additional Options
+^^^^^^^^^^^^^^^^^^
 
 - Multiple highlight configurations are supported and will be applied in the order specified
 - To highlight code while preventing student edits, you can :ref:`freeze code <freezecode>` in code files
@@ -125,7 +131,7 @@ Students can visualize what the computer is doing step-by-step as it executes th
 
 
 Visualizer Examples
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 **Python**
 
@@ -168,7 +174,7 @@ Select this option to automatically open the virtual machine for the students.
 .. image:: /img/guides/guides_vm.png
    :alt: Open VM
 
-.. Note:: If selected but the assignment is not set up for :ref:`virtual machine <virtualmachine>` nothing will happen for the student.
+.. note:: If selected but the assignment is not set up for :ref:`virtual machine <virtualmachine>` nothing will happen for the student.
 
 .. _specify-panel:
 
@@ -182,11 +188,13 @@ If your :ref:`layout <page>` includes multiple panels, you can specify which pan
 .. image:: /img/guides/panel.png
    :alt: Panel
 
-**Panel Ordering**
+Panel Ordering
+^^^^^^^^^^^^^^
 
 Panels are ordered from left to right, then top to bottom. The file tree is always last in the sequence.
 
-**Default Panel Behavior**
+Default Panel Behavior
+^^^^^^^^^^^^^^^^^^^^^^
 
 - The Guide defaults to the right panel unless **Guides Left** is specified in **Page Layout**
 
