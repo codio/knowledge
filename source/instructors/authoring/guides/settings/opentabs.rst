@@ -3,8 +3,8 @@
 
 .. _open-tabs:
 
-Open tabs
-=========
+Open Tabs
+==========
 You can automatically perform any of the following actions when a page is shown:
 
 - Reconfigure the overall IDE panel layout.
@@ -14,23 +14,28 @@ You can automatically perform any of the following actions when a page is shown:
 - Select lines you wish to highlight within each file.
 - Open a :ref:`virtual machine <virtualmachine>` when set up for students.
 
-You should also be aware that you can achieve the same actions from Markdown directives on a page. :ref:`click here <open-close>` for details.
+**Opening Files Automatically**
 
-   
-Files can be opened automatically to present the student with relevant files.
+Files can be opened automatically to present students with relevant content. You have several options for adding files:
 
-The **Add Tab** button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.
+- Use the **Add Tab** button to add multiple files to your layout
+- Drag and drop files from your project file tree directly onto the **Open Tabs** section
+- Drag and drop files onto the Open Tabs area in the content
 
-You can also drag and drop files in from your project file tree to the page to add them to the **Open Tabs** section so that file will be opened in a tab for the reader as well as Drag and Drop on the Open Tabs area in the content.
+**Alternative Method**
 
-**Please note:** image files dragged in to a page will be automatically tagged to display within the content rather than in a new panel. If you wish to have an image file open in a panel, then you would need to add it directly in the Open Tabs area. You can also drag/drop from the file tree. The correct path to the file will be included.
+You can achieve the same functionality using Markdown directives on a page. :ref:`Click here <open-close>` for details.
+
+.. note:: Image files dragged onto a page will be automatically tagged to display within the content rather than in a new panel. If you wish to have an image file open in a panel, you need to add it directly in the Open Tabs area. You can also drag and drop from the file tree. The correct path to the file will be included automatically.
+
 
 Opening Files
 *************
 To open files, select the file type from the drop down and enter the file name, including the path to the file if not in the root (`/home/codio/workspace` or `~/workspace`) of the project workspace.
 
-  .. image:: /img/guides/type_file.png
-     :alt: open file
+.. image:: /img/guides/type_file.png
+   :alt: open file
+   :width: 450px
      
 
 To open multiple files in the same panel, enter in the following format:
@@ -41,81 +46,92 @@ index.html, main.css
 
 Previewing
 **********
-To preview your project, select the **Preview** type from the drop down. If you wish to show a workspace or external website page, use the **Preview** option and enter the appropriate URL.
+To preview your project, select the **Preview** type from the dropdown. If you wish to show an external website page, use the **Preview** option and enter the appropriate URL.
 
-  .. image:: /img/guides/type_preview.png
-     :alt: Preview
+.. image:: /img/guides/type_preview.png
+   :alt: Preview
+   :width: 450px
      
 
 
-**Please note:** If the URL you are previewing does not allow embedding in an `<iframe>`, then you won't be able to use `https` addresses. You would have to use an `http` address instead, in which case it will automatically open in a new browser tab and not within Codio.
+.. note:: If the URL you are previewing does not allow embedding in an `<iframe>`, then you won't be able to use `https` addresses. You would have to use an `http` address instead, in which case it will automatically open in a new browser tab and not within Codio.
 
-Opening the terminal and running system commands
+Opening the Terminal and Running System Commands
 ************************************************
-To open a terminal window, select the **Terminal** type from the drop down.
 
-You can also specify a terminal command to run when a section is displayed. For example, your content may run bash scripts to copy files into the root (`/home/codio/workspace` or `~/workspace`) of your project from the `/.guides` folder (which is hidden when content is running) at a certain point in your content.
+Opening a Terminal Window
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  .. image:: /img/guides/type_terminal.png
-     :alt: terminal
-     
+To open a terminal window, select **Terminal** from the type dropdown menu.
 
+Running Commands Automatically
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can also specify system commands in a new terminal window like so:
+You can specify a terminal command to run automatically when a section is displayed. This is useful for setup tasks such as:
 
-  .. image:: /img/guides/terminal_command.png
-     :alt: terminal command
-     
+- Copying files from the hidden `/.guides` folder into the project root (`/home/codio/workspace` or `~/workspace`)
 
+.. image:: /img/guides/type_terminal.png
+   :alt: terminal
 
-Highlighting lines in your code
-*******************************
-To highlight one or more lines within an auto-opened file, select the **Highlight** type from the drop down and then
+- Running bash scripts to prepare the environment
+- Executing any necessary setup commands at specific points in your content
 
-1. Enter a piece of reference text, contained within your target file, into the **Reference ...** field
-2. Specify the number of lines, from that reference point, you want to highlight
-
-  .. image:: /img/guides/type_highlight.png
-     :alt: Highlight
-     
+.. image:: /img/guides/terminal_command.png
+   :alt: terminal command
 
 
-Using reference text rather than a line number means that if you insert anything into your file in the future, Codio is able to adjust the highlighted block based on the reference text. If you insert or remove lines within the block then you would need to adjust the line count.
 
-If there is any potential ambiguity with this approach, simply insert a comment which is guaranteed unique and reference that.
+Highlighting Lines in Your Code
+********************************
 
-Any combinations are acceptable and they will be opened in the order specified.
+Setting Up Code Highlighting
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you wish to higlighlight code but not allow students to make any changes, you can :ref:`freeze code <freezecode>` in code files.
+To highlight one or more lines within an auto-opened file:
 
-.. _code-visualiser:
+1. Select **Highlight** from the type dropdown menu
+2. Enter a piece of reference text from your target file into the **Reference...** field
+3. Specify the number of lines to highlight from that reference point
 
-Visualiser
+.. image:: /img/guides/type_highlight.png
+   :alt: Highlight
+
+Why Use Reference Text?
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Using reference text instead of line numbers makes your highlighting more resilient to changes. If you add or remove lines elsewhere in your file, Codio automatically adjusts the highlighted block based on the reference text. 
+
+.. note:: If you insert or remove lines *within* the highlighted block, you'll need to adjust the line count manually.
+
+Ensuring Unique References
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If there's any potential ambiguity with your reference text, insert a unique comment in your code and reference that instead.
+
+Additional Options
+^^^^^^^^^^^^^^^^^^
+
+- Multiple highlight configurations are supported and will be applied in the order specified
+- To highlight code while preventing student edits, you can :ref:`freeze code <freezecode>` in code files
+
+.. _code-visualizer:
+
+Visualizer
 **********
 
 Codio supports `Python Tutor <http://pythontutor.com>`_, allowing students to overcome a fundamental barrier to learning programming: understanding what happens as the computer executes each line of a program's source code.
-Select `Visualiser` and enter the path to your file.
-
-**Supported languages:**
-
-- Python
-- Java
-- JavaScript
-- TypeScript
-- Ruby
-- C
-- C++
-
-Students can visualise what the computer is doing step-by-step as it executes those programs.
-
-  .. image:: /img/guides/pythontutor.png
-     :alt: python tutor
+Select `Visualizer` and enter the path to your file.
 
 
-Examples
-********
+Students can visualize what the computer is doing step-by-step as it executes those programs.
 
-**Python**
+.. image:: /img/guides/pythontutor.png
+   :alt: python tutor
+
+
+Visualizer Example
+^^^^^^^^^^^^^^^^^^^
 
 .. code:: python
 
@@ -126,25 +142,6 @@ Examples
 .. image:: /img/guides/PythonVisualizerExample.png
    :alt: Python Visualizer Example
 
-**Java**
-
-.. code:: java
-
-    public static void countdown(int n) {
-      if (n == 0) {
-        System.out.println("Blastoff!");
-      } else {
-        System.out.println(n);
-        countdown(n - 1);
-      }
-    }
-
-
-.. image:: /img/guides/JavaVisualizerExample.png
-   :alt: Java visualizer Example
-
-     
-
 
 For more information and examples see `Python Tutor <http://pythontutor.com>`_.
 
@@ -153,21 +150,30 @@ Open Computed VM
 
 Select this option to automatically open the virtual machine for the students.
 
-  .. image:: /img/guides/guides_vm.png
-     :alt: Open VM
+.. image:: /img/guides/guides_vm.png
+   :alt: Open VM
 
-.. Note:: If selected but the assignment is not set up for :ref:`virtual machine <virtualmachine>` nothing will happen for the student.
+.. note:: If selected but the assignment is not set up for :ref:`virtual machine <virtualmachine>`, nothing will happen for the student.
 
 .. _specify-panel:
 
-Specifying the panel number
-***************************
-If your :ref:`layout <page>` for this page involves multiple panels, then you can also specify the panel letter to display the file in.
 
-  .. image:: /img/guides/panel.png
-     :alt: Panel
-     
-The panel order is left to right and then top to bottom and the last of all, the filetree (which you would rarely want to use).
 
-The Guide defaults to the right unless **Guides Left** is specified in **Page Layout**.
+Panel Selection
+***************
+
+If your :ref:`layout <page>` includes multiple panels, you can specify which panel to display the file in using the panel letter designation.
+
+.. image:: /img/guides/panel.png
+   :alt: Panel
+
+Panel Ordering
+^^^^^^^^^^^^^^
+
+Panels are ordered from left to right, then top to bottom. The file tree is always last in the sequence.
+
+Default Panel Behavior
+^^^^^^^^^^^^^^^^^^^^^^
+
+- The Guide defaults to the right panel unless **Guides Left** is specified in **Page Layout**
 
