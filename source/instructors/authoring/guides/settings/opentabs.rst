@@ -126,8 +126,8 @@ Select `Visualizer` and enter the path to your file.
 
 Students can visualize what the computer is doing step-by-step as it executes those programs.
 
-  .. image:: /img/guides/pythontutor.png
-     :alt: python tutor
+.. image:: /img/guides/pythontutor.png
+   :alt: python tutor
 
 
 Visualizer Examples
