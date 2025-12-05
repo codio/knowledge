@@ -46,7 +46,7 @@ index.html, main.css
 
 Previewing
 **********
-To preview your project, select the **Preview** type from the drop down. If you wish to show an external website page, use the **Preview** option and enter the appropriate URL.
+To preview your project, select the **Preview** type from the dropdown. If you wish to show an external website page, use the **Preview** option and enter the appropriate URL.
 
 .. image:: /img/guides/type_preview.png
    :alt: Preview
@@ -153,7 +153,7 @@ Select this option to automatically open the virtual machine for the students.
 .. image:: /img/guides/guides_vm.png
    :alt: Open VM
 
-.. note:: If selected but the assignment is not set up for :ref:`virtual machine <virtualmachine>` nothing will happen for the student.
+.. note:: If selected but the assignment is not set up for :ref:`virtual machine <virtualmachine>`, nothing will happen for the student.
 
 .. _specify-panel:
 
