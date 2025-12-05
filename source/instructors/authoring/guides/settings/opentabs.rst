@@ -18,7 +18,7 @@ You can automatically perform any of the following actions when a page is shown:
 
 Files can be opened automatically to present students with relevant content. You have several options for adding files:
 
-- Use the **Add Tab** button to create multiple lines into your configuration
+- Use the **Add Tab** button to add multiple files to your layout
 - Drag and drop files from your project file tree directly onto the **Open Tabs** section
 - Drag and drop files onto the Open Tabs area in the content
 
