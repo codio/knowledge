@@ -29,12 +29,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2025**
 
+- `[F] [30th]`: Add Ability to :ref:`restrict IP addresses <exam-proctoring>`
 - `[I] [29th]`: Option added to display expected answer and Rationale when grades have been released.
 
 **August 2025**
 
 - `[F] [26th]`: Added :ref:`sandboxes<sandboxes>` for teaching AWS Cloud.
-- `[I] [21st]`: The Join a Course token is now four words instead of two. 
+- `[I] [21st]`: The Join a Course token is now four words instead of two.
 
 **July 2025**
 
