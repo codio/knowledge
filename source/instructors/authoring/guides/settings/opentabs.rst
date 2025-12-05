@@ -18,7 +18,7 @@ You can automatically perform any of the following actions when a page is shown:
 
 Files can be opened automatically to present students with relevant content. You have several options for adding files:
 
-- Use the **Add Tab** button to create multiple configuration lines for different scenarios
+- Use the **Add Tab** button to create multiple lines into your configuration
 - Drag and drop files from your project file tree directly onto the **Open Tabs** section
 - Drag and drop files onto the Open Tabs area in the content
 
@@ -35,6 +35,7 @@ To open files, select the file type from the drop down and enter the file name, 
 
 .. image:: /img/guides/type_file.png
    :alt: open file
+   :width: 450px
      
 
 To open multiple files in the same panel, enter in the following format:
@@ -45,10 +46,11 @@ index.html, main.css
 
 Previewing
 **********
-To preview your project, select the **Preview** type from the drop down. If you wish to show a workspace or external website page, use the **Preview** option and enter the appropriate URL.
+To preview your project, select the **Preview** type from the drop down. If you wish to show an external website page, use the **Preview** option and enter the appropriate URL.
 
 .. image:: /img/guides/type_preview.png
    :alt: Preview
+   :width: 450px
      
 
 
@@ -121,8 +123,6 @@ Visualizer
 Codio supports `Python Tutor <http://pythontutor.com>`_, allowing students to overcome a fundamental barrier to learning programming: understanding what happens as the computer executes each line of a program's source code.
 Select `Visualizer` and enter the path to your file.
 
-**Supported languages:** Python, Java, JavaScript, TypeScript, Ruby, C, C++
-
 
 Students can visualize what the computer is doing step-by-step as it executes those programs.
 
@@ -130,10 +130,8 @@ Students can visualize what the computer is doing step-by-step as it executes th
    :alt: python tutor
 
 
-Visualizer Examples
+Visualizer Example
 ^^^^^^^^^^^^^^^^^^^
-
-**Python**
 
 .. code:: python
 
@@ -143,25 +141,6 @@ Visualizer Examples
 
 .. image:: /img/guides/PythonVisualizerExample.png
    :alt: Python Visualizer Example
-
-**Java**
-
-.. code:: java
-
-    public static void countdown(int n) {
-      if (n == 0) {
-        System.out.println("Blastoff!");
-      } else {
-        System.out.println(n);
-        countdown(n - 1);
-      }
-    }
-
-
-.. image:: /img/guides/JavaVisualizerExample.png
-   :alt: Java visualizer Example
-
-     
 
 
 For more information and examples see `Python Tutor <http://pythontutor.com>`_.
