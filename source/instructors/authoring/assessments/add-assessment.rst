@@ -81,3 +81,4 @@ To clear assessment answers, navigate to the Education menu and click **Clear As
 
 .. image:: /img/guides/clear_assessment_answers.png
    :alt: Clear Assessment Answers
+

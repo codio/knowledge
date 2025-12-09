@@ -346,7 +346,7 @@ Collapsible content is useful for providing information that students can reveal
   - If you want the content to show by default, use `<details  open>`.
 
 Example
-"""""""
+~~~~~~~
 
 .. image:: /img/guides/collapsible.png
     :alt: Collapsible content
