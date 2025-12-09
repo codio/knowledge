@@ -48,8 +48,8 @@ To add a new assessment for an assignment, follow these steps:
 1. Open the assignment in the course, and click the **Edit** button to open the Guide Editor. You can also click the **Tools** menu and choose **Guides > Edit**.
 2. Click the **Assessments** button and choose the type of assessment you want to add to the assignment.
 
-   .. image:: /img/guides/add_assessment.png
-      :alt: Add Assessment
+.. image:: /img/guides/add_assessment.png
+   :alt: Add Assessment
 
 3. Fill the appropriate fields and click **Create**.
 
@@ -72,3 +72,12 @@ Refer to the specific topics for the type of assessment:
 - :ref:`Random Assessment <random>`
 - :ref:`LLM Rubric Grader <llm-based-rubric>`
 - :ref:`LLM Rubric Autograde <llm-based-auto-rubric>`
+
+
+How to Clear Assessment Answers
+-------------------------------
+
+To clear assessment answers, navigate to the Education menu and click **Clear Assessment Answers**. A confirmation dialog will appear—click **Yes** to proceed. This removes all answered questions from the database, resetting the assessment to its initial state as if it had never been run.
+
+.. image:: /img/guides/clear_assessment_answers.png
+   :alt: Clear Assessment Answers
