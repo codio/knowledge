@@ -24,8 +24,8 @@ Creating the Prompt
 Enter the information you want to provide with your prompt along with the text of the prompt.
 
 - Each Prompt must have a unique **Prompt ID**. 
-- Use the buttons to create templates to specify the data you want to send. For example, **Add Instructor View** will add the tag: ``{{"type": "INSTRUCTOR_VIEW", "filepath": ""}}`` which will pull the contents of the specified file.
-- You can use this feature to access solutions in the ``.guides\secure`` folder. See the example below.
+- Use the buttons to create templates to specify the data you want to send. For example, **Add Instructor View** will add the tag: ``{{"type": "INSTRUCTOR_VIEW", "filepath": ""}}`` which will pull the contents of the specified file at execution time.
+- You can use this feature to access solutions in the ``.guides/secure`` folder. See the example below.
 
 .. image:: /img/manage_organization/promptmanagement.png
     :alt: The prompt management dialog

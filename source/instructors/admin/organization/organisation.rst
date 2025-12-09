@@ -86,5 +86,5 @@ The following Codio features are only accessible to Organization owners:
 - **Integrations** - Specify API integrations, Webhooks and SSO Integration.
 - **Assessment Libraries** - Create and manage assessment libraries for your organization.
 - **LLMs** - Specify API keys for LLM models or add a custom LLM provider.
-- **Course Action Data** - Download a report of all course management activities.
-- **Prompt Management** - Manage prompts for the entire organization.
+- **Course Action Data** - Download a report of all course management activities for the entire organization.
+- **Prompt Management** - Manage prompts, used in custom extensions, for the entire organization.

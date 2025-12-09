@@ -1,12 +1,12 @@
 .. meta::
-   :description: Allow webhoooks to support passing of student data to extenal servers
+   :description: Allow webhooks to support passing of student data to external servers
 
 .. _webhooks:
 
 Webhooks
 ========
 
-Webbhooks provide a way to receive Codio events at an endpoint you specify. 
+Webhooks provide a way to receive Codio events at an endpoint you specify. 
 
 The system does not retry webhook calls for missed events. You can query the API event object using the ``loadEvents`` function.
 
@@ -21,7 +21,7 @@ You can add Webhooks for your Codio organization from the **Organization > Integ
 
 3. Click the **Integrations** tab and go to the **Webhooks** area and click **Add Webhook**.
 
-Enter the URL of your server and click **Create**, the system will send a test request to check endpoint validity.
+4. Enter the URL of your server and click **Create**. The system will send a test request to validate endpoint connectivity.
 
 
 All requests contain a JWT signature you can verify using Codio keys https://apollo.codio.com/lti/oidc/certs (or https://apollo.codio.co.uk/lti/oidc/certs if you are working on codio.co.uk).
