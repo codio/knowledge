@@ -79,6 +79,12 @@ How to Clear Assessment Answers
 
 To clear assessment answers, navigate to the Education menu and click **Clear Assessment Answers**. A confirmation dialog will appear—click **Yes** to proceed. This removes all answered questions from the database, resetting the assessment to its initial state as if it had never been run.
 
+Before:
+~~~~~~~
 .. image:: /img/guides/clear_assessment_answers.png
    :alt: Clear Assessment Answers
 
+After:
+~~~~~~
+.. image:: /img/guides/clear_assessment_answersafter.png
+   :alt: Clear Assessment Answers
