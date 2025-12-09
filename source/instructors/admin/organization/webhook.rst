@@ -5,21 +5,26 @@
 
 Webhooks
 ========
-Webbhooks allow receiving Codio events by calling your endpoint. 
 
-The system won’t retry webhook calls for any missed events you can query the API event object using loadEvents function.
+Webbhooks provide a way to receive Codio events at an endpoint you specify. 
 
-You can add your own Webhooks to your Codio organization from the **Organization > Integrations** page in Codio.
+The system does not retry webhook calls for missed events. You can query the API event object using the ``loadEvents`` function.
 
-Go to the **Webhooks** area and **Add Webhook**
+You can add Webhooks for your Codio organization from the **Organization > Integrations** page.
 
-To add a webhook enter the URL of your server and press create, the system will send a test request to check endpoint validity.
+1. Click your username in the top-right corner, then select **Organization** from the menu.
 
-   .. image:: /img/createwebhook.png
+2. In the **Organizations** tab, click the name of your organization.
+
+   .. image:: /img/class_administration/createanorganization/organizations.png
       :alt: My Organizations
 
-All requests contain a JWT signature you can verify using codio keys https://apollo.codio.com/lti/oidc/certs (or https://apollo.codio.co.uk/lti/oidc/certs if working on codio.co.uk)
+3. Click the **Integrations** tab and go to the **Webhooks** area and click **Add Webhook**.
+
+Enter the URL of your server and click **Create**, the system will send a test request to check endpoint validity.
 
 
-Example app to receive webhooks into a Codio project can be found here: https://github.com/iyashtykov/webhook-server
+All requests contain a JWT signature you can verify using Codio keys https://apollo.codio.com/lti/oidc/certs (or https://apollo.codio.co.uk/lti/oidc/certs if you are working on codio.co.uk).
+
+View an example here: https://github.com/iyashtykov/webhook-server
 
