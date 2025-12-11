@@ -29,6 +29,7 @@ Organization settings
    llms
    webhook
    course-action-data
+   prompt-management
    
  
 
@@ -53,9 +54,11 @@ The person who creates the organization in Codio is the owner and is given the a
 - :ref:`Set Organization Contact URL <org-contact-url>`
 - :ref:`Enable/Disable Release Grade Automatically <auto-release-grades>`
 - :ref:`Hide A/V calls <hideav>`
-- :ref:`SSO Integration <sso-integration>`
-- :ref:`LLMs <org_llm>`
-
+- :ref:`Set up SSO Integration <sso-integration>`
+- :ref:`Provide your own LLM keys <org_llm>`
+- :ref:`Create a webhook to receive Codio events <webhooks>`
+- :ref:`Download Course Activity Data <course-action-data>`
+- :ref:`Manage Prompts for your Organization <prompt-management>`
 
 
 To access the **Organizations** page, follow these steps:
@@ -71,15 +74,17 @@ Organization owners can add other owners to an organization and view all members
 
 The following Codio features are only accessible to Organization owners:
 
-    - **Overview** - Update organization profile, enable or disable the ability to create public objects, enable or disable Codio support access,  obtain invitation token, manage education settings, and delete the organization.
-    - **Members** - View, add, and remove users in your organization and invite teachers to the organization.
-    - **Billing** - View your Codio plan information.
-    - **Rubrics** - Create and manage your grading templates.
-    - **Dashboard** - Specify the Student Dashboard default page (My Projects or Courses), and specify whether to hide/show Courses.
-    - **IP Consent** - Enable or disable IP Consent and manage the versions.
-    - **Custom Scripts** - Manage custom scripts used to integrate third-party systems to help and track students.
-    - **Extensions** - Add and enable custom extensions for the organization.
-    - **LTI Integrations** - Specify and manage LTI integration settings.
-    - **Integrations** - Specify API key for Sense.Network integration, and add other API integrations.
-    - **Assessment Libraries** - Create and manage assessment libraries for your organization.
-    - **LLMs** - Specify API keys for LLM models or add a custom LLM provider.
+- **Overview** - Update organization profile, manage the ability to create public objects, manage Codio support access, manage education settings, and delete the organization.
+- **Members** - View, add, and remove users in your organization and invite teachers to the organization.
+- **Billing** - View your Codio subscription information.
+- **Rubrics** - Create and manage your grading templates.
+- **Dashboard** - Specify Dashboard configurations for students, teachers and read-only teachers.
+- **IP Consent** - Enable or disable IP Consent and manage the versions.
+- **Custom Scripts** - Manage custom scripts used to integrate third-party systems to help and track students.
+- **Extensions** - Add and enable custom extensions for the organization.
+- **LTI Integrations** - View and manage LTI integration settings.
+- **Integrations** - Specify API integrations, Webhooks and SSO Integration.
+- **Assessment Libraries** - Create and manage assessment libraries for your organization.
+- **LLMs** - Specify API keys for LLM models or add a custom LLM provider.
+- **Course Action Data** - Download a report of all course management activities for the entire organization.
+- **Prompt Management** - Manage prompts, used in custom extensions, for the entire organization.
