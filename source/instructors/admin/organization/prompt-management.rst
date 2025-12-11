@@ -41,7 +41,7 @@ Enter your prompt text and specify the data you want to include as context.
 Example Prompts
 ~~~~~~~~~~~~~~~
 
-**Prompt example 1: Secure folder file**
+**Prompt Example 1: Secure Folder File**
 
 .. code:: none
 
@@ -59,7 +59,7 @@ Example Prompts
     Respond only with suggestions to help them make progress by themselves.
 
 
-**Prompt example 2: Starter Code and solution file**
+**Prompt Example 2: Starter Code and Solution File**
 
 .. code:: none
 
