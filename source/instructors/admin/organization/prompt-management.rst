@@ -21,18 +21,19 @@ This feature allows instructors to store prompts at an organization level. These
 Creating the Prompt
 ~~~~~~~~~~~~~~~~~~~
 
-Enter the information you want to provide with your prompt along with the text of the prompt.
+Enter your prompt text and specify the data you want to include as context.
 
 - Each Prompt must have a unique **Prompt ID**. Prompt IDs can only contain uppercase letters, numbers, and underscores.
 - In the **Text Area**, enter your prompt text (user prompt or system prompt).
 - Use the buttons to create templates to specify the data you want to add to your prompt as context:
     - **Add Variable**: Pass dynamic variables as context to your prompt (e.g., open guide page, open file, error message, etc.).
-    - **Add Instructor View**: Pass a file from the ``.guides`` folder (hidden from students) or a file from the student workspace with solution file templating. For example, ``{{"type": "INSTRUCTOR_VIEW", "filepath": ""}}`` will pull the contents of the specified file.
+    - **Add Instructor View**: Pass a file from the ``.guides`` folder (hidden from students) or a file from the student workspace with solution file templating. For example, ``{{"type": "INSTRUCTOR_VIEW", "filepath": "<path/to/file>"}}`` will pull the contents of the specified file.
     - **Add Starter Code**: Pass a file from the student workspace provided by the instructor with no student edits (starter code/boilerplate).
-- You can use this feature to access solutions in the ``.guides\secure`` folder. See the example below.
+- You can use this feature to access solutions in the ``.guides/secure`` folder. See the example below.
+- Click **Create** once you have entered all the information.
 
 .. note::
-   Files are retrieved dynamically when the assistant is used. If a referenced file is deleted or doesn't exist after the prompt is created, an empty string is sent as context.
+   Files are retrieved dynamically on the server when the assistant is used. If a referenced file is deleted or doesn’t exist after the prompt is created, an empty string is sent as context.
 
 .. image:: /img/manage_organization/promptmanagement.png
     :alt: The prompt management dialog
