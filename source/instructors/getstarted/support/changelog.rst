@@ -14,7 +14,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[F]` = New feature
 
 **November 2025**
-
+- `[F] [28th]`: Added :ref:`Prompt Management <prompt-management>` for organizations.
 - `[I] [10th]`: Added the option to launch :ref:`EC2 VMs using Sandboxes<ec2type-sandboxes>`. 
 
 **October 2025**
