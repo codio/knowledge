@@ -13,7 +13,7 @@ You can place multiple cursors anywhere in a file using the following keyboard s
 - **Alt+Click** (Windows)
 - **Option+Click** (Mac)
 
-**Alt+Click** (Windows) or **Option+Click** (Mac) to place multiple cursors. Continue holding the modifier key and click at additional locations. Once you release the key, start typing and the content will be duplicated at all cursor locations.
+Click to place the cursor at the desired location, then continue holding the modifier key while clicking at additional locations. Once you release the key, start typing and the content will be duplicated at all cursor locations.
 
 
 .. image:: /img/guides/CursorFeature.gif
