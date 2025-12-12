@@ -14,14 +14,15 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[F]` = New feature
 
 **November 2025**
+
 - `[F] [28th]`: Added :ref:`Prompt Management <prompt-management>` for organizations.
-- `[I] [10th]`: Added the option to launch :ref:`EC2 VMs using Sandboxes<ec2type-sandboxes>`. 
+- `[I] [10th]`: Added the option to launch :ref:`EC2 VMs using Sandboxes <ec2type-sandboxes>`.
 
 **October 2025**
 
 - `[I] [24th]`: Pyret support has been deprecated.
 - `[I] [22nd]`: Pagination is now persistent across pages.
-- `[F] [21st]`: Added :ref:`Common Storage<common-storage>` to courses.
+- `[F] [21st]`: Added :ref:`Common Storage <common-storage>` to courses.
 - `[I] [20th]`: Added support for the `math` :ref:`markdown block<math-blocks>` using LaTeX.
 - `[F] [17th]`: Add Ability to :ref:`Auto-Grade using an LLM-based rubric grader <llm-based-rubric>`
 - `[I] [14th]`: Behavior insight information is available in the assignment CSV file. :ref:`Assignment data <export-assignment>`
@@ -34,7 +35,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2025**
 
-- `[F] [26th]`: Added :ref:`sandboxes<sandboxes>` for teaching AWS Cloud.
+- `[F] [26th]`: Added :ref:`sandboxes <sandboxes>` for teaching AWS Cloud.
 - `[I] [21st]`: The Join a Course token is now four words instead of two.
 
 **July 2025**
