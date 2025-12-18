@@ -15,7 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **December 2025**
 
-- `[I] [12th]`: Added support for the :ref:`jupyter-colaboration<jupyter>` extension .
+- `[I] [12th]`: Added support for the :ref:`Jupyter Collaboration Extension<jupyter>`.
 
 **November 2025**
 

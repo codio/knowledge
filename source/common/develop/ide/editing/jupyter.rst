@@ -7,7 +7,7 @@ Jupyter
 =======
 You can set up your assignment to provide your students with a Jupyter Notebook as the default code editor or to open JupyterLab. More information about `Jupyter Notebook <https://jupyter.org/>`_ and `Jupyter Lab <https://jupyterlab.readthedocs.io/en/latest/>`_.
 
-The :ref:`Code Playback <code-playback>` functionality will not work for code your students enter in a Jupyter Notebook. If you install the Jupyter Collaboration Extension, see `Using the Jupyter Collaboration Extension`_, you can view a timeline of events in the notebook.
+The :ref:`Code Playback <code-playback>` functionality will not work for code your students enter in a Jupyter Notebook. If you install the Jupyter Collaboration Extension (see `Using the Jupyter Collaboration Extension`_ below), you can view a timeline of events in the notebook.
 
 Using Jupyter Notebooks in Codio
 --------------------------------
@@ -61,15 +61,22 @@ The Codio Jupyter stacks based on Ubuntu 22.04 all utilize JupyterLab, and you s
 
 You can check if JupyterLab is installed in your stack by entering the command ``jupyter --version`` in the terminal. This command will inform you which Jupyter packages are installed. If JupyterLab is not installed, you should open the Jupyter Notebook as a file.
 
+.. _jupyter-collaboration-extension:
+
 Using the Jupyter Collaboration Extension
 -----------------------------------------
 
-.. Note:: You must be using JupyterLab 4.4 or greater to use Jupyter collaboration.
+.. Note:: You must have JupyterLab 4.4 or greater to use Jupyter collaboration.
 
-This extension will allow multiple students to collaborate on a single Jupyter Notebook. You can set up the groups using the :ref:`Pair Programming <group-work>` feature to facilitate the sharing of notebooks. This extension does not support the Driver/Navigator and Shared Focus functionality.
+This extension will allow multiple students to collaborate on a single Jupyter Notebook. You can set up the groups using the :ref:`Pair Programming <group-work>` feature to facilitate the sharing of notebooks. This extension does not support the Driver/Navigator and Shared Focus functionality (see :ref:`Pair Programming <group-work>` for details on these features).
 
 Use the **Tools > Install Software** :ref:`(more information) <box_parts>` menu item to install the **Jupyter Collaboration extension**. 
 
 After you have completed installing the software you will need to :ref:`create a new stack <create-stack>` or a :ref:`new stack version <update-stack>` to provide this for your students.
 
-You can learn more about the Jupyter collaboration extension `here <https://jupyterlab-realtime-collaboration.readthedocs.io/en/latest/>`_. This extension also provides a timeline of events in a Jupyter Notebook, more information `here <https://blog.jupyter.org/exploring-a-documents-timeline-in-jupyterlab-6084f96db263>`_.
+For more information about the Jupyter Collaboration Extension, see the `official documentation <https://jupyterlab-realtime-collaboration.readthedocs.io/en/latest/>`_. This extension also provides a timeline of events in a Jupyter Notebook; learn more in this `blog post about timeline viewing <https://blog.jupyter.org/exploring-a-documents-timeline-in-jupyterlab-6084f96db263>`_.
+
+
+.. image:: /img/guides/jupyterhistoryofedits.gif
+    :alt: An animated GIF showing a review of Jupyter Notebook edits
+    :align: center
