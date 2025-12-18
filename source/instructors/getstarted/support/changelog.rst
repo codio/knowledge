@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**December 2025**
+
+- `[I] [12th]`: Added support for the :ref:`jupyter-colaboration<jupyter>` extension .
+
 **November 2025**
 
 - `[F] [28th]`: Added :ref:`Prompt Management <prompt-management>` for organizations.
