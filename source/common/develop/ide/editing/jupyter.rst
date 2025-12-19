@@ -7,7 +7,7 @@ Jupyter
 =======
 You can set up your assignment to provide your students with a Jupyter Notebook as the default code editor or to open JupyterLab. More information about `Jupyter Notebook <https://jupyter.org/>`_ and `Jupyter Lab <https://jupyterlab.readthedocs.io/en/latest/>`_.
 
-The :ref:`Code Playback <code-playback>` functionality will not work for code your students enter in a Jupyter Notebook. If you install the Jupyter Collaboration Extension (see `Using the Jupyter Collaboration Extension`_ below), you can view a timeline of events in the notebook.
+The :ref:`Code Playback <code-playback>` functionality will not work for code your students enter in a Jupyter Notebook. If you install the Jupyter Collaboration Extension (see :ref:`jupyter-collaboration-extension` below), you can view a timeline of events in the notebook.
 
 Using Jupyter Notebooks in Codio
 --------------------------------
@@ -28,12 +28,12 @@ The following are a few of the possibilities.
 
    .. code:: ini
 
-            {
-            // Preview button configuration
-               "preview": {
-                     "Jupyter Notebook": "https://{{domain3000}}/"
-               }
-            }
+      {
+      // Preview button configuration
+         "preview": {
+               "Jupyter Notebook": "https://{{domain3000}}/"
+         }
+      }
 
 
 - Use guides to :ref:`create a layout <page>` that automatically opens a pane containing JupyterLab or a particular Jupyter NoteBook file. The example below shows a 2-Panel layout.
@@ -61,12 +61,13 @@ You can check if JupyterLab is installed in your stack by entering the command `
 
 .. _jupyter-collaboration-extension:
 
+
 Using the Jupyter Collaboration Extension
 -----------------------------------------
 
-.. Note:: You must have JupyterLab 4.4 or greater to use Jupyter collaboration.
+Note:: You must have JupyterLab 4.4 or greater to use the Jupyter Collaboration Extension.
 
-This extension will allow multiple students to collaborate on a single Jupyter Notebook. You can set up the groups using the :ref:`Pair Programming <group-work>` feature to facilitate the sharing of notebooks. This extension does not support the Driver/Navigator and Shared Focus functionality (see :ref:`Pair Programming <group-work>` for details on these features).
+This extension will allow multiple students to collaborate on a single Jupyter Notebook. You can set up groups using the :ref:`Pair Programming <group-work>` feature to facilitate notebook sharing; note that this extension does not support the Driver/Navigator and Shared Focus functionality (described in the same section).
 
 Use the **Tools > Install Software** :ref:`(more information) <box_parts>` menu item to install the **Jupyter Collaboration Extension**. 
 
