@@ -8,9 +8,9 @@ JupyterLab
 You can set up your assignment to provide your students with the `Jupyter Lab <https://jupyterlab.readthedocs.io/en/latest/>`_ IDE. 
 
 .. Note:: 
-   :ref:`Code Playback <code-playback>` does not work with JupyterLab notebooks. 
+   :ref:`Code Playback <code-playback>` does not work with JupyterLab Notebooks. 
       
-   To view a timeline of events in a notebook see :ref:`jupyter-collaboration-extension` below. 
+   To view a timeline of events in a notebook, see :ref:`jupyter-collaboration-extension` below. 
 
 Using JupyterLab in Codio
 --------------------------------
@@ -39,16 +39,16 @@ The following are a few of the possibilities.
       }
 
 
-- Use guides to :ref:`create a layout <page>` that automatically opens a pane containing JupyterLab and a particular noteBook file. The example below shows a 2-Panel layout.
+- Use guides to :ref:`create a layout <page>` that automatically opens a pane containing JupyterLab and a particular Notebook file. The example below shows a 2-Panel layout.
     - Create a **2-Panel Layout**.
-    - Add a tab and select the "Jupyter Lab" type. 
-    - Enter the name of your file into the **Filename** field or drag it into it from the file tree.
+    - Add a tab and select the "JupyterLab" type. 
+    - Enter the name of your file into the **Filename** field or drag it from the file tree.
     - You can change the :ref:`guide settings <global>` to **Collapsed on Start** and the Jupyter pane will open with the Guides collapsed.
 
 .. image:: /img/jlablayout.png
    :alt: Configuring the layout for JupyterLab
 
-If you don't use Guides, consider creating a README.md file with instructions on accessing the JupyterLab. When there are no guides, the README.md will auto-open for students. You can tell students to click on the file in the file tree if you haven't configured another way to open it.
+If you don't use Guides, consider creating a README.md file with instructions on accessing JupyterLab. When there are no guides, the README.md will auto-open for students. You can tell students to click on the file in the file tree if you haven't configured another way to open it.
 
 JupyterLab Extensions
 ---------------------
