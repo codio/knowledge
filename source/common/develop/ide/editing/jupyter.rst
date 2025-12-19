@@ -51,7 +51,7 @@ Virtual Coach and Jupyter Notebook
 ----------------------------------
 An extension will allow :ref:`Virtual Coach <virtual-coach>` to access the contents of your Jupyter Notebook and detect errors when running Jupyter cells. This extension is already installed in all the Codio Certified Jupyter stacks. You can add the extension if you have your own custom Jupyter stack.
 
-Use the **Tools > Install Software** :ref:`(more information) <box_parts>` menu item to install the **Jupyter Codio extension**. 
+Use the **Tools > Install Software** :ref:`(more information) <box_parts>` menu item to install the **Jupyter Codio Extension**. 
 
 After you have completed installing the software you will need to :ref:`create a new stack <create-stack>` or a :ref:`new stack version <update-stack>` to provide this for your students.
 
@@ -68,7 +68,7 @@ Using the Jupyter Collaboration Extension
 
 This extension will allow multiple students to collaborate on a single Jupyter Notebook. You can set up the groups using the :ref:`Pair Programming <group-work>` feature to facilitate the sharing of notebooks. This extension does not support the Driver/Navigator and Shared Focus functionality (see :ref:`Pair Programming <group-work>` for details on these features).
 
-Use the **Tools > Install Software** :ref:`(more information) <box_parts>` menu item to install the **Jupyter Collaboration extension**. 
+Use the **Tools > Install Software** :ref:`(more information) <box_parts>` menu item to install the **Jupyter Collaboration Extension**. 
 
 After you have completed installing the software you will need to :ref:`create a new stack <create-stack>` or a :ref:`new stack version <update-stack>` to provide this for your students.
 
