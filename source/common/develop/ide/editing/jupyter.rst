@@ -5,7 +5,7 @@
 
 JupyterLab
 ==========
-You can set up your assignment to provide your students with the `Jupyter Lab <https://jupyterlab.readthedocs.io/en/latest/>`_ IDE. 
+You can set up your assignment to provide your students with the `JupyterLab <https://jupyterlab.readthedocs.io/en/latest/>`_ IDE. 
 
 .. Note:: 
    :ref:`Code Playback <code-playback>` does not work with JupyterLab Notebooks. 
@@ -53,14 +53,14 @@ If you don't use Guides, consider creating a README.md file with instructions on
 JupyterLab Extensions
 ---------------------
 
-The following two features require JupyterLab. The Codio Certified Jupyter stacks based on Ubuntu 22.04 all utilize JupyterLab, and you should open JupyterLab (see above) to use all the features of the extensions. 
+The following two features require JupyterLab. The Codio Certified Jupyter stacks based on Ubuntu 22.04 all come with JupyterLab pre-installed, so you can access these extension features immediately after opening JupyterLab.
 
-If you are using a custom stack you can check if JupyterLab is installed by running ``jupyter --version`` in the terminal. If it is not installed, you will not be able to use these features.
+If you are using a custom stack, you can check if JupyterLab is installed by running ``jupyter --version`` in the terminal. If it is not installed, you will not be able to use these features.
 
 Virtual Coach and JupyterLab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An extension will allow :ref:`Virtual Coach <virtual-coach>` to access the contents of your Jupyter notebook and detect errors when running Jupyter cells. This extension is already installed in all the Codio Certified Jupyter stacks. You can add the extension if you have your own custom Jupyter stack.
+An extension will allow :ref:`Virtual Coach <virtual-coach>` to access the contents of your Jupyter Notebook and detect errors when running Jupyter cells. This extension is already installed in all the Codio Certified Jupyter stacks. You can add the extension if you have your own custom Jupyter stack.
 
 Use the **Tools > Install Software** :ref:`(more information) <box_parts>` menu item to install the **Jupyter Codio Extension**. 
 
@@ -73,7 +73,7 @@ After you have completed installing the software you will need to :ref:`create a
 Collaboration and Timeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. Note:: You must have JupyterLab 4.4 or greater to use the Jupyter Collaboration Extension.
+.. Important:: You must have JupyterLab 4.4 or greater to use the Jupyter Collaboration Extension.
 
 This extension will allow multiple students to collaborate on a single Jupyter Notebook. You can set up groups using the :ref:`Pair Programming <group-work>` feature to facilitate notebook sharing; note that this extension does not support the Driver/Navigator and Shared Focus functionality (described in the same section).
 
@@ -81,7 +81,7 @@ Use the **Tools > Install Software** :ref:`(more information) <box_parts>` menu 
 
 After you have completed installing the software you will need to :ref:`create a new stack <create-stack>` or a :ref:`new stack version <update-stack>` to provide this for your students.
 
-For more information about the Jupyter Collaboration Extension, see the `official documentation <https://jupyterlab-realtime-collaboration.readthedocs.io/en/latest/>`_. This extension also provides a timeline of events in a Jupyter notebook; learn more in this `blog post about timeline viewing <https://blog.jupyter.org/exploring-a-documents-timeline-in-jupyterlab-6084f96db263>`_.
+For more information about the Jupyter Collaboration Extension, see the `official documentation <https://jupyterlab-realtime-collaboration.readthedocs.io/en/latest/>`_. This extension also provides a timeline of events in a Jupyter Notebook; learn more in this `blog post about timeline viewing <https://blog.jupyter.org/exploring-a-documents-timeline-in-jupyterlab-6084f96db263>`_.
 
 .. image:: /img/guides/timeline.gif
     :alt: An animated GIF showing a review of Jupyter Notebook edits
