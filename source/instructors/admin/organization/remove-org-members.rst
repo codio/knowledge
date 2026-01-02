@@ -15,17 +15,24 @@ To remove members from your organization, please follow these steps:
    .. image:: /img/class_administration/createanorganization/organizations.png
       :alt: My Organizations
 
-3. Click the **Members** tab.
+3. Click the **Members** tab. 
 
    .. image:: /img/manage_organization/memberstab.png
       :alt: Members
 
-4. In the **User Management** section, click the section you wish to view.
+You can use either of the two methods below to locate and remove organization members.
 
-5. Click the trash icon, on the right hand side, for each user you want to remove from your organization.
+- In the **User Management** section, click the group (ex. Teachers) you wish to view. Click the trash icon, on the right hand side, for each user you want to remove from your organization.
 
-   .. image:: /img/allmembers.png
-      :alt: All Members
+.. image:: /img/allmembers.png
+    :alt: All Members
 
-If you want to use the accounts for new students, see :ref:`Add or Remove Students in a Course <add-remove-students>`.
+- In the **Remove Organization Members** section, type in the username or email address of the person you want to remove and click **Find User**. Click the trash can on the right for the user you want to delete.
+
+.. image:: /img/manage_organization/removeorgmember.png
+    :alt: Members
+
+.. warning:: If you remove a student from your organization, their account will be deleted.
+
+
 
