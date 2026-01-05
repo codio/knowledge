@@ -6,7 +6,7 @@
 Remove Organization Members
 ===========================
 
-To remove members from your organization, please follow these steps:
+Follow these steps to remove members from your organization:
 
 1. Click your username in the top-right corner, then select **Organization** from the menu.
 
@@ -22,12 +22,12 @@ To remove members from your organization, please follow these steps:
 
 You can use either of the two methods below to locate and remove organization members.
 
-- Method A: In the **User Management** section, click the group (e.g., Teachers) you wish to view. Click the trash icon on the right for each user you want to remove from your organization.
+- Method 3a: In the **User Management** section, click the group (e.g., Teachers) you wish to view. Click the trash icon on the right for each user you want to remove from your organization.
 
 .. image:: /img/allmembers.png
     :alt: All Members
 
-- Method B: In the **Remove Organization Members** section, type the username or email address of the person you want to remove and click **Find User**. Click the trash icon on the right for the user you want to delete.
+- Method 3b: In the **Remove Organization Members** section, type the username or email address of the person you want to remove and click **Find User**. Click the trash icon on the right for the user you want to delete.
 
 .. image:: /img/manage_organization/removeorgmember.png
     :alt: Members
