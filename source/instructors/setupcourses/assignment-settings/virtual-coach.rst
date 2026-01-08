@@ -70,6 +70,10 @@ You can enable/disable these three settings for all assignments in a course at b
 - The csv template for bulk assignment settings upload has 3 new columns now, one for each of the virtual coach assistants.
 - These column values in the csv can be set to TRUE to enable any/all of the 3 assistants for any assignments in the course, and FALSE to disable them as part of the bulk settings update process.
 
+Enable/Disable Virtual Coach Assistants via Course Settings
+===========================================================
+
+You can enable or disable your extensions on a :ref:`course level <course-coach-settings>`. The course level settings override the assignment level settings and you will not be able to turn an extension off for an individual assignment if you have activated it at the course level. 
 
 Customize Assistants for Virtual Coach
 ======================================
