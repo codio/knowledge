@@ -73,7 +73,7 @@ You can enable/disable these three settings for all assignments in a course at b
 Enable/Disable Virtual Coach Assistants via Course Settings
 ===========================================================
 
-You can enable or disable your extensions on a :ref:`course level <course-coach-settings>`. The course level settings override the assignment level settings and you will not be able to turn an extension off for an individual assignment if you have activated it at the course level. 
+You can enable or disable extensions at the :ref:`course level <course-coach-settings>`. Course-level settings override assignment-level settings—if you activate an extension at the course level, you cannot disable it for individual assignments.
 
 Customize Assistants for Virtual Coach
 ======================================

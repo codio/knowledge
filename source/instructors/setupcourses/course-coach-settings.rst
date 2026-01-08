@@ -8,8 +8,9 @@
 Extension Settings for a Course
 ===============================
 
+From the **Extensions** tab in the **Admin** section of your Course menu, you can enable Codio :ref:`Virtual Coach <virtual-coach>` extensions and custom :ref:`organization extensions <org-extensions>` at the course level.
+    
+.. note:: Extensions enabled at the course level cannot be disabled at the assignment level. If you prefer selective enablement per assignment, use the :ref:`bulk assignment update <bulk-assignment-update>` feature or configure extensions for each assignment.
 
-You can enable Codio :ref:`Virtual Coach <virtual-coach>` extensions and custom :ref:`organization extensions <org-extensions>` on the course level from the **Extensions** tab in the **Admin** section of your Course menu. Extensions enabled at the course level cannot be disabled on the assignment level. If you prefer to selectively enable Extensions, you can do so at the assignment level or use the :ref:`bulk assignment update <bulk-assignment-update>` feature. 
-
-   .. image:: /img/course_settings/course-level-extensions.png
-      :alt: Organization Settings
+.. image:: /img/course_settings/course-level-extensions.png
+    :alt: Course-level Extensions Settings

@@ -19,4 +19,4 @@ You can add custom extensions similar to the Virtual Coach extensions supplied b
 3. Click the **Extensions** tab.
 
    .. image:: /img/manage_organization/customextension.png
-      :alt: Organization Settings
+      :alt: Organization Extensions Tab
