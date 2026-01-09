@@ -1,5 +1,5 @@
 .. meta::
-   :description: Virtual Coach is an AI tool for assisting students with revealing solutions.
+   :description: VVirtual Coach is an AI tool for assisting students with explanations, error messages, and hints.
 
 
 .. _virtual-coach:
@@ -9,13 +9,12 @@ Virtual Coach
 
 When Virtual Coach is enabled, students can use AI to assist them with their programming tasks. Codio's prompts to the AI ensure that only assistance is provided, not solutions. The Virtual Coach can help students understand error messages, gain a better understanding of the assignment prompt, or receive a hint about the next possible steps.
 
-Codio conducts extensive research in the field of AI use in computing education, with error messages, summaries, and hints representing well-researched use cases for AI-assisted learning. Our Coach feature, which generates AI-powered explanations, demonstrates positive benefits for learners through improved completion rates and higher median grade attainment. For more information, you can download `our research paper <https://www.codio.com/research/impact-of-codio-coach>`_.
+Codio conducts extensive research in the field of AI use in computing education, with error messages, summaries, and hints representing well-researched use cases for AI-assisted learning. Our Virtual Coach feature, which generates AI-powered explanations, demonstrates positive benefits for learners through improved completion rates and higher median grade attainment.
 
 .. note::
     Coach is powered by Anthropic's Claude model. No student's personally identifiable information (PII) is stored by Anthropic, ensuring student privacy protection. 
 
-In the assignments settings, there are three settings you can toggle to enable the following features: **Summarize Prompt**, **Error Augmentation**, and **Next Steps Hint**. 
-
+In the assignment settings, there are three settings you can toggle to enable the following features: **Summarize Prompt**, **Error Augmentation**, and **Next Steps Hint**.
 
 .. image:: /img/vc-and-extensions/coach-assignment-settings.png
    :alt: Assignment settings for Virtual Coach
@@ -31,11 +30,11 @@ Students may select one of the options presented by the Coach to receive more in
    :alt: The student view of Virtual Coach
 
 
-- **Summarize prompt**: This option summarizes the text in the guide on the page and provides students with an enumerated set of steps.
+- **Summarize Prompt**: This option summarizes the text in the guide on the page and provides students with an enumerated set of steps.
 
 - **Error Augmentation**: Provides detailed explanations of error messages.
 
-- **Next steps hint**: Provides students with ideas for the next steps they can take to complete their assignment.
+- **Next Steps Hint**: Provides students with ideas for the next steps they can take to complete their assignment.
 
 .. image:: /img/vc-and-extensions/student-vc-summary.png
    :alt: The student view of an assignment summary in Virtual Coach
@@ -120,7 +119,6 @@ When the code for the extension is complete, you’ll need to create a **Release
    
 1. Navigate back to your repository and on the right panel, click on “Create a new release”.
 
-
 .. image:: /img/creating-a-release-virtual-coach.png
    :alt: create-release-example
 
@@ -137,7 +135,7 @@ When the code for the extension is complete, you’ll need to create a **Release
 Deploying a custom assistant to your organization
 -------------------------------------------------
 
-Now that you have authored and tested your custom AI assistant, these are the steps to deploy it in your organization:
+Now that you have authored and tested your custom AI assistant, follow these steps to deploy it in your organization:
 
 1. Navigate to your extension’s Github repository and copy the webpage URL: it should look something like this: `https://github.com/<your-github-username>/<extension-repository-name>`
 
