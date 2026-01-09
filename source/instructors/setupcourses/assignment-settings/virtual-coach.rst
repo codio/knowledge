@@ -1,5 +1,5 @@
 .. meta::
-   :description: Hint-Bot is a quick AI solution for helping students with simple queries.
+   :description: Virtual Coach is an AI tool for assisting students with revealing solutions.
 
 
 .. _virtual-coach:
@@ -14,14 +14,14 @@ Codio conducts extensive research in the field of AI use in computing education,
 .. note::
     Coach is powered by Anthropic's Claude model. No student's personally identifiable information (PII) is stored by Anthropic, ensuring student privacy protection. 
 
-In the assignments settings area, there are three settings you can toggle to enable the following features: **Summarize Prompt**, **Error Augmentation**, and **Next Steps Hint**. 
+In the assignments settings, there are three settings you can toggle to enable the following features: **Summarize Prompt**, **Error Augmentation**, and **Next Steps Hint**. 
 
 
 .. image:: /img/vc-and-extensions/coach-assignment-settings.png
    :alt: Assignment settings for Virtual Coach
 
 
-When a student clicks on the Virtual Coach icon in the bottom right corner, a dialog opens, and they can see the assistants you have enabled. If there is no :ref:`Guide<authoring>` in the assignment only error message augmentation will be available.
+When a student clicks on the Virtual Coach icon in the bottom right corner, a dialog opens, and they can see the assistants you have enabled. If there is no :ref:`Guide <authoring>` in the assignment, only error message augmentation will be available.
 
 
 
@@ -80,14 +80,14 @@ You can enable or disable assistants at the :ref:`course level <course-coach-set
 Custom Assistants for Virtual Coach
 ===================================
 
-You can extend the current capabilities of Coach by adding your own custom assistants as Javascript extensions. You will need a Github account to get started. If you don't have one, follow the steps here: https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github
+You can extend the current capabilities of Coach by adding your own custom assistants as Javascript extensions. You will need a Github account to get started. If you don't have one, follow the steps in the `GitHub documentation <https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github>`_.
 
 Once you’re signed in to your Github account, you will be able to create, install and test your custom AI assistant with Coach.
 
 Customize or Use an Existing Custom Assistant as a Javascript Extension
 -----------------------------------------------------------------------
 
-1. Click this link to view the Codio Extensions Github Page - https://github.com/codio-extensions and scroll down to the Repositories section.
+1. Click this link to view the `Codio Extensions GitHub repository <https://github.com/codio-extensions>`_ and scroll down to the Repositories section.
 
 .. image:: /img/codio-extension-virtual-coach.png
    :alt: Codio-extensions
@@ -141,7 +141,7 @@ Now that you have authored and tested your custom AI assistant, these are the st
 
 1. Navigate to your extension’s Github repository and copy the webpage URL: it should look something like this: `https://github.com/<your-github-username>/<extension-repository-name>`
 
-2. Login to your Codio account, and click on your username in the upper right-hand corner and select **Organizations** from the menu.
+2. Login to your Codio account, and click on your username in the upper right corner and select **Organizations** from the menu.
 
 3. Choose an Organization that you’re an owner of - this is how you’ll set up your assistant as an extension. If you’re not an owner, contact your Organization Admin to help you set it up.
 
@@ -159,21 +159,18 @@ Once you’ve made more edits to your code files and created a new release, here
 
 1. Login to your Codio account, and click on your username in the upper right hand corner of your screen and select **Organizations**.
 2. Choose an Organization that you’re an owner of - this is how you’ll be able to set up your assistant as an extension. If you’re not an owner, contact your Organization Admin to help you set it up.
-3. Now click on Extensions. You should be able to see your Custom Assistant under Active Extensions.
+3. Now click on :ref:`Extensions <org-extensions>`. You should be able to see your Custom Assistant under Active Extensions.
 4. Click on the **Check for Updates** button in the top right corner.
 5. If there are any updates to be applied, you will be prompted to do so.
 
 Authoring your own custom assistant as a Javascript extension
 -------------------------------------------------------------
 
-1. Click this link to head over to the Coach Custom Assistant Template repository - 
-https://github.com/codio-extensions/coach-custom-assistant-template-simple
+1. Click this link to head over to the `Coach Custom Assistant Template repository <https://github.com/codio-extensions/coach-custom-assistant-template-simple>`_
 
 
 .. image:: /img/create-a-new-repository.png
    :alt: Coach extensions example Github repository
-
-.. 2. Click on the green `Fork <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo>`_ button, in the top right corner, to fork your own copy of the example repo, and give it a unique name - This is where you will be making the edits to the example code to create your custom assistant.
 
 2. Click on the green **Use This Template** button in the top right corner, and select **Create a new repository** from the drop down menu to create your own repo from the template. Now pick an owner for this repository, give it a unique name and click **Create Repository** - This is where you will be making the edits to the template code to create your own custom assistant.
     You'll see 2 files in your repo:
@@ -212,7 +209,7 @@ Testing your custom assistant using Development Mode
 If you’d like to test your assistant before deploying it to your organization, you can use the Extension Development Mode to test it.
 
 
-1. Navigate to your extension's Github repository, click on the green **Code** button, then click on SSH and copy the displayed URL.
+1. Navigate to your extension's GitHub repository, click on the green **Code** button, then click on SSH and copy the displayed URL.
 
 2. Now, go back to your repository’s home page, click on the **metadata.json** file and copy its contents.
 
@@ -231,7 +228,7 @@ If you’d like to test your assistant before deploying it to your organization,
 9. Now click on **Extensions** at the bottom of the list, and scroll down to the Development mode section.
 
 .. image:: /img/vc-and-extensions/preference-extensions.png
-    :alt: Development for testing extensions
+    :alt: Development Mode for testing extensions
 
 10. Paste the **index.js** webpage URL that you copied in Step 1 in the Source Code URL field
 
