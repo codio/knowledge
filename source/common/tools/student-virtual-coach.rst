@@ -7,50 +7,48 @@
 Virtual Coach 
 =============
 
-The Virtual Coach can help you understand the error messages you have received, gain a better understanding of the assignment prompt, or receive a hint about the next possible steps.
+The Virtual Coach can help you understand error messages, gain a better understanding of the assignment prompt, or receive a hint about the next possible steps.
 
 .. note::
    Virtual Coach responses may be AI-generated. Always verify suggestions against your assignment, course materials, and instructor guidance.
 
-To open Virtual Coach, click the Chatbot icon at the bottom-right corner of the screen. This icon will only be available if your teachers enable this feature.
+To open the Virtual Coach, click the Chatbot icon at the bottom-right corner of the screen. This icon will only be available if your instructor has enabled this feature.
 
 
-.. image:: /img/chatbot-icon.png
-   :alt: ChatBot icon at the bottom left corner
-
-
-
-When you open Virtual Coach, you will see up to three options depending on the settings applied. If there is no guide in the assignment, only error message augmentation will be available.
-
-
-.. image:: /img/Hint-Bot.png
-   :alt: ChatBot window with three options
+.. image:: /img/vc-and-extensions/coach-icon.png
+   :alt: Virtual Coach icon at the bottom right corner
 
 
 
-- **Summarize what I need to do**: This option summarizes the text in the guide on the page and provides you with an enumerated set of steps.
+When you open Virtual Coach, you will see the options your instructor has enabled. If there is no guide in the assignment, only error message augmentation will be available.
+
+
+.. image:: /img/vc-and-extensions/student-view-coach.png
+   :alt: The student view of Virtual Coach
 
 
 
-.. image:: /img/Summarise-bot.png
-   :alt: Summary of the assessment by chatbot
+- **Summarize what I need to do**: This option summarizes the instructions and provides you with an enumerated set of steps.
 
 
 
-- **Explain an error**: Provides detailed explanations of error messages. After clicking this option, you must paste in the error message text you wish to have explained
+.. image:: /img/vc-and-extensions/student-vc-summary.png
+   :alt: The student view of an assignment summary in Virtual Coach
 
 
-.. image:: /img/Explain-error.png
-   :alt: Explain an error by chatbot
+
+- **Explain an error**: Provides detailed explanations of error messages. After clicking this option, you must paste in the error message text.
+
+
+.. image:: /img/vc-and-extensions/student-vc-error.png
+   :alt: The student view of an error explanation in Virtual Coach
 
 
 
 - **Provide a hint on what to do next**: Provides you with ideas for the next steps you can take to complete your assignment.
 
+.. image:: /img/vc-and-extensions/student-vc-hint.png
+   :alt: The student view of next steps hints in Virtual Coach
 
-.. image:: /img/chatbot-hint-option.png
-   :alt: Hint option by chatbot
-
-
-You can provide feedback on the Virtual Coach’s responses by using the thumbs up icon to vote up or the thumbs down icon to vote down the responses.
-You can also resize the chatbot window by dragging the circle that appears at the top left corner.
+You can provide feedback on the Virtual Coach’s responses by using the thumbs up or thumbs down icon.
+The Virtual Coach window may be resized by dragging the resizing icon in the upper left corner.
