@@ -157,7 +157,7 @@ Applying updates to a custom assistant after creating a new release
 
 Once you’ve made more edits to your code files and created a new release, here’s how you can apply the updates to your assistant:
 
-1. Login to your Codio account, and click on your username in the upper right hand corner of your screen and select **Organizations**.
+1. Login to your Codio account, and click on your username in the upper right corner of your screen and select **Organizations**.
 2. Choose an Organization that you’re an owner of - this is how you’ll be able to set up your assistant as an extension. If you’re not an owner, contact your Organization Admin to help you set it up.
 3. Now click on :ref:`Extensions <org-extensions>`. You should be able to see your Custom Assistant under Active Extensions.
 4. Click on the **Check for Updates** button in the top right corner.
@@ -230,7 +230,7 @@ If you’d like to test your assistant before deploying it to your organization,
 .. image:: /img/vc-and-extensions/preference-extensions.png
     :alt: Development Mode for testing extensions
 
-10. Paste the **index.js** webpage URL that you copied in Step 1 in the Source Code URL field
+10. Paste the **index.js** webpage URL that you copied in Step 7 in the Source Code URL field.
 
 11. Paste the contents of the metadata.json file that you copied in Step 2 in the **metadata** section, and click **Save changes**.
 
