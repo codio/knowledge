@@ -46,6 +46,7 @@ Courses Set Up
    common-storage
    course-llm
    course-coach-settings
+   custom-coach-extensions
    
 A course is a grouping of students who are taught as a logical group. One of the main tasks for instructors is to create the courses for their students, and then add content (modules and assignments), share it with others, add teachers and students to it, and other tasks. 
 With courses, you can instantly access student code and projects. 
