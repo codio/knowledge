@@ -7,11 +7,11 @@
 Custom Assistants for Virtual Coach
 ===================================
 
-You can extend the current capabilities of Coach by adding your own custom assistants as Javascript extensions. You will need a Github account to get started. If you don't have one, follow the steps in the `GitHub documentation <https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github>`_.
+You can extend the current capabilities of Coach by adding your own custom assistants as JavaScript extensions. You will need a Github account to get started. If you don't have one, follow the steps in the `GitHub documentation <https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github>`_.
 
 Once you're signed in to your Github account, you will be able to create, install and test your custom AI assistant with Coach.
 
-Customize or Use an Existing Custom Assistant as a Javascript Extension
+Customize or Use an Existing Custom Assistant as a JavaScript Extension
 -----------------------------------------------------------------------
 
 1. Click this link to view the `Codio Extensions GitHub repository <https://github.com/codio-extensions>`_ and scroll down to the Repositories section.
@@ -19,12 +19,12 @@ Customize or Use an Existing Custom Assistant as a Javascript Extension
 .. image:: /img/codio-extension-virtual-coach.png
    :alt: Codio-extensions
 
-2. Choose one of repositories that starts with **custom-assistant-example-<example_name>**
+2. Choose one of the repositories that starts with **custom-assistant-example-<example_name>**
 
-.. Note::  These examples are experimental and may receive small improvements and updates. If you're using them as is, please check the respective github repositories for the latest release available.
+.. Note:: These examples are experimental and may receive small improvements and updates. If you're using them as is, please check the respective github repositories for the latest release available.
 
 3. Click on the green **Use This Template** button or the `Fork <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo>`_ button, in the top right corner, to create a copy of the example repo, and give it a unique name - This will be your own copy of the custom assistant where you can make edits to the example code to customize your assistant.
-    You'll see 2 files in your repo:
+    You'll see two files in your repo:
         -  **metadata.json**: This file will contain some basic information about your extension:
             1. **name**: The name of your extension - rename this field to describe what your assistant will do
             2. **type**: For any Coach extension, the default value is “helper”
@@ -76,7 +76,7 @@ Now that you have authored and tested your custom AI assistant, follow these ste
 5. Paste the URL of your Github repository's webpage that you copied in step 1, and click **Ok**. You should now see it pop up as an Inactive Extension. To deploy the assistant to your account, click the plug icon. Now it is active and deployed in your organization.
 
 
-.. Note::  **This is an experimental feature**. Adding an assistant to your organization will make it available to be toggled on or off in every course in that organization. 
+.. Note:: **This is an experimental feature**. Adding an assistant to your organization will make it available to be toggled on or off in every course in that organization. 
 
 Applying updates to a custom assistant after creating a new release
 -------------------------------------------------------------------
@@ -133,6 +133,6 @@ If you'd like to test your assistant before deploying it to your organization, y
 Now you can open any of your assignments or projects and your extension will be visible as a menu item in Coach. You can test and make changes and once you're happy with it, :ref:`create a release<create-a-release>` and :ref:`deploy your assistant<deploy-your-assistant>`.
 
 
-.. Note::  By adding an extension to your account or testing it in Development mode, it will only be visible to you and not your students—regardless of the **user_type** in **metadata.json**. This allows you to test and refine your assistant before deploying it to your organization.
+.. Note:: By adding an extension to your account or testing it in Development mode, it will only be visible to you and not your students—regardless of the **user_type** in **metadata.json**. This allows you to test and refine your assistant before deploying it to your organization.
 
 
