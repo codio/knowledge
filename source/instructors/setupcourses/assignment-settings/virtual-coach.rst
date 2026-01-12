@@ -22,6 +22,12 @@ For more information, you can download `our research paper <https://www.codio.co
 
 In the assignment settings, there are three settings you can toggle to enable the following features: **Summarize Prompt**, **Error Augmentation**, and **Next Steps Hint**.
 
+- **Summarize Prompt**: This option summarizes the text in the guide on the page and provides students with an enumerated set of steps.
+
+- **Error Augmentation**: Provides detailed explanations of error messages.
+
+- **Next Steps Hint**: Provides students with ideas for the next steps they can take to complete their assignment.
+
 .. image:: /img/vc-and-extensions/coach-assignment-settings.png
    :alt: Assignment settings for Virtual Coach
 
@@ -36,11 +42,7 @@ Students may select one of the options presented by the Coach to receive more in
    :alt: The student view of Virtual Coach
 
 
-- **Summarize Prompt**: This option summarizes the text in the guide on the page and provides students with an enumerated set of steps.
-
-- **Error Augmentation**: Provides detailed explanations of error messages.
-
-- **Next Steps Hint**: Provides students with ideas for the next steps they can take to complete their assignment.
+What they will see if they select **Summarize Prompt**:
 
 .. image:: /img/vc-and-extensions/student-vc-summary.png
    :alt: The student view of an assignment summary in Virtual Coach

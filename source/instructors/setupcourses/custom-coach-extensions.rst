@@ -54,18 +54,18 @@ When the code for the extension is complete, you'll need to create a **Release**
    :alt: publish-release-example
 
 
-.. note:: If you've made any changes, updates, or edits to your code files (``index.js`` or ``metadata.json``) after creating a release, you need to create a new release to propagate those changes to your custom assistant.
+.. important:: If you've made any changes, updates, or edits to your code files (``index.js`` or ``metadata.json``) after creating a release, you need to create a new release to propagate those changes to your custom assistant.
 
 .. _deploy-your-assistant:
 
-Deploying a custom assistant to your organization
+Deploying a Custom Assistant to Your Organization
 -------------------------------------------------
 
 Now that you have authored and tested your custom AI assistant, follow these steps to deploy it in your organization:
 
-1. Navigate to your extension's GitHub repository and copy the webpage URL: it should look something like this: `https://github.com/<your-github-username>/<extension-repository-name>`
+1. Navigate to your extension's GitHub repository and copy the webpage URL: it should look something like this: ``https://github.com/<your-github-username>/<extension-repository-name>``
 
-2. Login to your Codio account, and click on your username in the upper right corner and select **Organizations** from the menu.
+2. Log in to your Codio account, and click on your username in the upper right corner and select **Organizations** from the menu.
 
 3. Choose an Organization that you're an owner of - this is how you'll set up your assistant as an extension. If you're not an owner, contact your Organization Admin to help you set it up.
 
@@ -76,18 +76,18 @@ Now that you have authored and tested your custom AI assistant, follow these ste
 
 .. note:: **This is an experimental feature**. Adding an assistant to your organization will make it available to be toggled on or off in every course in that organization. 
 
-Applying updates to a custom assistant after creating a new release
+Applying Updates to a Custom Assistant After Creating a New Release
 -------------------------------------------------------------------
 
 Once you've made more edits to your code files and created a new release, here's how you can apply the updates to your assistant:
 
-1. Login to your Codio account, and click on your username in the upper right corner of your screen and select **Organizations**.
+1. Log in to your Codio account, and click on your username in the upper right corner of your screen and select **Organizations**.
 2. Choose an Organization that you're an owner of - this is how you'll be able to set up your assistant as an extension. If you're not an owner, contact your Organization Admin to help you set it up.
 3. Now click on :ref:`Extensions <org-extensions>`. You should be able to see your Custom Assistant under Active Extensions.
-4. Click on the **Check for Updates** button in the top right corner.
+4. Click on the **Check for Updates** button in the top-right corner.
 5. If there are any updates to be applied, you will be prompted to do so.
 
-Using your own LLMs in custom assistants via Codio's LLM Proxy
+Using Your Own LLMs in Custom Assistants via Codio's LLM Proxy
 --------------------------------------------------------------
 
 You can use your own LLM (commercial or open-source) instead of Codio's built-in Anthropic LLM by leveraging your Organization Level LLM API keys via Codio's LLM Proxy.
@@ -97,7 +97,7 @@ Please refer to our documentation on adding LLM API keys to your Codio Organizat
 
 Once the API keys are set up and LLMs are enabled in your course, refer to the Virtual Coach Custom Assistants `API Reference <https://codio.github.io/client/codioIDE.coachBot.html#.getLlmProxyDetails>`_  to send requests and fetch responses from your own LLMs!
 
-Testing your custom assistant using Development Mode
+Testing Your Custom Assistant Using Development Mode
 ----------------------------------------------------
 
 If you'd like to test your assistant before deploying it to your organization, you can use the Extension Development Mode to test it.
@@ -107,24 +107,24 @@ If you'd like to test your assistant before deploying it to your organization, y
 
 2. Now, go back to your repository's home page, click on the ``metadata.json`` file and copy its contents.
 
-3. Login to your Codio account, select **My Projects** from the **Build** menu and click the **New Project** button.
+3. Log in to your Codio account, select **My Projects** from the **Build** menu and click the **New Project** button.
 
 4. In the **Select your Starting Point** section, click **Import** and then paste the URL you copied in Step 1 in the URL field, and give your project a name in the **Add Details** section.
 
 5. In the **Select the visibility** section, choose **Public**, and click **Create**. Your project will be opened.
 
-6. Now, you should see the ``index.js`` file in the filetree on the left. Right-click (or Ctrl-click) on it, and select **Preview Static** in the drop down menu.
+6. Now, you should see the ``index.js`` file in the filetree on the left. Right-click (or Ctrl-click) on it, and select **Preview Static** in the drop-down menu.
 
-7. This will open the file and display a web URL. Copy this web URL.
+7. This will open the file and display a URL. Copy this URL.
 
-8. Go back to the homepage of your Codio account and click on your username in the upper right corner of your screen and select **Preferences**.
+8. Go back to the homepage of your Codio account and click on your username in the upper-right corner of your screen and select **Preferences**.
 
 9. Now click on **Extensions** at the bottom of the list, and scroll down to the Development mode section.
 
 .. image:: /img/vc-and-extensions/preference-extensions.png
    :alt: Development Mode for testing extensions
 
-10. Paste the ``index.js`` webpage URL that you copied in Step 7 in the Source Code URL field.
+10. Paste the ``index.js`` URL that you copied in Step 7 in the Source Code URL field.
 
 11. Paste the contents of the ``metadata.json`` file that you copied in Step 2 in the **metadata** section, and click **Save changes**.
 
