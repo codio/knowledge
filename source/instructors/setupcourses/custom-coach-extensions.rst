@@ -30,11 +30,11 @@ Customize or Use an Existing Custom Assistant as a JavaScript Extension
             2. **type**: For any Virtual Coach extension, the default value is “helper”
             3.  **user_type**: Describes who will be able to see the extension - one of 3 possible values: “learner”, “instructor”, “all”
             4. **component**: For any Virtual Coach extension, the default value is "all"
-        -  ``index.js``: This file will contain the Javascript code for the extension.
+        -  ``index.js``: This file will contain the JavaScript code for the extension.
 
 4. Edit the ``metadata.json`` file (rename the extension, choose **user_type**). Save and commit the changes to your branch.
 
-5. Refer to the `API documentation <https://codio.github.io/client/codioIDE.coachBot.html>`_ and edit the ``index.js`` file with the Javascript code for your assistant.
+5. Refer to the `API documentation <https://codio.github.io/client/codioIDE.coachBot.html>`_ and edit the ``index.js`` file with the JavaScript code for your assistant.
 
 .. _create-a-release:
 

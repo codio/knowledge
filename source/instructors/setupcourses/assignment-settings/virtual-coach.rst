@@ -18,7 +18,7 @@ For more information, you can download `our research paper <https://www.codio.co
 
 
 .. note::
-    Coach is powered by Anthropic's Claude model. No student's personally identifiable information (PII) is stored by Anthropic, ensuring student privacy protection. 
+    Virtual Coach is powered by Anthropic's Claude model. No student's personally identifiable information (PII) is stored by Anthropic, ensuring student privacy protection. 
 
 In the assignment settings, there are three settings you can toggle to enable the following features: **Summarize Prompt**, **Error Augmentation**, and **Next Steps Hint**.
 
