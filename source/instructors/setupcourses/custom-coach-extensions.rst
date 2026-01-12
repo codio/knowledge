@@ -23,7 +23,7 @@ Customize or Use an Existing Custom Assistant as a JavaScript Extension
 
 .. note:: These examples are experimental and may receive small improvements and updates. If you're using them as is, please check the respective GitHub repositories for the latest release available.
 
-3. Click on the green **Use This Template** button or the `Fork <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo>`_ button, in the top right corner, to create a copy of the example repo, and give it a unique name - This will be your own copy of the custom assistant where you can make edits to the example code to customize your assistant.
+3. Click on the green **Use This Template** button or the `Fork <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo>`_ button in the top right corner to create a copy of the example repository. Give it a unique name—this will be your own copy of the custom assistant where you can make edits to the example code to customize your assistant.
     You'll see two files in your repo:
         -  ``metadata.json``: This file will contain some basic information about your extension:
             1. **name**: The name of your extension - rename this field to describe what your assistant will do
@@ -31,8 +31,6 @@ Customize or Use an Existing Custom Assistant as a JavaScript Extension
             3.  **user_type**: Describes who will be able to see the extension - one of 3 possible values: “learner”, “instructor”, “all”
             4. **component**: For any Virtual Coach extension, the default value is "all"
         -  ``index.js``: This file will contain the Javascript code for the extension.
-
-    The ``index.js`` file has example code of how you can use the `Virtual Coach API <https://codio.github.io/client/codioIDE.coachBot.html>`_ to create your own assistant.
 
 4. Edit the ``metadata.json`` file (rename the extension, choose **user_type**). Save and commit the changes to your branch.
 
@@ -56,7 +54,7 @@ When the code for the extension is complete, you'll need to create a **Release**
    :alt: publish-release-example
 
 
-.. note:: note:: If you've made any changes, updates, or edits to your code files (``index.js`` or ``metadata.json``) after creating a release, you need to create a new release to propagate those changes to your custom assistant.
+.. note:: If you've made any changes, updates, or edits to your code files (``index.js`` or ``metadata.json``) after creating a release, you need to create a new release to propagate those changes to your custom assistant.
 
 .. _deploy-your-assistant:
 
@@ -92,7 +90,7 @@ Once you've made more edits to your code files and created a new release, here's
 Using your own LLMs in custom assistants via Codio's LLM Proxy
 --------------------------------------------------------------
 
-If you'd prefer to send API requests to your own LLM (commercial or open-source) instead of Codio's built-in Anthropic LLM, you can do so by leveraging your Organization Level LLM API keys via Codio's LLM Proxy.
+You can use your own LLM (commercial or open-source) instead of Codio's built-in Anthropic LLM by leveraging your Organization Level LLM API keys via Codio's LLM Proxy.
 
 Please refer to our documentation on adding LLM API keys to your Codio Organization and enabling it for a course.
 `Large Language Models in Codio <https://docs.codio.com/instructors/admin/organization/llms.html>`_
@@ -124,7 +122,7 @@ If you'd like to test your assistant before deploying it to your organization, y
 9. Now click on **Extensions** at the bottom of the list, and scroll down to the Development mode section.
 
 .. image:: /img/vc-and-extensions/preference-extensions.png
-    :alt: Development Mode for testing extensions
+   :alt: Development Mode for testing extensions
 
 10. Paste the ``index.js`` webpage URL that you copied in Step 7 in the Source Code URL field.
 

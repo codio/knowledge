@@ -115,7 +115,7 @@ Using the Prompt in a Custom Extension
 Using Wildcards to Reference Files in Custom Assistants
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can use wildcards to reference files. These are useful when your assignments contain files with different names. Wildcards follow standard glob patterns (e.g., * matches any characters). 
+You can use wildcards to reference files. These are useful when your assignments contain files with different names. Wildcards follow standard glob patterns (e.g., * matches zero or more characters). 
 
 .. note:: When multiple files match, the first match in alphabetical order is selected.
 
