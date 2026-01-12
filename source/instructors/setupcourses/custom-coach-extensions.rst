@@ -7,9 +7,9 @@
 Custom Assistants for Virtual Coach
 ===================================
 
-You can extend the current capabilities of Coach by adding your own custom assistants as JavaScript extensions. You will need a Github account to get started. If you don't have one, follow the steps in the `GitHub documentation <https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github>`_.
+You can extend the current capabilities of Coach by adding your own custom assistants as JavaScript extensions. You will need a GitHub account to get started. If you don't have one, follow the steps in the `GitHub documentation <https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github>`_.
 
-Once you're signed in to your Github account, you will be able to create, install and test your custom AI assistant with Coach.
+Once you're signed in to your GitHub account, you will be able to create, install and test your custom AI assistant with Coach.
 
 Customize or Use an Existing Custom Assistant as a JavaScript Extension
 -----------------------------------------------------------------------
@@ -21,7 +21,7 @@ Customize or Use an Existing Custom Assistant as a JavaScript Extension
 
 2. Choose one of the repositories that starts with **custom-assistant-example-<example_name>**
 
-.. Note:: These examples are experimental and may receive small improvements and updates. If you're using them as is, please check the respective github repositories for the latest release available.
+.. note:: These examples are experimental and may receive small improvements and updates. If you're using them as is, please check the respective github repositories for the latest release available.
 
 3. Click on the green **Use This Template** button or the `Fork <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo>`_ button, in the top right corner, to create a copy of the example repo, and give it a unique name - This will be your own copy of the custom assistant where you can make edits to the example code to customize your assistant.
     You'll see two files in your repo:
@@ -56,7 +56,7 @@ When the code for the extension is complete, you'll need to create a **Release**
    :alt: publish-release-example
 
 
-.. Note:: If you've made any changes, updates or edits to your code files (**index.js** or **metadata.js**) after creating a release, you need to create a new release to propagate those changes to your custom assistant.
+.. note:: If you've made any changes, updates or edits to your code files (**index.js** or **metadata.json**) after creating a release, you need to create a new release to propagate those changes to your custom assistant.
 
 .. _deploy-your-assistant:
 
@@ -65,7 +65,7 @@ Deploying a custom assistant to your organization
 
 Now that you have authored and tested your custom AI assistant, follow these steps to deploy it in your organization:
 
-1. Navigate to your extension's Github repository and copy the webpage URL: it should look something like this: `https://github.com/<your-github-username>/<extension-repository-name>`
+1. Navigate to your extension's GitHub repository and copy the webpage URL: it should look something like this: `https://github.com/<your-github-username>/<extension-repository-name>`
 
 2. Login to your Codio account, and click on your username in the upper right corner and select **Organizations** from the menu.
 
@@ -73,10 +73,10 @@ Now that you have authored and tested your custom AI assistant, follow these ste
 
 4. Now click on :ref:`Extensions <org-extensions>`, and then click on the **Add extension** button.
 
-5. Paste the URL of your Github repository's webpage that you copied in step 1, and click **Ok**. You should now see it pop up as an Inactive Extension. To deploy the assistant to your account, click the plug icon. Now it is active and deployed in your organization.
+5. Paste the URL of your GitHub repository's webpage that you copied in step 1, and click **Ok**. You should now see it pop up as an Inactive Extension. To deploy the assistant to your account, click the plug icon. Now it is active and deployed in your organization.
 
 
-.. Note:: **This is an experimental feature**. Adding an assistant to your organization will make it available to be toggled on or off in every course in that organization. 
+.. note:: **This is an experimental feature**. Adding an assistant to your organization will make it available to be toggled on or off in every course in that organization. 
 
 Applying updates to a custom assistant after creating a new release
 -------------------------------------------------------------------
@@ -133,6 +133,6 @@ If you'd like to test your assistant before deploying it to your organization, y
 Now you can open any of your assignments or projects and your extension will be visible as a menu item in Coach. You can test and make changes and once you're happy with it, :ref:`create a release<create-a-release>` and :ref:`deploy your assistant<deploy-your-assistant>`.
 
 
-.. Note:: By adding an extension to your account or testing it in Development mode, it will only be visible to you and not your students—regardless of the **user_type** in **metadata.json**. This allows you to test and refine your assistant before deploying it to your organization.
+.. note:: By adding an extension to your account or testing it in Development mode, it will only be visible to you and not your students—regardless of the **user_type** in **metadata.json**. This allows you to test and refine your assistant before deploying it to your organization.
 
 

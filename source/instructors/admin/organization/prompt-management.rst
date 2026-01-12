@@ -117,7 +117,7 @@ Using Wildcards to Reference Files in Custom Assistants
 
 You can use wildcards to reference files. These are useful when your assignments contain files with different names.
 
-.. Note:: The first file that matches the wildcard search will be the one selected.
+.. note:: The first file that matches the wildcard search will be the one selected.
 
 Here is an example:
 

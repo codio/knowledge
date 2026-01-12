@@ -56,7 +56,7 @@ If an error message is not provided, the student will receive the following: "Th
    :alt: The student view of an error explanation in Virtual Coach
 
 
-.. Note:: Standard and Advanced Code tests have an additional "Explain this error" button that will appear if Error Augmentation is on and running a code test results in an error state.
+.. note:: Standard and Advanced Code tests have an additional "Explain this error" button that will appear if Error Augmentation is on and running a code test results in an error state.
 
 Students can provide feedback on the Virtual Coach’s responses by using the thumbs up or thumbs down icon.
 The Virtual Coach window may be resized by dragging the resize handle in the upper left corner.
@@ -82,4 +82,4 @@ Using Course Settings to Enable or Disable Assistants
 
 You can enable or disable assistants at the :ref:`course level <course-coach-settings>`. Course-level settings override assignment-level settings. If you activate an extension at the course level, you cannot disable it for individual assignments.
 
-.. Note:: For more information about creating custom Virtual Coach assistants see :ref:`Custom Assistants for Virtual Coach <custom-coach-extensions>`.
+.. note:: For more information about creating custom Virtual Coach assistants see :ref:`Custom Assistants for Virtual Coach <custom-coach-extensions>`.
