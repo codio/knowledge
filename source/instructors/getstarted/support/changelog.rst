@@ -13,9 +13,14 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**January 2026**
+
+- `[I] [7th]`: Add a way to :ref:`Enable or disable extensions on a course level <course-coach-settings>`.
+
 **December 2025**
 
 - `[I] [19th]`: Add a way to :ref:`remove any organization member <remove-org-members>`.
+- `[I] [18th]`: Added support for wildcards in file names for :ref:`custom assistants <prompt-management>`.
 - `[I] [12th]`: Added support for the :ref:`Jupyter Collaboration Extension <jupyter>`.
 
 **November 2025**

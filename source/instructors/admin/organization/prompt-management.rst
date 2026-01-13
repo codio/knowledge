@@ -33,7 +33,7 @@ Enter your prompt text and specify the data you want to include as context.
 - Click **Create** once you have entered all the information.
 
 .. note::
-   Files are retrieved dynamically on the server when the assistant is used. If a referenced file is deleted or doesn’t exist after the prompt is created, an empty string is sent as context.
+   Files are retrieved dynamically on the server when the assistant is used. If a referenced file is deleted or doesn't exist after the prompt is created, an empty string is sent as context.
 
 .. image:: /img/manage_organization/promptmanagement.png
     :alt: The prompt management dialog
@@ -111,3 +111,27 @@ Using the Prompt in a Custom Extension
     }
     })(window.codioIDE, window)
 
+
+Using Wildcards to Reference Files in Custom Assistants
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can use wildcards to reference files. These are useful when your assignments contain files with different names. Wildcards follow standard glob patterns (e.g., * matches zero or more characters). 
+
+.. note:: When multiple files match, the first match in alphabetical order is selected.
+
+Here is an example:
+
+.. code:: none
+
+    Here is the question the student is working on:
+    <assignment>
+    {{"type": "VARIABLE", "name": "GUIDE_CONTENT"}}
+    </assignment>
+    Here's the sample solution for the question:
+    <solution>
+    {{"type": "INSTRUCTOR_VIEW", "filepath": ".guides/secure/lab*.py"}}
+    </solution>
+    Here's the starter code for the assignment:
+    <starter>
+    {{"type": "STARTER_CODE", "filepath": "lab*.py"}}
+    </starter>

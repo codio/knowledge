@@ -22,6 +22,7 @@ Organization settings
    gigabox-usage
    delete-org
    org-contact-url
+   org-extensions
    auto-release-grades
    hide-av
    student-email
@@ -52,6 +53,7 @@ The person who creates the organization in Codio is the owner and is given the a
 - :ref:`Gigaboxes <gigabox-usage>`
 - :ref:`Delete an Organization <delete-org>`
 - :ref:`Set Organization Contact URL <org-contact-url>`
+- :ref:`Configure Organization Extensions <org-extensions>`
 - :ref:`Enable/Disable Release Grade Automatically <auto-release-grades>`
 - :ref:`Hide A/V calls <hideav>`
 - :ref:`Set up SSO Integration <sso-integration>`
