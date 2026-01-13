@@ -10,24 +10,24 @@ Batch Assessment Update
 
 You have the ability to perform bulk updates for various assessment settings, including points, partial points, use of maximum score, show expected answer, number of attempts, and showing rationale to students.
 
-Before you begin, make sure to download the XLSX template file. You can download the XLSX template file for your course from **Download Assessment Template** in the **Assessment Settings** section of the **Bulk Settings** area. Update the fields as per your requirements and use that XLSX file to update the assessment settings.
+Before you begin, make sure to download the Excel (.xlsx)  template file. You can download the Excel (.xlsx)  template file for your course from **Download Assessment Template** in the **Assessment Settings** section of the **Bulk Settings** area. Update the fields as per your requirements and use that Excel (.xlsx) file to update the assessment settings.
 
-Here is a sample screenshot of the XLSX template:
+Here is a sample screenshot of the template:
 
 .. image:: /img/guides/assessment-screenshot-XLSX-bulk-template.png
       :alt: Sample XLSX Template
 
 
-Things you should know about the XLSX template:
-
-   - Header names must be same as row 1 of above XLSX
-   - Do not modify assessment types in column A.
-   - Ensure option values match exactly as shown (case-sensitive).
-   - Fields marked as "Locked" in the original template cannot be modified.
+Things you should know about the template:  
+   - Edit only the white cells with dropdowns or number inputs.		
+   - Leave any cell set to No Change to keep the current published setting.		
+   - Gray cells labeled Not Supported or Restricted cannot be edited for the selected assessment type.		
    - Save the file in XLSX format before uploading.
-   
+		
 
-**Here is a reference guide on how to update your XLSX template file:** 
+
+**Here is a reference guide on how to update your template file:** 
+
 
 
 .. list-table::
@@ -38,67 +38,48 @@ Things you should know about the XLSX template:
      - Description
      - Available Options
    * - Assessment Type
-     - The type of assessment (e.g., Standard Code Test, Multiple Choice, Free Text Autograde)
-     - Cannot be modified - these are predefined assessment types
+     - Type of assessment
+     - Predefined - cannot be modified
    * - Points
-     - The point value for the assessment
-     - Enter a numeric value (e.g., 20, 50, 100)
+     - Point value for assessment
+     - Numeric value (e.g., 20, 50, 100)
    * - Allow Partial Points
      - Whether partial credit is allowed
-     - - **Yes**: Enable partial points
-       - **No**: Disable partial points
-       - **No Change**: Keep current setting
-       - **Locked**: Cannot be changed
+     - Yes, No, No Change, Not Supported
    * - Use Maximum Score
-     - Whether to use the maximum score
-     - - **Yes**: Use the maximum score
-       - **No**: Do not use maximum score
-       - **No Change**: Keep current setting
-       - **Locked**: Cannot be changed
+     - Whether to use maximum score
+     - Yes, No, No Change, Not Supported
    * - Show Expected Answer
-     - When to show the expected answer
-     - - **Always**: Always show to students
-       - **Never**: Never show to students
-       - **When Grades Are Released**: Show when grades are released
-       - **No Change**: Keep current setting
-       - **Locked**: Cannot be changed
+     - When to show expected answer
+     - Always, Never, When Grades Are Released, No Change, Not Supported
    * - Defined Number of Attempts
      - Number of attempts allowed
-     - - **No**: No limit on attempts
-       - **1-9**: Enter a specific number (1 through 9)
-       - **No Change**: Keep current setting
-       - **Locked**: Cannot be changed
+     - No, 1-9, No Change, Not Supported
    * - Show Rationale to Student
      - When to show rationale
-     - - **Always**: Always show rationale
-       - **Never**: Never show rationale
-       - **When Grades Are Released**: Show when grades released
-       - **Attempts**: Show after specific number of attempts (requires value in column H)
-       - **Score**: Show based on score threshold (requires value in column H)
-       - **No Change**: Keep current setting
-       - **Locked**: Cannot be changed
-   * - If Attempts or Score selected
-     - Additional threshold value (column H)
-     - - **1-99**: Enter if "Attempts" selected (attempt count)
-       - **0-100**: Enter if "Score" selected (score percentage)
-       - Leave blank if not using Attempts or Score options
+     - Always, Never, When Grades Are Released, Attempts, Score, No Change, Not Supported
+   * - Value (for ATTEMPTS/SCORE)
+     - Numeric threshold for Attempts or Score
+     - 1-99 (attempts), 0-100 (score %), blank otherwise
 
-How to Update the CSV Template
--------------------------------
 
-1. **Download the template**: Download the CSV template from "Download Assessment Template" in the "Assessment Settings" section.
+Once you have updated/modified your Excel (.xlsx) template file now you are ready to bulk update the assessment settings.
 
-2. **Open the file**: Open the CSV file in a spreadsheet application (Excel, Google Sheets, etc.).
+To bulk update the assessment settings, follow these steps:
 
-3. **Review locked fields**: Fields marked as "Locked" cannot be changed. These appear in gray in the template.
+1. On the **Courses** page, click the course you want to update the assessment settings for. 
 
-4. **Update settings**: For each assessment type, update the fields according to your requirements using the options listed in the table above.
+2. Go to **Bulk Settings** area and scroll to the **Assessment Settings** section.
 
-5. **Use "No Change"**: If you want to keep the current setting for a particular field, enter "No Change".
+3. In the **Assessment Settings** section click **Open updater**.
 
-6. **Set conditional options**: If you select "Attempts" or "Score" in the "Show Rationale to Student" column, make sure to enter the corresponding threshold value in column H.
+4. Select or drag and drop the Excel (.xlsx) file in which you have defined all the required settings.
 
-7. **Save the file**: Save the CSV file with your changes.
+5. Identify the assignments you want to update the assessment settings for.
 
-8. **Upload**: Upload the modified CSV file through the bulk settings interface.
+   .. image:: /img/guides/select-excel-batch-update.png
+      :alt: Select csv Batch Update
 
+6. Click **Apply and Done**. A popup window will appear asking you to confirm, click **yes**.
+
+.. note:: A green banner will appear at the bottom of the page letting you know your updates are processing. Once the update is complete you will receive an email from Codio. 
