@@ -27,6 +27,7 @@ Courses Set Up
    bulk-assignment-update
    batch-groups-upload
    batch-student-tagging
+   batch-assessment-update
    add-teachers
    add-ta
    add-remove-students
@@ -45,7 +46,6 @@ Courses Set Up
    virtualmachine
    common-storage
    course-llm
-   batch-assessment-update
    course-coach-settings
    custom-coach-extensions
    

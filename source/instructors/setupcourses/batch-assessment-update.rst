@@ -19,14 +19,14 @@ Here is a sample screenshot of the template:
 
 
 Important notes about the template:
-   - Edit only the white cells with dropdowns or number inputs.		
-   - Leave any cell set to No Change to keep the current published setting.		
-   - Gray cells labeled Not Supported or Restricted cannot be edited for the selected assessment type.		
+   - Edit only the white cells with dropdowns or number inputs.
+   - Leave any cell set to No Change to keep the current published setting.
+   - Gray cells labeled Not Supported or Restricted cannot be edited for the selected assessment type.
    - Save the file in XLSX format before uploading.
 		
 
 
-**Template field reference:** 
+**Template field reference:**
 
 
 
@@ -81,6 +81,6 @@ To bulk update the assessment settings, follow these steps:
    .. image:: /img/guides/select-excel-batch-update.png
       :alt: Select excel Batch Update
 
-6. Click **Apply and Done**. A popup window will appear asking you to confirm, click **yes**.
+6. Click **Apply and Done**. A popup window will appear asking you to confirm, click **Yes**.
 
 .. note:: A green banner will appear at the bottom of the page letting you know your updates are processing. Once the update is complete you will receive an email from Codio. 
