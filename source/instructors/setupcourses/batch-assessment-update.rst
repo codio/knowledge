@@ -8,7 +8,7 @@
 Batch Assessment Update
 =======================
 
-You have the ability to perform bulk updates for various assessment settings, including points, partial points, use of maximum score, show expected answer, number of attempts, and showing rationale to students.
+You can bulk update many assessment settings, including points, partial points, use of maximum score, show expected answer, number of attempts, and showing rationale to students.
 
 Before you begin, make sure to download the Excel (.xlsx) template file. You can download the Excel (.xlsx) template file for your course from **Download Assessment Template** in the **Assessment Settings** section of the **Bulk Settings** area. Update the fields as per your requirements and use that Excel (.xlsx) file to update the assessment settings.
 
@@ -20,8 +20,8 @@ Here is a sample screenshot of the template:
 
 Important notes about the template:
    - Edit only the white cells with dropdowns or number inputs.
-   - Leave any cell set to No Change to keep the current published setting.
-   - Gray cells labeled Not Supported or Restricted cannot be edited for the selected assessment type.
+   - Leave any cell set to **No Change** to keep the current published setting.
+   - Gray cells labeled **Not Supported** or **Restricted** cannot be edited for the selected assessment type.
    - Save the file in XLSX format before uploading.
 		
 
@@ -76,11 +76,11 @@ To bulk update the assessment settings, follow these steps:
 
 4. Select or drag and drop the Excel (.xlsx) file in which you have defined all the required settings.
 
-5. Identify the assignments you want to update the assessment settings for.
+5. Select the assignments you want to modify.
 
    .. image:: /img/guides/select-excel-batch-update.png
       :alt: Select excel Batch Update
 
-6. Click **Apply and Done**. A popup window will appear asking you to confirm, click **Yes**.
+6. Click **Apply and Close**. A popup window will appear asking you to confirm, click **Yes**.
 
 .. note:: A green banner will appear at the bottom of the page letting you know your updates are processing. Once the update is complete you will receive an email from Codio. 
