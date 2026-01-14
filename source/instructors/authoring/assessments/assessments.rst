@@ -11,7 +11,8 @@ Codio offers assessments that determine how well students understand course mate
 
 Codio provides a Starter Pack project that contains examples for all assessment types and a guides authoring cheat sheet. Go to **Starter Packs**, search for **Demo Guides and Assessments**, click **Use Pack**, then click **Create** to install it to your Codio account.
 
-You can view the results of assessments in a course from the teacher dashboard.
+You can view the results of assessments in a course from the teacher dashboard. For courses with multiple assessments, Codio also allows you to update assessment settings in bulk. For more information, see :ref:`batch-assessment-update`.
+
 
 **Assessment Topics**
 

@@ -27,6 +27,7 @@ Courses Set Up
    bulk-assignment-update
    batch-groups-upload
    batch-student-tagging
+   batch-assessment-update
    add-teachers
    add-ta
    add-remove-students
