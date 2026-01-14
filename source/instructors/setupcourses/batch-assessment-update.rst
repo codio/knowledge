@@ -10,7 +10,7 @@ Batch Assessment Update
 
 You have the ability to perform bulk updates for various assessment settings, including points, partial points, use of maximum score, show expected answer, number of attempts, and showing rationale to students.
 
-Before you begin, make sure to download the Excel (.xlsx)  template file. You can download the Excel (.xlsx)  template file for your course from **Download Assessment Template** in the **Assessment Settings** section of the **Bulk Settings** area. Update the fields as per your requirements and use that Excel (.xlsx) file to update the assessment settings.
+Before you begin, make sure to download the Excel (.xlsx) template file. You can download the Excel (.xlsx) template file for your course from **Download Assessment Template** in the **Assessment Settings** section of the **Bulk Settings** area. Update the fields as per your requirements and use that Excel (.xlsx) file to update the assessment settings.
 
 Here is a sample screenshot of the template:
 
@@ -18,7 +18,7 @@ Here is a sample screenshot of the template:
       :alt: Sample XLSX Template
 
 
-Things you should know about the template:  
+Important notes about the template:
    - Edit only the white cells with dropdowns or number inputs.		
    - Leave any cell set to No Change to keep the current published setting.		
    - Gray cells labeled Not Supported or Restricted cannot be edited for the selected assessment type.		
@@ -26,7 +26,7 @@ Things you should know about the template:
 		
 
 
-**Here is a reference guide on how to update your template file:** 
+**Template field reference:** 
 
 
 
@@ -63,7 +63,8 @@ Things you should know about the template:
      - 1-99 (attempts), 0-100 (score %), blank otherwise
 
 
-Once you have updated/modified your Excel (.xlsx) template file now you are ready to bulk update the assessment settings.
+Once you have updated your Excel (.xlsx) template file, you are ready to bulk update the assessment settings.
+
 
 To bulk update the assessment settings, follow these steps:
 
@@ -78,7 +79,7 @@ To bulk update the assessment settings, follow these steps:
 5. Identify the assignments you want to update the assessment settings for.
 
    .. image:: /img/guides/select-excel-batch-update.png
-      :alt: Select csv Batch Update
+      :alt: Select excel Batch Update
 
 6. Click **Apply and Done**. A popup window will appear asking you to confirm, click **yes**.
 
