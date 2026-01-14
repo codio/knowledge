@@ -1,12 +1,12 @@
 .. meta::
-   :description: Remove organization members, for example students, and use the account licences for other students.
+   :description: Remove organization members.
 
 .. _remove-org-members:
 
 Remove Organization Members
 ===========================
 
-To remove members from your organization, please follow these steps:
+Follow these steps to remove members from your organization:
 
 1. Click your username in the top-right corner, then select **Organization** from the menu.
 
@@ -15,17 +15,26 @@ To remove members from your organization, please follow these steps:
    .. image:: /img/class_administration/createanorganization/organizations.png
       :alt: My Organizations
 
-3. Click the **Members** tab.
+3. Click the **Members** tab. 
 
    .. image:: /img/manage_organization/memberstab.png
-      :alt: Members
+      :alt: All the settings that are available on the members tab
 
-4. In the **User Management** section, click the section you wish to view.
+You can use either of the two methods below to locate and remove organization members.
 
-5. Click the trash icon, on the right hand side, for each user you want to remove from your organization.
+.. warning:: If you remove a student from your organization, their account will be deleted.
 
-   .. image:: /img/allmembers.png
-      :alt: All Members
+- Option 1: In the **User Management** section, click the group (e.g., Teachers) you wish to view. Click the trash icon on the right for each user you want to remove from your organization.
 
-If you want to use the accounts for new students, see :ref:`Add or Remove Students in a Course <add-remove-students>`.
+.. image:: /img/allmembers.png
+    :alt: The list of all Members of a certain type
+
+- Option 2: In the **Remove Organization Members** section, type the username or email address of the person you want to remove and click **Find User**. Click the trash icon on the right for the user you want to remove from your organization.
+
+.. image:: /img/manage_organization/removeorgmember.png
+    :alt: Remove Organization Members search interface
+
+
+
+
 
