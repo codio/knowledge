@@ -6,7 +6,7 @@
 Blackboard LTI 1.x
 ==================
 
-Please be sure to check out the :ref:`Codio LTI App <lti-app>` which allows for an easy way to integrate and to map Codio course assignments to your LMS. The `following page <https://library.blackboard.com/ref/df5b20ed-ce8d-4428-a595-a0091b23dda3/Content/_admin_app_system/admin_app_basic_lti_tool_providers.htm>`_ explains how to set up external apps in Blackboard Learn.
+The `following page <https://library.blackboard.com/ref/df5b20ed-ce8d-4428-a595-a0091b23dda3/Content/_admin_app_system/admin_app_basic_lti_tool_providers.htm>`_ explains how to set up external apps in Blackboard Learn.
 
 In Codio:
 

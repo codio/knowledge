@@ -14,7 +14,7 @@ reviews:
   collapse_walkthrough: false
   sequence_diagrams: false
   auto_review:
-    enabled: true
+    enabled: false
     drafts: false
   path_instructions:
     - path: "**/*.rst"
@@ -37,4 +37,4 @@ reviews:
     docstrings:
       enabled: false
 chat:
-  auto_reply: true
+  auto_reply: false
