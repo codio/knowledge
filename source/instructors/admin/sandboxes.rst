@@ -9,7 +9,7 @@ Sandboxes
 About Sandboxes
 ---------------
 
-Sandboxes provide time‑boxed, ephemeral **AWS Management Console environments** that expire automatically. A sandbox's permissions are defined by a template and can range from full administrator access to least‑privileged roles, depending on need. When a sandbox's duration ends, access is revoked and all resources created inside the sandbox are cleaned up automatically—no user action required.
+Sandboxes provide time-boxed, ephemeral **AWS Management Console environments** that expire automatically. A sandbox's permissions are defined by a template and can range from full administrator access to least-privileged roles, depending on need. When a sandbox's duration ends, access is revoked and all resources created inside the sandbox are cleaned up automatically—no user action required.
 
 .. important::
 
@@ -50,6 +50,8 @@ Key Concepts
      - Resource-specific inputs for the sandbox type (for example, EC2 instance settings: ``instance_type``, ``image``, ``volume_size``, ``connection_mode``).
    * - **Region**
      - The AWS region in which sandboxes are created. Currently fixed to ``us-east-1``.
+   * - **Prime**
+     - Optional pre-warming configuration for sandboxes. When enabled, the platform creates "primed" sandboxes ahead of time to reduce wait time for learners.
 
 Lifecycle, Duration, and Cleanup
 --------------------------------
@@ -58,10 +60,34 @@ Lifecycle, Duration, and Cleanup
 - **Extend:** While running, you may extend the lifetime in ``lifetime_extension`` increments, **not exceeding** ``lifetime_max``.
 - **Expire & Clean:** When the lifetime ends, access is revoked and resources created by the sandbox are cleaned up automatically—no user action required.
 
+Creating a Sandbox and a Collection
+-----------------------------------
+
+1. Select **Sandboxes** from the Build menu, if that option is not available, Sandboxes are not enabled for your organization.
+
+.. image:: /img/sandbox_build.png
+    :width: 90%
+    :align: center
+    :alt: Select Sandboxes on the top menu.
+
+2. Then click the **New Collection** button in the top right. Give your collection a name and click `Create Collection`. 
+
+.. image:: /img/sandbox_newcollection.png
+    :width: 70%
+    :align: center
+    :alt: New Collection screenshot.
+
+3. Once created, your new collection will open automatically. Click `Edit` to start creating sandboxes. The section below explains how to get started quickly. 
+
+.. image:: /img/sandbox_overview.png
+    :width: 90%
+    :align: center
+    :alt: View of Sandboxes Overview.
+
 Sandbox Configuration (``sandbox.yml``)
 ---------------------------------------
 
-Define sandboxes in YAML. The best starting point is using this command to get four **working examples** you can adapt:
+Define sandboxes in YAML, one sandbox per folder. The best starting point is using this command to get four **working examples** you can adapt:
 
 .. code-block:: bash
 
@@ -97,6 +123,10 @@ Top-level keys
      - mapping
      - Yes
      - Configuration block that defines lifetime behavior, permissions, provisioning engine, and resource parameters.
+   * - ``prime``
+     - mapping
+     - No
+     - Optional pre-warming configuration for **any** sandbox type. Supports priming continuously or on scheduled UTC start dates.
 
 ``settings`` (common)
 ~~~~~~~~~~~~~~~~~~~~~
@@ -156,11 +186,20 @@ After setting ``type`` to ``aws_ec2``, configure the following ``parameters``:
    * - ``instance_type``
      - string
      - Yes
-     - EC2 instance type to provision (e.g., ``t3.medium``).
+     - EC2 instance type to provision (e.g., ``t3.medium``). Supported instance types include:
+
+       - ``t3.nano`` ``t3.micro`` ``t3.small`` ``t3.medium`` ``t3.large`` ``t3.xlarge`` ``t3.2xlarge``
+       - ``t3a.nano`` ``t3a.micro`` ``t3a.small`` ``t3a.medium`` ``t3a.large`` ``t3a.xlarge`` ``t3a.2xlarge``
+       - ``c5a.large`` ``c5a.xlarge`` ``c5a.2xlarge`` ``c5a.4xlarge`` ``c5a.8xlarge`` ``c5a.12xlarge`` ``c5a.16xlarge`` ``c5a.24xlarge``
+       - ``c6a.large`` ``c6a.xlarge`` ``c6a.2xlarge`` ``c6a.4xlarge`` ``c6a.8xlarge`` ``c6a.12xlarge`` ``c6a.16xlarge`` ``c6a.24xlarge``
+       - ``g4dn.xlarge`` ``g4dn.2xlarge`` ``g4dn.4xlarge`` ``g4dn.8xlarge`` ``g4dn.16xlarge``
    * - ``image``
      - string
      - Yes
-     - AMI name or ID for the VM image (e.g., ``codio-aws-windows-base``).
+     - AMI name or ID for the VM image. Examples:
+
+       - Ubuntu: ``codio-aws-ubuntu-base`` (or Ubuntu Codio AMI)
+       - Windows: ``codio-aws-windows-base`` (or Windows Codio AMI)
    * - ``volume_size``
      - integer (GB)
      - Yes
@@ -169,6 +208,48 @@ After setting ``type`` to ``aws_ec2``, configure the following ``parameters``:
      - enum
      - Optional
      - Default access channel for the instance. Supported values in examples: ``ssh`` or ``vnc``.
+       If omitted, both connection modes are available.
+
+``prime`` (common)
+~~~~~~~~~~~~~~~~~~
+
+Optionally prime (pre-warm) sandboxes to reduce learner wait time. Priming can be:
+
+- **Continuous:** Maintain a steady pool of primed sandboxes.
+- **Date-based:** Prime a specific number of sandboxes at specific UTC start times. 
+
+.. note::
+
+    For **Continuous**, sandboxes will start priming immediately after publishing the Collection. For **Date-based** this date specifies the time sandboxes will start priming, not when they will be ready.
+
+.. list-table::
+   :widths: 22 14 10 54
+   :header-rows: 1
+
+   * - Key
+     - Type
+     - Required
+     - Description
+   * - ``type``
+     - enum
+     - Yes
+     - Priming mode. Supported values: ``continuous`` or ``date``.
+   * - ``count``
+     - integer
+     - Conditional
+     - Required when ``prime.type`` is ``continuous``. Number of primed sandboxes to keep available.
+   * - ``start_dates``
+     - list
+     - Conditional
+     - Required when ``prime.type`` is ``date``. List of scheduled priming entries (UTC).
+   * - ``start_dates[].date``
+     - string (datetime, UTC)
+     - Conditional
+     - Required within each ``start_dates`` entry. Date/time (UTC) when priming should occur (e.g., ``2025-11-24T11:40:00Z``).
+   * - ``start_dates[].count``
+     - integer
+     - Conditional
+     - Required within each ``start_dates`` entry. Number of primed sandboxes to create at the scheduled date/time.
 
 Permissions (Full to Least-Privileged)
 --------------------------------------
@@ -182,10 +263,9 @@ This design lets you run anything from **full AWS** environments to tightly cons
 
 .. admonition:: How can I create a policy?
 
-   Policies are an AWS concept. If you want to read more, please visit AWS' guide to 
-   `Policies and permissions`__ and the 
+   Policies are an AWS concept. If you want to read more, please visit AWS' guide to
+   `Policies and permissions`__ and the
    `IAM tutorial: Delegate access across AWS accounts using IAM roles`__.
 
    __ https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html
    __ https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html
-
