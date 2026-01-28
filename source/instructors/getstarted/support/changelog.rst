@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **January 2026**
 
+- `[F] [28th]`: A Previous button is now available in guides as long as :ref:`Forward Only Navigation <exam-proctoring>` is not enabled.
 - `[F] [14th]`: Added :ref:`Batch Assessment Update <batch-assessment-update>` to update assessment settings in bulk using a .xlsx file.
 - `[I] [7th]`: Add a way to :ref:`Enable or disable extensions on a course level <course-coach-settings>`.
 

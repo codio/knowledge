@@ -10,102 +10,111 @@ Bulk Assignment Update
 You have the ability to perform a bulk update for various assignment settings, including start date/time of the assignment, closing date/time of the assignment, action when assignment closes, due dates and penalties. For more information about these settings, see :ref:`Assignment Duration <assignment-duration>`, :ref:`Prime Assignment Containers <prime-assignment-containers>` and :ref:`Virtual Coach <enable-vc-bulk>` settings using a CSV file.
 
 
-Before you begin, make sure to download the csv template file. You can download the csv template file of your course from  “Download Assignment Information” present in the “Assignment settings” in the  “Bulk Settings area”. You can update the fields as per your requirement(s) and use that csv file to update the assignment settings. 
-Here is a sample screenshot of the csv template:
+Before you begin, make sure to download the CSV template file. You can download the CSV template file of your course from “Download Assignment Information” present in the “Assignment settings” in the  “Bulk Settings area”. You can update the fields as per your requirement(s) and use that CSV file to update the assignment settings. 
+Here is a sample screenshot of the CSV template:
 
 
-.. image:: /img/screenshot-csv-bulk-template.png
-      :alt: Sample csv Template 
+.. image:: /img/guides/screenshot-csv-bulk-template.png
+      :alt: Sample CSV Template 
 
 
 
-Things you should know about the csv template:
-
+Things you should know about the CSV template:
    - Header names must be same as row 1 of above CSV
-   - If the specific field is empty then the respective setting will not be updated     
-   - All field are case-insensitive so complete and COMPLETE are same
-   - In the column 'assignment', instead of Assignment Name you can also use Assignment ID or LTI Integration URL of the assignment for the assignment identification (sometimes you may have multiple assignments with the same name so you can use these other unique identifiers to avoid any conflicts)
-
-      - Check out :ref:`Get the Course and Assignment ID <get-course-assignment-id>` to see how you can get the assignment ID.
-      - Check out :ref:`LTI Integration Assignment URLs <lti-integration-assignment-urls>` to see how you can get LTI Integration URL of the assignment or you can export the LTI Integration URLs of all assignments in the course, see :ref:`Export LTI Settings <export-lti>`
+   - If a specific field is empty then the respective setting will not be updated     
+   - All fields are case-insensitive so complete and COMPLETE are same
    - If :ref:`Prime Setting <prime-assignment-containers>` is not enabled for the assignment but the prime_time is defined in the CSV then the Prime setting will be enabled automatically
 
 
 
 
-**Here is a reference guide on how to update your csv template file:** 
+**Here is a reference guide on how to update your CSV template file:** 
 
 
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| Column Name                   | Data Type     | Possible Values        | Description                                                                          |
-+===============================+===============+========================+======================================================================================+
-| name                          | text          | assignment name(s)     | The assignment name goes in this cell.                                               |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| start_time                    | integer       | mm/dd/yyyy h:mm XX     | Specify the start time, date (m/d/year) and the time (h:mm) and identify if its      |
-|                               | and text      | 5/2/2025 9:11 AM       | morning or night (XX).                                                               |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| closing_time                  | integer       | mm/dd/yyyy h:mm XX     | Specify the closing time, the date (m/d/year) and the time (h:mm) and identify if    |
-|                               | and text      | 05/26/2025 11:59 PM    | its morning or night (XX).                                                           |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| closing_action                | text          | DISABLE_AND_COMPLETE,  | Specify what action you want to take when the assignment closes. You currently       |
-|                               |               | DISABLE, COMPLETE      | have 3 options:                                                                      |
-|                               |               |                        |                                                                                      |
-|                               |               |                        | 1. Disable assignment and mark as complete                                           |
-|                               |               |                        |                                                                                      |
-|                               |               |                        | 2. Disable assignment                                                                |
-|                               |               |                        |                                                                                      |
-|                               |               |                        | 3. Mark as complete                                                                  |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| due_at                        | integer       | mm/dd/yyyy h:mm XX     | Specify the due date, the date (m/d/year) and the time (h:mm) and identify if its    |
-|                               | and text      | 05/23/2025 11:59 PM    | morning or night (XX).                                                               |
-|                               |               |                        |                                                                                      |
-|                               |               |                        | Note: For more information about this setting please visit                           |
-|                               |               |                        | :ref:`Assignment Duration <assignment-duration>`                                     |           
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| mark_as_completed_on_due_date | text          | TRUE,                  | Identify whether you would like the assignment to be marked completed on the due     |
-|                               |               | FALSE                  | date.                                                                                |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| penalty_enabled               | text          | TRUE,                  | Identify if you want there to be a penalty for late submission of the assignment.    |
-|                               |               | FALSE                  |                                                                                      |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| deduction_interval            | text          | day,                   | If you have elected to have a penalty (penalty_enabled: TRUE), then in this cell     |
-|                               |               | hour                   | you identify if you want the deduction to be by hour or by day after the due date.   |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| deduction_percent             | integer       | any whole number       | If you have elected to have a penalty (penalty_enabled: TRUE), then in this cell     |
-|                               |               |                        | you identify the deduction percentage. If you want to deduct 5%, then you would      |
-|                               |               |                        | just put "5".                                                                        |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| lowest_grade_percent          | integer       | any whole number       | Identify the lowest possible grade a student can receive for this assignment.        |
-|                               |               | between 0 and 100      |                                                                                      |
-|                               |               |                        | Note: For more information on penalty deductions, please                             |
-|                               |               |                        | :ref:`Penalties <penalties>`                                                         |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| allow_regrade_request         | text          | TRUE,                  | Identify if you want to allow students to request for a regrade of their             |
-|                               |               | FALSE                  | assignment.                                                                          |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| prime_time                    | integer       | mm/dd/yyyy h:mm XX     | Specify the Start Time when you want the containers available.                       |
-|                               | and text      | 05/08/2025 06:44 PM    |                                                                                      |
-|                               |               |                        | Note: For more information about this setting, please visit                          |
-|                               |               |                        | :ref:`Prime Assignment Containers <prime-assignment-containers>`                     |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| prime_count                   | integer       | any whole number       | In this cell you will specify the Number of Students that will start the             |
-|                               |               |                        | assignment at the same time.                                                         |
-|                               |               |                        |                                                                                      |
-|                               |               |                        |  Note: For more information about this setting, please visit                         |
-|                               |               |                        |  :ref:`Prime Assignment Containers <prime-assignment-containers>`                    |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| coach_summarize_prompt        | text          | TRUE,                  | Identify whether the student can request a summary of the assessment prompt or not.  |
-|                               |               | FALSE                  |                                                                                      |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| coach_error_augmentation      | text          | TRUE,                  | Identify whether you want to provide more detailed explanations for error message    |
-|                               |               | FALSE                  | text on request.                                                                     |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
-| coach_next_steps_hint         | text          | TRUE,                  | Identify whether the student can request hints for completing the assessment         |
-|                               |               | FALSE                  | requirements.                                                                        |
-+-------------------------------+---------------+------------------------+--------------------------------------------------------------------------------------+
+.. list-table:: Assignment Configuration Fields
+   :header-rows: 1
+   :widths: 15 10 10 65
+
+   * - Column Name
+     - Data Type
+     - Possible Values
+     - Description
+   * - name
+     - text
+     - assignment name(s)
+     - The name of the assignment.
+   * - visibility_on_completed
+     - text
+     - READ_ONLY_WITH_RESUBMIT, READ_ONLY, NO_ACCESS, NO_ACCESS_UNTIL_GRADES_RELEASED
+     - Access students have to a completed assignment.
+   * - visibility_on_disabled
+     - text
+     - NO_ACCESS, READ_ONLY, NO_ACCESS_UNTIL_GRADES_RELEASED
+     - Access students have to a disabled assignment.
+   * - start_time
+     - integer and text
+     - mm/dd/yyyy h:mm AM/PM (e.g., 05/02/2025 9:11 AM)
+     - Start date (mm/dd/yyyy), time (h:mm), and AM or PM.
+   * - closing_time
+     - integer and text
+     - mm/dd/yyyy h:mm AM/PM (e.g., 05/26/2025 11:59 PM)
+     - Closing date (mm/dd/yyyy), time (h:mm), and AM or PM.
+   * - closing_action
+     - text
+     - DISABLE_AND_COMPLETE, DISABLE, COMPLETE
+     - Actions to take when the assignment closes. 
+   * - due_at
+     - integer and text
+     - mm/dd/yyyy h:mm AM/PM (e.g., 05/23/2025 11:59 PM)
+     - Due date (mm/dd/yyyy), time (h:mm), and AM or PM. For more information, see :ref:`Assignment Duration <assignment-duration>`.
+   * - mark_as_completed_on_due_date
+     - text
+     - TRUE, FALSE
+     - Marked completed on the due date.
+   * - penalty_enabled
+     - text
+     - TRUE, FALSE
+     - Penalty for late submission of the assignment.
+   * - deduction_interval
+     - text
+     - day, hour
+     - Penalty deduction interval
+   * - deduction_percent
+     - integer
+     - any whole number
+     - Penalty deduction percent
+   * - lowest_grade_percent
+     - integer
+     - any whole number between 0 and 100
+     - Lowest possible grade a student can receive for this assignment. Note: For more information on penalty deductions, please see :ref:`Penalties <penalties>`.
+   * - allow_regrade_request
+     - text
+     - TRUE, FALSE
+     - Allow students to request for a regrade of their assignment.
+   * - prime_time
+     - integer and text
+     - mm/dd/yyyy h:mm AM/PM (e.g., 05/08/2025 6:44 PM)
+     - Start time when you want the containers available. For more information, see :ref:`Prime Assignment Containers <prime-assignment-containers>`.
+   * - prime_count
+     - integer
+     - any whole number
+     - Number of students that will start the assignment at the same time. Note: For more information about this setting, please visit :ref:`Prime Assignment Containers <prime-assignment-containers>`
+   * - coach_summarize_prompt
+     - text
+     - TRUE, FALSE
+     - Student can request a summary of the assessment prompt.
+   * - coach_error_augmentation
+     - text
+     - TRUE, FALSE
+     - Provide more detailed explanations for error message text on request.
+   * - coach_next_steps_hint
+     - text
+     - TRUE, FALSE
+     - Student can request hints for completing the assessment requirements.
 
 
-Once you have updated/modified your csv template file now you are ready to bulk update the assignment settings.
+
+Once you have updated/modified your CSV template file, you are now ready to bulk update the assignment settings.
 
 To bulk update the assignments settings, follow these steps:
 
@@ -117,14 +126,14 @@ To bulk update the assignments settings, follow these steps:
 3. Select or drag and drop the CSV file in which you have defined all the required settings.
 
    .. image:: /img/select-csv-batch-update.png
-      :alt: Select csv Batch Update
+      :alt: Select CSV Batch Update
 
 
 4. You will see the test result in the CSV Test Run section (you may also see the error messages if something is not correct in your CSV file)
 
 
    .. image:: /img/batch-csv-test-run.png
-      :alt: Batch csv Test Run
+      :alt: Batch CSV Test Run
 
 
    Click **Apply** to reflect these settings to your actual assignments settings
