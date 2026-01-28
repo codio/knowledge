@@ -10,7 +10,7 @@ Bulk Assignment Update
 You have the ability to perform a bulk update for various assignment settings, including start date/time of the assignment, closing date/time of the assignment, action when assignment closes, due dates and penalties. For more information about these settings, see :ref:`Assignment Duration <assignment-duration>`, :ref:`Prime Assignment Containers <prime-assignment-containers>` and :ref:`Virtual Coach <enable-vc-bulk>` settings using a CSV file.
 
 
-Before you begin, make sure to download the CSV template file. You can download the CSV template file of your course from  “Download Assignment Information” present in the “Assignment settings” in the  “Bulk Settings area”. You can update the fields as per your requirement(s) and use that CSV file to update the assignment settings. 
+Before you begin, make sure to download the CSV template file. You can download the CSV template file of your course from “Download Assignment Information” present in the “Assignment settings” in the  “Bulk Settings area”. You can update the fields as per your requirement(s) and use that CSV file to update the assignment settings. 
 Here is a sample screenshot of the CSV template:
 
 
@@ -78,11 +78,11 @@ Things you should know about the CSV template:
    * - deduction_interval
      - text
      - day, hour
-     - If you have elected to have a penalty (penalty_enabled: TRUE), then in this cell you identify if you want the deduction to be by hour or by day after the due date.
+     - If you have enabled penalties (penalty_enabled: TRUE), specify whether the deduction should be by hour or by day after the due date.
    * - deduction_percent
      - integer
      - any whole number
-     - If you have elected to have a penalty (penalty_enabled: TRUE), then in this cell you identify the deduction percentage. If you want to deduct 5%, then you would just put "5".
+     - If you have enabled penalties (penalty_enabled: TRUE), specify the deduction percentage. For example, enter "5" for a 5% deduction.
    * - lowest_grade_percent
      - integer
      - any whole number between 0 and 100
@@ -114,7 +114,7 @@ Things you should know about the CSV template:
 
 
 
-Once you have updated/modified your CSV template file now you are ready to bulk update the assignment settings.
+Once you have updated/modified your CSV template file, you are now ready to bulk update the assignment settings.
 
 To bulk update the assignments settings, follow these steps:
 
