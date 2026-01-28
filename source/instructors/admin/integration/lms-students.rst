@@ -38,7 +38,7 @@ Understanding how Codio maps external system users to Codio users is important. 
 
 
 .. note:: 
-   If you need to reset your password, you can use your username instead of your email address. Alternatively, you can contact your course instructor, who can assist with :ref:`resetting the password <reset-pass>`.
+   If you need to reset your password, you can use your username instead of your email address. Course instructors, can assist :ref:`reset passwords <reset-pass>`.
 
    Student accounts are **not** created via LTI integration while an organization is in trial mode.  Activate a subscription to enable student enrolments.
 
@@ -54,10 +54,12 @@ Based on the LMS role, if teachers join Codio via the LMS, the following will ap
 +----------------------+-----------------------------------------------------------------------------------------------------+
 | Content Developer    | TEACHER                                                                                             |
 +----------------------+-----------------------------------------------------------------------------------------------------+
-| Mentor               | TEACHER (with :ref:`read only <add-teachers>` access to the course}                                 |
+| Mentor               | TEACHER (with :ref:`read only <add-teachers>` access to the course)                                 |
 +----------------------+-----------------------------------------------------------------------------------------------------+
 
-If you wish to only allow Mentors to view/manage specific students in the course, see :ref:`Filter Learners For Mentors <filter-learners>`
+- Teachers who are enrolled with the Mentor role are designated as read-only teachers in the organization. 
+
+- If you want Mentors to have access to specific students only, rather than all students in the course, see :ref:`Filter Learners For Mentors <filter-learners>`.
 
 
 LTI Field to Uniquely Identify Students
