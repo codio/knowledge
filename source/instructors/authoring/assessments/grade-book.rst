@@ -31,6 +31,11 @@ A Grade Book assessment may be used to manually grade assignments, it will not a
 Grading a Grade Book Assessment
 -------------------------------
 
+
+.. note::
+   When grading, click on the 0 or 1 to allocate initial points for overall correctness, then use the other rubric items to subtract points for missing items. There is also a **Points adjust** field if you wish to adjust total points upwards.
+
+
 Instructors can grade Grade Book assessments using either of the following methods:
 
 **Method 1: Grade from the Student Assignment**
@@ -43,13 +48,9 @@ Instructors can grade Grade Book assessments using either of the following metho
 
 3. Click **Grade**
 
-Click on the 0 or 1 to allocate initial points for overall correctness and then use the other rubric items to subtract points for missing items. There is also a **Points adjust** field if you wish to adjust total points upwards.
-
 .. image:: /img/guides/assessment_gb_grade.png
    :alt: Grade book assessment
    :width: 500px
-
-
 
 **Method 2: Grade from the Assignment Overview**
 
@@ -57,22 +58,16 @@ Click on the 0 or 1 to allocate initial points for overall correctness and then 
 2. Click the points corresponding to the student you want to grade
 
 .. image:: /img/guides/assignmentOverview.png
-   :alt: Assignment Overview
+   :alt: Assignment Overview Grading
 
 3. Click the Grade Book assessment
 
 .. image:: /img/guides/Gradebooktesticon.png
    :alt: Assignment Overview
 
-
-Click on the 0 or 1 to allocate initial points for overall correctness and then use the other rubric items to subtract points for missing items. There is also a **Points adjust** field if you wish to adjust total points upwards.
-
-
 .. image:: /img/guides/Gradebookgradingscreen.png
    :alt: Assignment Overview
    :width: 450px
-
-
 
 
 
@@ -98,28 +93,19 @@ You can clone a rubric for a Grade Book assessment using either of the following
 
 **Method 2: Clone from Assignment Overview**
 
-1. Go to the assignment overview
-2. Click the points corresponding to the student you want to grade
+1. Follow steps 1-3 from **Method 2: Grade from the Assignment Overview** above to open the Grade Book assessment
 
-.. image:: /img/guides/assignmentOverview.png
-   :alt: Assignment Overview
-
-3. Click the Grade Book assessment
-
-.. image:: /img/guides/Gradebooktesticon.png
-   :alt: Grade Book assessment icon
-
-4. Next to **Total Points**, click **Copy Rubrics**
+2. Next to **Total Points**, click **Copy Rubrics**
 
 .. image:: /img/guides/gradingwindowcopyrubricbutton.png
    :alt: Copy rubric button
    :width: 450px
 
-5. Click the arrow next to the rubric you want to copy
+3. Click the arrow next to the rubric you want to copy
 
 .. image:: /img/guides/copyrubricarrow.png
    :alt: Rubric list
    :width: 450px
 
-6. Confirm your changes by clicking **yes**
+4. Confirm your changes by clicking **yes**
 
