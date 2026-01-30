@@ -49,7 +49,7 @@ Instructors can grade Grade Book assessments using either of the following metho
 3. Click **Grade**
 
 .. image:: /img/guides/assessment_gb_grade.png
-   :alt: Grade book assessment
+   :alt: Grade book assessment grade
    :width: 500px
 
 **Method 2: Grade from the Assignment Overview**
@@ -63,10 +63,10 @@ Instructors can grade Grade Book assessments using either of the following metho
 3. Click the Grade Book assessment
 
 .. image:: /img/guides/Gradebooktesticon.png
-   :alt: Assignment Overview
+   :alt: Gradebook test icon
 
 .. image:: /img/guides/Gradebookgradingscreen.png
-   :alt: Assignment Overview
+   :alt: Gradebook grading screen
    :width: 450px
 
 
