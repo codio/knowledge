@@ -5,7 +5,7 @@
 .. _batch-assessment-update:
 
 
-Batch Assessment Update
+Bulk Assessment Update
 =======================
 
 You can bulk update many assessment settings, including points, partial points, use of maximum score, show expected answer, number of attempts, and showing rationale to students.
@@ -79,7 +79,7 @@ To bulk update the assessment settings, follow these steps:
 5. Select the assignments you want to modify.
 
    .. image:: /img/guides/select-excel-batch-update.png
-      :alt: Select excel Batch Update
+      :alt: Select excel Bulk Update
 
 6. Click **Apply and Close**. A popup window will appear asking you to confirm, click **Yes**.
 
