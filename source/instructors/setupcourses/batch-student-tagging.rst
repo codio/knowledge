@@ -4,7 +4,7 @@
 
 .. _batch-student-tagging:
 
-Batch Student Tagging
+Bulk Student Tagging
 =====================
 
 You can easily assign tags to all or multiple students at once using a CSV file. Once the tags are assigned, you can search and filter students based on those tags in the search bar. This is a useful feature when you want to :ref:`view the work <viewing-student-work>` of specific students.
