@@ -115,9 +115,9 @@ Cloning a Rubric From the Same Course
 
 To clone a rubric from one assignment to another within the same course, you must first add at least one rubric item to the source rubric. Follow these steps:
 
-1. Navigate to your gradebook assessment using Method 2 from the "Grading a Grade Book Assessment" section
+1. Navigate to your Grade Book assessment using Method 2 from the "Grading a Grade Book Assessment" section
 2. Add a new rubric item to the assessment
-3. Navigate to a different gradebook assessment in the same course using the same method
+3. Navigate to a different Grade Book assessment in the same course using the same method
 4. Next to **Total Points**, click **Copy Rubrics**
 
 .. image:: /img/guides/gradingwindowcopyrubricbutton.png
@@ -130,4 +130,4 @@ To clone a rubric from one assignment to another within the same course, you mus
    :alt: Rubric list
    :width: 450px
 
-6. Confirm your changes by clicking **Yes**
+6. Confirm your changes by clicking **yes**
