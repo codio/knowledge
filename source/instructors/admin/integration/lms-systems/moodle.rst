@@ -70,7 +70,7 @@ Using the Tool in Moodle
 Common Cartridge
 ----------------
 
-If you are using a Common Cartridge file, you’ll first need to configure an External Tool in Moodle using your organization’s  :ref:`LTI Keys and URLs <lti-keys-and-urls-information>`.
+If you are using a Common Cartridge file, you’ll first need to configure an External Tool in Moodle using your organization’s :ref:`LTI Keys and URLs <lti-keys-and-urls-information>`.
 
 Once the External Tool is set up, you can proceed with importing your Common Cartridge file by following the instructions provided on that same page.
 
@@ -78,9 +78,9 @@ Then in the Moodle course you have created:
 
 1. Go to your course and click the **More** tab.
 2. From the **More** dropdown select **Course reuse**.
-3. Click **Restore**
+3. Click **Restore**.
 4. Select the **.imscc** to upload it and proceed to restore. 
-5. **Restore**.  
+5. Click **Restore**.  
 6. Proceed through the steps.
 
 
