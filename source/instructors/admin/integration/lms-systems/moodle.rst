@@ -54,23 +54,23 @@ Using the Tool in Moodle
      :width: 600px
      :class: img-responsive
 
-5. Go to your course and toggle on **Edit Mode** on the top right corner of screen.
+5. Go to your course and toggle **Edit Mode** on in the top-right corner of the screen.
 
 .. image:: /img/editmodemoodle.png
      :alt: Toggling on edit mode.
      :width: 200px
 
-6. Navigate to the module you would like to add an assignment and click the plus.
+6. Navigate to the module where you want to add an activity, then click the plus icon.
 7. Click **Add an activity or resource**.
 8. Click on the **All** tab to show all the tools and select Codio.
 9. Click **Add**.
-10. Click **Select Content** and that will bring up your list of Codio courses, select the course and assignment you want to connect.
- 
+10. Click **Select Content** to open your Codio courses, then choose the course and assignment you want to connect.
+
 
 Common Cartridge
 ----------------
 
-If you are using a Common Cartridge file, you’ll first need to configure an External Tool in Moodle using your organization’s  :ref:`LTI Key's and URL's <lti-keys-and-urls-information>`.
+If you are using a Common Cartridge file, you’ll first need to configure an External Tool in Moodle using your organization’s  :ref:`LTI Keys and URLs <lti-keys-and-urls-information>`.
 
 Once the External Tool is set up, you can proceed with importing your Common Cartridge file by following the instructions provided on that same page.
 
@@ -79,7 +79,7 @@ Then in the Moodle course you have created:
 1. Go to your course and click the **More** tab.
 2. From the **More** dropdown select **Course reuse**.
 3. Click **Restore**
-4. Select the **.ismcc** to upload it and proceed to restore. 
+4. Select the **.imscc** to upload it and proceed to restore. 
 5. **Restore**.  
 6. Proceed through the steps.
 
@@ -101,10 +101,10 @@ To add students/teachers see :ref:`Users account creation <lms-users>`
 LTI Version 1.3
 ----------------
 
-LTI version 1.3 improves upon version [LTI-1.1] by moving away from the use of OAuth 1.0a-style signing for authentication and towards a new security model, using OpenID Connect, signed JWTs, and OAuth2.0 workflows for authentication. 
+LTI version 1.3 improves upon version LTI-1.1 by moving away from the use of OAuth 1.0a-style signing for authentication and towards a new security model, using OpenID Connect, signed JWTs, and OAuth2.0 workflows for authentication. 
 
 
 For more information, see `Learning Tools Interoperability Core Specification <https://www.imsglobal.org/spec/lti/v1p3/>`__
 
-The deep linking url is : ``https://apollo.codio.com/lti/resource_selection``
+The deep linking url is: ``https://apollo.codio.com/lti/resource_selection``
 
