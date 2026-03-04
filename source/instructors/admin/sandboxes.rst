@@ -9,7 +9,7 @@ Sandboxes
 About Sandboxes
 ---------------
 
-Sandboxes provide time-boxed, ephemeral **AWS Management Console environments** that expire automatically. A sandbox's permissions are defined by a template and can range from full administrator access to least-privileged roles, depending on need. When a sandbox's duration ends, access is revoked and all resources created inside the sandbox are cleaned up automatically—no user action required.
+Sandboxes provide time-boxed, ephemeral environments for hands-on work in AWS that expire automatically. Depending on the sandbox type, learners may get access to the **AWS Management Console**, a provisioned **EC2 instance**, or a managed **Jupyter** environment. Permissions and runtime behavior are defined by a template and can range from full administrator access to least-privileged roles, depending on need. When a sandbox's duration ends, access is revoked and any resources created within the sandbox are cleaned up automatically—no user action required.
 
 .. important::
 
@@ -31,11 +31,13 @@ Key Concepts
    * - **Sandbox**
      - A short-lived AWS environment defined by a ``sandbox.yml`` template. It grants time-boxed access and (optionally) provisions resources for hands-on work.
    * - **Type**
-     - The sandbox runtime. Two types are illustrated in the examples below:
+     - The sandbox runtime. Three types are illustrated in the examples below:
 
        - ``aws_cloud`` — console-first sessions that assume an AWS role defined by a policy (optionally orchestrated by an Infrastructure-as-Code engine).
 
        - ``aws_ec2`` — a session that provisions an EC2 instance with parameters like instance type, image, disk size, and connection mode (``ssh`` or ``vnc``).
+
+       - ``jupyter`` — a notebook-first session that launches a managed Jupyter environment with configurable compute (for example, ``t3.large`` or ``g4dn.xlarge``) and optional custom container images.
    * - **Lifetime**
      - The initial duration of the sandbox (e.g., ``15m``, ``30m``). Access and resources automatically expire at the end of the lifetime.
    * - **Lifetime Extension**
@@ -59,6 +61,10 @@ Lifecycle, Duration, and Cleanup
 - **Start:** Launch a sandbox from a ``sandbox.yml`` template. The environment and its access are created for the configured ``lifetime``.
 - **Extend:** While running, you may extend the lifetime in ``lifetime_extension`` increments, **not exceeding** ``lifetime_max``.
 - **Expire & Clean:** When the lifetime ends, access is revoked and resources created by the sandbox are cleaned up automatically—no user action required.
+
+.. note::
+
+   **Cooldown:** There is a 15-minute cooldown period in between Sandbox launches. 
 
 Creating a Sandbox and a Collection
 -----------------------------------
@@ -97,6 +103,13 @@ Define sandboxes in YAML, one sandbox per folder. The best starting point is usi
 
     The command above will copy the repository to your current directory. Make sure your folder is empty.
 
+You can also use the dedicated `Create Sandbox` button:
+
+.. image:: /img/sandbox_create.png
+    :width: 60%
+    :align: center
+    :alt: Sandbox create button.
+
 Configuration Reference
 -----------------------
 
@@ -118,7 +131,7 @@ Top-level keys
    * - ``type``
      - enum
      - Yes
-     - Sandbox runtime type. Supported in examples: ``aws_cloud`` or ``aws_ec2``.
+     - Sandbox runtime type. Supported in examples: ``aws_cloud``, ``aws_ec2``, or ``jupyter``.
    * - ``settings``
      - mapping
      - Yes
@@ -151,6 +164,10 @@ Top-level keys
      - string
      - No
      - Maximum total runtime allowed for the sandbox (e.g., ``"20m"``, ``"60m"``). Once reached, the sandbox cannot be extended further.
+   * - ``cloud_account``
+     - string
+     - optional
+     - Cloud account to run the sandbox in (for example, ``codio``).
    * - ``policy``
      - string
      - Conditional
@@ -209,6 +226,36 @@ After setting ``type`` to ``aws_ec2``, configure the following ``parameters``:
      - Optional
      - Default access channel for the instance. Supported values in examples: ``ssh`` or ``vnc``.
        If omitted, both connection modes are available.
+
+
+
+.. _jupytertype-sandboxes:
+
+``settings.parameters`` for ``jupyter``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+After setting ``type`` to ``jupyter``, configure the following ``parameters``:
+
+.. list-table::
+   :widths: 22 14 10 54
+   :header-rows: 1
+
+   * - Key
+     - Type
+     - Required
+     - Description
+   * - ``instance_type``
+     - string
+     - Yes
+     - Instance type to run the Jupyter environment (for example, ``t3.large`` or ``g4dn.xlarge``).
+   * - ``custom_image``
+     - string
+     - Optional
+     - Optional container image to use for the Jupyter environment (for example, an ECR or Quay image reference).
+   * - ``volume_size``
+     - integer (GB)
+     - Yes
+     - Root volume size in GiB for the Jupyter environment (for example, ``40``).
 
 ``prime`` (common)
 ~~~~~~~~~~~~~~~~~~

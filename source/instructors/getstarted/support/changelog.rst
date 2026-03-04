@@ -13,6 +13,16 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**March 2026**
+
+- `[F] [4th]`: Added :ref:`Jupyter Sandboxes <jupytertype-sandboxes>`. 
+- `[I] [4th]`: Added an option to create VM images from Sandbox > Preview. 
+
+**February 2026**
+
+- `[I] [26th]`: Added an option to create a Sandbox from templates. 
+- `[I] [24th]`: Improved the way we we detect an internet connection. 
+
 **January 2026**
 
 - `[F] [28th]`: A Previous button is now available in guides as long as :ref:`Forward Only Navigation <exam-proctoring>` is not enabled.
@@ -964,7 +974,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [ 5th]`: Improve handling for opening of large project warning
 - `[I] [ 5th]`: Fix issue with terminal reconnections
 
-**Febuary 2018**
+**February 2018**
 
 - `[I] [26th]`: Fix issue with unit reloading for students
 - `[F] [26th]`: Expand Gigabox options to include 1GB, 2GB, 8GB,16GB and GPU (for GPU-accelerated instances) boxes.
