@@ -49,8 +49,6 @@ Add Folders & Files
    :width: 80%
    :align: center
 
-.. caution:: You can upload many files, but no single file can be more than 5 GB.
-
 Access Storage From Assignments
 -------------------------------
 

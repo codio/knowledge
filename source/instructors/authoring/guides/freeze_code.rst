@@ -28,4 +28,4 @@ If you just wish to highlight code to the students but allow them to be able to 
 Supported language files
 ------------------------
 
-.c .cpp .java .py .html .css .r .rb .js .ts .sql .h .hpp .ocaml .ml .php .pas .yml .xml .cs .coffescript .fs .go .kt .kts .less .lua .m .h .pl .scala .vb .swift .sh .scss .sass .md .yaml .hs .rkt .ss .scm .lisp .erl .ex .exs .elm .asm .s .rs .rlib .dart .jl
+.c .cpp .java .py .html .css .r .rb .js .ts .sql .h .hpp .ml .php .pas .yml .xml .cs .coffee .fs .go .kt .kts .less .lua .m .pl .scala .vb .swift .sh .scss .sass .md .yaml .hs .erl .elm .rs .rlib .dart .jl
