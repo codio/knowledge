@@ -21,7 +21,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 **February 2026**
 
 - `[I] [26th]`: Added an option to create a Sandbox from templates. 
-- `[I] [24th]`: Improved the way we we detect an internet connection. 
+- `[I] [24th]`: Improved the way we detect an internet connection. 
 
 **January 2026**
 

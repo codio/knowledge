@@ -64,7 +64,7 @@ Lifecycle, Duration, and Cleanup
 
 .. note::
 
-   **Cooldown:** There is a 15-minute cooldown period in between Sandbox launches. 
+   **Cooldown:** There is a 15-minute cooldown period between sandbox launches.
 
 Creating a Sandbox and a Collection
 -----------------------------------
@@ -103,7 +103,7 @@ Define sandboxes in YAML, one sandbox per folder. The best starting point is usi
 
     The command above will copy the repository to your current directory. Make sure your folder is empty.
 
-You can also use the dedicated `Create Sandbox` button:
+You can also use the dedicated **Create Sandbox** button:
 
 .. image:: /img/sandbox_create.png
     :width: 60%
@@ -166,7 +166,7 @@ Top-level keys
      - Maximum total runtime allowed for the sandbox (e.g., ``"20m"``, ``"60m"``). Once reached, the sandbox cannot be extended further.
    * - ``cloud_account``
      - string
-     - optional
+     - Optional
      - Cloud account to run the sandbox in (for example, ``codio``).
    * - ``policy``
      - string
