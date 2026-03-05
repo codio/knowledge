@@ -6,8 +6,6 @@
 Moodle
 ======
 
-Please be sure to check out the :ref:`Codio LTI App <lti-app>` which allows for an easy way to integrate and to map Codio course assignments to your LMS system. Moodle added support for LTI™ apps in version 2.2. The `following page <https://docs.moodle.org/32/en/External_tool_settings>`__ explains how to set up external apps in Moodle.
-
 
 .. important:: 
    Codio needs the User Role, Email Address and Name of the Moodle user in order to work. It is important that you access the LTI security settings and ensure that these three fields are enabled. If they are not available, contact Moodle support who can help you enable this. If enabled after you have mapped Codio content to Moodle, you may need to re publish for the changes to be implemented.
@@ -29,7 +27,7 @@ Adding the Tool in Moodle
      
 
 1. Navigate to the **Manage Tools** section of your Site Administration and select the Plugins tab.
-2. Paste the value you copied in the Tool URL field and click **Add LTI Advantage**.
+2. Paste the :ref:`Dynamic Registration <lti1-3DynReg>` URL and click **Add LTI Advantage**.
 3. It will present you with the Codio Organizations you are associated with, likely just one choice, but if there is more than one, select the organization you want to associate this tool with and click continue. It should be the organization that contains the courses you want to connect to the LMS system.
 4. It will ask you to confirm that you want to register Codio as an external tool in the organization you selected. Click **Yes**. You will receive a confirmation from Codio that the action was completed.
 5. The tool will appear at the bottom of the screen, click the Activate button.
