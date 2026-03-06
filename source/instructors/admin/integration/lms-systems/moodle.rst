@@ -25,8 +25,7 @@ Adding the Tool in Moodle
      :alt: Where you paste your Dynamic Registration URL in Moodle
      :width: 500px
      
-
-1. Login to your Codio account and follow the steps on this page to retrieve your :ref:`Dynamic Registration <lti1-3DynReg>` URL.
+1. Log in to your Codio account and follow the steps on this page to retrieve your :ref:`Dynamic Registration <lti1-3DynReg>` URL.
 2. In a new tab go to Moodle.
 3. Navigate to the **Manage Tools** section of your Site Administration and select the Plugins tab.
 4. Paste the Dynamic Registration URL and click **Add LTI Advantage**.
@@ -39,7 +38,7 @@ Adding the Tool in Moodle
    :alt: Where you activate the tool
    :width: 500px
 
-Return to Codio and refresh the **Integrations** page, you will see the integration you created in the bottom section of **LTI 1.3 Configurations** if everything has been set up properly.
+Return to Codio and refresh the **Integrations** page. You will see the integration you created in the bottom section of **LTI 1.3 Configurations** if everything has been set up properly.
 
 Using the Tool in Moodle
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -72,7 +71,7 @@ Common Cartridge
 
 If you are using a Common Cartridge file, you’ll first need to configure an External Tool in Moodle using your organization’s :ref:`LTI Keys and URLs <lti-keys-and-urls-information>`. 
 
-Once the External Tool is set up, you can proceed with importing your :ref:`Common Cartridge <common-cartridge>`. file by following the instructions provided on that same page.
+Once the External Tool is set up, you can proceed with importing your :ref:`Common Cartridge <common-cartridge>` file by following the instructions provided on that same page.
 
 Then in the Moodle course you have created:
 
@@ -86,9 +85,7 @@ Then in the Moodle course you have created:
 
 .. note::
    Restore is required as Moodle currently does not support importing of **.imscc** files.
-    
 
-
-To confirm your setup, just click on any assignment available in Moodle. If all configurations are correct, you will be redirected straight to the Teacher view of that assignment in Codio.
+To confirm your setup, click on any assignment available in Moodle. If all configurations are correct, you will be redirected straight to the Teacher view of that assignment in Codio.
 
 
