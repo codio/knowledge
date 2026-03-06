@@ -26,16 +26,18 @@ Adding the Tool in Moodle
      :width: 500px
      
 
-1. Navigate to the **Manage Tools** section of your Site Administration and select the Plugins tab.
-2. Paste the :ref:`Dynamic Registration <lti1-3DynReg>` URL and click **Add LTI Advantage**.
-3. It will present you with the Codio Organizations you are associated with, likely just one choice, but if there is more than one, select the organization you want to associate this tool with and click continue. It should be the organization that contains the courses you want to connect to the LMS system.
-4. It will ask you to confirm that you want to register Codio as an external tool in the organization you selected. Click **Yes**. You will receive a confirmation from Codio that the action was completed.
-5. The tool will appear at the bottom of the screen, click the Activate button.
+1. Login to your Codio account and follow the steps on this page to retrieve your :ref:`Dynamic Registration <lti1-3DynReg>` URL.
+2. In a new tab go to Moodle.
+3. Navigate to the **Manage Tools** section of your Site Administration and select the Plugins tab.
+4. Paste the Dynamic Registration URL and click **Add LTI Advantage**.
+5. It will present you with the Codio Organizations you are associated with, likely just one choice, but if there is more than one, select the organization you want to associate this tool with and click continue. It should be the organization that contains the courses you want to connect to the LMS system.
+6. It will ask you to confirm that you want to register Codio as an external tool in the organization you selected. Click **Yes**. You will receive a confirmation from Codio that the action was completed.
+7. The tool will appear at the bottom of the screen, click the Activate button.
 
 
 .. image:: /img/LTI13dynregactivate.png
    :alt: Where you activate the tool
-   :width: 200px
+   :width: 500px
 
 Return to Codio and refresh the **Integrations** page, you will see the integration you created in the bottom section of **LTI 1.3 Configurations** if everything has been set up properly.
 
@@ -68,9 +70,9 @@ Using the Tool in Moodle
 Common Cartridge
 ----------------
 
-If you are using a Common Cartridge file, you’ll first need to configure an External Tool in Moodle using your organization’s :ref:`LTI Keys and URLs <lti-keys-and-urls-information>`.
+If you are using a Common Cartridge file, you’ll first need to configure an External Tool in Moodle using your organization’s :ref:`LTI Keys and URLs <lti-keys-and-urls-information>`. 
 
-Once the External Tool is set up, you can proceed with importing your Common Cartridge file by following the instructions provided on that same page.
+Once the External Tool is set up, you can proceed with importing your :ref:`Common Cartridge <common-cartridge>`. file by following the instructions provided on that same page.
 
 Then in the Moodle course you have created:
 
@@ -89,20 +91,4 @@ Then in the Moodle course you have created:
 
 To confirm your setup, just click on any assignment available in Moodle. If all configurations are correct, you will be redirected straight to the Teacher view of that assignment in Codio.
 
-Authentication and Account Creation
-------------------------------------
-
-To add students/teachers see :ref:`Users account creation <lms-users>`
-
-
-
-LTI Version 1.3
-----------------
-
-LTI version 1.3 improves upon version LTI-1.1 by moving away from the use of OAuth 1.0a-style signing for authentication and towards a new security model, using OpenID Connect, signed JWTs, and OAuth2.0 workflows for authentication. 
-
-
-For more information, see `Learning Tools Interoperability Core Specification <https://www.imsglobal.org/spec/lti/v1p3/>`__
-
-The deep linking url is: ``https://apollo.codio.com/lti/resource_selection``
 

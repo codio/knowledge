@@ -8,7 +8,6 @@ LTI 1.3 Dynamic Registration
 
 
 Dynamic Registration simplifies the setup process by automatically sharing configuration information between Tools and LMS systems. For LMS platforms that are compatible with this standard, you can enable it by following these steps. Please refer to the appropriate LMS page for detailed platform-specific steps.
-
       - :ref:`Moodle <moodle>`
       - :ref:`Canvas <lti1-3Canvas>`
       - :ref:`Blackboard <lti1-3Blackboard>`
@@ -20,10 +19,9 @@ Access LTI Integration Settings in Codio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-.. image:: /img/lti/codiolti13settings.png
+.. image:: /img/codiolti13settingsDyReg.png
     :alt: LTI 1.3 settings in Codio
-    :align: right
-    :width: 350px
+    :width: 450px
     :class: img-responsive
 
 
