@@ -1,6 +1,6 @@
 .. meta::
    :description: You can enable LLM's to use your own LLM Provider API keys in Codio
-   
+
 .. _org_llm:
 
 Large Language Models
@@ -10,7 +10,7 @@ You can add your own LLM API keys to your Codio organization to use in your :ref
 
     .. image:: /img/llm_org_keys.png
        :alt: LLMs Keys
-       
+
 We support the following providers:
 
 
@@ -59,7 +59,7 @@ Examples of how to use a custom LLM provider
 
 - name: your openai custom name (custom value)
 - provider: openai (custom value)
-- endpoint: https://api.openai.com
+- endpoint: https://api.openai.com/v1
 - API key: your API key from openai
 - authentication: Header
 - auth template: Authorization: Bearer {{apikey}}
