@@ -10,7 +10,7 @@ Audio, Images and Videos can be added to a Guide page.
 
 Audio
 *****
-Audio files can be added to and played from your project.
+Audio files can be added to and played from your project. Accepted audio formats are **WAV**, **OGG**, and **WEBM**.
 
 To add Audio: select **Media** icon in the guides editor ribbon where you can define the source audio file along with any actions the should be triggered at specific times during playback.
 
