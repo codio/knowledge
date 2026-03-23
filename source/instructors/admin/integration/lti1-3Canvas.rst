@@ -66,6 +66,16 @@ You only need to configure:
    * - **JSON URL**
      - Paste the URL from **Canvas JSON configuration Url**
 
+- Click **Save** in bottom-right corner
+
+- You will be back at the list of developer keys.
+
+|image5|
+
+- Update **State** to: on
+
+- Copy the number in the **Details** column (for use in Parts 2 and 3)
+
 .. note::
    If you use the JSON configuration URL method, skip to **Part 2**. To manually configure everything, continue with the steps below.
 
