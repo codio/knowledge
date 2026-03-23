@@ -22,6 +22,7 @@ As a teacher you have access to your students' assignments within Codio. This al
 
 3. All students enrolled in your course are displayed here, sorted alphabetically by last name. You can reverse the sort order to Z–A if preferred. You can also search and filter students using tags, see :ref:`Batch Student Tagging <batch-student-tagging>`.
 
+
 4. To view/access an individual students work click on their name. On the far right of the screen, in the 3 dots menu, click **Open student's project**.
 
   .. image:: /img/openstudent.png

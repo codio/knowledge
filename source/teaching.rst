@@ -23,7 +23,7 @@ Teaching
    instructors/teaching/plagiarism
    instructors/teaching/addstudents
    
-Viewing Student work
+Viewing Student Work
 --------------------
 
 
@@ -37,7 +37,7 @@ As a teacher you have access to your students' assignments within Codio. This al
 
 3. All students enrolled in your course are displayed here, sorted alphabetically by last name. You can reverse the sort order to Z–A if preferred.
 
-4. To view/access an individual students work click on their name. On the far right of the screen, under the heading **Open**, click the blue arrow to open the students work.
+4. To view/access an individual students work click on their name. On the far right of the screen, in the 3 dots menu, click **Open student's project**.
 
   .. image:: /img/openstudent.png
      :alt: Open student work
