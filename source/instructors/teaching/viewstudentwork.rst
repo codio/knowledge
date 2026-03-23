@@ -4,7 +4,7 @@
 .. _viewing-student-work:
 
 
-Viewing student work
+Viewing Student Work
 ====================
 
 
@@ -20,7 +20,8 @@ As a teacher you have access to your students' assignments within Codio. This al
 2. Click on the **Students** tab.
 
 
-3. You will see all students in your course displayed on this screen. By default they will show sorted alphabetically by first name but you can also sort them by last name, number of started or number of completed assignments if preferred. You can also search and filter students using tags, see :ref:`Batch Student Tagging <batch-student-tagging>`.
+3. All students enrolled in your course are displayed here, sorted alphabetically by last name. You can reverse the sort order to Z–A if preferred. You can also search and filter students using tags, see :ref:`Batch Student Tagging <batch-student-tagging>`.
+
 
 4. To view/access an individual students work click on their name. On the far right of the screen, in the 3 dots menu, click **Open student's project**.
 
@@ -35,7 +36,7 @@ If you would like to try something out in their code without changing their vers
 
   .. image:: /img/monitor_students/writeable.png
 
-Downloading student workspaces
+Downloading Student Workspaces
 ------------------------------
 
 If you wish to download student workspaces you can do so either for individual assignments, individual students or for all students in the course: 

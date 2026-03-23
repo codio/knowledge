@@ -23,7 +23,7 @@ Teaching
    instructors/teaching/plagiarism
    instructors/teaching/addstudents
    
-Viewing student work
+Viewing Student Work
 --------------------
 
 
@@ -31,17 +31,13 @@ As a teacher you have access to your students' assignments within Codio. This al
 
 1. From the **Courses** area, click on your course to open it.
 
-  .. image:: /img/monitor_students/year10class.png
-     :alt: Course
-     
+
+2. Click on the **Students** tab.
 
 
-1. Click on the **Students** tab.
+3. All students enrolled in your course are displayed here, sorted alphabetically by last name. You can reverse the sort order to Z–A if preferred.
 
-
-1. You will see all students in your course displayed on this screen. By default they will show sorted alphabetically by first name but you can also sort them by last name, number of started or number of completed assignments if preferred.
-
-1. To view/access an individual students work click on their name. On the far right of the screen, under the heading **Open**, click the blue arrow to open the students work.
+4. To view/access an individual students work click on their name. On the far right of the screen, in the 3 dots menu, click **Open student's project**.
 
   .. image:: /img/openstudent.png
      :alt: Open student work
@@ -54,7 +50,7 @@ If you would like to try something out in their code without changing their vers
 
   .. image:: /img/monitor_students/writeable.png
 
-Downloading student workspaces
+Downloading Student Workspaces
 ------------------------------
 
 If you wish to download student workspaces you can do so either for individual assignments, individual students or for all students in the course: 
