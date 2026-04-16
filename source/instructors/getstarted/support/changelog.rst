@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**April 2026**
+
+- `[F] [16th]`: Added :ref:`LLM Free Text <llm-free-text>`. 
+
+
 **March 2026**
 
 - `[F] [4th]`: Added :ref:`Jupyter Sandboxes <jupytertype-sandboxes>`. 

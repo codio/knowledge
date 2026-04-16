@@ -25,6 +25,7 @@ Auto-Graded Assessments
    grade-book
    llm-based-rubric
    llm-based-auto-rubric
+   llm-free-text
    math-assessments
    multiple-choice
    parsons-puzzle
@@ -34,6 +35,7 @@ Auto-Graded Assessments
    standard-code-test
    student-submission
    ungraded-assessments
+   
    
    
 Codio offers a variety of auto-graded assessments to streamline your grading process. Below, you'll find instructions on how to add assessments to your assignment, along with links to pages detailing specific assessment types and their features. Some auto-graded assessments can also be generated automatically.

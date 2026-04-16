@@ -51,11 +51,42 @@ To customize the default CSS styling, navigate to **Tools → Guide → Add Cust
   .. image:: /img/guides/guidecss.png
      :alt: Guide CSS
 
+
 To restore the default CSS styling, select **Reset Custom CSS**.
 
 For instructions on inserting :ref:`images, videos and hyperlinks <add-media>`, see the media guide.
 
+
+
+Editing Focus Styles
+~~~~~~~~~~~~~~~~~~~~
+
+To change the **focus background** of a guide:
+
+.. code-block:: css
+
+   .rendered-markdown:focus {
+     background: #ccc;
+   }
+
+To set a custom **focus outline**:
+
+.. code-block:: css
+
+   .rendered-markdown:focus {
+     outline: 2px solid red !important;
+   }
+
+.. note::
+   You can also edit the focus style directly in the custom CSS file.
+
+    .. figure:: /img/guides/customcssoutlineguides.png
+      :alt: Custom CSS location screenshot
+
+      
+
 .. _setting_course_level_custom_css:
+
 
 
 Setting Course Level Custom CSS
