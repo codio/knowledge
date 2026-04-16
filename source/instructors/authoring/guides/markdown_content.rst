@@ -58,7 +58,7 @@ For instructions on inserting :ref:`images, videos and hyperlinks <add-media>`, 
 
 
 
-Editing the Outline
+Editing Focus Styles
 ~~~~~~~~~~~~~~~~~~~~
 
 To change the **focus background** of a guide:
@@ -78,7 +78,7 @@ To set a custom **focus outline**:
    }
 
 .. note::
-   You can also edit the outline directly in the custom CSS file.
+   You can also edit the focus style directly in the custom CSS file.
 
     .. figure:: /img/guides/customcssoutlineguides.png
       :alt: Custom CSS location screenshot
