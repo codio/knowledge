@@ -83,7 +83,7 @@ To set a custom **focus outline**:
     .. figure:: /img/guides/customcssoutlineguides.png
       :alt: Custom CSS location screenshot
 
-      The custom CSS editor can also be found here.
+      
 
 .. _setting_course_level_custom_css:
 

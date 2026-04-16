@@ -1,5 +1,5 @@
 .. meta::
-   :description: Use an LLM to grade Free text assessments allow students to answer questions in their own words.
+   :description: LLM Free Text assessments allow students to answer questions in their own words and receive AI-assisted grading.
    
 .. _llm-free-text:
 
@@ -7,9 +7,11 @@
 LLM Free Text
 =============
 
-The **LLM Free Text** assessment type lets students respond to questions in their own words. It supports **LaTeX formatting**, making it especially well suited for math-based assessments.
+The **LLM Free Text** assessment type lets students respond to questions in their own words. It supports **LaTeX formatting**, making it especially well-suited for math-based assessments.
 
-Responses are open-ended and must be **manually reviewed and graded by the instructor**. Feedback is only displayed to students after the instructor approves it, unless **Preliminary AI Feedback** is enabled, in which case students receive immediate automated feedback upon submission.
+
+Responses are open-ended and are **graded manually by the instructor with AI assistance**. Feedback is displayed to students only after the instructor approves it, unless **Preliminary AI Feedback** is enabled, in which case students receive immediate automated feedback upon submission.
+
 
 You can find this assessment type under the **Manually Graded** section of the assessments menu.
 
@@ -28,10 +30,13 @@ Follow these steps to set up an LLM Free Text assessment. For more information o
 
    - **Points** — Enter the point value for a correct answer. You can use any positive number. Enter zero (0) for ungraded assessments.
 
-   - **Instructor's Reference Answer** - Enter the **Reference Answer** in the field provided. 
+
+
+   - **Instructor's Reference Answer** — Enter a reference answer in the field provided.
 
 
    - **Preview Type** — Select the input format students will use when writing their answer. LaTeX is recommended when students need to enter mathematical formulas.
+
 
      .. list-table::
         :widths: 20 80
@@ -48,11 +53,15 @@ Follow these steps to set up an LLM Free Text assessment. For more information o
 
    - **Define Number of Attempts** — Toggle on to limit the number of submission attempts. If left off, students can attempt the assessment an unlimited number of times.
 
-   - **Preliminary AI Feedback** — Toggle on to provide students with immediate AI-generated feedback upon submission. The LLM compares the student's response to the instructor's **Reference Answer** and indicates how well they scored. 
+
+   - **Preliminary AI Feedback** — Toggle on to provide students with immediate AI-generated feedback upon submission. The LLM compares the student's response to the instructor's **Reference Answer** and indicates how well they scored.
+
 
    - **Show Rationale to Students** — Toggle on to display rationale to students after submission or when they revisit a completed assignment. Control when it appears by selecting **Never**, **After x attempts**, **If score is ≥ x% of total**, or **Always**.
 
+
    - **Rationale** — Enter guidance or commentary for the assessment. This is always visible to the instructor and can optionally be shown to students depending on the **Show Rationale to Students** setting above.
+
 
 3. Click **Create** to finish.
 
@@ -69,7 +78,7 @@ To review and grade student responses, follow these steps:
    .. image:: /img/guides/freetext-grading.png
       :alt: Free Text Grading
 
-   LLM Free text assessments are identified by this icon in the **Type** column:
+   LLM Free Text assessments are identified by this icon in the **Type** column:
 
    .. image:: /img/guides/llmfreetexticon.png
       :alt: llm Free Text Assessment Icon
@@ -79,7 +88,7 @@ To review and grade student responses, follow these steps:
 4. Review the student's answer and preliminary results.
 
    - In the **Feedback** section, you can update or modify the feedback displayed to the student.
-   - In the **Test Cases** section, accept or modify individual test cases by clicking the checkbox. You can also adjust the points and grading rationale for each.
+   - In the **Test Cases** section, review each test case and check the checkbox to accept it, or uncheck to reject it. You can also adjust the points and grading rationale for each.
    - Once finished, click **Apply Grade** in the bottom right.
 
    .. image:: /img/guides/llmfreetexttestcases.png
