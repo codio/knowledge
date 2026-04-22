@@ -17,7 +17,7 @@ In both cases, the output is the same: a normal guide definition stored in the p
 
 .. caution::
 
-   We might change these settings from time to time, use at your own risk.
+   We might change these settings from time to time. Use them at your own risk.
 
 
 Guide structure
@@ -532,7 +532,7 @@ When generating guides programmatically:
 * place assessment files in ``.guides/assessments/``
 * place secure or hidden resources in ``.guides/secure/`` when appropriate
 * place workspace files outside ``.guides`` in the normal project structure
-* use ``contentType: \"markdown\"`` and ``theme: \"light\"`` as fixed values
+* use ``contentType: "markdown"`` and ``theme: "light"`` as fixed values
 
 Authoring recommendations
 -------------------------

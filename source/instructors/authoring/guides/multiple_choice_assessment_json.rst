@@ -71,7 +71,7 @@ To embed this multiple choice assessment in a guide, use:
 
    {Text |assessment}(multiple-choice-1214417678)
 
-Use ``|assessment}`` exactly as shown, with no spaces before the closing brace.
+Use ``{Text |assessment}`` exactly as shown, with no spaces before the closing brace.
 
 Structure
 ---------
