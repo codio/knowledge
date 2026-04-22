@@ -261,7 +261,7 @@ html_js_files = [
 
 # html_logo = "_static/logo-white.svg"
 html_logo = None
-html_title = "Codio"
+html_title = "Codio Documentation"
 html_favicon = "_static/favicon.ico"
 html_extra_path = ['robots.txt']
 html_permalinks_icon = Icons.permalinks_icon

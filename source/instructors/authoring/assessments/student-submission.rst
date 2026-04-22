@@ -14,7 +14,7 @@ The Submit Button
 --------------------
 By default each assessment has a Submit button beneath the assessment. Once pressed, the answer is autograded. 
 
-.. note:: You can customize the Submit button label to any text you prefer. In the assessment markdown, update the text to the left of "|assessment".
+.. note:: You can customize the Submit button label to any text you prefer. In the assessment markdown, update the text to the left of `|assessment`.
     
     .. image:: /img/guides/customizeSubmitbutton.png
        :alt: Customize Submit Button
