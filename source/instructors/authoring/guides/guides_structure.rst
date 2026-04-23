@@ -3,8 +3,8 @@
 
 .. _guides-structure:
 
-Codio Guides Reference
-======================
+Guides Format Reference
+=======================
 
 This page describes the structure, naming rules, and JSON fields used to create Codio Guides.
 
