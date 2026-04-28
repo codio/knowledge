@@ -13,7 +13,7 @@ If the plan is for one or two semesters, when your class ends, only the payment 
 
 .. Note:: A single payment can be used for multiple courses in a Codio account during the specified timeframe.
 
-Individual billing
+Individual Billing
 ------------------
 If you are paying yourself, follow these steps:
 
@@ -26,6 +26,7 @@ LMS Enrollment Billing
 ----------------------
 If your institution uses a Learning Management System (LMS) such as Canvas, Blackboard, or Moodle, payment and access are handled automatically through the assignment link. Follow these steps:
 
+
 1. Open your course in your institution's LMS and locate the assignment your professor has shared.
 
 2. Click the assignment link. You will be redirected automatically to the **Codio Student Payment** window — no separate login or navigation is required.
@@ -35,7 +36,7 @@ If your institution uses a Learning Management System (LMS) such as Canvas, Blac
 4. Once payment is confirmed, you will be redirected directly to the assignment and can begin working immediately.
 
 
-Redeeming code from campus bookstore
+Redeeming Code from Campus Bookstore
 ------------------------------------
 Some institutions provide Codio licenses through their campus bookstore. Your course instructor or course syllabus will specify if this is available at your school.
 
@@ -63,7 +64,7 @@ To activate a license from your campus bookstore, follow these steps:
 
 If you have any problems contact us through your Codio account or email us at help@codio.com.
 
-Problems setting up a new payment
+Problems Setting up a New Payment
 ---------------------------------
 
 Secure online credit card transactions are processed in real-time on behalf of Codio by the authorized merchant payment service provider Stripe using the highest levels of security available on the market.
@@ -103,7 +104,7 @@ Please try using another browser or stop your adblocker during the payment proce
    .. image:: /img/chrome-incognito.png
       :alt: Chrome Incognito
 
-Restarting an expired payment or extending an existing payment
+Restarting an Expired Payment or Extending an Existing Payment
 --------------------------------------------------------------
 
 If you had a payment that has now expired, or wish to extend the period of time available, start a new payment as above.
