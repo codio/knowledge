@@ -64,7 +64,7 @@ Lifecycle, Duration, and Cleanup
 
 .. note::
 
-   **Cooldown:** There is a 15-minute cooldown period between sandbox launches.
+   **Cooldown time:** A ``cooldown_time`` parameter is available at the sandbox settings level. It defines the wait period between sandbox launches and defaults to **15 minutes** if not specified.
 
 Creating a Sandbox and a Collection
 -----------------------------------

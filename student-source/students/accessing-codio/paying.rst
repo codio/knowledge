@@ -22,6 +22,19 @@ If you are paying yourself, follow these steps:
 2. Click the **Billing** section and in the **Purchase Access** area, choose a tile for the period of time you would require access to Codio for and select the **Checkout** button to enter your card details.
 
 
+LMS Enrollment Billing
+----------------------
+If your institution uses a Learning Management System (LMS) such as Canvas, Blackboard, or Moodle, payment and access are handled automatically through the assignment link. Follow these steps:
+
+1. Open your course in your institution's LMS and locate the assignment your professor has shared.
+
+2. Click the assignment link. You will be redirected automatically to the **Codio Student Payment** window — no separate login or navigation is required.
+
+3. In the payment window, follow the on-screen steps to complete your payment.
+
+4. Once payment is confirmed, you will be redirected directly to the assignment and can begin working immediately.
+
+
 Redeeming code from campus bookstore
 ------------------------------------
 Some institutions provide Codio licenses through their campus bookstore. Your course instructor or course syllabus will specify if this is available at your school.
