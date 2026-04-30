@@ -62,9 +62,20 @@ Lifecycle, Duration, and Cleanup
 - **Extend:** While running, you may extend the lifetime in ``lifetime_extension`` increments, **not exceeding** ``lifetime_max``.
 - **Expire & Clean:** When the lifetime ends, access is revoked and resources created by the sandbox are cleaned up automatically—no user action required.
 
+
 .. note::
 
-   **Cooldown:** There is a 15-minute cooldown period between sandbox launches.
+   **Cooldown time:** A ``cooldown_time`` parameter is available at the sandbox settings level. It defines the wait period between sandbox launches and defaults to **15 minutes** if not specified.
+
+   Example:
+
+   .. code-block:: yaml
+
+      settings:
+        lifetime: 10m
+        lifetime_extension: 5m
+        lifetime_max: 1h
+        cooldown_time: 10m
 
 Creating a Sandbox and a Collection
 -----------------------------------

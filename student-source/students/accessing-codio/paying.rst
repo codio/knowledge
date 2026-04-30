@@ -13,16 +13,32 @@ If the plan is for one or two semesters, when your class ends, only the payment 
 
 .. Note:: A single payment can be used for multiple courses in a Codio account during the specified timeframe.
 
-Individual billing
-------------------
-If you are paying yourself, follow these steps:
-
-1. Click your username in the top-right corner, then select **Preferences** from the menu.
-   
-2. Click the **Billing** section and in the **Purchase Access** area, choose a tile for the period of time you would require access to Codio for and select the **Checkout** button to enter your card details.
 
 
-Redeeming code from campus bookstore
+Individual Billing and Payment
+------------------------------
+To access Codio, you will need to purchase a subscription. The steps below apply whether
+you are paying directly or through your institution's Learning Management System (LMS)
+such as Canvas, Blackboard, or Moodle.
+
+1. Navigate to the billing page:
+
+   - **Direct access:** Click your username in the top-right corner, select **Preferences**,
+     then open the **Billing** section.
+   - **LMS access:** Click the assignment link your professor shared in your course. You will
+     be redirected automatically to the **Codio Billing** page — no separate login or
+     navigation is required.
+
+2. In the **Purchase Access** area, select the subscription period that suits your needs.
+
+3. Click **Subscribe**, then follow the on-screen steps to complete
+   your payment.
+
+4. Once payment is confirmed, you can begin working immediately. LMS users will be
+   redirected directly to their assignment.
+
+
+Redeeming Code from Campus Bookstore
 ------------------------------------
 Some institutions provide Codio licenses through their campus bookstore. Your course instructor or course syllabus will specify if this is available at your school.
 
@@ -50,7 +66,7 @@ To activate a license from your campus bookstore, follow these steps:
 
 If you have any problems contact us through your Codio account or email us at help@codio.com.
 
-Problems setting up a new payment
+Problems Setting up a New Payment
 ---------------------------------
 
 Secure online credit card transactions are processed in real-time on behalf of Codio by the authorized merchant payment service provider Stripe using the highest levels of security available on the market.
@@ -90,7 +106,7 @@ Please try using another browser or stop your adblocker during the payment proce
    .. image:: /img/chrome-incognito.png
       :alt: Chrome Incognito
 
-Restarting an expired payment or extending an existing payment
+Restarting an Expired Payment or Extending an Existing Payment
 --------------------------------------------------------------
 
 If you had a payment that has now expired, or wish to extend the period of time available, start a new payment as above.

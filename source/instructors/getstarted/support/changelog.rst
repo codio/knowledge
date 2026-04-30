@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2026**
 
+- `[I] [28th]`: Added the ability to rename a Stack.
 - `[F] [16th]`: Added :ref:`LLM Free Text <llm-free-text>`. 
 
 
