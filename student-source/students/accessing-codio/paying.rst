@@ -13,31 +13,29 @@ If the plan is for one or two semesters, when your class ends, only the payment 
 
 .. Note:: A single payment can be used for multiple courses in a Codio account during the specified timeframe.
 
-Individual Billing
-------------------
-If you are paying yourself, follow these steps:
-
-1. Click your username in the top-right corner, then select **Preferences** from the menu.
-   
-2. Click the **Billing** section and in the **Purchase Access** area, choose a tile for the period of time you would require access to Codio for and select the **Checkout** button to enter your card details.
 
 
-LMS Enrollment Billing
-----------------------
-If your institution uses a Learning Management System (LMS) such as Canvas, Blackboard, or Moodle, payment and access are handled automatically through the assignment link. Follow these steps:
+Individual Billing and Payment
+------------------------------
+To access Codio, you will need to purchase a subscription. The steps below apply whether
+you are paying directly or through your institution's Learning Management System (LMS)
+such as Canvas, Blackboard, or Moodle.
 
+1. Navigate to the billing page:
 
-1. Open your course in your institution's LMS and locate the assignment your professor has shared.
+   - **Direct access:** Click your username in the top-right corner, select **Preferences**,
+     then open the **Billing** section.
+   - **LMS access:** Click the assignment link your professor shared in your course. You will
+     be redirected automatically to the **Codio Billing** page — no separate login or
+     navigation is required.
 
-2. Click the assignment link. You will be redirected automatically to the **Codio Billing**
-   page. No separate login or navigation is required.
+2. In the **Purchase Access** area, select the subscription period that suits your needs.
 
-3. Review the subscription price and click **Subscribe**.
+3. Click **Subscribe**, then follow the on-screen steps to complete
+   your payment.
 
-4. In the payment window, follow the on-screen steps to complete your payment.
-
-5. Once payment is confirmed, you will be redirected directly to the assignment and can begin
-   working immediately.
+4. Once payment is confirmed, you can begin working immediately. LMS users will be
+   redirected directly to their assignment.
 
 
 Redeeming Code from Campus Bookstore

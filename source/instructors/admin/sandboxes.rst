@@ -75,7 +75,7 @@ Lifecycle, Duration, and Cleanup
         lifetime: 10m
         lifetime_extension: 5m
         lifetime_max: 1h
-        cooldown_time: 15m
+        cooldown_time: 10m
 
 Creating a Sandbox and a Collection
 -----------------------------------
