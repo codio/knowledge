@@ -30,7 +30,7 @@ If your institution uses a Learning Management System (LMS) such as Canvas, Blac
 1. Open your course in your institution's LMS and locate the assignment your professor has shared.
 
 2. Click the assignment link. You will be redirected automatically to the **Codio Billing**
-   page, no separate login or navigation is required.
+   page. No separate login or navigation is required.
 
 3. Review the subscription price and click **Subscribe**.
 
