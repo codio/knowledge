@@ -29,11 +29,15 @@ If your institution uses a Learning Management System (LMS) such as Canvas, Blac
 
 1. Open your course in your institution's LMS and locate the assignment your professor has shared.
 
-2. Click the assignment link. You will be redirected automatically to the **Codio Student Payment** window — no separate login or navigation is required.
+2. Click the assignment link. You will be redirected automatically to the **Codio Billing**
+   page, no separate login or navigation is required.
 
-3. In the payment window, follow the on-screen steps to complete your payment.
+3. Review the subscription price and click **Subscribe**.
 
-4. Once payment is confirmed, you will be redirected directly to the assignment and can begin working immediately.
+4. In the payment window, follow the on-screen steps to complete your payment.
+
+5. Once payment is confirmed, you will be redirected directly to the assignment and can begin
+   working immediately.
 
 
 Redeeming Code from Campus Bookstore
