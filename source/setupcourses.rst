@@ -32,6 +32,7 @@ Getting Started
 Review the following topics to get started setting up your courses:
 
 - :ref:`Create a Course <create-course>`
+- :ref:`Import from GitHub Classroom <importfromgithubclassroom>`
 - :ref:`Clone a Course <clone-course>`
 - :ref:`Share Course <share-course>`
 - :ref:`Add Modules and Assignments <add-remove-assignment>`
