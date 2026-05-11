@@ -23,7 +23,7 @@ such as Canvas, Blackboard, or Moodle.
 
 1. Navigate to the billing page:
 
-   - **Direct (no LMS):** Click the **Join a Course** link provided by your instructor. Then continue to Codio   Billing”
+   - **Direct (no LMS):** Click the **Join a Course** link provided by your instructor. Billing will appear automatically, but if it doesn't, click the **Billing** button.
 
    - **LMS access:** Click the assignment link your professor shared in your course. You will
      be redirected automatically to the **Codio Billing** page — no separate login or
