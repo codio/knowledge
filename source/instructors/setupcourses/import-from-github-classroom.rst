@@ -26,8 +26,8 @@ Steps
 
 3. Once your account is created, sign in to Codio.
 
-4. To import your GitHub Classroom, select the drop-down from the **New Course** button
-   in the top right and choose **Import from GitHub Classroom**.
+4. To import your GitHub Classroom, click the **New Course** dropdown button in the top
+   right and select **Import from GitHub Classroom**.
 
 5. If you are already signed in to your GitHub Classroom account in this browser session,
    your classroom organizations will automatically populate. Otherwise, you will be
