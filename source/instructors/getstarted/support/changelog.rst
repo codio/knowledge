@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+
+**May 2026**
+
+- `[F] [16th]`: Added :ref:`Importing from GitHub Classroom <import-from-github-classroom>`.
+
 **April 2026**
 
 - `[I] [28th]`: Added the ability to rename a Stack.
