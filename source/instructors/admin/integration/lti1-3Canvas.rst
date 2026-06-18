@@ -254,14 +254,6 @@ In Canvas:
 
 5. **Submit → Install**
 
-.. image:: /img/canvasdeployment.png
-   :width: 450px
-
-6. After you click install, click the gear icon by the tool you just created
-
-7. Select **Deployment ID**
-
-8. Copy the ID displayed, it will be used in Part 3
 
 
 
@@ -304,7 +296,7 @@ Updating the fields in Platform Information
 
 3. **Client ID:** copied from Developer Keys at end of Part 1
 
-4. **Deployment ID:** copied in Part 2
+4. **Deployment ID:** leave blank
 
 5. **Public Keyset URL:**
    
