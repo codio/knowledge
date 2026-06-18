@@ -26,21 +26,16 @@ LTI 1.3 Course Copy
 
 First enable :ref:`LTI Constant URLs <lti-keys-and-urls-information>` for your course.
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
+1. In your existing Codio course, enable **Enable LTI course copy**, save your changes.
 
-   * - 1. In your existing Codio course, enable **Enable LTI course copy**, save your changes, then copy the LTI course copy parameter.
+   .. figure:: /img/lti/enable_class_fork.png
+      :alt: Enable course copy field
 
-       2. In your LMS, use "Copy this Course" (or equivalent) to create your new course.
+2. In your LMS, use "Copy this Course" (or equivalent) to create your new course.
 
-       3. In the new LMS course, go to settings and add a unique SIS ID (e.g. ``Fall2026``).
+3. In the new LMS course, go to settings and add a unique SIS ID (e.g. ``Fall2026``).
 
-       4. Open one of the new assignments in the copied LMS course. This will create the new course in Codio with content from your original course.
-
-     - .. figure:: /img/lti/enable_class_fork.png
-          :alt: Enable course copy field
-
+4. Open one of the new assignments in the copied LMS course. This will create the new course in Codio with content from your original course.
 
 
 LTI 1.1 Course Copy
