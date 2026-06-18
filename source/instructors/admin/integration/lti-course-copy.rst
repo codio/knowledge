@@ -43,8 +43,6 @@ LTI 1.1 Course Copy
 
 First enable :ref:`LTI Constant URLs <lti-keys-and-urls-information>` for your course.
 
-.. note::
-   **Custom parameters** work the same way regardless of whether the tool is installed at the course level or the organisation level.
 
 1. In your existing Codio course, enable **Enable LTI course copy** and save your changes.
 
