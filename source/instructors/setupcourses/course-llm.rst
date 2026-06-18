@@ -22,7 +22,7 @@ Reset LLM Keys
 .. image:: /img/llm_course_reset.png
    :alt: LLMs Course Reset
 
-If students exceed any of the limits set above, they will appear in the **Reset LLM Keys** area where teachers/instructors can reset their keys to allow them to continue working.
+If students exceed any of the limits set above, they will appear in the **Reset LLM Keys** area where instructors can reset their keys to allow them to continue working.
 
 If a student exceeds more than one limit at the same time, they will only appear once and resetting will apply to all exceeded limits.
 
