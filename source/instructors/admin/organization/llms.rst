@@ -112,7 +112,6 @@ When keys are added, you can enable use of the key in a course. See :ref:`Course
 
 To enable Codio LLM keys for your organization, please contact help@codio.com to initiate the process. Specify whether you require OpenAI or Anthropic keys.
 
-.. Note:: These keys are currently free but may be subject to charges in the future.
 
 
 
