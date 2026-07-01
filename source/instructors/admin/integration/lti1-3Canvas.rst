@@ -298,6 +298,9 @@ Updating the fields in Platform Information
 
 4. **Deployment ID:** leave blank
 
+.. note::
+    Leave the Deployment ID empty if you plan to deploy the LTI tool at the course level.
+
 5. **Public Keyset URL:**
    
 .. tabs::
