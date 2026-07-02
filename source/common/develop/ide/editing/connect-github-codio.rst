@@ -33,16 +33,19 @@ To create a new repo, follow these steps:
 
    .. image:: /img/NewRepo.png
       :alt: New Repo Button
+      :width: 350px
 
 2. Complete the requested details. We suggest **not** initializing a README since one already exists in Codio and will result in an immediate conflict.
 
    .. image:: /img/RepoConfig.png
       :alt: Create New Repo
+      :width: 500px
 
 3. Copy the **SSH** URL on the created repo page.
 
    .. image:: /img/RepoURL.png
       :alt: Repo URL
+      
 
 In Codio: Connect to repo
 -------------------------
@@ -115,6 +118,7 @@ To manually import a Git repo into Codio, follow these steps:
 
    .. figure:: /img/github-clone-url.png
       :alt: create from GitHub
+      :width: 450px
 
 .. note::
     Before cloning, you must have already added the Codio SSH public key as described in :ref:`SSH Key <ssh-key>`.
