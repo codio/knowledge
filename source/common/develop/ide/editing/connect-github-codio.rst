@@ -16,7 +16,7 @@ The first step to using GitHub in Codio is connecting your Codio and GitHub acco
 
 3. In the GitHub section, click **Connect account** and log in to your Github account when prompted.
 
-4. If you are using SSH connections, click **Upload public key** so Codio and Github can exchange keys. 
+4. Click **Upload public key** so Codio and GitHub can exchange keys, which is required for SSH connections.
 
    .. image:: /img/gitHub2.png
       :alt: Upload Public Key
@@ -33,16 +33,19 @@ To create a new repo, follow these steps:
 
    .. image:: /img/NewRepo.png
       :alt: New Repo Button
+      :width: 350px
 
 2. Complete the requested details. We suggest **not** initializing a README since one already exists in Codio and will result in an immediate conflict.
 
    .. image:: /img/RepoConfig.png
       :alt: Create New Repo
+      :width: 500px
 
-3. Copy either the **HTTP** or **SSH** URL on the created repo page (if you do not want to type credentials and you uploaded your public key, use SSH).
+3. Copy the **SSH** URL on the created repo page.
 
    .. image:: /img/RepoURL.png
       :alt: Repo URL
+      
 
 In Codio: Connect to repo
 -------------------------
@@ -111,12 +114,14 @@ Manually importing a Git repo into Codio
 ----------------------------------------
 To manually import a Git repo into Codio, follow these steps:
 
-1. In GitHub, click the **Clone URL** link in the right pane and copy to the clipboard.
+1. In GitHub, click the **SSH** tab in the right pane and copy the Clone URL to the clipboard.
 
    .. figure:: /img/github-clone-url.png
       :alt: create from GitHub
+      :width: 450px
 
-  If you are cloning using SSH, you must have already added the Codio SSH public key as described in :ref:`SSH Key <ssh-key>`.
+.. note::
+    Before cloning, you must have already added the Codio SSH public key as described in :ref:`SSH Key <ssh-key>`.
 
 2. Create a :ref:`new project <create-import-project>` or :ref:`add an assignment <add-remove-assignment>` to a course.
 
