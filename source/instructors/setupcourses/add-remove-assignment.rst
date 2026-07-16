@@ -22,41 +22,55 @@ You must first create the module that holds the assignments. You can create an e
     - To add an empty module, enter the name for the new module and click **Add Module**.
     - To add copy from existing module, select a course, check the check boxes for the modules to be copied, and then click **Select**. The modules are added to your course. 
 
-Add Assignments to Module
+Add assignments to module
 -------------------------
 Once the course modules are created, you can add assignments (projects). You can create a new project or import existing projects.
 
-1. In the course module, click **Add Assignment**. 
-2. On the **Create Assignment** page, click **New** or **Existing**.
+1. In the course module, click **Add Assignment** to create a new assignment, or click the drop-down arrow next to **Add Assignment** and select **Add Copy From Existing** to copy assignments from an existing course.
+
+2. Choose how to create your assignment:
 
    - To create a **new** assignment:
 
-     a. Add assignment, and choose: **New**. 
+     a. Click **Add Assignment**.
      b. Select the starting point (Stack, Starter Pack, etc.).
-     c. Enter a name and description, select icon and click **Create**. 
+     c. Enter a name and description, select icon and click **Create**.
+
+   - To import an assignment with an automatically generated guide, use :ref:`Smart Import <smartimport>`:
+
+     a. Click **Add Assignment**.
+     b. Click **Smart Import** under **Select your Starting Point**.
+     c. Click the **Source** drop-down and select **Files**, **Archive**, or **GitHub**, and then select your files or enter your repository URL.
+     d. Enter a name and description and click **Create**.
+
+   - To import an assignment from a **Git repository or Codio project zip file**:
+
+     a. Click **Add Assignment**.
+     b. Click **Import** under **Select your Starting Point**.
+     c. Select a Stack, choose the **Source** from the drop-down, and enter the details for your source.
+     d. Enter a name and description and click **Create**.
 
    - If you want to **import a project-based** assignment:
 
-     a. Add assignment, and choose: **New**.  
-     b. Click **Copy Project** under **Selecting your Starting Point** and browse to the project and select it.
+     a. Click **Add Assignment**.
+     b. Click **Copy Project** under **Select your Starting Point** and browse to the project and select it.
      c. Click **Create**.
-   
+
    - To add assignments from **existing courses**:
 
-     a. Add assignment, and choose: **Existing**.  
+     a. Click the drop-down arrow next to **Add Assignment** and select **Add Copy From Existing**.
      b. Select the course and module.
      c. Check the check boxes for the assignments to be added to the course.
-     d. Click **Select**. 
-     
+     d. Click **Select**.
+
    - To add assignments from **course share codes**:
-   
-     a. Add assignment, and choose: **Existing**.  
+
+     a. Click the drop-down arrow next to **Add Assignment** and select **Add Copy From Existing**.
      b. Select **Get by code** tab.
      c. Enter course share code and click the **Show Content** button.
      d. Check the check boxes for the assignments to be added to the course.
-     e. Click **Select**. 
+     e. Click **Select**.   
 
-   .. Note:: For more information about authoring course content, :ref:`click here <guides-intro>`.
 
 3. Open the assignment to review it in the IDE and when ready **Publish** it . The assignment is not visible to students until it's published.
 
@@ -105,3 +119,6 @@ To delete a course module, click **Delete** in the module.
 
 .. image:: /img/manage_classes/deletemodule.png
    :alt: Delete Module
+
+
+

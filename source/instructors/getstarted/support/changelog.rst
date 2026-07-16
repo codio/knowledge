@@ -14,6 +14,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[F]` = New feature
 
 
+**July 2026**
+
+- `[F] [16th]`: Added :ref:`Smart Import <smartimport>`.
+
+
 **May 2026**
 
 - `[F] [11th]`: Added :ref:`Importing from GitHub Classroom <importfromgithubclassroom>`.

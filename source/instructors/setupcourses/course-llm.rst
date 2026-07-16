@@ -21,6 +21,7 @@ Reset LLM Keys
 
 .. image:: /img/llm_course_reset.png
    :alt: LLMs Course Reset
+   :width: 400px
 
 If students exceed any of the limits set above, they will appear in the **Reset LLM Keys** area where instructors can reset their keys to allow them to continue working.
 
