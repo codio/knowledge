@@ -34,7 +34,7 @@ Once the course modules are created, you can add assignments (projects). You can
 
      a. Click **Add Assignment**.
      b. Select the starting point (Stack, Starter Pack, etc.).
-     c. Enter a name and description, select icon and click **Create**.
+     c. Enter a name and description, select an icon and click **Create**.
 
    - To import an assignment with an automatically generated guide, use :ref:`Smart Import <smartimport>`:
 
@@ -67,7 +67,7 @@ Once the course modules are created, you can add assignments (projects). You can
 
      a. Click the drop-down arrow next to **Add Assignment** and select **Add Copy From Existing**.
      b. Select **Get by code** tab.
-     c. Enter course share code and click the **Show Content** button.
+     c. Enter the course share code and click the **Show Content** button.
      d. Check the check boxes for the assignments to be added to the course.
      e. Click **Select**.   
 

@@ -11,7 +11,7 @@ When integrating with an external system, you don't need to manually :ref:`add o
 Codio maps external system users to Codio users using the following rules.
 
 .. important::
-   Student accounts are **not** created via LTI integration while an organization is in trial mode. Activate a subscription to enable student enrollments.
+   Student accounts are **not** created via LMS integration while an organization is in trial mode. Activate a subscription to enable student enrollments.
 
 First-Time Access
 -----------------

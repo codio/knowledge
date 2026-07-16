@@ -16,7 +16,7 @@ Smart Import supports three sources:
 - **Archive** — Upload an archive file from your computer.
 - **GitHub** — Import the contents of a GitHub repository, including repositories used with GitHub Classroom.
 
-Smart Import imports one assignment at a time. However, you can run multiple imports at the same time. Start an import, then begin the next one while the first is still processing.
+Each Smart Import operation creates one assignment, but you can run multiple imports concurrently. Start an import, then begin the next one while the first is still processing.
 
 Import an Assignment
 --------------------
