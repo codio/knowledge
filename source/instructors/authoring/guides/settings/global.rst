@@ -56,7 +56,7 @@ For a discussion on the use of this feature, please :ref:`click here <student-su
 This setting is enabled by default. Students will be able to mark an assignment as complete in one of three ways: 
     - Using a button at the end of the assignment.
     - From their :ref:`dashboard <accessing-your-courses>`.
-    - Selecting **Mark as Completed" from the **Education** menu in the IDE.
+    - Selecting **Mark as Completed** from the **Education** menu in the IDE.
 
 You may decide to disable your students' ability to **Use Mark as Complete** if you have set the :ref:`assignment duration <assignment-duration>` 'On assignment End' action to **Mark as Complete** or **Disable assignment and Mark as Complete**.
 
