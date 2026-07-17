@@ -36,7 +36,7 @@ Once the course modules are created, you can add assignments (projects). You can
      b. Select the starting point (Stack, Starter Pack, etc.).
      c. Enter a name and description, select an icon and click **Create**.
 
-   - To import an assignment with an automatically generated guide, use :ref:`Smart Import <smartimport>`:
+   - To import an assignment and automatically generate Codio formatting for your material (a :ref:`guide <guides-intro>`), use :ref:`Smart Import <smartimport>`:
 
      a. Click **Add Assignment**.
      b. Click **Smart Import** under **Select your Starting Point**.

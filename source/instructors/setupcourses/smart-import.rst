@@ -8,7 +8,10 @@
 Smart Import
 ============
 
-Use Smart Import to import existing content into your Codio course as assignments. Smart Import automatically creates a Codio Guide for each assignment and adds the code files from your source to the assignment layout, so the guide displays on the right and the code files display on the left. You do not have to build the guide or configure the layout manually.
+Use Smart Import to import existing content into your Codio course as assignments. Smart Import automatically creates a Codio Guide for each assignment. It converts your source document into Markdown that best represents its structure, including heading levels, lists, and code blocks. It also adds the code files from your source to the assignment layout, so the guide displays on the right and the code files display on the left.
+
+Smart Import examines the contents of your uploaded materials to determine the programming language used and assigns the appropriate technology stack to the assignment. You do not have to build the guide, configure the layout, or manually select a stack.
+
 
 Smart Import supports three sources:
 
@@ -45,8 +48,6 @@ Import an Assignment
 7. Click **Create**.
 
 The assignment appears in your module with an importing status. When the import completes, Codio generates the guide and layout from your source content automatically.
-
-.. tip:: To import your next assignment, repeat these steps while the previous import is still running. You do not need to wait for one import to finish before starting another.
 
 .. note:: To import all of your GitHub Classroom assignments at once, see :ref:`importfromgithubclassroom`. Assignments imported with that method retain your README and coding files but do not include an automatically generated guide.
 
