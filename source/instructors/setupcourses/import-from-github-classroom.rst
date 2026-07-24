@@ -4,14 +4,43 @@
 .. _importfromgithubclassroom: 
 
 
-
 Importing from GitHub Classroom
 ===============================
 
 You can import an existing GitHub Classroom into Codio. Each assignment repository in the classroom is created as an assignment in a new Codio course.
 
-.. important::
-   Ensure you have the necessary permissions in both GitHub Classroom and Codio before beginning the import process.
+Choose an Import Method
+-----------------------
+
+There are two ways to migrate your assignments from GitHub into Codio:
+
+- **GitHub Classroom Import** — Import your entire classroom as is.
+- **Smart Import** — Import individual assignments and automatically add Codio native features (Guides).
+
+Use the table below to decide which method fits your course.
+
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+   :widths: 20 40 40
+
+   * -
+     - :ref:`GitHub Classroom Import <githubclassroomimportsteps>`
+     - :ref:`Smart Import <smartimport>`
+   * - **What it does**
+     - Imports your entire classroom as is. Each repository becomes a Codio assignment.
+     - Imports repositories one at a time and automatically converts them into assignments with Codio Guides.
+   * - **Guides**
+     - No — content stays as README files.
+     - Yes — README content becomes interactive Guide pages.
+   * - **Best for**
+     - Moving a whole course over quickly.
+     - Getting the most out of Codio's native features.
+
+To use Smart Import, see :ref:`smartimport`. To import your entire classroom, follow the steps below.
+
+
+.. _githubclassroomimportsteps:
 
 Steps
 -----
