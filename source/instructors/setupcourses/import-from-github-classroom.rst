@@ -27,8 +27,8 @@ Steps
 
 3. Click **Import** in the top right corner.
 
-4. Log in to your GitHub Classroom account when prompted. If you are already signed in
-   to GitHub in this browser session, your classroom organizations populate automatically.
+4. Sign in to your GitHub account when prompted. If you are already signed in to GitHub
+   in this browser session, your classroom organizations populate automatically.
 
 5. Select the classroom you want to import.
 
@@ -40,4 +40,4 @@ Steps
 8. Click **Import** in the bottom right corner. Each assignment repository is created
    as an assignment in the Codio course.
 
-9. To import additional classrooms, return to the **Courses** dashboard and repeat this process.
+9. To import additional classrooms, return to the **Courses** dashboard and repeat Steps 3–8.
