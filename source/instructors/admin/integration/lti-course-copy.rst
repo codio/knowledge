@@ -24,8 +24,6 @@ Enabling this setting allows existing Codio course content used in your LMS to b
 LTI 1.3 Course Copy
 --------------------
 
-First enable :ref:`LTI Constant URLs <lti-keys-and-urls-information>` for your course.
-
 1. In your existing Codio course, enable **Enable LTI course copy**, save your changes.
 
    .. figure:: /img/lti/enable_class_fork.png
@@ -40,8 +38,6 @@ First enable :ref:`LTI Constant URLs <lti-keys-and-urls-information>` for your c
 
 LTI 1.1 Course Copy
 --------------------
-
-First enable :ref:`LTI Constant URLs <lti-keys-and-urls-information>` for your course.
 
 
 1. In your existing Codio course, enable **Enable LTI course copy** and save your changes.

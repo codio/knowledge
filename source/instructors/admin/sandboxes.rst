@@ -54,6 +54,8 @@ Key Concepts
      - The AWS region in which sandboxes are created. Currently fixed to ``us-east-1``.
    * - **Prime**
      - Optional pre-warming configuration for sandboxes. When enabled, the platform creates "primed" sandboxes ahead of time to reduce wait time for learners.
+   * - **Warmup Storage**
+     - Optional storage preparation for sandboxes. When enabled, EBS volumes are prepared before they are needed, this speeds up boot times. The amount of time between publishing this configuration and when it is ready can vary. Windows sandboxes may take 5 minutes and Jupyter sandboxes with a GPU may take about 10 minutes.
 
 Lifecycle, Duration, and Cleanup
 --------------------------------
@@ -237,7 +239,10 @@ After setting ``type`` to ``aws_ec2``, configure the following ``parameters``:
      - Optional
      - Default access channel for the instance. Supported values in examples: ``ssh`` or ``vnc``.
        If omitted, both connection modes are available.
-
+   * - ``warmup_storage``
+     - enum
+     - Optional
+     - Prepare EBS volumes before they are needed. Supported values: ``true`` or ``false``
 
 
 .. _jupytertype-sandboxes:
@@ -267,6 +272,10 @@ After setting ``type`` to ``jupyter``, configure the following ``parameters``:
      - integer (GB)
      - Yes
      - Root volume size in GiB for the Jupyter environment (for example, ``40``).
+   * - ``warmup_storage``
+     - enum
+     - Optional
+     - Prepare EBS volumes before they are needed. Supported values: ``true`` or ``false``
 
 ``prime`` (common)
 ~~~~~~~~~~~~~~~~~~
