@@ -19,21 +19,21 @@ Courses are displayed in groups based on their creation date. The most recent co
 
 The **My** tab will show all courses in which you are a **Teacher**.  This can be useful where you are in the **Owners** group and do not wish to see all the courses in the organization.
 
-If you wish to see all the courses in the organization go to the **All** tab.
+If you wish to see all the courses in the organization go to the **All** tab. Only organization **Owners** can see all the courses in an organization.
 
 Sort courses
 ------------
-You can sort the courses within the group by Name, Created Date, Student Count, or Start Date.
+You can sort the courses within the group by Name, Created Date, or Start Date.
 
 .. image:: /img/manage_classes/orderclass.png
    :alt: Sort Courses
 
-Search course
--------------
-If you have a large number of courses, you can search by Name, Created Date, Student Count, or Start Date. Choose the sort option and then simply start typing your search criteria in the **Search** box. Codio searches all course names and filters your list accordingly.
+Search courses
+--------------
+If you have a large number of courses, you can search by Name. Codio searches course names and filters the list.
 
-You can use this feature to more easily view just courses you teach. Search for your username and **Add as Tab** as described below. 
+To find courses with a specific tag, search for ``tag:"Intro"``.
 
 Add as Tab
 ----------
-To save your search parameters as a tab, click **Add as Tab**. Your search is then saved as a tab so you can quickly perform the same search again.
+To save your search parameters as a tab, click **Add as Tab**. Your search is then saved as a tab so you can quickly perform the same search again. 
