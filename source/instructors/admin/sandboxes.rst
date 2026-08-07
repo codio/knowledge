@@ -55,7 +55,7 @@ Key Concepts
    * - **Prime**
      - Optional pre-warming configuration for sandboxes. When enabled, the platform creates "primed" sandboxes ahead of time to reduce wait time for learners.
    * - **Warmup Storage**
-     - Optional storage preparation for sandboxes. When enabled, EBS volumes are prepared before they are needed, this speeds up boot times. The amount of time between publishing this configuration and when it is ready can vary. Windows sandboxes may take 5 minutes and Jupyter sandboxes with a GPU may take about 10 minutes.
+     - - Optional preparation of EBS volumes for sandboxes. When enabled, the platform prepares the volumes before they are needed. This can reduce boot time. Warmup storage may take time to become ready after the configuration is published. Windows sandboxes may require up to 5 minutes; GPU-backed Jupyter sandboxes may require about 10 minutes.
 
 Lifecycle, Duration, and Cleanup
 --------------------------------
@@ -240,7 +240,7 @@ After setting ``type`` to ``aws_ec2``, configure the following ``parameters``:
      - Default access channel for the instance. Supported values in examples: ``ssh`` or ``vnc``.
        If omitted, both connection modes are available.
    * - ``warmup_storage``
-     - enum
+     - boolean
      - Optional
      - Prepare EBS volumes before they are needed. Supported values: ``true`` or ``false``
 
@@ -273,7 +273,7 @@ After setting ``type`` to ``jupyter``, configure the following ``parameters``:
      - Yes
      - Root volume size in GiB for the Jupyter environment (for example, ``40``).
    * - ``warmup_storage``
-     - enum
+     - boolean
      - Optional
      - Prepare EBS volumes before they are needed. Supported values: ``true`` or ``false``
 

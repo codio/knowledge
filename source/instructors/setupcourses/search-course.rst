@@ -28,11 +28,11 @@ You can sort the courses within the group by Name, Created Date, or Start Date.
 .. image:: /img/manage_classes/orderclass.png
    :alt: Sort Courses
 
-Search course
--------------
-If you have a large number of courses, you can search by Name. Codio searches all course names and filters your list accordingly.
+Search courses
+--------------
+If you have a large number of courses, you can search by Name. Codio searches course names and filters the list.
 
-You can also search by tags, for example, if you wanted all the courses that were tagged as "Intro" you would search for this: ``tag:"Intro"``.
+To find courses with a specific tag, search for ``tag:"Intro"``.
 
 Add as Tab
 ----------

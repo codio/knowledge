@@ -13,9 +13,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**August 2026**
+
+- `[I] [5th]`: Settings combined for :ref:`LTI Course Copy <lti-course-copy>`.
 
 **July 2026**
 
+- `[I] [30th]`: Warmup storage setting for :ref:`sandboxes <sandboxes>`.
 - `[F] [16th]`: Added :ref:`Smart Import <smartimport>`.
 
 
