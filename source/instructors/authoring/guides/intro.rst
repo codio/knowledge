@@ -15,6 +15,7 @@ Authoring
    author_student
    guides_structure
    multiple_choice_assessment_json
+   standard_code_test_assessment_json
    toc
    page_editing
    authoring_guidelines
