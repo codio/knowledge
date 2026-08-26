@@ -6,7 +6,7 @@
 Pay for Codio
 =============
 
-If your institution isn't providing access to Codio for you, you can make a payment that gives you access to your courses for the semester. You can pay for Codio using the **Billing** menu. The procedure you follow depends on whether you are paying yourself or redeeming a code for a payment that was obtained from your campus bookstore.
+If your institution isn't providing access to Codio for you, you can make a payment that gives you access to your courses for the semester. 
 
 If the plan is for one or two semesters, when your class ends, only the payment for the class is charged.
 
@@ -17,26 +17,14 @@ If the plan is for one or two semesters, when your class ends, only the payment 
 
 Individual Billing and Payment
 ------------------------------
-To access Codio, you will need to purchase a subscription. The steps below apply whether
-you are paying directly or through your institution's Learning Management System (LMS)
-such as Canvas, Blackboard, or Moodle.
+To access Codio, you may need to purchase a subscription. The payment dialog will appear automatically when you click on your first assignment.
 
-1. Navigate to the billing page:
+Some schools provide codes that can be used to pay for a subscription. If you have a code, click the **Redeem Code** button and enter it.
 
-   - **Direct (no LMS):** Click the **Join a Course** link provided by your instructor. Billing will appear automatically, but if it doesn't, click the **Billing** button.
+.. note::
+   Codes are case sensitive. Enter the code exactly as provided.
 
-   - **LMS access:** Click the assignment link your professor shared in your course. You will
-     be redirected automatically to the **Codio Billing** page — no separate login or
-     navigation is required.
-
-2. In the **Purchase Access** area, select the subscription period that suits your needs.
-
-3. Click **Subscribe**, then follow the on-screen steps to complete
-   your payment.
-
-4. Once payment is confirmed, you can begin working immediately. LMS users will be
-   redirected directly to their assignment.
-
+If a code is not provided, you can pay for your subscription using a credit card. Click the **Subscribe** button to proceed with credit card payment.
 
 Redeeming Code from Campus Bookstore
 ------------------------------------
@@ -46,7 +34,7 @@ A single license can be used for a specified timeframe: 1 semester (5 months), 2
 
 To activate a license from your campus bookstore, follow these steps:
 
-1. Request one of the following plans from your campus bookstore:
+Request one of the following plans from your campus bookstore:
 
    - 1 Semester  - Codio 1-Semester Plan 
    - 2 Semesters - Codio 2 Semester Plan 
@@ -54,15 +42,7 @@ To activate a license from your campus bookstore, follow these steps:
 
    The bookstore will give you a code to redeem and activate your plan for the specified timeframe.
 
-2. Log in to Codio following the instructions provided by your instructor. This may be through your local LMS (Canvas, Blackboard, Desire2Learn, Moodle, etc.) or through Codio.com using a course token.
 
-   The first time you log in, you will see a dialog prompting you to pay.
-   
-3. If you don't see the dialog, click **Get Started** in the banner, or click your **Username > Preferences > Billing**.
-
-4. From the **Plan** dialog, choose **Redeem Code**.
-
-5. Enter the code that was provided to you. Note that the code is case sensitive so enter it exactly as provided to you.
 
 If you have any problems contact us through your Codio account or email us at help@codio.com.
 
