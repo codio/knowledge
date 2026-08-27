@@ -6,13 +6,10 @@
 Pay for Codio
 =============
 
-If your institution isn't providing access to Codio for you, you can make a payment that gives you access to your courses for the semester. 
+If your institution doesn't provide a Codio subscription, you'll need to purchase access to your courses for the semester.
 
-If the plan is for one or two semesters, when your class ends, only the payment for the class is charged.
-
-
-.. Note:: A single payment can be used for multiple courses in a Codio account during the specified timeframe.
-
+.. note::
+  A single payment can be used for multiple courses in a Codio account during the specified timeframe.
 
 
 Individual Billing and Payment
@@ -26,70 +23,52 @@ Some schools provide codes that can be used to pay for a subscription. If you ha
 
 If a code is not provided, you can pay for your subscription using a credit card. Click the **Subscribe** button to proceed with credit card payment.
 
-Redeeming Code from Campus Bookstore
-------------------------------------
-Some institutions provide Codio licenses through their campus bookstore. Your course instructor or course syllabus will specify if this is available at your school.
+Purchasing your subscription through the Campus Bookstore
+---------------------------------------------------------
+Some institutions provide Codio licenses through their campus bookstore. Check with your course instructor or syllabus to see if this is available at your school.
 
-A single license can be used for a specified timeframe: 1 semester (5 months), 2 semesters (10 months), or a year. Specific license options depend on your local bookstore.
+A license can be purchased for one of the following timeframes, depending on what your bookstore offers:
 
-To activate a license from your campus bookstore, follow these steps:
+- 1 Semester (5 months) — Codio 1-Semester Plan
+- 2 Semesters (10 months) — Codio 2-Semester Plan
+- Annual (1 year) — Codio Annual Plan
 
-Request one of the following plans from your campus bookstore:
+To activate a license, request one of the plans above from your campus bookstore. They will provide a code, which you can redeem to activate your plan for the specified timeframe.
 
-   - 1 Semester  - Codio 1-Semester Plan 
-   - 2 Semesters - Codio 2 Semester Plan 
-   - Annual - Codio Annual Plan
+If you have any problems, contact us through your Codio account or email help@codio.com.
 
-   The bookstore will give you a code to redeem and activate your plan for the specified timeframe.
+Payment Issues
+--------------
 
+Secure online credit card transactions are processed in real-time on behalf of Codio by Stripe, our authorized payment service provider, using industry-standard security.
 
+Credit card companies do not share the specific reason a transaction was declined with Codio, so we're often unable to pinpoint the exact cause. Resolving the issue typically requires contacting your card issuer directly, as they have access to the transaction details.
 
-If you have any problems contact us through your Codio account or email us at help@codio.com.
+If a transaction fails, first try an alternative card, or retry the same card later. If it continues to fail, contact your credit card company; they can check the transaction log and, in some cases, pre-authorize the transaction for you.
+Common reasons a payment may fail:
 
-Problems Setting up a New Payment
----------------------------------
+- **Credit limit reached**: Ask your card issuer to increase your limit.
+- **Single-charge maximum exceeded**: Ask your issuer to raise the per-transaction limit.
+- **Charge frequency limit reached**: Wait until your card resets, ask your issuer to raise the limit, or use a different payment method.
+- **Card doesn't allow online transactions**: Ask your issuer to enable this, or use another card.
+- **Card doesn't allow international transactions**: Ask your issuer to enable this if paying from abroad, or use another card.
+- **Card not authorized for MO/TO transactions**: Contact your issuer to allow this classification (mail order/telephone order).
+- **Expired card**: Use another card.
+- **Incorrect card number or expiration date**: Double-check the details entered.
+- **Billing address mismatch**: Confirm the address matches your card issuer's records (rarely the actual cause).
+- **"Do Not Honor" message**: Your bank is declining the transaction without providing a reason to our processor. Contact your card issuer for details.
+- **"General error" in Cardinal**: Usually caused by ad-blockers or blocked cookies — see below.
 
-Secure online credit card transactions are processed in real-time on behalf of Codio by the authorized merchant payment service provider Stripe using the highest levels of security available on the market.
-
-Sometimes online credit card transactions may fail - the reasons for such failure may be an error in the card number or the card limit has been reached, ad-blockers interfering, 3rd Party Cookies not allowed etc. In other cases the reasons are less obvious and may relate to the ever increasing fraud prevention and/or other security measures implemented by credit card companies to protect the cardholder against card abuse.
-
-Codio has no control over such transaction refusal. Your credit card company does not disclose to Codio the exact reason your transaction has failed.
-
-This means that unfortunately Codio cannot assist in solving the issue which is strictly a matter between the card issuing credit card company (who refused to authorize the transaction) and the credit card holder (who initiated the process to have the amount of the transaction charged to his/her credit card).
-
-In case of a transaction failure, Codio recommends to first try using an alternative credit card, or to give it another try with the same credit card again but at a later time. In most cases this would solve the issue.
-
-Carefully check the card details before confirming the transaction for processing.
-
-Should the transaction continue to fail you might want to get in touch with your credit card company. Your credit card company will be able to check the transaction log for your credit card and help fix the problem. In some cases your credit card company would need to pre-authorize the transaction for you before you can process the transaction again.
-
-A list of common reasons why payments fail:
-
-- Your credit card limit was reached (insufficient funds).
-- Check your credit limit. You might have reached your daily or total credit card limit on the day you tried to charge your card. If this is the case, ask your credit card company to increase your limit.
-- The charge exceeded the maximum amount allowed for a single charge.
-- Check the maximum amount your card can be charged at a single time. If the declined charge is higher than this amount, ask your credit card company to increase the limit.
-- Your card reached the maximum number of charges allowed in a period: Check how many times your card can be charged in given time period. If you reached this amount, ask your bank to increase the limit, wait until your card can be charged again, or make a payment with a different payment method.
-- Your card doesn't accept charges from an online source: Make sure your card allows online transactions. If it doesn't, talk to your credit card company about allowing these charges or use another card.
-- Your card doesn't allow international transactions: If you're making payments from abroad, make sure your card accepts international charges. If it doesn't, ask your bank to change this or use another card.
-- Your card is not authorised for transactions of the classification type MO/TO: Contact your financial institution to allow transactions of classification type MO/TO (which stands for mail order/telephone order).
-- Wrong expiration date: Review the expiration date on your credit card. If your card expired, use another card.
-- Wrong credit card number: You should get an error message indicating the card number is not valid. If not, carefully check the card number when filling out the form.
--  Billing address: Make sure that the billing address you use for the transaction matches those that your credit card company has. Address matching is however not very likely to be the main cause of a transaction failure.
-- If you are seeing the message 'Do not Honor', then it is likely that your bank is unwilling to accept the transaction but they are not giving the specific reason to our processing company. You should contact your card issuing bank for more details of the exact reason. 
-- If you are seeing General error in Cardinal, this error can be caused due to adblockers or cookies being blocked.
-
-Also, ensure that your browser is allowing :ref:`3rd Party Cookies <cookie-requirements>`
-
-Please try using another browser or stop your adblocker during the payment process or login to Codio either with a different browser where you don't have adblockers running or in an incognito/private session. If using incognito session in Chrome, ensure that you are not blocking third-party cookies that is enabled by default now in Chrome.
+.. note::
+   Ensure your browser allows :ref:`3rd party cookies <cookie-requirements>`. If you use an ad-blocker, disable it during payment, or try a different browser or an incognito/private session (note that Chrome blocks third-party cookies by default even in incognito mode, so you may need to allow them manually).
 
    .. image:: /img/chrome-incognito.png
       :alt: Chrome Incognito
 
-Restarting an Expired Payment or Extending an Existing Payment
---------------------------------------------------------------
+Restarting or Extending an Existing Payment
+-------------------------------------------
 
-If you had a payment that has now expired, or wish to extend the period of time available, start a new payment as above.
+If you had a payment that has now expired, or wish to extend the subscription period, you can access the billing tab by clicking your Username in the upper right corner and the selecting **Preferences > Billing**.
 
 .. _refund:
 
