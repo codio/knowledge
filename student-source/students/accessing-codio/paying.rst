@@ -6,7 +6,7 @@
 Pay for Codio
 =============
 
-If your institution doesn't provide a Codio subscription, you'll need to purchase access to your courses for the semester.
+If your institution doesn't provide a Codio subscription, you'll need to purchase access to your courses for the selected subscription period.
 
 .. note::
   A single payment can be used for multiple courses in a Codio account during the specified timeframe.
@@ -16,7 +16,7 @@ Individual Billing and Payment
 ------------------------------
 To access Codio, you may need to purchase a subscription. The payment dialog will appear automatically when you click on your first assignment.
 
-Some schools provide codes that can be used to pay for a subscription. If you have a code, click the **Redeem Code** button and enter it.
+Some schools provide access codes that activate a Codio license. If you have a code, click the **Redeem Code** button and enter it.
 
 .. note::
    Codes are case sensitive. Enter the code exactly as provided.
@@ -49,7 +49,7 @@ Common reasons a payment may fail:
 
 - **Credit limit reached**: Ask your card issuer to increase your limit.
 - **Single-charge maximum exceeded**: Ask your issuer to raise the per-transaction limit.
-- **Charge frequency limit reached**: Wait until your card resets, ask your issuer to raise the limit, or use a different payment method.
+- **Charge frequency limit reached**: Wait until your issuer's limit resets, ask your issuer to raise the limit, or use a different payment method.
 - **Card doesn't allow online transactions**: Ask your issuer to enable this, or use another card.
 - **Card doesn't allow international transactions**: Ask your issuer to enable this if paying from abroad, or use another card.
 - **Card not authorized for MO/TO transactions**: Contact your issuer to allow this classification (mail order/telephone order).
@@ -68,7 +68,7 @@ Common reasons a payment may fail:
 Restarting or Extending an Existing Payment
 -------------------------------------------
 
-If you had a payment that has now expired, or wish to extend the subscription period, you can access the billing tab by clicking your Username in the upper right corner and the selecting **Preferences > Billing**.
+If you had a payment that has now expired, or wish to extend the subscription period, you can access the billing tab by clicking your Username in the upper right corner and then selecting **Preferences > Billing**.
 
 .. _refund:
 
