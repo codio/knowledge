@@ -15,7 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2026**
 
-- `[I] [11th]`: The paywall for students now shows when a student opens their first assignment.
+- `[I] [11th]`: The paywall now appears when a student opens their first assignment.
 - `[I] [5th]`: Settings combined for :ref:`LTI Course Copy <lti-course-copy>`.
 
 **July 2026**

@@ -19,9 +19,9 @@ To access Codio, you may need to purchase a subscription. The payment dialog wil
 Some schools provide access codes that activate a Codio license. If you have a code, click the **Redeem Code** button and enter it.
 
 .. note::
-   Codes are case sensitive. Enter the code exactly as provided.
+   Codes are case-sensitive. Enter the code exactly as provided.
 
-If a code is not provided, you can pay for your subscription using a credit card. Click the **Subscribe** button to proceed with credit card payment.
+If you don't have a code, you can purchase a subscription using a credit card. Click the Subscribe button to proceed with your payment.
 
 Purchasing your subscription through the Campus Bookstore
 ---------------------------------------------------------
@@ -33,7 +33,7 @@ A license can be purchased for one of the following timeframes, depending on wha
 - 2 Semesters (10 months) — Codio 2-Semester Plan
 - Annual (1 year) — Codio Annual Plan
 
-To activate a license, request one of the plans above from your campus bookstore. They will provide a code, which you can redeem to activate your plan for the specified timeframe.
+Request one of the plans above from your campus bookstore and click **Redeem Code** to enter it.
 
 If you have any problems, contact us through your Codio account or email help@codio.com.
 
@@ -64,11 +64,6 @@ Common reasons a payment may fail:
 
    .. image:: /img/chrome-incognito.png
       :alt: Chrome Incognito
-
-Restarting or Extending an Existing Payment
--------------------------------------------
-
-If you had a payment that has now expired, or wish to extend the subscription period, you can access the billing tab by clicking your Username in the upper right corner and then selecting **Preferences > Billing**.
 
 .. _refund:
 
