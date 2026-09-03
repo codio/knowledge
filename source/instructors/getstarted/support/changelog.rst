@@ -14,7 +14,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[F]` = New feature
 
 **September 2026**
-- `[I] [3rd]`: Importing from GitHub Classroom has be sunsetted - removed button from the UI.
+- `[I] [3rd]`: The GitHub Classroom API has been sunsetted - Import functionality that used this feature had to be removed.
 
 
 **August 2026**
