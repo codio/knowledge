@@ -49,8 +49,6 @@ Import an Assignment
 
 The assignment appears in your module with an importing status. When the import completes, Codio generates the guide and layout from your source content automatically.
 
-.. note:: To import all of your GitHub Classroom assignments at once, see :ref:`importfromgithubclassroom`. Assignments imported with that method retain your README and coding files but do not include an automatically generated guide.
-
 Preview and Publish an Assignment
 ---------------------------------
 

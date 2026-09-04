@@ -12,7 +12,6 @@ Courses Set Up
 
 
    create-course
-   import-from-github-classroom
    clone-course
    parent-child-courses
    export-course-data
