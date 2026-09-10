@@ -14,6 +14,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[F]` = New feature
 
 **September 2026**
+- `[I] [10th]`: Invitation Tokens now will close after a month, they can be re-enabled to extend the sign-up window.
+- `[I] [9th]`: Sign up using Google SSO is no longer available. Students can turn it on after creating their account and can be used for login. 
 - `[I] [3rd]`: The GitHub Classroom API has been sunsetted - Import functionality that used this feature had to be removed.
 
 
