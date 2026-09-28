@@ -31,8 +31,8 @@ The top menu can be customized to remove options you don't want your students to
 
 .. Note::  Only students will see the modified menus. Teachers will not see customizations when previewing assignments and viewing students work. To view the environment as a student use the :ref:`test student <add-remove-students>` accounts.
 
-Use a `.codio-menu` file to specify which menu items should be hidden.
-Example:
+Use a `.codio-menu` file to specify which menu items should be hidden. In the example below all menus are hidden except for most of the project menu. If you disable the "Status" menu, "Mark as Completed" and "Regrade Requested" will also be hidden unless you explicitly enable them.
+
 
 .. code:: ini
 
@@ -40,13 +40,15 @@ Example:
         "Logo": false, // hides the Codio logo
         "Codio": false, // hides the Codio menu dropdown
         "Project": {
-             "Permissions": false // hides the Permissions option in the Project menu dropdown
+             "Share": false // hides the Share option in the Project menu dropdown
         },
         "Help": false, // hides the Help menu dropdown
         "Run": false, // hides the Run menu dropdown
         "Preview": false, // hides the Preview menu dropdown
         "Debugger": false, // hides the Debugger menu dropdown
-        "Status": false // hides the Status icon, user Avatar, user name and exit button
+        "Status": false, // hides the Status icon, user Avatar, user name and exit button
+        "Mark as Completed": true, // Mark as Completed button will show
+        "Regrade Requested": true  // Request Regrade will show
     }
 
 
