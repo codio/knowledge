@@ -1,5 +1,5 @@
 .. meta::
-   :description: Pin an assignment to make it more noticible in the student dashboard.
+   :description: Pin an assignment to make it more noticeable in the student dashboard.
 
 
 .. _pin-assignment:

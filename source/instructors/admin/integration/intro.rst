@@ -20,7 +20,6 @@ Integrating with your LMS system (Canvas etc.)
    lti-keys-and-urls-information
    lti-course-copy
    commoncartridge
-   moodle
    lti1-3
    lti1-3Blackboard
    lti1-3BS-D2L

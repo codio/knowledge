@@ -17,7 +17,7 @@ Smart Import supports three sources:
 
 - **Files** — Upload individual files from your computer (32 MB limit).
 - **Archive** — Upload an archive file from your computer.
-- **GitHub** — Import the contents of a GitHub repository, including repositories used with GitHub Classroom.
+- **GitHub** — Import the contents of a GitHub repository.
 
 Each Smart Import operation creates one assignment, but you can run multiple imports concurrently. Start an import, then begin the next one while the first is still processing.
 

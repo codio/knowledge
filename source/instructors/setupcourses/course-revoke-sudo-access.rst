@@ -1,5 +1,5 @@
 .. meta::
-   :description: Allowing Teachers to revoke sudo access in students assignments in the course to prevent installation of unauthorized software in an asignment
+   :description: Allowing Teachers to revoke sudo access in students assignments in the course to prevent installation of unauthorized software in an assignment
 
 
 .. _course-revoke-sudo:

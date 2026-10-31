@@ -16,6 +16,7 @@ Admin
    common/settings/settings
    instructors/admin/sandboxes
    instructors/admin/orgbilling
+   instructors/admin/bookstore-portal
    instructors/admin/legal
 
    

@@ -13,13 +13,17 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**October 2026**
+
+- `[F] [29th]`: Bookstores can now sign up to our :ref:`Bookstore Portal <bookstore-portal>` and automatically create bookstore orders. 
+- `[I] [28th]`: New settings added to :ref:`Bulk Assignment Update <bulk-assignment-update>`.
+
 **September 2026**
 
 - `[I] [24th]`: You can now :ref:`specify <custom-ide>` that "Mark as Completed" and "Regrade Requested" should show when the "Status" menu is disabled.
 - `[I] [10th]`: Invitation Tokens now expire after one month. Re-enable them to extend the sign-up window.
 - `[I] [9th]`: Google SSO is no longer available during sign-up. Students can enable it after creating their account and use it to log in.
 - `[I] [3rd]`: The GitHub Classroom API has been sunsetted - Import functionality that used this feature had to be removed.
-
 
 **August 2026**
 
