@@ -134,6 +134,14 @@ html_theme_options = asdict(theme_options)
 # #   ]
 # }
 
+html_context = {
+    "search_audience": "student",
+}
+
+docsearch_search_parameters = {
+    "facetFilters": ["audience:student"],
+}
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
@@ -249,13 +257,13 @@ html_additional_pages = {
 html_css_files = [
     'css/codio.css',
     'css/search.css',
-    'https://cdn.jsdelivr.net/npm/@docsearch/css@3'
+    # 'https://cdn.jsdelivr.net/npm/@docsearch/css@3'
 
 ]
 
 html_js_files = [
-  ('https://cdn.jsdelivr.net/npm/@docsearch/js@3', {'defer': 'defer'}),
-  ('js/algolia.js', {'defer': 'defer'})
+  # ('https://cdn.jsdelivr.net/npm/@docsearch/js@3', {'defer': 'defer'}),
+  # ('js/algolia.js', {'defer': 'defer'})
 ]
 
 # html_logo = "_static/logo-white.svg"
