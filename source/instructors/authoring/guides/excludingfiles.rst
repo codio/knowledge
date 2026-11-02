@@ -1,5 +1,5 @@
 .. meta::
-   :description: Exluding files when assignments published
+   :description: Excluding files when assignments published
 
 .. _exclude:
 

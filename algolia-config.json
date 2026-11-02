@@ -6,9 +6,12 @@
   ],
   "start_urls": [
     "https://docs.codio.com/",
-    "https://docs.codio.com/students/"
+    "https://docs.codio.com/student.html"
   ],
   "only_content_level": true,
+  "custom_settings": {
+    "attributesForFaceting": ["audience"]
+  },
   "selectors": {
     "lvl0": "main h1",
     "lvl1": "main h2",

@@ -1,9 +1,9 @@
-# Creating Python programs in Codio
+# Codio Docs
 
 ## One time setup
 
 ### Stack
-If using Codio, put on the certified Python stack `Python Ubuntu 22.04 (pyenv)`. 
+If using Codio, put on the stack [Docs Stack](https://codio.com/home/stacks/055a5c7f-6c3f-4139-a683-369986314600). 
 
 ### Install
 

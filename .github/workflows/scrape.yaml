@@ -2,6 +2,7 @@ name: Update search
 on:
   schedule:
     - cron:  '0 22 */2 * *'
+  workflow_dispatch:
 jobs:
   algolia_indexer:
     runs-on: ubuntu-latest
@@ -16,9 +17,9 @@ jobs:
         echo "CONFIG=$(cat algolia-config.json | jq -r tostring)" >> $GITHUB_ENV
 
     - name: Algolia Docsearch Action
-      run: | 
+      run: |
         docker run \
-          -e APPLICATION_ID\
+          -e APPLICATION_ID \
           -e API_KEY \
           -e INDEX_NAME \
           -e CONFIG \
