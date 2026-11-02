@@ -1,0 +1,19 @@
+(function () {
+  // Identical output for every build: the audience comes from the page's own meta tag.
+  var meta = document.querySelector('meta[name="docsearch:audience"]');
+  var audience = meta ? meta.getAttribute("content") : "";
+  var params = {};
+  {%- if docsearch_search_parameters %}
+  params = {{ docsearch_search_parameters | tojson }};
+  {%- endif %}
+  if (audience) {
+    params.facetFilters = (params.facetFilters || []).concat(["audience:" + audience]);
+  }
+  docsearch({
+    container: "{{ docsearch_container|default('#docsearch') }}",
+    appId: "{{ docsearch_app_id }}",
+    apiKey: "{{ docsearch_api_key }}",
+    indexName: "{{ docsearch_index_name }}",
+    searchParameters: params
+  });
+})();

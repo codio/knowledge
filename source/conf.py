@@ -140,9 +140,9 @@ html_context = {
     "search_audience": "instructor",
 }
 
-docsearch_search_parameters = {
-    "facetFilters": ["audience:instructor"],
-}
+# docsearch_search_parameters = {
+#     # "facetFilters": ["audience:instructor"],
+# }
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -278,3 +278,10 @@ html_show_sphinx = False
 docsearch_app_id = "0MJO9504F8"
 docsearch_api_key = "7e59277e32050e11c2e8915f1b09d6e2"
 docsearch_index_name = "CodioDocs"
+
+def use_local_docsearch_config(app, config):
+    config.html_static_path.append("_docsearch_override")
+
+
+def setup(app):
+    app.connect("config-inited", use_local_docsearch_config, priority=900)
