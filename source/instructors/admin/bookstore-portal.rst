@@ -199,3 +199,52 @@ Order fields
    * - **Notes for Codio**
      - No
      - Any additional information about the order.
+
+Invite User
+-----------
+
+You can invite other people to your bookstore account, for example, colleagues who help place orders. Only existing members can add people to the account. Like all members, invited users sign in with magic links.
+
+Inviting a user
+~~~~~~~~~~~~~~~
+
+1. Sign in to the portal. Click your name in the top-right corner and select **Team**. The **Team** page lists the current **Members** of your bookstore account.
+
+   .. image:: /img/bookstore/bookstore_user_menu.png
+       :width: 30%
+       :align: center
+       :alt: User menu with the Team option.
+
+2. Click **Invite User**.
+
+3. In the **Invite user** dialog, enter the **Name** and **Email** of the person you want to invite. Both fields are required.
+
+   .. image:: /img/bookstore/bookstore_invite_user.png
+       :width: 70%
+       :align: center
+       :alt: Invite user dialog with the Name and Email fields.
+
+4. Click **Send Invitation**. A message confirms that the invitation was sent, and the person appears under **Pending invitations**.
+
+   .. image:: /img/bookstore/bookstore_team_pending.png
+       :width: 90%
+       :align: center
+       :alt: Team page with the invited person listed under Pending invitations.
+
+Accepting an invitation
+~~~~~~~~~~~~~~~~~~~~~~~
+
+If someone invites you to a bookstore account, you must accept the invitation before you can access the account.
+
+1. Open the invitation email from Codio and click the link in it.
+
+2. On the **You're invited** page, click **Accept Invitation**.
+
+   .. image:: /img/bookstore/bookstore_invite_accept.png
+       :width: 80%
+       :align: center
+       :alt: You're invited page with the Accept Invitation button.
+
+3. The portal automatically emails you a magic link. Open the email and click the magic link to sign in.
+
+4. Once signed in, you can create new orders and invite new users.
