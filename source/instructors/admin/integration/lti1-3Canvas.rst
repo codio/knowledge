@@ -3,6 +3,7 @@
 
 .. _lti1-3Canvas:
 
+
 LTI 1.3 for Canvas
 ==================
 
@@ -19,219 +20,234 @@ The Canvas user who carries out these steps must be a system administrator.
 .. important::
    When copying links, please use the copy button adjacent to each link to ensure accuracy and prevent linking errors.
 
+There are two ways to create the Developer Key. Choose **one** and follow its steps from start to finish:
 
-**In Codio:**
 
-1. Click your username in the top-right corner, then select **Organization** from the menu. In the Organizations area, click the name of your organization.
 
-2. Select the **LTI Integrations** tab.
+.. tab-set::
 
-3. Scroll down to the **LTI Integration 1.3** section; you should see the following fields. Keep this page open.
+   .. tab-item:: Option 1: JSON configuration URL
 
+      :bdg-success:`Recommended` Canvas configures most settings automatically from a JSON URL.
 
-**In Canvas:**
+      **In Codio:**
 
-|image1|
+      #. Click your username in the top-right corner, then select **Organization** from the menu. In the Organizations area, click the name of your organization.
 
+      #. Select the **LTI Integrations** tab.
 
-4. Select **Admin -> Developer Keys**
+      #. Scroll down to the **LTI Integration 1.3** section. Keep this page open; you will copy values from it.
 
-5. Click on **Developer Key** and select **+LTI key**.
+      **In Canvas:**
 
-(Step 6, Option 1) Using JSON configuration Url
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      4. Select **Admin -> Developer Keys**.
 
-You can use a JSON configuration URL to automatically configure most Canvas settings:
+         |image1|
 
-.. image:: /img/lti-json-url.png
-    :alt: Canvas configuration for JSON configuration Url
-    :width: 80%
+      #. Click on **Developer Key** and select **+LTI key**.
 
-You only need to configure:
+      #. Set the **Method** to **Enter URL**.
 
-.. list-table::
-   :header-rows: 1
-   :widths: 30 70
+         .. image:: /img/lti-json-url.png
+            :alt: Canvas configuration for JSON configuration Url
+            :width: 80%
 
-   * - **Value**
-     - **What to add**
-   * - **Key Name:**
-     - A name for the Tool, i.e.: "Codio"
-   * - **Owner Email:**
-     - An email, you can use your own email.
-   * - **Redirect URIs:**
-     - Paste the Redirect URL from your Codio integration
-   * - Set the Method as **Enter URL**
-     - 
-   * - **JSON URL**
-     - Paste the URL from **Canvas JSON configuration Url**
+      #. Complete the following fields:
 
-- Click **Save** in bottom-right corner
+         .. list-table::
+            :header-rows: 1
+            :widths: 30 70
 
-- You will be back at the list of developer keys.
+            * - **Field**
+              - **What to add**
+            * - **Key Name**
+              - A name for the tool, for example: "Codio"
+            * - **Owner Email**
+              - An email address; you can use your own.
+            * - **Redirect URIs**
+              - Copy and paste this URL:
 
-|image5|
+                .. tab-set::
 
-- Update **State** to: on
+                   .. tab-item:: Redirect URI
 
-- Copy the number in the **Details** column (for use in Parts 2 and 3)
+                      .. code-block:: text
+                         :class: no-header
 
-.. note::
-   If you use the JSON configuration URL method, skip to **Part 2**. To manually configure everything, continue with the steps below.
+                         https://apollo.codio.com/lti/oidc_redirect
 
-(Step 6, Option 2) Completing Canvas Steps Manually
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            * - **JSON URL**
+              - Paste the URL from **Canvas JSON configuration Url** in Codio.
 
-Complete the **Key Name, Title** and **Description** fields. Make sure to set the **method** to **Manual Entry**.
+      #. Click **Save** in the bottom-right corner. You will be back at the list of developer keys.
 
-|image2|
+         |image5|
 
-.. list-table::
-   :header-rows: 1
-   :widths: 5 50 50
+      #. Update **State** to: **On**.
 
-   * - 
-     - **Copy**
-     - **Paste**
-   * - 7
-     - From Codio, under **LTI 1.3 Integration, copy the Redirect URL**
-     - Paste it into the **Canvas Redirect URI** field.
-   * - 8
-     - Copy the **LTI URL**
-     - Paste it into the **Target Link URI** field in Canvas.
-   * - 9
-     - Copy the **Initiate Login URL**
-     - Paste it into the **OpenID Connect Initiation URL**.
-   * - 10
-     - In Canvas, change **JWK Method** to **Public JWK URL**.
-     - 
-   * - 11
-     - From Codio, copy the **Keyset URL**
-     - Paste it into the **Public JWK URL** field.
+      #. Copy the number in the **Details** column. This is your **Client ID**, which you will use in Parts 2 and 3.
 
+      When you're done, continue to **Part 2**.
 
-|image3|
-
-12. Expand the **LTI Advantage Services** section and enable the desired fields. Ensure all gradebook-related services are enabled for grades to pass back to Canvas.
-
-13. Expand the **Additional Settings** section.
-
-14. Type "codio.com" in both the **Domain** and **Tool Id** fields.
-
-15. Select the **Privacy level** as **Public**.
-
-16. Scroll down to the **Placements** field. You can add a placement by starting to type the name and then selecting it when it appears. Placements that should be included (remove any others): Link Selection, Editor Button, Assignment Selection and Course Navigation.
-
-|image4|
-
-17. Expand each field below and copy the static links provided. Each section has two steps—use the image as a reference guide to help you along the way.
-
-
-Link Selection and Assignment Selection
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. image:: /img/canvaslinkassignmentselect.png
-    :alt: Canvas Link Selection placement
-    :width: 750px 
-
-    
-.. tabs::
-
-   .. code-tab:: text
-      :caption: Target Link URI
-
-      https://apollo.codio.com/lti/resource_selection
-
-.. tabs::
-
-   .. code-tab:: text
-      :caption: Icon URL
-
-      https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
-
-
-Editor Button
-~~~~~~~~~~~~~
-
-.. image:: /img/canvascourseeditortselect.png
-    :alt: Canvas Editor Button placement
-    :width: 750px 
-
-
-.. tabs::
-
-   .. code-tab:: text
-      :caption: Target Link URI
-
-      https://apollo.codio.com/lti/editor_button
-
-.. tabs::
-
-   .. code-tab:: text
-      :caption: Icon URL
-
-      https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
-
-
-Course Navigation
-~~~~~~~~~~~~~~~~~
-
-
-.. image:: /img/canvascoursecoursetselect.png
-    :alt: Canvas Course Navigation placement
-    :width: 750px 
-
-
-.. tabs::
-
-   .. code-tab:: text
-      :caption: Target Link URI
-
-      https://apollo.codio.com/lti/course_navigation
-
-.. tabs::
-
-   .. code-tab:: text
-      :caption: Icon URL
-
-      https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
-
-
-
-
-18. Click **Save** in bottom-right corner
-
-19. You will be back at the list of developer keys.
-
-|image5|
-
-20. Update **State** to: on
-
-21. Copy the number in the **Details** column (for use in Parts 2 and 3)
-
-
- .. |image1| image:: /img/lti/canvasdeveloperkey.png
-    :alt: Canvas Developer Keys page
-    :width: 750px
-
- .. |image2| image:: /img/developerkeyvaluessample1.png
-    :alt: Canvas LTI key configuration fields
-    :width: 500px    
-
- .. |image3| image:: /img/canvasadvantagesample.png
-    :alt: LTI Advantage Services toggles in Canvas
-    :width: 750px   
-
- .. |image4| image:: /img/canvasplacementssample.png
-    :alt: Canvas placements configuration
-    :width: 500px 
-
- .. |image5| image:: /img/lti/canvasdetails.png
-    :alt: Canvas Developer Key list with details
-    :width: 1500px 
-
-
+   .. tab-item:: Option 2: Manual configuration
       
+      :bdg-info:`Full control` Set each value in Canvas yourself.
+
+      **In Codio:**
+
+      #. Click your username in the top-right corner, then select **Organization** from the menu. In the Organizations area, click the name of your organization.
+
+      #. Select the **LTI Integrations** tab.
+
+      #. Scroll down to the **LTI Integration 1.3** section. Keep this page open; you will copy values from it.
+
+      **In Canvas:**
+
+      4. Select **Admin -> Developer Keys**.
+
+         |image1|
+
+      #. Click on **Developer Key** and select **+LTI key**.
+
+      #. Complete the **Key Name**, **Title** and **Description** fields. Make sure to set the **Method** to **Manual Entry**.
+
+         |image2|
+
+      #. Copy each value from the Codio **LTI 1.3 Integration** section and paste it into the matching Canvas field:
+
+         .. list-table::
+            :header-rows: 1
+            :widths: 50 50
+
+            * - **Copy from Codio**
+              - **Paste into Canvas**
+            * - **Redirect URL**
+              - **Redirect URIs**
+            * - **LTI URL**
+              - **Target Link URI**
+            * - **Initiate Login URL**
+              - **OpenID Connect Initiation URL**
+
+      #. In Canvas, change **JWK Method** to **Public JWK URL**.
+
+      #. From Codio, copy the **Keyset URL** and paste it into the **Public JWK URL** field.
+
+         |image3|
+
+      #. Expand the **LTI Advantage Services** section and enable the desired fields. Ensure all gradebook-related services are enabled for grades to pass back to Canvas.
+
+      #. Expand the **Additional Settings** section.
+
+      #. Type "codio.com" in both the **Domain** and **Tool Id** fields.
+
+      #. Select the **Privacy level** as **Public**.
+
+      #. Scroll down to the **Placements** field. You can add a placement by starting to type the name and then selecting it when it appears. Placements that should be included (remove any others): Link Selection, Editor Button, Assignment Selection and Course Navigation.
+
+         |image4|
+
+      #. Expand each placement and copy in the static links below. Each placement needs a **Target Link URI** and an **Icon URL**; use the images as a reference guide.
+
+         **Link Selection and Assignment Selection**
+
+         .. image:: /img/canvaslinkassignmentselect.png
+            :alt: Canvas Link Selection placement
+            :width: 750px
+
+         .. tab-set::
+
+            .. tab-item:: Target Link URI
+
+               .. code-block:: text
+                  :class: no-header
+
+                  https://apollo.codio.com/lti/resource_selection
+
+         .. tab-set::
+
+            .. tab-item:: Icon URL
+
+               .. code-block:: text
+                  :class: no-header
+
+                  https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
+
+         **Editor Button**
+
+         .. image:: /img/canvascourseeditortselect.png
+            :alt: Canvas Editor Button placement
+            :width: 750px
+
+         .. tab-set::
+
+            .. tab-item:: Target Link URI
+
+               .. code-block:: text
+                  :class: no-header
+
+                  https://apollo.codio.com/lti/editor_button
+
+         .. tab-set::
+
+            .. tab-item:: Icon URL
+
+               .. code-block:: text
+                  :class: no-header
+
+                  https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
+
+         **Course Navigation**
+
+         .. image:: /img/canvascoursecoursetselect.png
+            :alt: Canvas Course Navigation placement
+            :width: 750px
+
+         .. tab-set::
+
+            .. tab-item:: Target Link URI
+
+               .. code-block:: text
+                  :class: no-header
+
+                  https://apollo.codio.com/lti/course_navigation
+
+         .. tab-set::
+
+            .. tab-item:: Icon URL
+
+               .. code-block:: text
+                  :class: no-header
+
+                  https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
+
+      #. Click **Save** in the bottom-right corner. You will be back at the list of developer keys.
+
+         |image5|
+
+      #. Update **State** to: **On**.
+
+      #. Copy the number in the **Details** column. This is your **Client ID**, which you will use in Parts 2 and 3. When you're done, continue to **Part 2**.
+
+
+.. |image1| image:: /img/lti/canvasdeveloperkey.png
+   :alt: Canvas Developer Keys page
+   :width: 750px
+
+.. |image2| image:: /img/developerkeyvaluessample1.png
+   :alt: Canvas LTI key configuration fields
+   :width: 500px
+
+.. |image3| image:: /img/canvasadvantagesample.png
+   :alt: LTI Advantage Services toggles in Canvas
+   :width: 750px
+
+.. |image4| image:: /img/canvasplacementssample.png
+   :alt: Canvas placements configuration
+   :width: 500px
+
+.. |image5| image:: /img/lti/canvasdetails.png
+   :alt: Canvas Developer Key list with details
+   :width: 1500px
 
 
 Part 2: Create an application in your course in Canvas
@@ -240,21 +256,18 @@ Part 2: Create an application in your course in Canvas
 In Canvas:
 ~~~~~~~~~~
 
-
 1. Select an existing course or create a new course. **Optional**: create a test course called Codio Test Course before you do it with a production course.
 
-2. In your course, go to **Settings → Apps → + App**
+2. In your course, go to **Settings → Apps → + App**.
 
-.. image:: /img/addlti13app.png
-   :width: 450px
+   .. image:: /img/addlti13app.png
+      :width: 450px
 
-3. In Configuration Type, select: **By Client ID**
+3. In Configuration Type, select: **By Client ID**.
 
-4. Paste the number you copied in Part 1 into **Client ID** field
+4. Paste the Client ID you copied in Part 1 into the **Client ID** field.
 
-5. **Submit → Install**
-
-
+5. **Submit → Install**.
 
 
 Part 3: Create an LTI configuration in Codio
@@ -276,69 +289,73 @@ Updating the fields in Platform Information
 .. note::
    Replace [CANVAS DOMAIN] with your institution's domain in steps 5–7. Remove the brackets. Example: https://yourinstitution.instructure.com/api/lti/security/jwks
 
-
 .. image:: /img/canvasplatform25.png
    :width: 500px
 
-
 2. **Platform ID:**
 
-.. tabs::
+   .. tab-set::
 
-   .. code-tab:: text
-      :caption: Platform ID
+      .. tab-item:: Platform ID
 
-      https://canvas.instructure.com
+         .. code-block:: text
+            :class: no-header
 
+            https://canvas.instructure.com
 
+3. **Client ID:** copied from Developer Keys at the end of Part 1.
 
-  
+4. **Deployment ID:** leave blank.
 
-3. **Client ID:** copied from Developer Keys at end of Part 1
-
-4. **Deployment ID:** leave blank
-
-.. note::
-    Leave the Deployment ID empty if you plan to deploy the LTI tool at the course level.
+   .. note::
+      Leave the Deployment ID empty if you plan to deploy the LTI tool at the course level.
 
 5. **Public Keyset URL:**
-   
-.. tabs::
 
-   .. code-tab:: text
-      :caption: Public Keyset URL
+   .. tab-set::
 
-      https://[CANVAS DOMAIN]/api/lti/security/jwks
+      .. tab-item:: Public Keyset URL
+
+         .. code-block:: text
+            :class: no-header
+
+            https://[CANVAS DOMAIN]/api/lti/security/jwks
 
 6. **Access Token URL:**
-   
-.. tabs::
 
-   .. code-tab:: text
-      :caption: Access Token URL
-   
-      https://[CANVAS DOMAIN]/login/oauth2/token
+   .. tab-set::
+
+      .. tab-item:: Access Token URL
+
+         .. code-block:: text
+            :class: no-header
+
+            https://[CANVAS DOMAIN]/login/oauth2/token
 
 7. **Authentication Request URL:**
-   
-.. tabs::
 
-   .. code-tab:: text
-      :caption: Authentication Request URL
+   .. tab-set::
 
-      https://[CANVAS DOMAIN]/api/lti/authorize_redirect
+      .. tab-item:: Authentication Request URL
 
-8. Click **Create**
+         .. code-block:: text
+            :class: no-header
+
+            https://[CANVAS DOMAIN]/api/lti/authorize_redirect
+
+8. Click **Create**.
+
 
 Part 4: Adding a resource
 -------------------------
+
 In Canvas:
 ~~~~~~~~~~
 
 1. Go to **Assignments** in your course, then click **Assignment**.
 
-.. image:: /img/createassignment.png
-   :width: 500px
+   .. image:: /img/createassignment.png
+      :width: 500px
 
 2. Give your assignment a name.
 
@@ -346,18 +363,17 @@ In Canvas:
 
 4. Under **Submission Type**, select **External Tool**.
 
-5. Select Find.
+5. Select **Find**.
 
-.. note::
-   Do not paste the LTI Integration URL directly into the Canvas External Tool URL field when creating an assignment. Instead, use the deep link "Find" flow (recommended) or follow the "Connect by LTI Integration URL" method described below.
+   .. note::
+      Do not paste the LTI Integration URL directly into the Canvas External Tool URL field when creating an assignment. Instead, use the deep link "Find" flow (recommended) or follow the "Connect by LTI Integration URL" method described below.
 
 6. Select the tool created in Part 1.
 
    - Choose the Course and Assignment to connect to
-   - Recommended: Select Load in a new tab
+   - Recommended: Select **Load in a new tab**
 
-7. Select **Save** at bottom of the page.
-
+7. Select **Save** at the bottom of the page.
 
 .. note::
    These settings are not final and can be edited in Canvas at a later time.
@@ -368,19 +384,14 @@ Part 5: Customizing Iframe Width/Height
 
 You can customize the width and height of the Codio window embedded in Canvas. The default width is 1000 pixels and height is 800 pixels; change those values if needed and press **Save Changes**.
 
-  .. image:: /img/lti/iframe-width-height.png
-     :alt: Iframe Width and Height settings
+.. image:: /img/lti/iframe-width-height.png
+   :alt: Iframe Width and Height settings
 
 
 Important Notes on Course Copy in Canvas:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - In Canvas, once you copy the course, you must enter a unique SIS ID in Course Settings.
-    - An SIS ID that is different from the Blueprint Course (Canvas’ Parent Course) is required for Codio to spawn a corresponding child course.
-    - An SIS ID is optional for the Blueprint Course.
 
-
-
-
-
-
+  - An SIS ID that is different from the Blueprint Course (Canvas' Parent Course) is required for Codio to spawn a corresponding child course.
+  - An SIS ID is optional for the Blueprint Course.
