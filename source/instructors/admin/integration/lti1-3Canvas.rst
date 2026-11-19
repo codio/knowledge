@@ -67,14 +67,10 @@ There are two ways to create the Developer Key. Choose **one** and follow its st
             * - **Redirect URIs**
               - Copy and paste this URL:
 
-                .. tab-set::
+                .. code-block:: text
+                   :class: no-header
 
-                   .. tab-item:: Redirect URI
-
-                      .. code-block:: text
-                         :class: no-header
-
-                         https://apollo.codio.com/lti/oidc_redirect
+                   https://apollo.codio.com/lti/oidc_redirect
 
             * - **JSON URL**
               - Paste the URL from **Canvas JSON configuration Url** in Codio.
@@ -90,7 +86,7 @@ There are two ways to create the Developer Key. Choose **one** and follow its st
       When you're done, continue to **Part 2**.
 
    .. tab-item:: Option 2: Manual configuration
-      
+
       :bdg-info:`Full control` Set each value in Canvas yourself.
 
       **In Codio:**
@@ -154,23 +150,19 @@ There are two ways to create the Developer Key. Choose **one** and follow its st
             :alt: Canvas Link Selection placement
             :width: 750px
 
-         .. tab-set::
+         Target Link URI:
 
-            .. tab-item:: Target Link URI
+         .. code-block:: text
+            :class: no-header
 
-               .. code-block:: text
-                  :class: no-header
+            https://apollo.codio.com/lti/resource_selection
 
-                  https://apollo.codio.com/lti/resource_selection
+         Icon URL:
 
-         .. tab-set::
+         .. code-block:: text
+            :class: no-header
 
-            .. tab-item:: Icon URL
-
-               .. code-block:: text
-                  :class: no-header
-
-                  https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
+            https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
 
          **Editor Button**
 
@@ -178,23 +170,19 @@ There are two ways to create the Developer Key. Choose **one** and follow its st
             :alt: Canvas Editor Button placement
             :width: 750px
 
-         .. tab-set::
+         Target Link URI:
 
-            .. tab-item:: Target Link URI
+         .. code-block:: text
+            :class: no-header
 
-               .. code-block:: text
-                  :class: no-header
+            https://apollo.codio.com/lti/editor_button
 
-                  https://apollo.codio.com/lti/editor_button
+         Icon URL:
 
-         .. tab-set::
+         .. code-block:: text
+            :class: no-header
 
-            .. tab-item:: Icon URL
-
-               .. code-block:: text
-                  :class: no-header
-
-                  https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
+            https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
 
          **Course Navigation**
 
@@ -202,23 +190,19 @@ There are two ways to create the Developer Key. Choose **one** and follow its st
             :alt: Canvas Course Navigation placement
             :width: 750px
 
-         .. tab-set::
+         Target Link URI:
 
-            .. tab-item:: Target Link URI
+         .. code-block:: text
+            :class: no-header
 
-               .. code-block:: text
-                  :class: no-header
+            https://apollo.codio.com/lti/course_navigation
 
-                  https://apollo.codio.com/lti/course_navigation
+         Icon URL:
 
-         .. tab-set::
+         .. code-block:: text
+            :class: no-header
 
-            .. tab-item:: Icon URL
-
-               .. code-block:: text
-                  :class: no-header
-
-                  https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
+            https://static-assets.codio.com/dashboard/images/icons/favicon-16x16.da14ae918fd9bc3b.png
 
       #. Click **Save** in the bottom-right corner. You will be back at the list of developer keys.
 
@@ -294,14 +278,10 @@ Updating the fields in Platform Information
 
 2. **Platform ID:**
 
-   .. tab-set::
+   .. code-block:: text
+      :class: no-header
 
-      .. tab-item:: Platform ID
-
-         .. code-block:: text
-            :class: no-header
-
-            https://canvas.instructure.com
+      https://canvas.instructure.com
 
 3. **Client ID:** copied from Developer Keys at the end of Part 1.
 
@@ -312,36 +292,24 @@ Updating the fields in Platform Information
 
 5. **Public Keyset URL:**
 
-   .. tab-set::
+   .. code-block:: text
+      :class: no-header
 
-      .. tab-item:: Public Keyset URL
-
-         .. code-block:: text
-            :class: no-header
-
-            https://[CANVAS DOMAIN]/api/lti/security/jwks
+      https://[CANVAS DOMAIN]/api/lti/security/jwks
 
 6. **Access Token URL:**
 
-   .. tab-set::
+   .. code-block:: text
+      :class: no-header
 
-      .. tab-item:: Access Token URL
-
-         .. code-block:: text
-            :class: no-header
-
-            https://[CANVAS DOMAIN]/login/oauth2/token
+      https://[CANVAS DOMAIN]/login/oauth2/token
 
 7. **Authentication Request URL:**
 
-   .. tab-set::
+   .. code-block:: text
+      :class: no-header
 
-      .. tab-item:: Authentication Request URL
-
-         .. code-block:: text
-            :class: no-header
-
-            https://[CANVAS DOMAIN]/api/lti/authorize_redirect
+      https://[CANVAS DOMAIN]/api/lti/authorize_redirect
 
 8. Click **Create**.
 
