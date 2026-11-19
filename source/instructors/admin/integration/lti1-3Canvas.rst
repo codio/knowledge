@@ -366,7 +366,7 @@ In Canvas:
 5. Select **Find**.
 
    .. note::
-      Do not paste the LTI Integration URL directly into the Canvas External Tool URL field when creating an assignment. Instead, use the deep link "Find" flow (recommended) or follow the "Connect by LTI Integration URL" method described below.
+      Do not paste the LTI Integration URL directly into the Canvas External Tool URL field when creating an assignment. Instead, use the deep link "Find" flow (recommended).
 
 6. Select the tool created in Part 1.
 
